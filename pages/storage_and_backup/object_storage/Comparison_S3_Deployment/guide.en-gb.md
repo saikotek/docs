@@ -16,7 +16,7 @@ OVHcloud offers several deployment modes for its S3 Object Storage service, each
 ## Instructions
 
 > **Note:**  
-> The following information pertains to the different deployment modes available in OVHcloud’s S3 Object Storage service. Select the mode that best suits your needs based on resilience, availability, and performance.
+> The following information pertains to the different deployment modes available in OVHcloud’s S3 Object Storage service. Select the mode that best suits your needs based on resilience, availability, and performance. You can identify which deployment mode is available for a given region on the [Object Storage - Endpoints and geoavailability document.](https://help.ovhcloud.com/csm/en-gb-public-cloud-storage-s3-location?id=kb_article_view&sysparm_article=KB0047382)
 
 ### 1. Introduction to Deployment Modes
 
@@ -26,7 +26,7 @@ OVHcloud provides flexible S3 Object Storage deployment modes to meet different 
 
 #### Infrastructure and Redundancy
 
-A 1-AZ Region consists of a single availability zone covering multiple data centers within the same region, utilizing a 2N+1 redundancy design. This setup offers resilience against server rack and drive failures but may be vulnerable to a complete data center outage. Note that in a 1-AZ region, the S3 service is located in a specific data center, and if an outage occurs in the specific data center hosting the S3 service, access to data could be impacted, even if other data centers in the zone remain operational.
+A 1-AZ Region consists of a **single availability zone covering multiple data centers within the same region**, utilizing a 2N+1 redundancy design. This setup offers resilience against server rack and drive failures but may be vulnerable to a complete data center outage. Note that in a 1-AZ region, the S3 service is located in a specific data center, and if an outage occurs in the specific data center hosting the S3 service, access to data could be impacted, even if other data centers in the zone remain operational.
 
 #### Characteristics:
 
@@ -38,7 +38,7 @@ A 1-AZ Region consists of a single availability zone covering multiple data cent
 - **Outage Risk:** In the event of a data center outage, data may become unavailable or potentially lost if the specific data center hosting the S3 service is impacted. However, protection against server rack and drive failures is maintained.
 
 **Note:**  
-To enhance resilience for critical applications in a 1-AZ Region, asynchronous replication can be employed, providing additional protection without compromising cost-effectiveness. This can help reinforce both application and data resiliency.
+To enhance resilience for critical applications in a 1-AZ Region, [asynchronous replication](https://help.ovhcloud.com/csm/en-gb-public-cloud-storage-s3-asynchronous-replication-buckets?id=kb_article_view&sysparm_article=KB0062422) can be employed, providing additional protection without compromising cost-effectiveness. This can help reinforce both application and data resiliency. An other option to mitigate this risk, we recommand using a [**3-AZ deployment mode**](#3-3-az-region).
 
 #### Redundancy Specifications for 1-AZ:
 
@@ -52,18 +52,18 @@ To enhance resilience for critical applications in a 1-AZ Region, asynchronous r
 
 #### Physical Structure and Network
 
-3-AZ Regions consist of three independent availability zones, each isolated in terms of power, cooling, and network systems, providing true fault isolation. This architecture ensures data availability even if an entire availability zone experiences an outage.
+3-AZ Regions consist of **three independent availability zones**, each isolated in terms of power, cooling, and network systems, providing true fault isolation. This architecture ensures **data availability** even if an entire availability zone experiences an outage.
 
 #### Security and High Availability
 
-- **High Availability:** Data remains available for both read and write operations, even in the event of a zone failure. This configuration is ideal for high-availability and fault-tolerant applications.
+- **High Availability:** Data remains available for both read and write operations, even in the event of a zone failure. In this configuration, **data remains available for R/W operations**. This configuration is ideal for high-availability and fault-tolerant applications. 
 
 #### Ideal Use Cases
 
-3-AZ Regions are perfect for mission-critical and availability-sensitive applications that require continuous data availability, such as e-commerce platforms, financial services, and live-streaming applications.
+3-AZ Regions are perfect for mission-critical and availability-sensitive applications where data governance requires continuous data availability, such as e-commerce platforms, financial services, and live-streaming applications.
 
 **Note:**  
-While this setup offers robust protection, it may not be fully resilient to an unlikely regional outage. Additional protection, such as multi-region asynchronous replication, can be considered to further enhance data availability and resilience.
+While this setup offers robust protection, it may not be fully resilient to an unlikely regional outage. Additional protection, such as [multi-region asynchronous replication](https://help.ovhcloud.com/csm/en-gb-public-cloud-storage-s3-asynchronous-replication-buckets?id=kb_article_view&sysparm_article=KB0062422), can be considered to further enhance data availability and resilience.
 
 #### Performance Specifications for 3-AZ:
 
