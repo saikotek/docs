@@ -19,7 +19,7 @@ Mit dieser Exchange-Funktion können Sie für verschiedene Anwendungsfälle auto
 
 > [!warning]
 >
-> Wenn Ihre E-Mail-Adresse mit einem **MX Plan** Angebot (bei den [Webhostings](/links/web/hosting) und den [Gratis-Hostings 100M](/links/web/domains-free-hosting) inklusive) verbunden ist, bietet Ihr Kundencenter einen Bereich mit dem Titel `Verwaltung der Beantworter`{.action}. In diesem Fall erstellen Sie eine automatische Antwort in Ihrem OVHcloud Kundencenter. Nutzen Sie dazu die Dokumentation [„MX Plan - Eine automatische Antwort an einer E-Mail-Adresse erstellen“](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
+> Wenn Ihre E-Mail-Adresse mit einem **MX Plan** (in [Webhosting](/links/web/hosting) und [Kostenloses Hosting 100M](/links/web/domains-free-hosting) inklusive) verbunden ist, enthält Ihr Kundencenter einen Bereich mit dem Titel `Verwaltung der Auto-Antworten`{.action}. In diesem Fall erstellen Sie automatische Antworten in Ihrem OVHcloud Kundencenter. Nutzen Sie dazu die Dokumentation [„MX Plan - Eine automatische Antwort für eine E-Mail-Adresse erstellen“](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
 
 ### Aktivierung der Funktion
 
@@ -27,11 +27,11 @@ Melden Sie sich über [OVHcloud Webmail](/links/web/email) bei Ihrem Exchange Ac
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-In dieser Oberfläche aktivieren Sie einfach die Funktion, indem Sie `Automatische Antworten senden`{.action} auswählen. Sie können einen genauen Zeitraum in den nachstehenden Feldern festlegen oder das Senden auf unbestimmte Zeit aktivieren. Ohne eine hier eingestellte Start- und Endzeit muss die Funktion manuell deaktiviert werden.
+In dieser Oberfläche aktivieren Sie einfach die Funktion, indem Sie `Automatische Antworten senden`{.action} auswählen. Sie können einen genauen Zeitraum in den nachstehenden Feldern festlegen oder das Senden auf unbestimmte Zeit aktivieren.
 
-> [!PRIMARY]
+> [!primary]
 >
-> Wenn Sie keine Start- und Endzeit angeben, muss die automatische Antwort manuell deaktiviert werden.
+> Wenn Sie keine Start- und Endzeit angeben, muss die Antwortfunktion manuell deaktiviert werden.
 
 Verfassen Sie Ihre Nachricht im Editorfeld und bestätigen Sie oben links mit der Schaltfläche `Speichern`{.action}.
 
