@@ -19,7 +19,7 @@ This Exchange feature allows you to set up automatic responses to emails sent to
 
 > [!warning]
 >
-> If your email address is linked to an **MX Plan** solution (included with [web hosting plans](/links/web/hosting) and [100M free hosting plans](/links/web/domains-free-hosting)), your Control Panel will contain a section called `Voicemail management`{.action}. You will then need to create an automatic response via the OVHcloud Control Panel. You can do this using the documentation ["MX Plan - Create an automatic response via an email address"](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
+> If your email address is linked to an **MX Plan** solution (included with [web hosting plans](/links/web/hosting) and [100M free hosting plans](/links/web/domains-free-hosting)), your Control Panel will contain a section called `Manage auto-replies`{.action}. You will then need to create an automatic response via the OVHcloud Control Panel. You can do this using the documentation ["MX Plan - Create an automatic response via an email address"](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
 
 ### Activating the feature
 
