@@ -88,6 +88,7 @@ Le contenu de la requête API de Bring Your Own Linux (BYOLinux) doit être simi
 {
   "operatingSystem": "byolinux_64",
   "customizations": {
+    "hostname": "mon-tux",
     "imageURL": "https://github.com/ashmonger/akution_test/releases/download/0.5-compress/deb11k6.qcow2",
     "imageCheckSum": "367f26c915f39314dde155db3a2b0326803e06975d1f4be04256f8b591e38fd4062d36eb7d50e99da7a50b7f4cd69640e56a4ab93e8e0274e4e478e0f84b5d29",
     "httpHeaders": {
@@ -133,6 +134,7 @@ Une fois les champs complétés, démarrez le déploiement en cliquant sur `Exec
 
 | Champ | Description | Obligatoire |
 |-|-|-|
+| customizations/hostname | Le hostname | ❌ |
 | customizations/sshKey | La clé publique SSH | ❌ |
 | customizations/imageURL | L'URL de votre image Linux | ✅ |
 | customizations/imageCheckSum | Checksum de votre image | ❌ |

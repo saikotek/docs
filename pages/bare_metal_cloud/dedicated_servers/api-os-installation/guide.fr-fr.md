@@ -88,6 +88,14 @@ Exemple de valeurs pour la clef `inputs`{.action} pour Debian 12 (Bookworm) :
 {
     "inputs": [
         {
+            "name": "hostname",
+            "description": "Custom hostname",
+            "default": "",
+            "mandatory": false,
+            "type": "hostname",
+            "enum": []
+        },
+        {
             "name": "sshKey",
             "description": "SSH Public Key",
             "default": "",
@@ -192,6 +200,7 @@ Ce payload permet d'installer Debian 12 (Bookworm) avec une clé SSH publique et
 {
   "operatingSystem": "debian12_64",
   "customizations": {
+    "hostname": "mon-tux",
     "sshKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQC9xPpdqP3sx2H+gcBm65tJEaUbuifQ1uGkgrWtNY0PRKNNPdy+3yoVOtxk6Vjo4YZ0EU/JhmQfnrK7X7Q5vhqYxmozi0LiTRt0BxgqHJ+4hWTWMIOgr+C2jLx7ZsCReRk+fy5AHr6h0PHQEuXVLXeUy/TDyuY2JPtUZ5jcqvLYgQ== my-nuclear-power-plant",
     "postInstallationScript": "IyEvYmluL2Jhc2gKZWNobyAiY291Y291IHBvc3RJbnN0YWxsYXRpb25TY3JpcHQiID4gL29wdC9jb3Vjb3UKY2F0IC9ldGMvbWFjaGluZS1pZCAgPj4gL29wdC9jb3Vjb3UKZGF0ZSAiKyVZLSVtLSVkICVIOiVNOiVTIiAtLXV0YyA+PiAvb3B0L2NvdWNvdQo="
   }
@@ -226,6 +235,7 @@ Ce payload permet d'installer Windows Server 2022 Standard (Core) en français a
 {
   "operatingSystem": "win2022core-std_64",
   "customizations": {
+    "hostname": "ma-fenetre",
     "language": "fr-fr",
     "postInstallationScript": "ImNvdWNvdSBwb3N0SW5zdGFsbGF0aW9uU2NyaXB0UG93ZXJTaGVsbCIgfCBPdXQtRmlsZSAtRmlsZVBhdGggImM6XG92aHVwZFxzY3JpcHRcY291Y291LnR4dCIKKEdldC1JdGVtUHJvcGVydHkgLUxpdGVyYWxQYXRoICJSZWdpc3RyeTo6SEtMTVxTT0ZUV0FSRVxNaWNyb3NvZnRcQ3J5cHRvZ3JhcGh5IiAtTmFtZSAiTWFjaGluZUd1aWQiKS5NYWNoaW5lR3VpZCB8IE91dC1GaWxlIC1GaWxlUGF0aCAiYzpcb3ZodXBkXHNjcmlwdFxjb3Vjb3UudHh0IiAtQXBwZW5kCihHZXQtRGF0ZSkuVG9Vbml2ZXJzYWxUaW1lKCkuVG9TdHJpbmcoInl5eXktTU0tZGQgSEg6bW06c3MiKSB8IE91dC1GaWxlIC1GaWxlUGF0aCAiYzpcb3ZodXBkXHNjcmlwdFxjb3Vjb3UudHh0IiAtQXBwZW5kCg=="
   }

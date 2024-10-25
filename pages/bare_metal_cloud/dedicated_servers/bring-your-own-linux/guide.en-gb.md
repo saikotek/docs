@@ -88,6 +88,7 @@ The Bring Your Own Linux (BYOLinux) payload should be similar to the following:
 {
   "operatingSystem": "byolinux_64",
   "customizations": {
+    "hostname": "mon-tux",
     "imageURL": "https://github.com/ashmonger/akution_test/releases/download/0.5-compress/deb11k6.qcow2",
     "imageCheckSum": "367f26c915f39314dde155db3a2b0326803e06975d1f4be04256f8b591e38fd4062d36eb7d50e99da7a50b7f4cd69640e56a4ab93e8e0274e4e478e0f84b5d29",
     "httpHeaders": {
@@ -133,6 +134,7 @@ Once you completed the fields, start the deployment by clicking `Execute`{.actio
 
 | Field | Description | Required |
 |-|-|-|
+| customizations/hostname | Hostname | ❌ |
 | customizations/sshKey | SSH public key | ❌ |
 | customizations/imageURL | Your Linux image URL | ✅ |
 | customizations/imageCheckSum | Your image's checksum | ❌ |
