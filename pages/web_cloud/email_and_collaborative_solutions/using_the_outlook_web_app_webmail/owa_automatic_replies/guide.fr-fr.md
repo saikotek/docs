@@ -32,7 +32,6 @@ Pour activer la fonctionnalité, il suffit de sélectionner `Envoyer des répons
 > [!primary]
 >
 > Si vous ne spécifiez pas d'heure de début et d'heure de fin, la réponse automatique devra être désactivée manuellement par vos soins.
->
 
 Saisissez votre message dans la boîte d'édition et confirmez avec le bouton `OK`{.action} situé en haut à gauche.
 

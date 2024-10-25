@@ -17,6 +17,10 @@ Questa funzionalità di Exchange consente di impostare risposte automatiche alle
 
 ## Procedura
 
+> [!warning]
+>
+> Se il tuo indirizzo email è associato a una soluzione **MX Plan** (inclusa con gli [hosting Web](/links/web/hosting) e gli [hosting gratuiti 100M](/links/web/domains-free-hosting), lo Spazio Cliente OVH propone una sezione intitolata `Gestione delle risposte automatiche`{.action}. In questo caso, è necessario creare una risposta automatica dallo Spazio Cliente OVHcloud consultando la documentazione ["MX Plan - Crea una risposta automatica su un indirizzo email"](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
+
 ### Attivare la funzione
 
 Accedi al tuo account Exchange tramite la [Webmail OVHcloud](/links/web/email).
@@ -24,7 +28,11 @@ Clicca sull’icona a forma di ingranaggio, in alto a destra, per aprire il menu
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-Per attivare la funzione in questa interfaccia è sufficiente selezionare `Invia risposte automatiche`{.action}. Puoi impostare un periodo di tempo determinato nei campi di seguito o abilitarlo in modo permanente. Se gli orari di inizio e di fine non sono specificati, dovrà essere disabilitato manualmente. 
+Per attivare la funzione in questa interfaccia è sufficiente selezionare `Invia risposte automatiche`{.action}. Puoi impostare un periodo di tempo determinato nei campi di seguito o abilitarlo in modo permanente. Se gli orari di inizio e di fine non sono specificati, dovrà essere disabilitato manualmente.
+
+> [!primary]
+>
+> Se non si specifica l'ora di inizio e di fine, la risposta automatica dovrà essere disattivata manualmente.
 
 Componi il messaggio nell’apposito campo e conferma con il pulsante `Salva`{.action} in alto a sinistra.
 

@@ -17,13 +17,21 @@ Ta funkcja programu Exchange umożliwia skonfigurowanie automatycznych odpowiedz
 
 ## W praktyce
 
+> [!warning]
+>
+> Jeśli Twój adres e-mail jest związany z ofertą **MX Plan** (zawarty w ofercie [hosting www](/links/web/hosting) i [hosting 100M za darmo](/links/web/domains-free-hosting)), w Panelu klienta znajduje się sekcja zatytułowana `Zarządzanie autoresponderami`{.action}. Utwórz automatyczną odpowiedź w Panelu klienta OVHcloud, korzystając z dokumentacji ["MX Plan - Tworzenie automatycznej odpowiedzi na adres e-mail"](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
+
 ### Włączanie funkcji
 
 Zaloguj się na konto Exchange przy użyciu interfejsu [OVHcloud webmail](/links/web/email). Kliknij ikonę koła zębatego w prawym górnym rogu, aby rozwinąć menu „Opcje”, i wybierz pozycję `Odpowiedzi automatyczne`{.action}.
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-W interfejsie po prostu włącz funkcję, zaznaczając opcję `Wysyłaj odpowiedzi automatyczne`{.action}. W poniższych polach możesz ustawić dokładny okres wysyłania odpowiedzi lub włączyć funkcję na czas nieokreślony. Jeśli nie określisz czasu rozpoczęcia i zakończenia, funkcję trzeba będzie wyłączyć ręcznie. 
+W interfejsie po prostu włącz funkcję, zaznaczając opcję `Wysyłaj odpowiedzi automatyczne`{.action}. W poniższych polach możesz ustawić dokładny okres wysyłania odpowiedzi lub włączyć funkcję na czas nieokreślony. Jeśli nie określisz czasu rozpoczęcia i zakończenia, funkcję trzeba będzie wyłączyć ręcznie.
+
+> [!primary]
+>
+> Jeśli nie określisz czasu rozpoczęcia i zakończenia, automatyczne odpowiedzi zostaną wyłączone przez Ciebie.
 
 Ułóż wiadomość w polu edytora i potwierdź, klikając przycisk `Zapisz`{.action} w lewym górnym rogu.
 
