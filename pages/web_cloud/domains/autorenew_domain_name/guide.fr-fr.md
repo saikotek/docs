@@ -141,7 +141,7 @@ Il vous suffit alors de choisir l'action `Régler ma facture`{.action} qui vous 
 > [!faq]
 >
 > J'ai oublié de renouveler mon nom de domaine à temps, que faire ?
->> Commencez par vérifier le statut du nom de domaine en utilisant l'outil [Whois d'un nom de domaine](https://www.ovhcloud.com/fr/domains/whois/).
+>> Commencez par vérifier le statut du nom de domaine en utilisant l'outil [Whois d'un nom de domaine](/links/web/domains-whois).
 >> S'il s'agit d'un nom de domaine générique (.com, .org, .net, etc.), celui-ci vous reste « réservé » pendant une période dite de « *grâce* » (environ 7 jours) puis pendant celle de « *rédemption* » (environ 35 à 40 jours supplémentaires). Ces délais sont variables et dépendent de l'extension et des règles du registre détenant l'extension. Pendant ces deux périodes, vous seul serez en mesure de renouveler le nom de domaine.
 >> Pendant la période de grâce, vous pourrez le renouveler via l'espace client, en suivant les étapes de ce guide.
 >> Pendant la période de rédemption, le domaine n'est plus géré par OVHcloud. Son renouvellement via votre espace client occasionnera des frais supplémentaires (frais de restauration, qui varient en fonction de l'extension. Voir les tarifs en cliquant sur l'extension concernée [ici](https://www.ovhcloud.com/fr/domains/tld/){.external}.).
