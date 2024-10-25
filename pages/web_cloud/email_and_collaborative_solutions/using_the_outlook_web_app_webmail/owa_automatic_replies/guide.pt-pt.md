@@ -1,7 +1,7 @@
 ---
 title: 'Criar respostas automáticas no OWA'
 excerpt: 'Saiba como configurar respostas automáticas no OWA'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Sumário

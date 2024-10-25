@@ -1,7 +1,7 @@
 ---
 title: 'Einrichten einer automatischen Antwort in OWA'
 excerpt: 'Erfahren Sie hier, wie Sie automatische Antworten in OWA erstellen'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Ziel

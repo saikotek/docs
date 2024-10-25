@@ -1,7 +1,7 @@
 ---
 title: 'Creating automatic replies in OWA'
 excerpt: 'Find out how to set up automatic replies in OWA'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Objective

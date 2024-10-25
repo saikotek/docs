@@ -1,7 +1,7 @@
 ---
 title: 'Tworzenie odpowiedzi automatycznych w interfejsie OWA'
 excerpt: 'Dowiedz się, jak skonfigurować odpowiedzi automatyczne w interfejsie OWA'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Wprowadzenie

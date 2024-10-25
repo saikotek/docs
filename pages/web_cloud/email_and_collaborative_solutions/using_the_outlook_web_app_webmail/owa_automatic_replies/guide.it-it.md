@@ -1,7 +1,7 @@
 ---
 title: 'Imposta risposte automatiche con OWA'
 excerpt: 'Scopri come impostare risposte automatiche con OWA'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Obiettivo
