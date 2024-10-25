@@ -120,7 +120,7 @@ Cette action est proposée pour les services paramétrés en **renouvellement au
 > La résiliation du nom de domaine prendra fin à l'expiration de celui-ci.
 >
 
-Pour plus d'informations sur la résiliation des services OVHcloud, suivez les instructions du guide « **[Comment résilier vos services OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)** ».
+Pour plus d'informations sur la résiliation des services OVHcloud, suivez les instructions du guide « **[Comment résilier vos services OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)** ».
 
 ### Accéder à la facture du renouvellement de mon nom de domaine
 
@@ -150,7 +150,6 @@ Il vous suffit alors de choisir l'action `Régler ma facture`{.action} qui vous 
 >> Suivez les instructions de notre guide « [Transférer un nom de domaine vers un autre bureau d'enregistrement](/pages/web_cloud/domains/transfer_outgoing_domain) ».
 > Je suis en renouvellement automatique et j’ai été prélevé automatiquement. Or, je ne souhaite pas conserver mon nom de domaine et je veux être remboursé.
 >> Il est possible d’être automatiquement remboursé jusqu’à 10 jours avant la date de renouvellement effective du nom de domaine. Pour cela, résiliez le nom de domaine.
-
 
 ## Aller plus loin
 
