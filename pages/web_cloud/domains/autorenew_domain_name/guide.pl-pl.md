@@ -1,7 +1,7 @@
 ---
 title: "Odnowienie domen OVHcloud"
 excerpt: "Dowiedz się, dlaczego i jak odnawiać domeny OVHcloud"
-Updated: 2024-11-12
+updated: 2024-11-12
 ---
 
 ## Wprowadzenie
