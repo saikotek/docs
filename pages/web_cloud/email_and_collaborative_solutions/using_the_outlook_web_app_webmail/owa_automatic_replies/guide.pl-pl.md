@@ -27,7 +27,7 @@ Zaloguj się na konto Exchange przy użyciu interfejsu [OVHcloud webmail](/links
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-W interfejsie po prostu włącz funkcję, zaznaczając opcję `Wysyłaj odpowiedzi automatyczne`{.action}. W poniższych polach możesz ustawić dokładny okres wysyłania odpowiedzi lub włączyć funkcję na czas nieokreślony. Jeśli nie określisz czasu rozpoczęcia i zakończenia, funkcję trzeba będzie wyłączyć ręcznie.
+W interfejsie po prostu włącz funkcję, zaznaczając opcję `Wysyłaj odpowiedzi automatyczne`{.action}. W poniższych polach możesz ustawić dokładny okres wysyłania odpowiedzi lub włączyć funkcję na czas nieokreślony.
 
 > [!primary]
 >
@@ -63,4 +63,8 @@ Alternatywną wiadomość dla nadawców zewnętrznych można wprowadzić w drugi
 
 [Exchange: współdzielenie kalendarza w interfejsie OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Dołącz do naszej społeczności użytkowników: <https://community.ovh.com/en/>.
+W przypadku wyspecjalizowanych usług (pozycjonowanie, rozwój, etc.) skontaktuj się z [partnerami OVHcloud](/links/partner).
+
+Jeśli chcesz otrzymywać wsparcie w zakresie konfiguracji i użytkowania Twoich rozwiązań OVHcloud, zapoznaj się z naszymi [ofertami pomocy](/links/support).
+
+Dołącz do [grona naszych użytkowników](/links/community).

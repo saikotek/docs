@@ -57,4 +57,8 @@ Un message alternatif pour les expéditeurs externes peut être saisi dans la de
 
 [Partager des calendriers via l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
+
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).

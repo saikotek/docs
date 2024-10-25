@@ -28,7 +28,7 @@ Clicca sull’icona a forma di ingranaggio, in alto a destra, per aprire il menu
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-Per attivare la funzione in questa interfaccia è sufficiente selezionare `Invia risposte automatiche`{.action}. Puoi impostare un periodo di tempo determinato nei campi di seguito o abilitarlo in modo permanente. Se gli orari di inizio e di fine non sono specificati, dovrà essere disabilitato manualmente.
+Per attivare la funzione in questa interfaccia è sufficiente selezionare `Invia risposte automatiche`{.action}. Puoi impostare un periodo di tempo determinato nei campi di seguito o abilitarlo in modo permanente.
 
 > [!primary]
 >
@@ -64,4 +64,8 @@ Nel secondo riquadro dell’editor è possibile digitare un messaggio alternativ
 
 [Condividere calendari in OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Partecipa alla nostra community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
+
+Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](/links/support).
+
+Contatta la nostra [Community di utenti](/links/community).
