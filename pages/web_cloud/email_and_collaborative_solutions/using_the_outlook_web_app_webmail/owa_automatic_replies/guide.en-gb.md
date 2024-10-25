@@ -27,7 +27,7 @@ Log in to your Exchange account via the [OVHcloud webmail](/links/web/email). Cl
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-In this interface, simply activate the feature by selecting `Send automatic replies`{.action}. You can set an exact time period in the fields below or enable it indefinitely. Without the start and end time specified, it will have to be manually disabled.
+In this interface, simply activate the feature by selecting `Send automatic replies`{.action}. You can set an exact time period in the fields below or enable it indefinitely.
 
 > [!primary]
 >
