@@ -21,7 +21,7 @@ Vous trouverez toutes les informations pour :
 ## Prérequis
 
 - Disposer d'un nom de domaine enregistré chez OVHcloud.
-- Être connecté à votre [espace client OVHcloud](/links/manager){.external}, partie `Web Cloud`{.action}.
+- Être connecté à votre [espace client OVHcloud](/links/manager), partie `Web Cloud`{.action}.
 - Être contact de facturation de vos services OVHcloud.
 
 ## En pratique
