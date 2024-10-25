@@ -1,6 +1,6 @@
 ---
 title: OVHcloud API and OS Installation
-excerpt: Use OVHcloud API to install or re-install an OS on your dedicated server
+excerpt: Use OVHcloud API to install or reinstall an OS on your dedicated server
 updated: 2024-10-22
 ---
 
@@ -164,9 +164,9 @@ Each question has the following attributes:
 
 ¹ If a mandatory question without default value is not answered, the API will return an error.
 
-### Create an OS installation task <a name="install-task"></a>
+### Create an OS reinstallation task <a name="install-task"></a>
 
-When you have gathered all the information that you need, you can create the OS installation task with the following API call:
+When you have gathered all the information that you need, you can create the OS reinstallation task with the following API call:
 
 > [!api]
 >
@@ -281,14 +281,14 @@ While running Windows post-installation script, the following files while remain
 }
 ```
 
-`123456789` is the OS installation task ID. You can follow the OS installation task status with the following API call:
+`123456789` is the OS reinstallation task ID. You can follow the OS reinstallation task status with the following API call:
 
 > [!api]
 >
 > @api {v1} /dedicated/server GET  /dedicated/server/{serviceName}/task/{taskId}
 >
 
-You can also monitor the progress of the installation process with the following API call which displays a detailed list of steps:
+You can also monitor the progress of the reinstallation process with the following API call which displays a detailed list of steps:
 
 > [!api]
 >
@@ -299,14 +299,14 @@ You can also monitor the progress of the installation process with the following
 
 A default efi bootloader path is set when installing from OVHcloud templates but you have the possibility to manage it.
 
-You can retrieve it with the following API call : 
+You can retrieve it with the following API call :
 
 > [!api]
 >
 > @api {v1} /dedicated/server GET  /dedicated/server/{serviceName}
 >
 
-You also can set it in the payload of the following API call : 
+You also can set it in the payload of the following API call :
 
 > [!api]
 >

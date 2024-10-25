@@ -6,7 +6,7 @@ updated: 2024-10-22
 
 ## Objectif
 
-Pour de nombreux cas d'usage, il peut s'avérer intéressant d'automatiser l'installation d'un système d'exploitation ou la réinstallation d'un système d'exploitation de vos [serveurs dédiés](/links/bare-metal/bare-metal) à l'aide de l'[API OVHcloud](https://api.ovh.com/).
+Pour de nombreux cas d'usage, il peut s'avérer intéressant d'automatiser l'installation ou la réinstallation d'un système d'exploitation de vos [serveurs dédiés](/links/bare-metal/bare-metal) à l'aide de l'[API OVHcloud](https://api.ovh.com/).
 
 ## Prérequis
 
@@ -159,9 +159,9 @@ Chaque question a les attributs suivants :
 
 ¹ Si une question obligatoire ne possédant pas de valeur par défaut est laissée sans réponse, alors l'API retournera une erreur.
 
-### Lancer et suivre la demande d'installation <a name="install-task"></a>
+### Lancer et suivre la demande de réinstallation <a name="install-task"></a>
 
-Lorsque vous avez rassemblé toutes les informations nécessaires, vous pouvez lancer l'installation de l'OS, en utilisant l'appel suivant :
+Lorsque vous avez rassemblé toutes les informations nécessaires, vous pouvez lancer la réinstallation de l'OS, en utilisant l'appel suivant :
 
 > [!api]
 >
@@ -276,14 +276,14 @@ Lors de l'exécution du script de post-installation Windows, les fichiers suivan
 }
 ```
 
-`123456789` correspond à l'identifiant de la tâche d'installation de l'OS. Vous pouvez suivre l'état d'avancement global de la tâche à l'aide de l'appel suivant :
+`123456789` correspond à l'identifiant de la tâche de la réinstallation de l'OS. Vous pouvez suivre l'état d'avancement global de la tâche à l'aide de l'appel suivant :
 
 > [!api]
 >
 > @api {v1} /dedicated/server GET  /dedicated/server/{serviceName}/task/{taskId}
 >
 
-Sinon vous pouvez aussi avoir un état détaillé de chaque étape de l'installation avec l'appel suivant :
+Sinon vous pouvez aussi avoir un état détaillé de chaque étape de la réinstallation avec l'appel suivant :
 
 > [!api]
 >
@@ -294,7 +294,7 @@ Sinon vous pouvez aussi avoir un état détaillé de chaque étape de l'installa
 
 Une valeur de bootloader efi est mise par défaut lorsque vous installez à partir d'un template OVHcloud, mais vous avez la possibilité de la modifier.
 
-Vous pouvez récupérer le chemin par défaut à l'aide de cet appel : 
+Vous pouvez récupérer le chemin par défaut à l'aide de cet appel :
 
 > [!api]
 >

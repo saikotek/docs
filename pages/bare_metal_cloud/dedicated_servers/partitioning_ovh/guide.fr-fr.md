@@ -1,6 +1,6 @@
 ---
 title: API OVHcloud et Stockage
-excerpt: Découvrez comment l'API OVHcloud vous permet de personnaliser la configuration des disques, RAID matériels/logiciels et du partitionnement lors de l'installation de l'OS sur votre serveur
+excerpt: Découvrez comment l'API OVHcloud vous permet de personnaliser la configuration des disques, RAID matériels/logiciels et du partitionnement lors de la réinstallation de l'OS sur votre serveur
 updated: 2024-10-22
 ---
 
@@ -11,7 +11,7 @@ updated: 2024-10-22
 > Cet article est destiné aux utilisateurs expérimentés qui ont au minimum des connaissances de base sur Linux, mais surtout des connaissances plus approfondies sur le stockage et en particulier sur les RAID logiciels, RAID matériels ainsi que sur la gestion logique des volumes (LVM).
 >
 
-Les [serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud vous permettent de configurer les disques, le [RAID matériel](/pages/bare_metal_cloud/dedicated_servers/raid_hard), le [RAID logiciel](/pages/bare_metal_cloud/dedicated_servers/raid_soft), LVM, ZFS, etc. pendant [l’installation](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server) de votre système d'exploitation depuis l’[API OVHcloud](https://api.ovh.com/) ou depuis votre [espace client OVHcloud](https://www.ovh.com/manager/#/dedicated/configuration). Dans cet article, nous allons nous concentrer sur l'[API OVHcloud](https://api.ovh.com/).<br>
+Les [serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud vous permettent de configurer les disques, le [RAID matériel](/pages/bare_metal_cloud/dedicated_servers/raid_hard), le [RAID logiciel](/pages/bare_metal_cloud/dedicated_servers/raid_soft), LVM, ZFS, etc. pendant [la réinstallation](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server) de votre système d'exploitation depuis l’[API OVHcloud](https://api.ovh.com/) ou depuis votre [espace client OVHcloud](https://www.ovh.com/manager/#/dedicated/configuration). Dans cet article, nous allons nous concentrer sur l'[API OVHcloud](https://api.ovh.com/).<br>
 Cela vous donnera plus de détails sur le moteur qui s'exécute en arrière-plan, afin de créer le personnalisation du stockage sur le serveur dédié à partir des données d'entrée transmises à l'API OVHcloud.
 
 Fournir des détails avancés sur la configuration du stockage peut vous aider à comprendre pourquoi :
@@ -35,7 +35,7 @@ Lors de l'installation du système d'exploitation par défaut, l'installateur du
 
 Outre la simplicité de l'API, le principal avantage est la possibilité de personnaliser totalement les disques et partitions sur lesquels sera installé l’OS.
 
-Dans cette page, nous nous focaliserons seulement sur la sous-hash `storage` du call API utilisé pour réinstaller un OS sur un serveur dédié. Pour les personnalisations d'installation OS non liées au stockage, veuillez vous référer à la page [API OVHcloud et installation d'un OS](/pages/bare_metal_cloud/dedicated_servers/api-os-installation) pour plus de détails.
+Dans cette page, nous nous focaliserons seulement sur la sous-hash `storage` du call API utilisé pour réinstaller un OS sur un serveur dédié. Pour les personnalisations de réinstallation OS non liées au stockage, veuillez vous référer à la page [API OVHcloud et installation d'un OS](/pages/bare_metal_cloud/dedicated_servers/api-os-installation) pour plus de détails.
 
 > [!api]
 >
@@ -79,7 +79,7 @@ Dans cette page, nous nous focaliserons seulement sur la sous-hash `storage` du 
 
 Certains [serveurs dédiés](/links/bare-metal/bare-metal) possèdent plusieurs grappes ou groupes de disques. Par exemple une grappe avec des disques SATA et une grappe avec des disques SSD. Nous appelons ces types de serveurs des **serveurs hybrides**.
 
-Pour lister les grappes et leurs disques, vous pouvez utiliser l'appel suivant afin de déterminer le groupe de disque sur lequel vous souhaitez effectuer votre installation OS :
+Pour lister les grappes et leurs disques, vous pouvez utiliser l'appel suivant afin de déterminer le groupe de disque sur lequel vous souhaitez effectuer votre réinstallation OS :
 
 > [!api]
 >
@@ -234,7 +234,7 @@ Exemple de réponse pour un serveur qui possède un RAID matériel :
 
 > [!warning]
 >
-> Pour l'instant, l'API ne supporte que la personnalisation du RAID matériel pour 1 seule contrôleur de RAID matériel. Si votre serveur possède plusieurs contrôleurs de RAID matériel sur lesquels vous souhaitez personnaliser leurs configurations, vous pouvez configurer le(s) autre(s) contrôleur(s) que celui de la grappe de disques choisis pour l'installation OS **avant** la reinstallation OS (vous pouvez aussi le faire une fois la réinstallation OS terminée, mais nous vous recommandons de le faire **avant**, afin d'éviter tout risque de mauvaise manipulation qui aurait pour conséquence une perte de données).
+> Pour l'instant, l'API ne supporte que la personnalisation du RAID matériel pour 1 seule contrôleur de RAID matériel. Si votre serveur possède plusieurs contrôleurs de RAID matériel sur lesquels vous souhaitez personnaliser leurs configurations, vous pouvez configurer le(s) autre(s) contrôleur(s) que celui de la grappe de disques choisis pour la réinstallation OS **avant** la reinstallation OS (vous pouvez aussi le faire une fois la réinstallation OS terminée, mais nous vous recommandons de le faire **avant**, afin d'éviter tout risque de mauvaise manipulation qui aurait pour conséquence une perte de données).
 >
 
 Exemple d'une installation OS avec un RAID 1 matériel entre les 2 premiers disques de la grappe de disques :
@@ -316,7 +316,7 @@ Le tableau suivant donne une vue d'ensemble des différents composants de partit
 
 #### OS & Compatibilité du partitionnement <a name="os-partitioning-compatibility"></a>
 
-Puisque la configuration du partitionnement sera visible par l'OS, l'OS choisis pour l'installation a un impact sur les possibilités que vous avez dans la personnalisation de votre partitionnement.
+Puisque la configuration du partitionnement sera visible par l'OS, l'OS choisis pour la réinstallation a un impact sur les possibilités que vous avez dans la personnalisation de votre partitionnement.
 
 Dans la section `/dedicated/installationTemplate`{.action}, vous pouvez obtenir les détails tels que la compatibilité LVM, la disponibilité du système de fichiers pour un OS en particulier :
 
@@ -516,7 +516,7 @@ Dans cette exemple, le point de montage `/` concerne un dataset ZFS dans un zpoo
 
 Les erreurs basiques de données d'entrée client sont directement traitées par l'API OVHcloud. Il s'agit de la situation la plus courante et la plus simple car les clients peuvent voir l'erreur de manière synchrone et réessayer immédiatement.
 
-Les données d'entrée client liées au partitionnement peuvent être trop spécifiques pour être vérifiées par l'API OVHcloud et nécessiter par conséquent un temps de traitement. L'inconvénient est que les clients sont avertis plus tard pendant le processus d'installation du système d'exploitation.
+Les données d'entrée client liées au partitionnement peuvent être trop spécifiques pour être vérifiées par l'API OVHcloud et nécessiter par conséquent un temps de traitement. L'inconvénient est que les clients sont avertis plus tard pendant le processus de réinstallation du système d'exploitation.
 
 Celui-ci est visible via la barre de progression depuis [l'espace client OVHcloud](https://www.ovh.com/manager/#/dedicated/configuration).
 Depuis l'[API OVHcloud](https://api.ovh.com/), cet état peut être obtenu avec l'appel API suivant :
@@ -548,7 +548,7 @@ Le tableau suivant donne un aperçu des erreurs clients les plus connues et de l
 |`/boot` (or `/` if no `/boot` defined) partition cannot be larger than 2097151 MiB on this hardware|- La partition qui contient GRUB ne doit pas dépasser 2TiB sur ce type de contrôleur RAID|- Créez une partition `/boot` séparée avec une taille inférieure à 2TiB (1GiB devrait suffire)|
 |`/boot` (or `/` if no `/boot` defined) partition type cannot be `XFS`|- La partition qui contient GRUB ne supporte pas le système de fichiers `XFS` sur ce système d'exploitation. C'est généralement le cas pour les systèmes d'exploitation de la famille debian (debian, proxmox, ubuntu)|- Créez une partition `/boot` séparée avec un système de fichiers autre que `XFS`<br />- Ne créez pas de partition `/boot` séparée, mais choisissez un système de fichier autre que `XFS` pour la partition `/`|
 |`ZFS` partition already exists with zpool name `n`. Either choose another name for the `m` partition or set the same RAID level for all partitions within zpool `n`|Il est possible de définir plusieurs partitions `ZFS` avec un même nom de zpool afin que chaque dataset fasse partie du même zpool. Cela est possible uniquement dans le cas où tous les datasets (et donc les partitions définies dans l'API) ont le même niveau de RAID|- Choisissez le même niveau de RAID que les partitions `ZFS` existantes du zpool concerné<br />- Choisissez un autre nom de zpool: cette partition ne fera pas partie du même zpool<br />- Ne définissez pas de nom de zpool: un nom sera défini automatiquement et cette partition ne fera pas partie du même zpool|
-|`Debian` does not provide a precompiled `ZFS` module and this server does not have enough memory to compile it. Please use a different file system|Nous essayons de toujours trouver le meilleur équilibre entre intégration dans l'écosystème OVHcloud, compatibilité matérielle et taille réduite de l'image, tout en fournissant une image la plus proche de l'image "cloud-ready" officielle fournie par l'éditeur. Le module `ZFS` n'étant pas fourni par l'éditeur, nous ne souhaitons pas alourdir l'image avec ce module pour les clients qui n'utilisent pas `ZFS` et nous souhaitons offrir un OS avec `ZFS` clé en main pour les clients qui en font la demande. Pour cette raison, le module `ZFS` est compilé et installé lors de l'installation et seulement pour les clients qui le demandent. La compilation nécessitant de la mémoire vive en plus de celle déjà utilisée pour faire fonctionner l'OS du rescue en `RAM`, nous avons fixé le seuil à 8GiB pour garantir un bon fonctionnement et une bonne expérience client|- Supprimez toutes les partitions `ZFS` ou changez pour un type de système de fichiers autre que `ZFS`<br />- Choisissez un OS qui supporte `ZFS` nativement tel que Proxmox<br />- Utilisez un serveur avec au moins 8GiB de mémoire vive|
+|`Debian` does not provide a precompiled `ZFS` module and this server does not have enough memory to compile it. Please use a different file system|Nous essayons de toujours trouver le meilleur équilibre entre intégration dans l'écosystème OVHcloud, compatibilité matérielle et taille réduite de l'image, tout en fournissant une image la plus proche de l'image "cloud-ready" officielle fournie par l'éditeur. Le module `ZFS` n'étant pas fourni par l'éditeur, nous ne souhaitons pas alourdir l'image avec ce module pour les clients qui n'utilisent pas `ZFS` et nous souhaitons offrir un OS avec `ZFS` clé en main pour les clients qui en font la demande. Pour cette raison, le module `ZFS` est compilé et installé lors de la réinstallation et seulement pour les clients qui le demandent. La compilation nécessitant de la mémoire vive en plus de celle déjà utilisée pour faire fonctionner l'OS du rescue en `RAM`, nous avons fixé le seuil à 8GiB pour garantir un bon fonctionnement et une bonne expérience client|- Supprimez toutes les partitions `ZFS` ou changez pour un type de système de fichiers autre que `ZFS`<br />- Choisissez un OS qui supporte `ZFS` nativement tel que Proxmox<br />- Utilisez un serveur avec au moins 8GiB de mémoire vive|
 
 #### Auto-correction des données d'entrée client
 
