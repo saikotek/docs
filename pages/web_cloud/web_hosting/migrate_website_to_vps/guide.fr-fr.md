@@ -6,7 +6,7 @@ updated: 2024-10-28
 
 ## Objectif
 
-Votre site web évolue, et les limitations de l'hébergement mutualisé peuvent impacter ses performances ou sa capacité à traiter des tâches plus complexes. Migrer vers un VPS permet d'améliorer la rapidité et la réactivité de votre site web, d'augmenter les ressources de calcul disponibles (CPU, RAM, etc.), et d'avoir plus de contrôle sur l'environnement serveur. Ce guide se concentre sur les étapes essentielles pour migrer efficacement vers un VPS, tout en garantissant la continuité de service.
+Votre site web évolue, sa consommation de ressources devient telle que votre hébergement web ne correspond plus à vos besoins en terme de performances ou en terme de capacité à traiter des tâches plus de plus complexes. Migrer vers un VPS permet d'améliorer la rapidité et la réactivité de votre site web, d'augmenter les ressources de calcul disponibles (CPU, RAM, etc.), et d'avoir plus de contrôle sur l'environnement serveur. Ce guide se concentre sur les étapes essentielles pour migrer efficacement vers un VPS, tout en garantissant la continuité de service.
 
 **Découvrez comment migrer votre site web d'un hébergement mutualisé vers un VPS.**
 
