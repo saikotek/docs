@@ -37,7 +37,9 @@ Suivez les étapes de notre guide « [Se connecter à l’espace de stockage FTP
 
 #### Étape 1.2 - Sauvegarder les fichiers via FTP <a name="step1.2"></a>
 
-Pour sauvegarder les fichiers de votre site web, choisissez la méthode de sauvegarde adaptée à votre CMS en cliquant sur l'onglet concerné.
+Si vous n'utilisez pas un CMS (WordPress, Joomla!, Drupal, PrestaShop, etc.), téléchargez une sauvegarde complète de l'ensemble des fichiers présents dans votre espace FTP sur votre appareil en local.
+
+Si vous utilisez un CMS et pour sauvegarder ses fichiers, choisissez la méthode de sauvegarde adaptée à celui-ci en cliquant sur l'onglet concerné.
 
 > [!tabs]
 > PrestaShop
