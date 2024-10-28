@@ -209,7 +209,7 @@ Afin de faire pointer le nom de domaine de votre site web vers votre VPS, config
 
 Une fois la migration terminée, testez votre site web pour vous assurer qu'il fonctionne comme prévu. Vérifiez toutes les fonctionnalités essentielles (formulaires, connexions utilisateur, paiement en ligne, etc.) et assurez-vous que toutes les pages s'affichent correctement.
 
-### Étape 8 : sécuriser votre VPS
+### Étape 8 - Sécuriser votre VPS
 
 Après avoir migré votre site web sur votre VPS, il est crucial de sécuriser votre serveur afin de protéger vos données et garantir le bon fonctionnement de vos services. Voici quelques mesures à prendre pour renforcer la sécurité de votre VPS :
 
