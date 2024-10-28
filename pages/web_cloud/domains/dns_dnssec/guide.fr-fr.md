@@ -1,7 +1,7 @@
 ---
 title: 'Sécuriser votre nom de domaine avec DNSSEC'
 excerpt: 'Découvrez comment protéger votre nom de domaine du Cache Poisoning en activant le DNSSEC'
-updated: 2024-10-22
+updated: 2024-10-28
 ---
 
 ## Objectif 
@@ -18,7 +18,7 @@ Le **D**omain **N**ame **S**ystem **SEC**urity extensions (**DNSSEC**), permet d
 
 > [!primary]
 >
-> L'option DNSSEC est indisponible pour les noms de domaine dont l'extension est en **.it**.
+> Actuellement, l'option DNSSEC est indisponible pour les noms de domaine enregistrés chez OVHcloud et dont l'extension est en **.it**.
 >
 
 Pour plus d'informations sur le fonctionnement du **DNSSEC**, consultez notre page « [Comprendre le DNSSEC](/links/web/domains-dnssec){.external} ».
@@ -37,7 +37,7 @@ N'hésitez pas également à consulter nos guides sur [les serveurs DNS OVHcloud
 >
 > Pour vérifier si votre nom de domaine utilise la configuration DNS OVHcloud, connectez-vous à votre [espace client OVHcloud](/links/manager){.external} puis rendez-vous dans la partie `Web Cloud`{.action}. Dans la colonne de gauche, cliquez sur `Noms de domaine`{.action} puis choisissez le nom de domaine concerné dans la liste. Sélectionnez l'onglet `Serveurs DNS`{.action} une fois positionné sur le domaine concerné.
 >
-> Si les noms des serveurs DNS se terminent par *ovh.net*, *ovh.ca* ou *anycast.me*, votre nom de domaine utilise bien les serveurs DNS OVHcloud.
+> Si les noms des serveurs DNS se terminent par *ovh.net* (à l'exception du serveur *snds2.ovh.net*), *ovh.ca* ou *anycast.me*, votre nom de domaine utilise bien les serveurs DNS OVHcloud.
 >
 > Par ailleurs, l'activation / désactivation du **DNSSEC** prend **24** heures pour être effective.
 >
@@ -77,7 +77,7 @@ Une fois ces 4 paramètres récupérés, effectuez les actions suivantes :
 2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
 3. Dans la colonne de gauche, cliquez sur le menu déroulant `Noms de domaine`{.action}.
 4. Sélectionnez le nom de domaine concerné.
-5. Sur la page qui s'affiche, cliquez sur l'onglet `DS records`{.action}.
+5. Sur la page qui s'affiche, cliquez sur l'onglet `DS records`{.action}. **Cet onglet n'apparaît que si votre nom de domaine utilise des serveurs DNS externes**.
 6. Dans la nouvelle page qui apparaît, cliquez sur le bouton `Modifier`{.action} à droite, puis sur le bouton `+`{.action}.
 7. Renseignez les 4 formulaires `Key Tag`, `Flag`, `Algorithm` et `Clé publique (encodée en base64)` avec les données communiquées par votre prestataire actuel.
 8. Une fois les 4 formulaires remplis, cliquez sur le bouton bleu `Valider`{.action} situé à droite du tableau.
