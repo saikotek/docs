@@ -12,8 +12,8 @@ Esta herramienta de Exchange le permite configurar respuestas automáticas, de m
 
 ## Requisitos
 
- - Haber instalado una solución de correo de OVHcloud [Exchange](/links/web/emails-hosted-exchange) o [Email Pro](/links/web/email-pro)
-- Tener acceso a la cuenta de correo (dirección de correo electrónico y contraseña).
+- Haber instalado una solución de correo de OVHcloud [Exchange](/links/web/emails-hosted-exchange)
+- Tener acceso a la cuenta de correo (dirección de correo electrónico y contraseña)
 
 ## Procedimiento
 
