@@ -205,7 +205,7 @@ Si vous utilisez une base de données Web Cloud Database, vérifiez que votre VP
 
 Afin de faire pointer le nom de domaine de votre site web vers votre VPS, configurez les enregistrements DNS du nom de domaine afin qu'ils dirigent le trafic vers l'adresse IP publique de votre VPS. Pour vous guider dans cette démarche, suivez notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
 
-### Étape 7 : vérifier le bon fonctionnement de votre site web
+### Étape 7 - Vérifier le bon fonctionnement de votre site web
 
 Une fois la migration terminée, testez votre site web pour vous assurer qu'il fonctionne comme prévu. Vérifiez toutes les fonctionnalités essentielles (formulaires, connexions utilisateur, paiement en ligne, etc.) et assurez-vous que toutes les pages s'affichent correctement.
 
