@@ -46,6 +46,12 @@ Unlimited
 - Must not contain multiple punctuation marks in a row (e.g. `..` or `-.` or `.-` or `--`).
 - Must not look like an IP address (e.g. 192.168.1.1).
 
+> [!warning]
+>
+> For best compatibility, we recommend that you avoid using dots (.) in bucket names, except for buckets that are used only for static website hosting. If you include dots in a bucket's name, you can't use virtual-host-style addressing over HTTPS, unless you perform your own certificate validation. This is because the security certificates used for virtual hosting of buckets don't work for buckets with dots in their names.
+>
+
+
 ## Object limitations
 
 ### Maximum size per object / mpu / part
