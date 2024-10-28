@@ -82,7 +82,7 @@ Pour sauvegarder les fichiers de votre site web, choisissez la méthode de sauve
 
 Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes de notre guide « [Récupérer la sauvegarde de la base de données d'un hébergement web](/pages/web_cloud/web_hosting/sql_database_export) » pour sauvegarder votre base de données.
 
-### Étape 2 : configurer votre VPS <a name="step2"></a>
+### Étape 2 - Configurer votre VPS <a name="step2"></a>
 
 > [!primary]
 >
