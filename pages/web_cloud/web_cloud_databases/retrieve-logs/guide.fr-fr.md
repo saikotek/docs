@@ -1,26 +1,43 @@
 ---
-title: 'Web Cloud Databases - Comment récupérer les logs ?'
-excerpt: 'Découvrez comment récupérer les logs de vos bases de données hébergées sur votre serveur Web Cloud Databases'
-updated: 2024-10-24
+title: 'Web Cloud Databases - Comment gérer les logs ?'
+excerpt: 'Découvrez comment gérer les logs de vos bases de données hébergées sur votre serveur Web Cloud Databases'
+updated: 2024-10-28
 ---
-
-> [!primary]
->
-> **Ce guide est actuellement en cours de mise à jour. Certaines informations pourraient être incomplètes ou obsolètes. Merci de votre compréhension.**
 
 ## Objectif
 
-La solution [Web Cloud Databases](/links/web/databases) permet d'héberger plusieurs bases de données. Dans certaines situations, vous pouvez être amené à consulter / récupérer les logs  :
+Un log correspond à un événement survenu sur un système informatique (serveur, ordinateur, application, site web, base de données, réseau informatique, etc.).
+Par exemple, un log peut enregistrer et contenir un ou plusieurs des éléments suivants : 
+
+ - L'horodatage (date, heure, minute, seconde, etc.) de l'événement.
+ - La nature de l'événement (connexion, déconnexion, erreur, download, upload, alerte, etc.).
+ - Des informations complémentaires sur l'événement (fichier ou page consulté, application lancée, serveur distant appelé, nom d'un fichier chargé ou téléchargé, etc.)
+ - L'origine de l'événement (identifiant de l'utilisateur, adresse IP source, programme source, etc.).
+ - L'état du système où se déroule l'événement (ressources disponible, mémoire restante, utilisation du CPU, etc.).
+
+La plupart du temps, les logs sont générés directement par les systèmes informatiques où les événements se réalisent.
+Ils sont stoqués et historisés dans des fichiers textes également appelés fichiers de logs.
+
+De ce fait, les fichiers de logs permettent d'effectuer les actions suivantes :
+
+ - analyser le comportement du système informatique générant les logs.
+ - identifier les erreurs survenues sur le système informatique.
+ - résoudre les erreurs rencontrées sur le système informatique.
+ - Optimiser et améliorer les performances du système informatique.
+
+Par conséquent, votre offre [Web Cloud Databases](/links/web/databases) génère ses propres logs.
+
+Dans certaines situations, vous pouvez être amené à consulter / récupérer les logs  :
 
 - de votre serveur Web Cloud Databases ;
 - pour l'une des bases de données hébergée sur votre serveur Web Cloud Databases.
 
-**Découvrez comment récupérer les logs de vos bases de données hébergées sur votre serveur Web Cloud Databases**
+**Découvrez comment visualiser et gérer les logs de votre offre Web Cloud Databases.**
 
 ## Prérequis
 
-- Disposer d'une solution [Web Cloud Databases](/links/web/databases) (incluse ou non dans une offre d'[hébergement web performance](/links/web/hosting)).
-- Être connecté à votre [espace client OVHcloud](/links/manager){.external}.
+- Disposer d'une [instance Web Cloud Databases](/links/web/databases).
+- Être connecté à votre [espace client OVHcloud](/links/manager).
 
 ## En pratique
 
@@ -28,17 +45,17 @@ La solution [Web Cloud Databases](/links/web/databases) permet d'héberger plusi
 >
 > OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
 > 
-> Nous mettons à votre disposition ce tutoriel afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance sur l'interprétation des logs disponibles avec votre solution Web Cloud Databases. Plus d'informations dans la section « [Aller plus loin](#go-further) » de ce tutoriel.
+> Nous mettons à votre disposition ce tutoriel afin de vous accompagner au mieux sur des tâches courantes. Cependant, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance sur l'interprétation des logs disponibles avec votre solution Web Cloud Databases. Plus d'informations dans la section « [Aller plus loin](#go-further) » de ce tutoriel.
 >
 
-### Consulter les logs de votre solution Web Cloud Databases en temps réel
+### Visualiser les logs en temps réel de votre Web Cloud Databases
 
-Pour vérifier en temps réel les logs de votre solution Web Cloud Databases, effectuez les actions suivantes :
+Pour accéder aux logs en temps réel de votre Web Cloud Databases, effectuez les actions suivantes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
 3. Dans la colonne de gauche, cliquez sur le menu déroulant `Web Cloud Databases`{.action}.
-4. Sélectionnez la solution Web Cloud Databases concernée.
+4. Sélectionnez l'instance Web Cloud Databases concernée.
 5. Sur la page qui s'affiche, cliquez sur l'onglet `Logs`{.action}.
 
 ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/tab-with-logs.png){.thumbnail}
