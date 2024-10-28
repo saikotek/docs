@@ -13,7 +13,7 @@ Votre site web évolue, sa consommation de ressources devient telle que votre h�
 ## Prérequis
 
 - Disposer d'une [offre d'hébergement web](/links/web/hosting) active.
-- Un [VPS](/links/bare-metal/vps) dans votre compte OVHcloud.
+- Avoir souscrit à un [VPS](/links/bare-metal/vps) présent dans votre compte OVHcloud.
 - Être connecté à votre [espace client OVHcloud](/links/manager).
 
 ## En pratique
