@@ -217,4 +217,4 @@ Este guia não respondeu à sua pergunta? Consulte [FAQ sobre faturação e paga
 
 [Gerir a faturação das contas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).
