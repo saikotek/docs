@@ -35,7 +35,7 @@ Si vous utilisez WordPress, suivez notre guide « [Sauvegarder votre site WordPr
 
 Suivez les étapes de notre guide « [Se connecter à l’espace de stockage FTP de son hébergement web](/pages/web_cloud/web_hosting/ftp_connection) » pour vous connecter à l’espace de stockage FTP de votre hébergement web.
 
-#### Étape 1.2 : sauvegarder les fichiers via FTP <a name="step1.2"></a>
+#### Étape 1.2 - Sauvegarder les fichiers via FTP <a name="step1.2"></a>
 
 Pour sauvegarder les fichiers de votre site web, choisissez la méthode de sauvegarde adaptée à votre CMS en cliquant sur l'onglet concerné.
 
