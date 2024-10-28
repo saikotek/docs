@@ -25,7 +25,7 @@ Votre site web évolue, sa consommation de ressources devient telle que votre h�
 > Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Cependant, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section [« Aller plus loin »](#go-further) de ce guide.
 >
 
-### Étape 1 : sauvegarder les fichiers et la base de données de votre site web <a name="step1"></a>
+### Étape 1 - Sauvegarder les fichiers et la base de données de votre site web <a name="step1"></a>
 
 La première étape consiste à sauvegarder l'ensemble des fichiers de votre site web, généralement via le **F**ile **T**ransfer **P**rotocol (**FTP**), ainsi que sa base de données.
 
