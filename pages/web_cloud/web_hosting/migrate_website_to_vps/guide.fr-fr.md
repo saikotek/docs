@@ -74,7 +74,7 @@ Pour sauvegarder les fichiers de votre site web, choisissez la méthode de sauve
 >
 > Une fois l'ensemble des fichiers de votre site web téléchargés, assurez-vous de les stocker dans un dossier local facilement identifiable pour faciliter leur transfert ultérieur vers le VPS.
 
-#### Étape 1.3 : sauvegarder la base de données
+#### Étape 1.3 - Sauvegarder la base de données
 
 > [!primary]
 >
