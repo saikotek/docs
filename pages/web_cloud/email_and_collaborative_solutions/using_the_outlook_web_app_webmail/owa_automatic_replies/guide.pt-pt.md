@@ -1,7 +1,7 @@
 ---
 title: 'Criar respostas automáticas no OWA'
 excerpt: 'Saiba como configurar respostas automáticas no OWA'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Sumário
@@ -17,13 +17,21 @@ Esta funcionalidade do Exchange permite-lhe configurar respostas automáticas ao
 
 ## Instruções
 
+> [!warning]
+>
+> Se o seu endereço de e-mail estiver associado a uma oferta **MX Plan** (incluída com os [alojamentos web](/links/web/hosting) e os [alojamentos gratuitos 100M](/links/web/domains-free-hosting)), o seu espaço cliente propõe uma secção intitulada `Gestão das respostas automáticas`{.action}. Deverá criar uma resposta automática a partir da Área de Cliente OVHcloud, recorrendo à documentação "[MX Plan - Criar uma resposta automática num endereço de e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses)".
+
 ### Ativar a funcionalidade
 
 Aceda à sua conta Exchange através do [webmail OVHcloud](/links/web/email). Clique no símbolo da engrenagem na parte superior direita para abrir o menu “Opções” e selecione `Respostas automáticas`{.action}.
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-Nesta interface, basta ativar a funcionalidade selecionando `Enviar respostas automáticas`{.action}. Pode configurar uma hora exata nos campos abaixo ou ativá-la indefinidamente. Sem indicação da hora de início e de fim, terá de desativá-la manualmente. 
+Nesta interface, basta ativar a funcionalidade selecionando `Enviar respostas automáticas`{.action}. Pode configurar uma hora exata nos campos abaixo ou ativá-la indefinidamente.
+
+> [!primary]
+>
+> Se não especificar a hora de início e de fim, a resposta automática deverá ser desativada manualmente por si.
 
 Escreva a sua mensagem na caixa do editor de texto e confirme clicando no botão `Guardar`{.action} no canto superior esquerdo.
 
@@ -55,4 +63,8 @@ Poderá inserir uma mensagem alternativa para remetentes externos na segunda cai
 
 [Partilhar calendários em OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Para serviços especializados (referenciamento, desenvolvimento, etc), contacte os [parceiros OVHcloud](/links/partner).
+
+Se pretender usufruir de uma assistência na utilização e na configuração das suas soluções OVHcloud, consulte as nossas diferentes [ofertas de suporte](/links/support).
+
+Fale com nossa [comunidade de utilizadores](/links/community).
