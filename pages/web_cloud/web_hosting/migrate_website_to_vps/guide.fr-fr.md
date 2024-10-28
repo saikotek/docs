@@ -27,7 +27,7 @@ Votre site web évolue, sa consommation de ressources devient telle que votre h�
 
 ### Étape 1 : sauvegarder les fichiers et la base de données de votre site web <a name="step1"></a>
 
-La première étape consiste à sauvegarder l'ensemble des fichiers de votre site web, généralement via FTP (**F**ile **T**ransfer **P**rotocol), ainsi que sa base de données.
+La première étape consiste à sauvegarder l'ensemble des fichiers de votre site web, généralement via le **F**ile **T**ransfer **P**rotocol (**FTP**), ainsi que sa base de données.
 
 Si vous utilisez WordPress, suivez notre guide « [Sauvegarder votre site WordPress](/pages/web_cloud/web_hosting/how_to_backup_your_wordpress) » pour découvrir comment sauvegarder les fichiers et la base de données de votre site web WordPress, puis passez à l'[étape 2](#step2).
 
