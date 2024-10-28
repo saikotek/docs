@@ -6,7 +6,7 @@ updated: 2024-10-28
 
 ## Objectif
 
-Votre site web évolue, et les limitations de l'hébergement mutualisé peuvent impacter ses performances ou sa capacité à traiter des tâches plus complexes. Migrer vers un VPS permet d'améliorer la rapidité et la réactivité de votre site, d'augmenter les ressources de calcul disponibles (CPU, RAM), et d'avoir plus de contrôle sur l'environnement serveur. Ce guide se concentre sur les étapes essentielles pour migrer efficacement vers un VPS, tout en garantissant la continuité de service.
+Votre site web évolue, et les limitations de l'hébergement mutualisé peuvent impacter ses performances ou sa capacité à traiter des tâches plus complexes. Migrer vers un VPS permet d'améliorer la rapidité et la réactivité de votre site web, d'augmenter les ressources de calcul disponibles (CPU, RAM, etc.), et d'avoir plus de contrôle sur l'environnement serveur. Ce guide se concentre sur les étapes essentielles pour migrer efficacement vers un VPS, tout en garantissant la continuité de service.
 
 **Découvrez comment migrer votre site web d'un hébergement mutualisé vers un VPS.**
 
@@ -20,17 +20,17 @@ Votre site web évolue, et les limitations de l'hébergement mutualisé peuvent 
 
 ### Étape 1 : sauvegarder les fichiers et la base de données de votre site web <a name="step1"></a>
 
-La première étape consiste à sauvegarder l'ensemble des fichiers de votre site web (généralement via FTP), ainsi que sa base de données.
+La première étape consiste à sauvegarder l'ensemble des fichiers de votre site web, généralement via FTP (**F**ile **T**ransfer **P**rotocol), ainsi que sa base de données.
 
-Si vous utilisez WordPress, suivez notre guide « [Sauvegarder votre site WordPress](/pages/web_cloud/web_hosting/how_to_backup_your_wordpress) » pour savoir comment sauvegarder les fichiers et la base de données de votre site web WordPress, puis passez à l'[étape 2](#step2).
+Si vous utilisez WordPress, suivez notre guide « [Sauvegarder votre site WordPress](/pages/web_cloud/web_hosting/how_to_backup_your_wordpress) » pour découvrir comment sauvegarder les fichiers et la base de données de votre site web WordPress, puis passez à l'[étape 2](#step2).
 
 #### Étape 1.1 : se connecter à l’espace de stockage FTP de votre hébergement web
 
-Suivez les étapes de notre guide « [Se connecter à l’espace de stockage FTP de son hébergement web](/pages/web_cloud/web_hosting/ftp_connection) ».
+Suivez les étapes de notre guide « [Se connecter à l’espace de stockage FTP de son hébergement web](/pages/web_cloud/web_hosting/ftp_connection) » pour vous connecter à l’espace de stockage FTP de votre hébergement web.
 
 #### Étape 1.2 : sauvegarder les fichiers via FTP <a name="step1.2"></a>
 
-Choisissez la méthode de sauvegarde adaptée à votre CMS en cliquant sur l'onglet concerné.
+Pour sauvegarder les fichiers de votre site web, choisissez la méthode de sauvegarde adaptée à votre CMS en cliquant sur l'onglet concerné.
 
 > [!tabs]
 > PrestaShop
@@ -52,7 +52,7 @@ Choisissez la méthode de sauvegarde adaptée à votre CMS en cliquant sur l'ong
 >> - `/components`, `/plugins` : pour les extensions installées.
 >> - `/images` : pour les fichiers médias de votre site.
 >>
->> Vous pouvez trouver plus d’informations sur la structure des fichiers Joomla! dans la documentation officielle de Joomla.
+>> Retrouvez plus d’informations sur la structure des fichiers Joomla! dans la [documentation officielle de Joomla!](https://docs.joomla.org/).
 >>
 > Drupal
 >>
@@ -61,7 +61,7 @@ Choisissez la méthode de sauvegarde adaptée à votre CMS en cliquant sur l'ong
 >> - `/sites` : qui contient les fichiers spécifiques à votre site.
 >> - `/modules` : et `/themes` : pour les modules et thèmes personnalisés.
 >>
->> Pour une vue plus détaillée, référez-vous à la [documentation officielle](https://www.drupal.org/docs) de Drupal.
+>> Pour plus d'informations, référez-vous à la [documentation officielle de Drupal](https://www.drupal.org/docs).
 
 > [!primary]
 >
@@ -71,7 +71,7 @@ Choisissez la méthode de sauvegarde adaptée à votre CMS en cliquant sur l'ong
 
 > [!primary]
 >
-> Si vous utilisez déjà une base de données Web Cloud Database pour votre site web, vous pouvez continuer à utiliser cette base de données sans la migrer vers le VPS. Le VPS pourra se connecter à la base de données Web Cloud Database pour gérer les données.
+> Si vous utilisez déjà une base de données Web Cloud Database pour votre site web, vous pouvez continuer à l'utiliser sans la migrer. Votre VPS se connectera à la base de données Web Cloud Database pour gérer les données.
 
 Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes de notre guide « [Récupérer la sauvegarde de la base de données d'un hébergement web](/pages/web_cloud/web_hosting/sql_database_export) » pour sauvegarder votre base de données.
 
@@ -79,40 +79,40 @@ Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes d
 
 > [!primary]
 >
-> Si vous n'avez pas encore de VPS, consultez la [page produit VPS OVHcloud](https://www.ovhcloud.com/fr/vps/) pour en acheter un. Assurez-vous de choisir un VPS qui correspond aux besoins de votre site web en termes de ressources (RAM, CPU, stockage) et aux spécifications techniques de votre CMS. Si vous n'êtes pas familier avec les VPS, consultez notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
+> Si vous n'avez pas encore de VPS, consultez la [page produit VPS OVHcloud](https://www.ovhcloud.com/fr/vps/) pour en acheter un. Assurez-vous de choisir un VPS qui correspond aux besoins de votre site web en termes de ressources (RAM, CPU, stockage, etc.) et aux spécifications techniques de votre CMS. Si vous n'êtes pas familier avec les VPS, consultez notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
 
 #### Étape 2.1 : se connecter à votre VPS
 
-Consultez la section « Se connecter à votre VPS » de notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
+Consultez la section « Se connecter à votre VPS » de notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) » pour vous connecter à votre VPS.
 
 #### Étape 2.2 : installer et configurer un serveur web sur votre VPS <a name="step2.2"></a>
 
 Une fois connecté à votre VPS, installez et configurez un environnement de développement web sur votre VPS. Cette étape est essentielle pour garantir que votre serveur soit prêt à accueillir votre site web une fois les fichiers et la base de données transférés.
-Pour installer cet environnement, consultez notre guide « [Installer un environnement de développement web sur un VPS ou un serveur dédié](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps) ».
+Pour installer cet environnement web, consultez notre guide « [Installer un environnement de développement web sur un VPS ou un serveur dédié](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps) ».
 
 ### Étape 3 : transférer les fichiers de votre site web via SFTP
 
-Utiliser SFTP (**S**ecure **F**ile **T**ransfer **P**rotocol) est la méthode recommandée pour transférer les fichiers de votre site web vers votre VPS. Il offre un niveau de sécurité supérieur à FTP classique grâce à l'utilisation du chiffrement fourni par le service SSH, déjà activé par défaut sur votre VPS OVHcloud.
+Utiliser SFTP (**S**ecure **F**ile **T**ransfer **P**rotocol) est la méthode recommandée pour transférer les fichiers de votre site web vers votre VPS. Il offre un niveau de sécurité supérieur à FTP grâce à l'utilisation du chiffrement fourni par le service SSH, déjà activé par défaut sur votre VPS OVHcloud.
 
 #### Étape 3.1 : se connecter à votre VPS en SFTP
 
 Suivez l'étape « Lancer la connexion SFTP » de notre guide « [Utiliser FileZilla avec votre hebergement](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) » en utilisant la configuration suivante :
 
-- Hôte : utilisez l'adresse IP de votre VPS.
-- Identifiant et mot de passe : ceux de votre compte utilisateur SSH sur le VPS.
-- Port : utilisez le port 22 (port par défaut pour SFTP).
+- **Hôte** : utilisez l'adresse IP de votre VPS.
+- **Identifiant** et **mot de passe** : ceux de votre compte utilisateur SSH sur le VPS.
+- **Port** : utilisez le port 22 (port par défaut pour SFTP).
 
 #### Étape 3.2 : transférer les fichiers de votre site web vers le VPS
 
-Une fois connecté à votre VPS, l'arborescence des fichiers locaux apparaîtra à gauche de l'interface FileZilla, et celle de votre VPS à droite.
+Une fois connecté à votre VPS, l'arborescence des fichiers locaux apparaît à gauche de l'interface FileZilla, et celle de votre VPS à droite.
 
-Sélectionnez les fichiers de votre site web et la base de données que vous avez téléchargés lors de l'[étape 1.2](#step1.2). Faites-les glisser vers le répertoire web de votre VPS à droite. Le répertoire web est l'endroit où les fichiers de votre site web seront stockés pour être accessibles sur Internet. Par défaut, il peut s'agir d'un dossier nommé `/var/www/html` ou d'un autre répertoire configuré pendant l'installation de votre serveur web lors de l'[étape 2.2](#step2.2). Assurez-vous de placer vos fichiers dans le dossier configuré comme racine web pour que votre site web fonctionne correctement.
+Sélectionnez les fichiers de votre site web et la base de données que vous avez téléchargés lors de l'[étape 1.2](#step1.2). Faites-les glisser vers le répertoire web de votre VPS à droite de l'interface. Le répertoire web est l'endroit où les fichiers de votre site web seront stockés pour être accessibles sur Internet. Par défaut, il peut s'agir d'un dossier nommé `/var/www/html` ou d'un autre répertoire configuré pendant l'installation de votre serveur web lors de l'[étape 2.2](#step2.2). Assurez-vous de placer vos fichiers dans le dossier configuré comme racine web pour que votre site web fonctionne correctement.
 
 ### Étape 4 : importer la base de données sur votre VPS (facultatif)
 
 > [!warning]
 >
-> Si votre base de données est déjà hébergée sur une solution Web Cloud Database, il n'est pas nécessaire de la migrer vers le VPS. Vous pouvez conserver la base de données sur le service Web Cloud DB et configurer votre VPS pour qu'il se connecte à cette base de données ([étape 5](#step5)).
+> Si votre base de données est déjà hébergée sur un service Web Cloud Database, il n'est pas nécessaire de la migrer vers le VPS. Vous pouvez conserver la base de données sur le service Web Cloud Database et configurer votre VPS pour qu'il se connecte à cette base de données ([étape 5](#step5)).
 
 Si vous souhaitez importer la base de données sur votre VPS, suivez les étapes ci-dessous.
 
@@ -140,10 +140,10 @@ Après avoir transféré les fichiers de votre site web et, si nécessaire, impo
 >>
 >> Modifiez les variables suivantes dans le fichier `wp-config.php` :
 >> 
->> - DB_NAME : le nom de la base de données.
->> - DB_USER : l'utilisateur de la base de données.
->> - DB_PASSWORD : le mot de passe de l'utilisateur.
->> - DB_HOST : l'hôte de la base de données (généralement localhost sur un VPS).
+>> - **DB_NAME** : le nom de la base de données.
+>> - **DB_USER** : l'utilisateur de la base de données.
+>> - **DB_PASSWORD** : le mot de passe de l'utilisateur.
+>> - **DB_HOST** : l'hôte de la base de données (généralement localhost sur un VPS).
 >>
 >> Pour plus de détails, consultez la [documentation officielle de WordPress](https://fr.wordpress.org/support/article/editing-wp-config-php/).
 >>
@@ -153,10 +153,10 @@ Après avoir transféré les fichiers de votre site web et, si nécessaire, impo
 >>
 Modifiez les variables suivantes dans le fichier `parameters.php` :
 >> 
->> - database_host : l'hôte de la base de données.
->> - database_name : le nom de la base de données.
->> - database_user : l'utilisateur de la base de données.
->> - database_password : le mot de passe de la base de données.
+>> - **database_host** : l'hôte de la base de données.
+>> - **database_name** : le nom de la base de données.
+>> - **database_user** : l'utilisateur de la base de données.
+>> - **database_password** : le mot de passe de la base de données.
 >>
 >> Pour plus de détails, consultez la [documentation officielle de PrestaShop](https://devdocs.prestashop-project.org/8/development/configuration/configuring-prestashop/).
 >>
@@ -166,10 +166,10 @@ Modifiez les variables suivantes dans le fichier `parameters.php` :
 >>
 >> Modifiez les variables suivantes dans le fichier `configuration.php` :
 >> 
->> - public $host : l'hôte de la base de données (souvent localhost).
->> - public $db : le nom de la base de données.
->> - public $user : l'utilisateur de la base de données.
->> - public $password : le mot de passe de la base de données.
+>> - **public $host** : l'hôte de la base de données (souvent localhost).
+>> - **public $db** : le nom de la base de données.
+>> - **public $user** : l'utilisateur de la base de données.
+>> - **public $password** : le mot de passe de la base de données.
 >>
 >> Pour plus de détails, consultez la [documentation officielle de Joomla!](https://docs.joomla.org/).
 >>
@@ -179,10 +179,10 @@ Modifiez les variables suivantes dans le fichier `parameters.php` :
 >>
 >> Modifiez les variables suivantes dans le fichier `settings.php` :
 >> 
->> - host : l'hôte de la base de données (souvent localhost).
->> - database : le nom de la base de données.
->> - username : l'utilisateur de la base de données.
->> - password : le mot de passe de la base de données.
+>> - **host** : l'hôte de la base de données (souvent localhost).
+>> - **database** : le nom de la base de données.
+>> - **username** : l'utilisateur de la base de données.
+>> - **password** : le mot de passe de la base de données.
 >>
 >> Pour plus de détails, consultez la [documentation officielle de Drupal](https://www.drupal.org/documentation).
 >>
@@ -194,15 +194,15 @@ Si vous utilisez une base de données Web Cloud Database, vérifiez que votre VP
 
 > [!primary]
 >
-> Avant de modifier les enregistrements de votre zone DNS pour pointer vers l'adresse IP du VPS, il est recommandé de réduire le TTL (**T**ime **T**o **L**ive). Cela permet d'accélérer la propagation des changements, car les serveurs DNS mettront à jour les informations plus rapidement. Suivez l'étape « Le temps de propagation » de notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit){.external} » pour ajuster le TTL et configurer les enregistrements afin de faire pointer le nom de domaine vers le VPS.
+> Avant de modifier les enregistrements de votre zone DNS pour pointer vers l'adresse IP du VPS, il est recommandé de réduire le TTL (**T**ime **T**o **L**ive). Cela permet d'accélérer la propagation des changements, car les serveurs DNS mettront à jour les informations plus rapidement. Suivez l'étape « Le temps de propagation » de notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) » pour ajuster le TTL et configurer les enregistrements afin de faire pointer le nom de domaine vers le VPS.
 
-Afin de faire pointer le nom de domaine de votre site web vers votre VPS, configurez les enregistrements DNS du domaine afin qu'ils dirigent le trafic vers l'adresse IP publique de votre VPS. Pour vous guider dans cette démarche, suivez notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit){.external} ».
+Afin de faire pointer le nom de domaine de votre site web vers votre VPS, configurez les enregistrements DNS du nom de domaine afin qu'ils dirigent le trafic vers l'adresse IP publique de votre VPS. Pour vous guider dans cette démarche, suivez notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
 
-### Étape 7 : vérifier le bon fonctionnement du site web
+### Étape 7 : vérifier le bon fonctionnement de votre site web
 
 Une fois la migration terminée, testez votre site web pour vous assurer qu'il fonctionne comme prévu. Vérifiez toutes les fonctionnalités essentielles (formulaires, connexions utilisateur, paiement en ligne, etc.) et assurez-vous que toutes les pages s'affichent correctement.
 
-### Étape 8 : sécuriser son VPS
+### Étape 8 : sécuriser votre VPS
 
 Après avoir migré votre site web sur votre VPS, il est crucial de sécuriser votre serveur afin de protéger vos données et garantir le bon fonctionnement de vos services. Voici quelques mesures à prendre pour renforcer la sécurité de votre VPS :
 
@@ -213,3 +213,9 @@ Après avoir migré votre site web sur votre VPS, il est crucial de sécuriser v
 - Etc.
 
  Pour une liste complète des bonnes pratiques de sécurité, consultez notre guide « [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».
+
+ ## Aller plus loin
+
+Pour des prestations spécialisées (référencement, développement, etc.), contactez les [partenaires OVHcloud](/links/partner).
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).
