@@ -217,4 +217,4 @@ Diese Anleitung hat Ihre Frage nicht beantwortet? [FAQ zur Abrechnung und Zahlun
 
 [Die Abrechnung für Ihre Exchange Accounts verwalten](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

@@ -187,14 +187,8 @@ The table below details the possible group actions.
 >> To enable automatic renewal on your services, you must have added a valid payment method to your OVHcloud account. If this is not the case, or if the payment method has expired, an error message will appear in the OVHcloud Control Panel when you try to enable automatic renewal. Please refer to our guide on [Managing your payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) to add a payment method or check the current method's status.
 > My payment method has expired. How do I add a new payment method?
 >> Refer to our guide on [Managing your payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods). Before you can delete an obsolete payment method, you will need to add a new valid payment method into your OVHcloud account.
-> I forgot to renew my domain name in time, what should I do?
->> Start by checking the domain name’s status using the [WHOIS domain name tool](https://www.ovhcloud.com/asia/domains/whois/).
->> If it is a generic domain name (.com, .org, .net, etc.), it remains reserved for a "grace period" (approximately 7 days), followed by a "redemption period" (approximately 35 to 40 additional days). These delays vary, and depend on the extension and the rules of the registry that owns the extension. During these two periods, only you will be able to renew the domain name.
->> During the grace period, you can renew it via the OVHcloud Control Panel by following the steps in this guide.
->> During the redemption period, the domain is no longer managed by OVHcloud. Renewal via the OVHcloud Control Panel will incur an additional fee (this will vary depending on the extension).
->> After the redemption period, the domain name will enter a deletion phase that can take several days, before becoming public again. If you would like to use it again, we recommend using the [WHOIS domain name tool](https://www.ovhcloud.com/asia/domains/whois/) to check its availability regularly.
-> I do not want to renew my domain name, but transfer it to a registrar other than OVHcloud. How do I do this?
->> Follow the instructions in our guide “[Transferring a domain name to another registrar](/pages/web_cloud/domains/transfer_outgoing_domain)”.
+> I have a question regarding domain name renewal
+>> Read our guide on "[Renewing an OVHcloud domain name](/pages/web_cloud/domains/autorenew_domain_name)".
 > I no longer want to pay by direct debit, but I do not want to cancel my service. What should I do?
 >> If your service allows it, you can use the [Configure renewal](#actions) action and choose a manual renewal.
 > I have renewed my service for 12 months. Can I change my mind?
@@ -212,6 +206,8 @@ The table below details the possible group actions.
 ## Go further
 
 This guide did not answer your question? View our [Billing and Payment FAQ](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
+
+[Renewing an OVHcloud domain name](/pages/web_cloud/domains/autorenew_domain_name)
 
 [Manage your payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
