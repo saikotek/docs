@@ -1,12 +1,8 @@
 ---
 title: Como renovar os meus serviços OVHcloud
-excerpt: Descubra como gerir os seus serviços e a sua renovação na sua Área de Cliente
+excerpt: Saiba como gerir os seus serviços e a sua renovação na sua Área de Cliente
 updated: 2024-11-12
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -19,7 +15,7 @@ Este manual permitir-lhe-á:
 - [Conhecer as diferentes ações possíveis para cada um dos seus serviços](#actions)
 - [Descobrir quais as ações que podem ser agrupadas em vários serviços](#group-actions)
 
-**Descubra como gerir os seus serviços e a sua renovação na Área de Cliente OVHcloud.**
+**Saiba como gerir os seus serviços e a sua renovação na Área de Cliente OVHcloud.**
 
 > [!primary]
 >
@@ -191,14 +187,8 @@ O seguinte quadro especifica as ações agrupadas possíveis.
 >> Para que a renovação automática possa ser ativada nos seus serviços, deve ter adicionado um método de pagamento válido à sua conta OVHcloud. Se este não for o caso ou se o método de pagamento estiver expirado, aparecerá uma mensagem de erro na Área de Cliente quando tentar ativar a renovação automática. Consulte o nosso guia "[Gerir os seus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)" para verificar ou adicionar um método de pagamento.
 > O meu método de pagamento já não é válido. Como adicionar um novo método de pagamento?
 >> Consulte o guia "[Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)". Antes de poder eliminar um método de pagamento obsoleto, deve adicionar um novo método de pagamento válido à sua conta OVHcloud.
-> Esqueci-me de renovar o meu nome de domínio a tempo, o que fazer?
->> Verifique o estado do domínio utilizando a ferramenta [Whois de um domínio](https://www.ovhcloud.com/pt/domains/whois/).
->> Se se tratar de um nome de domínio genérico (.com, .org. net, etc.), este ficará "reservado" durante um período dito de *graça*  (cerca de 7 dias) e durante o de *redenção* (cerca de 35 a 40 dias suplementares). Estes prazos são variáveis e dependem da extensão e das regras do registo que detém a extensão. Apenas você poderá renovar o nome de domínio durante estes dois períodos.
->> Durante o período de graça, poderá renová-lo através da Área de Cliente, seguindo as etapas deste guia.
->> Durante o período de redenção, o domínio não é gerido pela OVHcloud. A sua renovação através da Área de Cliente provocará custos suplementares (que variam em função da extensão).
->> Após o período de redenção, o domínio entra numa fase de eliminação que pode durar vários dias, antes de voltar ao domínio público. Se desejar recuperar a utilização, aconselhamos-o a utilizar a ferramenta [Whois de um domínio](https://www.ovhcloud.com/pt/domains/whois/) para verificar a sua disponibilidade regularmente.
-> Não quero renovar o meu nome de domínio mas transferi-lo para um outro escritório de representação que não seja a OVHcloud. Como fazer?
->> Siga as instruções do nosso guia "[Transferir um domínio para outro agente de registo](/pages/web_cloud/domains/transfer_outgoing_domain)".
+> Tenho uma questão relativa à renovação do meu nome de domínio
+>> Consulte o nosso guia "[Renovar os meus nomes de domínio OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)".
 > Não quero mais débito direto, mas não quero cancelar o meu serviço. O que devo fazer?
 >> Se o seu serviço o permitir, pode utilizar a ação [Configurar a renovação](#actions) e assim escolher uma renovação manual.
 > Renovei o meu serviço por 12 meses. Posso voltar atrás na minha escolha?
@@ -216,6 +206,8 @@ O seguinte quadro especifica as ações agrupadas possíveis.
 ## Quer saber mais?
 
 Este guia não respondeu à sua pergunta? Consulte [FAQ sobre faturação e pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
+
+[Renovar os meus nomes de domínio OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)
 
 [Gerir os métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
