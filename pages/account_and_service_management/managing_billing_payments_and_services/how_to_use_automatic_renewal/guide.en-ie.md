@@ -1,7 +1,7 @@
 ---
 title: Managing renewal for OVHcloud services
 excerpt: Find out how to manage automatic renewal for your services via the OVHcloud Control Panel
-updated: 2024-01-26
+updated: 2024-11-12
 ---
 
 ## Objective

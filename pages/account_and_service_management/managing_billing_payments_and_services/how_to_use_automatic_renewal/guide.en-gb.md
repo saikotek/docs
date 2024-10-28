@@ -1,7 +1,7 @@
 ---
 title: How to renew OVHcloud services
 excerpt: Find out how to manage your services and their renewal via the OVHcloud Control Panel
-updated: 2024-01-26
+updated: 2024-11-12
 ---
 
 ## Objective

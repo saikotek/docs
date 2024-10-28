@@ -1,12 +1,8 @@
 ---
 title: Wie verlängere ich meine OVHcloud Dienste?
 excerpt: Erfahren Sie hier, wie Sie Ihre Dienstleistungen und deren Verlängerung in Ihrem Kundencenter verwalten
-updated: 2024-01-26
+updated: 2024-11-12
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -191,14 +187,8 @@ In der folgenden Tabelle sind die möglichen gruppierten Aktionen aufgeführt.
 >> Damit die automatische Verlängerung für Ihre Dienste aktiviert werden kann, muss Ihrem OVHcloud Kunden-Account ein gültiges Zahlungsmittel hinzugefügt worden sein. Ist das nicht der Fall oder ist das Zahlungsmittel abgelaufen, erscheint beim Versuch, die automatische Verlängerung zu aktivieren, eine Fehlermeldung im Kundencenter. Lesen Sie unsere Anleitung „[Zahlungsarten verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)“, um eine Zahlungsart zu überprüfen oder hinzuzufügen.
 > Meine Zahlungsart ist nicht mehr gültig. Wie füge ich eine neue Zahlungsart hinzu?
 >> Lesen Sie unsere Anleitung „[Meine Zahlungsarten verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)“. Bevor Sie ein veraltetes Zahlungsmittel löschen können, müssen Sie ein neues gültiges Zahlungsmittel zu Ihrem OVHcloud Kunden-Account hinzufügen.
-> Ich habe vergessen, meinen Domainnamen rechtzeitig zu verlängern, was kann ich tun?
->> Überprüfen Sie zunächst den Status des Domainnamens mithilfe des [Domain Whois-Tools](https://www.ovhcloud.com/de/domains/whois/).
->> Handelt es sich um eine generische Endung (.com, .org, .net, etc.), bleibt der Domainname für die sog. "*grace period*" (ca. 7 Tage) und dann für einen "*Redemption*"-Zeitraum (ca. 35 bis 40 weitere Tage) reserviert. Diese Fristen sind variabel und hängen von der jeweiligen Domainendung und den Regeln der zuständigen Registry ab, welche die Domainendung verwaltet. Während dieser beiden Zeiträume sind nur Sie selbst berechtigt, den Domainnamen zu verlängern.
->> Während dieser Fristen können Sie über das Kundencenter verlängern. Folgen Sie hierzu den Schritten in dieser Anleitung.
->> Während der Redemption-Phase wird der Domainname nicht mehr von OVHcloud verwaltet. Bei der Verlängerung über Ihr Kundencenter fallen daher zusätzliche Kosten an (die je nach Endung variieren können).
->> Nach der Redemption-Phase tritt der Domainname in eine Löschphase ein, die sich über mehrere Tage erstrecken kann, bevor er wieder öffentlich verfügbar wird. Wenn Sie den Domainnamen erneut verwenden möchten, empfehlen wir Ihnen, die Verfügbarkeit regelmäßig mit dem [Whois-Tool](https://www.ovhcloud.com/de/domains/whois/) zu überprüfen.
-> Ich möchte meine Domain nicht verlängern, sondern zu einem anderen Registrar als OVHcloud transferieren. Wie gehe ich vor?
->> Folgen Sie den Anweisungen in unserer Anleitung „[Transfer einer Domain zu einem anderen Registrar](/pages/web_cloud/domains/transfer_outgoing_domain)“.
+> Ich habe eine Frage zur Verlängerung meiner Domain
+>> Lesen Sie unsere Anleitung „[Meine OVHcloud Domainnamen verlängern](/pages/web_cloud/domains/autorenew_domain_name)“.
 > Ich möchte keine weiteren automatischen Zahlungen mehr, aber meine Dienstleistung nicht kündigen. Was soll ich tun?
 >> Wenn Ihr Dienst dies erlaubt, können Sie die Aktion [Verlängerung konfigurieren](#actions) verwenden und so eine manuelle Verlängerung auswählen.
 > Ich habe meine Dienstleistung für 12 Monate verlängert. Kann ich meine Auswahl ändern?
@@ -216,6 +206,8 @@ In der folgenden Tabelle sind die möglichen gruppierten Aktionen aufgeführt.
 ## Weiterführende Informationen
 
 Diese Anleitung hat Ihre Frage nicht beantwortet? [FAQ zur Abrechnung und Zahlung](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
+
+[Meine OVHcloud Domainnamen verlängern](/pages/web_cloud/domains/autorenew_domain_name)
 
 [Zahlungsarten verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 

@@ -1,7 +1,7 @@
 ---
 title: Jak odnawiać usługi OVHcloud
 excerpt: Dowiedz się, jak zarządzać usługami i odnawianiem usług w Panelu klienta
-updated: 2024-01-26
+updated: 2024-11-12
 ---
 
 > [!primary]

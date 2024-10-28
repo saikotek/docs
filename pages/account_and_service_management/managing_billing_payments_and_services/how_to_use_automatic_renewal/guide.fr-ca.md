@@ -1,7 +1,7 @@
 ---
 title: Gérer le renouvellement de mes services
 excerpt: Apprenez à gérer le renouvellement de vos services OVHcloud dans votre espace client
-updated: 2024-01-26
+updated: 2024-11-12
 ---
 
 ## Objectif

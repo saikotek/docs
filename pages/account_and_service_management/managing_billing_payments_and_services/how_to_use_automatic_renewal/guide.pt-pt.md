@@ -1,7 +1,7 @@
 ---
 title: Como renovar os meus serviços OVHcloud
 excerpt: Descubra como gerir os seus serviços e a sua renovação na sua Área de Cliente
-updated: 2024-01-26
+updated: 2024-11-12
 ---
 
 > [!primary]
