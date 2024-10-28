@@ -117,7 +117,7 @@ Une fois connecté à votre VPS, l'arborescence des fichiers locaux apparaît à
 
 Sélectionnez les fichiers de votre site web et la base de données que vous avez téléchargés lors de l'[étape 1.2](#step1.2). Faites-les glisser vers le répertoire web de votre VPS à droite de l'interface. Le répertoire web est l'endroit où les fichiers de votre site web seront stockés pour être accessibles sur Internet. Par défaut, il peut s'agir d'un dossier nommé `/var/www/html` ou d'un autre répertoire configuré pendant l'installation de votre serveur web lors de l'[étape 2.2](#step2.2). Assurez-vous de placer vos fichiers dans le dossier configuré comme racine web pour que votre site web fonctionne correctement.
 
-### Étape 4 : importer la base de données sur votre VPS (facultatif)
+### Étape 4 - Importer la base de données sur votre VPS (facultatif)
 
 > [!warning]
 >
