@@ -217,4 +217,4 @@ This guide did not answer your question? View our [Billing and Payment FAQ](/pag
 
 [Manage billing for your Exchange accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
