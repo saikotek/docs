@@ -103,7 +103,7 @@ Pour installer cet environnement web, consultez notre guide « [Installer un env
 
 Utiliser le **S**ecure **F**ile **T**ransfer **P**rotocol (**SFTP**) est la méthode recommandée pour transférer les fichiers de votre site web vers votre VPS. Il offre un niveau de sécurité supérieur au FTP grâce à l'utilisation du chiffrement fourni par le service SSH, déjà activé par défaut sur votre VPS OVHcloud.
 
-#### Étape 3.1 : se connecter à votre VPS en SFTP
+#### Étape 3.1 - Se connecter à votre VPS en SFTP
 
 Suivez l'étape « Lancer la connexion SFTP » de notre guide « [Utiliser FileZilla avec votre hebergement](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) » en utilisant la configuration suivante :
 
