@@ -111,7 +111,7 @@ Suivez l'étape « Lancer la connexion SFTP » de notre guide « [Utiliser FileZ
 - **Identifiant** et **mot de passe** : ceux de votre compte utilisateur SSH sur le VPS.
 - **Port** : utilisez le port 22 (port par défaut pour SFTP).
 
-#### Étape 3.2 : transférer les fichiers de votre site web vers le VPS
+#### Étape 3.2 - Transférer les fichiers de votre site web vers le VPS
 
 Une fois connecté à votre VPS, l'arborescence des fichiers locaux apparaît à gauche de l'interface FileZilla, et celle de votre VPS à droite.
 
