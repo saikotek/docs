@@ -129,7 +129,7 @@ Connectez-vous au VPS en SSH en consultant la section « Se connecter à votre V
 
 Une fois connecté à votre VPS via une connexion en SSH, utilisez la ligne de commande ci-dessous pour réaliser l'importation de la base de données.
 
-Dans l'exemple ci-dessous, nous utilisons MySQL comme SGBD (**S**ystème de **G**estion de **B**ase de **D**onnées). Dirigez-vous vers la documentation officielle du SGBD que vous avez installé lors de l'[étape 2.2](#step2.2) afin d'utiliser la ligne de commande adéquate pour importer la base de données sur votre VPS.
+Dans l'exemple ci-dessous, nous utilisons MySQL comme **S**ystème de **G**estion de **B**ase de **D**onnées (**SGBD**). Dirigez-vous vers la documentation officielle du SGBD que vous avez installé lors de l'[étape 2.2](#step2.2) afin d'utiliser la ligne de commande adéquate pour importer la base de données sur votre VPS.
 
 ```php
 <?php
