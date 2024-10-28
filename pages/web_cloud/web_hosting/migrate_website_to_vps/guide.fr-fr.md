@@ -213,7 +213,7 @@ Une fois la migration terminée, testez votre site web pour vous assurer qu'il f
 
 Après avoir migré votre site web sur votre VPS, il est crucial de sécuriser votre serveur afin de protéger vos données et garantir le bon fonctionnement de vos services. Voici quelques mesures à prendre pour renforcer la sécurité de votre VPS :
 
-- Modifier le mot de passe SSH par défaut fourni par OVHcloud.
+- Modifier le mot de passe SSH et le port d'accès SSH par défaut fournis par OVHcloud.
 - Configurer un pare-feu.
 - Configurer l'authentification à deux facteurs (2FA).
 - Surveiller les logs.
