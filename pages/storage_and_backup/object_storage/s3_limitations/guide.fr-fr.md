@@ -46,6 +46,11 @@ Illimité
 - Ne peut comporter plusieurs signes de ponctuation à la suite (« .. » ou « -. » ou « .- » ou « -- »).
 - Ne peut ressembler à une adresse IP (192.168.1.1).
 
+> [!warning]
+>
+> Pour une meilleure compatibilité, nous vous recommandons d'éviter d'utiliser des points (.) dans les noms de bucket, sauf pour les buckets qui sont utilisés uniquement pour l'hébergement de sites web statiques. Si vous incluez des points dans le nom d'un bucket, vous ne pouvez pas utiliser l'adressage en virtual host style en HTTPS, à moins que vous n'effectuiez votre propre validation de certificat. En effet, les certificats de sécurité utilisés pour l'hébergement virtuel des buckets ne fonctionnent pas pour les buckets dont le nom comporte des points.
+>
+
 ## Limitations des objets
 
 ### Taille maximum par object / mpu / part
