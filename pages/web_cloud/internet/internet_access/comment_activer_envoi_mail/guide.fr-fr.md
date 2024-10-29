@@ -1,8 +1,7 @@
 ---
 title: "Activer ou désactiver l'envoi d'e-mails depuis le SMTP OVHcloud"
 excerpt: "Découvrez comment activer ou désactiver l'envoi d'e-mails depuis votre connexion OVHcloud via l'espace client"
-updated: 2024-10-16
-flag: hidden
+updated: 2024-10-29
 ---
 
 ## Objectif
@@ -42,7 +41,7 @@ Dans le cadre « Informations générales », reportez-vous à l'élément de la
 > De plus, dès lors où une adresse e-mail ou une adresse IP (celle de votre accès internet) est détectée comme étant utilisée pour des envois de courrier indésirable, elle se verra être systématiquement bloquée par les adresses de vos correspondants même si votre e-mail est légitime. De plus, votre adresse IP risque d'être répertoriée comme étant " à risque " sur les différents sites internet et solutions de protection contre le spam.
 >
 
-> [!alert]
+> [!warning]
 >
 > Le changement de statut entraînera une déconnexion/reconnexion de votre accès internet dans un intervalle de 5 à 10 minutes après avoir validé l'action.
 >
