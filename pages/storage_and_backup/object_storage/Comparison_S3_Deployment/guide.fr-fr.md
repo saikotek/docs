@@ -81,7 +81,7 @@ Bien que proposant une protection accrue, ce mode de déploiement peut ne pas ê
 | **Haute disponibilité**| Maintien de l'accès malgré une panne de zone           |
 | **Cas d'utilisation**  | Applications critiques, streaming, e-commerce, e-santé        |
 
-### Local Zones
+### 4. Local Zones
 
 #### Design et flexibilité
 
