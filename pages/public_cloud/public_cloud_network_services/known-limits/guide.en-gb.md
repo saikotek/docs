@@ -37,6 +37,26 @@ When a service is spawned in a subnet, it is using some IPs from the subnet CIDR
 
 The traffic towards Load Balancer IP (private IP or floating IP) is filtered. Which means the `ping` on these IPs will not answer.
 
+## Instance bandwidth
+
+> [!primary]
+> A single (TCP or UDP) flow is characterized by the following 5-tuple:
+> - **Protocol**: TCP
+> - **Source IP Address**: 192.168.1.10
+> - **Destination IP Address**: 192.168.1.20
+> - **Source Port Number**: 5000
+> - **Destination Port Number**: 80
+> 
+
+The bandwidth provided with each instance can be achieved using **TCP/UDP multi-flow**.
+
+When using `iperf` to test your instance bandwidth, you will need to use the `-P n` or `--parallel n` option. If `n = 1` (which is the default if this option is omitted), you are using a single flow to test your bandwidth, and you may not reach the advertised bandwidth.
+
+To achieve maximum bandwidth, you will need to increase the value of `n`.
+
+
+
+
 ## We want your feedback!
 
 We would love to help answer questions and appreciate any feedback you may have.
