@@ -37,7 +37,9 @@ Click on the `Managed VMware vSphere`{.action} section, select your infrastructu
 
 To list your VMware environments, click `All my services`{.action}.
 
-To access the `Manage user permissions section in the vSphere client`{.action}, click `Create a user`{.action} or `Modify`{.action} a user.
+To access the « Manage user permissions in the vSphere client », click on `User`{.action} section.
+
+To create or modify a user click `Create User`{.action} or `Modify`{.action} a user.
 
 ![Logging in to vSphere HTML5](/pages/assets/screens/control_panel/product-selection/hosted-private-cloud/vmware/vmware_users.png){.thumbnail}
 
