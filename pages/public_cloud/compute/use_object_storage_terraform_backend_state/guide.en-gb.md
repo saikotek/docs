@@ -1,7 +1,7 @@
 ---
 title: 'Using OVHcloud Object Storage as Terraform Backend to store your Terraform state'
 excerpt: 'Find out how to use an OVHcloud Object Storage as a Terraform Backend to store your Terraform state'
-updated: 2023-12-06
+updated: 2024-10-29
 ---
 
 ## Objective
@@ -78,6 +78,7 @@ $ aws s3 ls
 Create a `backend.tf` file with the following content:
 
 Before Terraform version 1.6.0:
+
 ```hcl
 terraform {
     backend "s3" {
@@ -100,6 +101,7 @@ terraform {
 ```
 
 After Terraform version 1.6.0:
+
 ```hcl
 terraform {
     backend "s3" {
