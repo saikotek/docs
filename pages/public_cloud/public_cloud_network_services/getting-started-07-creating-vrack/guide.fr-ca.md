@@ -6,7 +6,7 @@ updated: 2024-10-24
 
 ## Objectif
 
-Le [vRack](https://www.ovh.com/ca/fr/solutions/vrack/) est un réseau privé qui vous permet de configurer l’adressage entre plusieurs serveurs dédiés OVHcloud. Mais il vous permet également d’ajouter des [instances Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
+Le [vRack](/links/network/vrack) est un réseau privé qui vous permet de configurer l’adressage entre plusieurs serveurs dédiés OVHcloud. Mais il vous permet également d’ajouter des [instances Public Cloud](/links/public-cloud/compute) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
 
 **Ce guide a pour objectif de vous accompagner dans la configuration de vos instances Public Cloud au sein de votre vRack.**
 
@@ -27,7 +27,7 @@ Selon votre profil technique et vos besoins, vous serez amenés à devoir choisi
 
 ### Espace client OVHcloud
 
-[L'espace client OVHcloud](/links/manager) est une interface entièrement et uniquement visuelle, ce qui en fait une interface idéale à la gestion de plusieurs VLAN. Vous aurez également la possibilité de personnaliser la plage d'IP privée, qui est par défaut de 10.x.x.x/16.
+[L'espace client OVHcloud](/links/manager) est une interface entièrement et uniquement visuelle, ce qui en fait une interface idéale à la gestion de plusieurs VLAN. Vous aurez également la possibilité de personnaliser la plage d'IP privée qui, par défaut, est 10.x.x.x/16.
 
 Les VLAN seront déployés dans la Région sélectionnée. Vous aurez également la possibilité d'activer ou non les passerelles, d'activer les distributions DHCP, etc.
 
@@ -103,7 +103,7 @@ Pour cela, vous devez choisir le bon fournisseur et la bonne ressource Terraform
 #### Depuis l'espace client OVHcloud
 
 > [!primary]
-> Ceci ne s’applique pas aux projets nouvellement créés, qui sont automatiquement livrés avec un vRack. Pour visualiser le vRack une fois le projet créé, rendez-vous dans le menu `Bare Metal Cloud`{.action} et cliquez sur `Network`{.action} dans l’onglet de gauche. Cliquez sur `Réseau Privé vRack`{.action} pour voir le(s) vRack(s).
+> Ceci ne s’applique pas aux projets nouvellement créés qui sont automatiquement livrés avec un vRack. Pour visualiser le vRack une fois le projet créé, rendez-vous dans le menu `Bare Metal Cloud`{.action} et cliquez sur `Network`{.action} dans l’onglet de gauche. Cliquez sur `Réseau Privé vRack`{.action} pour voir le(s) vRack(s).
 >
 
 Ce produit est gratuit et la mise à disposition ne prend que quelques minutes. Cependant, il nécessite la création et la validation d'un bon de commande.
@@ -175,7 +175,7 @@ Dans le champ **Nom du réseau privé**, définissez un nom pour votre réseau p
 Sélectionnez cette option si vous avez l'intention de créer des instances avec un réseau privé uniquement. Pour plus d’informations, nous vous invitons à consulter les guides suivants : [Créer un réseau privé avec une Gateway](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway) et [Créer une première instance Public Cloud et s’y connecter](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!warning]
-> Si l'option est grisée, cela signifie qu'elle est incompatible avec la région sélectionnée. Pour plus d’informations, veuillez vous référer à notre page sur la [disponibilité des produits Public Cloud pour chaque région](https://www.ovhcloud.com/fr-ca/public-cloud/regions-availability/).
+> Si l'option est grisée, cela signifie qu'elle est incompatible avec la région sélectionnée. Pour plus d’informations, veuillez vous référer à notre page sur la [disponibilité des produits Public Cloud pour chaque région](/links/public-cloud/computeregions-availability/).
 >
 
 **Options réseau du layer 2**

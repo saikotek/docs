@@ -6,14 +6,14 @@ updated: 2024-10-24
 
 ## Objectif
 
-Le [vRack](https://www.ovh.com/ca/fr/solutions/vrack/) OVHcloud est un réseau privé qui vous permet de configurer l'adressage entre deux ou plusieurs [Serveurs dédiés](https://www.ovh.com/ca/fr/serveurs_dedies/) OVHcloud. Mais il vous permet également d'ajouter des [instances Public Cloud](https://www.ovh.com/ca/fr/public-cloud/instances/) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
+Le [vRack](/links/network/vrack/) OVHcloud est un réseau privé qui vous permet de configurer l'adressage entre deux ou plusieurs [Serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud. Mais il vous permet également d'ajouter des [instances Public Cloud](https://www.ovh.com/ca/fr/public-cloud/instances/) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
 
-**Ce guide vous montre comment configurer le réseau privé entre une [instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) et un [Serveur dédié](https://www.ovh.com/ca/fr/serveurs_dedies/).**
+**Ce guide vous montre comment configurer le réseau privé entre une [instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) et un [Serveur dédié](/links/bare-metal/bare-metal).**
 
 ## Prérequis
 
 * Avoir créé une [instance Public Cloud OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps)
-* Avoir activé un service [vRack](https://www.ovh.com/ca/fr/solutions/vrack)
+* Avoir activé un service [vRack](/links/network/vrack)
 * Posséder un [serveur dédié](/links/bare-metal/bare-metal) compatible avec le vRack
 * Être connecté à l'[espace client OVHcloud](/links/manager)
 * Une plage d'adresses IP privées de votre choix
@@ -28,10 +28,9 @@ Le [vRack](https://www.ovh.com/ca/fr/solutions/vrack/) OVHcloud est un réseau p
 ### Ajouter un projet Public Cloud au vRack
 
 > [!primary]
-> Ceci ne s'applique pas aux projets nouvellement créés, qui sont automatiquement livrés avec un vRack. Pour visualiser le vRack une fois le projet créé, allez dans le menu `Bare Metal Cloud`{.action} et cliquez sur `Network`{.action} dans l'onglet de gauche. Cliquez sur `Réseau Privé vRack`{.action} pour visualiser le(s) vRack(s).
+> Ceci ne s'applique pas aux projets nouvellement créés qui sont automatiquement livrés avec un vRack. Pour visualiser le vRack une fois le projet créé, allez dans le menu `Bare Metal Cloud`{.action} et cliquez sur `Network`{.action} dans l'onglet de gauche. Cliquez sur `Réseau Privé vRack`{.action} pour visualiser le(s) vRack(s).
 >
 > Vous pouvez également retirer le projet du vRack qui lui a été attribué et l'attacher à un autre vRack si vous le souhaitez, en particulier si vous aviez déjà un vRack existant avec votre/vos serveur(s) dédié(s).
-
 
 Pour les projets plus anciens, une fois que vous avez commandé votre [vRack](/links/network/vrack), rendez-vous dans le menu `Bare Metal Cloud`{.action}, cliquez sur `Network`{.action} dans l'onglet de gauche, puis sur `Réseau Privé vRack`{.action}. Sélectionnez votre vRack dans la liste.
 
@@ -50,7 +49,7 @@ Deux situations peuvent se présenter à vous :
 
 #### Cas d’une nouvelle instance
 
-Si vous avez besoin d’aide, consultez le guide [Créer une instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps#create-instance){.external}. Lors de la création d’une instance, vous pourrez spécifier, durant l’étape 5, un réseau privé dans lequel intégrer votre instance.
+Si vous avez besoin d’aide, consultez le guide [Créer une instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps#create-instance). Lors de la création d’une instance, vous pourrez spécifier, durant l’étape 5, un réseau privé dans lequel intégrer votre instance.
 
 #### Cas d’une instance déjà existante
 
@@ -88,7 +87,6 @@ Cette étape offre plusieurs options de configuration. Pour les besoins de ce gu
 >>
 >> Si vous ne cochez pas la case, le système attribuera un numéro d'identifiant VLAN aléatoire à votre réseau privé.
 >>
->>
 > **Utilisation d'un VLAN ID différent**
 >>
 >> Si vous n'avez pas l'intention d'utiliser le VLAN ID **0**, vous pouvez sélectionner un ID différent compris entre 1 et 4000. Les règles suivantes s'appliquent :
@@ -102,14 +100,14 @@ Cette étape offre plusieurs options de configuration. Pour les besoins de ce gu
 >> [!primary]
 >> Contrairement aux serveurs dédiés (lorsque l’on utilise un VLAN ID différent de 0), il n’est pas nécessaire d’inclure directement le VLAN ID dans le fichier de configuration réseau de l’instance Public Cloud une fois qu’il est paramétré dans l’espace client OVHcloud.
 >>
->> Exemple : si votre réseau privé d'instance est « taggué » avec le VLAN 2, ce VLAN ID doit être inclus dans la configuration réseau du serveur dédié uniquement. Pour plus d'informations, consultez le guide suivant : [Create multiple VLANs in the vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
+>> Exemple : si votre réseau privé d'instance est « taggué » avec le VLAN 2, ce VLAN ID doit être inclus dans la configuration réseau du serveur dédié uniquement. Pour plus d'informations, consultez le guide suivant : [Créer plusieurs VLAN dans le vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
 >>
 > **Options de distribution des adresses DHCP**
 >>
 >> Vous pouvez conserver la plage IP privée par défaut ou en utiliser une autre.
 >>
 
-Une fois fait, cliquez sur `Créer`{.action}. Cette opération peut prendre quelques minutes.
+Une fois la configuration terminée, cliquez sur `Créer`{.action}. Cette opération peut prendre quelques minutes.
 
 Dans le tableau de bord de l'instance correspondante, cliquez sur le bouton `...`{.action} dans la case « Réseaux », à côté de « Réseau(x) privé(s) », et sélectionnez `Attacher un réseau`{.action}.
 
