@@ -78,7 +78,7 @@ $ aws s3 ls
 Create a `backend.tf` file with the following content:
 
 Before Terraform version 1.6.0:
-```yaml
+```hcl
 terraform {
     backend "s3" {
       bucket = "terraform-state-hp"
@@ -89,12 +89,18 @@ terraform {
       skip_credentials_validation = true
       skip_region_validation      = true
       skip_s3_checksum            = true
+
+      # The following fields should be added if your S3 user credentials are not
+      # already configured in files ~/.aws/credentials, ~/.aws/config or in
+      # environment variables.
+      access_key                  = "s3 user access key"
+      secret_key                  = "s3 user secret key"
     }
 }
 ```
 
 After Terraform version 1.6.0:
-```yaml
+```hcl
 terraform {
     backend "s3" {
       bucket = "terraform-state-hp"
@@ -108,6 +114,12 @@ terraform {
       skip_region_validation      = true
       skip_requesting_account_id  = true
       skip_s3_checksum            = true
+
+      # The following fields should be added if your S3 user credentials are not
+      # already configured in files ~/.aws/credentials, ~/.aws/config or in
+      # environment variables.
+      access_key                  = "s3 user access key"
+      secret_key                  = "s3 user secret key"
     }
 }
 ```
