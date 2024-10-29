@@ -34,7 +34,7 @@ OVHcloud propose plusieurs modes déploiement adaptés à différents besoins en
 
 #### Infrastructure et redondance
 
-Une région 1-AZ se compose d'une **seule zone de disponibilité qui couvre plusieurs datacenters dans la même région**, utilisant une conception redondante 2N+1. Cette configuration offre une résilience contre les défaillances de rack de serveurs et de disques durs, mais elle peut être vulnérable à une panne plus global d'un datacenter. Notez que dans une région 1-AZ, le service Object Storage S3 est situé dans un datacentre spécifique, et en cas de panne dans ce datacenter, l'accès aux données pourrait être impacté, même si les autres datacenters de la zone restent opérationnels.
+Une région 1-AZ se compose d'une **seule zone de disponibilité qui couvre plusieurs datacenters dans la même région**, utilisant une conception redondante 2N+1. Cette configuration offre une résilience contre les défaillances de rack de serveurs et de disques durs, mais elle peut être vulnérable à une panne plus global d'un datacenter. Notez que dans une région 1-AZ, le service Object Storage S3 est situé dans un datacenter spécifique, et en cas de panne dans ce datacenter, l'accès aux données pourrait être impacté, même si les autres datacenters de la zone restent opérationnels.
 
 #### Caractéristiques
 
@@ -52,7 +52,7 @@ Pour renforcer la résilience des applications critiques dans une région 1-AZ, 
 
 | Paramètre              | Description                                           |
 |------------------------|-------------------------------------------------------|
-| **Type de redondance** | 2N+1 entre plusieurs datacentres               |
+| **Type de redondance** | 2N+1 entre plusieurs datacenters               |
 | **Tolérance aux pannes** | Niveau serveur et disque ; risque de panne du centre de données |
 | **Cas d'utilisation**  | Applications générales, sauvegardes                   |
 
