@@ -1,7 +1,7 @@
 ---
 title: "Hébergement web - Activer un certificat SSL Sectigo EV"
 excerpt: "Découvrez comment commander et installer un certificat SSL Sectigo EV sur votre hébergement Web OVHcloud"
-updated: 2024-10-28
+updated: 2024-10-29
 ---
 
 ## Objectif
@@ -57,8 +57,8 @@ Pour vérifier si vous êtes éligible à la souscription d'un certificat SSL Se
 
 Les certificats SSL Sectigo EV proposés chez OVHcloud ne sont valables que pour l'un des deux cas suivants sur votre hébergement web :
 
- - un seul nom de domaine + son sous-domaine en « www » (exemple : `domain.tld` et `www.domain.tld`) ;
- - un seul sous-domaine (exemple : `sub.domain.tld`).
+- un seul nom de domaine + son sous-domaine en « www » (exemple : `domain.tld` et `www.domain.tld`) ;
+- un seul sous-domaine (exemple : `sub.domain.tld`).
 
 Cela signifie que si vous avez d'autres noms de domaine/sous-domaines déclarés en multisite sur votre hébergement web, ces derniers ne pourront pas bénéficier d'un certificat SSL.
 
@@ -83,7 +83,7 @@ Si vous avez besoin d'activer un certificat SSL pour plusieurs noms de domaine/s
 >
 > Dans le cas où vous souhaitez souscrire à un certificat SSL Sectigo EV pour un nom de domaine (exemple : `domain.tld`), vérifiez bien que son sous-domaine en « www » (exemple : `www.domain.tld`) pointe bien également vers l'adresse IP de votre hébergement web et est correctement déclaré en multisite.
 >
-> En effet, le cas échéant et si vous commandez le certificat SSL Sectigo EV sans vous en assurer, vous devrez effectuer un correctif a posteriori. Vous devrez alors supprimer le certificat SSL Sectigo EV précédemment souscrit **sans être remboursé**, puis en commander un nouveau. L'objectif est que le nouveau certificat SSL Sectigo EV englobe bien à la fois votre nom de domaine `domain.tld` et son son sous-domaine en « www » `www.domain.tld`.
+> En effet, le cas échéant et si vous commandez le certificat SSL Sectigo EV sans vous assurer des points précédents, vous devrez effectuer un correctif a posteriori. Vous devrez alors supprimer le certificat SSL Sectigo EV précédemment souscrit **sans pouvoir bénéficier d'un remboursement**, puis en commander un nouveau. L'objectif est que le nouveau certificat SSL Sectigo EV englobe bien à la fois votre nom de domaine `domain.tld` et son son sous-domaine en « www » `www.domain.tld`.
 >
 > Pour rappel, si vous souscrivez à un certificat SSL Sectigo EV directement pour un sous-domaine (exemple : `sub.domain.tld`), vous n'êtes pas concerné par cette situation.
 
@@ -99,7 +99,7 @@ Pour commander le certificat SSL Sectigo EV, réalisez les actions suivantes :
 
 ![Order an SSL certificate](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/order-an-ssl-certificate.png){.thumbnail}
 
-Dans la fenêtre qui apparaît, sélectionnez `Certificat payant`{.action} parmi la liste des choix possibles.
+Dans la fenêtre qui apparaît, sélectionnez `Certificat payant`{.action} parmi les choix possibles.
 
 Sélectionnez ensuite le nom de domaine/sous-domaine concerné dans la liste déroulante qui apparaît, puis cliquez sur `Suivant`{.action}.
 

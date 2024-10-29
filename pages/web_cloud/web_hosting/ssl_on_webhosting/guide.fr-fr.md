@@ -1,12 +1,12 @@
 ---
 title: "Hébergement web - Gérer un certificat SSL"
 excerpt: "Découvrez comment gérer un certificat SSL sur votre hébergement web OVHcloud"
-updated: 2024-10-22
+updated: 2024-10-29
 ---
 
 ## Objectif
 
-Les certificats Secure Socket Layer (SSL) permettent de chiffrer les échanges effectués depuis ou vers votre site web. Cela évite qu'une personne ou un robot malveillant ne vienne « écouter » clairement les requêtes envoyées ou émises avec votre site web.
+Les certificats Secure Socket Layer (SSL) permettent de chiffrer les échanges effectués depuis ou vers votre site web. Cela évite qu'une personne ou un robot malveillant ne vienne « écouter » clairement les requêtes envoyées depuis votre site web.
 
 OVHcloud propose plusieurs types de certificats SSL sur nos offres d'[hébergement mutualisé OVHcloud](/links/web/hosting). Ils vous sont présentés plus bas dans ce guide. Les certificats SSL sont incontournables pour la sécurité de votre site web.
 
@@ -34,7 +34,7 @@ Disposer d'un certificat SSL pour son site web est incontournable pour l'utilise
 
 > [!warning]
 >
-> **Avant de poursuivre**, vérifiez que **le (les) nom(s) de domaine et/ou sous-domaine(s)** concerné(s) par votre futur certificat SSL :
+> **Avant de poursuivre**, vérifiez que **le(s) nom(s) de domaine et/ou sous-domaine(s)** concerné(s) par votre futur certificat SSL :
 >
 > - pointe(nt) vers l'adresse IP de votre hébergement web ; 
 > - est (sont) déclaré(s) en multisite sur votre hébergement web.
@@ -54,7 +54,7 @@ Retrouvez ci-dessous les 4 liens vers nos guides dédiés à ces 4 solutions :
 - [Activer le certificat SSL gratuit Let's Encrypt (DV)](/pages/web_cloud/web_hosting/ssl_letsencrypt) : certificat pouvant inclure jusqu'à **99** noms de domaines/sous-domaines déclarés sur un hébergement web.
 - [Activer le certificat SSL payant Sectigo (DV)](/pages/web_cloud/web_hosting/ssl_dv) : certificat valable pour un seul nom de domaine + son sous-domaine en « www » (exemple : `domain.tld` et `www.domain.tld`) ou **uniquement** un sous-domaine (exemple : `sub.domain.tld`).
 - [Activer le certificat SSL payant Sectigo (EV)](/pages/web_cloud/web_hosting/ssl_ev) : certificat valable pour un seul nom de domaine + son sous-domaine en « www » (exemple : `domain.tld` et `www.domain.tld`) ou **uniquement** un sous-domaine (exemple : `sub.domain.tld`).
-- [Installer un certificat SSL personnalisé](/pages/web_cloud/web_hosting/ssl_custom) : si vous disposez de votre propre certificat SSL ou qu'aucune des 3 solutions précédentes ne correspondent à vos besoins.
+- [Installer un certificat SSL personnalisé](/pages/web_cloud/web_hosting/ssl_custom) : si vous disposez de votre propre certificat SSL ou qu'aucune des 3 solutions précédentes ne correspond à votre besoin.
 
 > [primary]
 >
@@ -62,15 +62,13 @@ Retrouvez ci-dessous les 4 liens vers nos guides dédiés à ces 4 solutions :
 >
 > Si vous avez besoin d'activer un certificat SSL pour plusieurs noms de domaine/sous-domaines déclarés sur votre hébergement web, privilégiez l'installation d'un [certificat SSL gratuit Let's Encrypt](/links/web/hosting-options-ssl) ou installez votre propre [certificat SSL personnalisé](/pages/web_cloud/web_hosting/ssl_custom).
 
-Si nécessaire, n'hésitez pas à consulter les 4 guides ci-dessus avant de faire votre choix.
-
 ### Supprimer un certificat SSL sur un hébergement web <a name="delete-ssl"></a>
 
 > [!warning]
 >
 > Si vous souhaitez supprimer un certificat SSL de votre hébergement web et **avant de poursuivre**, assurez-vous que la suppression du certificat SSL ne rendra pas vos sites web inaccessibles. Le cas échéant, vos utilisateurs rencontreront une erreur de sécurité lorsqu'ils essaieront d'accéder à votre site web en « HTTPS ».
 
-Cette vérification étant inhérente aux paramètres de votre ou vos sites web, nous vous recommandons de contacter un prestataire de services spécialisé si vous rencontrez des difficultés. Nous ne serons pas en mesure de vous fournir une assistance à ce propos.
+Cette vérification étant inhérente aux paramètres de votre ou vos sites web, nous vous recommandons de contacter un prestataire de services spécialisé si vous rencontrez des difficultés. Nous ne serons pas en mesure de vous fournir une assistance à ce sujet.
 
 Pour supprimer le certificat SSL installé sur votre hébergement web, effectuez les actions suivantes : 
 
@@ -121,7 +119,7 @@ Pour éditer la zone DNS active de votre nom de domaine, consultez notre guide �
 
 - 3 : Aucun des noms de domaines présent dans l'onglet « multisite » ne dispose d'une option SSL « active » :
 
-Pour résoudre la situation, activez le certificat SSL pour le (les) nom(s) de domaine. Si besoin, consultez la partie « [Activer un certificat SSL](#ssl-enable) » du présent guide pour poursuivre vos actions.
+Pour résoudre la situation, activez le certificat SSL pour le (les) nom(s) de domaine. Si besoin, consultez la partie « [Activer un certificat SSL](#ssl-enable) » de ce guide pour poursuivre vos actions.
 
 #### Vous avez commandé un SSL Sectigo EV en même temps que votre hébergement web, mais le certificat n'est pas encore actif et l'hébergement web ne fonctionne pas correctement
 
@@ -156,7 +154,7 @@ Si besoin, consultez notre tutoriel « [Hébergement web - Passer son site web e
 
 > [!success]
 >
-> Les éléments concernés sur la page web peuvent être vus directement à partir des informations SSL du navigateur internet, en consultant les *détails du Certificat*.
+> Les éléments concernés sur la page web peuvent être vus directement à partir des informations SSL du navigateur internet, en consultant les *détails du certificat*.
 >
 
 ## Aller plus loin
