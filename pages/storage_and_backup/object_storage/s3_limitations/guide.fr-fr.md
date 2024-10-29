@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Limites techniques
 excerpt: "Retrouvez ici les limites techniques de l'offre S3 Object Storage"
-updated: 2024-10-24
+updated: 2024-10-29
 ---
 
 ## Objectif
@@ -14,7 +14,7 @@ Retrouvez ici les limites techniques relatives à l'offre S3 Object Storage OVHc
 
 1 Gbps / connexion.
 
-Étant donné que la solution **S3 Object Storage OVHcloud** est un système hautement distribué, l’utilisation de **requêtes parallèles** vous aidera à surmonter cette limitation. En fonction de votre application et de votre cas d'usage, cette opération peut être effectuée en initiant simultanément des demandes (également appelées demandes simultanées).
+Étant donné que la solution **S3 Object Storage OVHcloud** est un système hautement distribué, l’utilisation de **requêtes parallèles** vous aidera à surmonter cette limitation. En fonction de votre application et de votre cas d'usage, cette opération peut être effectuée en initiant simultanément des requêtes (également appelées *concurrent requests*).
 
 Découvrez comment maximiser vos performances avec [ce guide](/pages/storage_and_backup/object_storage/s3_performance_optimization).
 
@@ -48,7 +48,7 @@ Illimité
 
 > [!warning]
 >
-> Pour une meilleure compatibilité, nous vous recommandons d'éviter d'utiliser des points (.) dans les noms de bucket, sauf pour les buckets qui sont utilisés uniquement pour l'hébergement de sites web statiques. Si vous incluez des points dans le nom d'un bucket, vous ne pouvez pas utiliser l'adressage en virtual host style en HTTPS, à moins que vous n'effectuiez votre propre validation de certificat. En effet, les certificats de sécurité utilisés pour l'hébergement virtuel des buckets ne fonctionnent pas pour les buckets dont le nom comporte des points.
+> Pour une meilleure compatibilité, nous vous recommandons d'éviter d'utiliser des points (.) dans les noms de bucket, sauf pour les buckets qui sont utilisés uniquement pour l'hébergement de sites web statiques. Si vous incluez des points dans le nom d'un bucket, vous ne pouvez pas utiliser l'adressage de type *virtual host* en HTTPS, à moins d'effectuer votre propre validation de certificat. En effet, les certificats de sécurité utilisés pour l'hébergement virtuel des buckets ne fonctionnent pas pour les buckets dont le nom comporte des points.
 >
 
 ## Limitations des objets

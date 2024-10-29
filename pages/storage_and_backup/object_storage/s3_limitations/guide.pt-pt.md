@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Limites técnicos (EN)
 excerpt: Find here the technical limits of the S3 Object Storage offer
-updated: 2024-10-24
+updated: 2024-10-29
 ---
 
 ## Objective
@@ -50,7 +50,6 @@ Unlimited
 >
 > For best compatibility, we recommend that you avoid using dots (.) in bucket names, except for buckets that are used only for static website hosting. If you include dots in a bucket's name, you can't use virtual-host-style addressing over HTTPS, unless you perform your own certificate validation. This is because the security certificates used for virtual hosting of buckets don't work for buckets with dots in their names.
 >
-
 
 ## Object limitations
 
