@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zainstalować Twoją stronę WWW za pomocą 'moduł�
 updated: 2024-10-07
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie 
 
 Moduły za pomocą 1 kliknięcia umożliwiają łatwą i szybką instalację strony WWW (bez konieczności posiadania wiedzy technicznej). "Moduły za 1 kliknięciem" to w rzeczywistości **C**ontent **M**anagement **S**ystem **(CMS)**. Dzięki temu OVHcloud proponuje zainstalowanie najpopularniejszych systemów CMS: *WordPress*, *Joomla!*, *Drupal* i *PrestaShop*.

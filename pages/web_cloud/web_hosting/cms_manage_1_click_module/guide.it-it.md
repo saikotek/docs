@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come gestire il tuo modulo in 1 click dallo Spa
 updated: 2024-10-11
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 I moduli in 1 click permettono di installare facilmente e rapidamente un software online di supporto alla creazione di siti Internet (comunemente chiamato "CMS"). OVHcloud ti propone i più conosciuti: WordPress, PrestaShop, Drupal e Joomla!.

@@ -4,10 +4,6 @@ excerpt: "Descubra como instalar o seu website através dos nossos 'módulos 1 c
 updated: 2024-10-07
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Os "módulos 1 clique" permitem a instalação fácil e rápida de um website (sem competências técnicas requeridas). Os "módulos 1 clique" são, na realidade, **C**ontent **M**anagement **S**ystem **(CMS)**. Desta forma, a OVHcloud propõe a instalação dos CMS mais conhecidos: *WordPress*, *Joomla!*, *Drupal* e *PrestaShop*.

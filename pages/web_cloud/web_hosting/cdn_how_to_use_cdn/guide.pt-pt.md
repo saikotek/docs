@@ -4,11 +4,6 @@ excerpt: "Saiba como melhorar o seu website acelerando o seu carregamento no seu
 updated: 2024-10-07
 ---
 
-> [!primary]
->
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Se deseja melhorar a experiência dos seus utilizadores acelerando o seu site, a técnica mais eficaz é ativar um CDN (Content Delivery Network). Este último permite colocar em cache os ficheiros estáticos tais como as imagens, os css e os javascript, nos servidores mais próximos dos seus clientes.
