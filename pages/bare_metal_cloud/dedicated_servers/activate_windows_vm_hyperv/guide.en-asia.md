@@ -24,7 +24,7 @@ updated: 2024-10-28
 
 This tutorial assumes that you have already installed the Hyper-V role and have access to the Hyper-V Manager. If you have not done this, you can refer to Microsoft's guide to installing the Hyper-V role [here](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server){.external}.
 
-The steps below are for standard activation only. If you have a Windows Datacenter licence, you can also proceed with activation via [AVMA activation](https://learn.microsoft.com/en-us/windows-server/get-started/automatic-vm-activation?tabs=server2019#system-requirements){.external}, which we recommend.
+The steps below are for standard activation only. If you have a Windows Datacenter licence, we recommend proceeding with [Automatic Virtual Machine Activation (AVMA)](https://learn.microsoft.com/en-us/windows-server/get-started/automatic-vm-activation?tabs=server2019#system-requirements){.external}.
 
 ### Creating a NAT Network
 
