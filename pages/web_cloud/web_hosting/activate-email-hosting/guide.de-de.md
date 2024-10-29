@@ -4,9 +4,6 @@ excerpt: "Diese Anleitung erklärt, wie Sie die in Ihrem Webhosting inklusiven E
 updated: 2024-10-01
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie beim geringsten Zweifel die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
-
 ## Ziel 
 
 Wenn Sie ein Webhosting bestellt haben, ohne es direkt mit einem Domainnamen zu verbinden, müssen die im Angebot beinhalteten optionalen E-Mail-Adressen manuell aktiviert werden. Sie können diese mit einem Domainnamen Ihrer Wahl verbinden.

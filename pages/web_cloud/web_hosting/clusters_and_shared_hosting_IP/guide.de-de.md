@@ -4,10 +4,6 @@ excerpt: "Diese Anleitung erklärt, wie Sie welche IP-Adresse für Ihr OVHcloud 
 updated: 2024-02-28
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie beim geringsten Zweifel die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button «Mitmachen» auf dieser Seite.
->
-
 ## Ziel 
 
 Es kann notwendig werden, Zugriffseinstellungen für Dienste manuell anzupassen. Hierfür benötigen Sie dann die korrekte IP-Adresse, die zur spezifischen Konfiguration Ihres Webhostings gehört. Das ist etwa der Fall beim Konfigurieren von DNS-Zonen, ACLs oder OVHcloud Zusatzleistungen wie CDN, Länder-IPs oder SSL-Zertifikate.

@@ -4,10 +4,6 @@ excerpt: "Saiba como gerir o módulo 1 clique na Área de Cliente OVHcloud"
 updated: 2024-10-11
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Os módulos 1 clique permitem a instalação fácil e rápida de um software on-line de assistência à criação de um website (vulgarmente denominado "CMS"). A OVHcloud propõe-lhe os mais conhecidos: WordPress, PrestaShop, Drupal e Joomla!.

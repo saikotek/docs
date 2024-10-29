@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come creare il tuo sito Web con i nostri 'modul
 updated: 2024-10-07
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 I "moduli in 1 click" permettono l'installazione semplice e rapida di un sito Web (senza competenze tecniche specifiche). I "moduli in 1 click" sono in realtà **C**ontent **M**anagement **S**ystem **(CMS)***. Per questo motivo, OVHcloud propone l'installazione dei CMS più utilizzati: *WordPress*, *Joomla!*, *Drupal* e *PrestaShop*.

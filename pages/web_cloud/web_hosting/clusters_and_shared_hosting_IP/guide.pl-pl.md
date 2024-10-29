@@ -4,10 +4,6 @@ excerpt: "Poznaj wszystkie dostępne adresy IP dostępne na naszych hostingach"
 updated: 2024-02-28
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk „Zaproponuj zmianę” na tej stronie.
->
-
 ## Wprowadzenie 
 
 W tym przewodniku znajdziesz wszystkie adresy IP hostingów WWW OVHcloud. Dzięki temu dowiesz się na przykład, jaki adres IP wpisać w strefach DNS w zależności od elementów takich jak:
