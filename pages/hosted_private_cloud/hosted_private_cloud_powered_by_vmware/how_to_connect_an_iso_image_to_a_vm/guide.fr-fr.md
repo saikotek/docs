@@ -1,8 +1,12 @@
 ---
-title: Connecter une image ISO à une VM
-excerpt: Comment connecter une image ISO à une machine virtuelle ?
-updated: 2022-01-11
+title: "Connecter une image ISO à une VM"
+excerpt: "Comment connecter une image ISO à une machine virtuelle ?"
+updated: 2024-10-29
 ---
+
+> [!primary]
+> Vous pouvez consulter le guide [Téléverser un ISO dans un datastore](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_datastore_upload) pour plus d'information sur le téléversement d'éléments (ISO, fichiers, etc..) dans votre environnement VMware on OVHcloud.
+
 
 ## Objectif
 
@@ -61,4 +65,8 @@ L'image est désormais connectée et disponible pour votre VM comme si c'était 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Pour aller plus loin avec le téléversement au sein de votre environnement Hosted Private Cloud - VMware on OVHcloud consultez le guide [Téléverser un ISO dans un datastore](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_datastore_upload).
+
+En effet, vous pouvez utiliser votre client web HTML sécurisé vCenter on OVHcloud mais aussi `govc` (voir procédure dans le guide). 
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).
