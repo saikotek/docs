@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Network Services - Limites connues
 excerpt: 'Prérequis et limites à respecter'
-updated: 2024-08-09
+updated: 2024-10-30
 ---
 
 ## Projets Vrack et Public Cloud
@@ -15,7 +15,7 @@ Actuellement, la page détaillant le Load Balancer dans l'espace client OVHcloud
 Vous pouvez retrouver cette information :
 
 - dans [Horizon](/pages/public_cloud/compute/introducing_horizon) ;
-- via le [CLI OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)) en effectuant `openstack floating ip list` et `openstack loadbalancer list` ;
+- via le [CLI OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) en effectuant `openstack floating ip list` et `openstack loadbalancer list` ;
 - en utilisant l'API OVHcloud :
 
 > [!api]
@@ -49,4 +49,4 @@ Nous serions ravis de vous aider à répondre à vos questions et que vous nous 
 
 Êtes-vous sur Discord ? Connectez-vous à notre chaîne sur <https://discord.gg/ovhcloud> et interagissez directement avec l'équipe qui construit nos services !
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.

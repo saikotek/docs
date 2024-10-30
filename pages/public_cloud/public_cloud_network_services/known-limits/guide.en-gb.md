@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Network Services - Known limits
 excerpt: 'Requirements and limits to respect'
-updated: 2024-08-09
+updated: 2024-10-30
 ---
 
 ## Vrack and Public Cloud projects
@@ -43,11 +43,10 @@ To achieve the maximum bandwidth provided with each instance you may need to use
 
 For example, when using iperf to test your instance bandwidth, you can enable multi-flow by adding the `-P n` or `--parallel n` option. If n = 1 (which is the default if this option is omitted), you are testing bandwidth with a single flow. To achieve maximum bandwidth, you should increase the value of n.
 
-
 ## We want your feedback!
 
 We would love to help answer questions and appreciate any feedback you may have.
 
 Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our services!
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
