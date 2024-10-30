@@ -28,7 +28,7 @@ Sous `Mon compte`{.action}, cliquez sur `Identités et accès (IAM)`{.action} et
 
 ![IAM USER POLICY](images/iam_policies_resize.png){.thumbnail}
 
-Vous retrouverez vos politiques que vous avez déjà créés.
+Vous retrouvez ici les politiques que vous avez déjà créés.
 
 Cliquez sur votre politique `Ma politique`{.action} ou sur `Modifier ma politique`{.action}.
 
