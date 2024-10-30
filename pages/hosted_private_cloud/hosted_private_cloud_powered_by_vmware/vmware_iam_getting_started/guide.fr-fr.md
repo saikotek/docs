@@ -67,7 +67,7 @@ Lorsque IAM est désactivé dans votre espace client :
 
 ![IAM Activation Non Enabled](images/iam_enabled.png){.thumbnail}
 
-Voici la capture de IAM activé :
+Lorsque IAM est activé dans votre espace client  :
 
 ![IAM IAM Activation Enabled](images/iam_disabled.png){.thumbnail}
 
