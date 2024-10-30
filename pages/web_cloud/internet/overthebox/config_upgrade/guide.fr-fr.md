@@ -1,7 +1,7 @@
 ---
 title: 'Comment mettre à jour un appareil OverTheBox'
 excerpt: 'Découvrez comment mettre à jour votre appareil OverTheBox'
-updated: 2024-06-10
+updated: 2024-10-23
 ---
 
 ## Objectif
@@ -74,7 +74,7 @@ Par défaut, un appareil OverTheBox est sur le canal `stable` qui contient la de
 D'autre canaux sont disponibles :
 
 - Le canal `beta` permet de tester la prochaine version du logiciel avant le déploiment sur le canal `stable`.
-- Les canaux de versions, comme `v0.8`, `v0.9`, permettent de maintenir votre matériel sur une version majeure précise. Seules des mises à jour mineures, telles que des correctifs, seront proposées.
+- Les canaux de versions, comme `v0.9`, `v1.0`, permettent de maintenir votre matériel sur une version majeure précise. Seules des mises à jour mineures, telles que des correctifs, seront proposées.
 
 Connectez-vous à votre [espace client OVHcloud](/links/manager), partie `Telecom`{.action}.
 
@@ -113,15 +113,27 @@ L'ensemble des modifications est consultable ici :
 
 ## Aller plus loin
 
+### Impossible de se connecter à l'OverTheBox après une mise à jour
+
+Il est recommandé d'attendre environ dix minutes après le lancement de la mise à jour de l'OverTheBox avant de s'y connecter.
+En effectuant une mise à jour ou une réinitialisation, les baux DHCP précédemment alloués aux appareils du LAN ne sont plus considérés comme étant émis par l'OverTheBox, cela peut potentiellement induire des problèmes pour les équipement du LAN.
+
+Dans ce cas, les recommandations sont les suivantes :
+
+- Débranchez le câble réseau entre l'ordinateur et l'OverTheBox puis rebranchez-le au bout d'environ une minute.
+- Redémarrez les services réseau sur l'ordinateur.
+- Redémarrerzl'ordinateur pour le « forcer » à oublier l'ancien lease DHCP.
+- Si aucune des étapes précédentes ne fonctionne, débranchez électriquement l'OverTheBox pendant environ une minute puis rebranchez-la.
+
 ### Matrice des versions
 
 | Canal | OverTheBox | OpenWRT | Linux | MPTCP | Compatibilité du matériel |
 | ---  | :---: | :---: | :---: | :---: | ---: |
 | v0.8 | v0.8.1 | 19.07.10 | 4.14.276 | v0.94 | nuc, ITv1, rpi3, v2b, v2c |
-| v0.9 | v0.9.4 | 21.02.5 | 5.4.217 | v0.96 | v2b, v2c |
-| v1.0 | v1.0.0 | 23.05.2 | 5.15.137 | v1 | v2b, v2c |
-| stable | v0.9.4 | 21.02.5 | 5.4.217 | v0.96 | v2b, v2c |
-| v1.0 | v1.0.0 | 23.05.2 | 5.15.137 | v1 | v2b, v2c |
+| v0.9 | v0.9.6 | 21.02.5 | 5.4.217 | v0.96 | v2b, v2c |
+| v1.0 | v1.0.3 | 23.05.5 | 5.15.167 | v1 | v3lte, v3, v2b, v2c |
+| stable | v0.9.6 | 21.02.5 | 5.4.217 | v0.96 | v2b, v2c |
+| beta | v1.0.3 | 23.05.5 | 5.15.167 | v1 | v3lte, v3, v2b, v2c |
 
 ### Installer manuellement une image
 

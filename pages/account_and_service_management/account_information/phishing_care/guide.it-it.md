@@ -1,7 +1,7 @@
 ---
 title: 'Proteggersi dalle truffe: come riconoscere email fraudolente e di phishing'
 excerpt: 'Come riconoscere un’email di phishing e cosa fare se si clicca su un link fraudolento'
-updated: 2020-10-12
+updated: 2024-10-30
 ---
 
 ## Obiettivo
@@ -10,9 +10,7 @@ Il phishing consiste nell’invio di un’email contenente un link che ti reindi
 
 **Questa guida ti mostra come riconoscere una email di phishing e cosa fare se si clicca su un link fraudolento.**
 
-## Prerequisiti
-
-- Nessun prerequisito specifico
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/RED6EuCLFjk?si=9ppewOVm_bXymThM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Procedura
 
@@ -33,12 +31,7 @@ Hai ricevuto un’email a nome di OVHcloud e vuoi essere sicuro che sia corretta
 |---|---|---|
 |1 - Mittente|Controlla che l’indirizzo utilizzato per l’invio dell’email termini per “@ovhcloud.com”, “@ovh.com”, “@soyoustart.com” o “@kimsufi.com”.|Il più delle volte, l’email sarà contrassegnata come spam tra parentesi e il tuo nome utente non comparirà oppure sarà errato.|
 |2 - Oggetto|Verifica che il tuo nome utente **(che inizia con la prima lettera del cognome e la prima lettera del nome registrati su OVHcloud)** e/o l’indirizzo email del tuo account figurino nell’oggetto del messaggio.|Il più delle volte, l’email sarà contrassegnata come spam tra parentesi e il tuo nome utente non comparirà oppure sarà errato.|
-|3 - Link|Passa il mouse sul link in modo da visualizzarne direttamente il contenuto senza doverci cliccare (in fondo alla pagina del tuo browser). Il link dovrà reindirizzare alla pagina https://www.ovh.com/.|Nel nostro esempio, passando il mouse sul link, vedrai che quest’ultimo non ha niente a che vedere con OVHcloud, pertanto non cliccarci.|
-
-> [!primary]
-> 
-> Se sei un cliente Kimsufi o So you Start, non dovrai mai pagare alcuna somma a OVHcloud. Quindi non considerare questo tipo di email.
-> 
+|3 - Link|Passa il mouse sul link in modo da visualizzarne direttamente il contenuto senza doverci cliccare (in fondo alla pagina del tuo browser). Il link dovrà reindirizzare alla pagina `https://www.ovh.com/`.|Nel nostro esempio, passando il mouse sul link, vedrai che quest’ultimo non ha niente a che vedere con OVHcloud, pertanto non cliccarci.|
 
 #### Segnalare una email di phishing
 
@@ -59,7 +52,7 @@ L’unica cosa da fare è contattare rapidamente la tua banca per bloccare la ca
 
 #### Se hai inserito la password del tuo account OVHcloud su un sito fraudolento
 
-Accedi al tuo Spazio Cliente OVHcloud e modifica immediatamente la password. Ti consigliamo inoltre di attivare la doppia autenticazione come ulteriore forma di protezione per il tuo account.
+Accedi al tuo [Spazio Cliente OVHcloud](/links/manager) e modifica immediatamente la password. Ti consigliamo inoltre di attivare la doppia autenticazione come ulteriore forma di protezione per il tuo account.
 
 > [!primary]
 >

@@ -4,10 +4,6 @@ excerpt: "Descubra todas las direcciones IP disponibles con nuestros alojamiento
 updated: 2024-02-28
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Esta guía recoge todas las direcciones IP de los alojamientos web de OVHcloud. De esta forma podrá encontrar, por ejemplo, la dirección IP que debe introducir en sus zonas DNS en función de:

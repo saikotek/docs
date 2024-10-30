@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ
 excerpt: "Frequently Asked Questions on the Object Storage solution"
-updated: 2024-06-21
+updated: 2024-10-30
 ---
 
 ## General questions
@@ -11,6 +11,8 @@ updated: 2024-06-21
 Object Storage is a family of storage solutions offering high-performance, scalable and secure storage spaces.
 
 Object storage solutions allow static files (videos, images, web files, etc.) to be stored in an unlimited space via a public access point called the "endpoint", so that they can be used from an application or made accessible on the web. These storage spaces are accessed through a standard S3 API interface for the S3 Object Storage classes and Swift for the SWIFT Object Storage classes.
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/8xXbL3Ftgwk?si=OaRx5koocA-OyRXC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### In what use case should an object storage solution be used?
 
@@ -157,6 +159,8 @@ You can choose to synchronize your data from one region to another using rClone.
 
 - [Use S3 Object Storage with rClone](/pages/storage_and_backup/object_storage/s3_rclone)
 - [Use Swift Object Storage with rclone](/pages/storage_and_backup/object_storage/pcs_sync_rclone_object_storage)
+
+You can also use the asynchronous replication feature available on S3 object storage buckets. Follow [this guide](/pages/storage_and_backup/object_storage/s3_asynchronous_replication) to get more details about this feature.
 
 ### Is it possible to manage data lifecycles?
 

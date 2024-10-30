@@ -1,7 +1,7 @@
 ---
 title: 'Crear respuestas automáticas en OWA'
 excerpt: 'Cómo configurar respuestas automáticas en OWA'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Objetivo
@@ -12,20 +12,28 @@ Esta herramienta de Exchange le permite configurar respuestas automáticas, de m
 
 ## Requisitos
 
- - Haber instalado una solución de correo de OVHcloud [Exchange](https://www.ovhcloud.com/es/emails/hosted-exchange/) o [Email Pro](https://www.ovhcloud.com/es/emails/email-pro/)
+ - Haber instalado una solución de correo de OVHcloud [Exchange](/links/web/emails-hosted-exchange) o [Email Pro](/links/web/email-pro)
 - Tener acceso a la cuenta de correo (dirección de correo electrónico y contraseña).
 
 ## Procedimiento
 
+> [!warning]
+>
+> Si su dirección de correo electrónico está asociada a un producto **MX Plan** (incluida con los [alojamientos web](/links/web/hosting) y los [alojamientos gratuitos 100M](/links/web/domains-free-hosting), su área de cliente ofrece una sección titulada `Gestión de los contestadores`{.action}. En ese caso, deberá crear una respuesta automática desde el área de cliente de OVHcloud, utilizando la documentación "[MX Plan - Crear una respuesta automática en una dirección de correo electrónico](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses)".
+
 ### Activar la herramienta
 
-Inicie sesión en su cuenta de Exchange a través del [correo electrónico basado en la web de OVHcloud](https://www.ovh.es/mail/). Haga clic en el símbolo del engranaje en la parte superior derecha para desplegar el menú «Opciones» y seleccione `«Respuestas automáticas»`{.action}.
+Inicie sesión en su cuenta de Exchange a través del [correo electrónico basado en la web de OVHcloud](/links/web/email). Haga clic en el símbolo del engranaje en la parte superior derecha para desplegar el menú "Opciones" y seleccione `Respuestas automáticas`{.action}.
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-En esta interfaz, simplemente active la herramienta seleccionando `«Enviar respuestas automáticas»`{.action}. Puede especificar un periodo de tiempo exacto en los campos siguientes o activarla de forma indefinida. Si no se especifican las horas de inicio y de finalización, se deberá desactivar manualmente la herramienta. 
+En esta interfaz, simplemente active la herramienta seleccionando `Enviar respuestas automáticas`{.action}. Puede especificar un periodo de tiempo exacto en los campos siguientes o activarla de forma indefinida.
 
-Escriba su mensaje en el cuadro de edición y confirme con el botón `«Guardar»`{.action} que se encuentra en la parte superior izquierda.
+> [!primary]
+>
+> Si no especifica una hora de inicio y de finalización, la respuesta automática deberá desactivarse manualmente.
+
+Escriba su mensaje en el cuadro de edición y confirme con el botón `Guardar`{.action} que se encuentra en la parte superior izquierda.
 
 ![owaautoreply](images/exchange-autorep-step2.png){.thumbnail}
 
@@ -55,4 +63,8 @@ Puede escribir un mensaje alternativo para los remitentes externos en el segundo
 
 [Compartir calendarios en OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Para servicios especializados (posicionamiento, desarrollo, etc.), contacte con [partners de OVHcloud](/links/partner).
+
+Si quiere disfrutar de ayuda para utilizar y configurar sus soluciones de OVHcloud, puede consultar nuestras distintas soluciones [pestañas de soporte](/links/support).
+
+Interactúe con nuestra [comunidad de usuarios](/links/community).
