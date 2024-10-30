@@ -197,7 +197,7 @@ Modifiez les variables suivantes dans le fichier `parameters.php` :
 >>
 >> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour Drupal](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-file-permissions-and-ownership)
 
-Si vous utilisez une base de données Web Cloud Database, vérifiez que votre VPS est autorisé à s'y connecter. Pour cela, ajoutez l'adresse IP du VPS à la liste des adresses IP autorisées. Cette configuration permet de sécuriser l'accès à la base de données et d'éviter tout problème de connexion. Consultez la section « Autoriser une adresse IP » de notre guide « [Premiers pas avec le service Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb) ».
+Si vous utilisez une base de données Web Cloud Databases, vérifiez que votre VPS est autorisé à s'y connecter. Pour cela, ajoutez l'adresse IP du VPS à la liste des adresses IP autorisées. Cette configuration permet de sécuriser l'accès à la base de données et d'éviter tout problème de connexion. Consultez la section « Autoriser une adresse IP » de notre guide « [Premiers pas avec le service Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb) ».
 
 ### Étape 6 - Associer votre nom de domaine à l'adresse IP du VPS
 
