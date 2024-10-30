@@ -122,7 +122,7 @@ Sélectionnez les fichiers de votre site web et la base de données que vous ave
 
 > [!warning]
 >
-> Si votre base de données est déjà hébergée sur un service Web Cloud Database, il n'est pas nécessaire de la migrer vers le VPS. Vous pouvez conserver la base de données sur le service Web Cloud Database et configurer votre VPS pour qu'il se connecte à cette base de données ([étape 5](#step5)).
+> Si votre base de données est déjà hébergée sur un service Web Cloud Databases, il n'est pas nécessaire de la migrer vers le VPS. Vous pouvez conserver la base de données sur le service Web Cloud Databases et configurer votre VPS pour qu'il se connecte à cette base de données ([étape 5](#step5)).
 
 Si vous souhaitez importer la base de données sur votre VPS, suivez les étapes ci-dessous.
 
