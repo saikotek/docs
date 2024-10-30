@@ -1,7 +1,7 @@
 ---
 title: 'Activer des Machines Windows utilisant Hyper-V sur un Windows Server sous licence OVHcloud'
 excerpt: "Apprenez à créer et activer une machine virtuelle à l'aide de Hyper-V sur un serveur Windows sous licence OVHcloud"
-updated: 2024-10-28
+updated: 2024-10-30
 ---
 
 ## Objectif
