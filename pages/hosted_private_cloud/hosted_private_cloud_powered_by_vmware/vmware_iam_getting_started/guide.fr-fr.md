@@ -57,7 +57,7 @@ Les diagrammes ci-dessous sont dédiés à l'utilisation avec Hosted Private Clo
 
 IAM est actuellement dans une version BETA sur la plateforme OVHcloud. Les infrastructures bénéficiant des offres de sécurité réseau renforcée (NSX) ou d'un service certifié (Hébergement de Données de Santé (HDS), Hébergement de données bancaires (PCI-DSS) ou SecNumCloud) ne peuvent actuellement pas utiliser l'IAM OVHcloud.
 
-Un rôle IAM ne peut être ajouté que grâce aux actions manuelles dans une politique globale (action : assumerole -> role_iam). Pour plus d'informations, consultez le guide « [Comment créer un rôle IAM das Vsphere](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_iam_role_policy) ».
+Un rôle IAM ne peut être ajouté que grâce aux actions manuelles dans une politique globale (action : assumerole -> role_iam). Pour plus d'informations, consultez le guide « [Comment créer un rôle IAM dans Vsphere](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_iam_role_policy) ».
 
 ### Est-ce que je peux activer IAM facilement ?
 
