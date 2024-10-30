@@ -1,13 +1,9 @@
 ---
 title: Pierwsze kroki z serwerem VPS
 excerpt: Dowiedz się, jak zarządzać serwerem VPS w Panelu klienta i poznaj pierwsze kroki korzystania z niego, w tym zdalne połączenia i środki bezpieczeństwa
-updated: 2024-10-01
+updated: 2024-10-30
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
- 
 ## Wprowadzenie
 
 Prywatny serwer wirtualny (VPS) to zwirtualizowany serwer dedykowany, który zapewnia większą elastyczność i kontrolę w porównaniu do tradycyjnych rozwiązań hostingowych. W przeciwieństwie do rozwiązań hostingowych zarządzanych przez OVHcloud, w których zadania związane z zarządzaniem są wykonywane, administrowanie serwerem VPS należy wyłącznie do Ciebie. Jako administrator systemu jesteś odpowiedzialny za konfigurację, konserwację i zabezpieczenie serwera, w celu zagwarantowania jego prawidłowego działania i niezawodności.
@@ -77,6 +73,8 @@ Poniżej znajdziesz podstawowe informacje o Twoim serwerze VPS oraz o stanie us�
 >>
 
 ### Twoja konfiguracja
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/RcXaZwLhCbY?si=UFygSsQv47LpKIdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Kliknij poniższe karty, aby wyświetlić szczegóły tej sekcji.
 
