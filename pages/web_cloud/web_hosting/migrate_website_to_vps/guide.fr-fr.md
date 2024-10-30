@@ -161,7 +161,7 @@ Après avoir transféré les fichiers de votre site web et, le cas échéant, im
 >>
 > PrestaShop
 >>
-Modifiez les variables suivantes dans le fichier `parameters.php` :
+>> Modifiez les variables suivantes dans le fichier `parameters.php` :
 >> 
 >> - **database_host** : l'hôte de la base de données.
 >> - **database_name** : le nom de la base de données.
