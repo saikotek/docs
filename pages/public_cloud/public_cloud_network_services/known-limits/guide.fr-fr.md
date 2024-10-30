@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Network Services - Limites connues
 excerpt: 'Prérequis et limites à respecter'
-updated: 2024-08-09
+updated: 2024-10-30
 ---
 
 ## Projets Vrack et Public Cloud
@@ -15,7 +15,7 @@ Actuellement, la page détaillant le Load Balancer dans l'espace client OVHcloud
 Vous pouvez retrouver cette information :
 
 - dans [Horizon](/pages/public_cloud/compute/introducing_horizon) ;
-- via le [CLI OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)) en effectuant `openstack floating ip list` et `openstack loadbalancer list` ;
+- via le [CLI OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) en effectuant `openstack floating ip list` et `openstack loadbalancer list` ;
 - en utilisant l'API OVHcloud :
 
 > [!api]
@@ -37,10 +37,16 @@ Lorsqu'un service est généré dans un sous-réseau, il utilise certaines IP du
 
 Le trafic ICMP est bloqué sur les IPs (privées et publique via floating IP) du Load Balancer. Le `ping` sur ces IPs ne répondra donc pas.
 
+## Bande passante des instances
+
+Pour atteindre la bande passante maximale fournie avec chaque instance, vous pourriez avoir besoin d'utiliser le **multi-flow**.
+
+Par exemple, lorsque vous utilisez `iperf` pour tester la bande passante de votre instance, vous pouvez activer le multi-flow en ajoutant l'option `-P n` ou `--parallel n`. Si n = 1 (qui est la valeur par défaut si cette option est omise), vous testez la bande passante avec un seul flux. Pour atteindre la bande passante maximale, vous devez augmenter la valeur de n.
+
 ## Nous voulons vos retours !
 
 Nous serions ravis de vous aider à répondre à vos questions et que vous nous fassiez part de vos commentaires.
 
 Êtes-vous sur Discord ? Connectez-vous à notre chaîne sur <https://discord.gg/ovhcloud> et interagissez directement avec l'équipe qui construit nos services !
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
