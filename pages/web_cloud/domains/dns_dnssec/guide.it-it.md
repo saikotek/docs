@@ -27,7 +27,7 @@ Per maggiori informazioni su questi argomenti, consulta le nostre guide disponib
 
 ## Prerequisiti
 
-- Disporre di un dominio registrato in OVHcloud.
+- Disporre di un dominio.
 - l’estensione del dominio deve essere compatibile con DNSSEC.
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager){.external}, sezione `Web Cloud`{.action}.
 

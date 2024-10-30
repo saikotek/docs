@@ -27,7 +27,7 @@ You can also refer to our guides on [OVHcloud DNS servers](/pages/web_cloud/doma
 
 ## Requirements
 
-- You have a domain name registered with OVHcloud.
+- You have a domain name.
 - The domain name extension is compatible with DNSSEC.
 - You have access to your [OVHcloud Control Panel](/links/manager){.external} in the `Web Cloud`{.action} section.
 

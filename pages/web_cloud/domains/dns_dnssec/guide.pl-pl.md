@@ -27,7 +27,7 @@ Zapoznaj się również z naszymi przewodnikami dotyczącymi [serwerów DNS OVHc
 
 ## Wymagania początkowe
 
-- Zarejestrowana domena OVHcloud
+- Zarejestrowana domena.
 - Nazwa domeny musi posiadać rozszerzenie kompatybilne z DNSSEC.
 - Dostęp do [Panelu klienta OVHcloud](/links/manager){.external}, część `Web Cloud`{.action}.
 

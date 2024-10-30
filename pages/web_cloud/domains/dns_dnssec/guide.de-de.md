@@ -25,7 +25,7 @@ Lesen SIe dazu auch unsere Anleitungen zu [OVHcloud DNS-Servern](/pages/web_clou
 
 ## Voraussetzungen
 
-- Sie verfügen über einen bei OVHcloud registrierten Domainnamen.
+- Sie besitzen eine Domain.
 - Der Domainname hat eine mit DNSSEC kompatible Endung.
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 

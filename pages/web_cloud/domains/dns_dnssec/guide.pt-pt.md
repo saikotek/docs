@@ -27,7 +27,7 @@ Não hesite também em consultar os nossos manuais sobre [os servidores DNS da O
 
 ## Requisitos
 
-- Ter um nome de domínio registado na OVHcloud.
+- Dispor de um nome de domínio.
 - O domínio afetado deve dispor de uma extensão compatível com o DNSSEC.
 - Ter acesso à [Área de Cliente OVHcloud](/links/manager){.external}, secção `Web Cloud`{.action}.
 
