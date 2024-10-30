@@ -1,12 +1,8 @@
 ---
 title: "Alojamento web - Como fazer evoluir a sua oferta"
 excerpt: "Saiba como alterar a forma de subscrição do seu plano de alojamento web da OVHcloud"
-updated: 2024-10-03
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -19,6 +15,8 @@ A sua [Área de Cliente OVHcloud](/links/manager) permite aumentar as capacidade
 - de funcionalidades suplementares como as [mailing-lists](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (a partir de [a oferta Pro](/links/web/hosting-professional-offer)) ou o [serviço Web Cloud Databases](/links/web/databases){.external} (incluído em [oferta Performance](/links/web/hosting-performance-offer).
 
 **Saiba como fazer evoluir a sua oferta de alojamento OVHcloud, sem interrupção de serviço.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/vRO7DXx9UsI?si=JOL6gOaCQQ2spsID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 

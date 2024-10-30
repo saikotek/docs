@@ -1,7 +1,7 @@
 ---
 title: "Hébergement web - Comment faire évoluer son offre"
 excerpt: "Découvrez comment modifier la formule d'abonnement de votre offre d'hébergement web OVHcloud"
-updated: 2024-10-03
+updated: 2024-10-30
 ---
 
 ## Objectif
@@ -15,6 +15,8 @@ Votre [espace client OVHcloud](/links/manager) permet d'augmenter les capacités
 - de fonctionnalités supplémentaires comme les [mailing-lists](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (à partir de [l'offre Pro](/links/web/hosting-professional-offer)) ou le [service Web Cloud Databases](/links/web/databases){.external} (compris dans [les offres Performance](/links/web/hosting-performance-offer)).
 
 **Découvrez comment faire évoluer votre offre d'hébergement OVHcloud, sans interruption de service.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/13xoy2KJCkM?si=dJ3760y-dniRO4qz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Prérequis
 
