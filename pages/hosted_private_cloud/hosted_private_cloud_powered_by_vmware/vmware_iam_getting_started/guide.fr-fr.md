@@ -6,7 +6,7 @@ updated: 2024-10-24
 
 ## Objectif
 
-**Ce guide vous présente les principes de fonctionnement, les limitations et une FAQ de IAM au sein de votre offre VMware on OVHcloud**.
+**Ce guide vous présente les principes de fonctionnement et les limitations de IAM au sein de votre offre VMware on OVHcloud**.
 
 ## Prérequis
 
