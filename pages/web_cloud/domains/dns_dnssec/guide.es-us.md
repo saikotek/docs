@@ -33,53 +33,106 @@ Si desea más información sobre estos temas, no dude en consultar nuestras guí
 
 ## Procedimiento
 
-Existen dos formas de activar el **DNSSEC**:
+Para comprobar si su dominio utiliza la configuración DNS de OVHcloud, conéctese al [área de cliente de OVHcloud](/links/manager){.external} y acceda a `Web Cloud`{.action}. En la columna izquierda, haga clic en `Dominios`{.action} y seleccione el dominio correspondiente en la lista. Abra la pestaña `Servidores DNS`{.action} y seleccione el dominio correspondiente.
 
-- **Su dominio utiliza los servidores DNS de OVHcloud** : la activación se realiza en un clic desde su [área de cliente de OVHcloud](/links/manager){.external} (si esta no está activada por defecto).
-
-- **Su dominio no utiliza los servidores DNS de OVHcloud** : Contacte con el proveedor que gestione la configuración DNS del dominio para pedirle su configuración. Conéctese a su [área de cliente de OVHcloud](/links/manager){.external} y acceda a la sección `Web Cloud`{.action}. En la columna izquierda, haga clic en `Dominios`{.action} y seleccione el dominio correspondiente en la lista.</br>
-Seleccione la pestaña `Registros DS`{.action}, haga clic en el botón `Editar`{.action} a la derecha y, seguidamente, en el botón `+`{.action} que aparece.</br>.
-Ya puede introducir los 4 campos "Key Tag", "Flag", "Algoritmo", "Clave pública (codificada en base 64)" con los datos comunicados por su actual proveedor.
+Si los nombres de los servidores DNS acaban en *ovh.net* (excepto el servidor *snds2.ovh.net*), *ovh.ca* o *anycast.me*, el dominio utiliza los servidores DNS de OVHcloud.
 
 > [!primary]
 >
-> Para comprobar si su dominio utiliza la configuración DNS de OVHcloud, conéctese a su [área de cliente de OVHcloud](/links/manager){.external} y acceda al apartado `Web Cloud`{.action}. En la columna izquierda, haga clic en `Dominios`{.action} y seleccione el dominio correspondiente en la lista. Una vez seleccionado el dominio, abra la pestaña `Servidores DNS`{.action}.
+> La activación y desactivación del **DNSSEC** tarda **24** horas en ser efectiva.
 >
-Si los nombres de los servidores DNS acaban en *ovh.net*, *ovh.ca* o *anycast.me*, el dominio utiliza los servidores DNS de OVHcloud.
+> Si posteriormente desea cambiar los servidores DNS asociados a su dominio, la modificación de los servidores DNS no será efectiva por parte de OVHcloud hasta que desactive el **DNSSEC**. A partir de entonces, la propagación DNS del cambio tardará entre **24** y **48** horas.
+>
+> En total, la modificación de los servidores DNS de un dominio con la solución **DNSSEC** activa será plenamente efectiva al cabo de **48** a **72** horas.
 >
 
-### Etapa 1: acceder a la gestión del dominio <a name="step1"></a>
+Existen tres posibilidades para activar el servicio **DNSSEC**.
 
-Para activar la solución **DNSSEC** para su nombre de dominio, conéctese a su [área de cliente de OVHcloud](/links/manager){.external} y acceda al apartado `Web Cloud`{.action}. En la columna izquierda, haga clic en `Dominios`{.action} y seleccione el dominio correspondiente en la lista.
+### Caso 1 - Su dominio está registrado con OVHcloud y utiliza los servidores DNS de OVHcloud
 
-Se mostrará la información general del dominio. 
+Para activar (o desactivar) la solución **DNSSEC** para su dominio, lleve a cabo las siguientes acciones:
 
-#### Etapa 2: gestionar el DNSSEC de su dominio
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú desplegable `Dominios`{.action}.
+4. Seleccione el dominio correspondiente.
 
-También en la pestaña `Información general`{.action}, tras la [etapa 1](#step1), puede comprobar el estado de activación del **DNSSEC** en su nombre de dominio.
+Se abrirá una página en la que podrá consultar la información general del dominio. Puede consultar el estado de activación del **DNSSEC** en dicho dominio.
 
-Para ello, en el recuadro "Seguridad", compruebe el estado junto a la mención "Delegación segura (DNSSEC)".
+En el recuadro `Seguridad`, compruebe el estado que aparece junto a `Delegación segura (DNSSEC)`.
 
 ![dnssec](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec.png){.thumbnail}
 
-Gracias al botón de activación situado encima de la mención `Delegación segura (DNSSEC)`{.action}, puede activar o desactivar el **DNSSEC** en su nombre de dominio. Al realizar esta acción, se abrirá una nueva ventana en la que podrá confirmar los cambios.
+Con el botón de activación situado sobre la opción `Delegación segura (DNSSEC)`{.action}, puede activar o desactivar el **DNSSEC** en su dominio. Al realizar esta acción, se abrirá una nueva ventana desde la que podrá confirmar el cambio.
 
 ![dnssec](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec-confirmation.png){.thumbnail}
 
-> [!primary]
+### Caso 2 - Su dominio está registrado con OVHcloud y no utiliza los servidores DNS de OVHcloud
+
+En ese caso, póngase en contacto con el proveedor que gestione la configuración DNS de su dominio y pídale que active el servicio DNSSEC "Key Tag", "Flag", "Algoritmo", "Clave pública (codificada en base 64)".
+
+Una vez recuperados estos 4 parámetros, realice las siguientes acciones:
+
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú desplegable `Dominios`{.action}.
+4. Seleccione el dominio correspondiente.
+5. A continuación, haga clic en la pestaña `Registros DS`{.action}. **Esta ficha sólo aparece si el dominio utiliza servidores DNS externos**.
+6. En la nueva página que aparece, haga clic en el botón `Editar`{.action} a la derecha y seleccione el botón `+`{.action}.
+7. Rellene los 4 formularios `Key Tag`, `Flag`, `Algoritmo` y `Clave pública (codificada en base 64)` con los datos comunicados por su actual proveedor.
+8. Una vez completados los 4 formularios, haga clic en el botón azul `Aceptar`{.action} situado a la derecha de la tabla.
+
+![dnssec](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/ds-records/edit-plus-dashboard.png){.thumbnail}
+
+### Caso 3 - Su dominio no está registrado en OVHcloud y utiliza los servidores DNS de OVHcloud
+
+> [!warning]
 >
-> La activación o desactivación del **DNSSEC** tarda **24** horas en ser efectiva.
+> Antes de continuar, compruebe con el actual agente registrador del dominio que no tiene ninguna opción DNSSEC activa.
+
+A diferencia del **caso n° 2**, en este caso deberá cargar en OVHcloud los parámetros de activación de DNSSEC ("Key Tag", "Flag", "Algoritmo", "Clave pública (codificada en base 64)").
+
+Para ello, utilice las [API de OVHcloud](/pages/manage_and_operate/api/first-steps) y realice las siguientes acciones:
+
+- Visite nuestro sitio web [API OVHcloud](/links/api) (compruebe que está en `https://eu.api.ovh.com` si sus servicios están alojados en Europa y en `https://ca.api.ovh.com` si están alojados fuera de Europa).
+- En la nueva página, haga clic en `Explore the OVHcloud API`{.action}.
+- En la nueva página que aparece, en el lado izquierdo de la página, utilice el menú desplegable situado a la derecha del formulario `v1`{.action} y seleccione o introduzca la opción `/domain`.
+- En la columna izquierda, debajo de la lista de API, busque y haga clic en la siguiente API: **POST /domain/zone/{zoneName}/dnssec**. También puede hacer clic directamente en este enlace para acceder:
+
+> [!api]
 >
-Además, si más adelante desea cambiar los servidores DNS asociados a su dominio, la modificación de los servidores DNS solo será efectiva en OVHcloud tras la desactivación del **DNSSEC**. A continuación, la propagación DNS de la modificación tardará entre **24** y **48** horas en propagarse.
+> @api {v1} /domain POST /domain/zone/{zoneName}/dnssec
 >
-> En total, la modificación de los servidores DNS de un dominio con la solución **DNSSEC** activa será efectiva al cabo de **48** a **72** horas.
+
+- En la parte derecha de la página se muestra la API con sus diferentes formularios a rellenar.
+- Haga clic en el botón situado en la esquina superior derecha, titulado `Authenticate`{.action}, y luego en el botón `Login with OVHcloud SSO`{.action}.
+- Se abrirá la interfaz de conexión a su [área de cliente de OVHcloud](/links/manager).
+- Conéctese a su cuenta y haga clic en `Authorize`{.action} para utilizar las API de OVHcloud con los servicios presentes en su área de cliente.
+- A continuación, el sistema le redirigirá automáticamente a la página anterior de la API **POST /domain/zone/{zoneName}/dnssec**, donde ya estará autenticado.
+- En la parte derecha de la página se muestra la API con un formulario a rellenar.
+- Rellene el formulario de la sección `PATH PARAMETERS` del siguiente modo:
+- `zoneName`: introduzca aquí el nombre de dominio correspondiente (por ejemplo, `domain.tld`).
+
+![API](/pages/assets/screens/api/post-domain-zone-zonename-dnssec.png){.thumbnail}
+
+Una vez que haya completado el formulario, haga clic en el botón azul `Try`{.action} situado en la parte inferior derecha de la sección que haya completado.
+
+Al cabo de unos minutos, OVHcloud le enviará un mensaje de correo electrónico a la dirección de contacto de su zona DNS de OVHcloud.
+Este mensaje de correo electrónico contendrá los 4 parámetros ("Key Tag", "Flag", "Algoritmo", "Clave pública (codificada en base 64)") necesarios para activar DNSSEC en el agente registrador del dominio.
+
+> [!success]
 >
+> Revise el correo no deseado si no lo ha recibido en una hora.
+
+Por último, póngase en contacto con el actual agente registrador del dominio con los 4 parámetros para activar la opción DNSSEC por su parte.
 
 ## Más información
 
 [Información general sobre los servidores DNS de OVHcloud](/pages/web_cloud/domains/dns_server_general_information)
 
 [Editar una zona DNS de OVHcloud](/pages/web_cloud/domains/dns_zone_edit)
+
+[Primeros pasos con las API de OVHcloud](/pages/manage_and_operate/api/first-steps)
 
 Para servicios especializados (posicionamiento, desarrollo, etc.), contacte con [partners de OVHcloud](/links/partner).
 
