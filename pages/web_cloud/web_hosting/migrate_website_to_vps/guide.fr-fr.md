@@ -97,6 +97,7 @@ Consultez la section « Se connecter à votre VPS » de notre guide « [Premiers
 #### Étape 2.2 - Installer et configurer un serveur web sur votre VPS <a name="step2.2"></a>
 
 Une fois connecté à votre VPS, installez et configurez un environnement de développement web sur votre VPS. Cette étape est essentielle pour garantir que votre serveur soit prêt à accueillir votre site web une fois les fichiers et la base de données transférés.
+
 Pour installer cet environnement web, consultez notre guide « [Installer un environnement de développement web sur un VPS ou un serveur dédié](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps) ».
 
 ### Étape 3 - Transférer les fichiers de votre site web via SFTP
