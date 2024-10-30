@@ -56,7 +56,7 @@ Retrouvez ci-dessous les 4 liens vers nos guides dédiés à ces 4 solutions :
 - [Activer le certificat SSL payant Sectigo (EV)](/pages/web_cloud/web_hosting/ssl_ev) : certificat valable pour un seul nom de domaine + son sous-domaine en « www » (exemple : `domain.tld` et `www.domain.tld`) ou **uniquement** un sous-domaine (exemple : `sub.domain.tld`).
 - [Installer un certificat SSL personnalisé](/pages/web_cloud/web_hosting/ssl_custom) : si vous disposez de votre propre certificat SSL ou qu'aucune des 3 solutions précédentes ne correspond à votre besoin.
 
-> [primary]
+> [!primary]
 >
 > Il n'est possible d'installer qu'un seul certificat SSL par hébergement web (parmi les 4 solutions pré-citées).
 >
