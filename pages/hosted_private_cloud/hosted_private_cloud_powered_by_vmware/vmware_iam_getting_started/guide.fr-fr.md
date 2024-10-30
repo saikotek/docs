@@ -63,7 +63,7 @@ Un rôle IAM ne peut être ajouté que grâce aux actions manuelles dans une pol
 
 Oui, vous pouvez activer IAM via un seul bouton dans l'espace client OVHcloud. Pour plus d'informations, consultez le guide « [Comment activer IAM](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_iam_activation) ».
 
-Voici la capture de IAM désactivé :
+Lorsque IAM est désactivé dans votre espace client :
 
 ![IAM Activation Non Enabled](images/iam_enabled.png){.thumbnail}
 
