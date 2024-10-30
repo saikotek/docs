@@ -31,7 +31,7 @@ Pour simplifier :
 
 - Un rôle IAM remplace ainsi un utilisateur local vSphere au sein du Hosted Private Cloud - VMware on OVHcloud.
 - Une politique permet d'associer votre identité OVHcloud à ce rôle.
-- Les rôles IAM fonctionne à l'aide des groupes VMware vSphere.
+- Les rôles IAM fonctionnent à l'aide des groupes VMware vSphere.
 
 Voici les éléments nécessaires au bon fonctionnement d'IAM avec Hosted Private Cloud - VMware on OVHcloud :
 
