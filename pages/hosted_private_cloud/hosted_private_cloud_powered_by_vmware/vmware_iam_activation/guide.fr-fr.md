@@ -1,12 +1,12 @@
 ---
 title: "IAM pour VMware on OVHcloud - Comment activer IAM"
 excerpt: "Découvrez comment activer IAM pour votre offre VMware on OVHcloud via l'espace client OVHcloud ou par le biais de l'API OVHcloud"
-updated: 2024-05-23
+updated: 2024-10-30
 ---
 
-> [!warning]
-> La fonctionnalité IAM pour VMware on OVHcloud est actuellement en phase bêta.
-> Ce guide peut donc être incomplet. Notre équipe reste disponible sur notre canal Discord dédié. N’hésitez pas à nous rejoindre et à nous contacter : <https://discord.gg/ovhcloud>. Posez des questions, donnez votre avis et interagissez directement avec l’équipe qui construit nos services Hosted Private Cloud.
+> [!primary]
+> La fonctionnalité IAM est actuellement en phase bêta. Ce guide peut donc évoluer et être mis à jour à l'avenir avec les avancées de nos équipes en charge de ce produit.
+>
 
 ## Objectif
 
@@ -86,4 +86,4 @@ Vous pouvez maintenant suivre le guide « [IAM pour VMware on OVHcloud - Comment
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
