@@ -30,7 +30,7 @@ Sous `Mon compte`{.action}, cliquez sur `Identités et accès (IAM)`{.action} et
 
 Vous retrouvez ici les politiques que vous avez déjà créés.
 
-Cliquez sur votre politique `Ma politique`{.action} ou sur `Modifier ma politique`{.action}.
+Cliquez sur `Ma politique`{.action} ou sur `Modifier ma politique`{.action}.
 
 ![IAM USER POLICY](images/iam_policies_modify.png){.thumbnail}
 
