@@ -1,12 +1,12 @@
 ---
 title: "Web Hosting - Activate a Sectigo DV SSL certificate"
-excerpt: "Find out how to activate a Sectigo DV SSL certificate on your OVHcloud Web Hosting plan"
+excerpt: "Find out how to activate a Sectigo DV SSL certificate on your OVHcloud web hosting plan"
 updated: 2024-10-21
 ---
 
 ## Objective
 
-With Secure Socket Layer (SSL) certificates, you can encrypt the exchanges made from or to your website. This prevents a malicious person or robot from "listening" clearly to requests made from your website.
+With Secure Socket Layer (SSL) certificates, you can encrypt the exchanges made from or to your website. This prevents unauthorized persons and malicious bots from viewing requests to or from your website.
 
 OVHcloud offers several types of SSL certificates for [OVHcloud web hosting solutions](/links/web/hosting). They are set out in our guide on "[Web Hosting - Managing an SSL certificate](/pages/web_cloud/web_hosting/ssl_on_webhosting)". SSL certificates are essential for the security of your website.
 
@@ -27,7 +27,7 @@ For OVHcloud web hosting plans, the certification authority delivering DV SSL ce
 > Once the order of the certificate is completed and sent to our certificate provider/certification authority Sectigo, **no order refund is possible**.
 >
 
-**Find out how to activate a Sectigo DV SSL certificate on an OVHcloud Web Hosting plan.**
+**Find out how to activate a Sectigo DV SSL certificate on an OVHcloud web hosting plan.**
 
 ## Requirements
 
@@ -41,23 +41,23 @@ For OVHcloud web hosting plans, the certification authority delivering DV SSL ce
 >
 > Sectigo DV SSL certificates offered at OVHcloud are only valid for one of the following two cases on your web hosting plan:
 >
-> - a single domain name + its subdomain in “www” (e.g. `domain.tld` and `www.domain.tld`);
-> - only one subdomain (e.g. `sub.domain.tld`).
+> - A single domain name including the www subdomain (e.g. `domain.tld` and `www.domain.tld`)
+> - One subdomain (e.g. `sub.domain.tld`)
 >
 > This means that if you have other domain names/subdomains declared as multisites on your web hosting plan, they will not be able to benefit from an SSL certificate.
 >
-> You can only install one SSL certificate per Web Hosting plan.
+> You can only install one SSL certificate per web hosting plan.
 >
-> If you need to activate an SSL certificate for several domain names/subdomains declared on your Web Hosting plan, choose to install a [free Let's Encrypt SSL certificate](/links/web/hosting-options-ssl), or install your own [custom SSL certificate](/pages/web_cloud/web_hosting/ssl_custom).
+> If you need to activate an SSL certificate for several domain names/subdomains declared on your web hosting plan, choose to install a [free Let's Encrypt SSL certificate](/links/web/hosting-options-ssl), or install your own [custom SSL certificate](/pages/web_cloud/web_hosting/ssl_custom).
 
-**Before ordering the Sectigo DV SSL certificate on your Web Hosting plan**, check that **the domain/subdomain name** covered by your SSL certificate:
+**Before ordering the Sectigo DV SSL certificate on your web hosting plan**, check that **the domain/subdomain name** covered by your SSL certificate:
 
-- points to your web hosting plan’s IP address;
-- is declared as a multisite on your web hosting plan.
+- Points to your web hosting plan’s IP address.
+- Is declared as a multisite on your web hosting plan.
 
 > [!primary]
 >
-> If you would like to subscribe to a Sectigo DV SSL certificate for a domain name (e.g. `domain.tld`), please check that its subdomain in www (e.g. `www.domain.tld`) also points to the IP address of your web hosting plan, and is correctly declared as a multisite.
+> If you would like to subscribe to a Sectigo DV SSL certificate for a domain name (e.g. `domain.tld`), please check that its www subdomain (e.g. `www.domain.tld`) also points to the IP address of your web hosting plan, and is correctly declared as a multisite.
 >
 > If you order a Sectigo DV SSL certificate without checking that it has been sent, you will need to make a correction at a later date. You will then need to delete the Sectigo DV SSL certificate you have previously subscribed to **without being refunded**, then order a new one. The goal is for the new Sectigo DV SSL certificate to include both your domain name `domain.tld` and its subdomain in “www” `www.domain.tld`.
 >
@@ -70,9 +70,9 @@ Also check the following:
 
 If you need help with this, please refer to our guides:
 
-- [Hosting multiple websites on your web hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite);
-- [IP address list for Web Hosting clusters](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP);
-- [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit).
+- [Hosting multiple websites on your web hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite)
+- [IP address list for Web Hosting clusters](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)
+- [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit)
 
 ### Order the Sectigo DV SSL certificate
 
@@ -94,7 +94,7 @@ Then select the domain/subdomain concerned from the dropdown list that appears, 
 
 In the new window that pops up, click `Confirm`{.action} to be redirected to the purchase order for your Sectigo DV SSL certificate.
 
-Proceed with the order until payment is received in order to validate the request to create the Sectigo DV SSL certificate for your domain/subdomain on your Web Hosting plan.
+Proceed with the order until payment is received in order to validate the request to create the Sectigo DV SSL certificate for your domain/subdomain on your web hosting plan.
 
 > [!alert]
 >
