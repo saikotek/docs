@@ -46,7 +46,7 @@ Validez l'ajout de votre utilisateur en cliquant sur `Ajouter`{.action}.
 
 Puis pour terminer votre politique, cliquez sur `Modifier la politique`{.action}.
 
-**Remarque** : Si votre identité n'est pas présente, vous devez l'ajouter à votre control panel OVHcloud auparavant.
+**Remarque** : Si votre identité n'est pas présente, vous devez l'ajouter auparavant dans votre espace client OVHcloud.
 
 ## Aller plus loin
 
