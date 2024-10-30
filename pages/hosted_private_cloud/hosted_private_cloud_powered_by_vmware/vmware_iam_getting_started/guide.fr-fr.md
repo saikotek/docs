@@ -11,7 +11,7 @@ updated: 2024-10-24
 ## Prérequis
 
 - Disposer d'un [compte OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-creation).
-- Avoir accès au [control panel](/links/manager) OVHcloud.
+- Avoir accès à [l'espace client OVHcloud](/links/manager).
 - Avoir un ou plusieurs produits [Hosted Private Cloud - VMware on OVHcloud](/links/hosted-private-cloud/vmware) liés à ce compte.
 
 ## En pratique
