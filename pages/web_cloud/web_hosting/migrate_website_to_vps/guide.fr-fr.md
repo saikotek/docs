@@ -143,7 +143,7 @@ Remplacez `user_name` par votre nom d'utilisateur MySQL, `db_name` par le nom de
 
 ### Étape 5 - Paramétrer les fichiers de configuration de votre site web <a name="step5"></a>
 
-Après avoir transféré les fichiers de votre site web et, si nécessaire, importé la base de données sur votre VPS, il est important de mettre à jour les fichiers de configuration de votre site web pour garantir son bon fonctionnement. Les principales variables à ajuster sont souvent les informations de connexion à la base de données, ainsi que les chemins d'accès aux dossiers. Voici les configurations spécifiques à mettre à jour pour les principaux CMS.
+Après avoir transféré les fichiers de votre site web et, le cas échéant, importé la base de données sur votre VPS, il est important de mettre à jour les fichiers de configuration de votre site web pour garantir son bon fonctionnement. Les principales variables à ajuster sont souvent les informations de connexion à la base de données, ainsi que les chemins d'accès aux dossiers. Voici les configurations spécifiques à mettre à jour pour les principaux CMS.
 
 > [!tabs]
 > WordPress
