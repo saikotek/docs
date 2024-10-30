@@ -1,7 +1,7 @@
 ---
-title: 'Comment mettre à jour un appareil OverTheBox'
+title: 'Comment mettre à jour un appareil OverTheBox?'
 excerpt: 'Découvrez comment mettre à jour votre appareil OverTheBox'
-updated: 2024-10-23
+updated: 2024-10-30
 ---
 
 ## Objectif
