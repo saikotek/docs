@@ -1,12 +1,8 @@
 ---
 title: 'Exchange - Configure su cuenta de correo electrónico en Outlook para Windows'
 excerpt: 'Cómo configurar una cuenta Exchange en Outlook para Windows'
-updated: 2024-10-09
+updated: 2024-10-30
 ---
-
-> [!primary]
->
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
 
 ## Objetivo
 
@@ -19,6 +15,8 @@ Es posible configurar sus cuentas Exchange en el cliente de correo que usted uti
 > La configuración, la gestión y la responsabilidad de los servicios que OVHcloud pone a su disposición recaen sobre usted. Por lo tanto, usted deberá asegurarse de que estos funcionen correctamente.
 >
 > Esta guía le ayudará a realizar las operaciones más habituales. No obstante, si tiene alguna duda le recomendamos que contacte con un proveedor de servicios especializado o con el editor del servicio. Nosotros no podremos asistirle. Para más información, consulte el apartado «Más información» de esta guía.
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/G4CVvTzFA58?si=Bd6SRW9258ptF-lt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 

@@ -1,13 +1,8 @@
 ---
 title: Jak korzystać z polityki IAM w Panelu klienta
 excerpt: Dowiedz się, jak przypisać użytkownikom uprawnienia dostępu do konta OVHcloud
-updated: 2024-07-04
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłóś propozycję modyfikacji” na tej stronie.
->
-
 
 ## Wprowadzenie
 
@@ -29,6 +24,8 @@ Na przykład, możemy stworzyć politykę pozwalającą użytkownikowi o nazwie 
 **Niniejszy przewodnik wyjaśnia, jak zadeklarować te polityki w Panelu klienta OVHcloud i jak wyświetlić dane identyfikacyjne, zasoby oraz operacje dostępne dla tych danych.**
 
 ![polityka IAM](images/iam_policies.png){.thumbnail}
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/g6qvskdFwy8?si=51mbyM6affEFknxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Wymagania początkowe
 

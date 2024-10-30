@@ -1,7 +1,7 @@
 ---
 title: 'Phishing - Comment reconnaître des e-mails ou SMS frauduleux ?'
 excerpt: 'Comment reconnaître un e-mail de phishing et que faire si vous avez cliqué sur un lien frauduleux ?'
-updated: 2020-10-12
+updated: 2024-10-30
 ---
 
 ## Objectif
@@ -10,6 +10,8 @@ L'hameçonnage (ou *phishing* en anglais) est une technique frauduleuse destiné
 Dans la pratique, il s'agit souvent de l’envoi d’un e-mail ou d'un SMS vous invitant à cliquer sur un lien. Ce lien vous redirige vers un formulaire qui reprend frauduleusement les couleurs d’une marque et vous invite à entrer vos identifiants personnels.
 
 **Ce guide vous explique comment reconnaître un e-mail ou un SMS de phishing et quelles mesures prendre si vous avez cliqué sur un lien frauduleux.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/85GEi97-n20?si=xEJpLr9I7G1CgEaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## En pratique
 
@@ -63,7 +65,7 @@ La seule chose à faire est de contacter rapidement votre banque afin de faire o
 
 #### Si vous avez entré votre mot de passe OVHcloud sur un site frauduleux
 
-Connectez-vous sur votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr){.external} et modifiez immédiatement votre mot de passe.<br>
+Connectez-vous sur votre [espace client OVHcloud](/links/manager) et modifiez immédiatement votre mot de passe.<br>
 
 Vous trouverez, sur notre guide « [Modifier le mot de passe de votre compte](/pages/account_and_service_management/account_information/manage-ovh-password) », la méthode pour modifier votre mot de passe depuis votre espace client, ainsi que nos recommandations pour générer un mot de passe efficace et le sauvegarder dans un gestionnaire de mots de passe. 
 
@@ -75,7 +77,7 @@ Nous vous conseillons fortement d’activer également la [double authentificati
 >
 > - comporter au minimum douze caractères ;
 > - comporter au moins 1 lettre majuscule, 1 lettre minuscule et 1 chiffre ;
-> - comporter des caractères spéciaux (par exemple : %, #, :, $, *)
+> - comporter des caractères spéciaux (par exemple : `%`, `#`, `:`, `$`, `*`)
 > - ne pas être tiré du dictionnaire ;
 > - ne pas comporter d’informations personnelles (votre prénom, nom ou date de naissance) ;
 > - ne pas être utilisé pour plusieurs accès utilisateur ;
@@ -92,4 +94,4 @@ Nous vous conseillons fortement d’activer également la [double authentificati
 
 [Sécuriser mon compte OVHcloud et gérer mes informations personnelles](/pages/account_and_service_management/account_information/all_about_username)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
