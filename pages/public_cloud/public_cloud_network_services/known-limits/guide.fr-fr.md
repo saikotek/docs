@@ -37,6 +37,12 @@ Lorsqu'un service est généré dans un sous-réseau, il utilise certaines IP du
 
 Le trafic ICMP est bloqué sur les IPs (privées et publique via floating IP) du Load Balancer. Le `ping` sur ces IPs ne répondra donc pas.
 
+## Bande passante des instances
+
+Pour atteindre la bande passante maximale fournie avec chaque instance, vous pourriez avoir besoin d'utiliser le **multi-flow**.
+
+Par exemple, lorsque vous utilisez `iperf` pour tester la bande passante de votre instance, vous pouvez activer le multi-flow en ajoutant l'option `-P n` ou `--parallel n`. Si n = 1 (qui est la valeur par défaut si cette option est omise), vous testez la bande passante avec un seul flux. Pour atteindre la bande passante maximale, vous devez augmenter la valeur de n.
+
 ## Nous voulons vos retours !
 
 Nous serions ravis de vous aider à répondre à vos questions et que vous nous fassiez part de vos commentaires.
