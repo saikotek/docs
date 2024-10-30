@@ -25,7 +25,7 @@ updated: 2024-10-24
 
 ### Comment fonctionne IAM et Hosted Private Cloud - VMware on OVHcloud ?
 
-L'activation de l'IAM OVHcloud délègue la gestion des accès au service, les rôles associés et leurs autorisations dans vSphere. La gestion des politiques et accès s'effectue depuis le control panel IAM OVHcloud.
+L'activation de l'IAM OVHcloud délègue la gestion des accès au service, les rôles associés et leurs autorisations dans vSphere. La gestion des politiques et accès s'effectue depuis la section IAM de l'espace client OVHcloud.
 
 Pour simplifier :
 
