@@ -1,12 +1,8 @@
 ---
 title: "Rendere sicuro il tuo dominio con DNSSEC"
 excerpt: "Questa guida ti mostra come proteggere il tuo dominio dal Cache Poisoning attivando DNSSEC"
-updated: 2024-08-20
+updated: 2024-10-29
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo 
 
@@ -22,7 +18,7 @@ Il **D**omain **N**ame **S**ystem **SEC**urity extensions (**DNSSEC**), permette
 
 > [!primary]
 >
-> L'opzione DNSSEC non è disponibile per i domini con estensione **.it**.
+> L'opzione DNSSEC non è attualmente disponibile per i domini registrati in OVHcloud con estensione **.it**.
 >
 
 Per maggiori informazioni sul funzionamento del **DNSSEC**, consulta la nostra pagina "[Comprendere il DNSSEC](/links/web/domains-dnssec){.external}".

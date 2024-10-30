@@ -1,12 +1,8 @@
 ---
 title: "Zabezpieczenie domeny za pomocą DNSSEC"
 excerpt: "Dowiedz się, jak zabezpieczyć domenę przed atakiem DNSSEC"
-updated: 2024-08-20
+updated: 2024-10-29
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
 
 ## Wprowadzenie 
 
@@ -22,7 +18,7 @@ Dzięki temu mogą przekierować przychodzące strumienie Twojej domeny na włas
 
 > [!primary]
 >
-> Opcja DNSSEC jest niedostępna dla domen z rozszerzeniem **.it**.
+> Opcja DNSSEC jest aktualnie niedostępna dla domen zarejestrowanych w OVHcloud, z rozszerzeniem **.it**.
 >
 
 Aby uzyskać więcej informacji na temat działania usługi **DNSSEC**, sprawdź naszą stronę "[Dowiedz się więcej o DNSSEC](/links/web/domains-dnssec){.external}".

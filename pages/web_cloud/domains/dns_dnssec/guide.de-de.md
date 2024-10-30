@@ -1,12 +1,8 @@
 ---
 title: "Ihren Domainnamen mit DNSSEC absichern"
 excerpt: "Erfahren Sie hier, wie Sie Ihre Domainnamen durch die Aktivierung von DNSSEC vor Cache Poisoning schützen können"
-updated: 2024-08-20
+updated: 2024-10-29
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel 
 
@@ -18,7 +14,7 @@ Die **D**omain **N**ame **S**ystem **SEC**urity Extensions (**DNSSEC**) ermögli
 
 > [!primary]
 >
-> Die DNSSEC Option ist für Domainnamen mit der Endung **.it** nicht verfügbar.
+> Die DNSSEC Option ist derzeit nicht verfügbar für Domainnamen, die bei OVHcloud registriert sind und eine Endung mit **.it** haben.
 >
 
 **Diese Anleitung erklärt, wie Sie DNSSEC für Ihren Domainnamen aktivieren, um ihn vor "Cache Poisoning" zu schützen.**

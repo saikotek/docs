@@ -1,7 +1,7 @@
 ---
 title: 'Securing your domain name with DNSSEC'
 excerpt: 'Protect your domain name from cache poisoning by activating DNSSEC'
-updated: 2024-08-20
+updated: 2024-10-29
 ---
 
 ## Objective 
@@ -18,7 +18,7 @@ The **D**omain **N**ame **S**ystem **SEC**ecurity Extensions (**DNSSEC**) protec
 
 > [!primary]
 >
-> The DNSSEC option is unavailable for domain names with the **.it** extension.
+> The DNSSEC option is currently unavailable for domain names registered with OVHcloud and with an extension of **.it**.
 >
 
 For more information on how **DNSSEC** works, please visit our page “[Understanding DNSSEC](/links/web/domains-dnssec){.external}”.
