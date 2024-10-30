@@ -18,7 +18,7 @@ updated: 2024-10-24
 
 > [!primary]
 >
-> Vous ne pourrez pas à ce jour bénéficier des fonctionnalités IAM sur les offres Hosted Private Cloud VMware vSphere certifiés PCIDSS ou HDS ainsi que les offres qualifiées SecNumCloud.
+> Vous ne pouvez actuellement pas bénéficier des fonctionnalités IAM sur les offres Hosted Private Cloud VMware vSphere certifiées PCI-DSS ou HDS, ainsi que sur les offres qualifiées SecNumCloud.
 > Il en est de même pour les environnements managés avec NSX activé et VMware Cloud Director on OVHcloud
 > Les équipes de recherches travail sur l'adaptabilité de ces technologies.
 >
