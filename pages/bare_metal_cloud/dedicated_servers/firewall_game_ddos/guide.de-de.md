@@ -18,9 +18,6 @@ details[open]>summary::before {
 }
 </style>
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -71,11 +68,13 @@ Melden Sie sich im OVHcloud Kundencenter an und befolgen Sie die folgenden Schri
 - Öffnen Sie `IP`{.action}.
 
 Sie können IP-Adressen mit dem Dropdown-Menü `Alle Dienste`{.action} filtern. Geben Sie den Namen oder die Kategorie des Servers ein:
+
 | ![configure-game-firewall](images/ip_listing.png) |
 |:--:|
-| IP-Liste: Finden Sie Ihre IP-Adresse durch den entsprechenden Dienst. |
+| IP-Liste: Finden Sie Ihre IP-Adresse über den entsprechenden Dienst. |
 
 Navigieren Sie zur *Game Firewall* Konfiguration:
+
 | ![Game-Server](images/firewall_game_01_blur.png) |
 |:--:|
 | Klicken Sie auf `...`{.action} neben der IP-Adresse Ihres Game Dedicated Servers. |
