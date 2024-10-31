@@ -13,7 +13,7 @@ OVHcloud bietet verschiedene Arten von SSL-Zertifikaten für unsere [OVHcloud Sh
 Es gibt drei Arten von SSL-Zertifikaten:
 
 - Domain Validation (DV)
-- Organization Validation (OV)
+- Organization validation (OV)
 - Extended Validation (EV)
 
 Die SSL-Verschlüsselungsstufen zwischen diesen drei Zertifikattypen sind identisch.

@@ -13,7 +13,7 @@ OVHcloud ofrece varios tipos de certificados SSL en nuestros planes de [hosting 
 Existen tres tipos de certificados SSL:
 
 - Domain Validation (DV)
-- Organization validation (OVH)
+- Organization validation (OV)
 - Extended Validation (EV)
 
 Los niveles de cifrado SSL son idénticos entre los tres tipos de certificado.
