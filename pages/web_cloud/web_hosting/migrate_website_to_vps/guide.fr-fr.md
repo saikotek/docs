@@ -37,7 +37,7 @@ Suivez les étapes de notre guide « [Se connecter à l’espace de stockage FTP
 
 #### Étape 1.2 - Sauvegarder les fichiers via FTP <a name="step1.2"></a>
 
-Si vous n'utilisez pas un CMS (WordPress, Joomla!, Drupal, PrestaShop, etc.), téléchargez une sauvegarde complète de l'ensemble des fichiers présents dans votre espace FTP sur votre appareil en local. Cela inclut tous les fichiers HTML, CSS, JavaScript, images, et fichiers de configuration (`config.php`, `.env`, etc.) qui constituent votre site. Assurez-vous de bien récupérer l’intégralité des dossiers et fichiers du répertoire racine (souvent nommé `public_html` ou `www`) pour que tout le contenu nécessaire au fonctionnement de votre site web soit sauvegardé pour la migration.
+Si vous n'utilisez pas un CMS (WordPress, Joomla!, Drupal, PrestaShop, etc.), téléchargez une sauvegarde complète de l'ensemble des fichiers présents dans votre espace FTP sur votre appareil en local. Cela inclut tous les fichiers HTML, CSS, JavaScript, images, et fichiers de configuration (`config.php`, `.env`, etc.) qui constituent votre site web. Assurez-vous de bien récupérer l’intégralité des dossiers et fichiers du répertoire racine (souvent nommé `public_html` ou `www`) pour que l'ensemble du contenu nécessaire au fonctionnement de votre site web soit sauvegardé pour la migration.
 
 Si vous utilisez un CMS et pour sauvegarder ses fichiers, choisissez la méthode de sauvegarde adaptée à celui-ci en cliquant sur l'onglet concerné.
 
