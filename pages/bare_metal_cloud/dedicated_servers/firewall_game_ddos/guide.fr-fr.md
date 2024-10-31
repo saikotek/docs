@@ -130,7 +130,7 @@ De plus, nous vous recommandons fortement de définir la règle **« Default pol
 #### Rust
 
 - **Rust** est supporté avec un profil de protection dédié sur toutes les générations de serveurs Bare Metal Game. Veuillez noter que nous avons mis à jour ce profil de protection (c’est-à-dire que nous avons ajouté la prise en charge des cookies RakNet) pour la 3ème génération de serveurs Bare Metal Game (version 2024).
-Vous pouvez en savoir plus sur l'hébergement Rust sur les serveurs OVHcloud [ici](/links/bare-metal/bare-metal/game-rust).
+Vous pouvez en savoir plus sur l'hébergement Rust sur les serveurs OVHcloud [ici](/links/bare-metal/game-rust).
 
 #### Minecraft
 
