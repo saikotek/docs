@@ -1,7 +1,7 @@
 ---
 title: "Migrer un site web d'un hébergement mutualisé vers un VPS"
 excerpt: "Découvrez comment migrer votre site web d'un hébergement mutualisé vers un VPS OVHcloud"
-updated: 2024-10-28
+updated: 2024-10-31
 ---
 
 ## Objectif
@@ -37,7 +37,7 @@ Suivez les étapes de notre guide « [Se connecter à l’espace de stockage FTP
 
 #### Étape 1.2 - Sauvegarder les fichiers via FTP <a name="step1.2"></a>
 
-Si vous n'utilisez pas un CMS (WordPress, Joomla!, Drupal, PrestaShop, etc.), téléchargez une sauvegarde complète de l'ensemble des fichiers présents dans votre espace FTP sur votre appareil en local.
+Si vous n'utilisez pas un CMS (WordPress, Joomla!, Drupal, PrestaShop, etc.), téléchargez une sauvegarde complète de l'ensemble des fichiers présents dans votre espace FTP sur votre appareil en local. Cela inclut tous les fichiers HTML, CSS, JavaScript, images, et fichiers de configuration (`config.php`, `.env`, etc.) qui constituent votre site. Assurez-vous de bien récupérer l’intégralité des dossiers et fichiers du répertoire racine (souvent nommé `public_html` ou `www`) pour que tout le contenu nécessaire au fonctionnement de votre site web soit sauvegardé pour la migration.
 
 Si vous utilisez un CMS et pour sauvegarder ses fichiers, choisissez la méthode de sauvegarde adaptée à celui-ci en cliquant sur l'onglet concerné.
 
@@ -197,6 +197,33 @@ Après avoir transféré les fichiers de votre site web et, le cas échéant, im
 >> Pour plus de détails, consultez la [documentation officielle de Drupal](https://www.drupal.org/documentation).
 >>
 >> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour Drupal](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-file-permissions-and-ownership)
+>>
+> Sans CMS
+>>
+>> **1. Mettre à jour les informations de connexion à la base de données** 
+>>
+>> Identifiez les fichiers de configuration (comme `config.php` ou `.env`). Certains peuvent être situés dans des sous-dossiers. Dans ces fichiers, recherchez les paramètres de connexion à la base de données et modifiez-les en fonction des nouvelles valeurs de connexion du VPS :
+>>
+>> - **DB_HOST** : adresse du serveur de base de données.
+>> - **DB_NAME** : nom de la base de données.
+>> - **DB_USER** : utilisateur de la base de données.
+>> - **DB_PASSWORD** : mot de passe.
+>>
+>> **2. Configurer les chemins d'accès aux fichiers** 
+>>
+>> Certains sites web utilisent des chemins absolus (ex: `/home/user/public_html/`) pour des fichiers ou des ressources spécifiques tels que des images, des fichiers CSS, etc. Vérifiez que ces chemins sont correctement adaptés à la structure du serveur sur le VPS, par exemple `/var/www/html/`.
+>>
+>> Pour éviter des erreurs de chargement de fichiers ou des liens brisés, assurez-vous d’ajuster ces chemins dans tous les fichiers de configuration, `.htaccess`, ou autres scripts contenant des liens vers ces ressources. Cela permet de garantir que le site web trouve correctement tous les éléments nécessaires à son bon fonctionnement, même après la migration.
+>>
+>> **3. Modifier le fichier .htaccess**  (optionnel)
+>>
+>> Assurez-vous que le fichier `.htaccess` est bien configuré pour le nouvel environnement. Si vous utilisez des règles de réécriture (`RewriteRule`) pour personnaliser les URL, vérifiez que les chemins sont adaptés à la structure de votre VPS (exemple : `/var/www/html/` au lieu de `/public_html/`). Cela garantit le bon fonctionnement des redirections et des accès.
+>>
+>> Si le fichier `.htaccess` inclut des restrictions d'accès ou des paramètres de sécurité, comme la désactivation de la liste des répertoires ou la configuration de la mise en cache, modifiez ces paramètres pour qu’ils correspondent aux configurations et conditions de sécurité de votre nouveau serveur.
+>>
+>> **4. Configurer les permissions des fichiers et des dossiers** 
+>>
+>> Assurez-vous que les permissions (ex: `chmod`) des fichiers et dossiers sont configurées correctement pour éviter des erreurs d'accès. Sur un VPS, les permissions recommandées sont souvent `755` pour les dossiers et `644` pour les fichiers, mais cela peut varier selon vos besoins de sécurité.
 
 Si vous utilisez une base de données Web Cloud Databases, vérifiez que votre VPS est autorisé à s'y connecter. Pour cela, ajoutez l'adresse IP du VPS à la liste des adresses IP autorisées. Cette configuration permet de sécuriser l'accès à la base de données et d'éviter tout problème de connexion. Consultez la section « Autoriser une adresse IP » de notre guide « [Premiers pas avec le service Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb) ».
 
