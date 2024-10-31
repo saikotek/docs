@@ -1094,7 +1094,7 @@
                 + [How to create a subdomain](web_cloud/domains/domain_create_subdomains)
                 + [Redirecting a domain name managed by OVHcloud](web_cloud/domains/redirect_domain_name)
                 + [Domains - Shared Responsibility](web_cloud/domains/responsibility_model_domains)
-                + [Renewing my OVHcloud domain names](web_cloud/domains/autorenew_domain_name)
+                + [How to renew OVHcloud domain names](web_cloud/domains/autorenew_domain_name)
             + [Changing a domain name owner (trade)](web-cloud-domains-domain-names-changing-a-domain-name-owner-trade)
                 + [Changing the owner of a domain name](web_cloud/domains/trade_domain)
                 + [Changer le propriétaire d’un domaine avec une Demande d'Opération AFNIC (DOA)](web_cloud/domains/trade_doa)
