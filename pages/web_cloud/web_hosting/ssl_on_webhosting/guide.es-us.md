@@ -1,7 +1,7 @@
 ---
 title: "Gestionar un certificado SSL en un alojamiento web"
 excerpt: "Operaciones relativas a los certificados SSL en los alojamientos web de OVHcloud"
-updated: 2023-12-06
+updated: 2024-10-31
 ---
 
 > [!primary]

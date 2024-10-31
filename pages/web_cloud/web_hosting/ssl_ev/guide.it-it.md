@@ -81,7 +81,7 @@ Per attivare un certificato SSL per più domini/sottodomini dichiarati sull’ho
 > - [Lista degli indirizzi IP di cluster e hosting Web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP);
 > - [Modificare una zona DNS di OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
 >
-> Nel caso in cui desideri sottoscrivere un certificato SSL Sectigo EV per un dominio (esempio: `domain.tld`), verifica che il suo sottodominio in "www" (esempio: `wwww.domain.tld`) punti anche verso l’indirizzo IP del tuo hosting Web ed sia correttamente dichiarato come multisito.
+> Nel caso in cui desideri sottoscrivere un certificato SSL Sectigo EV per un dominio (esempio: `domain.tld`), verifica che il suo sottodominio in "www" (esempio: `www.domain.tld`) punti anche verso l’indirizzo IP del tuo hosting Web ed sia correttamente dichiarato come multisito.
 >
 > Perché se ordini il certificato SSL Sectigo EV ma non ti assicuri i i punti precedenti, è necessario effettuare una correzione a posteriori. In questo caso, è necessario eliminare il certificato SSL Sectigo EV precedentemente sottoscritto **senza usufruire di un rimborso** e ordinarne un altro. Il nuovo certificato SSL Sectigo EV deve includere sia il dominio `domain.tld` che il sottodominio "www" `www.domain.tld`.
 >
