@@ -55,6 +55,17 @@ Para verificar se é elegível para a subscrição de um certificado SSL Sectigo
 
 ### Etapa 1: encomendar o certificado SSL Sectigo EV
 
+Os certificados SSL Sectigo EV propostos na OVHcloud só são válidos para um dos dois casos seguintes no seu alojamento web:
+
+- um único domínio + o seu subdomínio em "www" (exemplo: `domain.tld` e `www.domain.tld`);
+- um único subdomínio (exemplo: `sub.domain.tld`).
+
+Isto significa que se tiver outros domínios/subdomínios declarados em multi-site no seu alojamento web, estes não poderão beneficiar de um certificado SSL.
+
+De facto, só é possível instalar um único certificado SSL por alojamento web.
+
+Se precisar de ativar um certificado SSL para vários domínios/subdomínios declarados no seu alojamento web, favoreça a instalação de um [certificado SSL gratuito Let's Encrypt](/links/web/hosting-options-ssl) ou instale o seu próprio [certificado SSL personalizado](/pages/web_cloud/web_hosting/ssl_custom).
+
 #### 1.1 - Para um domínio e um alojamento já existentes na OVHcloud
 
 Consulte o nosso guia sobre como [gerir um certificado SSL no alojamento web](/pages/web_cloud/web_hosting/ssl_on_webhosting) e selecione o **Certificado SSL Sectigo EV** uma vez chegado ao túnel de comando.

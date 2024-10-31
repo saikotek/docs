@@ -55,6 +55,17 @@ La configuración, la gestión y la responsabilidad de los servicios que OVHclou
 
 ### Etapa 1: contratar el certificado SSL Sectigo EV
 
+Los certificados SSL Sectigo EV que ofrece OVHcloud solo son válidos para uno de los siguientes casos en su alojamiento web:
+
+- un único dominio + su subdominio en "www" (por ejemplo, `domain.tld` y `www.domain.tld`);
+- un único subdominio (por ejemplo, `sub.domain.tld`).
+
+Esto significa que si tiene otros dominios o subdominios declarados en multisitio en su alojamiento web, estos no podrán beneficiarse de un certificado SSL.
+
+Solo es posible instalar un certificado SSL por cada alojamiento web.
+
+Si necesita activar un certificado SSL para varios dominios o subdominios declarados en su alojamiento web, puede optar por instalar un [certificado SSL gratuito Let's Encrypt](/links/web/hosting-options-ssl) o instalar su propio [certificado SSL personalizado](/pages/web_cloud/web_hosting/ssl_custom).
+
 #### 1.1 - Para un dominio y un alojamiento ya existentes en OVHcloud
 
 Consulte nuestra guía sobre cómo [gestionar un certificado SSL en su alojamiento web](/pages/web_cloud/web_hosting/ssl_on_webhosting) y seleccione el **Certificado SSL Sectigo EV** una vez haya llegado al túnel de pedido.

@@ -55,6 +55,17 @@ Aby sprawdzić, czy możesz zamówić certyfikat SSL Sectigo EV, przejdź do [li
 
 ### Etap 1: zamów certyfikat SSL Sectigo EV
 
+Certyfikaty SSL Sectigo EV oferowane przez OVHcloud są ważne tylko w jednym z dwóch poniższych przypadków w ramach Twojego hostingu:
+
+- jedna domena + jej subdomena w "WWW" (przykład: `domain.tld` i `www.domain.tld`);
+- jedna subdomena (na przykład: `sub.domain.tld`).
+
+Oznacza to, że jeśli na Twoim hostingu zainstalowane są inne domeny/subdomeny zadeklarowane w opcji MultiSite, nie będą one mogły korzystać z certyfikatu SSL.
+
+Można zainstalować tylko jeden certyfikat SSL na hosting.
+
+Jeśli chcesz aktywować certyfikat SSL dla kilku domen/subdomen zadeklarowanych na Twoim hostingu, zdecyduj się na instalację [bezpłatnego certyfikatu SSL Let's Encrypt](/links/web/hosting-options-ssl) lub zainstaluj własny [spersonalizowany certyfikat SSL](/pages/web_cloud/web_hosting/ssl_custom).
+
 #### 1.1 - Dla już istniejącej domeny i hostingu OVHcloud
 
 Zapoznaj się z naszym przewodnikiem dotyczącym [zarządzania certyfikatem SSL na hostingu](/pages/web_cloud/web_hosting/ssl_on_webhosting) i wybierz **Certyfikat SSL Sectigo EV** po przyjeździe do tunelu zamówienia.

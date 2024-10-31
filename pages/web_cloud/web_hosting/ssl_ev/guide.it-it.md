@@ -55,6 +55,17 @@ Per verificare se hai diritto alla sottoscrizione di un certificato SSL Sectigo 
 
 ### Step 1: ordina il certificato SSL Sectigo EV
 
+I certificati SSL Sectigo EV offerti da OVHcloud sono validi solo in uno dei due casi seguenti:
+
+- un solo dominio + il suo sottodominio in "www" (esempio: `domain.tld` e `www.domain.tld`);
+- un solo sottodominio (esempio: `sub.domain.tld`).
+
+Questo significa che se sul tuo hosting Web sono presenti altri domini/sottodomini dichiarati in multisito, questi ultimi non potranno usufruire di un certificato SSL.
+
+per ogni hosting Web è possibile installare un solo certificato SSL.
+
+Per attivare un certificato SSL per più domini/sottodomini dichiarati sull’hosting Web, consigliamo di installare un [certificato SSL gratuito Let’s Encrypt](/links/web/hosting-options-ssl) oppure un [certificato SSL personalizzato](/pages/web_cloud/web_hosting/ssl_custom).
+
 #### 1.1 - Per un dominio e un hosting già esistenti presso OVHcloud
 
 Consulta la nostra guida su come [gestire un certificato SSL su un hosting Web](/pages/web_cloud/web_hosting/ssl_on_webhosting) e seleziona il **Certificato SSL Sectigo EV** una volta arrivato nella galleria di comando.

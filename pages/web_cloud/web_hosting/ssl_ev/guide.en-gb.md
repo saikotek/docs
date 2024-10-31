@@ -55,6 +55,17 @@ To check if you are eligible to subscribe to a Sectigo EV SSL certificate, go to
 
 ### Step 1: Order the Sectigo EV SSL certificate
 
+Sectigo EV SSL certificates offered at OVHcloud are only valid for one of the following two cases on your web hosting plan:
+
+- a single domain name + its subdomain in “www” (e.g. `domain.tld` and `www.domain.tld`);
+- only one subdomain (e.g. `sub.domain.tld`).
+
+This means that if you have other domain names/subdomains declared as multisite on your web hosting plan, they will not be able to benefit from an SSL certificate.
+
+You can only install one SSL certificate per Web Hosting plan.
+
+If you need to activate an SSL certificate for several domain names/subdomains declared on your Web Hosting plan, choose to install a [free Let's Encrypt SSL certificate](/links/web/hosting-options-ssl), or install your own [custom SSL certificate](/pages/web_cloud/web_hosting/ssl_custom).
+
 #### 1.1 - For a domain name and a hosting already existing at OVHcloud
 
 Read our guide on how to [manage an SSL certificate on your web hosting plan](/pages/web_cloud/web_hosting/ssl_on_webhosting) and select the **Sectigo EV SSL certificate** once you have reached the order process.
