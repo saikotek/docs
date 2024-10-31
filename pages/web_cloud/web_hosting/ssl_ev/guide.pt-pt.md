@@ -68,7 +68,45 @@ Se precisar de ativar um certificado SSL para vários domínios/subdomínios dec
 
 #### 1.1 - Para um domínio e um alojamento já existentes na OVHcloud
 
-Consulte o nosso guia sobre como [gerir um certificado SSL no alojamento web](/pages/web_cloud/web_hosting/ssl_on_webhosting) e selecione o **Certificado SSL Sectigo EV** uma vez chegado ao túnel de comando.
+> [!warning]
+>
+> **Antes de continuar**, verifique se **o nome de domínio e/ou subdomínio** relacionado com o seu futuro certificado SSL Sectigo EV:
+>
+> - aponta para o endereço IP do seu alojamento web;
+> - está declarado em multi-site no seu alojamento web.
+>
+> Para mais informações, consulte os nossos manuais:
+>
+> - [Partilhar o alojamento entre vários sites](/pages/web_cloud/web_hosting/multisites_configure_multisite) ;
+> - [Lista dos endereços IP dos clusters e alojamentos web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP) ;
+> - [Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
+>
+> Se pretender subscrever a um certificado SSL Sectigo EV para um domínio (exemplo: `domain.tld`), verifique se o seu subdomínio em "www" (exemplo: `www.domain.tld`) aponta também para o endereço IP do seu alojamento web e está corretamente declarado em multi-site.
+>
+> Sim, se aplicável, e se encomendar o certificado SSL Sectigo EV sem verificar os pontos anteriores, deverá efetuar uma correção a posteriori. Deverá eliminar o certificado SSL Sectigo EV que subscreveu anteriormente **sem poder beneficiar de um reembolso**, e depois encomendar um novo certificado. O objetivo é que o novo certificado SSL Sectigo EV englobe o seu domínio `domain.tld` e o seu subdomínio em "www" `www.domain.tld`.
+>
+> Lembrete: se subscrever a um certificado SSL Sectigo EV diretamente para um subdomínio (exemplo: `sub.domain.tld`), não é afetado por esta situação.
+
+Para encomendar o certificado SSL Sectigo EV, execute as seguintes ações:
+
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+4. Selecione o alojamento web em causa.
+5. Na página que vai aparecer, permaneça no separador `Informações gerais`{.action}.
+6. Aceda à caixa chamada `Configuração`.
+7. À direita da menção `Certificado SSL`, clique no botão `...`{.action} e, a seguir, em `Encomendar um certificado SSL`{.action}.
+
+![Order an SSL certificate](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/order-an-ssl-certificate.png){.thumbnail}
+
+Na janela que surgir, selecione `Certificado pago`{.action} entre a lista das opções possíveis.
+
+De seguida, selecione o domínio/subdomínio em causa na lista pendente apresentada e clique em `Seguinte`{.action}.
+
+Na nova janela que se abrir, clique em `Validar`{.action} para ser reencaminhado para a nota de encomenda do seu certificado SSL Sectigo EV.
+
+Selecione o **Certificado SSL Sectigo EV** uma vez chegado o túnel de encomenda e prossiga a encomenda.
+
 
 Insira com exatidão as informações solicitadas por **Sectigo** antes que lhe seja emitido o certificado SSL Sectigo EV. 
 
