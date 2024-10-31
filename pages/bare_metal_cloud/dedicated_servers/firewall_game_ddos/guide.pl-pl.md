@@ -131,7 +131,7 @@ Ponadto zalecamy zdefiniowanie reguły **"Default policy = DROP"** dla każdego 
 #### Rust
 
 - **Rust** jest obsługiwany przez wszystkie generacje serwerów Bare Metal Game z dedykowanym profilem ochrony. Prosimy pamiętać, że zaktualizowaliśmy ten profil ochrony (tj. dodaliśmy obsługę plików cookie RakNet) dla serwerów Bare Metal Game trzeciej generacji (wersja 2024).
-Więcej informacji o hostingu Rust znajdziesz na serwerach OVHcloud [tutaj](/links/bare-metal/bare-metal/game-rust).
+Więcej informacji o hostingu Rust znajdziesz na serwerach OVHcloud [tutaj](/links/bare-metal/game-rust).
 
 ### Minecraft
 

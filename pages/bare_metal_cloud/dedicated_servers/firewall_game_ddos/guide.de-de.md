@@ -35,7 +35,7 @@ Unsere Bare Metal Game Dedicated Server sind mit einem zusätzlichen Schutz vor 
 
 ## Voraussetzungen
 
-- Sie haben einen [OVHcloud **Game** Dedicated Server](/links/bare-metal/bare-metal/game).
+- Sie haben einen [OVHcloud **Game** Dedicated Server](/links/bare-metal/game).
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 > [!warning]
@@ -132,7 +132,7 @@ Außerdem empfehlen wir dringend, die Regel **"Default policy = DROP"** für jed
 #### Rust
 
 - **Rust** wird von einem dedizierten Schutzprofil auf allen Generationen von Bare Metal Game Servern unterstützt. Beachten Sie, dass wir dieses Schutzprofil (d. h. Unterstützung von *RakNet* Cookies) für die dritte Generation von Game Dedicated Servern (Version 2024) aktualisiert haben.  
-Weitere Informationen zum Hosting von Rust auf OVHcloud Servern finden Sie [hier](/links/bare-metal/bare-metal/game-rust).
+Weitere Informationen zum Hosting von Rust auf OVHcloud Servern finden Sie [hier](/links/bare-metal/game-rust).
 
 #### Minecraft
 
