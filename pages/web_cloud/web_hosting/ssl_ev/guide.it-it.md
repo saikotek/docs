@@ -68,7 +68,44 @@ Per attivare un certificato SSL per più domini/sottodomini dichiarati sull’ho
 
 #### 1.1 - Per un dominio e un hosting già esistenti presso OVHcloud
 
-Consulta la nostra guida su come [gestire un certificato SSL su un hosting Web](/pages/web_cloud/web_hosting/ssl_on_webhosting) e seleziona il **Certificato SSL Sectigo EV** una volta arrivato nella galleria di comando.
+> [!warning]
+>
+> **Prima di proseguire**, verifica che **il dominio e/o sottodominio** interessato dal tuo futuro certificato SSL Sectigo EV:
+>
+- punti verso l'indirizzo IP del tuo hosting Web;
+> - dichiarato multisito sul tuo hosting Web.
+>
+> Per maggiori informazioni, consulta le nostre guide:
+>
+> - [Ospitare più siti su uno stesso hosting](/pages/web_cloud/web_hosting/multisites_configure_multisite);
+> - [Lista degli indirizzi IP di cluster e hosting Web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP);
+> - [Modificare una zona DNS di OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
+>
+> Nel caso in cui desideri sottoscrivere un certificato SSL Sectigo EV per un dominio (esempio: `domain.tld`), verifica che il suo sottodominio in "www" (esempio: `wwww.domain.tld`) punti anche verso l’indirizzo IP del tuo hosting Web ed sia correttamente dichiarato come multisito.
+>
+> Perché se ordini il certificato SSL Sectigo EV ma non ti assicuri i i punti precedenti, è necessario effettuare una correzione a posteriori. In questo caso, è necessario eliminare il certificato SSL Sectigo EV precedentemente sottoscritto **senza usufruire di un rimborso** e ordinarne un altro. Il nuovo certificato SSL Sectigo EV deve includere sia il dominio `domain.tld` che il sottodominio "www" `www.domain.tld`.
+>
+> Ti ricordiamo che se sottoscrivi un certificato SSL Sectigo EV direttamente per un sottodominio (esempio: `sub.domain.tld`), la situazione non interessa te.
+
+Per ordinare il certificato SSL Sectigo EV, esegui queste operazioni:
+
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+4. Seleziona il tuo hosting Web.
+5. Nella nuova pagina, rimani nella scheda `Informazioni generali`{.action}.
+6. Posizionati nel riquadro intitolato `Configurazione`.
+7. A destra della voce `Certificato SSL`, clicca sul pulsante `...`{.action} e poi su `Ordina un certificato SSL`{.action}.
+
+![Order an SSL certificate](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/order-an-ssl-certificate.png){.thumbnail}
+
+Nella nuova finestra, seleziona `Certificato a pagamento`{.action} tra le opzioni disponibili.
+
+Seleziona il dominio o sottodominio dalla lista a tendina e clicca su `Continua`{.action}.
+
+Nella nuova finestra, clicca su `Conferma`{.action} per essere reindirizzato al buono d’ordine del tuo certificato SSL Sectigo EV.
+
+Seleziona il **Certificato SSL Sectigo EV** una volta arrivato nel tunnel d'ordine, poi prosegui con l'ordine.
 
 Inserisci con esattezza le informazioni richieste da **Sectigo** prima di ricevere il certificato SSL Sectigo EV. 
 
