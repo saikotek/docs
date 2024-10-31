@@ -1,12 +1,8 @@
 ---
-title: "Hosting WWW - Aktywacja certyfikatu SSL EV"
-excerpt: "Dowiedz się, jak zamówić i zainstalować certyfikat SSL EV na Twoim hostingu WWW OVHcloud"
+title: "Hosting WWW - Aktywacja certyfikatu SSL Sectigo EV"
+excerpt: "Dowiedz się, jak zamówić i zainstalować certyfikat SSL Sectigo EV na Twoim hostingu WWW OVHcloud"
 updated: 2024-10-31
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -35,7 +31,7 @@ W przypadku hostingu współdzielonego OVHcloud instytucja certyfikująca certyf
 > Pamiętaj, że po złożeniu i przekazaniu zamówienia do naszego dostawcy certyfikatów/autoryzacji Sectigo, **nie będzie możliwe zwrot**.
 >
 
-**Dowiedz się, jak zamówić i zainstalować certyfikat SSL EV na Twoim hostingu WWW OVHcloud**
+**Dowiedz się, jak zamówić i zainstalować certyfikat SSL Sectigo EV na Twoim hostingu WWW OVHcloud**
     
 ## Wymagania początkowe <a name="requirements"></a>
 
@@ -43,10 +39,10 @@ W przypadku hostingu współdzielonego OVHcloud instytucja certyfikująca certyf
 - Zamów lub zamów [hosting OVHcloud](/links/web/hosting), dla którego nie został zainstalowany żaden certyfikat SSL.
 - Zamów [domenę](/links/web/domains) i uzyskaj wyłączne prawa do korzystania z tej domeny. Nazwa domeny nie może być już powiązana z certyfikatem SSL.
 - Być organizacją (firma, agencja rządowa, ...) zarejestrowaną w oficjalnym rejestrze.
-- Posiadanie upoważnienia organizacji do zamawiania certyfikatu SSL EV
+- Posiadanie upoważnienia organizacji do zamawiania certyfikatu SSL Sectigo EV.
 - Być w stanie dokładnie uzasadnić informacje i dane kontaktowe dotyczące organizacji.
 
-Aby sprawdzić, czy możesz zamówić certyfikat SSL EV, przejdź do [link](https://help.sectigostore.com/support/solutions/articles/22000218717-extended-validation-ev-){.external}.
+Aby sprawdzić, czy możesz zamówić certyfikat SSL Sectigo EV, przejdź do [link](https://help.sectigostore.com/support/solutions/articles/22000218717-extended-validation-ev-){.external}.
   
 ## W praktyce
 
@@ -57,13 +53,13 @@ Aby sprawdzić, czy możesz zamówić certyfikat SSL EV, przejdź do [link](http
 > Oddajemy w Twojej ręce niniejszy przewodnik, którego celem jest pomoc w jak najlepszym wykonywaniu bieżących zadań. W przypadku trudności zalecamy skorzystanie z pomocy [wyspecjalizowanego usługodawcy](/links/partner). Niestety nie będziemy w stanie udzielić wsparcia **na wszystkich etapach weryfikacji bezpośrednio z organem certyfikującym Sectigo**. Więcej informacji znajduje się w sekcji [Sprawdź również](#go-further) niniejszego przewodnika.
 >
 
-### Etap 1: zamów certyfikat SSL EV
+### Etap 1: zamów certyfikat SSL Sectigo EV
 
 #### 1.1 - Dla już istniejącej domeny i hostingu OVHcloud
 
-Zapoznaj się z naszym przewodnikiem dotyczącym [zarządzania certyfikatem SSL na hostingu](/pages/web_cloud/web_hosting/ssl_on_webhosting) i wybierz **Certyfikat SSL EV** po przyjeździe do tunelu zamówienia.
+Zapoznaj się z naszym przewodnikiem dotyczącym [zarządzania certyfikatem SSL na hostingu](/pages/web_cloud/web_hosting/ssl_on_webhosting) i wybierz **Certyfikat SSL Sectigo EV** po przyjeździe do tunelu zamówienia.
 
-Wpisz poprawnie informacje wymagane przez **Sectigo**, zanim otrzymasz certyfikat SSL EV. 
+Wpisz poprawnie informacje wymagane przez **Sectigo**, zanim otrzymasz certyfikat SSL Sectigo EV. 
 
 ![SSL EV form](/pages/assets/screens/website/order/ssl-ev-step-2.png){.thumbnail}
 
@@ -73,11 +69,11 @@ Postępuj zgodnie z poleceniem aż do płatności, aby potwierdzić zlecenie utw
 
 > [!alert]
 >
-> Po zatwierdzeniu zamówienia wniosek o certyfikat SSL EV jest wysyłany do instytucji certyfikującej **Sectigo**.
+> Po zatwierdzeniu zamówienia wniosek o certyfikat SSL Sectigo EV jest wysyłany do instytucji certyfikującej **Sectigo**.
 >
-> **Przed opłaceniem certyfikatu** sprawdź, czy spełniasz warunki uprawniające do korzystania z certyfikatu SSL EV.
+> **Przed opłaceniem certyfikatu** sprawdź, czy spełniasz warunki uprawniające do korzystania z certyfikatu SSL Sectigo EV.
 >
-> Faktycznie, zwrot kosztów certyfikatu SSL EV nie będzie możliwy, **nawet jeśli procedura weryfikacji w Sectigo nie zakończy się**.
+> Faktycznie, zwrot kosztów certyfikatu SSL Sectigo EV nie będzie możliwy, **nawet jeśli procedura weryfikacji w Sectigo nie zakończy się**.
 >
 
 #### 1.2 - Dla nowej domeny i nowego hostingu
@@ -94,7 +90,7 @@ Wybierz moduł `moduł za 1 kliknięciem`{.action} i `CDN`{.action} i przejdź n
 
 Wybierz `Sectigo EV SSL`{.action} i kliknij `Dalej`{.action}.
 
-Na nowej stronie, która się wyświetla, wprowadź poprawnie informacje wymagane przez **Sectigo**, zanim certyfikat SSL EV zostanie wydany:
+Na nowej stronie, która się wyświetla, wprowadź poprawnie informacje wymagane przez **Sectigo**, zanim certyfikat SSL Sectigo EV zostanie wydany:
 
 ![SSL EV form](/pages/assets/screens/website/order/ssl-ev-step-2.png){.thumbnail}
 
@@ -104,11 +100,11 @@ Postępuj zgodnie z poleceniami aż do płatności i rozpocznij instalację swoi
 
 > [!alert]
 >
-> Po zatwierdzeniu zamówienia wniosek o certyfikat SSL EV jest wysyłany do instytucji certyfikującej **Sectigo**. 
+> Po zatwierdzeniu zamówienia wniosek o certyfikat SSL Sectigo EV jest wysyłany do instytucji certyfikującej **Sectigo**. 
 >
-> **Przed opłaceniem certyfikatu** sprawdź, czy spełniasz warunki uprawniające do korzystania z certyfikatu SSL EV.
+> **Przed opłaceniem certyfikatu** sprawdź, czy spełniasz warunki uprawniające do korzystania z certyfikatu SSL Sectigo EV.
 >
-> Faktycznie, zwrot kosztów certyfikatu SSL EV nie będzie możliwy, **nawet jeśli procedura weryfikacji w Sectigo nie zakończy się**.
+> Faktycznie, zwrot kosztów certyfikatu SSL Sectigo EV nie będzie możliwy, **nawet jeśli procedura weryfikacji w Sectigo nie zakończy się**.
 >
 
 ### Etap 2: weryfikacji z Urzędem Certyfikacji (AC) Sectigo
@@ -117,11 +113,11 @@ Wszystkie działania opisane na tym etapie mogą być przeprowadzane w ciągu ki
 
 > [!warning]
 >
-> Na tym etapie cały proces zależy od dostawcy certyfikatu **Sectigo** oraz informacji podanych podczas składania zamówienia na certyfikat SSL EV. 
+> Na tym etapie cały proces zależy od dostawcy certyfikatu **Sectigo** oraz informacji podanych podczas składania zamówienia na certyfikat SSL Sectigo EV. 
 >
 > Tylko **Sectigo** będzie mógł interweniować na tym etapie, a OVHcloud nie będzie mógł działać na tym poziomie.
 >
-> Rola AC Sectigo polega na niezależnym i bezstronnym poświadczaniu informacji Twojej organizacji, które mają zostać włączone do certyfikatu SSL EV.
+> Rola AC Sectigo polega na niezależnym i bezstronnym poświadczaniu informacji Twojej organizacji, które mają zostać włączone do certyfikatu SSL Sectigo EV.
 >
 > To **Sectigo** decyduje, czy wydać certyfikat EV SSL i w ogóle OVHcloud. Sectigo jest z definicji jedynym posiadaczem certyfikacji.
 >
@@ -131,7 +127,7 @@ Wszystkie działania opisane na tym etapie mogą być przeprowadzane w ciągu ki
 Po zrealizowaniu zamówienia Sectigo prześle Ci wiadomość e-mail z linkiem uwierzytelniającym i z procedurą, którą należy postępować.
 Sprawdź Twoje dane i zatwierdź zlecenie, postępując zgodnie z instrukcjami zawartymi w tym e-mailu. 
 
-Aby upewnić się, że korespondencja za pomocą wiadomości e-mail z Sectigo przebiega prawidłowo, sprawdź również ważność konta e-mail podanego w formularzu podczas składania zamówienia na certyfikat SSL EV, jak również adres e-mail do kontaktu powiązany z Twoim [Panelu klienta OVHcloud](/links/manager).
+Aby upewnić się, że korespondencja za pomocą wiadomości e-mail z Sectigo przebiega prawidłowo, sprawdź również ważność konta e-mail podanego w formularzu podczas składania zamówienia na certyfikat SSL Sectigo EV, jak również adres e-mail do kontaktu powiązany z Twoim [Panelu klienta OVHcloud](/links/manager).
 
 > [!primary]
 >
@@ -140,7 +136,7 @@ Aby upewnić się, że korespondencja za pomocą wiadomości e-mail z Sectigo pr
 > Pamiętaj, że niektóre ograniczenia zastosowane po Twojej stronie (np. w pliku ".htaccess") mogą uniemożliwić weryfikację.
 > Jeśli uprawnienia dostępu FTP "CHMOD" są również ograniczone lub niewystarczające, weryfikacja może być również zablokowana.
 >
-> Zalecamy również **nie** aktywacji lub pozostawienia w aktywnym katalogu [firewall aplikacyjny](/pages/web_cloud/web_hosting/multisites_activating_application_firewall), dostępnym z naszym hostingiem przez cały czas instalacji certyfikatu SSL EV.
+> Zalecamy również **nie** aktywacji lub pozostawienia w aktywnym katalogu [firewall aplikacyjny](/pages/web_cloud/web_hosting/multisites_activating_application_firewall), dostępnym z naszym hostingiem przez cały czas instalacji certyfikatu SSL Sectigo EV.
 >
 
 #### 2.2 - Weryfikacje wykonane przez Urząd Certyfikacji Sectigo
@@ -152,22 +148,22 @@ Sectigo sprawdzi następnie, czy Twoja organizacja istnieje i jest zarejestrowan
 > Sectigo może nie być w stanie sprawdzić wszystkich informacji w oficjalnych rejestrach. Służby Sectigo mogą skontaktować się z Tobą telefonicznie na numer podany podczas składania zamówienia lub na numer telefonu firmy.
 >
 
-Sectigo sprawdzi, czy posiadasz wyłączność/autorytet w zakresie własności i korzystania z domeny, z którą będziesz korzystać z certyfikatu SSL EV.
+Sectigo sprawdzi, czy posiadasz wyłączność/autorytet w zakresie własności i korzystania z domeny, z którą będziesz korzystać z certyfikatu SSL Sectigo EV.
 
 #### 2.3 - Ostatnie weryfikacje przez telefon z Sectigo
 
-Po dokonaniu weryfikacji przez Sectigo skontaktujemy się z Tobą przez ich usługi, aby dokończyć subskrypcję certyfikatu SSL EV.
+Po dokonaniu weryfikacji przez Sectigo skontaktujemy się z Tobą przez ich usługi, aby dokończyć subskrypcję certyfikatu SSL Sectigo EV.
 
 > [!success]
 >
 > Szczegółowe informacje na temat operacji opisanych **w etapie 2** powyżej znajdują się w [oficjalnej dokumentacji Sectigo](https://help.sectigostore.com/support/solutions/articles/22000218717-extended-validation-ev-){.external} na ten temat.
 >
 
-### Etap 3: instalacja certyfikatu SSL EV z domeną i hostingiem OVHcloud
+### Etap 3: instalacja certyfikatu SSL Sectigo EV z domeną i hostingiem OVHcloud
 
-Po przeprowadzeniu wszystkich weryfikacji przez Sectigo ich usługi generują certyfikat SSL EV i przekazują nam niezbędne informacje do zainstalowania go na Twoim hostingu.
+Po przeprowadzeniu wszystkich weryfikacji przez Sectigo ich usługi generują certyfikat SSL Sectigo EV i przekazują nam niezbędne informacje do zainstalowania go na Twoim hostingu.
 
-Aby w pełni korzystać z certyfikatu SSL EV, wystarczy kliknąć na [załadować stronę WWW na HTTPS](/pages/web_cloud/web_hosting/ssl-activate-https-website).
+Aby w pełni korzystać z certyfikatu SSL Sectigo EV, wystarczy kliknąć na [załadować stronę WWW na HTTPS](/pages/web_cloud/web_hosting/ssl-activate-https-website).
 
 ## Sprawdź również <a name="go-further"></a>
 
