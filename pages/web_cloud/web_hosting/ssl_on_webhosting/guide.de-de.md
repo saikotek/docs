@@ -8,7 +8,7 @@ updated: 2024-10-31
 
 Mit den Secure Socket Layer (SSL) Zertifikaten können Sie den Datenaustausch zwischen Ihrer Website und Ihrer Website verschlüsseln. So wird verhindert, dass böswillige Personen oder Roboter die von Ihrer Website gesendeten Anfragen klar abhören.
 
-OVHcloud bietet verschiedene Arten von SSL-Zertifikaten für unsere [OVHcloud Shared Hosting] Angebote an (/links/web/hosting). Sie werden weiter unten in dieser Anleitung beschrieben. SSL-Zertifikate sind für die Sicherheit Ihrer Website unerlässlich.
+OVHcloud bietet verschiedene Arten von SSL-Zertifikaten für unsere [OVHcloud Shared Hosting](/links/web/hosting) Angebote an. Sie werden weiter unten in dieser Anleitung beschrieben. SSL-Zertifikate sind für die Sicherheit Ihrer Website unerlässlich.
 
 Es gibt drei Arten von SSL-Zertifikaten:
 
