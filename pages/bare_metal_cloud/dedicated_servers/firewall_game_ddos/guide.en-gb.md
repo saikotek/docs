@@ -139,7 +139,7 @@ Minecraft is well supported by the following profiles:
 - **Minecraft Java**: Should be the best fit for all Minecraft Java versions. It protects the Minecraft Query protocol and is tuned for TCP traffic. It was added in 2024 but is also available for previous generations of Bare Metal Game servers. Use with caution if other UDP games are hosted on the same IP. 
 - **Minecraft Query**: General Minecraft Query protocol protection.
 - **Minecraft Bedrock**: Minecraft Bedrock protection (with RakNet cookies support), added in the 3rd gen. of Bare Metal Game servers (2024, EPYC based).
-- **Minecraft Pocket Edition**: Minecraft PE/Bedrock protection. Kept for compatibility reasons, the same as Bedrock option.
+- **Minecraft Pocket Edition**: Minecraft PE/Bedrock protection, the same as Bedrock, kept for compatibility reasons.
 
 #### Valheim
 
