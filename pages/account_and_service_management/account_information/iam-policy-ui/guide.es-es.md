@@ -1,12 +1,8 @@
 ---
 title: Cómo utilizar las políticas IAM desde el área de cliente
 excerpt: Cómo conceder permisos de acceso específicos a los usuarios desde una cuenta de OVHcloud
-updated: 2024-07-04
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
 
 ## Objetivo
 
@@ -28,6 +24,8 @@ Por ejemplo, podemos crear una política para dar a un usuario llamado John, par
 **Esta guía explica cómo declarar estas políticas desde el área de cliente de OVHcloud y cómo hacer un listado de las identidades, recursos y acciones disponibles para estas políticas.**
 
 ![políticas IAM](images/iam_policies.png){.thumbnail}
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/sxCgWYttAVk?si=wZSYwkr-8Xd01kzN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 
