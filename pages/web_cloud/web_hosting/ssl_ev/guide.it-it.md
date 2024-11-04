@@ -72,7 +72,7 @@ Per attivare un certificato SSL per più domini/sottodomini dichiarati sull’ho
 >
 > **Prima di proseguire**, verifica che **il dominio e/o sottodominio** interessato dal tuo futuro certificato SSL Sectigo EV:
 >
-- punti verso l'indirizzo IP del tuo hosting Web;
+> - punti verso l'indirizzo IP del tuo hosting Web;
 > - dichiarato multisito sul tuo hosting Web.
 >
 > Per maggiori informazioni, consulta le nostre guide:
