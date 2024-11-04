@@ -1,7 +1,7 @@
 ---
 title: 'Web Cloud Databases - Comment gérer les logs ?'
 excerpt: 'Découvrez comment gérer les logs de vos bases de données hébergées sur votre serveur Web Cloud Databases'
-updated: 2024-10-28
+updated: 2024-11-04
 ---
 
 ## Objectif
@@ -58,7 +58,7 @@ Pour accéder aux logs en temps réel de votre Web Cloud Databases, effectuez le
 4. Sélectionnez l'instance Web Cloud Databases concernée.
 5. Sur la page qui s'affiche, cliquez sur l'onglet `Logs`{.action}.
 
-![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/tab-with-logs.png){.thumbnail}
+////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 C'est dans cette console intégrée que vous trouverez, en temps réel, les logs de votre solution Web Cloud Databases.
 
@@ -118,9 +118,72 @@ Vous pourrez le télécharger sur votre poste pour le consulter.
 > Grâce à ce fichier, vous pourrez optimiser vos scripts et le contenu de votre (vos) base(s) de données afin d'améliorer les performances de vos différents services associés.
 >
 
+### Cas particulier - Abonner les logs de votre solution Web Cloud Databases à Logs Data Platform <a name="wcdb-ldp"></a>
+
+[Logs Data Platform](https://www.ovhcloud.com/fr/public-cloud/logs-data-platform/) est une plateforme permettant de gérer vos logs. Cela peut vous être utile si vous disposez d'une très grosse infrastructure ou si vos services génèrent énormément de logs. Effectivement, cette plateforme est conçue pour faciliter l'aggrégation et la gestion des logs. 
+
+Elle fonctionne en récupérant les logs générés par votre infrastructure / vos sites web ou encore vos applications pour, par exemple :
+
+- les stocker;
+- les afficher dans des tableaux de bord en temps réel;
+- permettre aux utilisateurs d'effectuer des requêtes complexes;
+- faire de l'indexation;
+- etc.
+
+Pour plus de détails sur Logs Data Platform, consultez notre guide d'[introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) (EN).
+
+Du fait que les solutions [Web Cloud Databases](/links/web/databases) peuvent être utilisées avec de nombreux services (hébergements mutualisés, VPS, serveurs dédiés, etc.), celles-ci peuvent, en complément des logs en temps réel déjà disponibles, être abonnées par flux de données à Logs Data Platform.
+
+Pour abonner votre solution Web Cloud Databases à un flux de données sur Logs Data Platform, effectuez les actions suivantes :
+
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
+3. Dans la colonne de gauche, cliquez sur le menu déroulant `Web Cloud Databases`{.action}.
+4. Sélectionnez l'instance Web Cloud Databases concernée.
+5. Sur la page qui s'affiche, cliquez sur l'onglet `Logs`{.action}.
+6. Sur la droite de l'encadré où s'affichent en temps réel vos logs, cliquez sur le bouton `S'abonner`{.action}.
+
+////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Dans la nouvelle page qui s'ouvre et si vous disposez de plusieurs solutions Logs Data Platform dans votre [espace client OVHcloud](/links/manager), sélectionnez, dans la liste déroulante située juste en dessous du bouton intitulé `Ajouter un flux de données`, la référence de la Logs Data Platform avec laquelle vous souhaitez vous abonner.
+
+////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Deux cas de figure s'offrent à vous pour abonner votre solution Web Cloud Databases.
+
+#### Cas n°1 - S'abonner à un flux déjà existant sur votre solution Logs Data Platform <a name="wcdb-ldp-case1"></a>
+
+Si le flux concerné existe déjà, celui-ci apparaît sous la forme d'une ligne dans le tableau situé en bas de page.
+Dans cas précis et pour abonner votre solution Web Cloud Databases à ce flux existant, il vous suffit de cliquer sur le bouton `S'abonner`{.action} situé à droite de la ligne correspondant au flux concerné.
+
+////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Au bout de quelques secondes et si vous restez sur la même page, un message apparaîtra dans votre espace client pour vous signaler que l'abonnement a été créé avec succès.
+
+#### Cas n°2 - S'abonner à un nouveau flux de données sur votre solution Logs Data Platform
+
+Si le flux concerné n'existe pas encore, cliquez sur le bouton `Ajouter un flux de données`{.action}.
+Vous serez alors redirigé vers une nouvelle page de votre espace client OVHcloud qui vous permettra de créer et d'ajouter un nouveau flux de données sur votre solution Logs Data Platform.
+
+////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Si besoin, consultez nos guides « [Introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) » (EN) et « [Démarrer rapidement avec Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_quick_start) » (EN).
+
+Une fois les différents formulaires et informations renseignés, cliquez sur le bouton `Sauvegarder`{.action}.
+
+Vous serez ensuite redirigé vers l'onglet `Flux de données` de votre solution Logs Data Platform.
+
+Il ne vous reste plus qu'à abonner votre solution Web Cloud Databases à votre flux nouvellement créé sur votre solution Logs Data Platform.
+
+Pour cela et comme expliqué [précédemment](#wcdb-ldp), retournez dans l'onglet `Logs`{.action} de votre solution Web Cloud Databases pour vous abonner à ce nouveau flux de données, puis suivez cette fois-ci le [Cas n°1](#wcdb-ldp-case1) décrit plus haut.
+
 ## Aller plus loin <a name="go-further"></a>
 
 [Premiers pas avec votre Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb)
+
+[Introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP)
+
+[Démarrer rapidement avec Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_quick_start)
 
 Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
 
