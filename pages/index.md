@@ -100,6 +100,7 @@
         + [Data Processing - Responsibility Model](public_cloud/data_analytics/data_processing/responsibility_model)
         + [Managed E-mail Server on Mutualized Infrastructure - Responsibility Model](web_cloud/email_and_collaborative_solutions/microsoft_exchange/responsibility_model_private_email_server_exchange)
         + [Managed Dedicated E-mail Infrastructure - Responsibility Model](web_cloud/email_and_collaborative_solutions/microsoft_exchange/raci_dedicated_email_infrastructure)
+        + [OVHcloud KMS - Responsibility model](manage_and_operate/kms/responsibility-model-kms)
 + Bare Metal Cloud
     + [Dedicated Servers](products/bare-metal-cloud-dedicated-servers)
         + [Getting started](bare-metal-cloud-dedicated-servers-getting-started)
@@ -2028,6 +2029,7 @@
         + [Getting started with OVHcloud Key Management Service (KMS)](manage_and_operate/kms/quick-start)
         + [Using the OVHcloud Key Management Service (KMS) with your data](manage_and_operate/kms/kms-usage)
         + [OVHcloud KMS Architecture overview](manage_and_operate/kms/architecture-overview)
+        + [OVHcloud KMS - Responsibility model](manage_and_operate/kms/responsibility-model-kms)
         + [How to connect a compatible product using KMIP protocol with OVHcloud KMS](manage_and_operate/kms/kms-kmip)
 + OVHcloud Labs
     + [Data Collector](products/ovhcloud-labs-data-collector)
