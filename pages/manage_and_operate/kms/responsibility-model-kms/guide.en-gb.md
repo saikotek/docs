@@ -1,7 +1,8 @@
 ---
 title: Key Management Service (KMS) - Shared responsibilities
 excerpt: "Shared responsibilities between OVHcloud and the customer for OVHcloud KMS"
-updated: 2024-10-02
+flag: hidden
+updated: 2024-11-04
 ---
 
 ## Objective

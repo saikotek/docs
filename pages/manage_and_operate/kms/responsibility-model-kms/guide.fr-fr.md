@@ -1,7 +1,8 @@
 ---
 title: Key Management Service (KMS) - Partage des responsabilités
 excerpt: "RACI entre OVHcloud et le client pour l'utilisation du KMS OHcloud"
-updated: 2024-10-02
+flag: hidden
+updated: 2024-11-04
 ---
 
 ## Objectif
