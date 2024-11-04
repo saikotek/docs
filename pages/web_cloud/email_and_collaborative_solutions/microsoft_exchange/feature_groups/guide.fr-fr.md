@@ -24,7 +24,7 @@ Grâce aux groupes Exchange, de nombreux participants peuvent communiquer par en
 - Etre connecté à votre [espace client OVHcloud](/links/manager)
 - Avoir souscrit une offre [solution Exchange OVHcloud](/links/web/emails-hosted-exchange) 
 
-## Instructions
+## En pratique
 
 ### Créer un nouveau groupe
 
@@ -65,7 +65,7 @@ Après la création de votre groupe, vous pouvez modifier les paramètres que vo
 
 #### Gérer les utilisateurs d'un groupe
 
-Pour ajouter des `Contacts` à votre groupe ou définir les `Administrateurs`, cliquez sur`...`{.action} puis sur `Configurer les utilisateurs`{.action}, cochez les attribus que vous souhaitez attacher aux adresses e-mail de la colone `Compte e-mail`
+Pour ajouter des `Contacts` à votre groupe ou définir les `Administrateurs`, cliquez sur le bouton `...`{.action} puis sur `Configurer les utilisateurs`{.action}. Cochez les attributs que vous souhaitez attacher aux adresses e-mail de la colonne `Compte e-mail`.
 
 > [!primary]
 >
