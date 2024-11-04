@@ -167,7 +167,7 @@ Vous serez alors redirigé vers une nouvelle page de votre espace client OVHclou
 
 ////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Si besoin, consultez nos guides « [Introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) » (EN) et « [Démarrer rapidement avec Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_quick_start) » (EN).
+Si besoin, consultez nos guides « [Introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) » (EN) et « [Démarrer rapidement avec Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_quick_start) » (EN) pour réaliser ces actions.
 
 Une fois les différents formulaires et informations renseignés, cliquez sur le bouton `Sauvegarder`{.action}.
 
