@@ -6,14 +6,14 @@ updated: 2024-10-24
 
 ## Objective
 
-The OVHcloud [vRack](https://www.ovh.com/asia/solutions/vrack) allows you to configure private network addressing between two or more OVHcloud [Dedicated Servers](/links/bare-metal/bare-metal). But it also allows you to add [Public Cloud instances](https://www.ovh.com/asia/public-cloud/instances/) to your private network so that you can create an infrastructure of both physical and virtual resources.
+The OVHcloud [vRack](/links/network/vrack/) allows you to configure private network addressing between two or more OVHcloud [Dedicated Servers](/links/bare-metal/bare-metal). But it also allows you to add [Public Cloud instances](https://www.ovh.com/asia/public-cloud/instances/) to your private network so that you can create an infrastructure of both physical and virtual resources.
 
 **This guide will show you how to configure private networking between a [Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps) and a [Dedicated Server](/links/bare-metal/bare-metal).**
 
 ## Requirements
 
 - An [OVHcloud Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps)
-- A [vRack](https://www.ovh.com/asia/solutions/vrack) service activated in your account
+- A [vRack](/links/network/vrack/) service activated in your account
 - A [Dedicated Server](/links/bare-metal/bare-metal) compatible with the vRack
 - Access to the [OVHcloud Control Panel](/links/manager)
 - A private IP address range of your choice
@@ -118,7 +118,7 @@ In the popup window that appears, select the private network(s) to attach to you
 
 ### Configure your network interfaces
 
-Next, configure the network interfaces on your new [Public Cloud instance](https://www.ovh.com/asia/public-cloud/instances/) and [Dedicated Server](/links/bare-metal/bare-metal) using this guide: [Configuring the vRack on your Dedicated Servers](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server).
+Next, configure the network interfaces on your new public cloud instance and Dedicated Server using this guide: [Configuring the vRack on your Dedicated Servers](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server).
 
 ## Go further
 
