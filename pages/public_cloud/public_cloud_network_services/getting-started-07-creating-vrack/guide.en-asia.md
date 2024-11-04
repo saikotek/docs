@@ -125,7 +125,7 @@ To activate and manage a vRack using the OVHcloud APIv6, please refer to [this s
 
 ### Step 2: Creating a private network in the vRack
 
-It is necessary to create a private network so that the connected instances can communicate with each other.
+It is necessary to create a private network with a virtual local area network (VLAN) so that the connected instances can communicate with each other.
 
 With the Public Cloud service, you can create up to 4,000 VLANs within one vRack. This means that you can use each private IP address up to 4,000 times.
 Thus, for example, 192.168.0.10 of VLAN 2 is different from IP 192.168.0.10 of VLAN 42.
