@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ
 excerpt: "FAQ sur la solution Object Storage"
-updated: 2024-09-16
+updated: 2024-10-30
 ---
 
 ## Questions générales
@@ -11,6 +11,8 @@ updated: 2024-09-16
 Le stockage objet «Object Storage» est une famille d’offres de stockage proposant des espaces de stockage performant, scalable et sécurisé.
 
 Les offres de stockage objet permettent de déposer, à travers un point d’accès public appelé « endpoint », des fichiers statiques (vidéos, images, fichiers web, etc...) dans un espace illimité, pour les exploiter depuis une application ou pour les rendre accessibles sur le web. Ces espaces de stockages sont accessibles via une interface d’API standard S3 pour les classes de stockage Object Storage S3 et Swift pour les classes de stockage Object Storage SWIFT.
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/8xXbL3Ftgwk?si=OaRx5koocA-OyRXC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Dans quel cas d'usage utiliser une solution de stockage objet ?
 

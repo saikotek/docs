@@ -1,7 +1,7 @@
 ---
 title: Premiers pas avec un VPS
 excerpt: "Apprenez à gérer un VPS dans votre espace client et découvrez les premières étapes de son utilisation, notamment les connexions à distance et les mesures de sécurité"
-updated: 2024-10-01
+updated: 2024-10-30
 ---
 
 ## Objectif
@@ -75,6 +75,8 @@ Retrouvez ci-dessous les informations de base sur votre VPS et l’état du serv
 >>
  
 #### Votre configuration
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/BbyE52W7aBo?si=mmgSmaqIxx0zzGz2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Cliquez sur les onglets ci-dessous pour afficher les détails de cette section.
 

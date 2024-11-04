@@ -1,7 +1,7 @@
 ---
-title: "Web Hosting: How to change your solution?"
+title: "Web Hosting - How to change your solution"
 excerpt: "Find out how to change the subscription offer for your OVHcloud Web Hosting"
-updated: 2023-09-19
+updated: 2024-10-30
 ---
 
 ## Objective
@@ -15,6 +15,8 @@ In your [OVHcloud Control Panel](/links/manager), you can increase the capacity 
 - Additional features such as [mailing lists](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (from [the Professional offer](/links/web/hosting-professional-offer)) or the [Web Cloud Databases service](/links/web/databases){.external} (included in [the Performance offers](/links/web/hosting-performance-offer))
 
 **This guide explains how to upgrade your OVHcloud hosting plan without any service interruptions.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/vRO7DXx9UsI?si=JOL6gOaCQQ2spsID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requirements
 
@@ -78,12 +80,12 @@ This calculation is the price difference between your original plan and your new
 
 > **Example:**<br>
 >
-> You have subscribed to a [Personal](/links/web/hosting-personal-offer) subscription on 1 January 2022.
+> You have subscribed to a [Personal](/links/web/hosting-personal-offer) subscription on 1 January 2024.
 >
-> On October 31, 2022, you upgrade this **Personal** plan to the [Pro](/links/web/hosting-professional-offer) plan.<br>
+> On October 31, 2024, you upgrade this **Personal** plan to the [Pro](/links/web/hosting-professional-offer) plan.<br>
 >
-> Therefore, the amount corresponding to the remaining duration on the **Personal** subscription (2 months, from 01 November 2022 to 01 January 2023) is automatically deducted from the cost of the new **Pro** subscription, until 01 January 2023. You will only pay the difference.
-> From 01 January 2023, the **Pro** subscription will then be billed at its current price.
+> Therefore, the amount corresponding to the remaining duration on the **Personal** subscription (2 months, from 01 November 2024 to 01 January 2025) is automatically deducted from the cost of the new **Pro** subscription, until 01 January 2025. You will only pay the difference.
+> From 01 January 2025, the **Pro** subscription will then be billed at its current price.
 
 Follow [these instructions](#modify) to change your solution.
 

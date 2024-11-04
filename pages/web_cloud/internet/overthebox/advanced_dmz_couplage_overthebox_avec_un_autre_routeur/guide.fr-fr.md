@@ -16,7 +16,7 @@ Si vous souhaitez conserver un routeur, tel qu'un pfSense, pour gérer votre LAN
 - Au moins un accès à Internet, fourni par [OVHcloud](https://www.ovhtelecom.fr/offre-internet/) ou un autre founisseur d'accès
 - Un matériel OverTheBox fourni par OVHcloud ou une installation depuis le projet Open Source (consultez le guide « [Installer l'image overthebox sur votre materiel](/pages/web_cloud/internet/overthebox/advanced_installer_limage_overthebox_sur_votre_materiel) »)
 
-L'intégralité de votre réseau **LAN** sera gérée par votre routeur personnel. Cela comprend le **serveur DHCP**. Veuillez donc d'abord désactiver le **serveur DHCP** de votre **OverTheBox** comme indiqué sur le guide suivant : [Désactiver le serveur DHCP d’OverTheBox](/pages/web_cloud/internet/overthebox/middle_desactiver_le_serveur_dhcp_doverthebox).
+L'intégralité de votre réseau **LAN** sera gérée par votre routeur personnel. Cela comprend le **serveur DHCP**. Veuillez donc d'abord désactiver le **serveur DHCP** de votre **OverTheBox** comme indiqué sur le guide suivant : [Comment configurer le réseau local d'une OverTheBox ?](/pages/web_cloud/internet/overthebox/middle_configurer_votre_lan).
 
 ## En pratique
 

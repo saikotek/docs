@@ -1,12 +1,8 @@
 ---
 title: Erste Schritte mit einem VPS
 excerpt: Erfahren Sie hier, wie Sie einen VPS in Ihrem Kundencenter verwalten sowie die ersten Schritte zum Start, inklusive Remote-Verbindungen und Sicherheitsmaßnahmen
-updated: 2024-10-01
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -16,7 +12,7 @@ Ein Virtual Private Server (VPS) ist ein virtualisierter Dedicated Server, der I
 
 ## Voraussetzungen
 
-- Sie haben einen [VPS](/links/bare-metal/vps/) in Ihrem OVHcloud Kundencenter.
+- Sie haben einen [VPS](/links/bare-metal/vps) in Ihrem OVHcloud Kundencenter.
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 ## In der praktischen Anwendung
@@ -79,6 +75,8 @@ Unten stehend finden Sie grundlegende Informationen zu Ihrem VPS und den Status 
 >>
 
 #### Ihre Konfiguration
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/RcXaZwLhCbY?si=UFygSsQv47LpKIdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Klicken Sie auf die Tabs, um Erläuterungen dieses Bereichs anzuzeigen.
 

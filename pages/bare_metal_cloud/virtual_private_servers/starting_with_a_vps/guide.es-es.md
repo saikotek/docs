@@ -1,12 +1,8 @@
 ---
 title: Primeros pasos con un VPS
 excerpt: Aprenda a gestionar un VPS en su área de cliente y descubra las primeras etapas de su uso, incluyendo las conexiones a distancia y las medidas de seguridad
-updated: 2024-10-01
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
 
 ## Objetivo
 
@@ -78,6 +74,8 @@ Consulte a continuación la información básica sobre su VPS y el estado del se
 
 #### Su configuración
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/k6Cp1ZzfQvE?si=2HGd5uaerGvc4WLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Haga clic en las fichas siguientes para ver los detalles de esta sección.
 
 > [!tabs]
@@ -127,7 +125,7 @@ Para más información sobre las soluciones de backup disponibles para su servic
 
 #### Suscripción
 
-En estas secciones se ofrece la información más importante sobre la facturación del servicio. Encontrará toda la información sobre este tema en la [documentación correspondiente](/products/account-and-service-managing-billing-payments-and-services).
+En estas secciones se ofrece la información más importante sobre la facturación del servicio. Encontrará toda la información sobre este tema en la [documentación correspondiente](/products/account-and-service-management-managing-billing-payments-and-services).
 
 <a name="hometab"></a>
 

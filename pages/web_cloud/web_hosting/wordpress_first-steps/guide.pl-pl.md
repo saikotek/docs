@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak utworzyć stronę WWW przy użyciu CMS WordPress"
 updated: 2024-07-15
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Tutorial ten pozwoli Ci na tworzenie pierwszych treści, ich organizację, umieszczenie w Internecie i zmianę motywu Twojej strony WWW za pomocą Content Management System (CMS) **WordPress**. Możesz uruchomić Twoją stronę WWW bez konieczności posiadania wiedzy z zakresu programowania, z szerokim wachlarzem tematów, takich jak firmowa strona WWW, blog czy strona internetowa, która pozwoli Ci poznać Twoją działalność i pasję.

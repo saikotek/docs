@@ -1,7 +1,7 @@
 ---
-title: "Mettre en place un répondeur depuis l'interface OWA"
-excerpt: guide mise en place d'un répondeur sous owa
-updated: 2020-07-20
+title: 'Mettre en place un répondeur automatique depuis l’interface OWA'
+excerpt: Découvrez comment mettre en place une réponse automatique sous OWA
+updated: 2024-10-22
 ---
 
 ## Objectif
@@ -12,7 +12,7 @@ Cette fonctionnalité d’Exchange vous permet de configurer des réponses autom
 
 ## Prérequis
 
-- Avoir installé une [solution OVHcloud Exchange](/links/web/emails-hosted-exchange) 
+- Avoir installé une solution e-mail OVHcloud [Exchange](/links/web/emails-hosted-exchange)
 - Avoir accès à votre compte e-mail (adresse e-mail et mot de passe)
 
 ## En pratique
@@ -23,12 +23,11 @@ Connectez-vous à votre compte Exchange via le [webmail OVHcloud](/links/web/ema
 
 ![owa options](images/exchange-autorep-step1.png){.thumbnail}
 
-Pour activer la fonctionnalité, il suffit de sélectionner `Envoyer des réponses automatiques`{.action}. Vous pouvez définir une période exacte dans les champs prévus à cet effet ou activer la fonctionnalité indéfiniment. 
+Pour activer la fonctionnalité, il suffit de sélectionner `Envoyer des réponses automatiques`{.action}. Vous pouvez définir une période exacte dans les champs prévus à cet effet ou activer la fonctionnalité indéfiniment.
 
 > [!primary]
 >
 > Si vous ne spécifiez pas d'heure de début et d'heure de fin, la réponse automatique devra être désactivée manuellement par vos soins.
->
 
 Saisissez votre message dans la boîte d'édition et confirmez avec le bouton `OK`{.action} situé en haut à gauche.
 
@@ -36,7 +35,7 @@ Saisissez votre message dans la boîte d'édition et confirmez avec le bouton `O
 
 ### Définir le type de réponses
 
-Les instructions ci-dessus s'appliquent aux e-mails envoyés par les utilisateurs de votre service Exchange. Vous pouvez composer un message différent pour tous les autres en cochant la case « Envoyer des réponses automatiques aux expéditeurs externes ». Vous aurez alors deux autres possibilités de réponse automatique :
+Les instructions ci-dessus s'appliquent aux e-mails envoyés par les utilisateurs de votre service Exchange. Vous pouvez composer un message différent pour tous les autres en cochant la case « Envoyer des réponses automatiques aux expéditeurs externes ». Vous aurez alors deux autres possibilités de réponse automatique :
 
 - **Envoyer des réponses uniquement aux expéditeurs figurant dans ma liste de contacts** : Seuls vos contacts recevront un message.
 
@@ -46,7 +45,7 @@ Un message alternatif pour les expéditeurs externes peut être saisi dans la de
 
 ![owa ajout de réponse](images/exchange-autorep-step3.png){.thumbnail}
 
-### Informations supplémentaires :
+### Informations supplémentaires :
 
 - Vous recevrez, comme d'habitude, vos e-mails dans votre boîte de réception, même si les réponses automatiques sont activées.
 
@@ -54,8 +53,14 @@ Un message alternatif pour les expéditeurs externes peut être saisi dans la de
 
 ## Aller plus loin
 
-[ Consulter son compte Exchange depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
+[Consulter son compte Exchange depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
+
+[Déléguer des droits sur un compte Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation)
 
 [Partager des calendriers via l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
+
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).

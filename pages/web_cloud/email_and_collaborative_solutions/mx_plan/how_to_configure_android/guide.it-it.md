@@ -1,7 +1,7 @@
 ---
-title: "MXplan - Configurare un indirizzo email in Gmail per Android"
+title: "MX Plan - Configurare un indirizzo email in Gmail per Android"
 excerpt: "Questa guida ti mostra come configurare un account email MX Plan su Android tramite l’applicazione Gmail"
-updated: 2023-12-15
+updated: 2024-10-01
 ---
 
 <style>
@@ -16,7 +16,7 @@ updated: 2023-12-15
 
 ## Obiettivo
 
-Gli indirizzi email dell’offerta MX Plan possono essere configurati su diversi client di posta elettronica compatibili per permetterti di utilizzare il tuo account email dal dispositivo che preferisci. Questa guida ti mostra in dettaglio il processo di configurazione di un indirizzo email MXplan dall’applicazione Gmail presente sui dispositivi Android.
+Gli indirizzi email dell’offerta MX Plan possono essere configurati su diversi client di posta elettronica compatibili per permetterti di utilizzare il tuo account email dal dispositivo che preferisci. Questa guida ti mostra in dettaglio il processo di configurazione di un indirizzo email MX Plan dall’applicazione Gmail presente sui dispositivi Android.
 
 **Questa guida ti mostra come configurare un indirizzo email MX Plan su Android tramite l’applicazione Gmail.**
 
@@ -172,6 +172,10 @@ Per comprendere la differenza tra l'utilizzo del protocollo POP e IMAP, scomponi
 > Questa descrizione è una sintesi, rappresenta il funzionamento standard di entrambi i protocolli. È possibile configurare il POP in modo che le email non vengano eliminate quando si raccolgono i messaggi. L’obiettivo è descrivere il funzionamento nativo di questi due protocolli ed evitare operazioni aggiuntive per rispondere alle tue necessità.
 
 ## Per saperne di più
+
+> [!primary]
+>
+> Per ulteriori informazioni sulla configurazione di un indirizzo e-mail dall'applicazione Gmail su Android, consultare [Guida in linea di Google](https://support.google.com/mail/answer/6078445?hl=it-CA&co=GENIE.Platform%3DAndroid#zippy=%2Aggiungere-un-account).
 
 [Configurare un account E-mail Pro su Android tramite l’applicazione Gmail](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_android).
 
