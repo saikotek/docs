@@ -167,7 +167,7 @@ Zwischen den neueren Game Servern (ab 2024 veröffentlichte Game Bare Metal Serv
 
 Alle unterstützten Protokolle der Game DDoS Protection für einen bestimmten Server sind auf der Konfigurationsseite `GAME Firewall`{.action} für jede IP-Adresse, die auf diesen Server verweist, im Dropdown-Menü `Game Protocol`{.action} zu sehen:
 
-| ![Systemsteuerung-Game-Protokolle](images/Game_Protocols_List.png) |
+| ![Systemsteuerung-Game-Protokolle](images/game_protocols_list.png) |
 |:--:|
 | Liste der unterstützten Schutzprotokolle |
 
