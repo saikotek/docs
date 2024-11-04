@@ -1,7 +1,7 @@
 ---
-title: 'Comment configurer une route statique sur OverTheBox?'
+title: 'Comment configurer une route statique sur OverTheBox ?'
 excerpt: "Découvrez comment configurer une route statique sur votre OverTheBox pour gérer vos flux réseaux"
-updated: 2024-10-31
+updated: 2024-11-04
 ---
 
 ## Objectif
@@ -23,7 +23,8 @@ Dans notre cas, notre OverTheBox possède trois interfaces WAN:
 - Une interface **FTTH** avec comme IP de gateway `192.168.3.1`.
 - Une interface **ADSL** avec comme IP de gateway `192.168.2.1`.
 
-Pour l'exemple de ce guide, nous souhaitons que notre service de [VoIP OVHcloud](https://www.ovhtelecom.fr/telephonie/) accessible sur la plage d'IP `91.121.128.0/23` ne passe pas par le tunnel de notre OverTheBox mais uniquement par l'interface FTTH.
+Pour l'exemple de ce guide, nous souhaitons que notre service de [VoIP OVHcloud](/links/telecom/telephonie-voip) accessible sur la plage d'IP `91.121.128.0/23` ne passe pas par le tunnel de notre OverTheBox mais uniquement par l'interface FTTH.
+
 Nous allons donc créer une route statique pour que la plage `91.121.128.0/23` passe uniquement par notre gateway `192.168.3.1`.
 
 ![overthebox](images/step1-static-1-overview-2024.png){.thumbnail}
@@ -70,10 +71,10 @@ Pour la suite du guide, vous devez identifier la table de routage utilisée par 
 
 > [!primary]
 >
-> Vous pouvez aussi redémarrez votre **OverTheBox** pour cette étape.
+> Vous pouvez aussi redémarrer votre **OverTheBox** pour cette étape.
 >
 
-Pour que les changements soient correctement pris en compte, vous devez redémarrez le service `Network`.
+Pour que les changements soient correctement pris en compte, vous devez redémarrer le service `Network`.
 
 - Rendez-vous dans l'onglet `System > Startup`{.action}.
 - Choisissez l'`InitScript network` et cliquez sur le bouton `Restart`{.action}.
