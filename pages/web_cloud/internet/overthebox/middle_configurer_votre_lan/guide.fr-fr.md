@@ -1,7 +1,7 @@
 ---
-title: "Comment configurer le réseau local d'une OverTheBox?"
+title: "Comment configurer le réseau local d'une OverTheBox ?"
 excerpt: "Découvrez comment modifier la configuration du réseau local d'une OverTheBox"
-updated: 2024-10-30
+updated: 2024-11-04
 ---
 
 ## Objectif
@@ -29,6 +29,7 @@ Découvrez comment configurer votre réseau local depuis l'interface de votre **
 > [!primary]
 >
 > Les plages d'adresses IPv4 privées sont standardisées, votre réseau doit être contenu dans l'une de ces plages :
+>
 > - 10.0.0.0/8
 > - 192.168.0.0/16
 > - 172.16.0.0/12
@@ -75,7 +76,7 @@ Découvrez comment configurer votre réseau local depuis l'interface de votre **
 
 ![overthebox](images/step1-lan-1-edit-2024.png){.thumbnail}
 
-> [!warn]
+> [!warning]
 >
 > Désactiver le DHCP signifie que l'**OverTheBox** n'attribuera plus automatiquement d'IP locale, cette action doit être accompagnée d'une configuration manuelle de vos équipements ou de la présence d'un autre serveur DHCP sur votre réseau local.
 >
@@ -94,9 +95,9 @@ Découvrez comment configurer votre réseau local depuis l'interface de votre **
 
 ![overthebox](images/step1-lan-1-edit-2024.png){.thumbnail}
 
-> [!warn]
+> [!warning]
 >
-> Désactiver l'allocation dynamique du DHCP signifie que l'**OverTheBox** attribuera automatiquement une IP locale uniquement aux équipements configuré pour recevoir un bail statique.
+> Désactiver l'allocation dynamique du DHCP signifie que l'**OverTheBox** attribuera automatiquement une IP locale uniquement aux équipements configurés pour recevoir un bail statique.
 >
 
 - Rendez-vous dans l'onglet `DHCP Server > Advanced Settings`{.action}.
@@ -119,15 +120,15 @@ Découvrez comment configurer votre réseau local depuis l'interface de votre **
 
 ![overthebox](images/step1-lan-6-AddDHCPLease-2024.png){.thumbnail}
 
-> [!warn]
+> [!warning]
 >
-> L'adresse IP utilisée ne doit être unique pour chaque bail statiques. Si deux équipements ont la même adresse, cela créera des conflits réseaux.
+> L'adresse IP utilisée ne doit être unique pour chaque bail statique. Si deux équipements ont la même adresse, cela créera des conflits réseaux.
 >
 
 - Modifiez le paramètre `Hostname`{.action} pour modifier le nom d'hôte, dans notre exemple l'équipement sera `Laptop`.
 - Modifiez le paramètre `MAC address`{.action} pour sélectionner l'adresse MAC sur laquelle s'applique la règle. Vous pouvez la sélectionner dans le menu déroulant si l'appareil est déjà connecté au DHCP de l'**OverTheBox**, ou l'entrer manuellement en remplissant le champ `custom`.
-- Modifiez le paramètre `IPv4 address`{.action} pour configurer l'adresse IP que le DHCP allouera à l'équipement, le serveur DHCP allouera toujours cette adresse IP à l'équipement.
-- Si vous le souhaitez, modifier le paramètre `Lease time`{.action} pour allonger le temps d'allocation du bail DHCP pour cet équipement.
+- Modifiez le paramètre `IPv4 address`{.action} pour configurer l'adresse IP que le DHCP allouera à l'équipement. Le serveur DHCP allouera toujours cette adresse IP à l'équipement.
+- Si vous le souhaitez, modifiez le paramètre `Lease time`{.action} pour allonger le temps d'allocation du bail DHCP pour cet équipement.
 - Cliquez sur `Save`{.action} pour sauvegarder vos modifications.
 - Cliquez sur `Save & Apply`{.action} pour appliquer vos modifications.
 
@@ -135,7 +136,7 @@ Découvrez comment configurer votre réseau local depuis l'interface de votre **
 
 ### Configurer les DNS
 
-Par défaut, l'**OverTheBox** utilise les serveurs DNS d'OVHcloud, vous pouvez les modifier.
+Par défaut, l'**OverTheBox** utilise les serveurs DNS d'OVHcloud mais vous pouvez les modifier.
 
 - Rendez-vous dans l'onglet `Network > DHCP and DNS`{.action}.
 - Rendez-vous dans la section `Forwards`{.action}.
@@ -147,10 +148,10 @@ Par défaut, l'**OverTheBox** utilise les serveurs DNS d'OVHcloud, vous pouvez l
 
 ### Configurer un nom de domaine local
 
-> [!warn]
+> [!warning]
 >
 > Il est possible d'utiliser un nom de domaine avec un TLD officiel, mais vous devez en être le propriétaire pour éviter les conflits réseaux.
-> Si vous souhaitez obtenir un nom de domaine, consultez [nos offres sur ovhcloud.com](https://www.ovhcloud.com/fr/domains/).
+> Si vous souhaitez obtenir un nom de domaine, consultez [nos offres sur ovhcloud.com](/links/web/domains).
 >
 
 > [!primary]
@@ -162,8 +163,8 @@ Il est possible de configurer un nom de domaine local qui vous permettra d'accé
 
 - Rendez-vous dans l'onglet `Network > DHCP and DNS`{.action}.
 - Rendez-vous dans la section `General`{.action}.
-- Modifiez le paramètre `Resolve this locally`{.action} pour indiquer au serveur DHCP qu'il ne doit pas chercher l'équipement sur un DNS externe. Dans notre cas, le nom de domaine utilisé `office.internal`, nous indiquons donc `*\.office.internal\`.
-- Modifiez le paramètre `Local domain`{.action} pour indiquer au serveur DHCP quel nom de domaine local utiliser. Dans notre cas, le nom de domaine utilisé est `office.internal`, un serveur **NAS** avec le nom d'hôte `nas` sera accessible via le nom de domaine `nas.office.internal` par les autres équipements présents dans le réseau local de l'**OverTheBox**.
+- Modifiez le paramètre `Resolve this locally`{.action} pour indiquer au serveur DHCP qu'il ne doit pas chercher l'équipement sur un DNS externe. Dans notre cas, le nom de domaine utilisé étant `office.internal`, nous indiquons donc `*\.office.internal\`.
+- Modifiez le paramètre `Local domain`{.action} pour indiquer au serveur DHCP quel nom de domaine local utiliser. Dans notre cas, le nom de domaine utilisé étant `office.internal`, un serveur **NAS** avec le nom d'hôte `nas` sera accessible via le nom de domaine `nas.office.internal` par les autres équipements présents dans le réseau local de l'**OverTheBox**.
 - Cliquez sur `Save & Apply`{.action} pour appliquer vos modifications.
 
 ![overthebox](images/step1-lan-9-ConfigureDomain-2024.png){.thumbnail}
@@ -176,7 +177,7 @@ Il est possible de configurer un nom de domaine local qui vous permettra d'accé
 ![overthebox](images/step1-lan-1-edit-2024.png){.thumbnail}
 
 - Rendez-vous dans l'onglet `DHCP Server > Advanced Settings`{.action}.
-- Modifiez le paramètre `DHCP-options`{.action} avec les paramètres souhaités, par exemple pour un serveur **Active Directory** avec l'IP `191.168.100.10`, ajoutez l'option `option:dns-server,192.168.100.10`.
+- Modifiez le paramètre `DHCP-options`{.action} avec les paramètres souhaités. Par exemple, pour un serveur **Active Directory** avec l'IP `191.168.100.10`, ajoutez l'option `option:dns-server,192.168.100.10`.
 - Cliquez sur `+` pour confirmer vos modifications.
 - Cliquez sur `Save`{.action} pour sauvegarder vos modifications.
 - Cliquez sur `Save & Apply`{.action} pour appliquer vos modifications.
