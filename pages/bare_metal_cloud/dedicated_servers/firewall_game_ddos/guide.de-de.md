@@ -1,4 +1,4 @@
---- 
+---
 title: Game Server mit der Application Firewall schützen
 excerpt: Erfahren Sie hier, wie Sie die OVHcloud Game DDoS Protection Firewall konfigurieren
 updated: 2024-10-31
