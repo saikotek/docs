@@ -26,7 +26,7 @@ Grâce aux groupes Exchange, de nombreux participants peuvent communiquer par en
 
 ## Instructions
 
-### Créez un nouveau groupe
+### Créer un nouveau groupe
 
 Connectez-vous d’abord à votre [espace client OVHcloud](/links/manager). Accédez à la section `Webcloud`{.action} et sélectionnez votre service Exchange à partir de la colonne figurant sous `Microsoft`{.action} `Exchange`{.action} . Cliquez sur l'onglet `Groupes`{.action} dans le menu horizontal.
 
@@ -37,7 +37,7 @@ Cliquez sur `Créer un groupe de contacts`{.action} afin d’ouvrir une nouvelle
 ![contactgroups](images/exchange-groups-create02.png){.thumbnail .w-600 .h-600}
 
 - **Adresse e-mail** : Définissez une nouvelle adresse pour envoyer des messages à la liste de diffusion. Veillez à ne pas utiliser une adresse déjà fonctionnelle.
-- **Nom du Groupe** : Utilisez le nom apparaissant dans votre [espace client OVHcloud](/links/manager) et dans votre [messagerie Web d’ OVHcloud](/links/web/email) (OWA).
+- **Nom du Groupe** : Utilisez le nom apparaissant dans votre [espace client OVHcloud](/links/manager) et dans votre [messagerie Web OVHcloud](/links/web/email) (OWA).
 - **Taille maximale d’entrée ou de sortie** : Vous pouvez spécifier la taille maximale des e-mails entrants et des e-mails sortants.
 - **Masquer dans Outlook** : Lorsque cette case est cochée, l’adresse du groupe ne s’affichera pas dans la liste des adresses du service Exchange.
 - **Authentication requise** : Lorsque cette case est cochée, seuls les utilisateurs de la même plate-forme pourront envoyer des messages avec l’adresse du groupe.
@@ -57,13 +57,13 @@ Sur la deuxième page, sélectionnez les **Contacts** du groupe et désignez les
 
 Cliquez sur `Suivant`{.action} pour continuer et cliquez sur `Confirmer`{.action} pour finaliser vos choix.
 
-### Gérez les groupes
+### Gérer les groupes
 
-Après la création de votre groupe, vous pouvez modifier les paramètres que vous avez défini. Pour cela, cliquez sur`...`{.action} à droite du groupe dans le tableau.
+Après la création de votre groupe, vous pouvez modifier les paramètres que vous avez définis. Pour cela, cliquez sur`...`{.action} à droite du groupe dans le tableau.
 
 ![contactgroups](images/exchange-groups-options01.png){.thumbnail .w-600 .h-600}
 
-#### Gérez les utilisateurs d'un groupe
+#### Gérer les utilisateurs d'un groupe
 
 Pour ajouter des `Contacts` à votre groupe ou définir les `Administrateurs`, cliquez sur`...`{.action} puis sur `Configurer les utilisateurs`{.action}, cochez les attribus que vous souhaitez attacher aux adresses e-mail de la colone `Compte e-mail`
 
@@ -73,15 +73,15 @@ Pour ajouter des `Contacts` à votre groupe ou définir les `Administrateurs`, c
 
 ![contactgroups](images/exchange-group-options-users01.png){.thumbnail .w-600 .h-600}
 
-#### Gérez les délégations d'un groupe
+#### Gérer les délégations d'un groupe
 
-De plus, l’option `Configurer les délégations`{.action} du menu s’affichera. Cette option vous permet de déléguer l’accès de la même manière qu’on le fait pour un compte Exchange. Veuillez retrouver tous les détails dans [ce guide](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
+L’option `Configurer les délégations`{.action} du menu s’affichera. Cette option vous permet de déléguer l’accès de la même manière qu’on le fait pour un compte Exchange. Retrouver tous les détails dans [ce guide](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
 
 ![contactgroups](images/exchange-groups-options-delegation01.png){.thumbnail .w-600 .h-600}
 
 > [!primary]
 >
-> Veuillez noter que chaque modification à ce service peut prendre quelques minutes pour être appliquée. Vous pouvez vérifier l’état de la plupart des opérations en sélectionnant les options `Plus`{.action} et `Taches récentes`{.action} à partir du menu horizontal.
+> Veuillez noter que chaque modification à ce service peut prendre quelques minutes pour être appliquée. Vous pouvez vérifier l’état de la plupart des opérations en sélectionnant les options `Plus`{.action} et `Tâches récentes`{.action} à partir du menu horizontal.
 
 ### Étape 3 : Ecrivez à un groupe via OWA
 
