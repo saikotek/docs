@@ -1635,7 +1635,7 @@
                 + [Configurer une redirection de port sur OverTheBox](web_cloud/internet/overthebox/middle_redirection_de_port)
                 + [Configurer des règles de pare-feu (Firewall)](web_cloud/internet/overthebox/advanced_regles_firewall)
                 + [Configurer une route statique](web_cloud/internet/overthebox/config_static_route)
-                + [Modifier l'adresse IP d'OverTheBox](web_cloud/internet/overthebox/middle_configurer_votre_lan)
+                + [Comment configurer le réseau local d'une OverTheBox ?](web_cloud/internet/overthebox/middle_configurer_votre_lan)
                 + [Configurer la qualité de service (QoS) d'OverTheBox](web_cloud/internet/overthebox/config_qos)
                 + [Configurer votre propre serveur DNS](web_cloud/internet/overthebox/advanced_configurer_votre_propre_serveur_dns)
                 + [Sauvegarder et restaurer la configuration d'OverTheBox](web_cloud/internet/overthebox/middle_exporter_et_importer_une_configuration)
