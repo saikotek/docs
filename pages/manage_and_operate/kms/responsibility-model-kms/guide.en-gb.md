@@ -32,13 +32,13 @@ The RACI below details shared responsibilities between OVHcloud and the customer
 | **Activity** | **Customer** | **OVHcloud** |
 | --- | --- | --- |
 | Produce, route, deliver and maintain physical Instances and hosting buldings | I | RA |
-| Install internal functional bricks needed to maintain in operational and security conditions the Service  | I | RA |
+| Install internal functional bricks needed to maintain the Service in operational and security conditions | I | RA |
 
 #### 2.2. Reversibility model for CMK
 
 | **Activity** | **Customer** | **OVHcloud** |
 | --- | --- | --- |
-| Import/export object stored | RA | I |
+| Import/export stored objects | RA | I |
 
 #### 2.3. Customer Information System setup
 

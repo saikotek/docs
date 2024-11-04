@@ -32,7 +32,7 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 | **Activité** | **Client** | **OVHcloud** |
 | --- | --- | --- |
 | Produire, acheminer, livrer et maintenir les instances physiques et les bâtiments d’hébergement | I | RA |
-| Installer les briques fonctionnelles nécessaires au maintient en conditions opérationnelles et de sécurité du service | I | RA |
+| Installer les briques fonctionnelles nécessaires au maintien du service en conditions opérationnelles et de sécurité | I | RA |
 
 #### 2.2. Modèle de réversibilité pour les CMK
 
@@ -44,7 +44,7 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 
 | **Activité** | **Client** | **OVHcloud** |
 | --- | --- | --- |
-| Choisir le type de clés et la taille adapté au besoin | RA | I |
+| Choisir le type de clés et la taille adaptée au besoin | RA | I |
 
 ### 3. Utilisation du service
 
@@ -94,7 +94,7 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 
 | **Activité** | **Client** | **OVHcloud** |
 | --- | --- | --- |
-| Fournir l'inventaire usages du service | I | RA |
+| Fournir l'inventaire des usages du service | I | RA |
 | Gérer la sécurité de l'infrastructure de gestion (API, control plane) |   | RA |
 
 ##### **3.1.7. Continuité d'activité**
