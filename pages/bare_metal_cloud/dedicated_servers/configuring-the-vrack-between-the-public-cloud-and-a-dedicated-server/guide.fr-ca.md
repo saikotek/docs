@@ -57,9 +57,11 @@ Avec votre projet lié au vRack, vous êtes prêt à créer des réseaux privés
 
 Dans l'onglet Public cloud, cliquez sur `Private Network`{.action} dans le menu de gauche sous **Network**.
 
+Cliquez sur le bouton `Ajouter un réseau privé`{.action}. 
+
 ![create private network](images/vrack2022-03.png){.thumbnail}
 
-Cliquez sur le bouton `Ajouter un réseau privé`{.action}. La page suivante vous permet de personnaliser plusieurs paramètres.
+La page suivante vous permet de personnaliser plusieurs paramètres.
 
 À l'étape 1, sélectionnez la région dans laquelle vous souhaitez placer le réseau privé.
 
