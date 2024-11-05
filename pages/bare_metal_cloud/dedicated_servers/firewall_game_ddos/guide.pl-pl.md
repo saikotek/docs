@@ -95,7 +95,7 @@ Aby włączyć ochronę DDoS Game, wystarczy zdefiniować aplikacje gier oraz pr
 | W następnym oknie kliknij przycisk `Dodaj regułę`{.action}, aby dodać regułę do *Firewall Game*. |
 
 
-Ochrona anty-DDoS umożliwia skonfigurowanie do **100 reguł dla adresu IP**, które wskazują na serwer gier Bare Metal trzeciej generacji (serwery dostępne w sprzedaży w 2024 lub nowszej wersji), lub do **30 reguł dla adresu IP** w przypadku starszych gam Bare Metal (zazwyczaj identyfikowanych jako RISE-GAME lub SYS-GAME).
+Ochrona anty-DDoS umożliwia skonfigurowanie do **100 reguł dla adresu IP**, które wskazują na serwer gier Bare Metal trzeciej generacji (2024, na podstawie EPYC), lub do **30 reguł dla adresu IP** w przypadku starszych gam Bare Metal (zazwyczaj identyfikowanych jako RISE-GAME lub SYS-GAME).
 
 Obsługiwane protokoły gier (tytuły i wersje gier, które mogą być chronione) mogą ulec zmianie w czasie. Ponadto mogą się one różnić od poprzednich i najnowszych gam serwerów Bare Metal Game. Najnowsza lista obsługiwanych profilów gier jest dostępna [tutaj](/links/security/ddos).
 
@@ -118,19 +118,19 @@ Ponadto zalecamy zdefiniowanie reguły **"Default policy = DROP"** dla każdego 
 ### Ark Survival Evolved
 
 - **Ark Survival Evolved**: Podstawowy silnik ochrony.
-- **Ark Survival Evolved v.311.78**: Zaktualizowano silnik ochrony dodany w trzeciej generacji serwerów Bare Metal Game (wersja 2024).
+- **Ark Survival Evolved v.311.78**: Zaktualizowano silnik ochrony dodany w trzeciej generacji serwerów Bare Metal Game (2024, na podstawie EPYC).
 
 #### Counter Strike 2
 
-- **Counter Strike 2**: Nowy silnik ochrony dodany w trzeciej generacji serwerów Bare Metal Game (wersja 2024).
+- **Counter Strike 2**: Nowy silnik ochrony dodany w trzeciej generacji serwerów Bare Metal Game 2024, na podstawie EPYC).
 
 ### FiveM
 
-- **FiveM** to tryb gry wieloosobowej Grand Theft Auto V firmy Cfx.re, obecnie rozpoznawany przez wydawcę gier Rockstar. Dodaliśmy obsługę FiveM do trzeciej generacji serwerów Bare Metal Game (wersja 2024).
+- **FiveM** to tryb gry wieloosobowej Grand Theft Auto V firmy Cfx.re, obecnie rozpoznawany przez wydawcę gier Rockstar. Dodaliśmy obsługę FiveM do trzeciej generacji serwerów Bare Metal Game (2024, na podstawie EPYC).
 
 #### Rust
 
-- **Rust** jest obsługiwany przez wszystkie generacje serwerów Bare Metal Game z dedykowanym profilem ochrony. Prosimy pamiętać, że zaktualizowaliśmy ten profil ochrony (tj. dodaliśmy obsługę plików cookie RakNet) dla serwerów Bare Metal Game trzeciej generacji (wersja 2024).
+- **Rust** jest obsługiwany przez wszystkie generacje serwerów Bare Metal Game z dedykowanym profilem ochrony. Prosimy pamiętać, że zaktualizowaliśmy ten profil ochrony (tj. dodaliśmy obsługę plików cookie RakNet) dla serwerów Bare Metal Game trzeciej generacji (2024, na podstawie EPYC).  
 Więcej informacji o hostingu Rust znajdziesz na serwerach OVHcloud [tutaj](/links/bare-metal/game-rust).
 
 ### Minecraft
@@ -140,11 +140,11 @@ Minecraft jest wspierany przez następujące profile:
 - **Java Minecraft**: To powinno być najlepsze rozwiązanie dla wszystkich wersji Java Minecraft. Chroni on protokół Minecraft Query i jest ustawiony na ruch TCP. Została ona dodana w 2024 roku, ale jest również dostępna dla poprzednich generacji serwerów Bare Metal Game. Uwaga, jeśli inne gry UDP są zainstalowane na tym samym IP.
 - **Minecraft Query**: Ogólna ochrona protokołu Minecraft Query.
 - **Minecraft Bedrock**: ochrona Minecraft Bedrock (z obsługą plików cookie RakNet), dodana w 3. generacji serwerów Bare Metal Game (wersja 2024).
-- **Minecraft Pocket Edition**: ochrona przed atakami PE/Bedrock Minecraft.
+- **Minecraft Pocket Edition**: Ochrona Minecraft PE/Bedrock, identyczna z Bedrock, zachowana ze względu na kompatybilność.
 
 ### Valheim
 
-- **Valheim**: Nowy silnik ochrony, dodany w trzeciej generacji serwerów Bare Metal Game (wersja 2024).
+- **Valheim**: Nowy silnik ochrony, dodany w trzeciej generacji serwerów Bare Metal Game (2024, na podstawie EPYC).
 
 > [!primary]
 > Jeśli hostujesz większą usługę w jednej z obsługiwanych gier, ale nadal widzisz fałszywie pozytywne wyniki z systemów infrastruktury anty-DDoS, skontaktuj się z pomocą techniczną za pośrednictwem [Centrum pomocy](https://help.ovhcloud.com/csm?id=csm_get_help), podając wszystkie szczegóły potrzebne do poprawy profilu aplikacji.
@@ -161,7 +161,7 @@ Adresy Additional IP zapewniają elastyczność, jednak w niektórych sytuacjach
 Aby zapewnić większą elastyczność konfiguracji, można zdefiniować różne reguły ochrony gry dla różnych adresów Additional IP wskazujących ten sam serwer Bare Metal Game.  
 Maksymalna liczba reguł i dostępne ustawienia ochrony są zdefiniowane dla jednego adresu IP, ale są specyficzne dla danej generacji serwera Bare Metal Game za zaporą.
 
-Można zaobserwować różnice między najnowszymi serwerami Game (trzecia generacja serwerów Game Bare Metal, wydana w 2024 roku) a najstarszymi serwerami Game (poprzednie generacje, zwykle określane jako RISE-GAME lub SYS-GAME).
+Można zaobserwować różnice między najnowszymi serwerami Game (trzecia generacja serwerów Game Bare Metal - 2024, na podstawie EPYC) a najstarszymi serwerami Game (poprzednie generacje, zwykle określane jako RISE-GAME lub SYS-GAME).
 
 #### Weryfikacja obsługiwanych zabezpieczeń gier
 

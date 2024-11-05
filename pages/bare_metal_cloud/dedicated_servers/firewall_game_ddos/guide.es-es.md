@@ -95,7 +95,7 @@ Para activar la protección anti-DDoS Game, solo tiene que definir las aplicacio
 | En la siguiente pantalla, haga clic en el botón `Añadir una regla`{.action} para añadir una regla al *Firewall Game*. |
 
 
-La protección anti-DDoS Game le permite configurar hasta **100 reglas por dirección IP** que apuntan a un servidor de juegos Bare Metal de 3ª generación (servidores comercializados en 2024 o posterior), o hasta **30 reglas por dirección IP** para las antiguas gamas de juegos Bare Metal (generalmente identificadas como RISE-GAME o SYS-GAME).
+La protección anti-DDoS Game le permite configurar hasta **100 reglas por dirección IP** que apuntan a un servidor de juegos Bare Metal de 3ª generación (servidores comercializados en 2024, basado en EPYC)), o hasta **30 reglas por dirección IP** para las antiguas gamas de juegos Bare Metal (generalmente identificadas como RISE-GAME o SYS-GAME).
 
 Tenga en cuenta que los protocolos de juego compatibles (títulos y versiones de juegos que se pueden proteger) pueden cambiar con el tiempo. Además, pueden ser diferentes entre las antiguas gamas de servidores Bare Metal Game y las más recientes. La lista más reciente de perfiles de juegos compatibles está disponible [aquí](/links/security/ddos).
 
@@ -118,19 +118,19 @@ Además, le recomendamos que configure la regla **"Default policy = DROP"** en c
 #### Ark Survival Evolved
 
 - **Ark Survival Evolved**: Motor de protección básico.
-- **Ark Survival Evolved v.311.78**: Motor de protección actualizado, añadido a la 3ª generación de servidores Bare Metal Game (versión 2024).
+- **Ark Survival Evolved v.311.78**: Motor de protección actualizado, añadido a la 3ª generación de servidores Bare Metal Game (2024, basado en EPYC).
 
 #### Counter Strike 2
 
-- **Counter-Strike 2**: Nuevo motor de protección añadido en la tercera generación de servidores Bare Metal Game (versión 2024).
+- **Counter-Strike 2**: Nuevo motor de protección añadido en la tercera generación de servidores Bare Metal Game (2024, basado en EPYC).
 
 #### FiveM
 
-- **FiveM** es un modo multijugador Grand Theft Auto V de Cfx.re reconocido ahora por el editor de juegos Rockstar. Hemos añadido la compatibilidad con FiveM a la 3ª generación de servidores Bare Metal Game (versión 2024).
+- **FiveM** es un modo multijugador Grand Theft Auto V de Cfx.re reconocido ahora por el editor de juegos Rockstar. Hemos añadido la compatibilidad con FiveM a la 3ª generación de servidores Bare Metal Game (2024, basado en EPYC).
 
 #### Rust
 
-- **Rust** es compatible con un perfil de protección dedicado en todas las generaciones de servidores Bare Metal Game. Tenga en cuenta que hemos actualizado este perfil de protección (es decir, hemos añadido la compatibilidad con las cookies RakNet) para la 3ª generación de servidores Bare Metal Game (versión 2024).
+- **Rust** es compatible con un perfil de protección dedicado en todas las generaciones de servidores Bare Metal Game. Tenga en cuenta que hemos actualizado este perfil de protección (es decir, hemos añadido la compatibilidad con las cookies RakNet) para la 3ª generación de servidores Bare Metal Game (2024, basado en EPYC).
 Más información sobre el alojamiento Rust en los servidores de OVHcloud [aquí](/links/bare-metal/game-rust).
 
 #### Minecraft
@@ -139,12 +139,12 @@ Minecraft es compatible con los siguientes perfiles:
 
 - **Java Minecraft**: Debería ser la mejor solución para todas las versiones de Java Minecraft. Protege el protocolo Minecraft Query y está configurado para el tráfico TCP. Se añadió en 2024, pero también está disponible para las generaciones anteriores de servidores Bare Metal Game. Atención si hay otros juegos UDP alojados en la misma IP.
 - **Minecraft Query**: Protección general del protocolo Minecraft Query.
-- **Minecraft Bedrock**: Protección Minecraft Bedrock (con soporte para cookies RakNet), añadida a la 3ª generación de servidores Bare Metal Game (versión 2024).
-- **Minecraft Pocket Edition**: protección PE/Bedrock Minecraft.
+- **Minecraft Bedrock**: Protección Minecraft Bedrock (con soporte para cookies RakNet), añadida a la 3ª generación de servidores Bare Metal Game (2024, basado en EPYC).
+- **Minecraft Pocket Edition**: Protección PE/Bedrock Minecraft, idéntica a Bedrock, conservada por motivos de compatibilidad.
 
 #### Valheim
 
-- **Valheim**: Nuevo motor de protección, añadido a la tercera generación de servidores Bare Metal Game (versión 2024).
+- **Valheim**: Nuevo motor de protección, añadido a la tercera generación de servidores Bare Metal Game (2024, basado en EPYC).
 
 > [!primary]
 > Si aloja un servicio más grande con uno de los juegos compatibles, pero sigue viendo falsos positivos de los sistemas de infraestructura anti-DDoS, póngase en contacto con nuestro equipo de soporte mediante el [Centro de ayuda](https://help.ovhcloud.com/csm?id=csm_get_help) con todos los detalles necesarios para mejorar el perfil de la aplicación.
@@ -161,7 +161,7 @@ Aunque las direcciones Additional IP permiten una cierta flexibilidad, hay situa
 Para ofrecer la mayor flexibilidad de configuración, es posible establecer diferentes reglas de protección del juego en diferentes direcciones Additional IP que apunten hacia el mismo servidor Bare Metal Game.  
 El número máximo de reglas y la configuración de protección disponibles se establecen por dirección IP, pero son específicos de la generación de servidores Bare Metal Game específicos detrás del firewall.
 
-Se pueden observar diferencias entre los servidores Game más recientes (3ª generación de servidores Game Bare Metal, lanzada en 2024) y los servidores Game más antiguos (generaciones anteriores, generalmente identificados como RISE-GAME o SYS-GAME).
+Se pueden observar diferencias entre los servidores Game más recientes (3ª generación de servidores Game Bare Metal - 2024, basado en EPYC) y los servidores Game más antiguos (generaciones anteriores, generalmente identificados como RISE-GAME o SYS-GAME).
 
 ###### Comprobación de las protecciones de juegos admitidas
 

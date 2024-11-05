@@ -96,7 +96,7 @@ Um Game DDoS Protection zu aktivieren, definieren Sie die Spieleanwendungen und 
 | Klicken Sie auf die Schaltfläche `Regel hinzufügen`{.action}, um eine Regel zur *Game Firewall* hinzuzufügen. |
 
 
-Mit der Game DDoS Protection können Sie bis zu **100 Regeln pro IP-Adresse** konfigurieren, die auf einen Game Dedicated Server der dritten Generation verweisen (Servermodelle ab 2024), oder bis zu **30 Regeln pro IP-Adresse** für die älteren Bare Metal Reihen (üblicherweise als RISE-GAME oder SYS-GAME bezeichnet).
+Mit der Game DDoS Protection können Sie bis zu **100 Regeln pro IP-Adresse** konfigurieren, die auf einen Game Dedicated Server der dritten Generation verweisen (Servermodelle ab 2024 mit EPYC), oder bis zu **30 Regeln pro IP-Adresse** für die älteren Bare Metal Reihen (üblicherweise als RISE-GAME oder SYS-GAME bezeichnet).
 
 Beachten Sie, dass sich die unterstützten Spielprotokolle (Spieltitel und -versionen, die geschützt werden können) im Laufe der Zeit ändern. Darüber hinaus können sie sich zwischen älteren Bare Metal Game Serverreihen und neueren Modellen unterscheiden. Die aktuellste Liste der unterstützten Spielprofile finden Sie [hier](/links/security/ddos).
 
@@ -119,15 +119,15 @@ Außerdem empfehlen wir dringend, die Regel **"Default policy = DROP"** für jed
 #### Ark Survival Evolved
 
 - **Ark Survival Evolved**: Basis-Schutz-Engine
-- **Ark Survival Evolved v.311.78**: Aktualisierte Schutz-Engine, hinzugefügt in der 3. Generation Bare Metal Game Server (Version 2024)
+- **Ark Survival Evolved v.311.78**: Aktualisierte Schutz-Engine, hinzugefügt in der 3. Generation Bare Metal Game Server (Version 2024 mit EPYC)
 
 #### Counter Strike 2
 
-- **Counter Strike 2**: Neue Schutz-Engine der 3. Generation Bare Metal Game Server (Version 2024)
+- **Counter Strike 2**: Neue Schutz-Engine der 3. Generation Bare Metal Game Server (Version 2024 mit EPYC)
 
 #### FiveM
 
-- **FiveM** ist ein Grand Theft Auto V Multiplayer Mod von *Cfx.re*, der mittlerweile vom Herausgeber Rockstar anerkannt wird. Unterstützung für FiveM wurde in der dritten Generation Bare Metal Game-Server (Version 2024) hinzugefügt.
+- **FiveM** ist ein Grand Theft Auto V Multiplayer Mod von *Cfx.re*, der mittlerweile vom Herausgeber Rockstar anerkannt wird. Unterstützung für FiveM wurde in der dritten Generation Bare Metal Game-Server (Version 2024 mit EPYC) hinzugefügt.
 
 #### Rust
 
@@ -140,8 +140,8 @@ Minecraft wird von folgenden Profilen unterstützt:
 
 - **Minecraft Java**: Es sollte für alle Versionen von Minecraft Java am besten geeignet sein; schützt das Minecraft Query Protokoll und ist für TCP-Datenverkehr optimiert. Es wurde 2024 hinzugefügt aber ist auch für frühere Generationen von Game Dedicated Servern verfügbar. Seien Sie vorsichtig, wenn andere UDP-relevante Spiele auf derselben IP gehostet werden.
 - **Minecraft Query**: Es bietet allgemeinen Minecraft Query Protokollschutz.
-- **Minecraft Bedrock**: Minecraft Bedrock Schutz (mit *RakNet* Cookies-Unterstützung), hinzugefügt in der 3. Generation von Bare Metal Game Servern (Version 2024).
-- **Minecraft Pocket Edition**: Minecraft PE/Bedrock Schutz.
+- **Minecraft Bedrock**: Minecraft Bedrock Schutz (mit *RakNet* Cookies-Unterstützung), hinzugefügt in der 3. Generation von Bare Metal Game Servern (Version 2024 mit EPYC).
+- **Minecraft Pocket Edition**: Minecraft PE/Bedrock Schutz, aus Kompatibilitätsgründen beibehalten, wie Bedrock.
 
 #### Valheim
 
@@ -161,7 +161,7 @@ Additional IPs ermöglichen Flexibilität, doch gibt es hierbei Situationen, die
 Um eine möglichst flexible Konfiguration zu gewährleisten, können für verschiedene Additional IPs, die auf den gleichen Game Dedicated Server verweisen, verschiedene Spieleschutzregeln festgelegt werden.  
 Die maximale Anzahl von Regeln und verfügbaren Schutzeinstellungen gilt pro IP-Adresse, ist jedoch spezifisch für die betreffende Generation von Game Dedicated Servern hinter der Firewall.
 
-Zwischen den neueren Game Servern (ab 2024 veröffentlichte Game Bare Metal Server) und den älteren Game Servern (frühere Generationen, üblicherweise RISE-GAME oder SYS-GAME) können Unterschiede zu beobachten sein.
+Zwischen den neueren Game Servern (ab 2024 veröffentlichte Game Bare Metal Server mit EPYC) und den älteren Game Servern (frühere Generationen, üblicherweise RISE-GAME oder SYS-GAME) können Unterschiede zu beobachten sein.
 
 ##### Überprüfen des unterstützten Spielschutzes
 
