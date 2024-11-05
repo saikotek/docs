@@ -114,45 +114,45 @@ SSH PUB_IP_DEDICATED_SERVER
 >> # Holds the server’s public IP address
 >> auto bond0
 >> iface bond0 inet static
->> address PUB_IP_DEDICATED_SERVER/32
->> 	gateway 100.64.0.1
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
 >>         bond-slaves ens33f0 ens33f1
->> 	bond-mode 4
->> 	bond-miimon 100
->> 	bond-downdelay 200
->> 	bond-updelay 200
->> 	bond-lacp-rate 1
->> 	bond-xmit-hash-policy layer3+4
->> 	# Enter the MAC address of one of the two public interfaces
->> 	hwaddress AB:CD:EF:12:34:56
+>>         bond-mode 4
+>>         bond-miimon 100
+>>         bond-downdelay 200
+>>         bond-updelay 200
+>>         bond-lacp-rate 1
+>>         bond-xmit-hash-policy layer3+4
+>>         # Enter the MAC address of one of the two public interfaces
+>>         hwaddress AB:CD:EF:12:34:56
 >>
 >> # Private
 >> auto bond1
 >> iface bond1 inet static
->> 	bond-slaves ens35f0 ens35f1
->> 	bond-mode 4
->> 	bond-miimon 100
->> 	bond-downdelay 200
->> 	bond-updelay 200
->> 	bond-lacp-rate 1
->> 	bond-xmit-hash-policy layer3+4
->> 	# Enter the MAC address of one of the two private interfaces
->> 	hwaddress GH:IJ:KL:12:34:56
+>>         bond-slaves ens35f0 ens35f1
+>>         bond-mode 4
+>>         bond-miimon 100
+>>         bond-downdelay 200
+>>         bond-updelay 200
+>>         bond-lacp-rate 1
+>>         bond-xmit-hash-policy layer3+4
+>>         # Enter the MAC address of one of the two private interfaces
+>>         hwaddress GH:IJ:KL:12:34:56
 >>
 >> auto vmbr0
 >> # Configuring the bridge with a private address and adding route(s) to send Additional IPs to it
 >> # A.B.C.D/X => Subnet of Additional IPs assigned to the server, this can be a host with /32
 >> auto vmbr0
 >> iface vmbr0 inet dhcp
->> 	# Define a private IP, it must not overlap your existing private networks on the vRack for example
->> 	address 192.168.0.1/24
->> 	bridge-ports bond0
->> 	bridge-stp off
->> 	bridge-fd 0
->> 	# Add a unique Additional IP
->> 	up ip route add ADDITIONAL_IP/32 dev $IFACE
->> 	# Add an IP block
->> 	up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
+>>         # Define a private IP, it must not overlap your existing private networks on the vRack for example
+>>         address 192.168.0.1/24
+>>         bridge-ports bond0
+>>         bridge-stp off
+>>         bridge-fd 0
+>>         # Add a unique Additional IP
+>>         up ip route add ADDITIONAL_IP/32 dev $IFACE
+>>         # Add an IP block
+>>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
 >>
 >> # Bridge used for private networks on the vRack
 >> # The VLAN feature is enabled
@@ -251,7 +251,7 @@ To check your public IP, from the VM:
 
 ```bash
 curl ifconfig.io
-ADDITIONAL_IP    				# must return your additional ip
+ADDITIONAL_IP # must return your additional ip
 ```
 
 > [!primary]
@@ -373,7 +373,6 @@ iface vmbr1 inet manual
         bond1 bridge-ports
         bridge-stp off
         bridge-fd 0
-
 ```
 
 At this point, restart the network services or reboot the server.
