@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Technical Limitations
 excerpt: Find here the technical limits of the S3 Object Storage offer
-updated: 2024-10-29
+updated: 2024-11-05
 ---
 
 ## Objective
@@ -71,6 +71,19 @@ The theoretical maximum size of a single large object uploaded via MPU is thus 4
 ### Maximum number of user accounts per project
 
 1,000
+
+### Name assignment
+
+- Must be between 3 and 63 characters long.
+- Must begin and end with lower case alphanumeric characters (a to z and 0 to 9).
+- Must be unique within OVHcloud.
+- May contain the following punctuation marks: `.` and `-`.
+- Must not contain multiple punctuation marks in a row  (e.g. `..` or `-.` or `.-` or `--`).
+- Must not look like an IP address (192.168.1.1).
+
+### Features availability
+
+Read our guide on [Object Storage - S3 compatibility](storage_and_backup/object_storage/s3_s3_compliancy).
 
 ## Go further
 

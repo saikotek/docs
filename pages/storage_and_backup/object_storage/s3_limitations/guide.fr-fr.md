@@ -4,12 +4,6 @@ excerpt: "Retrouvez ici les limites techniques de l'offre S3 Object Storage"
 updated: 2024-11-05
 ---
 
-<style>
-td:nth-of-type(2) {
-  white-space:nowrap;
-}
-</style>
-
 ## Objectif
 
 Retrouvez ici les limites techniques relatives à l'offre S3 Object Storage OVHcloud.

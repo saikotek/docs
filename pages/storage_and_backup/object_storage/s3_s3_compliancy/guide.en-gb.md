@@ -4,6 +4,12 @@ excerpt: Discover the compliancy of OVHcloud S3 API versus the global AWS S3 API
 updated: 2024-11-05
 ---
 
+<style>
+td:nth-of-type(2) {
+  white-space:nowrap;
+}
+</style>
+
 ## Objective
 
 This guide lists the S3 API features supported by S3 Object Storage.
@@ -520,6 +526,6 @@ This guide lists the S3 API features supported by S3 Object Storage.
 
 [Object Storage - Local Zones specifications](/pages/storage_and_backup/object_storage/s3_local_zones_limitations)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on [https://community.ovh.com/en/](https://community.ovh.com/en/){.external}.
+Join our [community of users](/links/community).
