@@ -1,7 +1,7 @@
 ---
 title: "IAM for VMware on OVHcloud - How to activate IAM"
 excerpt: "Find out how to enable IAM for your VMware on OVHcloud solution via the OVHcloud Control Panel or via the OVHcloud API"
-updated: 2024-11-05
+updated: 2024-05-23
 ---
 
 > [!primary]
