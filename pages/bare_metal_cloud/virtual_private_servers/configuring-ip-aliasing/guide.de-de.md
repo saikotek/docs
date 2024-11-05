@@ -163,7 +163,6 @@ Editieren Sie die Datei mit dem unten stehenden Inhalt und ersetzen Sie `INTERFA
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -176,7 +175,6 @@ Wenn Sie mehr als eine Additional IP-Adresse konfigurieren müssen, sollte die K
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -195,7 +193,6 @@ network:
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        eth0:
            dhcp4: true

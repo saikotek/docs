@@ -170,7 +170,6 @@ Non modificare le linee esistenti nel file di configurazione. Aggiungi il tuo in
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -183,7 +182,6 @@ Se è necessario configurare più di un indirizzo Additional IP, il file di conf
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -202,7 +200,6 @@ network:
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        eth0:
            dhcp4: true
