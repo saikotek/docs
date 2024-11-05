@@ -1,13 +1,12 @@
 ---
 title: "IAM pour VMware on OVHcloud - Comment associer un utilisateur à une politique IAM globale"
 excerpt: "Découvrez comment associer une identité à une politique IAM OVHcloud"
-updated: 2024-10-30
+updated: 2024-11-05
 ---
 
 > [!primary]
-> La fonctionnalité IAM est actuellement en phase bêta. Ce guide peut donc évoluer et être mis à jour à l'avenir avec les avancées de nos équipes en charge de ce produit.
+> La fonctionnalité IAM est actuellement en phase bêta. Ce guide peut donc être mis à jour à l'avenir avec les avancées de nos équipes en charge de ce produit.
 >
-
 
 ## Objectif
 
@@ -23,19 +22,19 @@ updated: 2024-10-30
 
 ### Comment associer un utilisateur à une politique IAM globale ?
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager). Cliquez sur votre nom en haut à droite de l'espace client puis cliquez sur vos initiales pour accéder à la rubrique `Mon compte`{.action}.<br>
+Connectez-vous à votre [espace client OVHcloud](/links/manager). Cliquez sur votre nom en haut à droite de l'espace client puis cliquez sur vos initiales pour accéder à la rubrique `Mon compte`{.action}.
 
-Sous `Mon compte`{.action}, cliquez sur `Identités et accès (IAM)`{.action} et restez dans l'onglet `Politiques.`{.action}.
+Sous `Mon compte`{.action}, cliquez sur `Identités et accès (IAM)`{.action} et restez dans l'onglet `Politiques`{.action}.
 
 ![IAM USER POLICY](images/iam_policies_resize.png){.thumbnail}
 
 Vous retrouvez ici les politiques que vous avez déjà créés.
 
-Cliquez sur `Ma politique`{.action} ou sur `Modifier ma politique`{.action}.
+Cliquez sur votre politique ou sur le bouton `...`{.action} puis sur `Modifier la politique`{.action}.
 
 ![IAM USER POLICY](images/iam_policies_modify.png){.thumbnail}
 
-Renseignez alors l'identité souhaitée dans les zones `Utilisateurs locaux` et `Groupes utilisateurs`, en cliquant sur `Ajouter des utilisateurs`{.action} ou `Ajouter des groupes utilisateurs`{.action}.
+Renseignez alors l'identité souhaitée dans les zones `Utilisateurs locaux` et `Groupes d'utilisateurs`, en cliquant sur `Ajouter des utilisateurs`{.action} ou `Ajouter des groupes d'utilisateurs`{.action}.
 
 ![IAM USER POLICY](images/iam_add_user.png){.thumbnail}
 
@@ -45,7 +44,8 @@ Validez l'ajout de votre utilisateur en cliquant sur `Ajouter`{.action}.
 
 Puis, pour terminer votre politique, cliquez sur `Modifier la politique`{.action}.
 
-**Remarque** : Si votre identité n'est pas présente, vous devez l'ajouter auparavant dans votre espace client OVHcloud.
+> [!primary]
+> Si votre identité n'est pas présente, vous devez l'ajouter auparavant dans votre espace client OVHcloud.
 
 ## Aller plus loin
 

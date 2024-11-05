@@ -1,12 +1,12 @@
 ---
 title: "IAM for VMware on OVHcloud - How to activate IAM"
 excerpt: "Find out how to enable IAM for your VMware on OVHcloud solution via the OVHcloud Control Panel or via the OVHcloud API"
-updated: 2024-05-23
+updated: 2024-11-05
 ---
 
-> [!warning]
-> IAM for VMware on OVHcloud is currently in beta phase.
-> This guide may be incomplete. Our team remains available on our dedicated Discord channel. Please feel free to join us and contact us: <https://discord.gg/ovhcloud>. Ask questions, give your feedback and interact directly with the team building our Hosted Private Cloud services.
+> [!primary]
+> IAM is currently in beta phase. This guide can be updated in the future with the advances of our teams in charge of this product.
+>
 
 ## Objective
 
@@ -84,6 +84,6 @@ You can now follow the guide [IAM for VMware on OVHcloud - How to create an IAM 
 - Guide 4: [IAM for VMware on OVHcloud - How to associate a vSphere role with an IAM policy](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_iam_role_policy)
 - Guide 5: [IAM for VMware on OVHcloud - How to associate a user with a global IAM policy](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_iam_user_policy)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-ie/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -1,14 +1,12 @@
 ---
 title: "IAM pour VMware on OVHcloud - Présentation et FAQ"
 excerpt: "Découvrez comment fonctionne IAM avec vSphere"
-updated: 2024-10-30
+updated: 2024-11-05
 ---
 
 > [!primary]
-> La fonctionnalité IAM est actuellement en phase bêta. Ce guide peut donc évoluer et être mis à jour à l'avenir avec les avancées de nos équipes en charge de ce produit.
+> La fonctionnalité IAM est actuellement en phase bêta. Ce guide peut donc être mis à jour à l'avenir avec les avancées de nos équipes en charge de ce produit.
 >
-
-
 ## Objectif
 
 **Ce guide vous présente les principes de fonctionnement et les limitations de IAM au sein de votre offre VMware on OVHcloud**.
@@ -24,7 +22,7 @@ updated: 2024-10-30
 > [!primary]
 >
 > Vous ne pouvez actuellement pas bénéficier des fonctionnalités IAM sur les offres Hosted Private Cloud VMware vSphere certifiées PCI-DSS ou HDS, ainsi que sur les offres qualifiées SecNumCloud.
-> Il en est de même pour les environnements managés avec NSX activé et VMware Cloud Director on OVHcloud, les équipes OVHcloud travaillent sur l'adaptabilité de ces technologies.
+> Il en est de même pour les environnements managés avec NSX activé et VMware Cloud Director on OVHcloud. Les équipes OVHcloud travaillent sur l'adaptabilité de ces technologies.
 >
 
 ### Comment fonctionne IAM et Hosted Private Cloud - VMware on OVHcloud ?
@@ -48,7 +46,7 @@ Le diagramme ci-dessous permet de comprendre comment fonctionne IAM avec l'ensem
 
 ![IAM Policies](images/iam_policies.png){.thumbnail}
 
-## Foire aux questions
+## FAQ
 
 ### Quelles sont les limitations de IAM avec Hosted Private Cloud - VMware on OVHcloud ?
 
