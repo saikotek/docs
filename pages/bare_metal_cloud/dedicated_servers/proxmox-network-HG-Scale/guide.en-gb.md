@@ -110,7 +110,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >> iface ens35f1 inet manual
 >>
 >> # LACP aggregate on public interfaces
->> # configured in DHCP mode on this example
 >> # Holds the server’s public IP address
 >> auto bond0
 >> iface bond0 inet static
@@ -141,7 +140,7 @@ SSH PUB_IP_DEDICATED_SERVER
 >> # Configuring the bridge with a private address and adding route(s) to send Additional IPs to it
 >> # A.B.C.D/X => Subnet of Additional IPs assigned to the server, this can be a host with /32
 >> auto vmbr0
->> iface vmbr0 inet dhcp
+>> iface vmbr0 inet static
 >>         # Define a private IP, it must not overlap your existing private networks on the vRack for example
 >>         address 192.168.0.1/24
 >>         bridge-ports bond0
@@ -349,7 +348,9 @@ auto ens35f1
 iface ens35f1 inet manual
 
 auto bond0
-iface bond0 inet dhcp
+iface bond0 inet static
+        address PUB_IP_DEDICATED_SERVER/32
+        gateway 100.64.0.1
         bond-slaves ens33f0 ens33f1
         bond-miimon 100
         bond-mode 802.3ad
