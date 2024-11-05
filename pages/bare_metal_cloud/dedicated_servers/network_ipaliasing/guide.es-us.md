@@ -273,7 +273,6 @@ A continuación, edite el fichero con el siguiente contenido, sustituyendo `INTE
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -286,7 +285,6 @@ Si tiene dos direcciones Additional IP que configurar, el archivo de configuraci
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -305,7 +303,6 @@ network:
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        eth0:
            dhcp4: true
