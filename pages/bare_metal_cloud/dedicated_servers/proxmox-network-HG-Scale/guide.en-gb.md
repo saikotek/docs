@@ -124,7 +124,7 @@ SSH PUB_IP_DEDICATED_SERVER
 >>
 >> # Private
 >> auto bond1
->> iface bond1 inet static
+>> iface bond1 inet manual
 >>         bond-slaves ens35f0 ens35f1
 >>         bond-mode 802.3ad
 >>         bond-miimon 100
