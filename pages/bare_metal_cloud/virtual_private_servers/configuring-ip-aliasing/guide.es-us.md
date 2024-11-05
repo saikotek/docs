@@ -1,12 +1,8 @@
 ---
 title: 'Configurar una dirección IP como alias'
 excerpt: 'Cómo añadir direcciones Additional IP a su configuración VPS'
-updated: 2024-04-05
+updated: 2024-11-05
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
-> 
 
 > [!primary]
 >

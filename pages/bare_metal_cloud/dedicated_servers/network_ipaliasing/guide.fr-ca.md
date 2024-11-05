@@ -1,7 +1,7 @@
 ---
 title: 'Configurer son adresse IP en alias'
 excerpt: 'Découvrez comment ajouter des Additional IP à votre configuration'
-updated: 2024-09-27
+updated: 2024-11-05
 ---
 
 > [!primary]
