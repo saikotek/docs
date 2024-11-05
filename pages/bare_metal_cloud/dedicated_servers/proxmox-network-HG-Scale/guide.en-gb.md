@@ -117,11 +117,11 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         address PUB_IP_DEDICATED_SERVER/32
 >>         gateway 100.64.0.1
 >>         bond-slaves ens33f0 ens33f1
->>         bond-mode 4
+>>         bond-mode 802.3ad
 >>         bond-miimon 100
 >>         bond-downdelay 200
 >>         bond-updelay 200
->>         bond-lacp-rate 1
+>>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
 >>         # Enter the MAC address of one of the two public interfaces
 >>         hwaddress AB:CD:EF:12:34:56
@@ -130,11 +130,11 @@ SSH PUB_IP_DEDICATED_SERVER
 >> auto bond1
 >> iface bond1 inet static
 >>         bond-slaves ens35f0 ens35f1
->>         bond-mode 4
+>>         bond-mode 802.3ad
 >>         bond-miimon 100
 >>         bond-downdelay 200
 >>         bond-updelay 200
->>         bond-lacp-rate 1
+>>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
 >>         # Enter the MAC address of one of the two private interfaces
 >>         hwaddress GH:IJ:KL:12:34:56
