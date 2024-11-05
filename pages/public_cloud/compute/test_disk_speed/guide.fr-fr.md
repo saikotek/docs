@@ -1,7 +1,7 @@
 ---
 title: 'Tester la vitesse des disques'
 excerpt: "Vérifiez le nombre d'opérations d'entrée-sortie par seconde (IOPS) que vos disques sont en mesure d'effectuer"
-updated: 2022-01-04
+updated: 2024-11-05
 ---
 
 ## Objectif
@@ -37,14 +37,14 @@ fio --name=rand-write --ioengine=libaio --iodepth=32 --rw=randwrite --invalidate
 
 > [!primary]
 >
-> Notez que vous devrez modifier l'argument `—numjobs` pour refléter le nombre de CPU de votre instance.
+> Notez que vous devrez modifier l'argument `--numjobs` pour refléter le nombre de CPU de votre instance.
 >
 > Vous pouvez récupérer une liste d'arguments et leurs fonctions directement à partir du [guide](https://github.com/axboe/fio/blob/master/HOWTO.rst) de fio.
 >
 
 Pour tester la vitesse d'un disque supplémentaire, vous devez monter celui-ci à l'aide de la commande suivante : 
 
-```
+```bash
 root@serveur:~$ cd /mnt/disk
 ```
 
@@ -105,6 +105,29 @@ write: io=428032KB, bw=3566.2KB/s, iops=891, runt=120031msec
 ```
 
 Les performances des disques sont ici d'environ 891 IOPS.
+
+### Sur Windows
+
+### Installer la commande de test
+
+La commande dont vous avez besoin pour vérifier la vitesse de votre disque s'appelle `fio`. Elle n'est pas présente par défaut sur votre serveur.
+
+Pour installer `fio`, connectez-vous à votre instance via RDP et téléchargez ce binaire : [Microsoft Windows binaries for fio](https://bsdio.com/fio/).
+
+### Tester la vitesse de votre disque
+
+Pour tester la vitesse de votre disque, exécutez la commande suivante :
+
+```powershell
+fio --name=rand-write --ioengine=windowsaio --iodepth=32 --rw=randwrite --invalidate=1 --bsrange=4k:4k,4k:4k --size=512m --runtime=120 --time_based --do_verify=1 --direct=1 --group_reporting --numjobs=1
+```
+
+> [!primary]
+>
+> Notez que vous devrez modifier l'argument `--numjobs` pour refléter le nombre de CPU de votre instance.
+>
+> Vous pouvez récupérer une liste d'arguments et leurs fonctions directement à partir du [guide](https://github.com/axboe/fio/blob/master/HOWTO.rst) de fio.
+>
 
 ## Aller plus loin
 
