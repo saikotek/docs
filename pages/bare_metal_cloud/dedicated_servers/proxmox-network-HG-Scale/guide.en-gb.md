@@ -120,7 +120,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         bond-mode 802.3ad
 >>         bond-miimon 100
 >>         bond-downdelay 200
->>         bond-updelay 200
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
 >>         # Enter the MAC address of one of the two public interfaces
@@ -133,7 +132,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         bond-mode 802.3ad
 >>         bond-miimon 100
 >>         bond-downdelay 200
->>         bond-updelay 200
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
 >>         # Enter the MAC address of one of the two private interfaces
