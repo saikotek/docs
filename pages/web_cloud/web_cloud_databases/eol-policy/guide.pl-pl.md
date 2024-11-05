@@ -3,10 +3,6 @@ title: 'Polityka wycofania z eksploatacji zarządzanych baz danych'
 updated: 2023-03-07
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Zarządzane bazy danych OVHcloud oferują kilka systemów zarządzania bazami danych (SGBD), takich jak MySQL lub PostgreSQL. Każda wersja oprogramowania dociera w dowolnym momencie do końca sprzedaży i do końca obsługi. Usługa może być następnie aktualizowana przez OVHcloud lub przestać działać ("koniec życia"). Chcemy, abyś zrozumiał cykl życia zarządzanych baz danych OVHcloud, dzięki czemu będziesz mógł w pełni przewidywać i przygotowywać własne zmiany.
