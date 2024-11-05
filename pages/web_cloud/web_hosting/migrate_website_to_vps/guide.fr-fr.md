@@ -215,7 +215,7 @@ Après avoir transféré les fichiers de votre site web et, le cas échéant, im
 >>
 >> Pour éviter des erreurs de chargement de fichiers ou des liens brisés, assurez-vous d’ajuster ces chemins dans tous les fichiers de configuration, `.htaccess`, ou autres scripts contenant des liens vers ces ressources. Cela permet de garantir que le site web trouve correctement tous les éléments nécessaires à son bon fonctionnement, même après la migration.
 >>
->> **3. Modifier le fichier .htaccess**  (optionnel)
+>> **3. Modifier le fichier .htaccess**  (facultatif)
 >>
 >> Assurez-vous que le fichier `.htaccess` est bien configuré pour le nouvel environnement. Si vous utilisez des règles de réécriture (`RewriteRule`) pour personnaliser les URL, vérifiez que les chemins sont adaptés à la structure de votre VPS (exemple : `/var/www/html/` au lieu de `/public_html/`). Cela garantit le bon fonctionnement des redirections et des accès.
 >>
