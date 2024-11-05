@@ -148,15 +148,11 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
 >>
 >> # Bridge used for private networks on the vRack
->> # The VLAN feature is enabled
 >> auto vmbr1
 >> iface vmbr1 inet manual
 >>         bridge-ports bond1
 >>         bridge-stp off
 >>         bridge-fd 0
->>         bridge-vlan-aware yes
->>         bridge-vids 2-4094
->>
 >> ```
 > ADVANCE range
 >> For servers from the ADVANCE range that do not have 4 network interfaces, there is no need to configure bonding. You can go directly to configuring the available interfaces.
