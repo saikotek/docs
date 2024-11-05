@@ -1,8 +1,12 @@
 ---
-title: Connecter une image ISO à une VM
-excerpt: Comment connecter une image ISO à une machine virtuelle ?
-updated: 2022-01-11
+title: "Comment connecter une image ISO à une VM"
+excerpt: "Découvrez comment connecter une image ISO à une machine virtuelle ?"
+updated: 2024-11-05
 ---
+
+> [!success]
+> Vous pouvez consulter le guide « [Téléverser un ISO dans un datastore](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_datastore_upload) » pour plus d'informations sur le téléversement d'éléments (ISO, fichiers, etc..) dans votre environnement VMware on OVHcloud.
+
 
 ## Objectif
 
@@ -12,8 +16,8 @@ Vous pouvez créer une librairie de fichiers ISO à utiliser pour vos déploieme
 
 ## Prérequis
 
-- Être contact administrateur de l'infrastructure [Hosted Private Cloud](https://www.ovhcloud.com/fr-ca/enterprise/products/hosted-private-cloud/), afin de recevoir les identifiants de connexion.
-- Avoir un identifiant utilisateur actif (créé dans l'[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc))
+- Être contact administrateur de l'infrastructure [Hosted Private Cloud](/links/hosted-private-cloud/vmware), afin de recevoir les identifiants de connexion.
+- Avoir un identifiant utilisateur actif (créé dans l'[espace client OVHcloud](/links/manager))
 
 ## En pratique
 
@@ -61,4 +65,8 @@ L'image est désormais connectée et disponible pour votre VM comme si c'était 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Pour plus d'informations sur le téléversement au sein de votre environnement Hosted Private Cloud - VMware on OVHcloud, consultez le guide « [Téléverser un ISO dans un datastore](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_datastore_upload) ».
+
+En effet, vous pouvez utiliser votre client web HTML sécurisé vCenter on OVHcloud mais aussi `govc` (voir la procédure dans le guide).
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).
