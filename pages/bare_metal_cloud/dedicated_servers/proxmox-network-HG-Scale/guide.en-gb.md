@@ -121,8 +121,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         bond-downdelay 200
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
->>         # Enter the MAC address of one of the two public interfaces
->>         hwaddress AB:CD:EF:12:34:56
 >>
 >> # Private
 >> auto bond1
@@ -133,8 +131,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         bond-downdelay 200
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
->>         # Enter the MAC address of one of the two private interfaces
->>         hwaddress GH:IJ:KL:12:34:56
 >>
 >> auto vmbr0
 >> # Configuring the bridge with a private address and adding route(s) to send Additional IPs to it
