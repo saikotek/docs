@@ -1,7 +1,7 @@
 ---
-title: "Migrer un site web d'un hébergement mutualisé vers un VPS"
+title: "Comment migrer un site web depuis un hébergement Web mutualisé vers un VPS"
 excerpt: "Découvrez comment migrer votre site web d'un hébergement mutualisé vers un VPS OVHcloud"
-updated: 2024-10-31
+updated: 2024-11-05
 ---
 
 ## Objectif

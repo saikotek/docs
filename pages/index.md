@@ -1240,6 +1240,7 @@
         + [Website optimisation](web-cloud-hosting-website-optimisation)
             + [Optimising the security of your website](web_cloud/web_hosting/secure_your_website)
             + [Web Hosting - How to change your solution](web_cloud/web_hosting/how_to_upgrade_web_hosting_offer)
+            + [How to migrate a website from a web hosting plan to a VPS](web_cloud/web_hosting/migrate_website_to_vps)
             + [Speeding up your website with CDN](web_cloud/web_hosting/cdn_how_to_use_cdn)
             + [Accessing a website’s logs and statistics on a Web Hosting](web_cloud/web_hosting/logs_and_statistics)
             + [Geolocating your website](web_cloud/web_hosting/multisites_geolocation)
