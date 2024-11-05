@@ -1,7 +1,7 @@
 ---
 title: Conectarse a la interfaz vSphere
 excerpt: Cómo conectarse a la interfaz vSphere
-updated: 2024-08-21
+updated: 2024-11-05
 ---
 
 ## Objective
@@ -10,7 +10,7 @@ updated: 2024-08-21
 
 ## Requirements
 
-- You must be the administrator of the [Hosted Private Cloud](/links/hosted-private-cloud/vmware) infrastructure.
+- You must be the administrator of the [Hosted Private Cloud - managed vSphere](/links/hosted-private-cloud/vmware) infrastructure.
 - IP addresses added in the `Security`{.action}  section of your [OVHcloud Control Panel](/links/manager). For more information, please read our guide on [Authorizing IPs to connect to vCenter](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/autoriser_des_ip_a_se_connecter_au_vcenter).
 
 To use IAM, you must enable the feature in order to delegate rights management with a role. Please read the guides:
@@ -31,9 +31,15 @@ You can manage your login credentials via the OVHcloud Control Panel for your VM
 
 Log in to the [OVHcloud Control Panel](/links/manager) and click the `Hosted Private Cloud`{.action} tab.
 
-Click on the `VMware`{.action} section, select your infrastructure, then go to the `Users`{.action} tab.
+Click on the `Managed VMware vSphere`{.action} section, select your infrastructure, then go to the `Users`{.action} tab.
 
-Under the `Manage user permissions in the vSphere client`{.action} section, click `Create a user`{.action} or `Edit`{.action} an existing user.
+![Logging in to the vSphere HTML5 interface](images/managed_vsphere_all.png){.thumbnail}
+
+To list your VMware environments, click `All my services`{.action}.
+
+To access the `Manage user permissions in the vSphere client`{.action}, click the `Users`{.action} section.
+
+To create or modify a user click `Create User`{.action} or `Modify`{.action} a user.
 
 ![Logging in to vSphere HTML5](/pages/assets/screens/control_panel/product-selection/hosted-private-cloud/vmware/vmware_users.png){.thumbnail}
 
