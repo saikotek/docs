@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Spécifications pour Local Zones
 excerpt: ""
-updated: 2024-08-22
+updated: 2024-11-05
 ---
 
 ## Objectif
@@ -21,7 +21,7 @@ Le support des classes High Performance dans les Local Zones pourra être envisa
 
 ## Fonctionnalités
 
-Les fonctionnalités d'Object Storage dans les régions et les Local Zones sont principalement les mêmes. Cependant, certaines différences importantes sont mises en évidence dans [le tableau comparatif sur ce guide](/pages/storage_and_backup/object_storage/s3_limitations#features-matrix).
+Les fonctionnalités d'Object Storage dans les régions et les Local Zones sont principalement les mêmes. Cependant, certaines différences importantes sont mises en évidence dans [le tableau comparatif sur ce guide](/pages/storage_and_backup/object_storage/s3_s3_compliancy).
 
 ## Spécifications MultiAZ et MonoAZ
 

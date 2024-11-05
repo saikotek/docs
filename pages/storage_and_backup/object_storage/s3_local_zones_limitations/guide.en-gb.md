@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Local Zones specifications
 excerpt: ""
-updated: 2024-08-22
+updated: 2024-11-05
 ---
 
 ## Objective
@@ -21,7 +21,7 @@ Once OVHcloud releases new storage classes, the potential for expanding Local Zo
 
 ## Feature Set
 
-The feature sets for Object Storage in regions and Local Zones are mainly the same. However, there are some key differences which are highlighted in [the features matrix on this guide](/pages/storage_and_backup/object_storage/s3_limitations#features-matrix)
+The feature sets for Object Storage in regions and Local Zones are mainly the same. However, there are some key differences which are highlighted in [the features matrix on this guide](/pages/storage_and_backup/object_storage/s3_s3_compliancy).
 
 ## MultiAZ and MonoAZ Specifications
 
