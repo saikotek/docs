@@ -1,7 +1,7 @@
 ---
 title: 'Rozpoznawanie e-maili typu phishing'
 excerpt: 'Jak rozpoznać e-mail typu phishing i jak postępować, jeśli kliknąłeś w link wyłudzający informacje?'
-updated: 2020-10-12
+updated: 2024-10-30
 ---
 
 ## Wprowadzenie
@@ -10,9 +10,7 @@ Phishing to rodzaj oszustwa internetowego, który ma na celu wyłudzenie poufnyc
 
 **Niniejszy przewodnik wyjaśnia, jak rozpoznać e-mail typu phishing i jak postępować, jeśli kliknąłeś w link wyłudzający informacje.**
 
-## Wymagania początkowe
-
-- Brak specyficznych wymagań
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/RED6EuCLFjk?si=9ppewOVm_bXymThM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## W praktyce
 
@@ -33,12 +31,7 @@ Otrzymałeś wiadomość e-mail od OVHcloud i chcesz się upewnić, czy to nie p
 |---|---|---|
 |1 - Nadawca:|Sprawdź, czy adres użyty do wysyłki wiadomości e-mail jest w domenie: “@ovhcloud.com”, “@ovh.com”, “@soyoustart.com” lub “@kimsufi.com”.|Bardzo często e-maile typu phishing są oznaczone w temacie w nawiasie kwadratowym jako "spam". Temat takiej wiadomości nie będzie też zawierał Twojego identyfikatora klienta OVHcloud lub będzie on nieprawidłowy.|
 |2 - Temat|Sprawdź, czy Twój identyfikator **(zaczynający się od pierwszej litery nazwiska i pierwszej litery imienia zarejestrowanych w OVHcloud)** i/lub adres e-mail przypisany do Twojego konta figurują w temacie wiadomości.|Bardzo często e-maile typu phishing są oznaczone w temacie w nawiasie kwadratowym jako "spam". Temat takiej wiadomości nie będzie też zawierał Twojego identyfikatora klienta OVHcloud lub będzie on nieprawidłowy.|
-|3 - Link|Ustawienie kursora myszki na linku pozwoli Ci, bez kliknięcia w link, podejrzeć jego zawartość (w dolnej części przeglądarki internetowej). W tym przypadku widzisz link wskazujący na https://www.ovh.com. |Kiedy najedziesz na link kursorem, zobaczysz, że nie ma on nic wspólnego z OVHcloud. Nie klikaj w link.|
-
-> [!primary]
-> 
-> Pamiętaj, że do klientów Kimsufi ani So You Start nigdy nie wysyłamy e-maili dotyczących płatności jako OVHcloud. Takie e-maile należy ignorować.
-> 
+|3 - Link|Ustawienie kursora myszki na linku pozwoli Ci, bez kliknięcia w link, podejrzeć jego zawartość (w dolnej części przeglądarki internetowej). W tym przypadku widzisz link wskazujący na `https://www.ovh.com`. |Kiedy najedziesz na link kursorem, zobaczysz, że nie ma on nic wspólnego z OVHcloud. Nie klikaj w link.|
 
 #### Zgłaszanie e-maili typu phishing
 
@@ -59,7 +52,7 @@ Natychmiast skontaktuj się z bankiem i zablokuj kartę. Wskaż pracownikami ban
 
 #### Jeśli wpisałeś hasło OVHcloud na fałszywej stronie
 
-Zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl){.external} i natychmiast zmień hasło. Zalecamy również włączenie uwierzytelniania dwuetapowego, aby zabezpieczyć Twoje konto.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i natychmiast zmień hasło. Zalecamy również włączenie uwierzytelniania dwuetapowego, aby zabezpieczyć Twoje konto.
 
 > [!primary]
 >

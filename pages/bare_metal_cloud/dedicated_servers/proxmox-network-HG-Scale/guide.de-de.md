@@ -1,7 +1,7 @@
 ---
-title: 'Netzwerk auf Proxmox VE einrichten (EN)'
+title: 'Netzwerk auf Proxmox VE für die High Grade, Scale & SCALE Reihen konfigurieren (EN)'
 excerpt: 'Erfahren Sie hier, wie Sie das Netzwerk auf Proxmox VE konfigurieren'
-updated: 2024-08-21
+updated: 2024-10-18
 ---
 
 > [!primary]
@@ -52,7 +52,6 @@ You need to:
 - create an aggregate (linux bond), only for the High Grade & SCALE ranges
 - create a bridge
 - authorize forwarding
-- authorize proxy_arp
 - add routes
 
 #### Configure the hypervisor
@@ -67,18 +66,15 @@ SSH PUB_IP_DEDICATED_SERVER
 > [!tabs]
 > High Grade & SCALE ranges
 >>
->> - **Enable ip_forward and proxy_arp**:
+>> - **Enable ip_forward**:
 >>
->> Enable the `sysctl` `ip_forward` and `proxy_arp` parameters. To do this, we recommend modifying the `sysctl.conf` configuration file.
+>> Enable the `ip_forward` sysctl parameter. To do this, we recommend modifying the `sysctl.conf` configuration file.
 >>
->> Add the following lines to `/etc/sysctl.conf`:
+>> Add the following line to `/etc/sysctl.conf`:
 >>
 >> ```text
 >> # Enable ip_forward
 >> net.ipv4.ip_forward = 1
->>
->> # Enabling proxy_arp for public bond
->> net.ipv4.conf.bond0.proxy_arp = 1
 >> ```
 >>
 >> Next, reload the sysctl configuration:
@@ -183,20 +179,20 @@ SSH PUB_IP_DEDICATED_SERVER
 >> ```bash
 >> auto lo
 >> iface lo inet loopback
->>
+>> 
 >> auto enp8s0f0np0
 >> iface enp8s0f0np0 inet static
 >>     address PUB_IP_DEDICATED_SERVER/32
 >>     gateway 100.64.0.1
->>
+>> 
 >> auto vmbr0
 >> iface vmbr0 inet static
 >>     address 192.168.0.1/24
 >>     bridge-ports none
 >>     bridge-stp off
 >>     bridge-fd 0
->>     up ip route add ADDITIONAL_IP/32 dev $IFACE
->>     up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
+>>     up ip route add ADDITIONAL_IP/32 dev vmbr0
+>>     up ip route add ADDITIONAL_IP_BLOCK/28 dev vmbr0
 >> ```
 
 At this point, restart the network services or reboot the server:
@@ -230,13 +226,13 @@ When you restart the network services, the bridges (for example, vmbr0) may be i
 >> ```
 >>
 > Ubuntu
->> Content of the `/etc/netplan/01-eth0.yaml` file:
+>> Content of the `/etc/netplan/01-$iface.yaml` :
 >>
 >> ```yaml
 >> network:
 >>   version: 2
 >>   ethernets:
->>     eth0:
+>>     $iface:
 >>       addresses:
 >>         - 192.168.0.3/24
 >>         - ADDITIONAL_IP/32
@@ -259,6 +255,10 @@ To check your public IP, from the VM:
 curl ifconfig.io
 ADDITIONAL_IP    				# must return your additional ip
 ```
+
+> [!primary]
+>
+> You may need to restart the network services for the configuration to take effect.
 
 ### Additional IP via the vRack
 
@@ -357,8 +357,6 @@ iface bond0 inet dhcp
         bond-slaves ens33f0 ens33f1
         bond-miimon 100
         bond-mode 802.3ad
-        post-up echo 1 > /proc/sys/net/ipv4/conf/bond0/proxy_arp
-        post-up echo 1 > /proc/sys/net/ipv4/ip_forward
 
 auto bond1
 # LACP aggregate on private interfaces

@@ -3,10 +3,6 @@ title: "Tutorial - Primeiros passos no WordPress"
 excerpt: "Descubra como criar um website com o CMS WordPress"
 updated: 2024-07-15
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
   
 ## Objetivo
 

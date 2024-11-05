@@ -1,13 +1,8 @@
 ---
 title: Verwendung von IAM-Richtlinie über Ihr Kundencenter
 excerpt: Erfahren Sie hier, wie Sie Benutzern im OVHcloud Kunden-Account spezifische Zugriffsrechte gewähren
-updated: 2024-07-04
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 
 ## Ziel
 
@@ -29,6 +24,8 @@ Es kann beispielsweise eine Richtlinie erstellt werden, um einem Benutzer namens
 **Diese Anleitung erklärt, wie Sie diese Richtlinien über das OVHcloud Kundencenter deklarieren und welche Identitäten, Ressourcen und Aktionen verfügbar sind.**
 
 ![IAM-Richtlinien](images/iam_policies.png){.thumbnail}
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/g6qvskdFwy8?si=51mbyM6affEFknxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Voraussetzungen
 

@@ -1,5 +1,5 @@
 ---
-title: "Hébergement web : environnement, version PHP, « .ovhconfig »"
+title: "Hébergement web - Environnement, version PHP, « .ovhconfig »"
 excerpt: "Découvrez comment modifier l'environnement d'exécution, la version PHP, le pare-feu applicatif, le moteur, le mode et le « .ovhconfig » d'un hébergement web"
 updated: 2024-07-16
 ---
@@ -40,7 +40,7 @@ En résumé, modifier la configuration de votre hébergement web depuis l'[espac
 
 **Découvrez comment modifier l'environnement d'exécution, la version PHP, le pare-feu applicatif, le moteur, le mode et le fichier « .ovhconfig » d'un hébergement web.**
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Prérequis
 

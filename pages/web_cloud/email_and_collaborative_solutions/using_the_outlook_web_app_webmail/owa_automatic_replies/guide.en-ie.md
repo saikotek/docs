@@ -1,7 +1,7 @@
 ---
 title: 'Creating automatic replies in OWA'
 excerpt: 'Find out how to set up automatic replies in OWA'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Objective
@@ -12,18 +12,22 @@ This Exchange feature allows you to set up automatic responses to emails sent to
 
 ## Requirements
 
-- an [OVHcloud Exchange solution](https://www.ovhcloud.com/en-ie/emails/hosted-exchange/) or [OVHcloud Email Pro](https://www.ovhcloud.com/en-ie/emails/email-pro/) already set up
+- an [OVHcloud Exchange solution](/links/web/emails-hosted-exchange) or [OVHcloud Email Pro](/links/web/email-pro) already set up
 - access to your email account (email address and password)
 
 ## Instructions
 
 ### Activating the feature
 
-Log in to your Exchange account via the [OVHcloud webmail](https://www.ovh.ie/mail). Click on the gear symbol on the top right to unfold the "Options" menu and select `Automatic replies`{.action}.
+Log in to your Exchange account via the [OVHcloud webmail](/links/web/email). Click on the gear symbol on the top right to unfold the "Options" menu and select `Automatic replies`{.action}.
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-In this interface, simply activate the feature by selecting `Send automatic replies`{.action}. You can set an exact time period in the fields below or enable it indefinitely. Without the start and end time specified, it will have to be manually disabled. 
+In this interface, simply activate the feature by selecting `Send automatic replies`{.action}. You can set an exact time period in the fields below or enable it indefinitely.
+
+> [!primary]
+>
+> If you do not specify a start and end time, you will need to disable automatic reply manually.
 
 Compose your message in the editor box and confirm with the `Save`{.action} button on the top left.
 
@@ -55,4 +59,8 @@ An alternative message for external senders can be entered into the second edito
 
 [Sharing calendars in OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Join our community of users on <https://community.ovh.com/en/>.
+For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+
+If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
+
+Join our [community of users](/links/community).

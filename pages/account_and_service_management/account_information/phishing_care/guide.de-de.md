@@ -1,7 +1,7 @@
 ---
 title: 'Betrug erkennen − So schützen Sie sich vor Phishing und betrügerischen E-Mails'
 excerpt: 'Wie können Sie eine Phishing-Mail erkennen und was ist zu tun, wenn Sie auf einen betrügerischen Link geklickt haben?'
-updated: 2020-10-12
+updated: 2024-10-30
 ---
 
 ## Ziel
@@ -10,9 +10,7 @@ Beim Phishing werden betrügerische E-Mails versandt, in denen Sie dazu aufgefor
 
 **Hier erfahren Sie, wie Sie eine Phishing-Mail erkennen und was zu tun ist, wenn Sie auf einen betrügerischen Link geklickt haben.**
 
-## Voraussetzungen
-
-- Keine spezifischen Voraussetzungen
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/RED6EuCLFjk?si=9ppewOVm_bXymThM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## In der praktischen Anwendung
 
@@ -35,11 +33,6 @@ Sie haben eine angebliche E-Mail von OVHcloud erhalten und möchten überprüfen
 |2 - Betreff|Überprüfen Sie, ob Ihre Kundenkennung **(beginnend mit dem jeweils ersten Buchstaben Ihres bei OVHcloud registrierten Namens und Vornamens)** und/oder die E-Mail-Adresse Ihres Accounts in der Betreffzeile stehen.|In den meisten Fällen ist die E-Mail in eckigen Klammern als “Spam” gekennzeichnet und Ihre Kontaktdaten erscheinen nicht ODER sind falsch.|
 |3 - Link|Gehen Sie mit Ihrer Maus über den Link. Sie sehen den Inhalt dann direkt (unten in Ihrem Browserfenster), ohne auf den Link zu klicken. In unserem Beispiel verweist der Link auf https://www.ovh.com/.|In der Beispielabbildung sehen Sie, dass der Link nichts mit OVHcloud zu tun hat. Klicken Sie nicht auf einen solchen Link.|
 
-> [!primary]
-> 
-> Als Kunde bei Kimsufi oder So you Start müssen Sie nie etwas bei OVHcloud bezahlen. Derartige E-Mails können Sie also einfach ignorieren.
-> 
-
 #### Phishing-Mails melden
 
 Wenn Sie sich nach den oben stehenden Kontrollen sicher sind, dass Sie eine Phishing-Mail im Namen von OVHcloud erhalten haben, senden Sie uns bitte möglichst ausführliche Informationen dazu (mindestens den Inhalt der E-Mail) an folgende Adresse: **<fraude@ovh.com>**.
@@ -59,7 +52,7 @@ Kontaktieren Sie umgehend Ihren Zahlungsdienstleister, um Ihr jeweiliges Zahlung
 
 #### Sie haben Ihr OVHcloud Passwort auf einer betrügerischen Website angegeben
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein und ändern Sie sofort Ihr Passwort. Wir empfehlen Ihnen, auch die Zwei-Faktor-Authentifizierung zu aktivieren, um Ihren Account in Zukunft besser zu schützen.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und ändern Sie sofort Ihr Passwort. Wir empfehlen Ihnen, auch die Zwei-Faktor-Authentifizierung zu aktivieren, um Ihren Account in Zukunft besser zu schützen.
 
 > [!primary]
 >

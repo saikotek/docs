@@ -1,5 +1,5 @@
 ---
-title: "Hosting WWW : środowisko, wersja PHP, .ovhconfig"
+title: "Hosting WWW - Środowisko, wersja PHP, .ovhconfig"
 excerpt: "Dowiedz się, jak zmienić środowisko uruchomieniowe, wersję PHP, zaporę aplikacyjną, silnik, tryb i .ovhconfig na hostingu WWW"
 updated: 2024-07-16
 ---
@@ -44,7 +44,7 @@ Zmiana konfiguracji hostingu w [Panelu klienta OVHcloud](/links/manager) lub zmi
 
 **Dowiedz się, jak zmienić środowisko uruchomieniowe, wersję PHP, zaporę aplikacyjną, silnik, tryb i plik ".ovhconfig" hostingu.**
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Wymagania początkowe
 

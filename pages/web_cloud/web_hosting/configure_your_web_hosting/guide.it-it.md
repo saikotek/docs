@@ -1,5 +1,5 @@
 ---
-title: "Hosting Web : ambiente, versione PHP, .ovhconfig"
+title: "Hosting Web - Ambiente, versione PHP, .ovhconfig"
 excerpt: "Questa guida ti mostra come modificare ambiente di esecuzione, versione PHP, firewall applicativo, motore, modalità e .ovhconfig di un hosting Web"
 updated: 2024-07-16
 ---
@@ -44,7 +44,7 @@ Per riassumere, modificare la configurazione dell’hosting Web dallo [Spazio Cl
 
 **Questa guida ti mostra come modificare ambiente di esecuzione, versione PHP, firewall applicativo, motore, modalità e file ".ovhconfig" di un hosting Web.**
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Prerequisiti
 
