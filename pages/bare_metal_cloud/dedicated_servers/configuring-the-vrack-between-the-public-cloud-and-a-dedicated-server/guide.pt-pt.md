@@ -1,7 +1,7 @@
 ---
 title: 'Configurar o vRack entre o Public Cloud e um servidor dedicado'
 excerpt: 'Saiba como configurar uma rede privada entre uma instância Public Cloud e um servidor dedicado'
-updated: 2021-10-15
+updated: 2024-11-05
 ---
 
 > [!primary]
@@ -10,14 +10,14 @@ updated: 2021-10-15
 
 ## Sumário
 
-O [vRack](https://www.ovh.pt/solucoes/vrack/){.external} da OVHcloud é uma rede privada que lhe permite configurar o direcionamento entre dois ou mais [servidores dedicados](/links/bare-metal/bare-metal) da OVHcloud. Além disso, permite-lhe também adicionar [instâncias Public Cloud](https://www.ovhcloud.com/pt/public-cloud/) à sua rede privada para criar uma infraestrutura de recursos físicos e virtuais.
+O [vRack](/links/network/vrack/) da OVHcloud é uma rede privada que lhe permite configurar o direcionamento entre dois ou mais [servidores dedicados](/links/bare-metal/bare-metal) da OVHcloud. Além disso, permite-lhe também adicionar [instâncias Public Cloud](https://www.ovhcloud.com/pt/public-cloud/) à sua rede privada para criar uma infraestrutura de recursos físicos e virtuais.
 
 **Este manual explica-lhe como configurar uma rede privada entre uma instância Public Cloud e um servidor dedicado.**
 
 ## Requisitos
 
 * Ter criado uma [instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps)
-* Ter ativado um serviço [vRack](https://www.ovh.pt/solucoes/vrack/){.external}
+* Ter ativado um serviço [vRack](/links/network/vrack/)
 * Dispor de um [servidor dedicado](/links/bare-metal/bare-metal) compatível com o vRack
 * Ter acesso à [Área de Cliente OVHcloud](/links/manager)
 * Um intervalo de endereços IP privados à sua escolha
@@ -31,27 +31,17 @@ O [vRack](https://www.ovh.pt/solucoes/vrack/){.external} da OVHcloud é uma rede
 
 ### Adicionar um projeto Public Cloud ao vRack
 
-Depois de configurar o seu [projeto Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project), deverá adicioná-lo ao vRack. Isto pode ser feito de duas formas:
+> [!primary]
+> Esta opção não se aplica a projetos recém-criados que sejam automaticamente entregues com vRack. Para visualizar o vRack após a criação do projeto, aceda ao menu "Bare Metal Cloud" {.action} e clique em "Network" {.action}" no separador à esquerda. Clique em `Rede privada vRack`{.action} para visualizar o(s) vRack(s).
+>
+> Pode igualmente retirar o projeto do vRack que lhe foi atribuído e associá-lo a outro vRack se o desejar, em especial se já tinha um vRack existente com o(s) seu(s) servidor(es) dedicado(s).
 
-1. Ao encomendar um serviço vRack, caso não tenha nenhum, este produto é gratuito e a disponibilização demorará alguns minutos.
+No caso de projetos mais antigos, depois de adquirir o [vRack](/links/network/vrack), aceda ao menu `Bare Metal Cloud`{.action}, clique em `Network`{.action} no separador à esquerda e, a seguir, em `Rede privada vRack`{.action}. Selecione o seu vRack na lista.
 
-No menu `Bare Metal Cloud`{.action}, clique no botão `Encomendar`{.action}. Neste menu, clique na opção `vRack`{.action}.
+Na lista dos serviços elegíveis, selecione o projeto que deseja adicionar ao vRack e, a seguir, clique no botão `Adicionar`{.action}.
 
-![Encomendar o vrack](images/orderingvrack.png){.thumbnail}
+![Adicionar um projeto ao vRack](images/addprojectvrack.png){.thumbnail}
 
-Será reencaminhado para outra página para validar a encomenda, a operação demorará alguns minutos.
-
-Uma vez o serviço vRack entregue na sua conta, pode agora adicionar o seu projeto.
-
-Clique no menu `Bare Metal Cloud`{.action}, depois em `Network`{.action} e depois em `vRack`{.action}. Selecione o seu vRack na lista.
-
-Na lista dos serviços elegíveis, selecione o projeto que deseja adicionar ao vRack e clique no botão `Adicionar`{.action}.
-
-![adicionar um projeto ao vrack](images/addprojectvrack.png){.thumbnail}
-
-<ol start="2">
-  <li>Ao <a href="/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#etapa-1-ativar-e-gerir-um-vrack">criar ou adicionar um serviço vRack existente</a> na secção Public Cloud.</li>
-</ol>
 
 ### Integrar uma instância no vRack
 
@@ -62,46 +52,69 @@ Existem duas situações:
 
 #### Caso de uma nova instância
 
-Se precisar de ajuda, consulte o guia: [Criar uma instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps). Ao criar uma instância, poderá especificar, na etapa 4, uma rede privada na qual poderá integrar a sua instância. Escolha, no menu pendente apresentado, o seu vRack criado anteriormente.
+Se precisar de ajuda, consulte o guia: [Criar uma instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps). Ao criar uma instância, poderá especificar, na etapa 5, uma rede privada na qual poderá integrar a sua instância.
 
 #### Caso de uma instância já existente
 
-Pode associar uma instância existente a uma rede privada. Para mais informações, consulte [esta secção](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#caso-de-uma-instancia-existente) do guia correspondente.
+Pode associar uma instância existente a uma rede privada.
 
-### Criar uma VLAN ID
+Com o seu projeto associado ao vRack, está pronto a criar redes privadas.
 
-Para que os dois serviços possam comunicar entre si, devem ser « etiquetados » com a mesma **VLAN ID**. 
+No separador Public Cloud, clique em `Private Network`{.action} no menu à esquerda em **Network**.
 
-#### Utilização da VLAN ID por predefinição
+Clique no botão "Adicionar uma rede privada" {.action}.
 
-Nos servidores dedicados, por predefinição, está na VLAN **0**. Se deseja utilizar este ID, será necessário « etiquetar » a rede privada associada à sua instância com a VLAN **0**. Para o fazer, terá de passar pela [OVHcloud APIv6 (EN)](/pages/public_cloud/public_cloud_network_services/getting-started-08-creating-vrack-with-api#step-3-creating-a-vlan-in-the-vrack).
+![create private network](images/vrack2022-03.png){.thumbnail}
 
-> [!primary]
-> No Public Cloud, define uma VLAN ID única por rede privada.
->
-> Não pode definir a mesma VLAN ID em duas redes privadas diferentes.
+A página seguinte permite personalizar várias definições.
 
-#### Utilização de uma VLAN ID diferente
+No passo 1, selecione a região na qual pretende colocar a rede privada.
 
-Se decidir utilizar uma VLAN ID diferente:
+![select região](images/vrack2024-01.png){.thumbnail}
 
-- A rede privada associada à instância Public Cloud deve ser « etiquetada » com este ID.
-- No ficheiro de configuração de rede do servidor dedicado, a interface de rede privada deve ser « etiquetada » com esta identificação.
+Para que os dois serviços possam comunicar entre si, devem ser « marcados » com o mesmo **VLAN ID**.
 
-Neste caso, se selecionar a opção `Definir um ID de VLAN`, deverá selecionar um número de ID de VLAN entre 2 e 4000.
+Pode configurá-lo na etapa 2.
 
-Se não selecionar esta opção, o sistema atribuirá um número de VLAN aleatório à sua rede privada.
+![configure network](images/configure_private_network.png){.thumbnail}
 
-> [!primary]
-> 
-> Ao contrário dos servidores dedicados, não é necessário « etiquetar » a VLAN directamente no ficheiro de configuração de rede da instância Public Cloud, depois de o ID da VLAN ser definido na Área de Cliente OVHcloud.
->
+Esta etapa oferece várias opções de configuração. Para as necessidades deste guia, vamos concentrar-nos nos elementos necessários. Clique nos separadores abaixo para visualizar os detalhes:
 
-Por exemplo: se definiu a rede privada associada à sua instância com VLAN 2, a interface de rede privada do seu servidor dedicado deve ser « etiquetada » com VLAN 2. Para mais informações consulte o seguinte guia: [Criar várias VLAN no vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).
+> [!tabs]
+> **Nome da rede privada**
+>>
+>> Introduza um nome para a sua rede privada.<br>
+>>
+> **Opções de rede do layer 2**
+>>
+>> Por predefinição, o VLAN ID dos servidores dedicados é **0**. Para utilizar este VLAN ID para uma instância, será necessário marcar a rede privada com a VLAN **0** também.
+>> Selecione a caixa **Set a VLAN ID** e selecione VLAN ID **0**.
+>>
+>> Se não selecionar esta opção, o sistema atribuirá um número de ID de VLAN aleatório à sua rede privada.
+>>
+> **Utilização de um VLAN ID diferente**
+>>
+>> Se não pretende utilizar o VLAN ID **0**, pode selecionar um ID diferente entre 1 e 4000. São aplicáveis as seguintes regras:
+>>
+>> - A rede privada ligada à instância Public Cloud deve ser « » com este identificador de VLAN.
+>> - Aquando da configuração do vRack no servidor dedicado, este VLAN ID deve ser incluído no ficheiro de configuração de rede.
+>>
+>> [!primary]
+>> Para o Public Cloud, deve definir um VLAN ID único por rede privada. Não é possível definir o mesmo VLAN ID em duas redes privadas diferentes.
+>>
+>> [!primary]
+>> Ao contrário dos servidores dedicados (quando se utiliza um VLAN ID diferente de 0), não é necessário incluir diretamente o VLAN ID no ficheiro de configuração de rede da instância Public Cloud depois de ter sido configurado na Área de Cliente OVHcloud.
+>>
+>> Exemplo: se a sua rede privada de instância « está » com a VLAN 2, este VLAN ID deve ser incluído na configuração de rede do servidor dedicado apenas. Para mais informações, consulte o seguinte guia: [Criar várias VLAN no vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
+>>
+> **Opções de distribuição dos endereços DHCP**
+>>
+>> Pode conservar o intervalo de IP privado por predefinição ou utilizar outro.
+>>
 
 ### Configurar as interfaces de rede
 
-De seguida, configure as interfaces de rede na nova instância Public Cloud e no seu servidor dedicado através deste guia: [Configurar vários servidores dedicados no vRack](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server){.external}.
+De seguida, configure as interfaces de rede na nova instância Public Cloud e no seu servidor dedicado através deste guia: [Configurar vários servidores dedicados no vRack](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server).
 
 ## Quer saber mais?
  
