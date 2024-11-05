@@ -380,8 +380,7 @@ Content of the file `/etc/network/interfaces`:
 auto lo ens18
 iface lo inet loopback
 iface ens18 inet static
-        address 46.105.135.97
-        netmask 255.255.255.240
+        address 46.105.135.97/28
         gateway 46.105.135.110
 ```
 
