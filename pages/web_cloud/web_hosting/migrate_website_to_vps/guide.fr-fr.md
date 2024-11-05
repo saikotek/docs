@@ -211,7 +211,7 @@ Après avoir transféré les fichiers de votre site web et, le cas échéant, im
 >>
 >> **2. Configurer les chemins d'accès aux fichiers** 
 >>
->> Certains sites web utilisent des chemins absolus (ex: `/home/user/public_html/`) pour des fichiers ou des ressources spécifiques tels que des images, des fichiers CSS, etc. Vérifiez que ces chemins sont correctement adaptés à la structure du serveur sur le VPS, par exemple `/var/www/html/`.
+>> Certains sites web utilisent des chemins absolus (exemple : `/home/user/public_html/`) pour des fichiers ou des ressources spécifiques tels que des images, des fichiers CSS, etc. Vérifiez que ces chemins sont correctement adaptés à la structure du serveur sur le VPS, par exemple `/var/www/html/`.
 >>
 >> Pour éviter des erreurs de chargement de fichiers ou des liens brisés, assurez-vous d’ajuster ces chemins dans tous les fichiers de configuration, `.htaccess`, ou autres scripts contenant des liens vers ces ressources. Cela permet de garantir que le site web trouve correctement tous les éléments nécessaires à son bon fonctionnement, même après la migration.
 >>
