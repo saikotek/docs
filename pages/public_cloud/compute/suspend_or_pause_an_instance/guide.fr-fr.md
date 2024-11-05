@@ -1,6 +1,6 @@
 ---
 title: Suspendre ou mettre en pause une instance
-updated: 2024-10-30
+updated: 2024-11-05
 ---
 
 ## Objectif
@@ -26,7 +26,7 @@ updated: 2024-10-30
 > Ces manipulations entrainent toujours une facturation de l’instance tant que celle-ci n’est pas **supprimée**.
 >
 
-Le tableau ci-dessous vous permet de différencier les options disponibles sur vos instances. Poursuivez la lecture de ce guide en cliquant sur l'option de votre choix. Nous mettons entre parenthèses le terme équivalent dans l'interface horizon.
+Le tableau ci-dessous vous permet de différencier les options disponibles sur vos instances. Poursuivez la lecture de ce guide en cliquant sur l'option de votre choix. Nous mettons entre parenthèses la terminologie utilisée dans l'interface de l'horizon.
 
 |Option|Description|Facturation|
 |---|---|---|
@@ -112,7 +112,7 @@ Cette option vous permettra de réactiver votre instance pour continuer à l’u
 >
 > Toute action sur le snapshot autre que la réactivation (*unshelve*) peut être très dangereuse pour votre infrastructure en cas de mauvaise utilisation. Lorsqu’une instance est « réactivée » (*unshelved*), le snapshot est automatiquement supprimé. Il est déconseillé de déployer une nouvelle instance à partir d’un snapshot créé suite à la suspension d’une instance.
 >
-> OVHcloud met à votre disposition des services dont la responsabilité vous revient. En effet, n’ayant aucun accès à ces machines, nous n’en sommes pas les administrateurs et ne pourrons vous fournir d’assistance. Il vous appartient de ce fait d’en assurer la gestion logicielle et la sécurisation au quotidien. En cas de difficultés ou de doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur, nous vous recommandons de faire appel à un prestataire spécialisé.
+> OVHcloud met à votre disposition des services dont la responsabilité vous revient. En effet, n’ayant aucun accès à ces machines, nous n’en sommes pas les administrateurs et ne pourrons vous fournir d’assistance. Il vous appartient de ce fait d’en assurer la gestion logicielle et la sécurisation au quotidien. En cas de difficultés ou de doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner).
 >
 
 #### Depuis l’espace client OVHcloud 

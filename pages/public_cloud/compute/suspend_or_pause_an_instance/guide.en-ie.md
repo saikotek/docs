@@ -1,6 +1,6 @@
 ---
 title: Shelve or pause an instance
-updated: 2023-06-20
+updated: 2024-11-05
 ---
 
 ## Objective
@@ -26,15 +26,15 @@ As part of the configuration of a high-availability infrastructure, you may enco
 > These manipulations still result in the instance being billed as long as the instance is not deleted.
 >
 
-The table below allows you to differentiate the options available on your instances. Continue reading this guide by clicking on the option of your choice.
+The table below allows you to differentiate the options available on your instances. Continue reading this guide by clicking on the option of your choice. We put the terminology used in the horizon interface in brackets.
 
 |Term|Description|Billing|
 |---|---|---|
-|[Shelve](#shelve-instance)|Retains the resources and data in your disk by creating a snapshot, all other resources are released.|You are only billed for the snapshot.|
-|[Suspend](#stop-suspend-instance)|Stores the VM state on disk, the resources dedicated to instance are still reserved.|You will still be billed the same price for your instance.|
+|[Suspend (*shelve*)](#shelve-instance)|Retains the resources and data in your disk by creating a snapshot, all other resources are released.|You are only billed for the snapshot.|
+|[Stop (*suspend*)](#stop-suspend-instance)|Stores the VM state on disk, the resources dedicated to instance are still reserved.|You will still be billed the same price for your instance.|
 |[Pause](#pause-instance)|Stores the state of the VM in RAM, a paused instance becomes frozen.|You will still be billed the same price for your instance.|
 
-### Shelve (suspend) an instance <a name="shelve-instance"></a>
+### Suspend (*shelve*) an instance <a name="shelve-instance"></a>
 
 > [!alert]
 > Please note that suspending an IOPS or T1/T2-180 instance will result in the loss of data on the NVMe passthrough drives.
@@ -50,7 +50,7 @@ In the OVHcloud Control Panel, select your project from the `Public Cloud`{.acti
 
 Click on the `...`{.action} button to the right of the instance you want to suspend, then click on `Suspend`{.action}.
 
-![suspend instance](images/suspend_an_instance.png){.thumbnail}
+![suspend instance](images/suspend_an_instance_2024.png){.thumbnail}
 
 In the pop-up window, take note of the message and click on `Confirm`{.action}.
 
@@ -66,7 +66,11 @@ To view the snapshot, click on `Instance Backup`{.action} underneath the `Storag
 
 #### From the Horizon Interface
 
-To proceed, you need to [configure user access to Horizon](/pages/public_cloud/compute/introducing_horizon) and [log in to the Horizon interface](https://horizon.cloud.ovh.net/auth/login/).
+To proceed, you need to [log in to the Horizon interface](https://horizon.cloud.ovh.net/auth/login/):
+
+- To log in with OVHcloud Single Sign-On: use the `Horizon`{.action} link in the left-hand menu under "Management Interfaces" after opening your `Public Cloud`{.action} project in the [OVHcloud Control Panel](/links/manager).
+
+- To log in with a specific OpenStack user: open the [Horizon login page](https://horizon.cloud.ovh.net/auth/login/) and enter the [OpenStack user credentials](/pages/public_cloud/compute/create_and_delete_a_user) previously created, then click on `Connect`{.action}.
 
 If you have deployed instances in different regions, make sure you are in the correct region. You can verify this on the top left corner in the Horizon interface.
 
@@ -101,7 +105,7 @@ openstack server shelve <UUID server>
 nova shelve <UUID server> 
 ```
 
-### Unshelve (reactivate) an instance
+### Reactivate (*unshelve*) an instance
 
 This option will allow you to re-up your instance so that you can continue using it. Please note that once this is done, the regular billing will resume.
 
@@ -109,7 +113,7 @@ This option will allow you to re-up your instance so that you can continue using
 >
 > Any actions on the snapshot other than *unshelve* can be very dangerous for your infrastructure in case of misuse. Once you *unshelve* an instance, the snapshot is automatically deleted. It is not recommended to deploy a new instance from any snapshot created as a result of shelving (suspending) an instance.
 >
-> OVHcloud is providing you with machines that you are responsible for. We have no access to these machines, and therefore cannot manage them.  You are responsible for your own software and security management. If you experience any issues or doubts when it comes to managing, using or securing your server, we recommend that you contact a [specialist service provider](https://partner.ovhcloud.com/en-ie/directory/).
+> OVHcloud is providing you with machines that you are responsible for. We have no access to these machines, and therefore cannot manage them.  You are responsible for your own software and security management. If you experience any issues or doubts when it comes to managing, using or securing your server, we recommend that you contact a [specialist service provider](/links/partner).
 >
 
 #### From the OVHcloud Control Panel
@@ -144,7 +148,7 @@ Once your environment is ready, type the following at the command line:
 ~$ nova unshelve <UUID server>
 ```
 
-### Suspend (stop) an instance <a name="stop-suspend-instance"></a>
+### Stop (*suspend*) an instance <a name="stop-suspend-instance"></a>
 
 This option will allow you to shutdown your instance and store the VM state on disk, the memory will be written to the disk as well.
 

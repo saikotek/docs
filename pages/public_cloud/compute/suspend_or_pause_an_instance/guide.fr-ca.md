@@ -1,6 +1,6 @@
 ---
 title: Suspendre ou mettre en pause une instance
-updated: 2023-06-20
+updated: 2024-11-05
 ---
 
 ## Objectif
@@ -26,11 +26,11 @@ updated: 2023-06-20
 > Ces manipulations entrainent toujours une facturation de l’instance tant que celle-ci n’est pas **supprimée**.
 >
 
-Le tableau ci-dessous vous permet de différencier les options disponibles sur vos instances. Poursuivez la lecture de ce guide en cliquant sur l'option de votre choix.
+Le tableau ci-dessous vous permet de différencier les options disponibles sur vos instances. Poursuivez la lecture de ce guide en cliquant sur l'option de votre choix. Nous mettons entre parenthèses la terminologie utilisée dans l'interface de l'horizon.
 
 |Option|Description|Facturation|
 |---|---|---|
-|[Suspendre (*shelve*)](#shelve-instance)|Conserve les ressources et les données de votre disque en créant un snapshot, toutes les autres ressources sont libérées.|Seul le snapshot est facturé.|
+|[Suspendre (*shelve*)](#shelve-instance)|Conservez votre IP ainsi que les ressources et les données de votre disque en créant un snapshot, toutes les autres ressources sont libérées.|Seul le snapshot est facturé.|
 |[Arrêter (*suspend*)](#stop-suspend-instance)|Stocke l’état de la VM sur le disque, les ressources dédiées à l’instance sont toujours réservées.|Vous serez toujours facturé au même prix pour votre instance.|
 |[Pause](#pause-instance)|Stocke l’état de la VM dans la mémoire RAM, une instance en pause reste « gelée ».|Vous serez toujours facturé au même prix pour votre instance.|
 
@@ -49,7 +49,7 @@ Dans votre espace client OVHcloud, cliquez sur l’onglet `Public Cloud`{.action
 
 Cliquez sur le bouton `...`{.action} à droite de l’instance que vous souhaitez suspendre puis cliquez sur `Suspendre`{.action}.
 
-![suspension instance](images/suspend_an_instance.png){.thumbnail}
+![suspension instance](images/suspend_an_instance_2024.png){.thumbnail}
 
 Dans la fenêtre qui s’affiche, prenez connaissance des informations données et cliquez sur `Confirmer`{.action}.
 
@@ -65,7 +65,11 @@ Le snapshot sera ensuite disponible dans la rubrique `Instance Backup`{.action} 
 
 #### Depuis l’interface Horizon
 
-Pour utiliser cette méthode, il vous faut [créer un utilisateur OpenStack](/pages/public_cloud/compute/introducing_horizon) et vous [connecter à l’interface Horizon](https://horizon.cloud.ovh.net/auth/login/).
+Pour utiliser cette méthode, il faut vous [connecter à l’interface Horizon](https://horizon.cloud.ovh.net/auth/login/):
+
+* Pour vous connecter avec l'authentification unique OVHcloud : utilisez le lien `Horizon`{.action} dans le menu de gauche sous "Management Interfaces" après avoir ouvert votre projet `Public Cloud`{.action} dans votre [espace client OVHcloud](/links/manager).
+
+* Pour vous connecter avec un utilisateur OpenStack spécifique : ouvrez la page de connexion à [Horizon](https://horizon.cloud.ovh.net/auth/login/) et renseignez les [identifiants OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) préalablement créés, puis cliquez sur `Connect`{.action}.
 
 Si vous avez déployé des instances dans différentes régions, assurez-vous d’être dans la bonne région. Vous pouvez le vérifier en haut à gauche dans l’interface Horizon.
 
@@ -108,7 +112,7 @@ Cette option vous permettra de réactiver votre instance pour continuer à l’u
 >
 > Toute action sur le snapshot autre que la réactivation (*unshelve*) peut être très dangereuse pour votre infrastructure en cas de mauvaise utilisation. Lorsqu’une instance est « réactivée » (*unshelved*), le snapshot est automatiquement supprimé. Il est déconseillé de déployer une nouvelle instance à partir d’un snapshot créé suite à la suspension d’une instance.
 >
-> OVHcloud met à votre disposition des services dont la responsabilité vous revient. En effet, n’ayant aucun accès à ces machines, nous n’en sommes pas les administrateurs et ne pourrons vous fournir d’assistance. Il vous appartient de ce fait d’en assurer la gestion logicielle et la sécurisation au quotidien. En cas de difficultés ou de doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur, nous vous recommandons de faire appel à un prestataire spécialisé.
+> OVHcloud met à votre disposition des services dont la responsabilité vous revient. En effet, n’ayant aucun accès à ces machines, nous n’en sommes pas les administrateurs et ne pourrons vous fournir d’assistance. Il vous appartient de ce fait d’en assurer la gestion logicielle et la sécurisation au quotidien. En cas de difficultés ou de doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner).
 >
 
 #### Depuis l’espace client OVHcloud 
