@@ -1,39 +1,45 @@
 ---
-title: 'Configurer la qualité de service (QoS) d’OverTheBox'
+title: 'Comment configurer la qualité de service (QoS) sur OverTheBox?'
 excerpt: "Découvrez comment configurer la qualité de service (QoS) sur votre OverTheBox afin d'améliorer la gestion de votre bande passante"
-updated: 2024-05-06
+updated: 2024-10-30
 ---
 
 ## Objectif
 
-Découvrez comment modifier la QoS sur votre équipement OverTheBox, afin de prioriser certain flux réseaux et améliorer la gestion de votre bande passante.
+Découvrez comment modifier la QoS sur votre équipement OverTheBox, afin de prioriser certains flux réseaux et améliorer la gestion de votre bande passante.
 
 ## Prérequis
 
-- Disposer d'un service [OverTheBox](https://www.ovhtelecom.fr/overthebox/)
-- Au moins un accès à Internet, fourni par [OVHcloud](https://www.ovhtelecom.fr/offre-internet/) ou un autre founisseur d'accès
-- Un matériel OverTheBox fourni par OVHcloud ou une installation depuis le projet Open Source (consultez le guide « [Installer l'image overthebox sur votre materiel](/pages/web_cloud/internet/overthebox/advanced_installer_limage_overthebox_sur_votre_materiel) »)
+- Une **OverTheBox** fournie par OVHcloud ou une installation depuis [le projet Open Source](/pages/web_cloud/internet/overthebox/advanced_installer_limage_overthebox_sur_votre_materiel).
+- Être connecté à l'interface web de l'**OverTheBox** depuis [overthebox.ovh](http://overthebox.ovh) ou [192.168.100.1](https://192.168.100.1).
 
 ## En pratique
 
+### Configurer la QoS manuellement
+
+> [!warn]
+>
+> Cette section ne fonctionne que sur les versions v0.9 et antérieures. Ce système a été remplacé par **SQM** à partir de la version v1.0.
+>
+
 Certaines règles sont déjà présentes par défaut, permettant notamment de prioriser les services de VoIP proposés par OVHcloud.
 
-### Étape 1 : préparation
+#### Étape 1 : préparation
 
 > [!primary]
 >
-> Le débit descendant est la bande passante de l'Internet vers votre réseau local, c'est à dire votre débit de réception.
-> Le débit montant est la bande passante de votre réseau vers l'Internet, c'est à dire votre débit d'émission.
+> Le débit descendant est la bande passante de l'Internet vers votre réseau local, c'est-à-dire votre débit de réception.
+> Le débit montant est la bande passante de votre réseau vers l'Internet, c'est-à-dire votre débit d'émission.
 >
 
-Avant de configurer la  **QoS**, il est conseillé de connaître le débit maximum **montant et descendant** de chaque connexion utilisée par votre **OverTheBox**. Pour cela, vous pouvez utiliser l'outil [http://proof.ovh.net/](http://proof.ovh.net/){.external} afin de déterminer les débits maximum de chacune de vos connexions.
+Avant de configurer la  **QoS**, il est conseillé de connaître le débit maximum **montant et descendant** de chaque connexion utilisée par votre **OverTheBox**. Pour cela, vous pouvez utiliser l'outil [perf.overthebox.net](https://perf.overthebox.net/){.external} afin de déterminer les débits maximum de chacune de vos connexions.
 
 **À titre d'exemple**, pour ce guide, voici les débits obtenus sur chaque connexion :
 
 - **OVH-DSL1**: Débit descendant : **10 Mbps** / Débit montant : **1.2 Mbps**
 - **OVH-DSL2**: Débit descendant : **5 Mbps** / Débit montant : **0.6 Mbps**
 
-### Étape 1 : activer le traffic control
+#### Étape 2 : activer le traffic control
 
 > [!primary]
 >
@@ -42,20 +48,22 @@ Avant de configurer la  **QoS**, il est conseillé de connaître le débit maxim
 
 Une fois vos débits maximum connus, il est nécessaire d'activer le *traffic control*. Cet outil va permettre à votre **OverTheBox** de connaître le débit attendu pour chaque interface et ainsi correctement estimer la saturation de chaque lien.
 
-Pour ce faire :
+- Rendez-vous dans l'onglet `Network > Interfaces`{.action}.
+- Sélectionnez l'interface à modifier, dans notre exemple `eth1_dhcp`.
+- Cliquez sur le bouton `Edit`{.action}.
 
-- Rendez vous sur [http://overthebox.ovh (192.168.100.1)](http://overthebox.ovh){.external}
-- Cliquez sur `Network`{.action}
-- Cliquez sur `Interfaces`{.action}
-- Cliquez sur l'onglet qui porte le nom de la connexion sur laquelle vous voulez activer le traffic control, **IF1** dans notre exemple.
-- Cliquez sur l'onglet `Traffic Control`{.action}
-- Configurez le *Traffic Control* en **Static** à l'aide du menu déroulant
-- Inscrivez le **débits maximum** de cette connexion en **kbps** pour le débit descendant (**Download**) et montant (**Upload**). 1 Mbps = 1000 kbps, dans notre exemple le débit 10Mbps/1,2Mbps devient 10000/1200
-- Cliquez sur `Save & Apply`{.action}
+![overthebox](images/step2-tc-1-selectInterface-2024.png){.thumbnail}
 
-![overthebox](images/qos-step1.png){.thumbnail}
+- Rendez-vous sur l'onglet `Traffic Control`{.action}.
+- Modifiez le paramètre `Traffic Control`{.action} en `Static` à l'aide du menu déroulant.
+- Dans le paramètre `Download bandwidth`{.action}, renseignez le débit descendant maximum de la connexion en **Kbps**. Pour notre exemple, pour un débit de 10Mbps, la valeur est `10000` Kbps.
+- Dans le paramètre `Upload bandwidth`{.action}, renseignez le débit montant maximum de la connexion en **Kbps**. Pour notre exemple, pour un débit de 1,2Mbps, la valeur est `1200` Kbps.
+- Confirmez vos changements avec le bouton `Save`{.action}.
+- Appliquez vos changements avec le bouton `Save & Apply`{.action}.
 
-Refaites cette procédure complète pour chacune de vos connexions (**IF2**, **IF3**, etc.).
+![overthebox](images/step2-tc-2-configureInterface-2024.png){.thumbnail}
+
+Refaites cette procédure complète pour chacune de vos connexions.
 
 > [!warning]
 >
@@ -63,7 +71,7 @@ Refaites cette procédure complète pour chacune de vos connexions (**IF2**, **I
 > Dans notre exemple, on remplacerait les valeurs 10000/1200 par 8000/960.
 >
 
-### Étape 2 : créer une nouvelle règle QoS
+#### Étape 3 : créer une nouvelle règle QoS
 
 > [!warning]
 >
@@ -74,27 +82,28 @@ Refaites cette procédure complète pour chacune de vos connexions (**IF2**, **I
 
 Dans notre exemple, nous souhaitons que le débit montant de notre serveur NAS soit priorisé afin d'améliorer la stabilité pour récupérer nos fichiers à distance lorsque nous sommes en déplacement.
 
-Pour ce faire :
+- Rendez-vous dans l'onglet `OverTheBox > QoS Settings`{.action}.
+- L'écran de configuration listant toutes les règles QoS s'affiche.
+- Cliquez sur `Add`{.action}.
 
-- Rendez vous sur [http://overthebox.ovh (192.168.100.1)](http://overthebox.ovh){.external}
-- Cliquez sur `OvertheBox`{.action}
-- Cliquez sur `DSCP Settings`{.action}
+> [!primary]
+>
+> Les règles sont testées dans l'ordre du tableau, utilisez le bouton `≡`{.action} pour modifier la position d'une règle.
+>
 
-![overthebox](images/qos-step2-1.png){.thumbnail}
+![overthebox](images/step3-tc-1-addRule-2024.png){.thumbnail}
 
-- L'écran de configuration listant toutes les règles QoS s'affiche, comme ci dessous :
+- Rendez-vous sur l'onglet `Traffic Control`{.action}.
+- Modifiez le paramètre `Direction`{.action} pour sélectionner le sens de la règle, montant ou descendant. Pour notre exemple, nous souhaitons que le débit montant émanant du **NAS** soit prioritaire, nous renseignons donc `upload`.
+- Modifiez le paramètre `Protocol`{.action} pour sélectionner le protocole sur lequel s'applique la règle. Pour notre exemple, nous souhaitons n'importe quel protocole, nous renseignons donc `all`.
+- Modifiez le paramètre `Source Host`{.action} pour sélectionner la source du trafic. Pour notre exemple, le **NAS** est l'hôte source, nous renseignons donc son adresse IP `192.168.100.80`.
+- Modifiez le paramètre `Destination Host`{.action} pour sélectionner la destination du trafic. Pour notre exemple, nous souhaitons n'importe quelle destination, nous renseignons donc `all`.
+- Modifiez le paramètre `Class`{.action} pour sélectionner la priorité du trafic. Pour notre exemple, nous souhaitons que le trafic soit prioritaire, nous renseignons donc `High priority`.
+- Modifiez le paramètre `Comment`{.action} pour nommer la règle. Pour notre exemple, nous nommons la règle `NAS`.
+- Confirmez vos changements avec le bouton `Save`{.action}.
+- Appliquez vos changements avec le bouton `Save & Apply`{.action}.
 
-![overthebox](images/qos-step2-2.png){.thumbnail}
-
-- Cliquez sur `Add`{.action}
-
-_Une nouvelle ligne apparait._
-
-- Dans notre exemple, nous voulons que le NAS ayant pour IP `192.168.100.80` soit prioritaire pour l'upload, peu importe l'IP distante. Il faut donc ajouter la règle comme ci-dessous :
-
-![overthebox](images/qos-step2-3.png){.thumbnail}
-
-- Une fois votre règle configurée, vous devez cliquer sur `Save & Apply`{.action} pour qu'elle soit correctement sauvegardée.
+![overthebox](images/step3-tc-2-configureRule-2024.png){.thumbnail}
 
 > [!primary]
 >
@@ -102,38 +111,79 @@ _Une nouvelle ligne apparait._
 > Si c'est le cas, veuillez procéder à un redémarrage électrique de l'OverTheBox ou déconnecter/reconnecter du réseau l'appareil concerné par la règle.
 >
 
-Pour plus de détails sur les différentes options de cette page, consultez la section « Aller plus loin » à la fin de ce guide.
+### Configurer la QoS à l'aide de SQM
 
-### Étape 3 : vérifier le bon fonctionnement
+> [!warn]
+>
+> Cette section ne fonctionne qu'à partir de la version v1.0. **SQM** est disponible en version v0.9 mais ne peut être configuré que sur une interface.
+>
 
-Pour vérifier le bon fonctionnement de votre règle :
+_Smart Queue Management_ (SQM) est un système de QoS unifié qui applique différents algorithmes pour améliorer la qualité de votre connexion internet. Ce système met en place automatiquement des politiques de planification réseau par flux et par paquet, de management de queue actif (AQM), de mise en forme du trafic (traffic shaping), de limite de débits (rate limiting) ou encore de priorisation.
+De ce fait, il n'y a plus besoin de spécifier la QoS manuellement pour chaque flux, mais uniquement par interface.
 
-- Cliquez sur `OverTheBox`{.action}
-- Cliquez sur `QoS Graphs`{.action}
+#### Configuration automatique
 
-Lorsque le NAS génère du débit montant, le trafic correspondant apparait en orange sur la courbe, le NAS est donc bien identifié comme prioritaire.
+Votre **OverTheBox** contient un service qui s'appelle `otb-auto-sqm`{.action} qui est capable de lancer des tâches en arrière-plan afin de configurer automatiquement SQM sur toutes les interfaces WAN disponibles.
 
-![overthebox](images/qos-step3.png){.thumbnail}
+- Connectez-vous en **SSH** sur l'**OverTheBox** :
+```bash
+ssh root@192.168.100.1
+```
+- Lancez l'outil de configuration automatique :
+```bash
+otb-action-autoqos
+```
+#### Configuration manuelle
+
+L'outil de configuration automatique applique une configuration générale en fonction du débit de vos interfaces, il est possible que cette configuration ne soit pas optimale. Vous pouvez configurer manuellement SQM pour l'optimiser pour votre connexion.
+
+#### Étape 1 : préparation
+
+> [!primary]
+>
+> Le débit descendant est la bande passante de l'Internet vers votre réseau local, c'est-à-dire votre débit de réception.
+> Le débit montant est la bande passante de votre réseau vers l'Internet, c'est-à-dire votre débit d'émission.
+>
+
+Avant de configurer la  **QoS**, il est conseillé de connaître le débit maximum **montant et descendant** de chaque connexion utilisée par votre **OverTheBox**. Pour cela, vous pouvez utiliser l'outil [perf.overthebox.net](https://perf.overthebox.net/){.external} afin de déterminer les débits maximum de chacune de vos connexions.
+
+**À titre d'exemple**, pour ce guide, voici les débits obtenus sur chaque connexion :
+
+- FTTH: Débit descendant : 1000 Mbps / Débit montant : 600 Mbps (nous ne configurons pas SQM sur ce lien, car supérieur à 300Mbps)
+- VDSL: Débit descendant : 25 Mbps / Débit montant : 3 Mbps
+- lte: Débit descendant : 10 Mbps / Débit montant :  10 Mbps
+
+> [!warn]
+>
+> SQM est gourmands en ressources processeur, il n'est pas recommandé de l'activer sur des liens avec des débits supérieurs à 300Mbps, par exemple sur une connexion fibre.
+>
+
+#### Étape 2 : configuration
+
+Une fois vos débits maximum connus, il est nécessaire de configurer **SQM**. Cet outil va permettre à votre **OverTheBox** de connaître le débit attendu pour chaque interface et ainsi correctement estimer la saturation de chaque lien.
+
+- Rendez-vous dans l'onglet `Network > SQM QoS`{.action}.
+- L'écran de configuration listant la configuration **SQM** s'affiche.
+- Cliquez sur `Add`{.action}.
+
+![overthebox](images/step2-sqm-1-addConfig-2024.png){.thumbnail}
+
+- Cochez la case du paramètre `Enable this SQM instance`{.action} pour activer la configuration **SQM**.
+- Modifiez le paramètre `Interface name`{.action} pour sélectionner l'interface sur laquelle **SQM** s'exécute. Pour notre exemple, notre lien **ADSL** est l'interface `eth2`, nous renseignons donc `eth2`.
+- Dans le paramètre `Download speed (ingress)`{.action}, renseignez le débit descendant maximum de la connexion en **Kbps**. Pour notre exemple, pour un débit de 25Mbps, la valeur est `25000` Kbps.
+- Dans le paramètre `Upload speed (egress)`{.action}, renseignez le débit montant maximum de la connexion en **Kbps**. Pour notre exemple, pour un débit de 3Mbps, la valeur est `3000` Kbps.
+- Appliquez vos changements avec le bouton `Save & Apply`{.action}.
+
+![overthebox](images/step2-sqm-2-configure-2024.png){.thumbnail}
 
 ## Aller plus loin
 
-### Détails des paramètres de la page DSCP Settings
-
-![overthebox](images/qos-step2-2.png){.thumbnail}
-
-| Paramètre | Description |
-| ------------- | ------------- |
-| Direction  | Permet de choisir le sens du trafic sur laquelle la règle s'applique, montant ou descendant |
-| Protocol  | Permet d'appliquer la règle uniquement sur un certain type de flux, comme les connexions TCP ou les connexions UDP |
-| Source Host  | La plage d'addresses IP d'où provient le trafic  |
-| Source Port  | La plage de ports d'où provient le trafic |
-| Destination Hosts | La plage d'addresses IP destinataire du trafic |
-| Destination Ports  | La plage de ports destinataire du trafic |
-| Class | La priorité à attribuer au trafic (voir plus bas) |
-| Comment | Un commentaire, utile pour l'organisation des règles |
-| Sort | Permet de classer la règle. Lorsqu'un paquet arrive, les règles sont testées une par une dans l'ordre depuis le haut du tableau |
-
 ### Les différentes classes de trafic
+
+> [!warn]
+>
+> Cette section concerne la page `OverTheBox > QoS Settings`{.action} disponible uniquement sur les versions v0.9 et antérieures.
+>
 
 Il existe quatre classes de trafic, ce qui vous permet de classer le trafic par priorités.
 
@@ -145,5 +195,3 @@ Il existe quatre classes de trafic, ce qui vous permet de classer le trafic par 
 | Low Priority | Pour un trafic jugé non prioritaire |
 
 N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)
-
-Consultez la [FAQ OverTheBox](/pages/web_cloud/internet/overthebox/install_faq)
