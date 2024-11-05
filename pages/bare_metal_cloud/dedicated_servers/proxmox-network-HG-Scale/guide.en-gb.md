@@ -348,16 +348,22 @@ iface bond0 inet static
         address PUB_IP_DEDICATED_SERVER/32
         gateway 100.64.0.1
         bond-slaves ens33f0 ens33f1
-        bond-miimon 100
         bond-mode 802.3ad
+        bond-miimon 100
+        bond-downdelay 200
+        bond-lacp-rate fast
+        bond-xmit-hash-policy layer3+4
 
 auto bond1
 # LACP aggregate on private interfaces
 # No IP on it
 iface bond1 inet manual
         bond-slaves ens35f0 ens35f1
-        bond-miimon 100
         bond-mode 802.3ad
+        bond-miimon 100
+        bond-downdelay 200
+        bond-lacp-rate fast
+        bond-xmit-hash-policy layer3+4
 
 #Private
 
