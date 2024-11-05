@@ -223,7 +223,7 @@ Après avoir transféré les fichiers de votre site web et, le cas échéant, im
 >>
 >> **4. Configurer les permissions des fichiers et des dossiers** 
 >>
->> Assurez-vous que les permissions (ex: `chmod`) des fichiers et dossiers sont configurées correctement pour éviter des erreurs d'accès. Sur un VPS, les permissions recommandées sont souvent `755` pour les dossiers et `644` pour les fichiers, mais cela peut varier selon vos besoins de sécurité.
+>> Assurez-vous que les permissions (exemple : `chmod`) des fichiers et dossiers sont configurées correctement pour éviter des erreurs d'accès. Sur un VPS, les permissions recommandées sont souvent `755` pour les dossiers et `644` pour les fichiers, mais cela peut varier selon vos besoins de sécurité.
 
 Si vous utilisez une base de données Web Cloud Databases, vérifiez que votre VPS est autorisé à s'y connecter. Pour cela, ajoutez l'adresse IP du VPS à la liste des adresses IP autorisées. Cette configuration permet de sécuriser l'accès à la base de données et d'éviter tout problème de connexion. Consultez la section « Autoriser une adresse IP » de notre guide « [Premiers pas avec le service Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb) ».
 
