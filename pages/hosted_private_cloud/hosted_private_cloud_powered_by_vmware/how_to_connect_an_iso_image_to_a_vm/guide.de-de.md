@@ -1,10 +1,10 @@
 ---
 title: "Ein ISO Image mit einer VM verbinden (EN)"
 excerpt: "How do you connect an ISO image to a virtual machine?"
-updated: 2024-10-29
+updated: 2024-11-05
 ---
 
-> [!primary]
+> [!success]
 > You can refer to the guide [Upload an ISO to a datastore](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_datastore_upload) for more information on uploading elements (ISO, files, etc.) to your VMware on OVHcloud environment.
 
 ## Objective
@@ -15,8 +15,8 @@ You can set up an ISO library in your infrastructure to be used for OS and softw
 
 ## Requirements
 
-- Being an administrative contact of your [Hosted Private Cloud infrastructure](https://www.ovhcloud.com/en-gb/enterprise/products/hosted-private-cloud/) to receive login credentials
-- A user account with access to vSphere (created in the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB))
+- Being an administrative contact of your [Hosted Private Cloud infrastructure](/links/hosted-private-cloud/vmware) to receive login credentials
+- A user account with access to vSphere (created in the [OVHcloud Control Panel](/links/manager))
 
 ## Instructions
 
@@ -65,8 +65,8 @@ The ISO image is now connected to your VM and can be accessed as if it were an a
 
 ## Go further
 
-To go further with uploading within your Hosted Private Cloud - VMware on OVHcloud environment, please refer to the guide [Uploading an ISO into a datastore](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_datastore_upload).
+To go further with uploads within your Hosted Private Cloud - VMware on OVHcloud environment, please refer to the guide [Uploading an ISO into a datastore](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_datastore_upload).
 
-You can use your vCenter on OVHcloud secure HTML web client, as well as `govc` (see procedure in the guide).
+You can use your vCenter on OVHcloud secure HTML web client, as well as `govc` (see the procedure in the guide).
 
 Join our [community of users](/links/community).
