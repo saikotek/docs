@@ -38,7 +38,7 @@ updated: 2024-11-05
 > Est-ce que NSX-T est compatible BGP à travers IPSEC ? <a name="bgpoveripsec"></a>
 > > Actuellement, la fonctionnalité BGP over IPSEC n'est disponible qu'à partir d'une passerelle Tier-0 (version antérieure à la version 4.1.1). Il n'est pas possible de terminer un tunnel VPN sur une passerelle VRF de niveau 0.
 > > Cette opération nécessite des droits spécifiques avec la passerelle Tier-0 pour créer le tunnel.
-> > Si vous avez un cas d'utilisation spécifique, vous pouvez ouvrir un ticket afin que nous puissions vous accompagner dans cette configuration.
+> > Si vous avez un cas d'utilisation spécifique, vous pouvez [ouvrir un ticket](https://help.ovhcloud.com/csm?id=csm_get_help) afin que nous puissions vous accompagner dans cette configuration.
 > >
 > Quel est le changement concernant le système autonome BGP (AS) ?
 > > Il est possible de positionner des AS numbers différents selon les passerelles Tier-0 ou les passerelles VRF de niveau 0.
@@ -74,7 +74,7 @@ updated: 2024-11-05
 > Est-il possible de se connecter au Tier-1 en ligne de commande pour effectuer un diagnostic ou de la capture de paquets ? <a name="t1commandline"></a>
 > > Non, c'est impossible pour la Tier-1. Différents outils sont disponibles dans NSX pour répondre à ces besoins.
 > >
-> Comment puis-je ajouter des IP publiques** ? <a name="addpublicicip"></a>
+> Comment puis-je ajouter des IP publiques ? <a name="addpublicicip"></a>
 > > L'ajout d'IP publiques supplémentaires peut se faire via le routage "next hop" en spécifiant comme ressource l'environnement VMware vSphere managé (pcc) et en `next hop` l'IP virtuelle (VIP) publique de la T0.
 > >
 > Est-ce que les blocs d’adresses IP peuvent être utilisés/distribués entre deux DC VMware dans un même vSphere managé ? <a name="ipblockdistribution"></a>
@@ -152,9 +152,9 @@ updated: 2024-11-05
 > >
 > > > **Paramètres** :
 > > > 
-> > > - `clusterId` : ID du cluster vSphere managé, exemple (2010).
-> > > - `datacenterId` : ID du datastore vSphere managé, exemple (1254)
-> > > - `serviceName` : Nom du vSphere managé, exemple (pcc-XXX-XXX-XXX).
+> > > - `clusterId` : ID du cluster vSphere managé (exemple : 2010).
+> > > - `datacenterId` : ID du datastore vSphere managé (exemple : 1254)
+> > > - `serviceName` : Nom du vSphere managé (exemple : pcc-XXX-XXX-XXX).
 > > >  
 > Comment se passe la migration avec les solutions Zerto ? <a name="migrationzerto"></a>
 > > Suivez simplement les étapes de la documentation fournie par OVHcloud :
@@ -165,7 +165,7 @@ updated: 2024-11-05
 > Que faire de mes options de sauvegarde Veeam et de replication Zerto ? Sont-elles toujours compatibles avec NSX ? <a name="veeamzerto"></a>
 > > Oui, mais il faudra les reconfigurer après la migration de votre centre de données virtuelle (vDC).
 > >
-> Est-il possible de faire cohabiter votre vSphere managé NSX-V et NSX-T durant la phase de transition ? <a name="nsxtwithnsxv"></a>
+> Est-il possible de faire cohabiter notre vSphere managé NSX-V et NSX-T durant la phase de transition ? <a name="nsxtwithnsxv"></a>
 > > Il est possible d'obtenir NSX-T si vous commandez un nouveau vDC.
 > > Veuillez noter que la commande du nouveau vDC déclenchera automatiquement le mécanisme de remboursement pour le mois à venir.
 > >
