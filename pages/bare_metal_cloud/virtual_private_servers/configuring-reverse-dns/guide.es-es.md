@@ -1,7 +1,7 @@
 ---
 title: "Cómo configurar el registro DNS inverso de su servidor (registro PTR)"
 excerpt: Cómo implementar la resolución inversa DNS de su dirección IP desde el área de cliente de OVHcloud
-updated: 2024-09-24
+updated: 2024-11-05
 ---
 
 > [!primary]
@@ -44,7 +44,7 @@ También puede editar el registro inverso directamente a través del icono con f
 > Al introducir su dominio en el registro inverso, comprueba de inmediato si el registro A devuelve la misma IP. Se utiliza en los procedimientos antispam, por lo que el registro A debe ser válido y propagado. Existen algunas reglas a seguir al introducir el registro inverso:
 >
 >  - el registro inverso no puede empezar por un `-`
->  - el registro inverso no puede tener más de 80 caracteres.
+>  - el registro inverso no puede tener más de 63 caracteres.
 >  - el registro inverso no puede contener caracteres en mayúscula.
 >  - el registro inverso debe terminar en un `.`
 >
