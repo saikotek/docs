@@ -1,12 +1,8 @@
 ---
 title: Configurare un Alias IP
 excerpt: 'Scopri come aggiungere uno o più Additional IP alla tua configurazione'
-updated: 2024-09-27
+updated: 2024-11-05
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 > [!primary]
 >

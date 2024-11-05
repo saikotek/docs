@@ -1,7 +1,7 @@
 ---
 title: Configuring IP aliasing
 excerpt: Find out how to add Additional IP addresses to your VPS configuration
-updated: 2024-03-27
+updated: 2024-11-05
 ---
 
 > [!primary]
@@ -163,7 +163,6 @@ Edit the file with the content below, replacing `INTERFACE_NAME` and `ADDITIONAL
 ```yaml
 network:
    version: 2
-   : networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
