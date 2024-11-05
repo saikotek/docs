@@ -96,12 +96,10 @@ SSH PUB_IP_DEDICATED_SERVER
 >> # public interface 1
 >> auto ens33f0
 >> iface ens33f0 inet manual
->> 	bond-master bond0
 >>
 >> # public interface 2
 >> auto ens33f1
 >> iface ens33f1 inet manual
->> 	bond-master bond0
 >>
 >> # private interface 1
 >> auto ens35f0
