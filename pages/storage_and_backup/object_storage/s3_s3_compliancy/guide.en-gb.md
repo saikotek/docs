@@ -224,8 +224,8 @@ This guide lists the S3 API features supported by S3 Object Storage.
     <td>no</td>
   </tr>
   <tr>
-    <td rowspan="18">Object management</td>
-    <td rowspan="9">Single object creation</td>
+    <td rowspan="20">Object management</td>
+    <td rowspan="11">Single object creation</td>
     <td>put object</td>
     <td>yes</td>
   </tr>
@@ -234,11 +234,19 @@ This guide lists the S3 API features supported by S3 Object Storage.
     <td>yes</td>
   </tr>
   <tr>
+    <td>delete object version</td>
+    <td>yes</td>
+  </tr>
+  <tr>
     <td>list objects v2</td>
     <td>yes</td>
   </tr>
   <tr>
     <td>get object</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td>get object version</td>
     <td>yes</td>
   </tr>
   <tr>
