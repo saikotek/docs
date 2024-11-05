@@ -155,7 +155,7 @@ SSH PUB_IP_DEDICATED_SERVER
 >> # The VLAN feature is enabled
 >> auto vmbr1
 >> iface vmbr1 inet manual
->>         bond1 bridge-ports
+>>         bridge-ports bond1
 >>         bridge-stp off
 >>         bridge-fd 0
 >>         bridge-vlan-aware yes
@@ -221,7 +221,7 @@ When you restart the network services, the bridges (for example, vmbr0) may be i
 >> ```
 >>
 > Ubuntu
->> Content of the `/etc/netplan/01-$iface.yaml` :
+>> Content of the `/etc/netplan/01-$iface.yaml` file:
 >>
 >> ```yaml
 >> network:
@@ -328,7 +328,7 @@ vi /etc/network/interfaces
 What matters here is the `bond1` and `vmbr1` configuration:
 
 ```bash
-auto-lo
+auto lo
 iface lo inet loopback
 
 # public interface 1
@@ -369,7 +369,7 @@ auto vmbr1
 # Bridge connected on bond1 aggregate
 # No need for IPs
 iface vmbr1 inet manual
-        bond1 bridge-ports
+        bridge-ports bond1
         bridge-stp off
         bridge-fd 0
 ```
