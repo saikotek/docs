@@ -1,7 +1,7 @@
 ---
 title: "Se connecter à l’interface web vSphere"
 excerpt: "Découvrez les différentes façons de se connecter à votre interface web vSphere managée depuis l'interface Hosted Private Cloud VMware on OVHcloud"
-updated: 2024-10-24
+updated: 2024-11-05
 ---
 
 ## Objectif
@@ -37,7 +37,7 @@ Cliquez sur la rubrique `Managed VMware vSphere `{.action}, sélectionnez votre 
 
 Pour lister vos environnements VMware, cliquez sur `Tous mes services`{.action}.
 
-Pour accéder à la section « Gérer les droits des utilisateurs dans le client vSphere », cliquez sur la section « Utilisateur »{.action}.
+Pour accéder à la section `Gérer les droits des utilisateurs dans le client vSphere`{.action}, cliquez sur la section `Utilisateur`{.action}.
 
 Pour créer ou modifier un utilisateur, cliquez sur `Créer un utilisateur`{.action} ou `Modifier`{.action} un utilisateur.
 

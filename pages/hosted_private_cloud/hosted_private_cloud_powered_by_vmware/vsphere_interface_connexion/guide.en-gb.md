@@ -1,7 +1,7 @@
 ---
 title: "Log in to the vSphere web interface" 
 excerpt: "Find out how to log in to your managed vSphere Web interface from the Hosted Private Cloud VMware on OVHcloud control panel" 
-updated: 2024-10-29
+updated: 2024-11-05
 ---
 
 ## Objective
@@ -37,7 +37,7 @@ Click on the `Managed VMware vSphere`{.action} section, select your infrastructu
 
 To list your VMware environments, click `All my services`{.action}.
 
-To access the « Manage user permissions in the vSphere client », click on `User`{.action} section.
+To access the `Manage user permissions in the vSphere client`{.action}, click the `Users`{.action} section.
 
 To create or modify a user click `Create User`{.action} or `Modify`{.action} a user.
 
