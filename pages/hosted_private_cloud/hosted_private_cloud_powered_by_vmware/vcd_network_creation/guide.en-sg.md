@@ -19,7 +19,7 @@ details[open]>summary::before {
 </style>
 
 > [!primary]
-> 
+>
 > VCD on OVHcloud is currently in Alpha phase. This guide can evolve and be updated in the future with the advances of our teams in charge of this product.
 > 
 
@@ -30,7 +30,7 @@ details[open]>summary::before {
 ## Requirements
 
 > [!primary]
-> 
+>
 > If you are unsure how to log in to your organization's web portal, first refer to the guide: [How to log in to VCD](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-logging).
 >
 
@@ -56,7 +56,7 @@ Before creating a network, the main concept to understand with VMware Cloud Dire
 ### Step 1: Create the IP space (recommended)
 
 > [!primary]
-> 
+>
 > You can use a new method of managing your IP space in VMware Cloud Director with the new IP space management subsystem.
 >
 
@@ -127,7 +127,7 @@ Next, we will move on to the VCD section `VCD`{.action} > `Network`{.action} > `
 ### Step 2 - Create a datacentre group (optional)
 
 > [!primary]
-> 
+>
 > You can use a new method of managing your IP space in VMware Cloud Director with the new IP space management subsystem.
 >
 

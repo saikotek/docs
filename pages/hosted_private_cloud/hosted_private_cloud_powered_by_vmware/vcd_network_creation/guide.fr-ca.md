@@ -19,7 +19,7 @@ details[open]>summary::before {
 </style>
 
 > [!primary]
-> 
+>
 > VCD on OVHcloud est actuellement en phase Alpha. Ce guide peut donc évoluer et être mis à jour à l'avenir avec les avancées de nos équipes en charge de ce produit.
 >
 
