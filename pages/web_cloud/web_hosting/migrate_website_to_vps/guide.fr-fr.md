@@ -126,7 +126,7 @@ Sélectionnez les fichiers de votre site web et la base de données que vous ave
 
 Si vous souhaitez importer la base de données sur votre VPS, suivez les étapes ci-dessous.
 
-Connectez-vous au VPS en SSH en consultant la section " Se connecter à votre VPS » de notre guide " [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
+Connectez-vous au VPS en SSH en consultant la section « Se connecter à votre VPS » de notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
 
 Une fois connecté à votre VPS via une connexion en SSH, utilisez la ligne de commande ci-dessous pour réaliser l'importation de la base de données.
 
