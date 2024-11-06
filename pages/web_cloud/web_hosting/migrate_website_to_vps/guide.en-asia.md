@@ -231,9 +231,9 @@ If you use a Web Cloud Databases database, check that your VPS is authorized to 
 
 > [!primary]
 >
-> Before modifying your DNS zone records to point to the VPS IP address, we recommend reducing the **T**ime **T**o **L**ive (**TTL**). This speeds up the propagation of changes, as the DNS servers will update the information more quickly. Follow the ‘Time to propagate’ step in our guide on Editing an OVHcloud DNS zone (/pages/web_cloud/domains/dns_zone_edit) to adjust the TTL and configure the records to point the domain name to the VPS.
+> Before modifying your DNS zone records to point to the VPS IP address, we recommend reducing the **T**ime **T**o **L**ive (**TTL**). This speeds up the propagation of changes, as the DNS servers will update the information more quickly. Follow the ‘Time to propagate’ step in our guide on [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit) to adjust the TTL and configure the records to point the domain name to the VPS.
 
-To point your website’s domain name to your VPS, configure the domain name’s DNS records to direct traffic to your VPS’s public IP address. To guide you through this process, follow our guide on Editing an OVHcloud DNS zone (/pages/web_cloud/domains/dns_zone_edit) .
+To point your website’s domain name to your VPS, configure the domain name’s DNS records to direct traffic to your VPS’s public IP address. To guide you through this process, follow our guide on [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit) .
 
 ### Step 7 - Check that your website is working properly
 
