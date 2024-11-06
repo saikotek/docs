@@ -5,7 +5,7 @@ updated: 2024-11-05
 
 ## Objectif
 
- Dans le cadre de la configuration d’une infrastructure hautement disponible, vous pouvez avoir besoin de couper les accès à vos instances afin d’effectuer différents tests. OpenStack vous permet de suspendre, arrêter ou mettre en pause votre instance. Dans chaque cas, votre IP est maintenue.
+Dans le cadre de la configuration d’une infrastructure hautement disponible, vous pouvez avoir besoin de couper les accès à vos instances afin d’effectuer différents tests. OpenStack vous permet de suspendre, arrêter ou mettre en pause votre instance. Dans chaque cas, votre IP est maintenue.
 
 > [!warning]
 > La dénomination de ces options dans votre espace client OVHcloud est différente de celle dans Openstack/Horizon. Si vous effectuez cette opération depuis votre espace client OVHcloud, veillez à sélectionner la bonne option.
@@ -26,7 +26,7 @@ updated: 2024-11-05
 > Ces manipulations entrainent toujours une facturation de l’instance tant que celle-ci n’est pas **supprimée**.
 >
 
-Le tableau ci-dessous vous permet de différencier les options disponibles sur vos instances. Poursuivez la lecture de ce guide en cliquant sur l'option de votre choix. Nous mettons entre parenthèses la terminologie utilisée dans l'interface de l'horizon.
+Le tableau ci-dessous vous permet de différencier les options disponibles sur vos instances. Poursuivez la lecture de ce guide en cliquant sur l'option de votre choix. Nous mettons entre parenthèses la terminologie utilisée dans l'interface de Horizon.
 
 |Option|Description|Facturation|
 |---|---|---|
@@ -67,9 +67,9 @@ Le snapshot sera ensuite disponible dans la rubrique `Instance Backup`{.action} 
 
 Pour utiliser cette méthode, il faut vous [connecter à l’interface Horizon](https://horizon.cloud.ovh.net/auth/login/):
 
-* Pour vous connecter avec l'authentification unique OVHcloud : utilisez le lien `Horizon`{.action} dans le menu de gauche sous "Management Interfaces" après avoir ouvert votre projet `Public Cloud`{.action} dans votre [espace client OVHcloud](/links/manager).
+- Pour vous connecter avec l'authentification unique OVHcloud : utilisez le lien `Horizon`{.action} dans le menu de gauche sous « Management Interfaces » après avoir ouvert votre projet `Public Cloud`{.action} dans votre [espace client OVHcloud](/links/manager).
 
-* Pour vous connecter avec un utilisateur OpenStack spécifique : ouvrez la page de connexion à [Horizon](https://horizon.cloud.ovh.net/auth/login/) et renseignez les [identifiants OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) préalablement créés, puis cliquez sur `Connect`{.action}.
+- Pour vous connecter avec un utilisateur OpenStack spécifique : ouvrez la page de connexion à [Horizon](https://horizon.cloud.ovh.net/auth/login/) et renseignez les [identifiants OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) préalablement créés, puis cliquez sur `Connect`{.action}.
 
 Si vous avez déployé des instances dans différentes régions, assurez-vous d’être dans la bonne région. Vous pouvez le vérifier en haut à gauche dans l’interface Horizon.
 
@@ -98,7 +98,7 @@ Une fois votre environnement prêt, saisissez ce qui suit dans la ligne de comma
 
 ```bash
 openstack server shelve <UUID server>
- 
+
 =====================================
 
 nova shelve <UUID server> 
@@ -112,7 +112,7 @@ Cette option vous permettra de réactiver votre instance pour continuer à l’u
 >
 > Toute action sur le snapshot autre que la réactivation (*unshelve*) peut être très dangereuse pour votre infrastructure en cas de mauvaise utilisation. Lorsqu’une instance est « réactivée » (*unshelved*), le snapshot est automatiquement supprimé. Il est déconseillé de déployer une nouvelle instance à partir d’un snapshot créé suite à la suspension d’une instance.
 >
-> OVHcloud met à votre disposition des services dont la responsabilité vous revient. En effet, n’ayant aucun accès à ces machines, nous n’en sommes pas les administrateurs et ne pourrons vous fournir d’assistance. Il vous appartient de ce fait d’en assurer la gestion logicielle et la sécurisation au quotidien. En cas de difficultés ou de doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner).
+> OVHcloud met à votre disposition des services dont la responsabilité vous incombe. En effet, n’ayant aucun accès à ces machines, nous n’en sommes pas les administrateurs et ne pourrons vous fournir d’assistance. Il vous appartient de ce fait d’en assurer la gestion logicielle et la sécurisation au quotidien. En cas de difficultés ou de doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner).
 >
 
 #### Depuis l’espace client OVHcloud 
@@ -237,4 +237,4 @@ Pour annuler cette action, saisissez la commande ci-dessous dans la ligne de com
 
 [Documentation OpenStack](https://docs.openstack.org/mitaka/user-guide/cli_stop_and_start_an_instance.html){.external}.
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d’utilisateurs](/links/community).

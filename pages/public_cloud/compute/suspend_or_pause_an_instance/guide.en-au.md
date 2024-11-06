@@ -26,7 +26,7 @@ As part of the configuration of a high-availability infrastructure, you may enco
 > These manipulations still result in the instance being billed as long as the instance is not deleted.
 >
 
-The table below allows you to differentiate the options available on your instances. Continue reading this guide by clicking on the option of your choice. We put the terminology used in the horizon interface in brackets.
+The table below allows you to differentiate the options available on your instances. Continue reading this guide by clicking on the option of your choice. We put the terminology used in the Horizon interface in brackets.
 
 |Term|Description|Billing|
 |---|---|---|
@@ -99,7 +99,7 @@ Once your environment is ready, type the following at the command line:
 
 ```bash
 openstack server shelve <UUID server>
- 
+
 =====================================
 
 nova shelve <UUID server> 
@@ -113,7 +113,7 @@ This option will allow you to re-up your instance so that you can continue using
 >
 > Any actions on the snapshot other than *unshelve* can be very dangerous for your infrastructure in case of misuse. Once you *unshelve* an instance, the snapshot is automatically deleted. It is not recommended to deploy a new instance from any snapshot created as a result of shelving (suspending) an instance.
 >
-> OVHcloud is providing you with machines that you are responsible for. We have no access to these machines, and therefore cannot manage them.  You are responsible for your own software and security management. If you experience any issues or doubts when it comes to managing, using or securing your server, we recommend that you contact a [specialist service provider](/links/partner).
+> OVHcloud is providing you with machines that you are responsible for. We have no access to these machines, and therefore cannot manage them. You are responsible for your own software and security management. If you experience any issues or doubts when it comes to managing, using or securing your server, we recommend that you contact a [specialist service provider](/links/partner).
 >
 
 #### From the OVHcloud Control Panel
