@@ -4,10 +4,6 @@ excerpt: "Saiba como alterar a palavra-passe de administrador do seu CMS diretam
 updated: 2024-10-15
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Perdeu o acesso à sua interface de administração WordPress, PrestaShop, Joomla! ou Drupal? Ou pretende apenas reforçar a segurança do seu website alterando a palavra-passe de administrador? Neste guia, encontrará instruções passo a passo, quer diretamente através da interface de administração do CMS ou utilizando o phpMyAdmin a partir da Área de Cliente OVHcloud.

@@ -4,11 +4,6 @@ excerpt: "Scopri i nostri consigli per riparare il tuo sito Web pirata"
 updated: 2022-11-15
 ---
 
-  
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Questa guida ti mostra come il tuo sito Web è stato piratato. Di seguito **i 4 step da effettuare nell'ordine** per correggere la situazione.

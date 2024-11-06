@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zmienić hasło administratora Twojego CMS bezpośre
 updated: 2024-10-15
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Straciłeś dostęp do interfejsu administracyjnego WordPressa, PrestaShop, Joomla! lub Drupal? A może chcesz tylko zwiększyć bezpieczeństwo Twojej strony www zmieniając hasło administratora? W tym przewodniku wyjaśniamy krok po kroku, jak to zrobić, bezpośrednio w interfejsie administracyjnym CMS lub za pomocą phpMyAdmin w Panelu klienta OVHcloud.

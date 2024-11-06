@@ -4,10 +4,6 @@ excerpt: "Descubra cómo cambiar la contraseña de administrador de un CMS direc
 updated: 2024-10-15
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 ¿Ha perdido el acceso a su panel de administración de WordPress, PrestaShop, Joomla o Drupal? ¿O simplemente quiere reforzar la seguridad de su sitio web cambiando la contraseña de administrador? Esta guía explica cómo hacerlo, ya sea directamente desde el panel de administración del CMS o utilizando phpMyAdmin desde el área de cliente de OVHcloud.

@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie das Administratorpasswort Ihres CMS über d
 updated: 2024-10-15
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Sie haben den Zugriff auf Ihr Verwaltungsinterface von WordPress, PrestaShop, Joomla! oder Drupal verloren? Oder möchten Sie einfach nur die Sicherheit Ihrer Website erhöhen, indem Sie das Administratorpasswort ändern? In dieser Anleitung erfahren Sie Schritt-für-Schritt, wie Sie direkt über das Verwaltungsinterface des CMS oder über phpMyAdmin im OVHcloud Kundencenter vorgehen.
