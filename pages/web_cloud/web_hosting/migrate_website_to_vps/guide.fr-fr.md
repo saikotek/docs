@@ -233,7 +233,7 @@ Si vous utilisez une base de données Web Cloud Databases, vérifiez que votre V
 >
 > Avant de modifier les enregistrements de votre zone DNS pour pointer vers l'adresse IP du VPS, il est recommandé de réduire le **T**ime **T**o **L**ive (**TTL**). Cela permet d'accélérer la propagation des changements, car les serveurs DNS mettront à jour les informations plus rapidement. Suivez l'étape « Le temps de propagation » de notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) » pour ajuster le TTL et configurer les enregistrements afin de faire pointer le nom de domaine vers le VPS.
 
-Pour faire pointer le nom de domaine de votre site web vers votre VPS, configurez les enregistrements DNS du nom de domaine afin qu'ils dirigent le trafic vers l'adresse IP publique de votre VPS. Pour vous guider dans cette démarche, suivez notre guide " [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
+Pour faire pointer le nom de domaine de votre site web vers votre VPS, configurez les enregistrements DNS du nom de domaine afin qu'ils dirigent le trafic vers l'adresse IP publique de votre VPS. Pour vous guider dans cette démarche, suivez notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
 
 ### Étape 7 - Vérifier le bon fonctionnement de votre site web
 
