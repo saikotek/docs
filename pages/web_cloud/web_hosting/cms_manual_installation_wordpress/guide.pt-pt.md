@@ -4,11 +4,6 @@ excerpt: "Saoba como instalar manualmente o CMS WordPress"
 updated: 2023-04-06
 ---
 
-  
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este tutorial tem como objetivo ajudá-lo a instalar manualmente o CMS (Content Management System) WordPress em apenas alguns Etapas.

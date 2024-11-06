@@ -4,10 +4,6 @@ excerpt: "Descubra cómo instalar manualmente un CMS Pico"
 updated: 2024-03-21
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 El **CMS** (**C**ontent **M**anagement **S**ystem) Pico permite crear rápidamente sitios web. Diseñado para crear y gestionar contenido fácilmente con archivos Markdown, Pico es ideal para diseñar sitios web personales, carteras o proyectos de pequeñas empresas.
