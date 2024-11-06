@@ -31,7 +31,7 @@ The first step is to back up all of your website’s files, usually via the **F*
 
 If you use WordPress, follow our guide on [Backing up your WordPress website](/pages/web_cloud/web_hosting/how_to_backup_your_wordpress) to find out how to back up your WordPress website files and database, then go to [step 2](#step2).
 
-### Step 1.1 - Log in to your web hosting plan’s FTP storage space
+#### Step 1.1 - Log in to your web hosting plan’s FTP storage space
 
 Follow the steps in our guide on "[Logging in to your web hosting plan’s FTP storage space](/pages/web_cloud/web_hosting/ftp_connection)" to log in to your Web Hosting plan’s FTP storage space.
 

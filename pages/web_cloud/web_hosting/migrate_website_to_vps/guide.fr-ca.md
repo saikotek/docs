@@ -22,18 +22,18 @@ Votre site web évolue, sa consommation de ressources devient telle que votre h�
 >
 > OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
 > 
-> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Cependant, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section [« Aller plus loin »](#go-further) de ce guide.
+> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Cependant, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section [" Aller plus loin »](#go-further) de ce guide.
 >
 
 ### Étape 1 - Sauvegarder les fichiers et la base de données de votre site web <a name="step1"></a>
 
 La première étape consiste à sauvegarder l'ensemble des fichiers de votre site web, généralement via le **F**ile **T**ransfer **P**rotocol (**FTP**), ainsi que sa base de données.
 
-Si vous utilisez WordPress, suivez notre guide « [Sauvegarder votre site WordPress](/pages/web_cloud/web_hosting/how_to_backup_your_wordpress) » pour découvrir comment sauvegarder les fichiers et la base de données de votre site web WordPress, puis passez à l'[étape 2](#step2).
+Si vous utilisez WordPress, suivez notre guide " [Sauvegarder votre site WordPress](/pages/web_cloud/web_hosting/how_to_backup_your_wordpress) » pour découvrir comment sauvegarder les fichiers et la base de données de votre site web WordPress, puis passez à l'[étape 2](#step2).
 
 #### Étape 1.1 - Se connecter à l’espace de stockage FTP de votre hébergement web
 
-Suivez les étapes de notre guide « [Se connecter à l’espace de stockage FTP de son hébergement web](/pages/web_cloud/web_hosting/ftp_connection) » pour vous connecter à l’espace de stockage FTP de votre hébergement web.
+Suivez les étapes de notre guide " [Se connecter à l’espace de stockage FTP de son hébergement web](/pages/web_cloud/web_hosting/ftp_connection) » pour vous connecter à l’espace de stockage FTP de votre hébergement web.
 
 #### Étape 1.2 - Sauvegarder les fichiers via FTP <a name="step1.2"></a>
 
@@ -82,23 +82,23 @@ Si vous utilisez un CMS et pour sauvegarder ses fichiers, choisissez la méthode
 >
 > Si vous utilisez déjà une base de données Web Cloud Database pour votre site web, vous pouvez continuer à l'utiliser sans la migrer. Votre VPS se connectera à la base de données Web Cloud Database pour gérer les données.
 
-Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes de notre guide « [Récupérer la sauvegarde de la base de données d'un hébergement web](/pages/web_cloud/web_hosting/sql_database_export) » pour sauvegarder votre base de données.
+Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes de notre guide " [Récupérer la sauvegarde de la base de données d'un hébergement web](/pages/web_cloud/web_hosting/sql_database_export) » pour sauvegarder votre base de données.
 
 ### Étape 2 - Configurer votre VPS <a name="step2"></a>
 
 > [!primary]
 >
-> Si vous n'avez pas encore de VPS, consultez la [page produit VPS OVHcloud](/links/bare-metal/vps) pour en acheter un. Assurez-vous de choisir un VPS qui correspond aux besoins de votre site web en termes de ressources (RAM, CPU, stockage, etc.) et aux spécifications techniques de votre CMS. Si vous n'êtes pas familier avec les VPS, consultez notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
+> Si vous n'avez pas encore de VPS, consultez la [page produit VPS OVHcloud](/links/bare-metal/vps) pour en acheter un. Assurez-vous de choisir un VPS qui correspond aux besoins de votre site web en termes de ressources (RAM, CPU, stockage, etc.) et aux spécifications techniques de votre CMS. Si vous n'êtes pas familier avec les VPS, consultez notre guide " [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
 
 #### Étape 2.1 - Se connecter à votre VPS
 
-Consultez la section « Se connecter à votre VPS » de notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) » pour vous connecter à votre VPS.
+Consultez la section " Se connecter à votre VPS » de notre guide " [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) » pour vous connecter à votre VPS.
 
 #### Étape 2.2 - Installer et configurer un serveur web sur votre VPS <a name="step2.2"></a>
 
 Une fois connecté à votre VPS, installez et configurez un environnement de développement web sur votre VPS. Cette étape est essentielle pour garantir que votre serveur soit prêt à accueillir votre site web une fois les fichiers et la base de données transférés.
 
-Pour installer cet environnement web, consultez notre guide « [Installer un environnement de développement web sur un VPS ou un serveur dédié](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps) ».
+Pour installer cet environnement web, consultez notre guide " [Installer un environnement de développement web sur un VPS ou un serveur dédié](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps) ».
 
 ### Étape 3 - Transférer les fichiers de votre site web via SFTP
 
@@ -106,7 +106,7 @@ Utiliser le **S**ecure **F**ile **T**ransfer **P**rotocol (**SFTP**) est la mét
 
 #### Étape 3.1 - Se connecter à votre VPS en SFTP
 
-Suivez l'étape « Lancer la connexion SFTP » de notre guide « [Utiliser FileZilla avec votre hebergement](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) » en utilisant la configuration suivante :
+Suivez l'étape " Lancer la connexion SFTP » de notre guide " [Utiliser FileZilla avec votre hebergement](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) » en utilisant la configuration suivante :
 
 - **Hôte** : utilisez l'adresse IP de votre VPS.
 - **Identifiant** et **mot de passe** : ceux de votre compte utilisateur SSH sur le VPS.
@@ -126,7 +126,7 @@ Sélectionnez les fichiers de votre site web et la base de données que vous ave
 
 Si vous souhaitez importer la base de données sur votre VPS, suivez les étapes ci-dessous.
 
-Connectez-vous au VPS en SSH en consultant la section « Se connecter à votre VPS » de notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
+Connectez-vous au VPS en SSH en consultant la section " Se connecter à votre VPS » de notre guide " [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
 
 Une fois connecté à votre VPS via une connexion en SSH, utilisez la ligne de commande ci-dessous pour réaliser l'importation de la base de données.
 
@@ -225,15 +225,15 @@ Après avoir transféré les fichiers de votre site web et, le cas échéant, im
 >>
 >> Assurez-vous que les permissions (exemple : `chmod`) des fichiers et dossiers sont configurées correctement pour éviter des erreurs d'accès. Sur un VPS, les permissions recommandées sont souvent `755` pour les dossiers et `644` pour les fichiers, mais cela peut varier selon vos besoins de sécurité.
 
-Si vous utilisez une base de données Web Cloud Databases, vérifiez que votre VPS est autorisé à s'y connecter. Pour cela, ajoutez l'adresse IP du VPS à la liste des adresses IP autorisées. Cette configuration permet de sécuriser l'accès à la base de données et d'éviter tout problème de connexion. Consultez la section « Autoriser une adresse IP » de notre guide « [Premiers pas avec le service Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb) ».
+Si vous utilisez une base de données Web Cloud Databases, vérifiez que votre VPS est autorisé à s'y connecter. Pour cela, ajoutez l'adresse IP du VPS à la liste des adresses IP autorisées. Cette configuration permet de sécuriser l'accès à la base de données et d'éviter tout problème de connexion. Consultez la section " Autoriser une adresse IP » de notre guide " [Premiers pas avec le service Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb) ».
 
 ### Étape 6 - Associer votre nom de domaine à l'adresse IP du VPS
 
 > [!primary]
 >
-> Avant de modifier les enregistrements de votre zone DNS pour pointer vers l'adresse IP du VPS, il est recommandé de réduire le **T**ime **T**o **L**ive (**TTL**). Cela permet d'accélérer la propagation des changements, car les serveurs DNS mettront à jour les informations plus rapidement. Suivez l'étape « Le temps de propagation » de notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) » pour ajuster le TTL et configurer les enregistrements afin de faire pointer le nom de domaine vers le VPS.
+> Avant de modifier les enregistrements de votre zone DNS pour pointer vers l'adresse IP du VPS, il est recommandé de réduire le **T**ime **T**o **L**ive (**TTL**). Cela permet d'accélérer la propagation des changements, car les serveurs DNS mettront à jour les informations plus rapidement. Suivez l'étape " Le temps de propagation » de notre guide " [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) » pour ajuster le TTL et configurer les enregistrements afin de faire pointer le nom de domaine vers le VPS.
 
-Pour faire pointer le nom de domaine de votre site web vers votre VPS, configurez les enregistrements DNS du nom de domaine afin qu'ils dirigent le trafic vers l'adresse IP publique de votre VPS. Pour vous guider dans cette démarche, suivez notre guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
+Pour faire pointer le nom de domaine de votre site web vers votre VPS, configurez les enregistrements DNS du nom de domaine afin qu'ils dirigent le trafic vers l'adresse IP publique de votre VPS. Pour vous guider dans cette démarche, suivez notre guide " [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
 
 ### Étape 7 - Vérifier le bon fonctionnement de votre site web
 
@@ -249,7 +249,7 @@ Après avoir migré votre site web sur votre VPS, il est crucial de sécuriser v
 - Surveiller les logs.
 - Etc.
 
-Pour une liste complète des bonnes pratiques de sécurité, consultez notre guide « [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».
+Pour une liste complète des bonnes pratiques de sécurité, consultez notre guide " [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».
 
 ## Aller plus loin <a name="go-further"></a>
 
