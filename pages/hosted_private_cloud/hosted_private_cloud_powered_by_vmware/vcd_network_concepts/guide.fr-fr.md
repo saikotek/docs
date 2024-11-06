@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Concepts réseau et bonnes pratiques"
 excerpt: "Découvrez les puissantes capacités de mise en réseau de VMware Cloud Director on OVHcloud avec ce guide complet sur les concepts et fonctionnalités clés"
-updated: 2024-10-22
+updated: 2024-11-06
 ---
 
 <style>
@@ -79,7 +79,7 @@ Il contient aussi une section `Réseau`{.action} au sein de chaque vDC dans `Cen
 
 Voici les principales fonctionnalités réseau offertes avec les offres VCD on OVHcloud.
 
-| Features                          | Standard | Advanced | Premium | Comments                                                                                                                                                                                                                        |
+| Fonctionnalités                   | Standard | Advanced | Premium | Commentaires                                                                                                                                                                                                                    |
 |-----------------------------------|----------|----------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Routage et commutation IPv4.** | ✅        | ✅        | ✅       | - Segments de réseau. <br> - Routage distribué et non distribué. <br> - Réseau routé avec ou sans NAT/BGP/DHCP/DNS/Routes statiques. <br> - Réseau vDC croisé sur le même site. <br> - **Non pris en charge** : OSPF, VRF Lite. |
 | **Public IPv4 Range.**            | ✅        | ✅        | ✅       |                                                                                                                                                                                                                                 |
@@ -270,12 +270,12 @@ Un peu moins de granularité est offerte en matière de configuration bas niveau
 
 Bien sûr, cela peut avoir un impact sur les fonctionnalités avancées en matière de réseau, même si ces fonctionnalités peuvent être incluses dans les phases futures.
 
-| Offres                                      | Standard | Advanced (NSX) | Premium (NSX+vSAN) | Comments                                                                                                                                                                                          |
+| Fonctionnalités                             | Standard | Advanced (NSX) | Premium (NSX+vSAN) | Commentaires                                                                                                                                                                                      |
 |:--------------------------------------------|:--------:|:--------------:|:------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Network cards                               |    10    |       10       |         10         | - Network card that can be added when starting a VM (per VM) in the VCD control panel                                                                                                             |
-| Numbers of Edge Gateway (per Org)           |    32    |       32       |         32         | - Number of possible Edge Gateways  (per Org limitations)                                                                                                                                         |
+| Network cards                               |    10    |       10       |         10         | - Network cards that can be added when starting a VM (per VM) in the VCD control panel                                                                                                            |
+| Numbers of Edge Gateway (per Org)           |    32    |       32       |         32         | - Number of possible Edge Gateways (per Org limitations)                                                                                                                                          |
 | External Networks                           |   none   |     8 000      |       8 000        | - External networks connecting organization VDCs to physical networks. Backed by VMware vSphere port group, VLAN, or distributed virtual switch (dvSwitch) objects or backed by NSX-T T0 routers  |
-| IP Spaces                                   | 100 000  |    100 000     |      100 000       | - The maximum number of IP Spaces.                                                                                                                                                                |
+| IP Spaces                                   | 100 000  |    100 000     |      100 000       | - The maximum number of IP Spaces                                                                                                                                                                 |
 | Public IP                                   |    2     |       2        |         2          |                                                                                                                                                                                                   |
 | Cross VDC Networking Org VDCs per VDC Group |   none   |       16       |         16         | - Org VDC networks stretched to all VDCs in the same VDC Group                                                                                                                                    |
 

@@ -1,12 +1,12 @@
 ---
 title: "VMware Cloud Director - Les concepts fondamentaux de VCD"
-excerpt: "Découvrez quelles sont les features, les limitations, ainsi que les concepts fondamentaux de VMware Cloud Director on OVHcloud"
-updated: 2024-10-07
+excerpt: "Découvrez les fonctionnalités, les limitations, ainsi que les concepts fondamentaux de VMware Cloud Director on OVHcloud"
+updated: 2024-11-06
 ---
 
 ## Objectif
 
-**L'objectif de cette page est de vous fournir une vue d'ensemble des fonctionnalités et limitations techniques des services managées par OVHcloud VMware cloud Director.**
+**L'objectif de cette page est de vous fournir une vue d'ensemble des fonctionnalités et limitations techniques des services managés par OVHcloud VMware cloud Director.**
 
 ## Les concepts fondamentaux
 
@@ -62,7 +62,7 @@ De plus, les administrateurs d'organisation ont la capacité de copier des élé
 
 Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud sur ses 3 offres de VMware Cloud Director on OVHcloud.
 
-| **Offres cibles** | **NSX** | **vSAN Storage** |
+| **Offre cible** | **NSX** | **vSAN Storage** |
 |:-----------------:|:-------:|:----------------:|
 |   `VCD Standard`    |    ❌    |        ❌         |
 |   `VCD Advanced`    |    ✅    |        ❌         |
@@ -74,7 +74,7 @@ Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud 
 > Toutes les fonctionnalités concernant le Cluster Management sont entièrement managées par OVHcloud.
 >
 
-| **Features**                          | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Comments**                                   	 |
+| **Fonctionnalité**                          | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Commentaires**                                   	 |
 |:--------------------------------------|:--------------:|:--------------:|:-------------:|:-------------------------------------------------|
 | `ESXi management / Capacity planning` |     ✅    	     |     ✅    	     |    ✅    	     | 	                                                |
 | `Hosts Failover / Proactive HA`       |     ✅    	     |     ✅    	     |    ✅    	     | 	                                                |
@@ -83,7 +83,7 @@ Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud 
 
 ### Virtual Machine Management
 
-| **Features**        	     | **Standard**	 | **Advanced** 	 | **Premium** 	 | **Comments**                                   	                                                                                     |
+| **Fonctionnalité**        	     | **Standard**	 | **Advanced** 	 | **Premium** 	 | **Commentaires**                                   	                                                                                     |
 |:--------------------------|:-------------:|:--------------:|:-------------:|:-------------------------------------------------------------------------------------------------------------------------------------|
 | `Create VM`        	        |    ✅    	     |     ✅    	     |    ✅    	     | - VM creation from ISO or OVHcloud official templates                                                                       	        |
 | `Manage Virtual Machines` 	 |    ✅    	     |     ✅    	     |    ✅    	     | - Start, Stop, Suspend, Delete, Copy/clone...                  	                                                                     |
@@ -94,7 +94,7 @@ Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud 
 
 ### Organisation / Virtual Datacenter Management
 
-| **Features**             	            | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Comments**                                                	                                               |
+| **Fonctionnalité**             	            | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Commentaires**                                                	                                               |
 |:--------------------------------------|:--------------:|:--------------:|:-------------:|:------------------------------------------------------------------------------------------------------------|
 | `User Management`           	           |     ✅    	     |     ✅    	     |    ✅    	     | - Create users in a VCD Organisation Manage roles/permissions for Organisation users           	            |
 | `Identity Provider Integration - SSO` 	 |       	        |       	        |       	       | - In Roadmap (via OVHcloud uIAM service)                                                                  	 |
@@ -102,7 +102,7 @@ Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud 
 
 ### Networking
 
-| **Features**                        	 | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Comments**                                                                                                                                                                                           	         |
+| **Fonctionnalité**                        	 | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Commentaires**                                                                                                                                                                                           	         |
 |:--------------------------------------|:--------------:|:--------------:|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `Routing & Switching IPv4`        	     |   ✅        	   |   ✅        	   |   ✅       	   | - Network segments, distributed & non distributed routing, Routed Network with/without NAT BGP/ DHCP/ DNS/ Static routes Cross virtual DC Networking on the same site. Not supported: OSPF, VRF Lite 	           |
 | `Public IPv4 Range`               	     |   ✅        	   |   ✅        	   |   ✅       	   | 	                                                                                                                                                                                                                |
@@ -114,7 +114,7 @@ Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud 
 
 ### Security
 
-| Features       	       | Standard 	 |Advanced 	 | Premium 	 | Comments  	    |
+| **Fonctionnalité**       	       | **Standard** 	 |**Advanced** 	 | **Premium** 	 | **Comments**  	    |
 |:-----------------------|:----------:|:---------:|:---------:|:---------------|
 | `Stateful Firewall`  	   |     	      |  ✅    	   |  ✅    	   | 	              |
 | `Distributed Firewall` 	 |     	      |  ✅    	   |  ✅    	   | 	              |
@@ -124,7 +124,7 @@ Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud 
 
 ### Data protection
 
-| **Features**           	                | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Comments**          	                 |
+| **Fonctionnalité**           	                | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Commentaires**          	                 |
 |:----------------------------------------|:--------------:|:--------------:|:-------------:|:----------------------------------------|
 | `Backup as a Service (Repository)`      	 |     ✅    	     |     ✅    	     |    ✅    	     | - Veeam Managed Backup Option (100To) 	 |
 | `Virtual Machine Snapshots`  	            |     ✅    	     |     ✅    	     |    ✅    	     | - 1 per VM          	                   |
@@ -132,20 +132,20 @@ Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud 
 
 ### Storage
 
-| **Features**             	            | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Comments** 	 |
+| **Fonctionnalité**             	            | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Commentaires** 	 |
 |:--------------------------------------|:--------------:|:--------------:|:-------------:|:---------------|
 | `NFS datastore`           	           |     ✅    	     |     ✅    	     |    ✅    	     | 	              |
 | `High performance datastore (vSAN)` 	 |       	        |       	        |    ✅    	     | 	              |
 
 ### Monitoring
 
-| **Features**    	   | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Comments**                     	                    |
+| **Fonctionnalité**    	   | **Standard** 	 | **Advanced** 	 | **Premium** 	 | **Commentaires**                     	                    |
 |:--------------------|:--------------:|:--------------:|:-------------:|:------------------------------------------------------|
 | `Aria operations` 	 |     ✅    	     |     ✅    	     |    ✅    	     | - Resource management Metrics, Dashboard, Reporting 	 |
 
 ## Les limitations
 
-| **Options / Offres**                | **Standard** | **Advanced**  |    **Premium**    | **Comments**                                                                                                                                                       |
+| **Options / Offres**                | **Standard** | **Advanced**  |    **Premium**    | **Commentaires**                                                                                                                                                       |
 |:------------------------------------|:------------:|:-------------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `vCPU` (per VM)                     |      12      |      12       |        12         | - Number of available vCPU (per VM).                                                                                                                               |
 | `RAM` (per VM)                      |     128      |      128      |        128        | - Maximum possible amount of RAM (per VM, min 0.5 Go).                                                                                                             |
@@ -166,7 +166,7 @@ Retrouvez ci-dessous une comparaison des fonctionnalités fournies par OVHcloud 
 
 ## Aller plus loin
 
-Pour avoir plus d'informations sur les limites de VMware cloud Director on OVHcloud, consultez l'outil VMware : [VMware Cloud Director Configuration Limits](https://configmax.esp.vmware.com/)
+Pour plus d'informations sur les limites de VMware cloud Director on OVHcloud, consultez l'outil VMware : [VMware Cloud Director Configuration Limits](https://configmax.esp.vmware.com/)
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 

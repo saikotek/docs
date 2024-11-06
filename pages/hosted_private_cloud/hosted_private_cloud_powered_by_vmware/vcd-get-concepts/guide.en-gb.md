@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - VCD Fundamentals"
 excerpt: "Discover the features, limitations and fundamental concepts of VMware Cloud Director on OVHcloud"
-updated: 2024-10-07
+updated: 2024-11-06
 ---
 
 ## Objective
@@ -12,7 +12,7 @@ updated: 2024-10-07
 
 In this section, we will establish the essential foundation of VMware Cloud Director (VCD) on OVHcloud.
 
-By defining these principles in a clear and concise way, we will provide the necessary foundation for effective and successful use of VMware Cloud Director. Whether it's for administrators looking to deploy complex infrastructure, or users looking to access resources quickly. This exploration of basic VCD concepts is a key starting point.
+By defining these principles in a clear and concise way, we will provide the necessary foundation for effective and successful use of VMware Cloud Director. Whether it's for administrators looking to deploy a complex infrastructure, or users looking to access resources quickly. This exploration of basic VCD concepts is a key starting point.
 
 ### Organizations
 
@@ -24,7 +24,7 @@ System administrators are responsible for creating and provisioning organization
 
 ### Users and groups
 
-An organization can have a variable number of users and groups. Users can be created directly by the organization administrator or imported from a directory service (for example, Active Directory).
+An organization can have a variable number of users and groups. Users can be created directly by the organization administrator or imported from a directory service (e.g. Active Directory).
 
 Groups must be imported from the directory service. Within an organization, permissions are managed by assigning specific rights and roles to users and groups.
 
@@ -60,7 +60,7 @@ In addition, organization administrators have the ability to copy items from pub
 
 ## Features
 
-Below is a comparison of the features provided by OVHcloud on its 3 VMware Cloud Director on OVHcloud offerings.
+Below is a comparison of the features provided by OVHcloud on its 3 VMware Cloud Director on OVHcloud offers.
 
 | **Target Offers** | **NSX** | **vSAN Storage** |
 |:-----------------:|:-------:|:----------------:|
@@ -98,7 +98,7 @@ Below is a comparison of the features provided by OVHcloud on its 3 VMware Cloud
 |:--------------------------------------|:--------------:|:--------------:|:-------------:|:------------------------------------------------------------------------------------------------------------|
 | `User Management`           	           |     ✅    	     |     ✅    	     |    ✅    	     | - Create users in a VCD Organisation Manage roles/permissions for Organisation users           	            |
 | `Identity Provider Integration - SSO` 	 |       	        |       	        |       	       | - In Roadmap (via OVHcloud uIAM service)                                                                  	 |
-| `vCPU over-allocation`                	 |     ✅    	     |     ✅    	     |    ✅    	     | - Allow users to adjust the quantity of vCPU/GHz for a virtual DC Possible through **OVH manager or API** 	 |
+| `vCPU over-allocation`                	 |     ✅    	     |     ✅    	     |    ✅    	     | - Allow users to adjust the quantity of vCPU/GHz for a virtual DC Possible through **OVHcloud Control Panel or API** 	 |
 
 ### Networking
 
@@ -152,7 +152,7 @@ Below is a comparison of the features provided by OVHcloud on its 3 VMware Cloud
 | `Network Card` (per VM)             |      5       |     	10	      |        10         | - Network card limit available (per VM) for VCD on OVHcloud.                                                                                                       |
 | `Edge Gateway`                      |    	32 	     |     32 	      |        32	        | - Number of Edge Gateways (per Org limitations).                                                                                                                   |
 | `Public IP` (per vDC)               |      2       |       2       |         2         | - Available public IP for vDC organization.                                                                                                                        |
-| `Storage`                           |     1.5      |      1.5      |        1.5        | - Storage size limitation in To (per VM on NFS/vSAN).                                                                                                              |
+| `Storage`                           |     1.5      |      1.5      |        1.5        | - Storage size limitation in TB (per VM on NFS/vSAN).                                                                                                              |
 | `Snapshot usage`	                   |      3	      |      3	       |        3	         | - The snapshot job limit (per VM) can be increased or limited if needed (for cost purposes).                                                                       |
 | `VMs` (per vApp)                    |     128	     |     128	      |        128        | - Virtual machines numbers authorized per vApp (per vApp).	                                                                                                        |
 | `VMs` (per org)                     |    	2000	    |     4000	     |       4000	       | - Number of VMs possible (per Org limitations).                                                                                                                    |
