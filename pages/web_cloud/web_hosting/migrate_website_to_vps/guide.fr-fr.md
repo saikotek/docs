@@ -88,7 +88,7 @@ Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes d
 
 > [!primary]
 >
-> Si vous n'avez pas encore de VPS, consultez la [page produit VPS OVHcloud](/links/bare-metal/vps) pour en acheter un. Assurez-vous de choisir un VPS qui correspond aux besoins de votre site web en termes de ressources (RAM, CPU, stockage, etc.) et aux spécifications techniques de votre CMS. Si vous n'êtes pas familier avec les VPS, consultez notre guide " [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
+> Si vous n'avez pas encore de VPS, consultez la [page produit VPS OVHcloud](/links/bare-metal/vps) pour en acheter un. Assurez-vous de choisir un VPS qui correspond aux besoins de votre site web en termes de ressources (RAM, CPU, stockage, etc.) et aux spécifications techniques de votre CMS. Si vous n'êtes pas familier avec les VPS, consultez notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) ».
 
 #### Étape 2.1 - Se connecter à votre VPS
 
