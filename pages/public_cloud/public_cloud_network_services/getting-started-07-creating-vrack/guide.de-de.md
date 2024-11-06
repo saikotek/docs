@@ -31,9 +31,9 @@ Je nach Ihrem technischen Profil und Ihren Bedürfnissen müssen Sie entscheiden
 
 ### OVHcloud Kundencenter
 
-Das [OVHcloud Kundencenter](/links/manager) ist ein ausschließlich visuelles Interface, ideal für die Verwaltung mehrerer VLANs. Sie haben auch die Möglichkeit, den privaten IP-Bereich anzupassen, der standardmäßig 10.x.x.x/16 beträgt.
+Das [OVHcloud Kundencenter](/links/manager) ist ein ausschließlich visuelles Interface, ideal für die Verwaltung mehrerer VLANs. Sie haben auch die Möglichkeit, den privaten IP-Bereich anzupassen, vorkonfiguriert als 10.x.x.x/16.
 
-Die VLANs werden in der ausgewählten Region eingesetzt. Außerdem haben Sie die Möglichkeit, Gateways zu aktivieren oder zu deaktivieren, DHCP-Verteilungen zu aktivieren etc.
+Die VLANs werden in der ausgewählten Region eingesetzt. Außerdem haben Sie die Möglichkeit, Gateways zu aktivieren oder zu deaktivieren, DHCP-Verteilungen zu aktivieren, etc.
 
 Sie können auch die Abrechnung Ihrer Dienste über Ihr OVHcloud Kundencenter verwalten.
 
@@ -106,7 +106,7 @@ Dazu müssen Sie den richtigen Terraform-Anbieter und die richtige Terraform-Res
 #### Über das OVHcloud Kundencenter
 
 > [!primary]
-> Dies gilt nicht für neu erstellte Projekte, die nun automatisch mit einem vRack ausgeliefert werden. Um das vRack anzuzeigen, nachdem das Projekt erstellt wurde, gehen Sie zum Menü `Bare Metal Cloud`{.action} und klicken Sie auf `Network`{.action} auf der linken Registerkarte. Klicken Sie auf `Privates vRack Netzwerk`{.action}, um das/die vRack(s) zu sehen.
+> Dies gilt nicht für neu erstellte Projekte, da die automatisch mit einem vRack ausgeliefert werden. Um das vRack anzuzeigen, nachdem das Projekt erstellt wurde, gehen Sie in das Menü `Bare Metal Cloud`{.action} und klicken Sie auf `Network`{.action}. Klicken Sie auf `Privates Netzwerk vRack`{.action}, um alle vRacks anzuzeigen.
 >
 Wenn Sie ein älteres Projekt haben und kein vRack besitzen, müssen Sie eines bestellen. Dieses Produkt ist kostenlos und die Bereitstellung dauert nur wenige Minuten.
 
@@ -116,7 +116,7 @@ Gehen Sie in das Menü `Bare Metal Cloud`{.action} und klicken Sie auf die Schal
 
 Sie werden auf eine andere Seite weitergeleitet, um die Bestellung zu bestätigen. Dieser Vorgang dauert einige Minuten.
 
-Sobald der Dienst aktiv ist, finden Sie ihn in Ihrem Kundencenter im Bereich `Bare Metal Cloud`{.action} > `Network`{.action} > `Privates vRack Netzwerk`{.action}. Unter der Bezeichnung "pn-xxxxxx".
+Sobald der Dienst aktiv ist, finden Sie ihn in Ihrem Kundencenter im Bereich `Bare Metal Cloud`{.action} > `Network`{.action} > `Privates vRack Netzwerk`{.action} unter der Bezeichnung "pn-xxxxxx".
 
 Wählen Sie in der Liste der wählbaren Dienste das Projekt aus, das Sie dem vRack hinzufügen möchten, und klicken Sie auf `Hinzufügen`{.action}.
 
@@ -132,7 +132,7 @@ Um ein vRack mit der OVHcloud APIv6 zu aktivieren und zu verwalten, lesen Sie [d
 
 Es ist notwendig, ein virtuelles lokales Netzwerk (VLAN) zu erstellen, damit die mit dem vRack verbundenen Instanzen untereinander kommunizieren können.
 
-Für Public Cloud können Sie bis zu 4000 VLANs innerhalb eines einzigen vRack erstellen. Das bedeutet, dass Sie jede private IP-Adresse bis zu 4000 mal verwenden können.
+Für Public Cloud können Sie bis zu 4000 VLANs innerhalb eines einzigen vRack erstellen. Das bedeutet, dass Sie jede private IP-Adresse bis zu 4000 mal verwenden können.  
 So kann beispielsweise die IP 192.168.0.10 des VLAN 2 von der IP 192.168.0.10 des VLAN 42 unterschieden werden.
 
 Dies ist nützlich, um Ihr vRack in mehrere virtuelle Netzwerke aufzuteilen.
@@ -142,7 +142,7 @@ Im OVHcloud Kundencenter können Sie das VLAN Ihrer Wahl zuweisen und den Bereic
 > [!primary]
 > Standardmäßig wird VLAN 0 verwendet. Die Funktionsweise der OpenStack-Infrastruktur macht es notwendig, die ID Ihres VLAN direkt auf Infrastrukturebene anzugeben.
 >
-> Im Gegensatz zu Dedicated Servern ist es nicht notwendig, das VLAN direkt auf einer Public Cloud Instanz zu "taggen". 
+> Im Gegensatz zu Dedicated Servern ist es nicht notwendig, das VLAN direkt auf einer Public Cloud Instanz zu taggen. 
 >
 > Weitere Informationen zur Verwaltung der vRack VLANs für Dedicated Server finden Sie in dieser Anleitung: "[Mehrere VLANs im vRack erstellen](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack)".
 
@@ -162,7 +162,7 @@ Klicken Sie im Tab Public Cloud im linken Menü unter **Network** auf `Private N
 
 Klicken Sie nun auf `Privates Netzwerk erstellen`{.action}. Auf der nächsten Seite können Sie mehrere Einstellungen anpassen.
 
-Wählen Sie in Schritt 1 die Regionen aus, in der Sie das private Netzwerk einrichten möchten.
+Wählen Sie in Schritt 1 die Regionen aus, in denen Sie das private Netzwerk einrichten möchten.
 
 ![select region](images/vrack5-2024.png){.thumbnail}
 
@@ -191,7 +191,7 @@ Wenn in diesem VLAN mit OVHcloud Dedicated Servern kommuniziert werden soll, les
 
 **Verteilungsoptionen für DHCP-Adressen**
 
-Der Standard-DHCP-Bereich ist 10.0.0.0/16. Sie können einen anderen privaten Bereich Ihrer Wahl verwenden.
+Der DHCP-Bereich ist auf 10.0.0.0/16 voreingestellt. Sie können einen anderen privaten Bereich Ihrer Wahl verwenden.
 
 Wenn Sie Ihre Wahl getroffen haben, klicken Sie auf `Erstellen`{.action}, um den Prozess zu starten.
 
