@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Découvrez comment utiliser l'interface utilisateur de VCD"
 excerpt: "Découvrez l'interface utilisateur de VMware Cloud Director"
-updated: 2024-05-23
+updated: 2024-11-06
 ---
 
 ## Objectif
@@ -95,6 +95,11 @@ Voici les 3 éléments principaux de la section Application, vous pouvez aussi v
 ![Applications Overview animé](images/vcd_overview_application.gif){.thumbnail}
 
 ### Réseau
+
+> [!primary]
+>
+> Consultez le guide suivant pour connaitre les limitations réseau au sein de VCD : [VMware Cloud Director - Concepts réseau et bonnes pratiques](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd_network_concepts).
+>
 
 La mise en réseau de VMware Cloud Director permet au fournisseur et au client de l'organisation de créer et de consommer des ressources de mise en réseau à partir d'un environnement vSphere ou NSX.
 Par conséquent, les clients peuvent créer des segments réseaux et configurer des services finement avec ou sans DHCP, effectuer du pare-feu NAT mais aussi utiliser les intégrations de load-balancing par exemple.
@@ -201,6 +206,6 @@ Consultez ici toutes les actions récentes effectuées au sein de votre organisa
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.

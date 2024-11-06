@@ -20,7 +20,7 @@ This guide details how to create your first virtual machine using two methods:
 
 ### Creating a virtual machine
 
-> [!warning]
+> [!primary]
 >
 > You can refer to the following guide to learn about VCD limitations: [VMware Cloud Director - VCD fundamentals](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-get-concepts).
 >

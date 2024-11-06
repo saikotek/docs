@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Creating a new virtual machine (EN)"
 excerpt: "How to create a new Virtual Machine in VCD"
-updated: 2024-05-23
+updated: 2024-11-06
 ---
 
 ## Objective
@@ -19,6 +19,11 @@ This guide details how to create your first virtual machine using two methods:
 ## Instructions
 
 ### Creating a virtual machine
+
+> [!primary]
+>
+> You can refer to the following guide to learn about VCD limitations: [VMware Cloud Director - VCD fundamentals](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-get-concepts).
+>
 
 To create your virtual machine, first go to the datacentre where you plan to deploy it. Next, navigate to the `Compute`{.action} > `Virtual Machine`{.action} > `NEW VM`{.action} section.
 
@@ -80,6 +85,6 @@ If you have used the **From scratch** method, you just need to turn on your serv
 
 ## Go further
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/es-es/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 Join our community of users on <https://community.ovh.com/en/>.

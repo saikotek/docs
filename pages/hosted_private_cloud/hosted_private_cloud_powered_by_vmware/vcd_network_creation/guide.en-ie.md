@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Creating network components from the VCD control panel"
 excerpt: "Find out how to easily create network components within the VCD on OVHcloud control panel"
-updated: 2024-09-17
+updated: 2024-11-06
 ---
 
 <style>
@@ -19,9 +19,9 @@ details[open]>summary::before {
 </style>
 
 > [!primary]
->
+> 
 > VCD on OVHcloud is currently in Alpha phase. This guide can evolve and be updated in the future with the advances of our teams in charge of this product.
->
+> 
 
 ## Objective
 
@@ -30,7 +30,7 @@ details[open]>summary::before {
 ## Requirements
 
 > [!primary]
->
+> 
 > If you are unsure how to log in to your organization's web portal, first refer to the guide: [How to log in to VCD](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-logging).
 >
 
@@ -56,7 +56,7 @@ Before creating a network, the main concept to understand with VMware Cloud Dire
 ### Step 1: Create the IP space (recommended)
 
 > [!primary]
->
+> 
 > You can use a new method of managing your IP space in VMware Cloud Director with the new IP space management subsystem.
 >
 
@@ -127,7 +127,7 @@ Next, we will move on to the VCD section `VCD`{.action} > `Network`{.action} > `
 ### Step 2 - Create a datacentre group (optional)
 
 > [!primary]
->
+> 
 > You can use a new method of managing your IP space in VMware Cloud Director with the new IP space management subsystem.
 >
 
@@ -235,6 +235,11 @@ Finally, (step 5: Create an Edge Gateway) click on `FINISH`{.action}.
 
 /// details | How do I create a network with VMware Cloud Director on OVHcloud?
 
+> [!primary]
+>
+> You can refer to the following guide to find out about network limitations within VCD: [VMware Cloud Director - Network concepts and best practices](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd_network_concepts).
+>
+
 We will now create a new network and attach our preconfigured settings.
 
 Go to the Networking section by clicking `Networking`{.action} > `Networks`{.action}.
@@ -272,7 +277,7 @@ The **"routed"** allows incoming traffic, while the **"isolated"** forbids it.
 For a routed network, if your `VDC-FR/US/CA-GRA-XXX-XXX` vDC does not have an Edge Gateway available, you will get this error:
 
 > [!warning]
->
+> 
 > The vDC “vDC-FR-GRA-XXXX-Corp” has no Edge Gateway available.
 >
 
@@ -303,7 +308,7 @@ If it has been created, it will automatically appear in the list (see next scree
 **Dual-Stack Mode**: Enables the network to have one IPv4 subnet and one IPv6 subnet.
 
 > [!warning]
->
+> 
 > You cannot undo the activation of dual stack networking mode.
 >
 

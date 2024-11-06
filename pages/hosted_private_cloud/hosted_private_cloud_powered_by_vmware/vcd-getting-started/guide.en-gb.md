@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - How to use the VCD user interface"
 excerpt: "Discover the VCD user interface"
-updated: 2024-10-08
+updated: 2024-11-06
 ---
 
 ## Objective
