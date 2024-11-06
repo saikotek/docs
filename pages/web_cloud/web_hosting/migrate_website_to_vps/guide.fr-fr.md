@@ -249,7 +249,7 @@ Après avoir migré votre site web sur votre VPS, il est crucial de sécuriser v
 - Surveiller les logs.
 - Etc.
 
-Pour une liste complète des bonnes pratiques de sécurité, consultez notre guide " [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».
+Pour une liste complète des bonnes pratiques de sécurité, consultez notre guide « [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».
 
 ## Aller plus loin <a name="go-further"></a>
 
