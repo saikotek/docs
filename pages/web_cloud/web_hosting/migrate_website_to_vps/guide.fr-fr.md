@@ -92,7 +92,7 @@ Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes d
 
 #### Étape 2.1 - Se connecter à votre VPS
 
-Consultez la section " Se connecter à votre VPS » de notre guide " [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) » pour vous connecter à votre VPS.
+Consultez la section « Se connecter à votre VPS » de notre guide « [Premiers pas avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) » pour vous connecter à votre VPS.
 
 #### Étape 2.2 - Installer et configurer un serveur web sur votre VPS <a name="step2.2"></a>
 
