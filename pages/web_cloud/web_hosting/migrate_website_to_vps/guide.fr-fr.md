@@ -106,7 +106,7 @@ Utiliser le **S**ecure **F**ile **T**ransfer **P**rotocol (**SFTP**) est la mét
 
 #### Étape 3.1 - Se connecter à votre VPS en SFTP
 
-Suivez l'étape " Lancer la connexion SFTP » de notre guide " [Utiliser FileZilla avec votre hebergement](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) » en utilisant la configuration suivante :
+Suivez l'étape « Lancer la connexion SFTP » de notre guide « [Utiliser FileZilla avec votre hebergement](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) » en utilisant la configuration suivante :
 
 - **Hôte** : utilisez l'adresse IP de votre VPS.
 - **Identifiant** et **mot de passe** : ceux de votre compte utilisateur SSH sur le VPS.
