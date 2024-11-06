@@ -82,7 +82,7 @@ Si vous utilisez un CMS et pour sauvegarder ses fichiers, choisissez la méthode
 >
 > Si vous utilisez déjà une base de données Web Cloud Database pour votre site web, vous pouvez continuer à l'utiliser sans la migrer. Votre VPS se connectera à la base de données Web Cloud Database pour gérer les données.
 
-Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes de notre guide " [Récupérer la sauvegarde de la base de données d'un hébergement web](/pages/web_cloud/web_hosting/sql_database_export) » pour sauvegarder votre base de données.
+Si vous envisagez de migrer la base de données sur le VPS, suivez les étapes de notre guide « [Récupérer la sauvegarde de la base de données d'un hébergement web](/pages/web_cloud/web_hosting/sql_database_export) » pour sauvegarder votre base de données.
 
 ### Étape 2 - Configurer votre VPS <a name="step2"></a>
 
