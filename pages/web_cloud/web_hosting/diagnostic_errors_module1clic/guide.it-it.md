@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come diagnostica i casi più comuni di errore a
 updated: 2024-03-12
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 I "[moduli in 1 click](/pages/web_cloud/web_hosting/cms_install_1_click_modules)" permettono di creare rapidamente un sito Web. Questa tecnologia permette di creare il tuo sito Web utilizzando i **C**ontent **M**anagement **S**ystem (**CMS**) più conosciuti, come *Wordpress*, *Joomla!*, *Drupal* o *PrestaShop*.

@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak za pomocą 1 kliknięcia zdiagnozować najczęstsze 
 updated: 2024-03-12
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Moduły "[moduły za 1 kliknięciem](/pages/web_cloud/web_hosting/cms_install_1_click_modules)" umożliwiają szybkie utworzenie strony WWW. Technologia ta pozwala na stworzenie strony internetowej przy użyciu najbardziej znanych **C**ontent **M**anagement **S**ystem (**CMS**), takich jak *Wordpress*, *Joomla!*, *Drupal* lub *PrestaShop*.
