@@ -6,7 +6,7 @@ updated: 2024-10-24
 
 ## Objectif
 
-Le [vRack](/links/network/vrack/) OVHcloud est un réseau privé qui vous permet de configurer l'adressage entre deux ou plusieurs [Serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud. Mais il vous permet également d'ajouter des [instances Public Cloud](https://www.ovh.com/ca/fr/public-cloud/instances/) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
+Le [vRack](/links/network/vrack) OVHcloud est un réseau privé qui vous permet de configurer l'adressage entre deux ou plusieurs [Serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud. Mais il vous permet également d'ajouter des [instances Public Cloud](https://www.ovh.com/ca/fr/public-cloud/instances/) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
 
 **Ce guide vous montre comment configurer le réseau privé entre une [instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) et un [Serveur dédié](/links/bare-metal/bare-metal).**
 
