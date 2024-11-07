@@ -47,7 +47,7 @@ Deux situations peuvent se présenter à vous :
 
 #### Cas d’une nouvelle instance
 
-Si vous avez besoin d’aide, consultez le guide [Créer une instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps#create-instance). Lors de la création d’une instance, vous pourrez spécifier, durant l’étape 5, un réseau privé dans lequel intégrer votre instance.
+Si vous avez besoin d’aide, consultez le guide [Créer une instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps). Lors de la création d’une instance, vous pourrez spécifier, durant l’étape 5, un réseau privé dans lequel intégrer votre instance.
 
 #### Cas d’une instance déjà existante
 
