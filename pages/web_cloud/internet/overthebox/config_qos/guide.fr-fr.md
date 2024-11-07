@@ -1,7 +1,7 @@
 ---
-title: 'Comment configurer la qualité de service (QoS) sur OverTheBox?'
+title: 'Comment configurer la qualité de service (QoS) sur OverTheBox ?'
 excerpt: "Découvrez comment configurer la qualité de service (QoS) sur votre OverTheBox afin d'améliorer la gestion de votre bande passante"
-updated: 2024-10-30
+updated: 2024-11-07
 ---
 
 ## Objectif
@@ -17,9 +17,9 @@ Découvrez comment modifier la QoS sur votre équipement OverTheBox, afin de pri
 
 ### Configurer la QoS manuellement
 
-> [!warn]
+> [!warning]
 >
-> Cette section ne fonctionne que sur les versions v0.9 et antérieures. Ce système a été remplacé par **SQM** à partir de la version v1.0.
+> Cette configuration manuelle ne fonctionne que sur les versions v0.9 et antérieures. Ce système a été remplacé par **SQM** à partir de la version v1.0.
 >
 
 Certaines règles sont déjà présentes par défaut, permettant notamment de prioriser les services de VoIP proposés par OVHcloud.
@@ -108,14 +108,14 @@ Dans notre exemple, nous souhaitons que le débit montant de notre serveur NAS s
 > [!primary]
 >
 > Il est possible que cette configuration ne soit pas prise en compte immédiatement.
-> Si c'est le cas, veuillez procéder à un redémarrage électrique de l'OverTheBox ou déconnecter/reconnecter du réseau l'appareil concerné par la règle.
+> Si c'est le cas, veuillez procéder à un redémarrage électrique de l'OverTheBox ou déconnectez/reconnectez du réseau l'appareil concerné par la règle.
 >
 
 ### Configurer la QoS à l'aide de SQM
 
-> [!warn]
+> [!warning]
 >
-> Cette section ne fonctionne qu'à partir de la version v1.0. **SQM** est disponible en version v0.9 mais ne peut être configuré que sur une interface.
+> Cette configuration ne fonctionne qu'à partir de la version v1.0. **SQM** est disponible en version v0.9 mais ne peut être configuré que sur une interface.
 >
 
 _Smart Queue Management_ (SQM) est un système de QoS unifié qui applique différents algorithmes pour améliorer la qualité de votre connexion internet. Ce système met en place automatiquement des politiques de planification réseau par flux et par paquet, de management de queue actif (AQM), de mise en forme du trafic (traffic shaping), de limite de débits (rate limiting) ou encore de priorisation.
@@ -126,23 +126,27 @@ De ce fait, il n'y a plus besoin de spécifier la QoS manuellement pour chaque f
 Votre **OverTheBox** contient un service qui s'appelle `otb-auto-sqm`{.action} qui est capable de lancer des tâches en arrière-plan afin de configurer automatiquement SQM sur toutes les interfaces WAN disponibles.
 
 - Connectez-vous en **SSH** sur l'**OverTheBox** :
+
 ```bash
 ssh root@192.168.100.1
 ```
+
 - Lancez l'outil de configuration automatique :
+
 ```bash
 otb-action-autoqos
 ```
+
 #### Configuration manuelle
 
-L'outil de configuration automatique applique une configuration générale en fonction du débit de vos interfaces, il est possible que cette configuration ne soit pas optimale. Vous pouvez configurer manuellement SQM pour l'optimiser pour votre connexion.
+L'outil de configuration automatique applique une configuration générale en fonction du débit de vos interfaces. Il est possible que cette configuration ne soit pas optimale. Vous pouvez configurer manuellement SQM pour l'optimiser pour votre connexion.
 
 #### Étape 1 : préparation
 
 > [!primary]
 >
-> Le débit descendant est la bande passante de l'Internet vers votre réseau local, c'est-à-dire votre débit de réception.
-> Le débit montant est la bande passante de votre réseau vers l'Internet, c'est-à-dire votre débit d'émission.
+> - Le débit descendant est la bande passante de l'Internet vers votre réseau local, c'est-à-dire votre débit de réception.
+> - Le débit montant est la bande passante de votre réseau vers l'Internet, c'est-à-dire votre débit d'émission.
 >
 
 Avant de configurer la  **QoS**, il est conseillé de connaître le débit maximum **montant et descendant** de chaque connexion utilisée par votre **OverTheBox**. Pour cela, vous pouvez utiliser l'outil [perf.overthebox.net](https://perf.overthebox.net/){.external} afin de déterminer les débits maximum de chacune de vos connexions.
@@ -151,11 +155,11 @@ Avant de configurer la  **QoS**, il est conseillé de connaître le débit maxim
 
 - FTTH: Débit descendant : 1000 Mbps / Débit montant : 600 Mbps (nous ne configurons pas SQM sur ce lien, car supérieur à 300Mbps)
 - VDSL: Débit descendant : 25 Mbps / Débit montant : 3 Mbps
-- lte: Débit descendant : 10 Mbps / Débit montant :  10 Mbps
+- LTE: Débit descendant : 10 Mbps / Débit montant :  10 Mbps
 
-> [!warn]
+> [!warning]
 >
-> SQM est gourmands en ressources processeur, il n'est pas recommandé de l'activer sur des liens avec des débits supérieurs à 300Mbps, par exemple sur une connexion fibre.
+> SQM est gourmand en ressources processeur, il n'est pas recommandé de l'activer sur des liens avec des débits supérieurs à 300Mbps, par exemple sur une connexion fibre.
 >
 
 #### Étape 2 : configuration
@@ -180,7 +184,7 @@ Une fois vos débits maximum connus, il est nécessaire de configurer **SQM**. C
 
 ### Les différentes classes de trafic
 
-> [!warn]
+> [!warning]
 >
 > Cette section concerne la page `OverTheBox > QoS Settings`{.action} disponible uniquement sur les versions v0.9 et antérieures.
 >
