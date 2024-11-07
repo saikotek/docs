@@ -4,10 +4,6 @@ excerpt: Scopri come modificare la password di un database creata nell'ambito di
 updated: 2022-01-26
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La maggior parte dei siti Web utilizza un **database** per archiviare articoli, commenti e indirizzi email dei propri utenti.

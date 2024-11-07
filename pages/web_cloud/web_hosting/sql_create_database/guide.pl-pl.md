@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak utworzyć bazę danych na hostingu OVHcloud"
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Baza danych (bazy danych) służy do przechowywania elementów dynamicznych (danych logowania, danych użytkowników, danych wyświetlanych, danych niezbędnych do prawidłowego działania Twojej strony WWW, etc.). Bazy danych są wykorzystywane w większości nowoczesnych systemów zarządzania treścią (CMS), takich jak *WordPress*, *Joomla!*, *Drupal* lub *PrestaShop*.

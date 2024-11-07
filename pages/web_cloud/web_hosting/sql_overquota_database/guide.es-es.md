@@ -4,10 +4,6 @@ excerpt: "Descubra cómo actuar cuando la base de datos está saturada"
 updated: 2023-12-13
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Una base de datos permite, por ejemplo, almacenar información relativa a su sitio web y a su funcionamiento. Estos datos están organizados para que su sitio web acceda fácilmente a ellos, lo que permite una consulta óptima y personalizada para los usuarios/visitantes de su sitio web. 

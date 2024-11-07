@@ -4,10 +4,6 @@ excerpt: "Saiba como recuperar o backup de uma base de dados quando esta foi eli
 updated: 2024-07-25
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A maioria dos nossos serviços de [alojamento web](/links/web/hosting) incluem bases de dados. Se, acidentalmente, eliminar uma base de dados associada ao seu alojamento web, pode tentar recuperar a cópia de segurança através das nossas API.

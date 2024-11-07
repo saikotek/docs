@@ -5,6 +5,7 @@ updated: 2020-05-05
 ---
 
 ## Introduzione
+
 Su Windows è possibile installare diversi client SSH.
 Uno dei più comuni e semplici da utilizzare è Putty, disponibile sul suo [sito ufficiale](http://www.putty.org/).
 
