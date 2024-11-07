@@ -4,10 +4,6 @@ excerpt: "Cómo exportar un sitio web de OVHcloud"
 updated: 2022-02-03
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Esta guía explica los pasos que debe seguir para exportar todos los elementos de su sitio web al formato estándar desde un [alojamiento web de OVHcloud](/links/web/hosting){.external}.

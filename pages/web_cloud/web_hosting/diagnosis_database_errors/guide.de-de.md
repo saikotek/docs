@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie Fehler in Zusammenhang mit Datenbanken behe
 updated: 2024-09-26
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel 
 
 Bei der Nutzung von Datenbanken können Unregelmäßigkeiten auftreten. Fehler beim Datenbankzugriff werden entweder direkt auf Ihrer Website oder in Ihrem [OVHcloud Kundencenter](/links/manager) sowie im [phpMyAdmin Interface](/pages/web_cloud/web_hosting/sql_create_database) angezeigt.

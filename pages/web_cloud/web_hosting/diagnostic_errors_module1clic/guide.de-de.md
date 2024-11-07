@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie die häufigsten Fehler bei der Erstellung v
 updated: 2024-03-12
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Mit den OVHcloud [1-Klick-Modulen](/pages/web_cloud/web_hosting/cms_install_1_click_modules) können Sie Ihre Website schnell erstellen. Mit dieser Technologie können Sie Ihre Website mit den bekanntesten **C**ontent **M**anagement **S**ystem (**CMS**) wie *WordPress*, *Joomla!*, *Drupal* oder *PrestaShop* erstellen.

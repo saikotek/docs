@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak utworzyć pierwszą stronę internetową na Darmowy 
 updated: 2023-07-16
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Dowiedz się, jak utworzyć pierwszą stronę internetową na darmowy hosting 100M oferowanym bezpłatnie w przypadku zakupu domeny od OVHcloud.

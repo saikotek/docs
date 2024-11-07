@@ -4,10 +4,6 @@ excerpt: "Descubra cómo copiar el contenido de una base de datos de OVHcloud en
 updated: 2023-11-22
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Su base de datos es un elemento central en la construcción de su sitio web dinámico. Durante el ciclo de vida de su sitio web, puede que necesite copiar el contenido de su base de datos en otra de sus bases de datos [start SQL](/links/web/hosting-options-startsql) o [Web Cloud Databases](/links/web/databases).
