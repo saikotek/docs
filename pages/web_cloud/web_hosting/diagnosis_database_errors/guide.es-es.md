@@ -4,10 +4,6 @@ excerpt: "Diagnóstico de los errores más comunes relacionados con las bases de
 updated: 2024-09-26
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 El uso de sus bases de datos puede dar lugar a una serie de anomalías en su sitio web o su [área de cliente OVHcloud](/links/manager), así como en la interfaz [PhpMyAdmin](/pages/web_cloud/web_hosting/sql_create_database).
