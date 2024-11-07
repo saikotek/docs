@@ -1587,6 +1587,7 @@
             + [Using Zimbra webmail](web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
             + [FAQ Zimbra OVHcloud](web_cloud/email_and_collaborative_solutions/mx_plan/faq-zimbra)
             + [Configure Zimbra account on email client](web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps)
+            + [Configure Zimbra account on Zimbra app](web_cloud/email_and_collaborative_solutions/zimbra/mail_app_zimbra_for_android_ios)
     + [Internet](products/web-cloud-internet)
         + [Internet access](products/web-cloud-internet-internet-access)
             + [Getting started](web-cloud-internet-internet-access-getting-started)
