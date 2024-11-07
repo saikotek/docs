@@ -27,10 +27,6 @@ updated: 2024-05-16
  }
 </style>
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Sull'hosting Web OVHcloud è possibile utilizzare script per automatizzare alcune operazioni. La creazione di un task pianificato ("task CRON") è il modo più semplice per assicurarsi che i tuoi script si eseguano in momenti specifici senza che tu debba effettuare altre azioni. 
