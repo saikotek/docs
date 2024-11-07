@@ -6,7 +6,7 @@ updated: 2024-10-24
 
 ## Objectif
 
-Le [vRack](/links/network/vrack/) OVHcloud est un réseau privé qui vous permet de configurer l'adressage entre deux ou plusieurs [Serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud. Mais il vous permet également d'ajouter des [instances Public Cloud](https://www.ovh.com/fr/public-cloud/instances/) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
+Le [vRack](/links/network/vrack) OVHcloud est un réseau privé qui vous permet de configurer l'adressage entre deux ou plusieurs [Serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud. Mais il vous permet également d'ajouter des [instances Public Cloud](https://www.ovh.com/fr/public-cloud/instances/) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
 
 **Ce guide vous montre comment configurer le réseau privé entre une [instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) et un [Serveur dédié](/links/bare-metal/bare-metal).**
 
@@ -47,7 +47,7 @@ Deux situations peuvent se présenter à vous :
 
 #### Cas d’une nouvelle instance
 
-Si vous avez besoin d’aide, consultez le guide [Créer une instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps#create-instance). Lors de la création d’une instance, vous pourrez spécifier, durant l’étape 5, un réseau privé dans lequel intégrer votre instance.
+Si vous avez besoin d’aide, consultez le guide [Créer une instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps). Lors de la création d’une instance, vous pourrez spécifier, durant l’étape 5, un réseau privé dans lequel intégrer votre instance.
 
 #### Cas d’une instance déjà existante
 
@@ -57,9 +57,11 @@ Avec votre projet lié au vRack, vous êtes prêt à créer des réseaux privés
 
 Dans l'onglet Public cloud, cliquez sur `Private Network`{.action} dans le menu de gauche sous **Network**.
 
+Cliquez sur le bouton `Ajouter un réseau privé`{.action}. 
+
 ![create private network](images/vrack2022-03.png){.thumbnail}
 
-Cliquez sur le bouton `Ajouter un réseau privé`{.action}. La page suivante vous permet de personnaliser plusieurs paramètres.
+La page suivante vous permet de personnaliser plusieurs paramètres.
 
 À l'étape 1, sélectionnez la région dans laquelle vous souhaitez placer le réseau privé.
 

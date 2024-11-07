@@ -6,14 +6,14 @@ updated: 2024-10-24
 
 ## Objective
 
-The OVHcloud [vRack](/links/network/vrack/) allows you to configure private network addressing between two or more OVHcloud [Dedicated Servers](/links/bare-metal/bare-metal). But it also allows you to add [Public Cloud instances](https://www.ovh.com/en-sg/public-cloud/instances/) to your private network so that you can create an infrastructure of both physical and virtual resources.
+The OVHcloud [vRack](/links/network/vrack) allows you to configure private network addressing between two or more OVHcloud [Dedicated Servers](/links/bare-metal/bare-metal). But it also allows you to add [Public Cloud instances](https://www.ovhcloud.com/en-sg/public-cloud/) to your private network so that you can create an infrastructure of both physical and virtual resources.
 
 **This guide will show you how to configure private networking between a [Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps) and a [Dedicated Server](/links/bare-metal/bare-metal).**
 
 ## Requirements
 
 - An [OVHcloud Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps)
-- A [vRack](/links/network/vrack/) service activated in your account
+- A [vRack](/links/network/vrack) service activated in your account
 - A [Dedicated Server](/links/bare-metal/bare-metal) compatible with the vRack
 - Access to the [OVHcloud Control Panel](/links/manager)
 - A private IP address range of your choice
@@ -47,7 +47,7 @@ Two situations may arise:
 
 #### In case of a new instance
 
-If you need assistance, follow this guide first: [Creating your first Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps#create-instance). When creating an instance, you can choose, in Step 5, a network mode, followed by a private network to integrate your instance into.
+If you need assistance, follow this guide first: [Creating your first Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps). When creating an instance, you can choose, in Step 5, a network mode, followed by a private network to integrate your instance into.
 
 #### In case of an existing instance
 
@@ -57,9 +57,11 @@ With your project linked to the vRack, you are ready to create private networks.
 
 In the Public cloud tab, click on `Private Network`{.action} in the left-hand menu under **Network**.
 
+Click on the button `Add Private Network`{.action}.
+
 ![create private network](images/vrack2022-03.png){.thumbnail}
 
-Click on the button `Add Private Network`{.action}. The following page allows you to customise multiple settings.
+The following page allows you to customise multiple settings.
 
 In step 1, select the region in which you want the private network to be located.
 
