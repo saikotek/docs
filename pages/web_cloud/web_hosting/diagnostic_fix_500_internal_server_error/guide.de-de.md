@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, welche Maßnahmen Sie bei einem Fehlercode 500 anwe
 updated: 2023-11-22
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel 
 
 Der Fehlertyp "500 Internal Server Error" kann Ihre gesamte Website oder nur Teile davon betreffen. Er kann dauerhaft sein, sporadisch auftreten oder zu einer leeren Seite führen.
