@@ -4,11 +4,6 @@ excerpt: "Identifique a origem da lentidão do seu website e descubra como resol
 updated: 2023-10-26
 ---
 
- 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Um abrandamento no seu site resulta de um carregamento excessivamente longo para apresentar o conjunto ou certas partes do seu site. 
