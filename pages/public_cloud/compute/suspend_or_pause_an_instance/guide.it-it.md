@@ -1,6 +1,6 @@
 ---
 title: Sospendi o metti in pausa un’istanza
-updated: 2023-06-20
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -9,7 +9,7 @@ updated: 2023-06-20
 
 ## Obiettivo
 
- Durante la configurazione di un'infrastruttura ad alta disponibilità, potresti avere bisogno di interrompere l’esecuzione delle tue istanze per effettuare alcuni test. OpenStack ti permette di sospendere, arrestare o mettere in pausa le tue istanze. In ogni caso, il tuo IP viene mantenuto.
+Durante la configurazione di un'infrastruttura ad alta disponibilità, potresti avere bisogno di interrompere l’esecuzione delle tue istanze per effettuare alcuni test. OpenStack ti permette di sospendere, arrestare o mettere in pausa le tue istanze. In ogni caso, il tuo IP viene mantenuto.
 
 > [!warning]
 > Il nome di queste opzioni nello Spazio Cliente OVHcloud è diverso dal nome in OpenStack/Horizon. Se effettui questa operazione utilizzando lo Spazio Cliente OVHcloud, assicurati di selezionare l'opzione più adatta.
@@ -30,11 +30,12 @@ updated: 2023-06-20
 > Queste manipolazioni comportano sempre la fatturazione dell'istanza finché non viene **eliminata**.
 >
 
-La tabella qui sotto ti permette di differenziare le opzioni disponibili sulle tue istanze. Prosegui nella lettura di questa guida cliccando sull'opzione che preferisci.
+La tabella qui sotto ti permette di differenziare le opzioni disponibili sulle tue istanze. Prosegui nella lettura di questa guida cliccando sull'opzione che preferisci. Abbiamo messo tra parentesi la terminologia utilizzata nell'interfaccia di Horizon.
+
 
 |Termine|Descrizione|Fatturazione|
 |---|---|---|
-|[Sospendere (*shelve*)](#shelve-instance)|Conserva le risorse e i dati del tuo disco creando uno Snapshot. Tutte le altre risorse sono liberate.|Viene fatto pagare solo lo snapshot.|
+|[Sospendere (*shelve*)](#shelve-instance)|Conserva il tuo IP e le risorse e i dati del disco creando uno Snapshot. Tutte le altre risorse vengono liberate.|Viene fatturato solo lo Snapshot.|
 |[Arrestare (*suspend*)](#stop-suspend-instance)|Salvare lo stato della macchina virtuale sul disco, le risorse dedicate all'istanza sono sempre riservate.|Riceverai sempre la stessa tariffa per la tua istanza.|
 |[Pausare](#pause-instance)|Salva lo stato della macchina virtuale nella RAM, un'istanza sospesa diventa «bloccata».|Riceverai sempre la stessa tariffa per la tua istanza.|
 
@@ -70,7 +71,11 @@ Lo snapshot sarà quindi disponibile nella sezione `Instance Backup`{.action} de
 
 #### Dall'interfaccia Horizon
 
-Per continuare, devi [creare un utente per accedere a horizon](/pages/public_cloud/compute/introducing_horizon) e [connetterti all'interfaccia Horizon](https://horizon.cloud.ovh.net/auth/login/).
+Per utilizzare questo metodo, è necessario [connettersi all’interfaccia Horizon](https://horizon.cloud.ovh.net/auth/login/):
+
+- Per accedere con l’autenticazione unica OVHcloud, clicca sul link `Horizon`{.action} nel menu di sinistra sotto "Management Interfaces" dopo aver aperto il progetto `Public Cloud`{.action} nello [Spazio Cliente OVHcloud](/links/manager).
+
+- Per accedere con un utente OpenStack specifico: apri la pagina di accesso a [Horizon](https://horizon.cloud.ovh.net/auth/login/) e inserisci le [credenziali OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) precedentemente create, poi clicca su `Connect`{.action}.
 
 Se hai installato istanze in diverse regioni, assicurati di essere nella localizzazione giusta. Puoi verificarlo nell'angolo superiore sinistro dell'interfaccia Horizon.
 
@@ -113,7 +118,7 @@ Questa opzione ti permette di riattivare l'istanza per poterla utilizzare. Ti ri
 >
 > Qualsiasi azione sullo snapshot diversa dalla riattivazione (*unshelve*) può essere molto pericolosa per la tua infrastruttura in caso di uso improprio. Quando un'istanza è riattivata (*unshelved*), lo snapshot viene automaticamente eliminata. Non è consigliabile creare una nuova istanza da un snapshot creata in seguito alla Sospesa (*shelve*) di un'istanza.
 >
-> OVHcloud fornisce i servizi di cui sei responsabile. Non avendo accesso a queste macchine, non siamo noi gli amministratori e pertanto non possiamo fornirti alcuna assistenza. È responsabilità dell’utente garantire ogni giorno la gestione e la sicurezza del software. In caso di difficoltà o dubbi relativi ad amministrazione e sicurezza, ti consigliamo di contattare un fornitore specializzato. Per maggiori informazioni consulta la sezione “Per saperne di più” di questa guida. .
+> OVHcloud fornisce i servizi di cui sei responsabile. Non avendo accesso a queste macchine, non siamo noi gli amministratori e pertanto non possiamo fornirti alcuna assistenza. È responsabilità dell’utente garantire ogni giorno la gestione e la sicurezza del software. In caso di difficoltà o dubbi relativi ad amministrazione e sicurezza, ti consigliamo di contattare un [fornitore specializzato](/links/partner). Per maggiori informazioni consulta la sezione “Per saperne di più” di questa guida.
 >
 
 #### Nello Spazio Cliente OVHcloud

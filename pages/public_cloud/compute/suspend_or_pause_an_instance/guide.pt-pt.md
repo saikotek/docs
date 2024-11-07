@@ -1,6 +1,6 @@
 ---
 title: Suspender ou colocar em pausa uma instância
-updated: 2023-06-20
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -9,7 +9,7 @@ updated: 2023-06-20
 
 ## Objetivo
 
- No âmbito da configuração de uma infraestrutura de alta disponibilidade, é possível que tenha de reduzir o acesso às suas instâncias para efetuar alguns testes. OpenStack que suspenda, parar ou coloque em pausa as suas instâncias. Em cada caso, o seu endereço IP é mantido.
+No âmbito da configuração de uma infraestrutura de alta disponibilidade, é possível que tenha de reduzir o acesso às suas instâncias para efetuar alguns testes. OpenStack que suspenda, parar ou coloque em pausa as suas instâncias. Em cada caso, o seu endereço IP é mantido.
 
 > [!warning]
 > O nome destas opções na Área de Cliente OVHcloud é diferente do nome no Openstack/Horizon. Se efetuar esta operação através da Área de Cliente OVHcloud, certifique-se de que selecionou a opção adequada.
@@ -20,7 +20,7 @@ updated: 2023-06-20
 ## Requisitos
 
 - uma [instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) sobre faturação à **hora**
-- acesso à [Área de Cliente OVHcloud](/links/manager){.external} o à [interface Horizon](/pages/public_cloud/compute/introducing_horizon)
+- acesso à [Área de Cliente OVHcloud](/links/manager) o à [interface Horizon](/pages/public_cloud/compute/introducing_horizon)
 - Conhecimento da [API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) e das [variáveis OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Instruções
@@ -30,11 +30,11 @@ updated: 2023-06-20
 > Estas manipulações não interrompem a faturação da instância, ela será faturada até que a **eliminada**.
 >
 
-A tabela abaixo permite-lhe diferenciar as opções disponíveis nas suas instâncias. Consulte este manual clicando na opção que preferir.
+A tabela abaixo permite-lhe diferenciar as opções disponíveis nas suas instâncias. Consulte este manual clicando na opção que preferir. Colocámos entre parênteses a terminologia utilizada na interface Horizon.
 
 |Termo|Descrição|Faturação|
 |---|---|---|
-|[Suspender (*shelve*)](#shelve-instance)|Conserve os recursos e os dados do seu disco criando um snapshot. Todos os outros recursos são libertados.|Só é faturado por snapshot.|
+|[Suspender (*shelve*)](#shelve-instance)|Conserve o seu IP, bem como os recursos e os dados no seu disco, criando uma imagem instantânea; todos os outros recursos são libertados.|Só é faturado por snapshot.|
 |[Parar (*suspend*)](#stop-suspend-instance)|Armazena o estado da máquina virtual no disco, os recursos dedicados à instância estão sempre reservados.|Será sempre faturado ao mesmo preço para a sua instância.|
 |[Pausa](#pause-instance)|Armazena o estado da máquina virtual na memória RAM, uma instância suspensa torna se « gelada ».|Será sempre faturado ao mesmo preço para a sua instância.|
 
@@ -54,7 +54,7 @@ Na Área de Cliente OVHcloud, clique no menu da secção `Public Cloud`{.action}
 
 Clique então nas `...`{.action} à direita da instância a suspender, e clique em `Suspender`{.action}.
 
-![suspend instance](images/suspend_an_instance.png){.thumbnail}
+![suspend instance](images/suspend_an_instance_2024.png){.thumbnail}
 
 Na janela contextual, tome nota da mensagem e clique em `Confirmar`{.action}.
 
@@ -70,7 +70,11 @@ O snapshot estará então disponível na secção `Instance Backup`{.action} do 
 
 #### Da interface Horizon
 
-Para continuar, deve [criar um acesso à interface Horizon](/pages/public_cloud/compute/introducing_horizon) e se [ligar à interface Horizon](https://horizon.cloud.ovh.net/auth/login/).
+Para utilizar este método, é necessário [ligar à interface Horizon](https://horizon.cloud.ovh.net/auth/login/):
+
+- Para se ligar com a autenticação única OVHcloud: utilize o link `Horizon`{.action} no menu à esquerda, sob « Management Interfaces » depois de ter aberto o seu projeto `Public Cloud`{.action} na sua [Área de Cliente OVHcloud](/links/manager).
+
+- Para se ligar a um utilizador OpenStack específico: abra a página de ligação ao [Horizon](https://horizon.cloud.ovh.net/auth/login/) e introduza os [identificadores OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) previamente criados, depois clique em `Connect`{.action}.
 
 Se criou instâncias em regiões diferentes, certifique-se de que se encontra na região apropriada. Pode verificá-lo no canto superior esquerdo da interface Horizon.
 
@@ -113,7 +117,7 @@ Esta opção permite-lhe reativar a sua instância para que a possa continuar a 
 >
 > Qualquer ação no snapshot que não a reativação *unshelve* pode ser muito perigosa para a sua infraestrutura em em caso de mau uso. Uma vez « reactivada » (*unshelved*) uma instância, a snapshot é automaticamente eliminada. Não é recomendado criar uma nova instância a partir de uma snapshot criada após a suspensão (*shelve*) de uma instância.
 >
-> A utilização e a gestão dos serviços OVHcloud são da responsabilidade do cliente. Como não temos acesso a estas máquinas, não podemos administrá-las nem fornecer-lhe assistência. O cliente é o único responsável pela gestão e pela segurança do serviço. Se encontrar alguma dificuldade relacionada com o processo, deverá contactar um serviço especializado. Para mais informações, aceda à secção deste manual intitulada: “Quer saber mais?”. 
+> A utilização e a gestão dos serviços OVHcloud são da responsabilidade do cliente. Como não temos acesso a estas máquinas, não podemos administrá-las nem fornecer-lhe assistência. O cliente é o único responsável pela gestão e pela segurança do serviço. Se encontrar alguma dificuldade relacionada com o processo, deverá contactar um [serviço especializado](/links/partner). Para mais informações, aceda à secção deste manual intitulada: “Quer saber mais?”. 
 >
 
 #### Da Área de Cliente OVHcloud
