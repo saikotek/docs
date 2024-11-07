@@ -1,7 +1,7 @@
 ---
 title: 'vRack zwischen Public Cloud und Dedicated Server einrichten'
 excerpt: 'Erfahren Sie hier, wie Sie ein privates Netzwerk zwischen Public Cloud Instanzen und Dedicated Servern einrichten'
-updated: 2024-11-05
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -10,7 +10,7 @@ updated: 2024-11-05
 
 ## Ziel
 
-OVHcloud [vRack](/links/network/vrack/) ist ein privates Netzwerk, mit dem Sie das Routing zwischen zwei oder mehr OVHcloud [Dedicated Servern](/links/bare-metal/bare-metal) einrichten können. Darüber hinaus können Sie auch [Public Cloud Instanzen](https://www.ovh.de/public-cloud/instances/) zu Ihrem privaten Netzwerk hinzufügen, um eine Infrastruktur aus physischen und virtuellen Ressourcen zu erstellen.
+OVHcloud [vRack](/links/network/vrack) ist ein privates Netzwerk, mit dem Sie das Routing zwischen zwei oder mehr OVHcloud [Dedicated Servern](/links/bare-metal/bare-metal) einrichten können. Darüber hinaus können Sie auch [Public Cloud Instanzen](https://www.ovh.de/public-cloud/instances/) zu Ihrem privaten Netzwerk hinzufügen, um eine Infrastruktur aus physischen und virtuellen Ressourcen zu erstellen.
 
 **Diese Anleitung erklärt, wie Sie eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps) und einen [dedizierten Server](/links/bare-metal/bare-metal) über vRack verbinden.**
 
@@ -95,7 +95,7 @@ Dieser Schritt bietet mehrere Konfigurationsoptionen. Für die Zwecke dieser Anl
 >>
 >> Wenn Sie die VLAN-ID **0** nicht verwenden möchten, können Sie eine andere ID zwischen 1 und 4000 auswählen. Es gelten folgende Regeln:
 >>
->> - Das private Netzwerk, das mit der Public Cloud Instanz verbunden ist, muss mit dieser VLAN-ID „tagged“ werden.
+>> - Das private Netzwerk, das mit der Public Cloud Instanz verbunden ist, muss mit dieser VLAN-ID taggen werden.
 >> - Bei der Konfiguration des vRacks auf dem Dedicated Server muss diese VLAN-ID in der Netzwerkkonfigurationsdatei enthalten sein.
 >>
 >> [!primary]

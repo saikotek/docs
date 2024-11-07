@@ -1,7 +1,7 @@
 ---
 title: 'Configurare la vRack tra un’istanza Public Cloud e un server dedicato'
 excerpt: 'Scopri come configurare una rete privata tra un’istanza Public Cloud e un server dedicato'
-updated: 2024-11-05
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -10,24 +10,24 @@ updated: 2024-11-05
 
 ## Obiettivo
 
-La [vRack](/links/network/vrack/) OVHcloud è una rete privata che permette di configurare l'indirizzamento tra due o più [Server dedicati](/links/bare-metal/bare-metal) OVHcloud. ma permette anche di aggiungere [istanze Public Cloud](https://www.ovh.com/it/public-cloud/istanze/) alla rete privata per creare un’infrastruttura di risorse fisiche e virtuali.
+La [vRack](/links/network/vrack) OVHcloud è una rete privata che permette di configurare l'indirizzamento tra due o più [Server dedicati](/links/bare-metal/bare-metal) OVHcloud. ma permette anche di aggiungere [istanze Public Cloud](https://www.ovhcloud.com/it/public-cloud/) alla rete privata per creare un’infrastruttura di risorse fisiche e virtuali.
 
-**Questa guida ti mostra come configurare la rete privata tra un [istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) e un [Server dedicato](/links/bare-metal/bare-metal).**
+**Questa guida ti mostra come configurare una rete privata tra un’ [istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) e un [Server dedicato](/links/bare-metal/bare-metal).**
 
 ## Prerequisiti
 
-* Aver creato un’ [istanza Public Cloud OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps)
+* Aver creato un' [istanza Public Cloud OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps)
 * Aver attivato un servizio [vRack](/links/network/vrack)
 * Disporre di un [server dedicato](/links/bare-metal/bare-metal) compatibile con la vRack
 * Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
-* Gamma di indirizzi IP privati scelta
+* Una gamma di indirizzi IP privati di tua scelta
 
 > [!warning]
 > Questa funzionalità potrebbe non essere disponibile o essere limitata sui [server dedicati **Eco**](https://eco.ovhcloud.com/it/about/).
 >
 > Consulta la nostra [pagina comparativa](https://eco.ovhcloud.com/it/compare/) per maggiori informazioni.
 
-## In pratica
+## Procedura
 
 ### Aggiungere un progetto Public Cloud alla vRack
 

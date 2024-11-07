@@ -1,7 +1,7 @@
 ---
 title: 'Configurar el vRack entre Public Cloud y un servidor dedicado'
 excerpt: 'Cómo configurar una red privada entre una instancia de Public Cloud y un servidor dedicado'
-updated: 2024-11-05
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -10,7 +10,7 @@ updated: 2024-11-05
 
 ## Objetivo
 
-El [vRack](/links/network/vrack/) de OVHcloud es una red privada que permite configurar el direccionamiento entre dos o más [servidores dedicados](/links/bare-metal/bare-metal) de OVHcloud. También permite añadir [instancias de Public Cloud](https://www.ovhcloud.com/es-es/public-cloud/) para crear una infraestructura de recursos físicos y virtuales.
+El [vRack](/links/network/vrack) de OVHcloud es una red privada que permite configurar el direccionamiento entre dos o más [servidores dedicados](/links/bare-metal/bare-metal) de OVHcloud. También permite añadir [instancias de Public Cloud](https://www.ovhcloud.com/es-es/public-cloud/) para crear una infraestructura de recursos físicos y virtuales.
 
 **Esta guía explica cómo configurar la red privada entre una [instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) y un [servidor dedicado](/links/bare-metal/bare-metal).**
 
@@ -51,7 +51,7 @@ Puede darse dos situaciones:
 
 #### Caso de una nueva instancia
 
-Si necesita ayuda, consulte la guía [Crear una instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps#create-instance). Al crear una instancia, podrá especificar, en el paso 4, una red privada en la que integrar su instancia. Seleccione el vRack anteriormente creado en el menú desplegable que aparece.
+Si necesita ayuda, consulte la guía [Crear una instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps). Al crear una instancia, podrá especificar, en el paso 4, una red privada en la que integrar su instancia. Seleccione el vRack anteriormente creado en el menú desplegable que aparece.
 
 #### Caso de una instancia ya existente
 
@@ -125,7 +125,7 @@ En la nueva ventana, seleccione las redes privadas que quiera asociar a su insta
 
 ### Configurar las interfaces de red
 
-A continuación, configure las interfaces de red en la nueva instancia de Public Cloud y en el servidor dedicado con esta guía: [Configurar varios servidores dedicados en el vRack](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server){.external}.
+A continuación, configure las interfaces de red en la nueva instancia de Public Cloud y en el servidor dedicado con esta guía: [Configurar varios servidores dedicados en el vRack](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server).
 
 ## Más información
 

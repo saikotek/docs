@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja sieci vRack między Public Cloud a serwerem dedykowanym'
 excerpt: 'Dowiedz się, jak skonfigurować prywatną sieć między instancją Public Cloud a serwerem dedykowanym'
-updated: 2021-10-15
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -10,14 +10,14 @@ updated: 2021-10-15
 
 ## Wprowadzenie
 
-[vRack](/links/network/vrack/) OVHcloud to prywatna sieć, która umożliwia konfigurację adresowania między dwoma lub kilkoma [Serwerami dedykowanymi](/links/bare-metal/bare-metal) OVHcloud. Umożliwia ponadto dodawanie [instancji Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) do Twojej prywatnej sieci w celu utworzenia infrastruktury z zasobów fizycznych i wirtualnych.
+[vRack](/links/network/vrack) OVHcloud to prywatna sieć, która umożliwia konfigurację adresowania między dwoma lub kilkoma [Serwerami dedykowanymi](/links/bare-metal/bare-metal) OVHcloud. Umożliwia ponadto dodawanie [instancji Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) do Twojej prywatnej sieci w celu utworzenia infrastruktury z zasobów fizycznych i wirtualnych.
 
 **Niniejszy przewodnik wyjaśnia, jak skonfigurować sieć prywatną między [instancją Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) a [serwerem dedykowanym](/links/bare-metal/bare-metal).**
 
 ## Wymagania początkowe
 
 * Utworzenie [instancji Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps)
-* Aktywowanie usługi [vRack](https://www.ovh.pl/rozwiazania/vrack/)
+* Aktywowanie usługi [vRack](/links/network/vrack)
 * Posiadanie [serwera dedykowanego](/links/bare-metal/bare-metal) kompatybilnego z usługą vRack
 * Dostęp do [Panelu klienta OVHcloud](/links/manager)
 * Wybrany zakres prywatnych adresów IP
@@ -52,7 +52,7 @@ Mogą wystąpić dwie sytuacje:
 
 #### Przypadki nowej instancji
 
-Jeśli potrzebujesz pomocy, zapoznaj się z przewodnikiem [Tworzenie instancji Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps#create-instance). Podczas tworzenia instancji możesz w etapie 5 określić sieć prywatną, do której chcesz zintegrować Twoją instancję.
+Jeśli potrzebujesz pomocy, zapoznaj się z przewodnikiem [Tworzenie instancji Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps). Podczas tworzenia instancji możesz w etapie 5 określić sieć prywatną, do której chcesz zintegrować Twoją instancję.
 
 #### Przypadki istniejącej instancji
 
