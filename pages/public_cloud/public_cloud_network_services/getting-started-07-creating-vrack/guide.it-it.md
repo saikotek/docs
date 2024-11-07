@@ -1,7 +1,7 @@
 ---
 title: Configurazione della vRack sul Public Cloud
 excerpt: Scopri come configurare la vRack per le tue istanze Public Cloud
-updated: 2024-11.01
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -39,7 +39,7 @@ La fatturazione dei tuoi servizi è disponibile nello Spazio Cliente OVHcloud.
 
 ### Interfaccia Horizon
 
-Interfaccia visiva indipendente di OVHcloud, [Horizon](https://horizon.cloud.ovh.net/auth/login/){.external} è l'implementazione iniziale della dashboard di OpenStack, che fornisce un'interfaccia utente web ai servizi OpenStack, in particolare Nova, Swift, Keystone, ecc...
+Interfaccia visiva indipendente di OVHcloud, [Horizon](https://horizon.cloud.ovh.net/auth/login/){.external} è l'implementazione iniziale della dashboard di OpenStack, che fornisce un'interfaccia utente web ai servizi OpenStack, in particolare Nova, Swift, Keystone, ecc.
 
 Questa interfaccia completa e tecnica ti permette di gestire quasi tutte le azioni OpenStack. Sarà una delle interfacce necessarie per gestire più di due VLAN, aggiungere interfacce di rete private alle tue istanze, gestire immagini personalizzate, ecc.
 
@@ -185,7 +185,7 @@ Seleziona questa opzione se intendi creare istanze esclusivamente con rete priva
 
 **Opzioni di rete del layer 2**
 
-Selezionando la casella `Definisci l’ID della VLAN`, dovrai scegliere un numero di VLAN che varia da 0 a 4.000.
+Selezionando la casella `Definisci l’ID della VLAN`, dovrai scegliere un numero di VLAN che varia da 0 a 4000.
 
 Se non selezioni questa casella, il sistema assegnerà un numero di VLAN casuale.
 
@@ -321,7 +321,7 @@ Con gli elementi recuperati precedentemente, è possibile creare un'istanza incl
 nova boot --key-name SSHKEY --flavor [ID-flavor] --image [ID-Image] --nic net-id=[ID-Network 1] --nic net-id=[ID-Network 2] [name-of-instance]
 ```
 
-Esempio :
+Esempio:
 
 ```bash
 nova boot --key-name my-ssh-key --flavor xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --image yyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy --nic net-id=[id_Ext-Net] --nic net-id=[id_vLan] name_of_instance
@@ -585,6 +585,7 @@ nova interface-attach --net-id <ID-VLAN> <ID-instance>
 ```
 
 Esempio:
+
 ```bash
 nova interface-attach --net-id 12345678-90ab-cdef-xxxx-xxxxxxxxxxxx 12345678-90ab-cdef-xxxx-xxxxxxxxxxxx
 ```

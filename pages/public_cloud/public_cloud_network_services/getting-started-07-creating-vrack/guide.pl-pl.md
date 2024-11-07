@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja vRack dla Public Cloud'
 excerpt: 'Dowiedz się, jak skonfigurować usługę vRack dla instancji Public Cloud'
-updated: 2024-11-01
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -104,7 +104,7 @@ W tym celu należy wybrać właściwego dostawcę terraform i zasobów. Więcej 
 #### W Panelu klienta OVHcloud
 
 > [!primary]
-> Nie dotyczy to nowo utworzonych projektów, które są teraz automatycznie dostarczane z siecią vRack. Aby wyświetlić sieć vRack po utworzeniu projektu, przejdź do menu `Bare Metal Cloud`{.action} i kliknij `Network`{.action} w zakładce po lewej stronie. Kliknij opcję Prywatna sieć vRack`{.action}, aby wyświetlić sieć(e) vRack(s).
+> Nie dotyczy to nowo utworzonych projektów, które są teraz automatycznie dostarczane z siecią vRack. Aby wyświetlić sieć vRack po utworzeniu projektu, przejdź do menu `Bare Metal Cloud`{.action} i kliknij `Network`{.action} w zakładce po lewej stronie. Kliknij opcję `Prywatna sieć vRack`{.action}, aby wyświetlić sieć(e) vRack(s).
 >
 
 Jeśli posiadasz starszy projekt, ale nie posiadasz usługi vRack, musisz zamówić usługę. Ten produkt jest bezpłatny, a jego udostępnienie zajmuje tylko kilka minut.
@@ -117,11 +117,11 @@ Zostaniesz przekierowany na inną stronę, aby zatwierdzić zamówienie. Operacj
 
 Po uaktywnieniu usługi odnajdziesz ją w Panelu klienta w sekcji `Bare Metal Cloud`{.action} > `Network`{.action} > `Prywatna sieć vRack`{.action}. Pod nazwą "pn-xxxxxx".
 
-Na liście dostępnych usług zaznacz projekt, który chcesz dodać do szafy vRack i kliknij na przycisk Dodaj`{.action}.
+Na liście dostępnych usług zaznacz projekt, który chcesz dodać do szafy vRack i kliknij na przycisk `Dodaj`{.action}.
 
 ![Dodaj projekt](images/addprojectvRack.png){.thumbnail}
 
-Aby kontynuować konfigurację vRack, przejdź do sekcji [Tworzenie sieci VLAN w Panelu klienta](./#tworzenie-sieci-vlan-w-panelu-klienta-ovhcloud) niniejszego przewodnika.
+Aby kontynuować konfigurację vRack, przejdź do sekcji [Tworzenie sieci VLAN w Panelu klienta](./#tworzenie-sieci-prywatnej-w-panelu-klienta-ovhcloud) niniejszego przewodnika.
 
 #### Za pomocą APIv6 OVHcloud
 

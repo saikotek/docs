@@ -1,7 +1,7 @@
 ---
 title: 'Configuración del vRack Public Cloud'
 excerpt: 'Cómo configurar el vRack para sus instancias Public Cloud'
-updated: 2024-11-01
+updated: 2024-11-07
 ---
 
 > [!primary]
@@ -446,7 +446,7 @@ Por ejemplo, si tiene una interfaz pública *eth0*, agregará la interfaz *eth1*
 > Deberá configurarla en DHCP o IP fija según su infraestructura.
 >
 
-##### **Desde el área de cliente de OVHcloud** 
+#### Desde el área de cliente de OVHcloud
 
 Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente en la parte superior izquierda.
 
