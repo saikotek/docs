@@ -64,11 +64,11 @@ Commencez en relevant l'état des trois voyants mentionnés ci-dessous sur l'app
 
 Dès lors, plusieurs possibilités, selon l'état des voyants.
 
-- **Aucun voyant n’est allumé sur l'ONT** : assurez-vous que le bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil, est bien enclenché sur **ON**. Vérifiez que le câble d'alimentation est correctement branché à ses deux extrémités. Testez éventuellement une autre prise électrique. Si le défaut persiste, prenez contact avec notre équipe support.
+- **Aucun voyant n’est allumé sur l'ONT** : assurez-vous que le bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil, est bien enclenché sur **ON**. Vérifiez que le câble d'alimentation est correctement branché à ses deux extrémités. Testez éventuellement une autre prise électrique. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help).
 
-- **Le voyant « Fibre » est éteint** : assurez-vous que le câble de fibre optique est correctement relié à votre ONT et que celui-ci est en bon état (non plié ou non coincé sous un meuble). Essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, prenez contact avec notre équipe support.
+- **Le voyant « Fibre » est éteint** : assurez-vous que le câble de fibre optique est correctement relié à votre ONT et que celui-ci est en bon état (non plié ou non coincé sous un meuble). Essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help).
 
-- **Le voyant « État » est allumé en rouge fixe ou clignote rapidement** : essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, prenez contact avec notre équipe support. 
+- **Le voyant « État » est allumé en rouge fixe ou clignote rapidement** : essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help). 
 
 - **L'état des voyants indique que tout fonctionne correctement** : cela signifie que l'ONT est allumé et que la connexion avec le signal optique est établie. Dans ce cas, poursuivez vers l'étape 3 « [vérifier le fonctionnement jusqu'à la box OVHcloud](/pages/web_cloud/internet/internet_access/ftth_fix_access#etape-3-verifier-le-fonctionnement-jusqua-la-box-ovh){.external} ».
 
@@ -87,11 +87,11 @@ Commencez en relevant l'état des trois voyants mentionnés ci-dessous sur l'app
 
 Dès lors, plusieurs possibilités selon l'état des voyants.
 
-- **Aucun voyant n’est allumé sur l'ONT** : assurez-vous que le bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil est bien enclenché sur **ON**. Vérifiez que le câble d'alimentation est correctement branché à ses deux extrémités. Testez éventuellement une autre prise électrique. Si le défaut persiste, prenez contact avec notre équipe support.
+- **Aucun voyant n’est allumé sur l'ONT** : assurez-vous que le bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil est bien enclenché sur **ON**. Vérifiez que le câble d'alimentation est correctement branché à ses deux extrémités. Testez éventuellement une autre prise électrique. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help).
 
-- **Le voyant PON est éteint** : assurez-vous que le câble de fibre optique est correctement relié à votre ONT et que celui-ci est en bon état (non plié ou non coincé sous un meuble). Essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, prenez contact avec notre équipe support.
+- **Le voyant PON est éteint** : assurez-vous que le câble de fibre optique est correctement relié à votre ONT et que celui-ci est en bon état (non plié ou non coincé sous un meuble). Essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help).
 
-- **Le voyant « Alarm » est allumé en rouge ou clignote rapidement** : essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, prenez contact avec notre équipe support.
+- **Le voyant « Alarm » est allumé en rouge ou clignote rapidement** : essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help).
 
 - **L'état des voyants indique que tout fonctionne correctement** : cela signifie que l'ONT est allumé et que la connexion avec le signal optique est établie. Dans ce cas, poursuivez vers l'étape 3 « [vérifier le fonctionnement jusqu'à la box OVHcloud](/pages/web_cloud/internet/internet_access/ftth_fix_access#etape-3-verifier-le-fonctionnement-jusqua-la-box-ovh){.external} ».
 
@@ -129,7 +129,7 @@ Si le voyant « **POWER** » de votre box OVHcloud n'est pas allumé vert fixe
 
 3. **Tester une autre prise électrique** : essayez de brancher le câble d'alimentation sur une autre prise sans rallonge ni multiprise. 
 
-Si malgré ces tests, le voyant « **POWER** » reste éteint, prenez contact avec notre équipe support afin de procéder à un échange de votre box OVHcloud. 
+Si malgré ces tests, le voyant « **POWER** » reste éteint, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help) afin de procéder à un échange de votre box OVHcloud. 
 
 ![diagnosticfibre](images/acces-internet-box-ovh-test-power.png){.thumbnail}
 
@@ -139,13 +139,13 @@ Si le voyant « WAN » de votre box OVHcloud n'est pas allumé vert fixe, réali
 
 1. **Vérifier le branchement entre l'ONT et la box OVHcloud** : assurez-vous qu'un câble Ethernet est bien relié de la box OVHcloud sous l'emplacement « **WAN** » prévu à cet effet jusqu'à l'équipement ONT sous l'emplacement « **LAN** » prévu à cet effet. 
 
-2. **Vérifier l'état de fonctionnement du port « **WAN** » de la box OVHcloud** : changez de place le câble Ethernet actuellement relié sous l'emplacement « **WAN** » sur l'un des ports « **LAN** » (n'importe lequel), puis vérifiez si le voyant « **LAN** » s'est allumé sur l'ONT. Si tel est le cas, ceci indique que le port « **WAN** » de votre box OVHcloud est défectueux. Prenez alors contact avec notre équipe support afin de procéder à un échange de celle-ci. 
+2. **Vérifier l'état de fonctionnement du port « **WAN** » de la box OVHcloud** : changez de place le câble Ethernet actuellement relié sous l'emplacement « **WAN** » sur l'un des ports « **LAN** » (n'importe lequel), puis vérifiez si le voyant « **LAN** » s'est allumé sur l'ONT. Si tel est le cas, ceci indique que le port « **WAN** » de votre box OVHcloud est défectueux. [Prenez alors contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help) afin de procéder à un échange de celle-ci. 
 
 3. **Vérifier l'état du câble Ethernet** : assurez-vous que le câble Ethernet reliant l'ONT à la box OVHcloud est en bon état (non dénudé, non plié ou non coincé sous un meuble). Si possible, essayez de changer ce câble par un autre.
 
 4. **Effectuer un *reset* de votre box OVHcloud** (uniquement si le voyant « POWER » est allumé et ne clignote pas) : restez appuyé sur le bouton « **RESET** » pendant dix secondes jusqu'à apercevoir le voyant « **POWER** » clignoter, puis relâchez le bouton. Les paramètres par défaut sont alors restaurés et la box OVHcloud redémarre.
 
-Si malgré ces tests, le voyant « **WAN** » reste éteint, prenez contact avec notre équipe support afin de procéder à un échange de votre box OVHcloud. 
+Si malgré ces tests, le voyant « **WAN** » reste éteint, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help) afin de procéder à un échange de votre box OVHcloud. 
 
 ![diagnosticfibre](images/acces-internet-box-ovh-test-wan.png){.thumbnail}
 
@@ -157,25 +157,26 @@ Si le voyant « INTERNET » de votre box OVHcloud est éteint et le voyant « W
 
 2. **Configurer manuellement les identifiants PPP** : réalisez la configuration ci-dessous dans l'éventualité où celle automatique de votre box OVHcloud serait défaillante. 
 
-Pour cela, connectez-vous depuis votre navigateur internet à l'interface web de votre box OVHcloud en accédant à l'adresse `192.168.1.1`. Vous devrez renseigner un mot de passe pour y accéder. Celui-ci devrait se trouver à l'arrière de votre box OVHcloud.
+Pour cela, connectez-vous depuis votre navigateur internet à l'interface web de votre box OVHcloud en entrant l'adresse `192.168.1.1`. Vous devrez renseigner un mot de passe pour y accéder. Celui-ci devrait se trouver à l'arrière de votre box OVHcloud.
 
-- Pour le modèle **VMG8823-B50B**, celui-ci se trouve à côté de « Admin Password » et le mot de passe par défaut est « 1234 ».
-- Pour les autres modèles, celui-ci se trouve à côté de « Login Password ».
+- Pour le modèle **VMG8823-B50B**, le mot de passe se trouve à côté de « Admin Password ». Le mot de passe par défaut est « 1234 ».
+- Pour les autres modèles, le mot de passe se trouve à côté de « Login Password ».
 
 Positionnez-vous ensuite sur le menu `Network Setting`{.action}, puis cliquez sur `Broadband`{.action}.
 
 ![diagnosticfibre](images/acces-internet-box-ovh-test-internet-step1.png){.thumbnail}
 
 Sur la page qui apparaît, modifiez l'interface correspondant à votre « [Profil modem](/pages/web_cloud/internet/internet_access/advanced_config_router_manually) », en cliquant sur le bouton représentant une feuille avec un crayon :
+
 - Pour le profil standard, modifiez l'interface « ETH ».
-- Pour le profil bouygues, modifiez l'interface « ETH-BT ».
-- Pour le profil orange, modifiez l'interface « ETH-OR ».
+- Pour le profil Bouygues, modifiez l'interface « ETH-BT ».
+- Pour le profil Orange, modifiez l'interface « ETH-OR ».
 
 ![diagnosticfibre](images/acces-internet-box-ovh-test-internet-step2.png){.thumbnail}
 
 En dessous de « PPP Information », renseignez vos identifiants PPP à côté de « PPP User Name » et « PPP Password ».
 
-Cliquez sur `OK`{.action}, puis patientez quelques instants le temps que la manipulation soit prise en compte. Si le voyant « **INTERNET** » reste éteint, prenez contact avec notre équipe support afin de poursuivre le diagnostic.
+Cliquez sur `OK`{.action}, puis patientez quelques instants le temps que la manipulation soit prise en compte. Si le voyant « **INTERNET** » reste éteint, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help) afin de poursuivre le diagnostic.
 
 ![diagnosticfibre](images/acces-internet-box-ovh-test-internet-step3.png){.thumbnail}
 
@@ -355,4 +356,4 @@ Au sein de cette nouvelle fenêtre, assurez-vous que « Obtenir une adresse IP 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
