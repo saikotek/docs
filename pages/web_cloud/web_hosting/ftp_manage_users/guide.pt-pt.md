@@ -4,10 +4,6 @@ excerpt: "Saiba como criar, modificar ou eliminar utilizadores FTP no seu alojam
 updated: 2024-10-07
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 As ofertas de alojamento web da OVHcloud dão acesso a um espaço de armazenamento FTP. Este espaço FTP permite, por exemplo, publicar ficheiros nos seus websites ou aplicações. O acesso a este espaço é possível através de um utilizador FTP ou SSH e da respetiva palavra-passe. No âmbito das suas atividades, poderá ter de criar vários utilizadores FTP para os seus diferentes colaboradores.

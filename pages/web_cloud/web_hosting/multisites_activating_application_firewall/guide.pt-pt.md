@@ -4,10 +4,6 @@ excerpt: "Partilhado: ativação da firewall"
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 *O ModSecurity* é um módulo Apache complementar que filtro todos os pedidos de acesso ao seu servidor Web. Aumenta a segurança contra vulnerabilidades conhecidas, intercetando e filtrando pedidos antes que sejam tratados com scripts.

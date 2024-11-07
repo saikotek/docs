@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come migliorare la sicurezza del tuo sito Web"
 updated: 2024-01-29
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Questa guida ti mostra come acquisire conoscenze fondamentali per assicurare la disponibilità dei tuoi servizi, proteggere l'integrità dei tuoi dati e rendere sicuro l'accesso alle tue soluzioni. Riguarda solo i siti Web ospitati sulle [soluzioni condivise OVHcloud](/links/web/hosting).

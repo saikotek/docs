@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak monitorować i zarządzać automatycznymi wiadomośc
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie 
 
 Zautomatyzowane e-maile to wiadomości wysyłane za pomocą skryptów. Zazwyczaj za pomocą funkcji "mail()" w PHP. Są one wykorzystywane na przykład do formularza kontaktowego na Twojej stronie WWW i umożliwiają Twoim użytkownikom wysyłanie wiadomości.

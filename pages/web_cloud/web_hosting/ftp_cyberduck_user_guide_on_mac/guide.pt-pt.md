@@ -4,10 +4,6 @@ excerpt: "Saiba como utilizar a aplicação Cyberduck para se ligar ao seu aloja
 updated: 2024-02-23
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Disponível no macOS e Windows, o Cyberduck é uma aplicação open-source de transferência de ficheiros. Esta opção permite aceder ao espaço de armazenamento FTP do seu alojamento web (através de protocolo FTP ou SFTP).

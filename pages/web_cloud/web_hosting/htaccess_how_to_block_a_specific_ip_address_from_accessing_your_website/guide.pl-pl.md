@@ -4,10 +4,6 @@ excerpt: "Odkryj operacje możliwe przy użyciu pliku .htaccess, w celu zablokow
 updated: 2024-03-14
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie 
 
 Tutorial ten pomoże Ci zabezpieczyć dostęp do Twoich stron WWW z sieci zewnętrznej, zapobiec włamaniom i próbom ataków DDoS lub je naprawić.

@@ -4,10 +4,6 @@ excerpt: "Descubra como migrar o seu website, o seu nome de domínio, a sua base
 updated: 2024-06-24
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este guia apresenta-lhe as diferentes ações a realizar para migrar o conjunto do seu website, as suas pastas, o seu nome de domínio, a sua base de dados e os seus endereços de e-mail para a OVHcloud, sem interrupção de serviços.

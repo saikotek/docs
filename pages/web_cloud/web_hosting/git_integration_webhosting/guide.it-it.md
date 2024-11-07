@@ -4,10 +4,6 @@ excerpt: "Scopri come configurare e utilizzare Git con il tuo hosting Web nello 
 updated: 2024-09-12
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Nel panorama digitale di oggi, le società sono sempre più dinamiche e innovative. La capacità di gestire e implementare efficacemente il codice del proprio sito Web è fondamentale per mantenere la competitività e la sostenibilità del marchio. Il Git, il sistema di controllo delle versioni più utilizzato al mondo, permette di archiviare il codice del sito Web su piattaforme come GitHub, permettendo una migliore tracciabilità delle modifiche, una più rapida automazione e deploy. I clienti OVHcloud dispongono di un'infrastruttura solida per ospitare il proprio sito Web e allo stesso tempo possono usufruire dei numerosi vantaggi di Git e GitHub per lo sviluppo e l'evoluzione del proprio sito Web.
