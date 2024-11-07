@@ -1,7 +1,7 @@
 ---
 title: 'Dépanner son accès internet fibre'
 excerpt: 'Découvrez comment dépanner et remettre en service votre accès internet fibre OVHcloud'
-updated: 2023-08-09
+updated: 2024-11-07
 ---
 
 ## Objectif
@@ -12,7 +12,7 @@ Vous n’avez actuellement pas accès à Internet ou rencontrez une dégradation
 
 ## Prérequis
 
-- Disposer d'un [accès internet fibre OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external}. 
+- Disposer d'un [accès internet fibre OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external}.
 - Selon les vérifications que vous allez devoir réaliser, vous devrez soit : être à proximité des équipements internet (ONT et box OVHcloud) ou disposer d'un ordinateur relié à votre box OVHcloud via un câble Ethernet ou en Wi-Fi.
 
 > [!primary]
@@ -157,17 +157,27 @@ Si le voyant « INTERNET » de votre box OVHcloud est éteint et le voyant « W
 
 2. **Configurer manuellement les identifiants PPP** : réalisez la configuration ci-dessous dans l'éventualité où celle automatique de votre box OVHcloud serait défaillante. 
 
-Pour cela, connectez-vous depuis votre navigateur internet à l'interface web de votre box OVHcloud en accédant à l'adresse `192.168.1.1`. Vous devrez renseigner un mot de passe pour y accéder. Celui-ci devrait se trouver à l'arrière de votre box OVHcloud. Pour le modèle B50D, celui-ci se trouve à côté de « Admin Password » et le mot de passe par défaut est « 1234 ». Pour le modèle B10D, celui-ci se trouve à côté de « Login Password ».
+Pour cela, connectez-vous depuis votre navigateur internet à l'interface web de votre box OVHcloud en accédant à l'adresse `192.168.1.1`. Vous devrez renseigner un mot de passe pour y accéder. Celui-ci devrait se trouver à l'arrière de votre box OVHcloud.
+
+- Pour le modèle **VMG8823-B50B**, celui-ci se trouve à côté de « Admin Password » et le mot de passe par défaut est « 1234 ».
+- Pour les autres modèles, celui-ci se trouve à côté de « Login Password ».
 
 Positionnez-vous ensuite sur le menu `Network Setting`{.action}, puis cliquez sur `Broadband`{.action}.
 
 ![diagnosticfibre](images/acces-internet-box-ovh-test-internet-step1.png){.thumbnail}
 
-Sur la page qui apparaît, modifiez l'interface nommée « ETHWAN » en cliquant sur le bouton représentant une feuille avec un crayon. En dessous de « PPP Information », renseignez vos identifiants PPP à côté de « PPP User Name » et « PPP Password ». 
-
-Cliquez sur `OK`{.action}, puis patientez quelques instants le temps que la manipulation soit prise en compte. Si le voyant « **INTERNET** » reste éteint, prenez contact avec notre équipe support afin de poursuivre le diagnostic. 
+Sur la page qui apparaît, modifiez l'interface correspondant à votre « [Profil modem](/pages/web_cloud/internet/internet_access/advanced_config_router_manually) », en cliquant sur le bouton représentant une feuille avec un crayon :
+- Pour le profil standard, modifiez l'interface « ETH ».
+- Pour le profil bouygues, modifiez l'interface « ETH-BT ».
+- Pour le profil orange, modifiez l'interface « ETH-OR ».
 
 ![diagnosticfibre](images/acces-internet-box-ovh-test-internet-step2.png){.thumbnail}
+
+En dessous de « PPP Information », renseignez vos identifiants PPP à côté de « PPP User Name » et « PPP Password ».
+
+Cliquez sur `OK`{.action}, puis patientez quelques instants le temps que la manipulation soit prise en compte. Si le voyant « **INTERNET** » reste éteint, prenez contact avec notre équipe support afin de poursuivre le diagnostic.
+
+![diagnosticfibre](images/acces-internet-box-ovh-test-internet-step3.png){.thumbnail}
 
 ### Étape 4 : vérifier le fonctionnement jusqu'à vos équipements personnels
 
