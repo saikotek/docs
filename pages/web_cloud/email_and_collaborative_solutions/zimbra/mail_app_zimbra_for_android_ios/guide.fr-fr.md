@@ -1,7 +1,7 @@
 ---
-title: Zimbra - Configurer son compte e-mail sur l'application Zimbra
-excerpt: Découvrez comment configurer votre adresse e-mail Zimbra sur l'application Zimbra
-updated: 2024-11-06
+title: "Zimbra - Configurer son compte e-mail sur l'application mobile Zimbra"
+excerpt: "Découvrez comment configurer votre adresse e-mail Zimbra sur l'application mobile Zimbra disponible sur Android et iOS"
+updated: 2024-11-07
 ---
 
 <style>
@@ -39,7 +39,7 @@ Les comptes e-mail Zimbra peuvent être configurés sur différents logiciels de
 ## Prérequis
 
 - Disposer d’une adresse e-mail Zimbra.
-- Avoir installé l'application Zimbra sur votre appareil Android ou iOS.
+- Avoir installé l'application Zimbra sur votre appareil [Android](https://play.google.com/store/apps/details?id=com.zimbra.modernapp&hl=fr) ou [iOS](https://apps.apple.com/cm/app/zimbra-email-collaboration/id1554848550).
 - Posséder les identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
 
 ## En pratique
@@ -51,47 +51,47 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 > [!tabs]
 > **Etape 1**
 >>
->> lorsque vous lancez l'application pour la première fois, la fenêtre ci-dessous s'affiche. Saisissez l'URL du serveur Zimbra OVHcloud `https://zimbra1.mail.ovh.net`, appuyez sur `Continuez`{.action} pour valider.
+>> lorsque vous lancez l'application pour la première fois, la fenêtre ci-dessous s'affiche. Saisissez l'URL du serveur Zimbra OVHcloud `https://zimbra1.mail.ovh.net`, appuyez sur `Continue`{.action} pour valider.
 >>
 >> ![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
 >>
 > **Etape 2**
 >>
->> Saisissez votre **adresse e-mail** Zimbra et le  **mot de passe** associé, appuyez ensuite sur `Connexion`{.action}
+>> Saisissez votre **adresse e-mail** Zimbra et le  **mot de passe** associé, appuyez ensuite sur `Connexion`{.action}.
 >>
 >> ![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
 >>
 > **Etape 3**
 >>
->> Vous avez maintenant accès au contenu de votre compte e-mail. Par défaut c'est votre boite de réception qui est visible <br><br>
+>> Vous avez maintenant accès au contenu de votre compte e-mail. Par défaut c'est votre boite de réception apparaît <br><br>
 >>
 >> ![zimbra_app](images/zimbra_app_inbox01.png){.thumbnail .w-600 .h-600}
 
 > [!success]
 >
-> L'interface de l'application Zimbra est similaire au webmail. Si vous souhaitez obtenir plus de détails sur les fonctionnalités et paramètres, consulter notre guide [Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
+> L'interface de l'application Zimbra est similaire au webmail. Pour plus de détails sur les fonctionnalités et paramètres, consultez notre guide « [Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra) ».
 
 ### Utiliser l'adresse e-mail
 
 Une fois l'adresse e-mail configurée, il ne reste plus qu’à l'utiliser ! Vous pouvez dès à présent envoyer et recevoir des messages.
 
-OVHcloud propose aussi une application web permettant d'accéder à votre adresse e-mail depuis un navigateur internet. Celle-ci est accessible à l’adresse [Webmail](/links/web/email). Vous pouvez vous y connecter grâce aux identifiants de votre adresse e-mail. Pour toute question relative à son utilisation, aidez-vous de notre guide [Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/).
+OVHcloud propose aussi une application web permettant d'accéder à votre adresse e-mail depuis un navigateur internet. Celle-ci est accessible via [ce lien](/links/web/email). Vous pouvez vous y connecter grâce aux identifiants de votre adresse e-mail. Pour toute question relative à son utilisation, consultez notre guide « [Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/) ».
 
 ### Consulter une autre adresse e-mail Zimbra <a name="modify-settings"></a>
 
-L'application Zimbra ne permet de configurer qu'une adresse e-mail à la fois. Il faut donc se déconnecter du compte e-mail en cours d'utilisation pour pouvoir consulter un autre compte e-mail Zimbra.
+L'application Zimbra ne permet de configurer qu'une seule adresse e-mail à la fois. Il faut donc se déconnecter du compte e-mail en cours d'utilisation pour pouvoir consulter un autre compte e-mail Zimbra.
 
-Dirigez-vous vers le menu « burger » dans le coin supérieur gauche de votre écran, puis sélectionnez l'icône de profil dans la partie supérieure de votre écran. Enfin, appuyez sur `Déconnexion`.
+Dirigez-vous vers le menu « burger » (☰) dans le coin supérieur gauche de votre écran, puis sélectionnez l'icône de profil dans la partie supérieure de votre écran. Enfin, appuyez sur `Déconnexion`.
 
 ![zimbra_app](images/zimbra_app_settings01.png){.thumbnail .w-600 .h-600}
 
 ### Que faire si un écran blanc apparait lorsque je lance l'application ?
 
-Il s'agit d'un défaut de chargement lié à la connectivité au réseau, il est conseillé de patienter un instant pour s'assurer que l'application est eu le temps d'aller au bout de ça tentative de connexion.
+Il s'agit d'un défaut de chargement lié à la connectivité au réseau. Il est conseillé de patienter quelques instants, le temps que l'application termine sa tentative de connexion.
 
-Si rien de ne passe, il est nécessaire de s'assurer que la connectivité réseau est correcte, puis fermer complètelment l'application et la relancer. Répéter l'opération autant de fois que nécessaire.
+Si rien de ne passe, vérifiez que la connectivité réseau de votre mobile est correcte, puis fermez complètement l'application et relancez-la. Répétez l'opération autant de fois que nécessaire.
 
-Si le problème persiste, une réinstallation de l'application vous permettra de réinitialiser les paramètres pour éliminer un défaut de corruption du fichier de configuration de l'appiclation.
+Si le problème persiste, réinstallez l'application. Cela permettra de réinitialiser les paramètres et d'éliminer une potentielle corruption du fichier de configuration de l'application.
 
 ## Aller plus loin
 
