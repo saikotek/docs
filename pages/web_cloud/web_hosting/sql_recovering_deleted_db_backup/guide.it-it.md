@@ -4,10 +4,6 @@ excerpt: "Scopri come recuperare il backup di un database eliminato dal tuo Spaz
 updated: 2024-07-25
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La maggior parte delle nostre soluzioni di [hosting Web](/links/web/hosting) includono database. In caso di eliminazione accidentale di un database associato all’hosting Web, è possibile tentare di recuperarne il backup tramite le nostre API.

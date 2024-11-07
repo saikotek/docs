@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie in OVHcloud Webhostings enthaltene Datenban
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Datenbanken (DBs) werden verwendet, um dynamische Elemente (Verbindungsdaten, Benutzerdaten, Anzeigedaten, für Ihre Website-Funktionen notwendige Daten usw.) zu speichern. Diese Datenbanken werden in den meisten modernen Content Management Systemen (CMS) wie *WordPress*, *Joomla!*, *Drupal* oder *PrestaShop* verwendet.

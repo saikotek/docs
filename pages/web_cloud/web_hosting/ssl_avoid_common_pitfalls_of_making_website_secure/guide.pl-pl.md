@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak uniknąć typowych błędów dotyczących zabezpiecz
 updated: 2024-01-11
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 W tym tutorialu znajdziesz przykłady sytuacji dotyczących zabezpieczenia Twojej strony WWW za pomocą certyfikatu SSL.

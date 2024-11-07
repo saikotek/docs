@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak pobrać kopię zapasową bazy danych Twojego hosting
 updated: 2023-08-22
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie 
 
 Bazy danych są używane przez większość stron WWW i serwerów **C**ontent **M**anagement **S**ystem (**CMS**), takich jak *WordPress*, *Joomla!*, *PrestaShop* lub *Drupal*. Są one zazwyczaj wykorzystywane do przechowywania elementów dynamicznych, takich jak komentarze, hasła/użytkownicy, stan zapasów, jeśli posiadasz sklep internetowy lub artykuły. Mogą zaistnieć sytuacje, w których będziesz potrzebował wykonać kopię zapasową bazy danych w celu późniejszego odzyskania jej zawartości.
