@@ -4,10 +4,6 @@ excerpt: "Saiba como restaurar um ficheiro ou a totalidade do espaço de armazen
 updated: 2023-12-04
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A sua solução de alojamento web da OVHcloud dá-lhe acesso a um espaço de armazenamento no qual pode alojar os seus websites. Por várias razões (para eliminar ou alterar um ficheiro que torna o seu site inacessível, por exemplo), poderá ter de restaurar os dados do seu espaço de armazenamento ou simplesmente um ficheiro guardado nesse mesmo espaço.

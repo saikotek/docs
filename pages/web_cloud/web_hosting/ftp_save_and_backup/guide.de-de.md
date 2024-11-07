@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie eine Datei oder den gesamten Speicherplatz 
 updated: 2023-12-04
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel 
 
 Über Ihr OVHcloud Webhosting haben Sie Zugriff auf einen Speicherplatz, auf dem Sie Ihre Websites hosten können. Aus verschiedenen Gründen kann es vorkommen, dass die gesamten Daten Ihres Speicherplatzes oder auch nur eine darin gespeicherte Datei wiederhergestellt werden müssen. Das ist beispielsweise der Fall, wenn eine Datei gelöscht oder bearbeitet wurde und die Website nicht mehr erreichbar ist.

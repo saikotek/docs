@@ -4,10 +4,6 @@ excerpt: "Descubra cómo empezar con un alojamiento Cloud Web"
 updated: 2022-05-04
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 El plan de hosting Cloud Web de OVHcloud es el resultado de combinar veinte años de experiencia en el alojamiento web con la potencia de nuestra solución Public Cloud. Al igual que los planes de hosting convencionales, permite alojar sitios web en un servicio administrado durante las 24 horas del día, los 7 días de la semana, pero ofrece muchas más funcionalidades, como el rendimiento de los discos SSD.

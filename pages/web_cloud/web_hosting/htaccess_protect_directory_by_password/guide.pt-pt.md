@@ -4,10 +4,6 @@ excerpt: "Descruba como proteger um diretório ou o acesso à administração do
 updated: 2024-04-17
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este tutorial explica como implementar uma autenticação "utilizador/palavra-passe" para aceder a todo ou parte do seu website através de um browser. 

@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come monitorare e gestire le email automatiche 
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Le email automatiche sono messaggi inviati tramite script. Generalmente utilizzando la funzione "mail()" di PHP. Sono utilizzati, ad esempio, per il form di contatto del tuo sito Web e permettono ai tuoi utenti di inviare messaggi.

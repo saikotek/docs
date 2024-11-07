@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come migrare il tuo sito Web Xara e i servizi a
 updated: 2024-07-29
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Questa guida ti mostra come migrare passo per passo il sito Web Xara e tutti i servizi associati a OVHcloud.

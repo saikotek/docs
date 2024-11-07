@@ -4,10 +4,6 @@ excerpt: "Come scegliere i motori di esecuzione del tuo hosting per realizzare a
 updated: 2022-07-27
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Cloud Web mette a tua disposizione diversi linguaggi di programmazione per consentirti di costruire il tuo progetto. Per realizzarlo nei tempi previsti, infatti, sarà necessario utilizzare un determinato programma di esecuzione. 

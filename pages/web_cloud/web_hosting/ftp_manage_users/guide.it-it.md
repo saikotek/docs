@@ -4,10 +4,6 @@ excerpt: "Scopri come creare, modificare o eliminare utenti FTP sul tuo hosting 
 updated: 2024-10-07
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Le offerte di hosting Web OVHcloud danno accesso a uno spazio di storage FTP. Questo spazio FTP permette, ad esempio, di pubblicare online i file dei tuoi siti Web o delle tue applicazioni. L’accesso a questo spazio è possibile tramite un utente FTP o SSH e la password associata. Nell'ambito delle vostre attività, potreste avere diversi utenti FTP per i vostri diversi collaboratori.
