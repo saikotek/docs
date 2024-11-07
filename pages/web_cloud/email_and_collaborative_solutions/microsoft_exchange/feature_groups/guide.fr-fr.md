@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Créer un groupe de contacts'
 excerpt: 'Retrouvez ici la mise en place et l’utilisation de groupe via votre compte Exchange'
-updated: 2024-11-04
+updated: 2024-11-07
 ---
 
 <style>
@@ -59,7 +59,7 @@ Cliquez sur `Suivant`{.action} pour continuer et cliquez sur `Confirmer`{.action
 
 ### Gérer les groupes
 
-Après la création de votre groupe, vous pouvez modifier les paramètres que vous avez définis. Pour cela, cliquez sur`...`{.action} à droite du groupe dans le tableau.
+Après la création de votre groupe, vous pouvez modifier les paramètres que vous avez définis. Pour cela, cliquez sur `...`{.action} à droite du groupe dans le tableau.
 
 ![contactgroups](images/exchange-groups-options01.png){.thumbnail .w-600 .h-600}
 
@@ -83,7 +83,7 @@ L’option `Configurer les délégations`{.action} du menu s’affichera. Cette 
 >
 > Veuillez noter que chaque modification à ce service peut prendre quelques minutes pour être appliquée. Vous pouvez vérifier l’état de la plupart des opérations en sélectionnant les options `Plus`{.action} et `Tâches récentes`{.action} à partir du menu horizontal.
 
-### Étape 3 : Ecrivez à un groupe via OWA
+### Ecrivez à un groupe via OWA
 
 Vous pouvez déjà  tester votre liste de diffusion via [la messagerie Web d ’OVHcloud](/links/web/email) (OWA) Il suffit d’envoyer un e-mail à l’adresse du groupe.
 
