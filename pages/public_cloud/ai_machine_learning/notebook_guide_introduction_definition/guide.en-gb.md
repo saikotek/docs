@@ -38,7 +38,7 @@ Each method offers its distinct advantages, depending on your expertise and pref
 > [!tabs]
 > **Using the Control Panel (UI)**
 >>
->> If you are using the UI, this step is not required. You can directly go to the next step ("Launch your first AI Notebook").
+>> If you are using the UI, this step is not required. You can directly go to the next step which is the [Notebook creation](#launch-your-first-ai-notebook).
 >>
 > **Using CLI / AI API / SDK**
 >>
