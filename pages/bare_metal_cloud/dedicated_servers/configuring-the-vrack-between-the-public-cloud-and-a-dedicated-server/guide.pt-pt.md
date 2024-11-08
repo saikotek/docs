@@ -108,6 +108,16 @@ Esta etapa oferece várias opções de configuração. Para as necessidades dest
 >> Pode conservar o intervalo de IP privado por predefinição ou utilizar outro.
 >>
 
+Uma vez terminada a configuração, clique em `Criar`{.action}. Esta operação pode levar alguns minutos.
+
+No painel de controlo da instância correspondente, clique no botão `...`{.action} na caixa « Redes », ao lado de « Rede(s) privada(s) », e selecione `Associar uma rede`{.action}.
+
+![attach network](images/vrack2021-01.png){.thumbnail}
+
+Na janela que aparecer, selecione a(s) rede(s) privada(s) a associar à sua instância e clique em `Associar`{.action}.
+
+![attach network](images/attach_network.png){.thumbnail}
+
 ### Configurar as interfaces de rede
 
 De seguida, configure as interfaces de rede na nova instância Public Cloud e no seu servidor dedicado através deste guia: [Configurar vários servidores dedicados no vRack](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server).
