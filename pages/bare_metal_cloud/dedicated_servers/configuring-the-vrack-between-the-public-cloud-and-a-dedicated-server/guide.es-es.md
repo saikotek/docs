@@ -100,7 +100,7 @@ Este paso ofrece varias opciones de configuración. A efectos de esta guía, nos
 >> > [!primary]
 >> > A diferencia de los servidores dedicados (cuando se utiliza un VLAN ID distinto de 0), no es necesario incluir directamente el VLAN ID en el archivo de configuración de red de la instancia Public Cloud una vez configurado en el área de cliente de OVHcloud.
 >>
->> Ejemplo: si su red privada de instancia está «etiquetada» con la VLAN 2, esta VLAN ID debe incluirse en la configuración de red del servidor dedicado únicamente. Para más información, consulte la siguiente guía: [Crear varias VLAN en el vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
+>> Ejemplo: si su red privada de instancia está «etiquetada» con la VLAN 2, esta VLAN ID debe incluirse en la configuración de red del servidor dedicado únicamente. Para más información, consulte la siguiente guía: [Crear varias VLAN en el vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).<br>
 >>
 > **Opciones de distribución de direcciones DHCP**
 >>

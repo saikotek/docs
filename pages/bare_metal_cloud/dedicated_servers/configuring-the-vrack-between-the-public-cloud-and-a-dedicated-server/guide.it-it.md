@@ -8,7 +8,8 @@ updated: 2024-11-08
 
 La [vRack](/links/network/vrack) OVHcloud è una rete privata che permette di configurare l'indirizzamento tra due o più [Server dedicati](/links/bare-metal/bare-metal) OVHcloud. ma permette anche di aggiungere [istanze Public Cloud](/links/public-cloud/compute) alla rete privata per creare un’infrastruttura di risorse fisiche e virtuali.
 
-**Questa guida ti mostra come configurare una rete privata tra un’ [istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) e un [Server dedicato](/links/bare-metal/bare-metal).**
+**Questa guida ti mostra come configurare una rete privata tra un’ [istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) e un [Server dedicato](/links/bare-metal/bare-metal).**#
+
 ## Prerequisiti
 
 * Aver creato un' [istanza Public Cloud OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps)
@@ -99,7 +100,7 @@ Questo step offre diverse opzioni di configurazione. Ai fini di questa guida, ci
 >> > [!primary]
 >> > A differenza dei server dedicati (quando si utilizza un VLAN ID diverso da 0), non è necessario includere direttamente il VLAN ID nel file di configurazione di rete dell'istanza Public Cloud una volta che è stato impostato nello Spazio Cliente OVHcloud.
 >>
->> Esempio: se la tua rete privata di istanza è "taggata" con la VLAN 2, questo VLAN ID deve essere incluso solo nella configurazione di rete del server dedicato. Per maggiori informazioni, consulta questa guida: [Creare diverse VLAN nella vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
+>> Esempio: se la tua rete privata di istanza è "taggata" con la VLAN 2, questo VLAN ID deve essere incluso solo nella configurazione di rete del server dedicato. Per maggiori informazioni, consulta questa guida: [Creare diverse VLAN nella vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).<br>
 >>
 > **Opzioni DHCP di distribuzione degli indirizzi**
 >>

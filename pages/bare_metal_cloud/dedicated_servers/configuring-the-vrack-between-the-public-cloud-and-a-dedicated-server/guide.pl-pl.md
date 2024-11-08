@@ -33,7 +33,7 @@ updated: 2024-11-08
 >
 > Możesz również usunąć przypisany projekt z sieci vRack i przypisać go do innej sieci vRack, jeśli chcesz, zwłaszcza jeśli posiadasz już istniejący vRack na swoim (swoich) serwerze(ach) dedykowanym(ych).
 
-W przypadku starszych projektów, po zamówieniu usługi [vRack](/links/network/vrack) przejdź do menu `Bare Metal Cloud`{.action}, kliknij `Network`{.action} w zakładce po lewej stronie, a następnie kliknij `Private Network`vRack`{.action}. Wybierz vRack z listy.
+W przypadku starszych projektów, po zamówieniu usługi [vRack](/links/network/vrack) przejdź do menu `Bare Metal Cloud`{.action}, kliknij `Network`{.action} w zakładce po lewej stronie, a następnie kliknij `Private Network vRack`{.action}. Wybierz vRack z listy.
 
 Na liście dostępnych usług zaznacz projekt, który chcesz dodać do szafy vRack, następnie kliknij przycisk `Dodaj`{.action}.
 
@@ -101,7 +101,7 @@ Ten etap oferuje kilka opcji konfiguracji. Na potrzeby tego przewodnika skupimy 
 >> > [!primary]
 >> > W przeciwieństwie do serwerów dedykowanych (gdy używany jest VLAN ID inny niż 0), nie jest konieczne bezpośrednie uwzględnianie VLAN ID w pliku konfiguracji sieci instancji Public Cloud po jego skonfigurowaniu w Panelu klienta OVHcloud.
 >>
->> Przykład: jeśli prywatna sieć instancji jest "oznaczona" VLAN 2, ten VLAN ID musi być zawarty w konfiguracji sieci tylko serwera dedykowanego. Więcej informacji znajdziesz w przewodniku: [Tworzenie wielu sieci VLAN w sieci vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
+>> Przykład: jeśli prywatna sieć instancji jest "oznaczona" VLAN 2, ten VLAN ID musi być zawarty w konfiguracji sieci tylko serwera dedykowanego. Więcej informacji znajdziesz w przewodniku: [Tworzenie wielu sieci VLAN w sieci vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).<br>
 >>
 > **Opcje dystrybucji adresów DHCP**
 >>
@@ -120,7 +120,7 @@ W oknie, które się pojawi, wybierz prywatną sieć lub sieci, które chcesz pr
 
 ### Konfiguracja interfejsów sieciowych
 
-Następnie, przy użyciu tego przewodnika, skonfiguruj interfejsy sieciowe na nowej instancji Public Cloud i serwerze dedykowanym: [Konfiguracja kilku serwerów dedykowanych w sieci vRack](/pages/bare_metal_cloud/dedicated_servers/vrack_configuing_on_dedicated_server).
+Następnie, przy użyciu tego przewodnika, skonfiguruj interfejsy sieciowe na nowej instancji Public Cloud i serwerze dedykowanym: [Konfiguracja kilku serwerów dedykowanych w sieci vRack](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server).
 
 ## Sprawdź również
 
