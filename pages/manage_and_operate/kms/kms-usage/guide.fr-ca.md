@@ -29,7 +29,11 @@ Le KMS étant régionalisé, l'accès à l'API se fait directement sur la régio
 
 Par exemple, pour un KMS créé sur la région **eu-west-rbx** : <https://eu-west-rbx.okms.ovh.net>
 
-Il est aussi possible d'utiliser le SDK en Golang dont la documentation est accessible sur le lien suivant : <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
+Il est possible de communiquer avec le KMS en utilisant :
+
+- L'interface utilisateur Swagger
+- La CLI OKMS : <https://github.com/ovh/okms-cli>
+- Le SDK Golang : <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
 
 ### Utilisation de l'API KMS via l'interface utilisateur Swagger
 
