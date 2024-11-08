@@ -222,7 +222,7 @@ L'interface suivante vous permet de téléverser et d'envoyer à nos équipes le
 > - **Formats acceptés** : jpg, jpeg, pdf, png. La taille maximale du fichier pour chaque document est de 10 Mo.
 > - En cas de documents non valides, cette procédure sera annulée et vous devrez en effectuer une nouvelle.
 
-Dans un délai de 72 heures, sous réserve que vos documents soient sont corrects et lisibles, vous recevrez la confirmation de la désactivation de la double authentification par e-mail.
+Dans un délai de 72 heures, sous réserve que vos documents sont corrects et lisibles, vous recevrez la confirmation de la désactivation de la double authentification par e-mail.
 
 /// details | Liste des justificatifs
 
