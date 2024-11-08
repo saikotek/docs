@@ -1,12 +1,12 @@
 ---
 title: 'Configurer le vRack entre Public Cloud et un serveur dédié'
 excerpt: 'Découvrez comment configurer un réseau privé entre une instance Public Cloud et un serveur dédié.'
-updated: 2024-10-24
+updated: 2024-11-08
 ---
 
 ## Objectif
 
-Le [vRack](/links/network/vrack) OVHcloud est un réseau privé qui vous permet de configurer l'adressage entre deux ou plusieurs [Serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud. Mais il vous permet également d'ajouter des [instances Public Cloud](https://www.ovh.com/fr/public-cloud/instances/) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
+Le [vRack](/links/network/vrack) OVHcloud est un réseau privé qui vous permet de configurer l'adressage entre deux ou plusieurs [Serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud. Mais il vous permet également d'ajouter des [instances Public Cloud](/links/public-cloud/compute) à votre réseau privé afin de créer une infrastructure de ressources physiques et virtuelles.
 
 **Ce guide vous montre comment configurer le réseau privé entre une [instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) et un [Serveur dédié](/links/bare-metal/bare-metal).**
 
@@ -19,9 +19,9 @@ Le [vRack](/links/network/vrack) OVHcloud est un réseau privé qui vous permet 
 * Une plage d'adresses IP privées de votre choix
 
 > [!warning]
-> Cette fonctionnalité peut être indisponible ou limitée sur les [serveurs dédiés **Eco**](https://eco.ovhcloud.com/fr/about/).
+> Cette fonctionnalité peut être indisponible ou limitée sur les [serveurs dédiés **Eco**](/links/bare-metal/eco-about).
 >
-> Consultez notre [comparatif](https://eco.ovhcloud.com/fr/compare/) pour plus d’informations.
+> Consultez notre [comparatif](/links/bare-metal/eco-compare) pour plus d’informations.
 
 ## En pratique
 
@@ -78,7 +78,7 @@ Cette étape offre plusieurs options de configuration. Pour les besoins de ce gu
 > [!tabs]
 > **Nom du réseau privé**
 >>
->> Entrez un nom pour votre réseau privé.<br>
+>> Entrez un nom pour votre réseau privé.
 >>
 > **Options réseau Layer 2**
 >>
@@ -94,13 +94,13 @@ Cette étape offre plusieurs options de configuration. Pour les besoins de ce gu
 >> - Le réseau privé lié à l'instance Public Cloud doit être « taggué » avec cet identifiant de VLAN.
 >> - Lors de la configuration du vRack sur le serveur dédié, ce VLAN ID doit être inclus dans le fichier de configuration réseau.
 >>
->> [!primary]
->> Pour le Public Cloud, vous définissez un VLAN ID unique par réseau privé. Il n'est pas possible de définir le même VLAN ID sur deux réseaux privés différents.
+>> > [!primary]
+>> > Pour le Public Cloud, vous définissez un VLAN ID unique par réseau privé. Il n'est pas possible de définir le même VLAN ID sur deux réseaux privés différents.
 >>
->> [!primary]
->> Contrairement aux serveurs dédiés (lorsque l’on utilise un VLAN ID différent de 0), il n’est pas nécessaire d’inclure directement le VLAN ID dans le fichier de configuration réseau de l’instance Public Cloud une fois qu’il est paramétré dans l’espace client OVHcloud.
+>> > [!primary]
+>> > Contrairement aux serveurs dédiés (lorsque l’on utilise un VLAN ID différent de 0), il n’est pas nécessaire d’inclure directement le VLAN ID dans le fichier de configuration réseau de l’instance Public Cloud une fois qu’il est paramétré dans l’espace client OVHcloud.
 >>
->> Exemple : si votre réseau privé d'instance est « taggué » avec le VLAN 2, ce VLAN ID doit être inclus dans la configuration réseau du serveur dédié uniquement. Pour plus d'informations, consultez le guide suivant : [Créer plusieurs VLAN dans le vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
+>> Exemple : si votre réseau privé d'instance est « taggué » avec le VLAN 2, ce VLAN ID doit être inclus dans la configuration réseau du serveur dédié uniquement. Pour plus d'informations, consultez le guide suivant : [Créer plusieurs VLAN dans le vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).
 >>
 > **Options de distribution des adresses DHCP**
 >>

@@ -1,16 +1,12 @@
 ---
 title: 'vRack zwischen Public Cloud und Dedicated Server einrichten'
 excerpt: 'Erfahren Sie hier, wie Sie ein privates Netzwerk zwischen Public Cloud Instanzen und Dedicated Servern einrichten'
-updated: 2024-11-07
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
-OVHcloud [vRack](/links/network/vrack) ist ein privates Netzwerk, mit dem Sie das Routing zwischen zwei oder mehr OVHcloud [Dedicated Servern](/links/bare-metal/bare-metal) einrichten können. Darüber hinaus können Sie auch [Public Cloud Instanzen](https://www.ovh.de/public-cloud/instances/) zu Ihrem privaten Netzwerk hinzufügen, um eine Infrastruktur aus physischen und virtuellen Ressourcen zu erstellen.
+OVHcloud [vRack](/links/network/vrack/) ist ein privates Netzwerk, mit dem Sie das Routing zwischen zwei oder mehr OVHcloud [Dedicated Servern](/links/bare-metal/bare-metal) einrichten können. Darüber hinaus können Sie auch [Public Cloud Instanzen](/links/public-cloud/compute) zu Ihrem privaten Netzwerk hinzufügen, um eine Infrastruktur aus physischen und virtuellen Ressourcen zu erstellen.
 
 **Diese Anleitung erklärt, wie Sie eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps) und einen [dedizierten Server](/links/bare-metal/bare-metal) über vRack verbinden.**
 
@@ -23,9 +19,9 @@ OVHcloud [vRack](/links/network/vrack) ist ein privates Netzwerk, mit dem Sie da
 - Sie haben einen privaten IP-Adressbereich für das vRack festgelegt.
 
 > [!warning]
-> Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](https://eco.ovhcloud.com/de/about/) eingesetzt wird.
+> Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](/links/bare-metal/eco-about) eingesetzt wird.
 >
-> Weitere Informationen finden Sie auf der [Vergleichsseite](https://eco.ovhcloud.com/de/compare/).
+> Weitere Informationen finden Sie auf der [Vergleichsseite](/links/bare-metal/eco-compare).
 
 ## In der praktischen Anwendung
 
@@ -98,11 +94,11 @@ Dieser Schritt bietet mehrere Konfigurationsoptionen. Für die Zwecke dieser Anl
 >> - Das private Netzwerk, das mit der Public Cloud Instanz verbunden ist, muss mit dieser VLAN-ID taggen werden.
 >> - Bei der Konfiguration des vRacks auf dem Dedicated Server muss diese VLAN-ID in der Netzwerkkonfigurationsdatei enthalten sein.
 >>
->> [!primary]
->> Für die Public Cloud definieren Sie eine eindeutige VLAN-ID pro privatem Netzwerk. Es ist nicht möglich, dieselbe VLAN-ID in zwei verschiedenen privaten Netzwerken einzurichten.
+>> > [!primary]
+>> > Für die Public Cloud definieren Sie eine eindeutige VLAN-ID pro privatem Netzwerk. Es ist nicht möglich, dieselbe VLAN-ID in zwei verschiedenen privaten Netzwerken einzurichten.
 >>
->> [!primary]
->> Im Gegensatz zu Dedicated Servern (bei Verwendung einer VLAN-ID ungleich 0) ist es nicht erforderlich, die VLAN-ID direkt in die Netzwerkkonfigurationsdatei der Public Cloud-Instanz einzufügen, sobald sie im OVHcloud Kundencenter eingerichtet wurde.
+>> > [!primary]
+>> > Im Gegensatz zu Dedicated Servern (bei Verwendung einer VLAN-ID ungleich 0) ist es nicht erforderlich, die VLAN-ID direkt in die Netzwerkkonfigurationsdatei der Public Cloud-Instanz einzufügen, sobald sie im OVHcloud Kundencenter eingerichtet wurde.
 >>
 >> Beispiel: Wenn Ihr privates Netzwerk der Instanz mit VLAN 2 getaggt ist, muss diese VLAN-ID nur in der Netzwerkkonfiguration des Dedicated Servers enthalten sein. Weitere Informationen finden Sie in folgender Anleitung: [Mehrere VLANs im vRack erstellen](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).
 >>
@@ -128,4 +124,4 @@ Konfigurieren Sie anschließend die Netzwerkinterfaces auf Ihrer neuen Public Cl
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

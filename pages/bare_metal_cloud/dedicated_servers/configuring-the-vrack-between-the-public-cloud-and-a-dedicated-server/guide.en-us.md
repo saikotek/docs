@@ -1,12 +1,12 @@
 ---
 title: 'Configuring the vRack between the Public Cloud and a Dedicated Server'
 excerpt: 'Find out how to configure private networking between a Public Cloud instance and a Dedicated Server'
-updated: 2024-10-24
+updated: 2024-11-08
 ---
 
 ## Objective
 
-The OVHcloud [vRack](/links/network/vrack) allows you to configure private network addressing between two or more OVHcloud [Dedicated Servers](/links/bare-metal/bare-metal). But it also allows you to add [Public Cloud instances](https://www.ovhcloud.com/en/public-cloud/) to your private network so that you can create an infrastructure of both physical and virtual resources.
+The OVHcloud [vRack](/links/network/vrack) allows you to configure private network addressing between two or more OVHcloud [Dedicated Servers](/links/bare-metal/bare-metal). But it also allows you to add [Public Cloud instances](/links/public-cloud/compute) to your private network so that you can create an infrastructure of both physical and virtual resources.
 
 **This guide will show you how to configure private networking between a [Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps) and a [Dedicated Server](/links/bare-metal/bare-metal).**
 
@@ -19,9 +19,9 @@ The OVHcloud [vRack](/links/network/vrack) allows you to configure private netwo
 - A private IP address range of your choice
 
 > [!warning]
-> This feature might be unavailable or limited on servers of the [**Eco** product line](https://eco.ovhcloud.com/en/about/).
+> This feature might be unavailable or limited on servers of the [**Eco** product line](/links/bare-metal/eco-about).
 >
-> Please visit our [comparison page](https://eco.ovhcloud.com/en/compare/) for more information.
+> Please visit our [comparison page](/links/bare-metal/eco-compare) for more information.
 
 ## Instructions
 
@@ -95,11 +95,11 @@ This step offers several configuration options. For the purpose of this guide, w
 >> - The private network linked to the Public Cloud instance must be tagged with this VLAN ID.
 >> - When configuring the vRack on the dedicated server, this VLAN ID should be included in the network configuration file.
 >> 
->> [!primary]
->> For Public Cloud, you set a unique VLAN ID per private network. It is not possible to set the same VLAN ID on two different private networks.
+>> > [!primary]
+>> > For Public Cloud, you set a unique VLAN ID per private network. It is not possible to set the same VLAN ID on two different private networks.
 >>
->> [!primary] 
->> Unlike dedicated servers (when using a VLAN ID other than 0), there is no need to include the VLAN ID directly in the network configuration file of the Public Cloud instance once it is set in the OVHcloud Control Panel.
+>> > [!primary]
+>> > Unlike dedicated servers (when using a VLAN ID other than 0), there is no need to include the VLAN ID directly in the network configuration file of the Public Cloud instance once it is set in the OVHcloud Control Panel.
 >>
 >> An example: If your instance private network is tagged with VLAN 2, this VLAN ID should be included in the network configuration of the dedicated server only. For more information consult the following guide: [Create multiple VLANs in the vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).<br>
 >>

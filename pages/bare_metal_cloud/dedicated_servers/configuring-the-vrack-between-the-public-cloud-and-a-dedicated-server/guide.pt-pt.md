@@ -1,16 +1,12 @@
 ---
 title: 'Configurar o vRack entre o Public Cloud e um servidor dedicado'
 excerpt: 'Saiba como configurar uma rede privada entre uma instância Public Cloud e um servidor dedicado'
-updated: 2024-11-07
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Sumário
 
-O [vRack](/links/network/vrack) da OVHcloud é uma rede privada que lhe permite configurar o direcionamento entre dois ou mais [servidores dedicados](/links/bare-metal/bare-metal) da OVHcloud. Além disso, permite-lhe também adicionar [instâncias Public Cloud](https://www.ovhcloud.com/pt/public-cloud/) à sua rede privada para criar uma infraestrutura de recursos físicos e virtuais.
+O [vRack](/links/network/vrack) da OVHcloud é uma rede privada que lhe permite configurar o direcionamento entre dois ou mais [servidores dedicados](/links/bare-metal/bare-metal) da OVHcloud. Além disso, permite-lhe também adicionar [instâncias Public Cloud](/links/public-cloud/compute) à sua rede privada para criar uma infraestrutura de recursos físicos e virtuais.
 
 **Este manual explica-lhe como configurar uma rede privada entre uma instância Public Cloud e um servidor dedicado.**
 
@@ -23,9 +19,9 @@ O [vRack](/links/network/vrack) da OVHcloud é uma rede privada que lhe permite 
 * Um intervalo de endereços IP privados à sua escolha
 
 > [!warning]
-> Esta funcionalidade pode estar indisponível ou limitada nos [servidores dedicados **Eco**](https://eco.ovhcloud.com/pt/about/).
+> Esta funcionalidade pode estar indisponível ou limitada nos [servidores dedicados **Eco**](/links/bare-metal/eco-about).
 >
-> Para mais informações, consulte o nosso [comparativo](https://eco.ovhcloud.com/pt/compare/).
+> Para mais informações, consulte o nosso [comparativo](/links/bare-metal/eco-compare).
 
 ## Instruções
 
@@ -99,13 +95,13 @@ Esta etapa oferece várias opções de configuração. Para as necessidades dest
 >> - A rede privada ligada à instância de Public Cloud deve ser etiquetada com este identificador de VLAN.
 >> - Aquando da configuração do vRack no servidor dedicado, este VLAN ID deve ser incluído no ficheiro de configuração de rede.
 >>
->> [!primary]
->> Para o Public Cloud, deve definir um VLAN ID único por rede privada. Não é possível definir o mesmo VLAN ID em duas redes privadas diferentes.
+>> > [!primary]
+>> > Para o Public Cloud, deve definir um VLAN ID único por rede privada. Não é possível definir o mesmo VLAN ID em duas redes privadas diferentes.
 >>
->> [!primary]
->> Ao contrário dos servidores dedicados (quando se utiliza um VLAN ID diferente de 0), não é necessário incluir diretamente o VLAN ID no ficheiro de configuração de rede da instância Public Cloud depois de ter sido configurado na Área de Cliente OVHcloud.
+>> > [!primary]
+>> > Ao contrário dos servidores dedicados (quando se utiliza um VLAN ID diferente de 0), não é necessário incluir diretamente o VLAN ID no ficheiro de configuração de rede da instância Public Cloud depois de ter sido configurado na Área de Cliente OVHcloud.
 >>
->> Exemplo: se a rede privada da sua instância estiver etiquetada com a VLAN 2, esta VLAN ID deve ser incluída apenas na configuração de rede do servidor dedicado. Para mais informações, consulte o seguinte guia: [Criar várias VLAN no vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
+>> Exemplo: se a rede privada da sua instância estiver etiquetada com a VLAN 2, esta VLAN ID deve ser incluída apenas na configuração de rede do servidor dedicado. Para mais informações, consulte o seguinte guia: [Criar várias VLAN no vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).
 >>
 > **Opções de distribuição dos endereços DHCP**
 >>
@@ -117,5 +113,5 @@ Esta etapa oferece várias opções de configuração. Para as necessidades dest
 De seguida, configure as interfaces de rede na nova instância Public Cloud e no seu servidor dedicado através deste guia: [Configurar vários servidores dedicados no vRack](/pages/bare_metal_cloud/dedicated_servers/vrack_configuring_on_dedicated_server).
 
 ## Quer saber mais?
- 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+
+Fale com a nossa [comunidade de utilizadores](/links/community).

@@ -1,16 +1,12 @@
 ---
 title: 'Konfiguracja sieci vRack między Public Cloud a serwerem dedykowanym'
 excerpt: 'Dowiedz się, jak skonfigurować prywatną sieć między instancją Public Cloud a serwerem dedykowanym'
-updated: 2024-11-07
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
-[vRack](/links/network/vrack) OVHcloud to prywatna sieć, która umożliwia konfigurację adresowania między dwoma lub kilkoma [Serwerami dedykowanymi](/links/bare-metal/bare-metal) OVHcloud. Umożliwia ponadto dodawanie [instancji Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) do Twojej prywatnej sieci w celu utworzenia infrastruktury z zasobów fizycznych i wirtualnych.
+[vRack](/links/network/vrack) OVHcloud to prywatna sieć, która umożliwia konfigurację adresowania między dwoma lub kilkoma [Serwerami dedykowanymi](/links/bare-metal/bare-metal) OVHcloud. Umożliwia ponadto dodawanie [instancji Public Cloud](/links/public-cloud/compute) do Twojej prywatnej sieci w celu utworzenia infrastruktury z zasobów fizycznych i wirtualnych.
 
 **Niniejszy przewodnik wyjaśnia, jak skonfigurować sieć prywatną między [instancją Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) a [serwerem dedykowanym](/links/bare-metal/bare-metal).**
 
@@ -23,9 +19,9 @@ updated: 2024-11-07
 * Wybrany zakres prywatnych adresów IP
 
 > [!warning]
-> Funkcja ta może być niedostępna lub ograniczona na [serwerach dedykowanych **Eco**](https://eco.ovhcloud.com/pl/about/).
+> Funkcja ta może być niedostępna lub ograniczona na [serwerach dedykowanych **Eco**](/links/bare-metal/eco-about).
 >
-> Aby uzyskać więcej informacji, zapoznaj się z naszym [porównaniem](https://eco.ovhcloud.com/pl/compare/).
+> Aby uzyskać więcej informacji, zapoznaj się z naszym [porównaniem](/links/bare-metal/eco-compare).
 
 
 ## W praktyce
@@ -99,11 +95,11 @@ Ten etap oferuje kilka opcji konfiguracji. Na potrzeby tego przewodnika skupimy 
 >> - Sieć prywatna powiązana z instancją Public Cloud musi być "oznaczona" tym identyfikatorem VLAN.
 >> - Podczas konfigurowania sieci vRack na serwerze dedykowanym, ten identyfikator sieci VLAN musi być zawarty w pliku konfiguracji sieci.
 >>
->> [!primary]
->> W przypadku usługi Public Cloud definiujesz pojedynczy VLAN ID dla każdej sieci prywatnej. Nie można ustawić tego samego VLAN ID w dwóch różnych sieciach prywatnych.
+>> > [!primary]
+>> > W przypadku usługi Public Cloud definiujesz pojedynczy VLAN ID dla każdej sieci prywatnej. Nie można ustawić tego samego VLAN ID w dwóch różnych sieciach prywatnych.
 >>
->> [!primary]
->> W przeciwieństwie do serwerów dedykowanych (gdy używany jest VLAN ID inny niż 0), nie jest konieczne bezpośrednie uwzględnianie VLAN ID w pliku konfiguracji sieci instancji Public Cloud po jego skonfigurowaniu w Panelu klienta OVHcloud.
+>> > [!primary]
+>> > W przeciwieństwie do serwerów dedykowanych (gdy używany jest VLAN ID inny niż 0), nie jest konieczne bezpośrednie uwzględnianie VLAN ID w pliku konfiguracji sieci instancji Public Cloud po jego skonfigurowaniu w Panelu klienta OVHcloud.
 >>
 >> Przykład: jeśli prywatna sieć instancji jest "oznaczona" VLAN 2, ten VLAN ID musi być zawarty w konfiguracji sieci tylko serwera dedykowanego. Więcej informacji znajdziesz w przewodniku: [Tworzenie wielu sieci VLAN w sieci vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
 >>
@@ -128,4 +124,4 @@ Następnie, przy użyciu tego przewodnika, skonfiguruj interfejsy sieciowe na no
 
 ## Sprawdź również
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

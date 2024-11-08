@@ -1,16 +1,12 @@
 ---
 title: 'Configurar el vRack entre Public Cloud y un servidor dedicado'
 excerpt: 'Cómo configurar una red privada entre una instancia de Public Cloud y un servidor dedicado'
-updated: 2024-11-07
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
 
 ## Objetivo
 
-El [vRack](/links/network/vrack) de OVHcloud es una red privada que permite configurar el direccionamiento entre dos o más [servidores dedicados](/links/bare-metal/bare-metal) de OVHcloud. También permite añadir [instancias de Public Cloud](https://www.ovhcloud.com/es/public-cloud/) para crear una infraestructura de recursos físicos y virtuales.
+El [vRack](/links/network/vrack) de OVHcloud es una red privada que permite configurar el direccionamiento entre dos o más [servidores dedicados](/links/bare-metal/bare-metal) de OVHcloud. También permite añadir [instancias de Public Cloud](/links/public-cloud/compute) para crear una infraestructura de recursos físicos y virtuales.
 
 **Esta guía explica cómo configurar la red privada entre una [instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) y un [servidor dedicado](/links/bare-metal/bare-metal).**
 
@@ -23,9 +19,9 @@ El [vRack](/links/network/vrack) de OVHcloud es una red privada que permite conf
 * Un rango de direcciones IP privadas que elija.
 
 > [!warning]
-> Esta funcionalidad puede no estar disponible o estar limitada en los [servidores dedicados **Eco**](https://eco.ovhcloud.com/es/about/).
+> Esta funcionalidad puede no estar disponible o estar limitada en los [servidores dedicados **Eco**](/links/bare-metal/eco-about).
 >
-> Para más información, consulte nuestra [comparativa](https://eco.ovhcloud.com/es/compare/).
+> Para más información, consulte nuestra [comparativa](/links/bare-metal/eco-compare).
 
 ## Procedimiento
 
@@ -65,7 +61,6 @@ Haga clic en el botón `Añadir una red privada`{.action}.
 
 ![create private network](images/vrack2022-03.png){.thumbnail}
 
-
 En la siguiente página, puede personalizar varias opciones de configuración.
 
 En el paso 1, seleccione la región en la que desea colocar la red privada.
@@ -99,11 +94,11 @@ Este paso ofrece varias opciones de configuración. A efectos de esta guía, nos
 >> - La red privada asociada a la instancia Public Cloud debe estar «etiquetada» con este identificador de VLAN.
 >> - Al configurar el vRack en el servidor dedicado, esta VLAN ID debe incluirse en el archivo de configuración de red.
 >>
->> [!primary]
->> Para Public Cloud, defina un VLAN ID único por red privada. No es posible definir el mismo VLAN ID en dos redes privadas diferentes.
+>> > [!primary]
+>> > Para Public Cloud, defina un VLAN ID único por red privada. No es posible definir el mismo VLAN ID en dos redes privadas diferentes.
 >>
->> [!primary]
->> A diferencia de los servidores dedicados (cuando se utiliza un VLAN ID distinto de 0), no es necesario incluir directamente el VLAN ID en el archivo de configuración de red de la instancia Public Cloud una vez configurado en el área de cliente de OVHcloud.
+>> > [!primary]
+>> > A diferencia de los servidores dedicados (cuando se utiliza un VLAN ID distinto de 0), no es necesario incluir directamente el VLAN ID en el archivo de configuración de red de la instancia Public Cloud una vez configurado en el área de cliente de OVHcloud.
 >>
 >> Ejemplo: si su red privada de instancia está «etiquetada» con la VLAN 2, esta VLAN ID debe incluirse en la configuración de red del servidor dedicado únicamente. Para más información, consulte la siguiente guía: [Crear varias VLAN en el vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).<br>
 >>
@@ -129,4 +124,4 @@ A continuación, configure las interfaces de red en la nueva instancia de Public
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).
