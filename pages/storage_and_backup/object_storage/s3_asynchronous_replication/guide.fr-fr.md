@@ -337,7 +337,7 @@ Supposons que le bucket source, le bucket `region1-destination-bucket` et le buc
       "Destination": {
         "Bucket": "arn:aws:s3:::destination-bucket1"
       },
-      "DeleteMarkerReplication": { "Status": "Disabled" },
+      "DeleteMarkerReplication": { "Status": "Enabled" },
     },
     {
       "ID": "rule2",
