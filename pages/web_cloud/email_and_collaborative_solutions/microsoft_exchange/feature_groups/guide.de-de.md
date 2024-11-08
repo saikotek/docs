@@ -36,15 +36,15 @@ Wenn Sie auf `Kontaktgruppe erstellen`{.action} klicken, öffnet sich ein neues 
 
 ![contactgroups](images/exchange-groups-create02.png){.thumbnail .w-600 .h-600}
 
-- **E-Mail-Adresse**: Geben Sie eine neue Adresse ein, um Nachrichten an die Mailingliste zu senden. Achten Sie darauf, keine bereits funktionierende Adresse zu verwenden.
-- **Gruppenname**: Verwenden Sie den Namen, der in Ihrem [OVHcloud Kundencenter](/links/manager) und [OVHcloud Web Messaging](/links/web/email) (OWA) angezeigt wird.
-- **Maximale Größe für Ein- und Ausgabe**: Sie können die maximale Größe für ein- und ausgehende E-Mails angeben.
-- **In Outlook ausblenden**: Wenn dieses Kontrollkästchen aktiviert ist, wird die Gruppenadresse nicht in der Adressliste des Exchange Dienstes angezeigt.
-- **Authentifizierung erforderlich**: Wenn dieses Kontrollkästchen aktiviert ist, können nur Benutzer derselben Plattform Nachrichten mit der Gruppenadresse senden.
+- **E-Mail-Adresse**: Die neue Adresse, von der aus Nachrichten an die Mailingliste gesendet werden. Beachten Sie, dass Sie keine existierende E-Mail-Adresse eingeben können.
+- **Name der Gruppe**: Der Anzeigename, der in Ihrem [OVHcloud Kundencenter](/links/manager) und in [OVHcloud Webmail](/links/web/email) (OWA) erscheint.
+- **Maximale Größe eingehend/ausgehend**: Sie können die maximale Größe eingehender und ausgehender E-Mails angeben.
+- **Adresse in Outlook verbergen**: Wenn diese Option aktiviert ist, wird die Gruppenadresse nicht in der Adressliste des Exchange Dienstes angezeigt.
+- **Authentifizierung erforderlich**: Wenn diese Option aktiviert ist, können nur Benutzer auf derselben Plattform eine Nachricht mit der Gruppenadresse senden.
 
 Klicken Sie auf `Weiter`{.action}, um fortzufahren.
 
-Wählen Sie auf der zweiten Seite die **Kontakte** der Gruppe aus, und geben Sie die **Administratoren** an. Diese Auswahl erfolgt ausschließlich unter den bereits im Dienst aufgeführten E-Mail-Adressen und externen Kontakten.
+Wählen Sie auf der zweiten Seite die **Kontakte** der Gruppe aus, und definieren Sie die **Administratoren**. Die Auswahl umfasst nur E-Mail-Adressen und externe Kontakte, die bereits für den Exchange Dienst angelegt wurden.
 
 - **Administratoren**: E-Mail-Accounts, die E-Mails an alle Gruppenkontakte senden dürfen.
 - **Kontakte**: E-Mail-Accounts, die von Administratoren an die Gruppe gesendete E-Mails empfangen.
@@ -59,13 +59,13 @@ Klicken Sie auf `Weiter`{.action}, um fortzufahren, und klicken Sie auf `Bestät
 
 ### Gruppen verwalten
 
-Nachdem Sie Ihre Gruppe erstellt haben, können Sie die von Ihnen festgelegten Einstellungen ändern. Klicken Sie dazu auf `...`{.action} rechts neben der Gruppe in der Tabelle.
+Nachdem die Gruppe erstellt wurde, können Sie die die oben beschriebenen Einstellungen anpassen, indem Sie auf `...`{.action} rechts der Gruppe in der Tabelle klicken.
 
 ![contactGroups](images/exchange-groups-options01.png){.thumbnail .w-600 .h-600}
 
 #### Benutzer in einer Gruppe verwalten
 
-Um `Kontakte` zu Ihrer Gruppe hinzuzufügen oder `Administratoren` zu definieren, klicken Sie auf den Button `...`{.action} und dann auf `Benutzer konfigurieren`{.action}. Markieren Sie die Attribute, die Sie an die E-Mail-Adressen in der Spalte `E-Mail-Account` anhängen möchten.
+Um `Kontakte` zu Ihrer Gruppe hinzuzufügen oder `Administratoren` zu definieren, klicken Sie auf den Button `...`{.action} und dann auf `Benutzer konfigurieren`{.action}. Markieren Sie die Attribute, die Sie den E-Mail-Adressen in der Spalte `E-Mail-Account` zuordnen möchten.
 
 > [!primary]
 >
@@ -75,13 +75,13 @@ Um `Kontakte` zu Ihrer Gruppe hinzuzufügen oder `Administratoren` zu definieren
 
 #### Delegierungen einer Gruppe verwalten
 
-Die Menüoption `Delegierungen konfigurieren`{.action} wird angezeigt. Diese Option erlaubt es Ihnen, den Zugriff auf dieselbe Weise zu delegieren, wie Sie es für einen Exchange Account tun. Weitere Informationen finden Sie in [dieser Anleitung](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
+Die Menüoption `Berechtigungen konfigurieren`{.action} erlaubt es, den Zugriff auf dieselbe Weise wie für einen Exchange Account übertragen. Weitere Details finden Sie in [dieser Anleitung](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
 
 ![contactGroups](images/exchange-groups-options-delegation01.png){.thumbnail .w-600 .h-600}
 
 > [!primary]
 >
-> Bitte beachten Sie, dass es einige Minuten dauern kann, bis alle Änderungen an diesem Dienst wirksam werden. Sie können den Status der meisten Operationen überprüfen, indem Sie im horizontalen Menü die Optionen `Mehr`{.action} und `Aktuelle Tasks`{.action} auswählen.
+> Beachten Sie, dass es einige Minuten dauern kann, bis alle Änderungen an diesem Dienst wirksam werden. Sie können den Status der meisten Operationen überprüfen, indem Sie im horizontalen Menü die Optionen `Mehr`{.action} und `Aktuelle Tasks`{.action} auswählen.
 
 ### Nachricht an eine Gruppe mit OWA senden
 
