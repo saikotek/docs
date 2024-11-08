@@ -1,6 +1,6 @@
 ---
 title: Object Storage - Endpoints et géo-disponibilité de l’Object Storage
-updated: 2024-10-01
+updated: 2024-11-21
 ---
 
 <style>
@@ -24,75 +24,107 @@ OVHcloud Object Storage S3 est accessible via un point de terminaison unique : `
         <th>Région<br><b><i>A saisir en minuscules</i></b></th>
         <th>Protocole</th>
         <th>Version de la signature</th>
+        <th>Mode de déploiement</th>
+        <th>classe de stockage supportée</th>
     </tr>
     <tr>
-        <td rowspan=6>Europe</td>
+        <td rowspan=7><strong>Europe</strong></td>
         <td>Gravelines</td>
         <td>gra</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Roubaix</td>
         <td>rbx</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Strasbourg</td>
         <td>sbg</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
+    </tr>
+    <tr>
+        <td>Paris</td>
+        <td>eu-west-par</td>
+        <td>HTTPS</td>
+        <td>4</td>
+        <td>région 3-AZ</td>
+        <td>Standard uniquement</td>
     </tr>
     <tr>
         <td>Francfort</td>
         <td>de</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Londres</td>
         <td>uk</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Varsovie</td>
         <td>waw</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
-        <td rowspan=2>Amerique du nord<br>(hors USA)</td>
+        <td rowspan=2><strong>Amerique du Nord<br>(hors USA)</strong></td>
         <td>Beauharnois</td>
         <td>bhs</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Toronto</td>
         <td>ca-east-tor</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
-        <td rowspan=3>Asia-Pacific</td>
+        <td rowspan=3><strong>Asie-Pacifique</strong></td>
         <td>Singapour</td>
         <td>sgp</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Sydney</td>
         <td>ap-southeast-syd</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Mumbai</td>
         <td>ap-south-mum</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>région 1-AZ</td>
+        <td>Standard & High Performance</td>
     </tr>
 </table>
 
