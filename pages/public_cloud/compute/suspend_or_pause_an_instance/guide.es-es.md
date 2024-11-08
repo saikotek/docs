@@ -3,10 +3,6 @@ title: Suspender o poner en pausa una instancia
 updated: 2024-11-07
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Como parte de la configuración de una infraestructura de alta disponibilidad, puede encontrarse con la necesidad de cortar el acceso a sus instancias para poder realizar distintas pruebas. OpenStack le permite suspender, detener o poner en pausa sus instancias. En cada caso, su IP se mantiene.

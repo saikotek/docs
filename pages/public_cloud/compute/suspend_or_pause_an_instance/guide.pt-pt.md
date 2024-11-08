@@ -3,10 +3,6 @@ title: Suspender ou colocar em pausa uma instância
 updated: 2024-11-07
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 No âmbito da configuração de uma infraestrutura de alta disponibilidade, é possível que tenha de reduzir o acesso às suas instâncias para efetuar alguns testes. OpenStack que suspenda, parar ou coloque em pausa as suas instâncias. Em cada caso, o seu endereço IP é mantido.

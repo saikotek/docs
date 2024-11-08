@@ -3,10 +3,6 @@ title: Wstrzymanie lub uśpienie instancji
 updated: 2024-11-07
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Częścią konfiguracji infrastruktury o wysokiej dostępności może być konieczność odcięcia dostępu do instancji w celu przeprowadzenia różnych testów. OpenStack pozwala zatrzymać, wstrzymać lub zawiesić Twoją instancję. W każdym przypadku Twój adres IP jest zachowywany.
