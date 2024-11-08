@@ -4,10 +4,6 @@ excerpt: 'Saiba como configurar o vRack para as instâncias de Public Cloud'
 updated: 2024-11-07
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O [vRack](/links/network/vrack) é uma rede privada que lhe permite configurar o direcionamento entre vários servidores dedicados OVHcloud. Mas permite-lhe também adicionar [instâncias Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) à sua rede privada a fim de criar uma infraestrutura de recursos físicos e virtuais.
@@ -674,4 +670,4 @@ nova interface-detach 12345678-90ab-cdef-xxxx-xxxxxxxxxxxx 12345678-abcd-ef01-23
 
 Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](/links/professional-services) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
 
-Fale com nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).
