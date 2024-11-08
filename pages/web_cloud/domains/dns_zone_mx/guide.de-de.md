@@ -37,6 +37,7 @@ MX-Einträge (**M**ail e**X**change) werden verwendet, um einen Domainnamen mit 
 Beispiel:
 
 Von der Adresse **sender@otherdomain.ovh** wird eine E-Mail an **contact@mydomain.ovh** gesendet. Der Server, der die E-Mail sendet (**Outgoing mail server**) wird dazu:
+
 - **(1)** Die DNS-Zone von **mydomain.ovh** auf deren **MX**-Einträge abfragen.
 - **(2)** Die E-Mail an die URL des gelesenen **MX**-Eintrags weiterleiten.
 

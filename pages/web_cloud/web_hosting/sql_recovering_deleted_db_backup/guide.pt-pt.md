@@ -70,15 +70,15 @@ Para isso, efetue as seguintes ações:
 Para isso, preencha os diferentes formulários tal como se especifica a seguir:
 
 - Para a secção intitulada `PATH PARAMETERS`:
-- `serviceName`: Introduza o nome do seu alojamento web anteriormente recuperado na etapa 1 deste guia.
+    - `serviceName`: Introduza o nome do seu alojamento web anteriormente recuperado na etapa 1 deste guia.
 
 - Para a secção intitulada `QUERY-STRING PARAMETERS`:
-- `creationDate.from`: Deixe o formulário vazio.
-- `creationDate.to`: Deixe o formulário vazio.
-- `databaseName`: Introduza o nome da base de dados eliminada acidentalmente. (exemplo: **deletedDatabase.mysql.db**).
-- `deletionDate.from`: Deixe o formulário vazio.
-- `deletionDate.to`: Deixe o formulário vazio.
-- `orphan`: Introduza o valor em minúsculas: `true`.
+    - `creationDate.from`: Deixe o formulário vazio.
+    - `creationDate.to`: Deixe o formulário vazio.
+    - `databaseName`: Introduza o nome da base de dados eliminada acidentalmente. (exemplo: **deletedDatabase.mysql.db**).
+    - `deletionDate.from`: Deixe o formulário vazio.
+    - `deletionDate.to`: Deixe o formulário vazio.
+    - `orphan`: Introduza o valor em minúsculas: `true`.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 

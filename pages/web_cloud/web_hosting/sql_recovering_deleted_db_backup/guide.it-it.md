@@ -70,15 +70,15 @@ Per effettuare questa operazione, esegui le operazioni seguenti:
 Per farlo, compila i diversi moduli come dettagliato di seguito:
 
 - Per la sezione intitolata `PATH PARAMETERS`:
-- `serviceName`: Inserisci il nome del tuo hosting Web precedentemente recuperato nello Step 1 di questa guida.
+    - `serviceName`: Inserisci il nome del tuo hosting Web precedentemente recuperato nello Step 1 di questa guida.
 
 - Per la sezione intitolata `QUERY-STRING PARAMETERS`:
-- `creationDate.from`: lasciare il modulo vuoto.
-- `creationDate.to`: lasciare il modulo vuoto.
-- `databaseName`: Inserisci il nome del database eliminato accidentalmente. (esempio: **deletedDatabase.mysql.db**).
-- `deletionDate.from`: lasciare il modulo vuoto.
-- `deletionDate.to`: lasciare il modulo vuoto.
-- `orphan`: Inserisci in minuscolo il valore: `true`.
+    - `creationDate.from`: lasciare il modulo vuoto.
+    - `creationDate.to`: lasciare il modulo vuoto.
+    - `databaseName`: Inserisci il nome del database eliminato accidentalmente. (esempio: **deletedDatabase.mysql.db**).
+    - `deletionDate.from`: lasciare il modulo vuoto.
+    - `deletionDate.to`: lasciare il modulo vuoto.
+    - `orphan`: Inserisci in minuscolo il valore: `true`.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 

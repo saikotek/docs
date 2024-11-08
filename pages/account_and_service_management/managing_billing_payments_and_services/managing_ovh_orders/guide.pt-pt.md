@@ -35,7 +35,7 @@ A nota de encomenda é criada quando efetua a encomenda. Indica os produtos enco
 |3|Métodos de pagamento registados na sua conta de cliente. Para mais informações, consulte o guia [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods).|
 |4|Métodos de pagamento disponíveis. Apenas serão sugeridos os métodos de pagamento autorizados no país de origem da conta ou os relacionados com o tipo de conta registada.|
 
-Pode consultar a sua nota de encomenda a qualquer momento a partir da [Área de Cliente OVHcloud](/links/manager,) conforme explicado abaixo.
+Pode consultar a sua nota de encomenda a qualquer momento a partir da [Área de Cliente OVHcloud](/links/manager) conforme explicado abaixo.
 
 ### Aceder às notas de encomenda na Área de Cliente OVHcloud
 
