@@ -4,10 +4,6 @@ excerpt: "Neste guia, encontrará várias informações sobre a alteração de t
 updated: 2024-09-04
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Para além da [gestão dos contactos](/pages/account_and_service_management/account_information/managing_contacts), o registo de um nome de domínio precisa da indicação das informações relativas ao titular do mesmo. O **proprietário** neste contexto diz respeito a uma pessoa ou empresa que detenha os direitos sobre esse nome de domínio. **A mudança de proprietário** refere - se à transferência de direitos de propriedade de uma pessoa ou empresa para outra, as informações do **proprietário** têm valor jurídico. Por exemplo, este processo é obrigatório se uma sociedade mudar de nome.

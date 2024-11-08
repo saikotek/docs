@@ -4,10 +4,6 @@ excerpt: "Descubra cómo funciona DMARC y cómo implementarlo para su servicio d
 updated: 2023-12-13
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 El registro **D**omain-based **M**essage **A**uthentication, **R**eporting, and **C**onformance (DMARC) es un mecanismo de seguridad del correo electrónico. Se basa en los resultados de las comprobaciones [SPF](/pages/web_cloud/domains/dns_zone_spf) y [DKIM](/pages/web_cloud/domains/dns_zone_dkim).

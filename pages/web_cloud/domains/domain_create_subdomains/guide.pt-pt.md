@@ -4,10 +4,6 @@ excerpt: "Saiba a definição de um subdomínio e como criá-lo na OVHcloud"
 updated: 2024-03-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo <a name="goal"></a>
 
 A Internet é composta por servidores e dispositivos que interagem entre si através de uma rede global. Quando estes servidores e os seus dispositivos estão ligados à rede Internet, é-lhes atribuído um **endereço IP público** (equivalente a um endereço postal). Este endereço IP permite ligar remotamente um servidor ou dispositivo, permitindo assim que um utilizador veja um website introduzindo esse endereço IP através do browser instalado no computador do utilizador.

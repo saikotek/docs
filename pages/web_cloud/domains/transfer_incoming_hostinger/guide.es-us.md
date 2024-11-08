@@ -4,10 +4,6 @@ excerpt: 'Descubra diferentes datos relativos a la transferencia de un dominio H
 updated: 2024-06-28
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
-> 
-
 ## Objetivo
 
 Para transferir un dominio Hostinger es necesario seguir un procedimiento específico.
