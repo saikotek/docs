@@ -1,12 +1,8 @@
 ---
 title: "Installazione di un NAS-HA tramite condivisione NFS"
 excerpt: "Come connettersi al tuo NAS-HA utilizzando una condivisione NFS"
-updated: 2024-09-18
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo 
 
@@ -17,12 +13,12 @@ Il servizio NAS-HA OVHcloud ti permette di gestire uno storage di file accessibi
 > [!warning]
 > OVHcloud offre una serie di servizi di cui è responsabile la configurazione e la gestione. Spetta quindi a te assicurarti che funzionino correttamente.
 >
-> Questa guida ti aiuta a eseguire le operazioni necessarie sul tuo VPS. Tuttavia, in caso di difficoltà o dubbi relativi all'amministrazione, all'utilizzo o alla creazione di servizi su un server, ti consigliamo di rivolgerti a un [fornitore specializzato](https://partner.ovhcloud.com/it/directory/) o di contattare la [nostra community](https://community.ovh.com/en/).
+> Questa guida ti aiuta a eseguire le operazioni necessarie sul tuo VPS. Tuttavia, in caso di difficoltà o dubbi relativi all'amministrazione, all'utilizzo o alla creazione di servizi su un server, ti consigliamo di rivolgerti a un [fornitore specializzato](/links/partner) o di contattare la [nostra community](/links/community).
 >
 
 ## Prerequisiti
 
-- Disporre di una soluzione [NAS-HA OVHcloud](https://www.ovhcloud.com/it/storage-solutions/nas-ha/)
+- Disporre di una soluzione [NAS-HA OVHcloud](/links/storage/nas-ha)
 - Disporre di un servizio OVHcloud associato a un indirizzo IP pubblico (Hosted Private Cloud, server dedicato, VPS, istanza Public Cloud, ecc...)
 - Disporre di un sistema operativo compatibile con NFS sul server
 - [Aver creato una partizione sul tuo servizio con il protocollo NFS attivo](/pages/storage_and_backup/file_storage/ha_nas/nas_get_started#partition)
@@ -33,7 +29,7 @@ Il servizio NAS-HA OVHcloud ti permette di gestire uno storage di file accessibi
 
 Le sezioni seguenti contengono esempi di configurazione per le distribuzioni/sistemi operativi più utilizzati. Per prima cosa accedi al tuo server in SSH o accedi all'interfaccia grafica del tuo sistema operativo installato. Gli esempi che seguono presuppongono che tu sia connesso come utente con elevate autorizzazioni.
 
-Ti ricordiamo inoltre il **nome interno** e **l'indirizzo IP** del tuo servizio NAS-HA, che troverai nell'email ricevuta dopo l'installazione o nel tuo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it).
+Ti ricordiamo inoltre il **nome interno** e **l'indirizzo IP** del tuo servizio NAS-HA, che troverai nell'email ricevuta dopo l'installazione o nel tuo [Spazio Cliente OVHcloud](/links/manager).
 
 I seguenti rating sono utilizzati come argomenti nelle sezioni di riga di comando qui di seguito. Sostituiscili con i valori appropriati al momento dell'inserimento degli ordini.
 
@@ -77,30 +73,34 @@ Adesso puoi accedere alla tua partizione montata nella cartella specificata.
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### CentOS 7 / AlmaLinux / Rocky Linux
+### Distribuzioni basate su RedHat (CentOS / AlmaLinux / Rocky Linux / Fedora / ...)
+
+> [!warning]
+> **Attenzione!**
+> DNF è il successore del gestore di pacchetti YUM ed è comunemente utilizzato in varie distribuzioni Linux basate su Red Hat.
 
 Verifica che le ultime versioni dei package `nfs-utils` e `rpcbind` siano installate:
 
 ```bash
-centos@server:~$ sudo yum install nfs-utils rpcbind
+root@server:~$ sudo yum install nfs-utils rpcbind
 ```
 
 Se necessario, riavvia il servizio `rpcbind` con questo comando:
 
 ```bash
-centos@server:~$ sudo systemctl restart rpcbind
+root@server:~$ sudo systemctl restart rpcbind
 ```
 
 Per effettuare il mount della partizione, utilizza il comando:
 
 ```bash
-centos@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Esempio:**
+**Esempio 1:**
 
 ```bash
-centos@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 Adesso puoi accedere alla tua partizione montata nella cartella specificata.
@@ -112,24 +112,22 @@ Adesso puoi accedere alla tua partizione montata nella cartella specificata.
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### Fedora
+**Esempio 1:**
 
 Installa il package `nfs-utils`:
 
 ```bash
-fedora@server:~$ sudo dnf -y install nfs-utils
+root@server:~$ sudo dnf -y install nfs-utils
 ```
 
 A questo punto, utilizza il comando:
 
 ```bash
-fedora@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Esempio:**
-
 ```bash
-fedora@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 Adesso puoi accedere alla tua partizione montata nella cartella specificata.
@@ -144,7 +142,7 @@ Clicca sul pulsante `Add`{.action} e seleziona `NFS`{.action}.
 
 Nella nuova finestra, inserisci le seguenti informazioni:
 
-|Descrizione|Descrizione|
+|Dettaglio|Descrizione|
 |---|---|
 |ID|Identificatore della condivisione|
 |Server|Indirizzo IP del NAS-HA (esempio: `10.1.1.1`)|
@@ -169,11 +167,12 @@ Nella nuova finestra, seleziona `Mount NFS datastore`{.action} e clicca su `Next
 
 Compila il form con i seguenti dettagli:
 
-|Descrizione|Descrizione|
+|Dettaglio|Descrizione|
 |---|---|
 |Name|Identificatore della condivisione|
 |NFS server|Indirizzo IP del NAS-HA (esempio: `10.1.1.1`)|
 |NFS share|Percorso verso la partizione NAS-HA da mount (esempio: `zpool-123456/partition01`)|
+|NFS versione|Versione del protocollo da utilizzare, selezionare la versione NFS 3|
 
 ![ESXI](images/esxi3.png){.thumbnail}
 
@@ -190,7 +189,7 @@ L'offerta NAS-HA supporta i protocolli NFSv3 e NFSv4. Ne spieghiamo l'utilizzo.
 **Cosa succede se la versione non viene precisata durante l'ordine NFS?**
 
 In questo caso, il tuo client NFS cercherà di connettersi direttamente alla versione più alta supportata da quest'ultimo.
-Ma puoi anche scegliere se utilizzare NFSv3 o NFSv4:
+Ma puoi anche scegliere se utilizzare NFSv3, NFSv4, NFSv4.1 o NFSv4.2:
 
 Per forzare l'utilizzo di NFSv3, utilizza questo comando:
 
@@ -225,11 +224,6 @@ ubuntu@server:~$ nfsstat -m
 Nella risposta, le impostazioni `vers=3` o `vers=4` ti indicano il protocollo utilizzato.
 
 L'utilizzo dei comandi sarà simile per CentOS e Fedora.
-
-**È possibile inserire una versione specifica per l'utilizzo di NFSv4?**
-
-Come in precedenza, il tuo client NFS tenterà di connettersi direttamente alla versione più alta supportata da questi servizi.
-È possibile scegliere tra NFSv4.1 e NFSv4.2
 
 Per forzare l'utilizzo di NFSv4.1, utilizzare il comando seguente:
 
@@ -303,6 +297,6 @@ Alcuni kernel Linux utilizzano un valore `read_ahead_kb` di default di 128 KB. �
 
 ## Per saperne di più
 
-Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](https://www.ovhcloud.com/it/professional-services/) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
+Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](/links/professional-services) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).
