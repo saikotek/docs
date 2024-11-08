@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie Domainnamen mit UK-Ländercode zu einem and
 updated: 2022-10-19
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Der Transferprozess für Top Level Domains (TLDs) des Ländercodes **UK** (**.uk**) unterscheidet sich von dem, der in unserer [Anleitung zu generischen TLDs](/pages/web_cloud/domains/transfer_outgoing_domain) erklärt wird. Die nachfolgenden Anweisungen betreffen diese Endungen:
