@@ -8,7 +8,7 @@ updated: 2024-11-08
 
 La [vRack](/links/network/vrack) OVHcloud è una rete privata che permette di configurare l'indirizzamento tra due o più [Server dedicati](/links/bare-metal/bare-metal) OVHcloud. ma permette anche di aggiungere [istanze Public Cloud](/links/public-cloud/compute) alla rete privata per creare un’infrastruttura di risorse fisiche e virtuali.
 
-**Questa guida ti mostra come configurare una rete privata tra un’ [istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) e un [Server dedicato](/links/bare-metal/bare-metal).**#
+**Questa guida ti mostra come configurare una rete privata tra un’ [istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) e un [Server dedicato](/links/bare-metal/bare-metal).**
 
 ## Prerequisiti
 
