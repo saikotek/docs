@@ -340,7 +340,7 @@ Suppose the source bucket, `region1-destination-bucket` and `region2-destination
       "Destination": {
         "Bucket": "arn:aws:s3:::destination-bucket1"
       },
-      "DeleteMarkerReplication": { "Status": "Disabled" },
+      "DeleteMarkerReplication": { "Status": "Enabled" },
     },
     {
       "ID": "rule2",
