@@ -1,5 +1,5 @@
 ---
-title: 'Exchange - Creating contact groups'
+title: 'Exchange - How to create contact groups'
 excerpt: 'Find out how to manage mailing lists in Exchange'
 updated: 2024-11-07
 ---
@@ -36,15 +36,15 @@ Clicking on `Create a contact group`{.action} will open a new window where you c
 
 ![contactgroups](images/exchange-groups-create02.png){.thumbnail .w-600 .h-600}
 
-- **Email address**: Set a new address to send messages to the mailing list. Please ensure that you are not using an address that is already working.
-- **Group name**: Use the name that appears in your [OVHcloud Control Panel](/links/manager) and in your [OVHcloud web email](/links/web/email) (OWA).
-- **Maximum ingress or egress size** : You can specify the maximum size of ingress and egress emails.
-- **Hide in Outlook** : When this box is ticked, the group address will not appear in the list of Exchange service addresses.
-- **Authentication required** : When this box is ticked, only users on the same platform will be able to send messages with the group address.
+- **Email address**: Set a new address that will send messages to the mailing list. Please note that you cannot enter an existing email address.
+- **Group name**: The display name that appears in your [OVHcloud Control Panel](/links/manager) and in your [OVHcloud webmail](/links/web/email) (OWA).
+- **Max size incoming / outgoing**: You can specify the maximum size of incoming and outgoing emails.
+- **Hide in Outlook**: If this box is ticked, the group address will not appear in the Exchange service's list of addresses.
+- **Authentication required**: If this box is ticked, only users on the same platform will be able to send a message using the group address.
 
 Click `Next`{.action} to continue.
 
-On the second page, select the **Contacts** for the group and designate the **Administrators**. These choices will only be made from the email addresses and external contacts already listed in the service.
+On the second page, select the **Contacts** for the group and designate the **Administrators**. The choices will only include email addresses and external contacts that are already created on the service
 
 - **Administrators**: Email accounts authorized to send an email to all group contacts.
 - **Contacts**: Email accounts that will receive emails sent to the group by administrators.
@@ -57,15 +57,15 @@ On the second page, select the **Contacts** for the group and designate the **Ad
 
 Click `Next`{.action} to continue and click `Confirm`{.action} to finalize your choices.
 
-### Manage groups
+### Managing groups
 
-After you create your group, you can change the settings that you set. To do this, click`...`{.action} to the right of the group in the table.
+After your group is created, you can adjust the settings described above by clicking `...`{.action} to the right of the group in the table.
 
 ![contactgroups](images/exchange-groups-options01.png){.thumbnail .w-600 .h-600}
 
-#### Manage users in a group
+#### Managing users in a group
 
-To add `Contacts` to your group or define `Administrators`, click the ``...`{.action} button, then `Configure users `{.action}. Tick the attributes that you want to attach to the email addresses in the `Email account` column.
+To add `Contacts` to your group or define `Administrators`, click the `...`{.action} button, then `Configure users`{.action}. Select the attributes that you want to attach to the email addresses in the `Email account` column.
 
 > [!primary]
 >
@@ -73,9 +73,9 @@ To add `Contacts` to your group or define `Administrators`, click the ``...`{.ac
 
 ![contactgroups](images/exchange-group-options-users01.png){.thumbnail .w-600 .h-600}
 
-#### Manage group delegations
+#### Managing group delegations
 
-The menu option `Configure delegations`{.action} will appear. This option allows you to delegate access in the same way as for an Exchange account. Find all the details in [this guide](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
+Additionally, the menu item `Manage delegations`{.action} will be displayed. This option allows you to delegate access in the same way as for an Exchange account. Find all the details in [this guide](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
 
 ![contactgroups](images/exchange-groups-options-delegation01.png){.thumbnail .w-600 .h-600}
 
