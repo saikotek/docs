@@ -115,7 +115,7 @@ Po uaktywnieniu usługi odnajdziesz ją w Panelu klienta w sekcji `Bare Metal Cl
 
 Na liście dostępnych usług zaznacz projekt, który chcesz dodać do szafy vRack i kliknij na przycisk `Dodaj`{.action}.
 
-![Dodaj projekt](images/addprojectvRack.png){.thumbnail}
+![Dodaj projekt](images/addprojectvrack.png){.thumbnail}
 
 Aby kontynuować konfigurację vRack, przejdź do sekcji [Tworzenie sieci VLAN w Panelu klienta](./#tworzenie-sieci-prywatnej-w-panelu-klienta-ovhcloud) niniejszego przewodnika.
 
