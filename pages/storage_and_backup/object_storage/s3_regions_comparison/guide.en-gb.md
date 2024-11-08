@@ -38,7 +38,7 @@ A 1-AZ Region consists of a **single availability zone covering multiple data ce
 - **Outage Risk:** In the event of a data center outage, data may become unavailable or potentially lost if the specific data center hosting the S3 service is impacted. However, protection against server rack and drive failures is maintained.
 
 **Note:**  
-To enhance resilience for critical applications in a 1-AZ Region, [asynchronous replication](https://help.ovhcloud.com/csm/en-gb-public-cloud-storage-s3-asynchronous-replication-buckets?id=kb_article_view&sysparm_article=KB0062422) can be employed, providing additional protection without compromising cost-effectiveness. This can help reinforce both application and data resiliency. An other option to mitigate this risk, we recommand using a [**3-AZ deployment mode**](#3-3-az-region).
+To enhance resilience for critical applications in a 1-AZ Region, [asynchronous replication](https://help.ovhcloud.com/csm/en-gb-public-cloud-storage-s3-asynchronous-replication-buckets?id=kb_article_view&sysparm_article=KB0062422) can be employed, providing additional protection without compromising cost-effectiveness. This can help reinforce both application and data resiliency. Another option to mitigate this risk is using a [**3-AZ deployment mode**](#3-3-az-region).
 
 #### Redundancy Specifications for 1-AZ:
 
