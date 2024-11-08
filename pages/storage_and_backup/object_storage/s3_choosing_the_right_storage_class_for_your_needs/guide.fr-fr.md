@@ -15,11 +15,17 @@ La classe de stockage Standard offre un service de stockage objet scalable, comp
 
 Cette offre est adaptée aux cas d'usage suivants : media / content storage & delivery, datalake, website, backup, logs et métriques d'applications.
 
-### High Performance object storage - S3 API
+> **Note:**  
+> La classe de stockage Standard est disponible sur les régions **1-AZ et 3-AZ**. Plus de détails sur les régions disponibles [ici](/pages/storage_and_backup/object_storage/s3_location).
+
+### High Performance object storage - S3 API
 
 La classe de stockage High Performance est un espace de stockage objet hautement performant, pour les applicatifs ayant de gros besoins en bande passante et nécessitant des accès à la donnée en lecture et en écriture extrêmement rapides et intensifs. L’offre s’appuie sur un stockage sur des disques performants de type SSD NVMe au sein d'une architecture résiliente dans un datacentre. L’offre est accessible depuis une API S3.
 
 Cette offre est adaptée aux cas d'usage suivants : AI & Analytics, Datalake, High power Computing Multimedia / Content Platform.
+
+> **Note:**  
+> La classe de stockage High Performance est disponible sur les régions **1-AZ** uniquement. Plus de détails sur les régions disponibles [ici](/pages/storage_and_backup/object_storage/s3_location).
 
 ## Les offres de stockage objet SWIFT sont les suivantes :
 
