@@ -1,7 +1,7 @@
 ---
 title: "Enterprise File Storage - Particularités concernant certains clients NFS"
 excerpt: "Paramètres spécifiques à vérifier et/ou à mettre en oeuvre concernant l'offre Enterprise File Storage"
-updated: 2024-10-10
+updated: 2024-11-08
 ---
 
 ## Objectif
@@ -39,21 +39,7 @@ Comme solution de contournement, l'UID et le GID peuvent être forcés à 0 sur 
 > - <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753302(v=ws.10)?redirectedfrom=MSDN>
 > - <https://kb.netapp.com/on-prem/ontap/da/NAS/NAS-KBs/Unable_to_perform_write_operations_on_an_export_mounted_on_a_Windows_machine>
 
-#### Autorisez les connexions d'invités non sécurisées pour les protocoles SMB2 et SMB3
 
-L'activation des connexions invitées peut être nécessaire pour accéder à votre Entreprise File Storage car celui-ci ne fournit pas de compte utilisateur mais seulement un accès invité.
-
-Voici la procédure à suivre pour modifier votre stratégie de sécurité en conséquence : 
-
-- Lancez dans un invite de commande `gpedit.msc` et sélectionnez `Modifier la politique de groupe`.
-- Dans le volet de gauche, sous `Stratégie d'ordinateur local`, accédez à `Configuration de l'ordinateur\Modèles d'administration\Réseau\Poste de travail Lanman`.
-- Ouvrez `Activer les connexions d'invités non sécurisées`, sélectionnez `Activé`, puis sélectionnez `OK`.
-
-> [!primary]
->
-> **Documentation de référence :**
->
-> - <https://learn.microsoft.com/en-us/windows-server/storage/file-server/enable-insecure-guest-logons-smb2-and-smb3?tabs=group-policy>
 
 #### Demandez l'activation de la fonctionnalité « showmount » au support OVHcloud
 
@@ -65,6 +51,8 @@ Cependant, si vous obtenez des erreurs de type « erreur périphérique invalide
 > **Documentation de référence :**
 >
 > - <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/showmount>
+
+
 
 ## Aller plus loin
 
