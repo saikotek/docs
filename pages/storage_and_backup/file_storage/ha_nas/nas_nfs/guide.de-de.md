@@ -78,7 +78,7 @@ Sie können nun über den angegebenen Ordner auf Ihre gemountete Partition zugre
 
 > [!warning]
 > **Achtung!**
-> 
+>
 > DNF ist der Nachfolger des Paketmanagers YUM und wird häufig in Linux-Distributionen verwendet, die auf Red Hat basieren.
 
 Überprüfen Sie, dass die neuesten Versionen der Pakete `nfs-utils` und `rpcbind` installiert sind:

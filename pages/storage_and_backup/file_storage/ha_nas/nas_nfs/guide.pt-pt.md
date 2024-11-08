@@ -77,6 +77,7 @@ Já pode aceder à sua partição montada na pasta especificada.
 
 > [!warning]
 > **Atenção!**
+>
 > O DNF é o sucessor do gerenciador de pacotes YUM e é comumente usado em várias distribuições Linux com base no Red Hat.
 
 Verifique que as últimas versões dos pacotes `nfs-utils` e `rpcbind` estão instaladas:

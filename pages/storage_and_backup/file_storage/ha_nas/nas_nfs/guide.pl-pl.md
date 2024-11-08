@@ -77,6 +77,7 @@ Teraz możesz przejść do partycji zamontowanej w określonym folderze.
 
 > [!warning]
 > **Uwaga!**
+>
 > DNF jest następcą menedżera pakietów YUM i jest powszechnie stosowany w różnych dystrybucjach Linux opartych na Red Hat.
 
 Sprawdź, czy zainstalowane są najnowsze wersje pakietów `nfs-utils` i `rpcbind`:

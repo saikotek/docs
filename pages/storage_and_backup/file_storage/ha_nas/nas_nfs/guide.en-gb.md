@@ -77,6 +77,7 @@ You can now access your mounted partition at the specified folder.
 
 > [!warning]
 > **Warning!**
+>
 > DNF is the successor to YUM Packet Manager and is commonly used in various Linux distributions based on Red Hat.
 
 Verify that the latest versions of the packages `nfs-utils` and `rpcbind` are installed:
