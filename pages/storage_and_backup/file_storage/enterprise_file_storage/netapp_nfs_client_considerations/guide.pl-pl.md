@@ -1,12 +1,8 @@
 ---
 title: "Enterprise File Storage - Szczegóły dotyczące wybranych klientów NFS"
 excerpt: "Specyficzne parametry, które należy sprawdzić i/lub wdrożyć w odniesieniu do oferty Enterprise File Storage"
-updated: 2024-10-10
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłóś propozycję modyfikacji” na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -42,22 +38,6 @@ Aby uniknąć tej sytuacji, UID i GID mogą zostać wymuszone do 0 na maszynie z
 > - <https://learn.microsoft.com/en-gb/archive/blogs/msdn/sfu/can-i-set-up-user-name-mapping-in-windows-vista>
 > - <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753302(v=ws.10)?redirectedfrom=MSDN>
 > - <https://kb.netapp.com/on-prem/ontap/da/NAS/NAS-KBs/Unable_to_perform_write_operations_on_an_export_mounted_on_a_Windows_machine>
-
-#### Zezwalaj na niezabezpieczone połączenia gościa dla protokołów SMB2 i SMB3
-
-Włączenie połączeń z gośćmi może być konieczne w celu uzyskania dostępu do Twojej usługi Entreprise File Storage, ponieważ nie zapewnia ona konta użytkownika, a jedynie dostęp gościa.
-
-Poniżej przedstawiamy procedurę zmiany strategii zabezpieczeń:
-
-- Uruchom w wierszu poleceń `gpedit.msc` i wybierz `Edit group policy`.
-- W lewym okienku w obszarze `Local Computer Policy` przejdź do `Computer Configuration\Administrative Templates\Network\Lanman Workstation`.
-- Otwórz `Enable insecure guest logons`, wybierz `Enabled`, a następnie wybierz `OK`.
-
-> [!primary]
->
-> **Dokumentacja źródłowa:**
->
-> - <https://learn.microsoft.com/en-us/windows-server/storage/file-server/enable-insecure-guest-logons-smb2-and-smb3?tabs=group-policy>
 
 #### Poproś o włączenie funkcji "showmount" w interfejsie wsparcia OVHcloud
 

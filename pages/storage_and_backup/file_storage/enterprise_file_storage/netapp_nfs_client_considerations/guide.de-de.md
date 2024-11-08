@@ -1,12 +1,8 @@
 ---
 title: "Enterprise File Storage - NFS Client konfigurieren"
 excerpt: "Spezifische Einstellungen für die Enterprise File Storage Lösung"
-updated: 2024-10-10
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -42,22 +38,6 @@ Als Behelfslösung können UID und GID 0 auf dem Windows-Computer, der auf Ihren
 > - <https://learn.microsoft.com/en-gb/archive/blogs/msdn/sfu/can-i-set-up-user-name-mapping-in-windows-vista>
 > - <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753302(v=ws.10)?redirectedfrom=MSDN>
 > - <https://kb.netapp.com/on-prem/ontap/da/NAS/NAS-KBs/Unable_to_perform_write_operations_on_an_export_mounted_on_a_Windows_machine>
-
-#### Unsichere Gastanmeldungen für SMB2- und SMB3-Protokolle zulassen
-
-Möglicherweise müssen Sie Gastverbindungen für den Zugriff auf Ihren Enterprise File Storage aktivieren, da kein Benutzerkonto, sondern nur Gastzugriff bereitgestellt wird.
-
-So ändern Sie die Sicherheitsrichtlinien entsprechend:
-
-- Starten Sie `gpedit.msc` an einer Eingabeaufforderung, und wählen Sie `Edit group policy`.
-- Gehen Sie im linken Bereich unter „Lokale Computerrichtlinie“ zu `Computer Configuration\Administrative Templates\Network\Lanman Workstation`.
-- Öffnen Sie `Enable insecure guest logons`, wählen Sie `Enabled` und `OK`.
-
-> [!primary]
->
-> **Referenzdokumentation:**
->
-> - <https://learn.microsoft.com/en-us/windows-server/storage/file-server/enable-insecure-guest-logons-smb2-and-smb3?tabs=group-policy>
 
 #### Aktivierung der Funktion "showmount" über OVHcloud Support anfordern
 

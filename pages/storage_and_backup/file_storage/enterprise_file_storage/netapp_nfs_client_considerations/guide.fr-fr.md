@@ -39,8 +39,6 @@ Comme solution de contournement, l'UID et le GID peuvent être forcés à 0 sur 
 > - <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753302(v=ws.10)?redirectedfrom=MSDN>
 > - <https://kb.netapp.com/on-prem/ontap/da/NAS/NAS-KBs/Unable_to_perform_write_operations_on_an_export_mounted_on_a_Windows_machine>
 
-
-
 #### Demandez l'activation de la fonctionnalité « showmount » au support OVHcloud
 
 Pour des raisons de sécurité, l'option « showmount » permettant de lister les partages disponibles sur un serveur NFS est désactivée par défaut.
@@ -51,8 +49,6 @@ Cependant, si vous obtenez des erreurs de type « erreur périphérique invalide
 > **Documentation de référence :**
 >
 > - <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/showmount>
-
-
 
 ## Aller plus loin
 
