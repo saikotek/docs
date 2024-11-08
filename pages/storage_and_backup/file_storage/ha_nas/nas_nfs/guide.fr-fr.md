@@ -1,7 +1,7 @@
 ---
 title: Montage d'un NAS-HA via partage NFS
 excerpt: Découvrez comment vous connecter à votre NAS-HA en utilisant un partage NFS
-updated: 2024-09-18
+updated: 2024-11-08
 ---
 
 ## Objectif
@@ -59,7 +59,7 @@ Utilisez ensuite la commande de montage suivante :
 ubuntu@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Par exemple :**
+**Exemple 1:**
 
 ```bash
 ubuntu@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
@@ -74,30 +74,33 @@ Vous pouvez maintenant accéder à votre partition montée dans le dossier spéc
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### CentOS 7 / AlmaLinux / Rocky Linux
+### Distributions basées sur RedHat (CentOS / AlmaLinux / Rocky Linux / Fedora / ...)
 
+!!! Attention !!! DNF est le successeur du gestionnaire de paquets YUM et est couramment utilisé dans diverses distributions Linux basées sur Red Hat.
+
+ 
 Vérifiez que les dernières versions des packages `nfs-utils` et `rpcbind` sont installées :
 
 ```bash
-centos@server:~$ sudo yum install nfs-utils rpcbind
+root@server:~$ sudo yum install nfs-utils rpcbind
 ```
 
 Si nécessaire, redémarrez le service `rpcbind` avec la commande suivante :
 
 ```bash
-centos@server:~$ sudo systemctl restart rpcbind
+root@server:~$ sudo systemctl restart rpcbind
 ```
 
 Pour monter votre partition, utilisez la commande suivante :
 
 ```bash
-centos@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Par exemple :**
+**Exemple 2:**
 
 ```bash
-centos@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 Vous pouvez maintenant accéder à votre partition montée dans le dossier spécifié.
@@ -109,24 +112,23 @@ Vous pouvez maintenant accéder à votre partition montée dans le dossier spéc
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### Fedora
+**Exemple 3:**
+
 
 Installez le package `nfs-utils` :
 
 ```bash
-fedora@server:~$ sudo dnf -y install nfs-utils
+root@server:~$ sudo dnf -y install nfs-utils
 ```
 
 Utilisez ensuite la commande de montage suivante :
 
 ```bash
-fedora@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Par exemple :**
-
 ```bash
-fedora@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 Vous pouvez maintenant accéder à votre partition montée dans le dossier spécifié.
@@ -171,6 +173,7 @@ Remplissez le formulaire avec les détails suivants.
 |Name|Identificateur du partage|
 |NFS server|Adresse IP du NAS-HA (Exemple : `10.1.1.1`)|
 |NFS share|Chemin vers la partition NAS-HA à monter (Exemple : `zpool-123456/partition01`)|
+|NFS version|Version du protocole à utiliser, sélectionnez obligatoirement la version NFS 3|
 
 ![ESXI](images/esxi3.png){.thumbnail}
 
@@ -187,7 +190,7 @@ L'offre NAS-HA supporte les protocoles NFSv3 et NFSv4. Nous allons détailler le
 **Que se passe-t'il si on ne précise pas la version lors de la commande NFS ?**
 
 Dans ce cas, votre client NFS va essayer de se connecter directement sur la plus haute version supportée par celui-ci.
-Mais vous pouvez également choisir si vous préférez utiliser NFSv3 ou NFSv4:
+Mais vous pouvez également choisir si vous préférez utiliser NFSv3, NFSv4, NFSv4.1 ou NFSv4.2:
 
 Pour forcer l'utilisation de NFSv3, vous devez utiliser la commande suivante :
 
@@ -223,10 +226,6 @@ Dans le retour, le paramètre `vers=3` ou `vers=4` vous indique quel est le prot
 
 L'utilisation des commandes sera semblable pour CentOS et Fedora.
 
-**Peut-on saisir une version spécifique pour l'utilisation de NFSv4 ?**
-
-De la même façon que précédemment, votre client NFS va essayer de se connecter directement sur la plus haute version supportée par celui-ci.
-Si vous le souhaitez, vous pouvez choisir entre NFSv4.1 et NFSv4.2
 
 Pour forcer l'utilisation de NFSv4.1, vous devez utiliser la commande suivante :
 
