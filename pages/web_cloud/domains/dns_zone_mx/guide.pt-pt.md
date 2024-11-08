@@ -36,6 +36,7 @@ O registo MX permite associar um domínio ao servidor da sua plataforma de e-mai
 Os registos MX (**M**ail e**X**change) permitem associar o seu domínio aos servidores de e-mail de receção associados ao seu serviço de e-mail. Vamos citar um exemplo.
 
 Quando o endereço **sender@otherdomain.ovh** envia um e-mail para **contact@mydomain.ovh**, o servidor de envio de e-mail (**Outgoing mail server**) vai:
+
 - **(1)** consultar a zona DNS do nome de domínio **mydomain.ovh** e ler os registos **MX**.
 - **(2)** reencaminhar o e-mail para o URL do registo **MX** lido.
 

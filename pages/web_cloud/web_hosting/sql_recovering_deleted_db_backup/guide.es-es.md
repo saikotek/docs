@@ -70,15 +70,15 @@ Para ello, lleve a cabo las siguientes acciones:
 Para ello, complete los diferentes formularios como se detalla a continuación:
 
 - Para la sección titulada `PATH PARAMETERS`:
-- `serviceName`: Introduzca el nombre de su alojamiento web obtenido anteriormente en el etapa 1 de esta guía.
+    - `serviceName`: Introduzca el nombre de su alojamiento web obtenido anteriormente en el etapa 1 de esta guía.
 
 - Para la sección titulada `QUERY-STRING PARAMETERS`:
-- `creationDate.from`: Deje el formulario en blanco.
-- `creationDate.to`: Deje el formulario en blanco.
-- `databaseName`: Introduzca el nombre de la base de datos eliminada accidentalmente. (ejemplo: **deletedDatabase.mysql.db**).
-- `deletionDate.from`: Deje el formulario en blanco.
-- `deletionDate.to`: Deje el formulario en blanco.
-- `orphan`: Introduzca el valor en minúscula: `true`.
+    - `creationDate.from`: Deje el formulario en blanco.
+    - `creationDate.to`: Deje el formulario en blanco.
+    - `databaseName`: Introduzca el nombre de la base de datos eliminada accidentalmente. (ejemplo: **deletedDatabase.mysql.db**).
+    - `deletionDate.from`: Deje el formulario en blanco.
+    - `deletionDate.to`: Deje el formulario en blanco.
+    - `orphan`: Introduzca el valor en minúscula: `true`.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 
