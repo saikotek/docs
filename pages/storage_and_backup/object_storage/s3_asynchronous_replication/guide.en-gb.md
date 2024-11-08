@@ -274,8 +274,7 @@ This configuration will replicate all objects (indicated by the empty `Filter` f
       "Status": "Enabled",
       "Priority": 1,
       "Filter" : {
-        "Prefix": "backup",
-        "Tag": {"Key":"important", "Value":"true"}
+        "Prefix": "backup"
       },
       "Destination": {
         "Bucket": "arn:aws:s3:::destination-bucket"
@@ -286,7 +285,7 @@ This configuration will replicate all objects (indicated by the empty `Filter` f
 }
 ```
 
-This configuration will replicate all objects that have the prefix "backup" and the tag "important" set to "true" to the bucket `destination-bucket`. Additionally, we indicate that deletion operations in the source bucket should be also replicated.
+This configuration will replicate all objects that have the prefix "backup" to the bucket `destination-bucket`. Additionally, we indicate that deletion operations in the source bucket should be also replicated.
 
 #### Replicating source to multiple regions
 
