@@ -4,8 +4,6 @@ excerpt: "How to connect to APIs with OVHcloud service accounts using the OAuth2
 updated: 2023-08-24
 ---
 
-
-
 ## Objective
 
 To carry out automations on your infrastructure, you need to provide credentials to the code that does it. With OVHcloud service accounts, it is possible to have a single ID per script for the use of the different APIs offered by OVHcloud products ([OVHcloud API](/pages/manage_and_operate/api/console-preview), [OpenStack API](/pages/public_cloud/compute/starting_with_nova), etc. )
