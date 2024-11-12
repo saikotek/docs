@@ -55,7 +55,7 @@ Yes, S3 Object Storage is largely compatible with S3 APIs and can be integrated 
 ## Billing
 ### How is the service billed?
 
-Object Storage is billed according to the storage space used, with a granularity of 1GB. To ensure readability, the price is displayed per GB/month, but the billing granularity is per GB/hour, considering that there are on average 730 hours in a month. View pricing on [this page](https://www.ovhcloud.com/en-ie/public-cloud/prices/).
+Object Storage is billed according to the storage space used, with a granularity of 1GB. To ensure readability, the price is displayed per GB/month, but the billing granularity is per GB/hour. View pricing on [this page](https://www.ovhcloud.com/en-ie/public-cloud/prices/).
 
 ### Billing example for Object Storage – 1-AZ
 
