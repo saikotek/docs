@@ -109,8 +109,7 @@ SSH PUB_IP_DEDICATED_SERVER
 >> auto ens35f1
 >> iface ens35f1 inet manual
 >>
->> # LACP aggregate on public interfaces
->> # Holds the server’s public IP address
+>> # Public
 >> auto bond0
 >> iface bond0 inet static
 >>         address PUB_IP_DEDICATED_SERVER/32
@@ -339,6 +338,7 @@ iface ens35f0 inet manual
 auto ens35f1
 iface ens35f1 inet manual
 
+# Public
 auto bond0
 iface bond0 inet static
         address PUB_IP_DEDICATED_SERVER/32
@@ -350,6 +350,7 @@ iface bond0 inet static
         bond-lacp-rate fast
         bond-xmit-hash-policy layer3+4
 
+# Private
 auto bond1
 # LACP aggregate on private interfaces
 # No IP on it
@@ -360,8 +361,6 @@ iface bond1 inet manual
         bond-downdelay 200
         bond-lacp-rate fast
         bond-xmit-hash-policy layer3+4
-
-#Private
 
 auto vmbr1
 # Bridge connected on bond1 aggregate
