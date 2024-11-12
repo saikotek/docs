@@ -57,7 +57,7 @@ Oui, l'Object Storage S3 est largement compatible avec les API S3 et peut être 
 
 ### Comment est facturé le service ?
 
-L'Object Storage est facturé en fonction de l'espace de stockage utilisé, avec une granularité de 1 Go. Pour assurer sa lisibilité, le prix est affiché au Go/mois, mais la granularité de la facturation est au Go/heure, en considérant qu’en moyenne il y a 730 heures dans un mois. Consultez la tarification sur [cette page](https://www.ovhcloud.com/fr/public-cloud/prices/).
+L'Object Storage est facturé en fonction de l'espace de stockage utilisé, avec une granularité de 1 Go. Pour assurer sa lisibilité, le prix est affiché au Go/mois, mais la granularité de la facturation est au Go/heure. Consultez la tarification sur [cette page](https://www.ovhcloud.com/fr/public-cloud/prices/).
 
 ### Exemple de tarification pour Object Storage – 1-AZ
 
