@@ -217,7 +217,7 @@ When you restart the network services, the bridges (for example, vmbr0) may be i
 
 #### Testing and validation
 
-From now on, your virtual machines should be able to join a public service on the internet. In addition, your virtual machines can also be reached directly on the internet via the Additional IP address. The available bandwidth corresponds to the bandwidth available on your server’s public interfaces, and will not affect the private interfaces used for the vRack. This bandwidth is shared with other virtual machines on the same host that use an Additional IP address and the Proxmox host for public access.
+From now on, your virtual machines should be able to join a public service on the internet. In addition, your virtual machines can also be reached directly on the internet via the Additional IP address. The available bandwidth corresponds to the bandwidth available on your server's public interfaces, and will not affect the private interfaces used for the vRack. This bandwidth is shared with other virtual machines on the same host that use an Additional IP address and the Proxmox host for public access.
 
 To check your public IP, from the VM:
 
