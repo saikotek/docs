@@ -66,11 +66,11 @@ Um den Snapshot zu sehen, klicken Sie im linken Menü auf `Instance Backup`{.act
 
 #### Im Horizon-Interface
 
-Um diese Methode zu verwenden, müssen Sie sich [mit dem Horizon-Interface verbinden](https://horizon.cloud.ovh.net/auth/login/):
+Um diese Methode zu verwenden, müssen Sie sich [in das Horizon-interface einloggen](https://horizon.cloud.ovh.net/auth/login/).
 
-- Um sich mit der einmaligen Anmeldung bei OVHcloud zu verbinden : Verwenden Sie den Link `Horizon`{.action} im Menü links unter "Management Interfaces", nachdem Sie Ihr Projekt `Public Cloud`{.action} in Ihrem [OVHcloud Kundencenter](/links/manager) geöffnet haben.
+- Um sich über OVHcloud SSO zu verbinden: Verwenden Sie den Link `Horizon`{.action} im Menü links unter "Management Interfaces", nachdem Sie Ihr `Public Cloud`{.action} Projekt in Ihrem [OVHcloud Kundencenter](/links/manager) geöffnet haben.
 
-- Um sich mit einem bestimmten OpenStack-Benutzer anzumelden: öffnen Sie die Anmeldeseite für [Horizon](https://horizon.cloud.ovh.net/auth/login/) und geben Sie die zuvor erstellten [OpenStack-Zugangsdaten](/pages/public_cloud/compute/create_and_delete_a_user) ein. Klicken Sie anschließend auf `Connect`{.action}.
+- Um sich mit einem bestimmten OpenStack-Benutzer anzumelden: Öffnen Sie die Login-Seite für [Horizon](https://horizon.cloud.ovh.net/auth/login/) und geben Sie die zuvor erstellten [OpenStack-Zugangsdaten](/pages/public_cloud/compute/create_and_delete_a_user) ein. Klicken Sie anschließend auf `Connect`{.action}.
 
 Wenn Sie Instanzen in verschiedenen Regionen eingerichtet haben, stellen Sie sicher, dass Sie sich in der korrekten Region befinden. Überprüfen Sie es in der oberen linken Ecke des Horizon-Interface.
 
