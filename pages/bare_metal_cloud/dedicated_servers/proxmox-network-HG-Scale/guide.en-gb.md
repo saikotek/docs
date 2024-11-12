@@ -111,7 +111,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
 >>
->> auto vmbr0
 >> # Configuring the bridge with a private address and adding route(s) to send Additional IPs to it
 >> # A.B.C.D/X => Subnet of Additional IPs assigned to the server, this can be a host with /32
 >> auto vmbr0
