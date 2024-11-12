@@ -1,7 +1,7 @@
 ---
 title: "Using OVHcloud Key Management Service (KMS)"
 excerpt: "Encrypt or sign your data with the OVHcloud Key Management Service (KMS)"
-updated: 2024-10-18
+updated: 2024-11-12
 ---
 
 > [!warning]
@@ -29,11 +29,11 @@ Since the KMS is regionalized, you can access the API directly in its region: `h
 
 For example, for a KMS created in the **eu-west-rbx** region: <https://eu-west-rbx.okms.ovh.net>.
 
-It's possible to communicate with the KMS using :
+It's possible to communicate with the KMS using:
 
 - The Swagger UI
-- The OMKS CLI : <https://github.com/ovh/okms-cli>
-- The Golang SDK : <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
+- The OMKS CLI: <https://github.com/ovh/okms-cli>
+- The Golang SDK: <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
 
 ### Using the KMS API via the Swagger UI
 
