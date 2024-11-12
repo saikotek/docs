@@ -104,7 +104,7 @@ Local Zones are designed to bring OVHcloud services closer to end-users, minimiz
 
 | Characteristics        | 1-AZ Region                         | 3-AZ Region                     | Local Zones                              |
 |------------------------|-------------------------------------|---------------------------------|------------------------------------------|
-| **Deployment Structure**   | Single availability zone            | Three independent availability zones | Localized for low latency                |
+| **Deployment Structure**   | Single availability zone            | Three independent availability zones | Single availability zone                |
 | **Redundancy**             | 2N+1 internal                       | Cross-zone redundancy            | No inter-zone redundancy                 |
 | **Data Availability**      | Limited during data center outages, protected against server/disk failures | Maintained across availability zones | Limited to the Local Zone                |
 | **Latency**                | Moderate                            | Low between availability zones   | Ultra-low for end-users                  |
