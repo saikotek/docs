@@ -100,8 +100,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         gateway 100.64.0.1
 >>         bond-slaves ens33f0 ens33f1
 >>         bond-mode 802.3ad
->>         bond-miimon 100
->>         bond-downdelay 200
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
 >>
@@ -110,8 +108,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >> iface bond1 inet manual
 >>         bond-slaves ens35f0 ens35f1
 >>         bond-mode 802.3ad
->>         bond-miimon 100
->>         bond-downdelay 200
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
 >>
@@ -313,8 +309,6 @@ iface bond0 inet static
         gateway 100.64.0.1
         bond-slaves ens33f0 ens33f1
         bond-mode 802.3ad
-        bond-miimon 100
-        bond-downdelay 200
         bond-lacp-rate fast
         bond-xmit-hash-policy layer3+4
 
@@ -325,8 +319,6 @@ auto bond1
 iface bond1 inet manual
         bond-slaves ens35f0 ens35f1
         bond-mode 802.3ad
-        bond-miimon 100
-        bond-downdelay 200
         bond-lacp-rate fast
         bond-xmit-hash-policy layer3+4
 
