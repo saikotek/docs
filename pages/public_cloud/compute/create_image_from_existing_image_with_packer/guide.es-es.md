@@ -1,5 +1,5 @@
 ---
-title: 'Create a custom OpenStack image with Packer'
+title: 'Create a custom OpenStack image with Packer (EN)'
 excerpt: 'Create and customize an OpenStack image from an existing one with Packer'
 updated: 2024-11-12
 ---

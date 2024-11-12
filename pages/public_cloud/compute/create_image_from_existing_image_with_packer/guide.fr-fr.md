@@ -10,7 +10,7 @@ updated: 2024-11-12
 
 ## Prérequis
 
-- Un projet [Public Cloud](https://www.ovhcloud.com/fr/public-cloud/).
+- Un projet [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project).
 - Un terminal
 
 ## En pratique
