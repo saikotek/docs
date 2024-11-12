@@ -1,10 +1,10 @@
 ---
 title: 'Exchange - Utilização de grupos de difusão (mailing lists)'
 excerpt: 'Saiba como gerir grupos de difusão (mailing lists) no Exchange'
-updated: 2024-11-07
+updated: 2024-11-12
 ---
 
-## Sumário
+## Objetivo
 
 Os grupos Exchange permitem que vários participantes comuniquem ao enviarem emails para um endereço coletivo único. Graças a esta característica colaborativa, é possível criar e gerir grupos de difusão (mailing lists) que incluem tanto utilizadores Exchange quanto contactos externos.
 

@@ -1,7 +1,7 @@
 ---
-title: 'Crear grupos de contactos'
+title: 'Exchange - Crear grupos de contactos'
 excerpt: 'Aprenda a gestionar listas de correo en Exchange'
-updated: 2020-02-26
+updated: 2024-11-12
 ---
 
 ## Objetivo
@@ -17,54 +17,64 @@ Los grupos de Exchange permiten que varios participantes puedan comunicarse a tr
 
 ## Procedimiento
 
-### Paso 1: Crear un grupo nuevo
+### Crear un grupo nuevo
 
 Primero acceda a su [área de cliente de OVHcloud](/links/manager), diríjase a la sección `Webcloud`{.action}, y seleccione su servicio Exchange de la columna que está debajo de `Microsoft`{.action} `Exchange`{.action}. Haga clic en la pestaña `Grupos`{.action} del menú horizontal.
 
-![contactgroups](images/exchange-groups-step1.png){.thumbnail}
+![contactgroups](images/exchange-groups-create01.png){.thumbnail .w-600 .h-600}
 
 Al hacer clic en `Crear un grupo de contactos`{.action} se abrirá una nueva ventana donde podrá configurar las opciones del grupo:
 
-![contactgroups](images/exchange-groups-step2.png){.thumbnail}
+![contactgroups](images/exchange-groups-create02.png){.thumbnail .w-600 .h-600}
 
-|Nombre|Descripción|
-|---|---|
-|Dirección de correo electrónico|La nueva dirección que mandará los mensajes a la lista de correo. Tenga en cuenta que no puede introducir una dirección de correo ya existente.|
-|Nombre del grupo|El nombre que aparecerá en su [área de cliente de OVHcloud](/links/manager) y en el [webmail de OVHcloud](/links/web/email) (OWA).|
-|Tamaño máx. de entrada/salida|Puede especificar el tamaño máximo de sus correos entrantes y salientes.|
-|Ocultar en Outlook|Si marca esta casilla, la dirección del grupo no aparecerá en la lista de direcciones del servicio Exchange.|
-|Autenticación obligatoria|Si marca esta casilla, los usuarios de la misma plataforma serán los únicos que podrán mandar un mensaje utilizando la dirección del grupo.|
-
-> [!primary]
->
-Tenga en cuenta que las opciones «Administrar suscriptores» y «Administrar bajas de suscriptores» se han desactivado por razones de seguridad. Lamentamos las molestias ocasionadas.
->
+- **Dirección de correo electrónico**: configure una nueva dirección para enviar mensajes a la lista de correo. Tenga cuidado de no utilizar una dirección que ya esté operativa.
+- **Nombre del grupo**: Utilice el nombre que aparece en su [área de cliente de OVHcloud](/links/manager) y en su [correo web de OVHcloud](/links/web/email) (OWA).
+- **Tamaño máximo de entrada o salida**: Puede especificar el tamaño máximo de los mensajes de correo electrónico entrantes y salientes.
+- **Ocultar en Outlook**: si está marcado, la dirección del grupo no aparecerá en la lista de direcciones del servicio Exchange.
+- **Requiere autenticación**: Si se marca esta casilla, solo los usuarios de la misma plataforma podrán enviar mensajes con la dirección del grupo.
 
 Haga clic en `Siguiente`{.action} para continuar.
 
-Seleccione en la segunda pantalla los miembros del grupo y elija los «Administradores». Solo se podrán seleccionar direcciones de correo y contactos externos creados previamente en el servicio.
+En la segunda página, seleccione los **Contactos** del grupo y designe los **Administradores**. Estas opciones solo se tomarán de las direcciones de correo electrónico y los contactos externos que ya figuren en el servicio.
 
-![contactgroups](images/exchange-groups-step3.png){.thumbnail}
-
-Tenga en cuenta que los administradores también deben haber sido configurados como «Contactos» para recibir los correos del grupo.
-Haga clic en `Siguiente`{.action} para continuar y termine la configuración de sus opciones pulsando en `Confirmar`{.action}.
-
-### Paso 2: Gestionar los grupos
-
-Su grupo recién creado estará operativo en unos minutos. Puede modificar las configuraciones descritas más abajo desde la lista de grupo haciendo clic en el icono `...`{.action} y seleccionándolas en el menú.
-
-![contactgroups](images/exchange-groups-step4.png){.thumbnail}
-
-Además, también aparecerá el elemento del menú `Gestionar las delegaciones`{.action}. Con esta opción podrá delegar el acceso del mismo modo que en una cuenta Exchange. Encontrará todos los detalles en [esta guía](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
-
-![contactgroups](images/exchange-groups-step5.png){.thumbnail}
+- **Administradores**: Cuentas de correo electrónico autorizadas a enviar correo electrónico a todos los contactos del grupo.
+- **Contactos**: Cuentas de correo electrónico que recibirán los mensajes de correo electrónico enviados al grupo por los administradores.
 
 > [!primary]
 >
-Tenga en cuenta que cualquier cambio del servicio puede tardar unos minutos en efectuarse. Puede comprobar el estado de la mayoría de operaciones seleccionando `More+`{.action} y `Tareas recientes`{.action} en el menú horizontal.
->
+> Tenga en cuenta que los administradores deben configurarse como **Contactos** para recibir los mensajes de correo electrónico del grupo.
 
-### Paso 3: Enviar mensajes a un grupo en OWA
+![contactgroups](images/exchange-groups-create03.png){.thumbnail .w-600 .h-600}
+
+Haga clic en `Siguiente`{.action} para continuar y haga clic en `Confirmar`{.action} para finalizar las opciones.
+
+### Administrar grupos
+
+Después de crear el grupo, puede cambiar la configuración que haya establecido. Para ello, haga clic en `...`{.action} a la derecha del grupo en la tabla.
+
+![contactgroups](images/exchange-groups-options01.png){.thumbnail .w-600 .h-600}
+
+#### Administrar los usuarios de un grupo
+
+Para añadir `Contacts` a su grupo o definir los `Administradores`, haga clic en el botón `...`{.action} y luego en `Configurar los usuarios`{.action}. Marque los atributos que quiera asociar a las direcciones de correo electrónico en la columna `Cuenta de correo`.
+
+> [!primary]
+>
+> Un grupo puede contener un máximo de 10.000 contactos.
+
+![contactgroups](images/exchange-group-options-users01.png){.thumbnail .w-600 .h-600}
+
+#### Administrar las delegaciones de un grupo
+
+Aparecerá la opción `Configurar delegaciones`{.action} del menú. Esta opción le permite delegar el acceso del mismo modo que se hace para una cuenta Exchange. Encontrar todos los detalles en [esta guía](/pages/web_cloud/email_and_colaborative_solutions/microsoft_exchange/feature_delegation).
+
+![contactgroups](images/exchange-groups-options-delegation01.png){.thumbnail .w-600 .h-600}
+
+> [!primary]
+>
+> Tenga en cuenta que cada cambio en este servicio puede tardar unos minutos en aplicarse. Puede comprobar el estado de la mayoría de las operaciones seleccionando las opciones `Plus`{.action} y `Tareas recientes`{.action} en el menú horizontal.
+
+### Enviar mensajes a un grupo en OWA
 
 Ahora puede probar su lista de correo a través del [webmail de OVHcloud](/links/web/email) (OWA) simplemente mandando un correo a la dirección del grupo.
 
@@ -78,4 +88,8 @@ Ahora puede probar su lista de correo a través del [webmail de OVHcloud](/links
 
 [Compartir calendarios en OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Para servicios especializados (posicionamiento, desarrollo, etc.), contacte con [partners de OVHcloud](/links/partner).
+
+Si quiere disfrutar de ayuda para utilizar y configurar sus soluciones de OVHcloud, puede consultar nuestras distintas soluciones [pestañas de soporte](/links/support).
+
+Interactúe con nuestra [comunidad de usuarios](/links/community).

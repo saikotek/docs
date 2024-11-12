@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Korzystanie z grup (mailing listy) dostępnych z kontem Exchange'
 excerpt: 'Dowiedz się, jak zarządzać listami wysyłkowymi w programie Exchange'
-updated: 2024-11-07
+updated: 2024-11-12
 ---
 
 ## Wprowadzenie

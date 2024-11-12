@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Créer un groupe de contacts'
 excerpt: 'Retrouvez ici la mise en place et l’utilisation de groupe via votre compte Exchange'
-updated: 2024-11-07
+updated: 2024-11-12
 ---
 
 <style>
