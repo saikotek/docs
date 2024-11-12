@@ -95,18 +95,8 @@ SSH PUB_IP_DEDICATED_SERVER
 >>
 >> # Public
 >> auto bond0
->> iface bond0 inet static
->>         address PUB_IP_DEDICATED_SERVER/32
->>         gateway 100.64.0.1
+>> iface bond0 inet manual
 >>         bond-slaves ens33f0 ens33f1
->>         bond-mode 802.3ad
->>         bond-lacp-rate fast
->>         bond-xmit-hash-policy layer3+4
->>
->> # Private
->> auto bond1
->> iface bond1 inet manual
->>         bond-slaves ens35f0 ens35f1
 >>         bond-mode 802.3ad
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
@@ -115,6 +105,8 @@ SSH PUB_IP_DEDICATED_SERVER
 >> # A.B.C.D/X => Subnet of Additional IPs assigned to the server, this can be a host with /32
 >> auto vmbr0
 >> iface vmbr0 inet static
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
 >>         # Define a private IP, it must not overlap your existing private networks on the vRack for example
 >>         address 192.168.0.1/24
 >>         bridge-ports bond0
@@ -124,6 +116,14 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         up ip route add ADDITIONAL_IP/32 dev $IFACE
 >>         # Add an IP block
 >>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
+>>
+>> # Private
+>> auto bond1
+>> iface bond1 inet manual
+>>         bond-slaves ens35f0 ens35f1
+>>         bond-mode 802.3ad
+>>         bond-lacp-rate fast
+>>         bond-xmit-hash-policy layer3+4
 >>
 >> # Bridge used for private networks on the vRack
 >> auto vmbr1
