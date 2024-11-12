@@ -93,22 +93,6 @@ SSH PUB_IP_DEDICATED_SERVER
 >> auto lo
 >> iface lo inet loopback
 >>
->> # public interface 1
->> auto ens33f0
->> iface ens33f0 inet manual
->>
->> # public interface 2
->> auto ens33f1
->> iface ens33f1 inet manual
->>
->> # private interface 1
->> auto ens35f0
->> iface ens35f0 inet manual
->>
->> # private interface 2
->> auto ens35f1
->> iface ens35f1 inet manual
->>
 >> # Public
 >> auto bond0
 >> iface bond0 inet static
@@ -321,22 +305,6 @@ What matters here is the `bond1` and `vmbr1` configuration:
 ```bash
 auto lo
 iface lo inet loopback
-
-# public interface 1
-auto ens33f0
-iface ens33f0 inet manual
-
-# public interface 2
-auto ens33f1
-iface ens33f1 inet manual
-
-# private interface 1
-auto ens35f0
-iface ens35f0 inet manual
-
-# private interface 2
-auto ens35f1
-iface ens35f1 inet manual
 
 # Public
 auto bond0
