@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Limiti tecnici (EN)
 excerpt: Find here the technical limits of the S3 Object Storage offer
-updated: 2024-11-05
+updated: 2024-11-12
 ---
 
 ## Objective

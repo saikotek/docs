@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Local Zones specifications
 excerpt: ""
-updated: 2024-11-05
+updated: 2024-11-12
 ---
 
 ## Objective
