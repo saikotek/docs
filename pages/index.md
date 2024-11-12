@@ -1773,7 +1773,7 @@
             + [Object Storage - S3 Compliancy](storage_and_backup/object_storage/s3_s3_compliancy)
             + [Object Storage - Technical Limitations](storage_and_backup/object_storage/s3_limitations)
             + [Object Storage - Endpoints and Object Storage geoavailability](storage_and_backup/object_storage/s3_location)
-            + [Object Storage - Comparison of S3 Deployment Modes: 3-AZ, 1-AZ, and Local Zones Overview](storage_and_backup/object_storage/s3_regions_comparison)
+            + [Comparison of S3 Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones](storage_and_backup/object_storage/s3_regions_comparison)
             + [Object Storage - Shared Responsibility RACI](storage_and_backup/object_storage/s3_object_storage_responsibility_model)
             + [Object Storage - FAQ](storage_and_backup/object_storage/s3_faq)
         + [General guides to start](storage-object-storage-general-guides-to-start)
