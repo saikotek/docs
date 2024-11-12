@@ -23,7 +23,7 @@ The purpose of this guide is to show you the steps to interact with the OVHcloud
 
 ### Contacting the KMS
 
-Communication with the KMS, except for key creation, is only available via API.
+Communication with the KMS for encryption and signature actions is available via APIs.
 
 Since the KMS is regionalized, you can access the API directly in its region: `https://my-region.ovh.com.net`.
 

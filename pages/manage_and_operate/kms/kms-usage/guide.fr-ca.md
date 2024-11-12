@@ -23,7 +23,7 @@ L'objectif de ce guide est de présenter les différentes étapes pour interagir
 
 ### Communiquer avec le KMS
 
-La communication avec le KMS pour les actions de chiffrement et de signature est disponible uniquement par API.
+La communication avec le KMS pour les actions de chiffrement et de signature se fait au travers des APIs.
 
 Le KMS étant régionalisé, l'accès à l'API se fait directement sur la région de celui-ci : `https://my-region.okms.ovh.net`.
 
