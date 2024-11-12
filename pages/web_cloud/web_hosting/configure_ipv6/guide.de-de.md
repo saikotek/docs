@@ -4,10 +4,6 @@ excerpt: "Diese Anleitung erklärt, wie Sie Ihre Website über eine IPv6-Adresse
 updated: 2024-03-12
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Das Internet läuft seit Anfang der 1990er Jahre unter Verwendung von IPv4. Mit diesem Standard werden mit dem öffentlichen Netzwerk verbundenen Geräten IP-Adressen im Format X.X.X.X (wobei "X" für Zahlen zwischen 0 und 255 steht) zur Verfügung gestellt (Server, Computer, Smartphones, etc.). Dieses Protokoll begrenzt jedoch die Anzahl der an das Internet angeschlossenen Geräte auf etwa 4 Milliarden, was für 2022 im Schnitt weniger als ein Gerät je zwei Personen der Weltbevölkerung bedeutet.

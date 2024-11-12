@@ -4,10 +4,6 @@ excerpt: 'Descubra diferentes informações sobre a transferência de um nome de
 updated: 2024-06-28
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A transferência de um nome de domínio Hostinger requer um processo específico.
@@ -58,7 +54,7 @@ Deve também:
 >
 > Para isso, consulte os seguintes guias:
 >
-> - [Criar uma zona DNS na OVHcloud](pages/web_cloud/domains/dns_zone_create)
+> - [Criar uma zona DNS na OVHcloud](/pages/web_cloud/domains/dns_zone_create)
 > - [Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit)
 >
 > Certifique-se também de que o agente de registo atual não vai fechar outros serviços, como, por exemplo, os endereços de correio eletrónico associados ao domínio.
@@ -86,7 +82,7 @@ Siga os passos descritos na [documentação dedicada de Hostinger](https://suppo
 ### Obter o código EPP ou Auth
 
 Se deseja **transferir** o seu domínio do Hostinger para outro agente registador (como a OVHcloud), o novo agente registador pode pedir um código de autorização (código "EPP" ou "Auth") para verificar se tem o direito de agir sobre o domínio.
-Para se familiarizar com a mudança de proprietário de um domínio, consulte este [guia](pages/web_cloud/domains/trade_domain).
+Para se familiarizar com a mudança de proprietário de um domínio, consulte este [guia](/pages/web_cloud/domains/trade_domain).
 
 > [!warning]
 >

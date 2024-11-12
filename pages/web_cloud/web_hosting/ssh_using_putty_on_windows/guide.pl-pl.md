@@ -4,7 +4,8 @@ excerpt: 'Hosting www: Korzystanie z programu Putty w systemie Windows'
 updated: 2020-05-05
 ---
 
-## Wprowadzenie 
+## Wprowadzenie
+
 W systemie Windows działa kilka programów do obsługi SSH. Jednym z najpopularniejszych i najprostszych w obsłudze jest program "Putty". 
 Można go pobrać [na oficjalnej stronie](http://www.putty.org/).
 

@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie einen Hostinger-Domainnamen zu OVHcloud tra
 updated: 2024-06-28
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Für den Transfer eines Hostinger-Domainnamens ist ein spezieller Ansatz erforderlich.
@@ -82,7 +78,7 @@ Folgen Sie den Schritten in der [Hostinger Dedicated Documentation](https://supp
 ### EPP- oder Auth-Code abrufen
 
 Wenn Sie einen Domainnamen von Hostinger zu einem anderen Registrar (wie OVHcloud) transferieren möchten, kann der neue Registrar einen Autorisierungscode (EPP-Code oder Auth-Code) anfordern, um zu überprüfen, ob Sie das Recht haben, in Bezug auf den Domainnamen zu handeln.
-Um sich mit der Änderung des Inhabers eines Domainnamens vertraut zu machen, lesen Sie diese [Anleitung](pages/web_cloud/domains/trade_domain).
+Um sich mit der Änderung des Inhabers eines Domainnamens vertraut zu machen, lesen Sie diese [Anleitung](/pages/web_cloud/domains/trade_domain).
 
 > [!warning]
 >

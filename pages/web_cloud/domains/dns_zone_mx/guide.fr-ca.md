@@ -32,6 +32,7 @@ L'enregistrement MX permet de relier un nom de domaine au serveur de sa platefor
 Les enregistrements MX (**M**ail e**X**change) permettent de relier votre nom de domaine aux serveurs e-mail de réception attachés à votre service e-mail. Nous allons nous appuyer sur un exemple.
 
 Lorsque l'adresse **sender@otherdomain.ovh** envoie un e-mail vers **contact@mydomain.ovh**, le serveur d'envoi e-mail (**Outgoing mail server**) va :
+
 - **(1)** interroger la zone DNS du nom de domaine **mydomain.ovh** et lire les enregistrements **MX**.
 - **(2)** transmettre l'e-mail vers l'URL de l'enregistrement **MX** lu.
 

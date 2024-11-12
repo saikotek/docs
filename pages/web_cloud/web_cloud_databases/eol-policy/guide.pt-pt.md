@@ -3,10 +3,6 @@ title: 'Política de fim de vida das bases de dados geridas'
 updated: 2023-03-07
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 As bases de dados geridas pela OVHcloud propõem vários sistemas de gestão de bases de dados (SGBD), como MySQL ou PostgreSQL. Cada versão destes programas atinge, em algum momento, o fim da sua venda e, em seguida, o fim do seu suporte. Pode ser atualizada pelos nossos serviços ou deixar de ser funcional ("fim de vida"). Desejamos permitir-lhe compreender o ciclo de vida das bases de dados geridas pela OVHcloud, de forma a melhor antecipar e preparar as suas evoluções.

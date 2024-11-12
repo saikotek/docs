@@ -1,7 +1,7 @@
 ---
 title: 'Tworzenie odpowiedzi automatycznych w interfejsie OWA'
 excerpt: 'Dowiedz się, jak skonfigurować odpowiedzi automatyczne w interfejsie OWA'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Wprowadzenie
@@ -12,18 +12,26 @@ Ta funkcja programu Exchange umożliwia skonfigurowanie automatycznych odpowiedz
 
 ## Wymagania początkowe
 
- - Instalacja rozwiązania poczty elektronicznej OVHcloud [Exchange](https://www.ovhcloud.com/fr/emails/hosted-exchange/) lub [Email Pro](https://www.ovhcloud.com/fr/emails/email-pro/)
+ - Instalacja rozwiązania poczty elektronicznej OVHcloud [Exchange](/links/web/emails-hosted-exchange) lub [Email Pro](/links/web/email-pro)
 - dostęp do konta e-mail (adres e-mail i hasło)
 
 ## W praktyce
 
+> [!warning]
+>
+> Jeśli Twój adres e-mail jest związany z ofertą **MX Plan** (zawarty w ofercie [hosting www](/links/web/hosting) i [hosting 100M za darmo](/links/web/domains-free-hosting)), w Panelu klienta znajduje się sekcja zatytułowana `Zarządzanie autoresponderami`{.action}. Utwórz automatyczną odpowiedź w Panelu klienta OVHcloud, korzystając z dokumentacji ["MX Plan - Tworzenie automatycznej odpowiedzi na adres e-mail"](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
+
 ### Włączanie funkcji
 
-Zaloguj się na konto Exchange przy użyciu interfejsu [OVHcloud webmail](https://www.ovh.pl/mail/). Kliknij ikonę koła zębatego w prawym górnym rogu, aby rozwinąć menu „Opcje”, i wybierz pozycję `Odpowiedzi automatyczne`{.action}.
+Zaloguj się na konto Exchange przy użyciu interfejsu [OVHcloud webmail](/links/web/email). Kliknij ikonę koła zębatego w prawym górnym rogu, aby rozwinąć menu „Opcje”, i wybierz pozycję `Odpowiedzi automatyczne`{.action}.
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-W interfejsie po prostu włącz funkcję, zaznaczając opcję `Wysyłaj odpowiedzi automatyczne`{.action}. W poniższych polach możesz ustawić dokładny okres wysyłania odpowiedzi lub włączyć funkcję na czas nieokreślony. Jeśli nie określisz czasu rozpoczęcia i zakończenia, funkcję trzeba będzie wyłączyć ręcznie. 
+W interfejsie po prostu włącz funkcję, zaznaczając opcję `Wysyłaj odpowiedzi automatyczne`{.action}. W poniższych polach możesz ustawić dokładny okres wysyłania odpowiedzi lub włączyć funkcję na czas nieokreślony.
+
+> [!primary]
+>
+> Jeśli nie określisz czasu rozpoczęcia i zakończenia, automatyczne odpowiedzi zostaną wyłączone przez Ciebie.
 
 Ułóż wiadomość w polu edytora i potwierdź, klikając przycisk `Zapisz`{.action} w lewym górnym rogu.
 
@@ -55,4 +63,8 @@ Alternatywną wiadomość dla nadawców zewnętrznych można wprowadzić w drugi
 
 [Exchange: współdzielenie kalendarza w interfejsie OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Dołącz do naszej społeczności użytkowników: <https://community.ovh.com/en/>.
+W przypadku wyspecjalizowanych usług (pozycjonowanie, rozwój, etc.) skontaktuj się z [partnerami OVHcloud](/links/partner).
+
+Jeśli chcesz otrzymywać wsparcie w zakresie konfiguracji i użytkowania Twoich rozwiązań OVHcloud, zapoznaj się z naszymi [ofertami pomocy](/links/support).
+
+Dołącz do [grona naszych użytkowników](/links/community).

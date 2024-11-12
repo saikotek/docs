@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie WooCommerce mit dem CMS WordPress verwenden
 updated: 2023-03-07
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Dieses Tutorial erklärt, wie Sie einen Onlineshop mit der Open-Source-Anwendung **WooCommerce** für das Content Management System (CMS) **WordPress** einrichten. 

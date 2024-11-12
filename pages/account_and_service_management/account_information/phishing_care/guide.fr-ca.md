@@ -1,48 +1,46 @@
 ---
-title: 'Méfiez-vous des arnaques - comment reconnaître des e-mails ou SMS de fraude et de phishing'
+title: 'Phishing - Comment reconnaître des e-mails frauduleux ?'
 excerpt: 'Comment reconnaître un e-mail de phishing et que faire si vous avez cliqué sur un lien frauduleux ?'
-updated: 2020-10-12
+updated: 2024-10-30
 ---
 
 ## Objectif
 
-Le phishing est l’envoi d’un e-mail vous invitant à cliquer sur un lien vous redirigeant vers un formulaire. Celui-ci reprend frauduleusement les couleurs d’une marque et vous invite à entrer vos identifiants personnels.
+L'hameçonnage (ou *phishing* en anglais) est une technique frauduleuse destinée à leurrer l'internaute pour l'inciter à communiquer des données personnelles (comptes d'accès, mots de passe, etc...) et/ou bancaires en se faisant passer pour un tiers ou un site de confiance.<br>
+Dans la pratique, il s'agit souvent de l’envoi d’un e-mail vous invitant à cliquer sur un lien. Ce lien vous redirige vers un formulaire qui reprend frauduleusement les couleurs d’une marque et vous invite à entrer vos identifiants personnels.
 
-**Ce guide vous explique comment reconnaître un e-mail ou un SMS de phishing et quoi faire si vous avez cliqué sur un lien frauduleux.**
-
-## Prérequis
-
-- Pas de prérequis spécifique.
+**Ce guide vous explique comment reconnaître un e-mail de phishing et quelles mesures prendre si vous avez cliqué sur un lien frauduleux.**
 
 ## En pratique
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/85GEi97-n20?si=xEJpLr9I7G1CgEaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### J'ai reçu un e-mail de phishing au nom d'OVHcloud
 
 #### Identifier un e-mail de phishing
 
-Vous avez reçu un e-mail au nom d'OVHcloud et vous voulez être sûr qu'il soit correct ? Voici quelques éléments pour vous aider à distinguer visuellement un e-mail OVHcloud d'une tentative de phishing.
+Vous avez reçu un e-mail au nom d'OVHcloud et vous voulez être sûr qu'il est légitime ? <br>
+Voici quelques éléments pour vous aider à distinguer visuellement un e-mail OVHcloud d'une tentative de phishing.
 
-![Différence entre e-mail OVHcloud et e-mail de phishing](images/phishing_email.png){.thumbnail}
+Cliquez sur l'image pour l'agrandir. Retrouvez les détails et explications dans le tableau ci-dessous.
+
+![Différence entre e-mail OVHcloud et e-mail de phishing](images/legit-vs-phishing-fr.png){.thumbnail}
 
 > [!alert]
 > 
-> Pensez à bien vérifiez que les trois conditions suivantes sont remplies.
+> Pensez à bien vérifier que les trois conditions suivantes sont remplies.
 > 
+> Les numéros du tableau correspondent à ceux de l'exemple ci-dessus.
 
-|Numéro - description|E-mail OVH|E-mail de phishing|
+|Numéro - description|E-mail OVHcloud légitime|E-mail de phishing frauduleux|
 |---|---|---|
-|1 - Expéditeur|Vérifiez que l’adresse utilisée pour l’envoi de l’e-mail se termine par « @ovhcloud.com », « @ovh.com », « @soyoustart.com » ou « @kimsufi.com.|L'expéditeur du mail sera forcément une adresse qui ne vient pas d'OVHcloud.|
-|2 - Objet|Vérifiez que votre identifiant **(commençant par la première lettre du nom enregistré chez OVHcloud puis par la première lettre du prénom enregistré chez OVHcloud)** et/ou l’adresse e-mail de votre compte figurent dans l’objet du message.|La plupart du temps, l'e-mail sera marqué comme « spam » entre crochets et votre identifiant n'apparaîtra pas OU sera incorrect.|
-|3 - Lien|Passez votre souris sur le lien et vous en verrez directement le contenu sans avoir à cliquer dessus (tout en bas de votre navigateur). Ici, le lien renvoie bien vers https://www.ovhcloud.com/.|Dans notre exemple, en passant la souris sur le lien, vous remarquez que celui-ci n'a rien à voir avec OVHcloud. Ne cliquez pas.|
-
-> [!primary]
-> 
-> Pour les clients des marques Kimsufi ou So you Start, vous n'aurez jamais à régler quoi que ce soit chez OVHcloud. Donc ne tenez pas compte de ce type d'e-mail.
-> 
+|1 - Expéditeur|Vérifiez que l’adresse utilisée pour l’envoi de l’e-mail se termine par un domaine tel que « @ovhcloud.com », « @ovh.com », « @soyoustart.com » , « @kimsufi.com » ou un sous-domaine tel que « @events.ovhcloud.com », « @news.soyoustart.com », « @services.kimsufi.com », etc... |L'expéditeur de l'e-mail sera forcément une adresse qui ne vient pas d'OVHcloud.|
+|2 - Objet|Vérifiez que votre identifiant **(commençant par la première lettre du nom enregistré chez OVHcloud puis par la première lettre du prénom enregistré chez OVHcloud)** et/ou l’adresse e-mail de votre compte figurent dans l’objet du message.|Très souvent, l'e-mail sera marqué comme \[SPAM] et **votre identifiant n'apparaîtra pas ou sera incorrect**.|
+|3 - Lien|**Sans cliquer dessus, passez votre pointeur de souris sur le lien ou le bouton** et vous en verrez directement la cible (en dessous ou tout en bas de votre navigateur). Dans notre exemple, le lien renvoie bien vers une adresse https://www.ovh.com/.|Dans notre exemple, en passant le pointeur de la souris sur le lien, vous remarquez que celui-ci n'a rien à voir avec OVHcloud. **Ne cliquez pas dessus.**|
 
 #### Signaler un e-mail de phishing
 
-Si après les vérifications expliquées au-dessus, vous êtes certain que vous avez effectivement reçu un e-mail de phishing usurpant l'identité d'OVHcloud, vous pouvez nous faire parvenir un maximum d’informations (le contenu de l'e-mail au minimum) à l’adresse e-mail suivante : **<fraude@ovh.com>**.
+Après avoir effectué les vérifications expliquées au-dessus, si vous êtes certain que vous avez effectivement reçu un e-mail de phishing usurpant l'identité d'OVHcloud, vous pouvez nous faire parvenir un maximum d’informations (le contenu de l'e-mail au minimum) à l’adresse e-mail suivante : **<fraude@ovh.com>**.
 
 > [!primary]
 > 
@@ -53,20 +51,25 @@ Si après les vérifications expliquées au-dessus, vous êtes certain que vous 
 
 #### Si vous avez entré votre numéro de carte bancaire sur un site frauduleux
 
-La seule chose à faire est de contacter rapidement votre banque afin de faire opposition. Indiquez-leur la date et si possible l’heure à laquelle vous avez entré votre numéro de carte bancaire.
+La seule chose à faire est de contacter rapidement votre banque afin de faire opposition sur votre moyen de paiement. Indiquez-leur la date et si possible l’heure à laquelle vous avez entré votre numéro de carte bancaire.
 
 **Votre banque est la seule à pouvoir annuler les transactions frauduleuses qui pourraient avoir été effectuées à votre insu.**
 
 #### Si vous avez entré votre mot de passe OVHcloud sur un site frauduleux
 
-Connectez-vous sur votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&){.external} et changez votre mot de passe. Nous vous conseillons fortement d’activer également la double authentification pour sécuriser durablement votre compte.
+Connectez-vous sur votre [espace client OVHcloud](/links/manager) et modifiez immédiatement votre mot de passe.<br>
+
+Vous trouverez, sur notre guide « [Modifier le mot de passe de votre compte](/pages/account_and_service_management/account_information/manage-ovh-password) », la méthode pour modifier votre mot de passe depuis votre espace client, ainsi que nos recommandations pour générer un mot de passe efficace et le sauvegarder dans un gestionnaire de mots de passe. 
+
+Nous vous conseillons fortement d’activer également la [double authentification](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa) pour sécuriser durablement votre compte.
 
 > [!primary]
 >
-> Pour sécuriser parfaitement vos données, votre mot de passe doit suivre ces quelques recommandations :
+> Pour rappel, afin de sécuriser efficacement vos données, votre mot de passe doit :
 >
 > - comporter au minimum douze caractères ;
-> - comporter au minimum trois types de caractères ;
+> - comporter au moins 1 lettre majuscule, 1 lettre minuscule et 1 chiffre ;
+> - comporter des caractères spéciaux (par exemple : `%`, `#`, `:`, `$`, `*`)
 > - ne pas être tiré du dictionnaire ;
 > - ne pas comporter d’informations personnelles (votre prénom, nom ou date de naissance) ;
 > - ne pas être utilisé pour plusieurs accès utilisateur ;
@@ -77,4 +80,10 @@ Connectez-vous sur votre [espace client OVHcloud](https://ca.ovh.com/auth/?actio
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+[Définir et gérer le mot de passe de votre compte](/pages/account_and_service_management/account_information/manage-ovh-password)
+
+[Sécuriser son compte OVHcloud avec la double authentification](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
+
+[Sécuriser mon compte OVHcloud et gérer mes informations personnelles](/pages/account_and_service_management/account_information/all_about_username)
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).

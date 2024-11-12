@@ -1,16 +1,12 @@
 ---
 title: Como configurar um IP alias
 excerpt: Descubra como adicionar endereços Additional IP à configuração de rede
-updated: 2024-03-25
+updated: 2024-11-05
 ---
 
 > [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
 >
-
-> [!primary]
->
-> A partir de 6 de outubro de 2022, a nossa solução "Failover IP" passou a designar-se [Additional IP](https://www.ovhcloud.com/pt/network/additional-ip/). Isto não afeta as suas funcionalidades.
+> A partir de 6 de outubro de 2022, a nossa solução "Failover IP" passou a designar-se [Additional IP](/links/network/additional-ip). Isto não afeta as suas funcionalidades.
 >
 
 ## Objetivo
@@ -28,8 +24,8 @@ O IP aliasing é uma configuração de rede para servidores dedicados que permit
 
 ## Requisitos
 
-- Ter um [servidor dedicado](https://www.ovhcloud.com/pt/bare-metal/){.external}.
-- Dispor de um ou vários endereços [Additional IP](https://www.ovhcloud.com/pt/bare-metal/ip/){.external}.
+- Ter um [servidor dedicado](/links/bare-metal/bare-metal){.external}.
+- Dispor de um ou vários endereços [Additional IP](/links/network/additional-ip){.external}.
 - Estar ligado ao servidor usando o protocolo SSH.
 
 > [!warning]
@@ -56,7 +52,7 @@ As secções seguintes contêm as configurações das distribuições que dispon
 
 Nos exemplos abaixo, utilizaremos o editor de texto `nano`. Para alguns sistemas operativos, primeiro é necessário instalá-lo antes de o utilizar. Se for o caso, ser-lhe-á pedido que o faça. Pode, claro, utilizar o editor de texto que preferir.
 
-### Debian 10/11
+### Debian 11
 
 Por predefinição, o ficheiro de configuração está situado em `/etc/network/interfaces.d/`. Recomendamos começar por realizar uma cópia de segurança do ficheiro de configuração correspondente.
 
@@ -172,7 +168,7 @@ Agora, execute este comando para reiniciar a interface:
 sudo /etc/init.d/networking restart
 ```
 
-### Fedora 38 e versões posteriores
+### Fedora 39 e versões posteriores
 
 Fedora utiliza agora ficheiros chave (*keyfiles*).
 Fedora utilizava anteriormente perfis de rede armazenados pela NetworkManager no formato ifcfg no diretório `/etc/sysconfig/network-scripts/`.<br>
@@ -281,7 +277,6 @@ De seguida, edite o ficheiro com o conteúdo abaixo, substituindo `INTERFACE_NAM
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -295,7 +290,6 @@ Se tiver dois endereços Additional IP a configurar, o ficheiro de configuraçã
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -314,7 +308,6 @@ network:
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        eth0:
            dhcp4: true
@@ -340,7 +333,7 @@ sudo netplan apply
 > Quando utilizar o comando `netplan try`, é possível que o sistema envie uma mensagem de aviso tal como `Permissions for /etc/netplan/xx-cloud-init.yaml are too open. Netplan configuration should NOT be access by others`. Isso simplesmente significa que o arquivo não tem permissões restritivas. Isto não afeta a configuração do seu Additional IP. Para mais informações sobre as permissões dos ficheiros, consulte a [documentação oficial do ubuntu](https://help.ubuntu.com/community/FilePermissions){.external}.
 >
 
-### CentOS, AlmaLinux (8 & 9), Rocky Linux (8 & 9)
+### AlmaLinux (8 & 9), Rocky Linux (8 & 9)
 
 
 O ficheiro de configuração principal encontra-se em `/etc/sysconfig/network-scripts/`. No nosso exemplo, é chamado `ifcfg-eth0`. Antes de fazer alterações, verifique o nome real do arquivo nessa pasta.
@@ -386,17 +379,9 @@ NETMASK=255.255.255.255
 BROADCAST=203.0.113.1
 ```
 
-#### 3 - Reiniciar a interface alias
+#### 3 - Reiniciar a interface
 
-De seguida, reinicie a sua interface alias. Substitua `eth0:0` pelos seus próprios valores:
-
-```sh
-ifup eth0:0
-```
-
-#### Para AlmaLinux e Rocky Linux
-
-Execute este comando para reiniciar a interface:
+Agora, reinicie a sua interface:
 
 ```sh
 sudo systemctl restart NetworkManager

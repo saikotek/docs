@@ -4,10 +4,6 @@ excerpt: "Descubra cómo descargar un backup de la base de datos de un alojamien
 updated: 2023-08-22
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 La mayoría de los sitios web utilizan bases de datos y **C**ontent **M**anagement **S**ystem (**CMS**) como *WordPress*, *Joomla!*, *PrestaShop* o *Drupal*. Por lo general, permiten almacenar elementos dinámicos como, por ejemplo, comentarios, usuarios y contraseñas, el estado del inventario si dispone de un sitio de e-commerce o incluso artículos. Existen diversos motivos por los que podría necesitar realizar una copia de seguridad de la base de datos para recuperar el contenido.

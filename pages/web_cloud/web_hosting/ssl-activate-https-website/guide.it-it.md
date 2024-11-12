@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come abilitare il protocollo HTTPS sul tuo sito
 updated: 2024-02-26
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Gli hosting Web OVHcloud permettono di usufruire di un [certificato SSL](/links/web/hosting-options-ssl). grazie al quale i siti Web possono stabilire una connessione sicura alla rete ed essere accessibili in *HTTPS*. Per utilizzare questa connessione sicura sono necessari diversi step.

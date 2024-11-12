@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zabezpieczyć katalog lub dostęp do administrowania
 updated: 2024-04-17
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie 
 
 Tutorial wyjaśnia, jak wdrożyć uwierzytelnienie "użytkownik/hasło", aby uzyskać dostęp do całej lub części Twojej strony WWW za pomocą przeglądarki internetowej. 

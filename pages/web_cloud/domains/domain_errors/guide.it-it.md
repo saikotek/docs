@@ -3,10 +3,6 @@ title: Risolvere un errore su un dominio
 updated: 2022-09-01
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La creazione di un dominio, il suo trasferimento e la modifica del proprietario sono tutte operazioni per le quali può verificarsi un errore. Potrebbe essere necessario un intervento da parte tua.

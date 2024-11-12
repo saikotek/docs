@@ -1,7 +1,7 @@
 ---
 title: 'Activer des Machines Windows utilisant Hyper-V sur un Windows Server sous licence OVHcloud'
 excerpt: "Apprenez à créer et activer une machine virtuelle à l'aide de Hyper-V sur un serveur Windows sous licence OVHcloud"
-updated: 2022-01-06
+updated: 2024-10-30
 ---
 
 ## Objectif
@@ -11,24 +11,26 @@ updated: 2022-01-06
 > [!warning]
 > Ce tutoriel vous explique comment utiliser une ou plusieurs solutions OVHcloud avec des outils externes et décrit les actions à effectuer dans un contexte spécifique. Vous devrez peut-être adapter les instructions en fonction de votre situation.
 >
-> Si vous éprouvez des difficultés à appliquer ces instructions, nous vous recommandons de faire appel à un prestataire spécialisé. Pour plus d'informations, consultez la section [Aller plus loin](#gofurther) de ce tutoriel.
+> Si vous éprouvez des difficultés à appliquer ces instructions, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) et/ou discuter du problème avec notre communauté. Pour plus d'informations, consultez la section [Aller plus loin](#gofurther) de ce tutoriel.
 >
 
 ## Prérequis
 
-- [Un serveur dédié](https://www.ovhcloud.com/fr/bare-metal/){.external} avec Windows Server installé
+- [Un serveur dédié](https://www.ovhcloud.com/fr-ca/bare-metal){.external} avec Windows Server installé
 - Le rôle Hyper-V installé
 - Une licence Windows fournie par OVHcloud
 
 ## En pratique
 
-Ce tutoriel suppose que vous avez déjà installé le rôle Hyper-V et que vous avez accès au gestionnaire Hyper-V. Si vous ne l'avez pas fait, vous pouvez consulter le guide de Microsoft sur l'installation du rôle Hyper-V [ici](https://docs.microsoft.com/fr-fr/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server){.external}.
+Ce tutoriel suppose que vous avez déjà installé le rôle Hyper-V et que vous avez accès au gestionnaire Hyper-V. Si vous ne l'avez pas fait, vous pouvez consulter le guide de Microsoft sur l'installation du rôle Hyper-V [ici](https://docs.microsoft.com/fr-ca/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server){.external}.
+
+Les étapes ci-dessous ne concernent que l'activation standard. Si vous disposez d'une licence Windows Datacenter, nous vous recommandons de procéder à l'activation via [l'activation automatique de machine virtuelle (AVMA)](https://learn.microsoft.com/fr-fr/windows-server/get-started/automatic-vm-activation?tabs=server2019){.external}.
 
 ### Création d'un réseau NAT
 
 Tout d’abord, Windows Server va demander l’activation de l’OS invité via NAT (sauf si vous aviez une licence SPLA à attacher à un KMS spécifique). Ouvrez une session PowerShell en tant qu'administrateur. Nous allons le créer avec la commande suivante :
 
-```sh
+```powershell
 PS C:\Windows\system32> New-VMSwitch -SwitchName "NAT" -SwitchType Internal
 Name SwitchType NetAdapterInterfaceDescription
 ---- ---------- ------------------------------
@@ -37,7 +39,7 @@ NAT Internal
 
 Après cela, confirmez que l'adaptateur a été correctement créé avec :
 
-```sh
+```powershell
 PS C:\Windows\system32> Get-VMSwitch
 
 Name SwitchType NetAdapterInterfaceDescription
@@ -49,7 +51,7 @@ NAT Internal
 
 Nous constatons que le commutateur virtuel « NAT » a été créé avec succès. Une fois créé, il faudra valider le `InterfaceIndex` ou « interface ID » pour cette étape, comme ceci :
 
-```sh
+```powershell
 PS C:\Windows\system32> Get-NetAdapter
 Name                     InterfaceDescription                  ifIndex Status
 MacAddress             LinkSpeed
@@ -71,7 +73,7 @@ Dans notre cas, nous voyons que notre ID de carte « NAT » est 24.
 
 Ensuite, créons un réseau de NAT qui permettra à notre VM de se connecter à Internet ; nous verrons les informations qui s'affichent une fois l'exécution terminée :
 
-```sh
+```powershell
 PS C:\Windows\system32> New-NetIPAddress -IPAddress 192.168.0.1 -PrefixLength 24 -InterfaceIndex 24
 IPAddress : 192.168.0.1
 InterfaceIndex : 24
@@ -109,7 +111,7 @@ PolicyStore : PersistentStore
 
 Enfin, créons le réseau qui sera utilisé par notre service WinNAT pour atteindre Internet via la commande suivante :
 
-```sh
+```powershell
 PS C:\Windows\system32> New-NetNat -Name MyNATnetwork -InternalIPInterfaceAddressPrefix 192.168.0.0/24
 Name : MyNATnetwork
 ExternalIPInterfaceAddressPrefix :
@@ -142,7 +144,7 @@ Active : True
 
 Le .ISO utilisé ayant activé le « mode Evaluation », nous devons transférer cet OS invité vers la version Standard. Lancez la commande suivante sur votre CMD :
 
-```sh
+```powershell
 C:\Users\Administrator> DISM.exe /Online /Set-Edition:ServerStandard /ProductKey:N69G4-B89J2-4G8F4-WWYCCJ464C /AcceptEula
 ```
 
@@ -155,13 +157,13 @@ Redémarrez votre machine virtuelle, puis procédez comme suit pour configurer l
 
 Configuration du serveur KMS :
 
-```sh
+```powershell
 cscript.exe c:\windows\system32\slmgr.vbs -skms kms.ovh.net 
 ```
 
 Activation de Windows :
 
-```sh
+```powershell
 cscript.exe c:\windows\system32\slmgr.vbs -ato
 ```
 
@@ -169,4 +171,4 @@ Votre VM doit être maintenant activée.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

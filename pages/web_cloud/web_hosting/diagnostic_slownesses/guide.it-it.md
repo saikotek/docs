@@ -4,11 +4,6 @@ excerpt: "Individua l'origine delle lentezze del tuo sito Web e scopri come riso
 updated: 2023-10-26
 ---
 
- 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Un rallentamento nel tuo sito è dovuto a un carico troppo lungo per visualizzare l'insieme o alcune parti del tuo sito. 

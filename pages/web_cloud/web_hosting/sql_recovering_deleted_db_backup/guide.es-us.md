@@ -4,10 +4,6 @@ excerpt: "Descubra cómo encontrar la copia de seguridad de una base de datos el
 updated: 2024-07-25
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 La mayoría de nuestros [planes de hosting](/links/web/hosting) incluyen bases de datos. Si, por accidente, elimina una base de datos asociada a su alojamiento web, puede intentar recuperar la copia de seguridad a través de nuestra API.
@@ -74,15 +70,15 @@ Para ello, lleve a cabo las siguientes acciones:
 Para ello, complete los diferentes formularios como se detalla a continuación:
 
 - Para la sección titulada `PATH PARAMETERS`:
-- `serviceName`: Introduzca el nombre de su alojamiento web obtenido anteriormente en el etapa 1 de esta guía.
+    - `serviceName`: Introduzca el nombre de su alojamiento web obtenido anteriormente en el etapa 1 de esta guía.
 
 - Para la sección titulada `QUERY-STRING PARAMETERS`:
-- `creationDate.from`: Deje el formulario en blanco.
-- `creationDate.to`: Deje el formulario en blanco.
-- `databaseName`: Introduzca el nombre de la base de datos eliminada accidentalmente. (ejemplo: **deletedDatabase.mysql.db**).
-- `deletionDate.from`: Deje el formulario en blanco.
-- `deletionDate.to`: Deje el formulario en blanco.
-- `orphan`: Introduzca el valor en minúscula: `true`.
+    - `creationDate.from`: Deje el formulario en blanco.
+    - `creationDate.to`: Deje el formulario en blanco.
+    - `databaseName`: Introduzca el nombre de la base de datos eliminada accidentalmente. (ejemplo: **deletedDatabase.mysql.db**).
+    - `deletionDate.from`: Deje el formulario en blanco.
+    - `deletionDate.to`: Deje el formulario en blanco.
+    - `orphan`: Introduzca el valor en minúscula: `true`.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 

@@ -4,10 +4,6 @@ excerpt: "So verwenden Sie SVN via SSH auf Ihrem Webhosting"
 updated: 2023-12-05
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel 
 
 SVN, die Abkürzung für "Subversion", ist ein Versionsverwaltungssystem. 
@@ -56,7 +52,7 @@ Sie sollten die Verzeichnisse wie unten dargestellt erhalten:
 
 Bevor Sie fortfahren, erstellen Sie ein SSH-Schlüsselpaar von dem Desktop aus, den Sie für die Verbindung mit dem SVN-Repository verwenden.
 
-Um ein Schlüsselpaar zu erstellen, folgen Sie unserer Anleitung zur [SSH-Schlüsselerstellung](/pages/public_cloud/compute/public-cloud-first-steps#schritt-1-ssh-schlussel-erstellen). Sie können hierbei den Schritt zum Import Ihres SSH Schlüssels ins OVHcloud Kundencenter ignorieren.
+Um ein Schlüsselpaar zu erstellen, folgen Sie unserer Anleitung zur [SSH-Schlüsselerstellung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated#create-ssh-key).
 
 ### Öffentlichen Schlüssel zum Hosting hinzufügen
 

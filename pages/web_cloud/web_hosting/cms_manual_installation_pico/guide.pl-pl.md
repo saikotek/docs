@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak ręcznie zainstalować CMS Pico"
 updated: 2024-03-21
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Szybkie tworzenie stron WWW możliwe jest dzięki systemowi Pico **CMS** (**C**ontent **M**anagement **S**ystem). Zaprojektowany z myślą o tworzeniu i zarządzaniu treścią w prosty sposób za pomocą plików Markdown, Pico jest idealny do tworzenia osobistych stron WWW, portfolio lub projektów małych firm.

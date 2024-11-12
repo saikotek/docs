@@ -4,10 +4,6 @@ excerpt: "Descubra cómo conectarse a la base de datos"
 updated: 2023-10-31
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Es posible consultar el contenido de la base de datos a través de una interfaz. Para ello, existen varias formas de conectarse.

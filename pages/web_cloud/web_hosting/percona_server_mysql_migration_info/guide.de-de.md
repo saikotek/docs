@@ -4,10 +4,6 @@ excerpt: "Entdecken Sie die Vorteile der Migration von Oracle MySQL auf Percona 
 updated: 2024-07-09
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Als Teil unseres kontinuierlichen Engagements für leistungsstarke und zuverlässige Lösungen hat OVHcloud beschlossen, Shared-Database-Dienste von Oracle MySQL auf *Percona Server for MySQL* zu migrieren.

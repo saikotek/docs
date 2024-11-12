@@ -4,10 +4,6 @@ excerpt: "Come aggiungere una chiamata verso un'API esterna dalla tua pagina Web
 updated: 2023-01-16
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Questa guida ti mostra come utilizzare il generatore del sito [Cecil](https://cecil.app){.external} per visualizzare il contenuto di una pagina dinamica. Il tutto chiamando un'API per recuperare e visualizzare le informazioni su una pagina generata via **Cecil**.

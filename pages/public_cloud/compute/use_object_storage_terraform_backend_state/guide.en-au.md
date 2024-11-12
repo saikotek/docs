@@ -1,7 +1,7 @@
 ---
 title: 'Using OVHcloud High Performance (S3) Object Storage as Terraform Backend to store your Terraform state'
 excerpt: 'Find out how to use an OVHcloud High Performance (S3) Object Storage as a Terraform Backend to store your Terraform state'
-updated: 2023-12-06
+updated: 2024-10-29
 ---
 
 ## Objective
@@ -16,7 +16,7 @@ In this tutorial you will:
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au)
+- Access to the [OVHcloud Control Panel](/links/manager)
 - A [Public Cloud Instance](https://www.ovhcloud.com/en-au/public-cloud/) in your OVHcloud account
 - [Terraform CLI](https://www.terraform.io/downloads){.external} installed
 
@@ -78,7 +78,8 @@ $ aws s3 ls
 Create a `backend.tf` file with the following content:
 
 Before Terraform version 1.6.0:
-```yaml
+
+```hcl
 terraform {
     backend "s3" {
       bucket = "terraform-state-hp"
@@ -89,12 +90,19 @@ terraform {
       skip_credentials_validation = true
       skip_region_validation      = true
       skip_s3_checksum            = true
+
+      # The following fields should be added if your S3 user credentials are not
+      # already configured in files ~/.aws/credentials, ~/.aws/config or in
+      # environment variables.
+      access_key                  = "s3 user access key"
+      secret_key                  = "s3 user secret key"
     }
 }
 ```
 
 After Terraform version 1.6.0:
-```yaml
+
+```hcl
 terraform {
     backend "s3" {
       bucket = "terraform-state-hp"
@@ -108,6 +116,12 @@ terraform {
       skip_region_validation      = true
       skip_requesting_account_id  = true
       skip_s3_checksum            = true
+
+      # The following fields should be added if your S3 user credentials are not
+      # already configured in files ~/.aws/credentials, ~/.aws/config or in
+      # environment variables.
+      access_key                  = "s3 user access key"
+      secret_key                  = "s3 user secret key"
     }
 }
 ```
@@ -147,4 +161,4 @@ Now you can define your Terraform configuration files and providers and after ru
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

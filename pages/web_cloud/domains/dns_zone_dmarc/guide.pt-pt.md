@@ -4,10 +4,6 @@ excerpt: Saiba como o DMARC funciona e como configurá-lo para o seu serviço de
 updated: 2023-12-13
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O registo **D**omain-based **M**essage **A**uthentication, **R**eporting, and **C**onformance (DMARC) é um mecanismo de segurança de e-mail. Baseia-se no resultado das verificações [SPF](/pages/web_cloud/domains/dns_zone_spf) e [DKIM](/pages/web_cloud/domains/dns_zone_dkim).

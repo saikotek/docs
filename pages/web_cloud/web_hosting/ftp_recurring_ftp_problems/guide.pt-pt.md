@@ -4,10 +4,6 @@ excerpt: "Encontre aqui as anomalias mais frequentes associadas ao seu software 
 updated: 2022-01-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A utilização de software FTP durante a ligação ao seu [alojamento Web Cloud](/links/web/hosting) pode causar várias anomalias. Este guia permitir-lhe-á resolver os problemas mais comuns.

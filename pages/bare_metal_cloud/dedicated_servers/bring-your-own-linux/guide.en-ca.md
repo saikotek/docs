@@ -1,7 +1,7 @@
 ---
 title: Bring Your Own Linux (BYOLinux)
 excerpt: Find out how to easily deploy your own Linux images on dedicated servers
-updated: 2024-07-19
+updated: 2024-10-30
 ---
 
 ## Objective
@@ -17,8 +17,8 @@ In addition to the requirement and limitations mentioned below, you must ensure 
 
 ## Requirements
 
-- A [dedicated server](https://www.ovhcloud.com/en-ca/bare-metal/) in your OVHcloud account
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca) (for the "[Deployment via Control Panel](#viacontrolpanel)" method)
+- A [dedicated server](/links/bare-metal/bare-metal) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager) (for the "[Deployment via Control Panel](#viacontrolpanel)" method)
 - Access to the [OVHcloud API](/pages/manage_and_operate/api/first-steps) (for the "[Deployment via API](#viaapi)" section of this guide)
 - Your image must be smaller than the Server RAM minus 3GiB
 - An executable script `/root/.ovh/make_image_bootable.sh`, which will reinstall and configure the bootloader, [for example GRUB](https://github.com/ovh/bringyourownlinux/blob/main/example_build/files/make_image_bootable.sh)
@@ -46,7 +46,7 @@ There are some technical limitations linked to the use of physical products such
 
 ### Deploy your image via the Control Panel <a name="viacontrolpanel"></a>
 
-Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca) and go to the `Bare Metal Cloud`{.action} section, then select your server under `Dedicated servers`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager) and go to the `Bare Metal Cloud`{.action} section, then select your server under `Dedicated servers`{.action}.
 
 In the `General information`{.action} tab, click the `...`{.action} button next to "System (OS)" then click `Install`{.action}.
 
@@ -115,6 +115,10 @@ The Bring Your Own Linux (BYOLinux) payload should be similar to the following:
     {
       "key": "configDriveUserData",
       "value": "I2Nsb3VkLWNvbmZpZwpzc2hfYXV0aG9yaXplZF9rZXlzOgogIC0gc3NoLXJzYSBBQUFBQjhkallpdz09IG15c2VsZkBteWRvbWFpbi5uZXQKCnVzZXJzOgogIC0gbmFtZTogcGF0aWVudDAKICAgIHN1ZG86IEFMTD0oQUxMKSBOT1BBU1NXRDpBTEwKICAgIGdyb3VwczogdXNlcnMsIHN1ZG8KICAgIHNoZWxsOiAvYmluL2Jhc2gKICAgIGxvY2tfcGFzc3dkOiBmYWxzZQogICAgc3NoX2F1dGhvcml6ZWRfa2V5czoKICAgICAgLSBzc2gtcnNhIEFBQUFCOGRqWWl3PT0gbXlzZWxmQG15ZG9tYWluLm5ldApkaXNhYmxlX3Jvb3Q6IGZhbHNlCnBhY2thZ2VzOgogIC0gdmltCiAgLSB0cmVlCmZpbmFsX21lc3NhZ2U6IFRoZSBzeXN0ZW0gaXMgZmluYWxseSB1cCwgYWZ0ZXIgJFVQVElNRSBzZWNvbmRzCg=="
+    },
+    {
+      "key": "efiBootloaderPath",
+      "value": "\\efi\\debian\\grubx64.efi"
     }
   ]
 }
@@ -162,9 +166,11 @@ Once you completed the fields, start the deployment by clicking `Execute`{.actio
 | userMetadata/configDriveMetadata | Custom Cloud-Init metadata | ❌ |
 | userMetadata/httpHeaders?Key | HTTP Headers key  | ❌² |
 | userMetadata/httpHeaders?Value | HTTP Headers value | ❌² |
+| userMetadata/efiBootloaderPath | EFI bootloader path | ✅³ |
 
 ¹ Can either be a `#cloud-config` or a script. It must be in one-line, and have `\n` for line-return<br />
 ² Use only if you need HTTP Headers, such as `Basic Auth`<br />
+³ Examples of Efi bootloader path: Debian: \\efi\\debian\\grubx64.efi, Ubuntu:\\efi\\ubuntu\\grubx64.efi, Microsoft: \\efi\\microsoft\\boot\\bootmgfw.efi
 
 > [!primary]
 >

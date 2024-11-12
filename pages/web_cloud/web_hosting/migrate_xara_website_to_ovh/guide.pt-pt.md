@@ -4,10 +4,6 @@ excerpt: "Descubra como migrar o seu website Xara e os seus serviços associados
 updated: 2024-07-29
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este tutorial explica passo a passo como migrar o seu website Xara e todos os seus serviços associados para a OVHcloud.

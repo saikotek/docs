@@ -4,10 +4,6 @@ excerpt: "Decubra cómo activar un certificado SSL en un sitio web HTTPS"
 updated: 2024-02-26
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Los planes de hosting de OVHcloud le permiten disfrutar de un [certificado SSL](/links/web/hosting-options-ssl). Este último permite que uno o varios de sus sitios web dispongan de una conexión segura, por lo que es posible acceder a ellos mediante el protocolo *HTTPS*. Para ello, es necesario realizar diversas acciones antes de que los sitios web puedan utilizar esta conexión segura.

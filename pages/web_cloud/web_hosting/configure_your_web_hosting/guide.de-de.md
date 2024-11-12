@@ -1,12 +1,8 @@
 ---
-title: "Webhosting: Laufzeitumgebung, PHP-Version, .ovhconfig"
+title: "Webhosting - Laufzeitumgebung, PHP-Version, .ovhconfig"
 excerpt: "Erfahren Sie hier, wie Sie die Einstellungen von Laufzeitumgebung, PHP-Version, Firewall, Engine, Modus und .ovhconfig ändern"
 updated: 2024-07-16
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -44,7 +40,7 @@ Diese Konfigurationseinstellungen können auf zwei Arten geändert werden:
 
 **Diese Anleitung erklärt, wie Sie die Laufzeitumgebung, die PHP-Version, die Anwendungsfirewall, die Engine, den Modus und die Datei “.ovhconfig“ eines Webhostings ändern.**
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Voraussetzungen
 
@@ -97,7 +93,7 @@ Einige PHP-Versionen funktionieren nur in bestimmten Laufzeitumgebungen. Nachfol
 |---|---|
 |5.4, 5.5, 5.6 und 7.0|Legacy, Stable|
 |7.1, 7.2 und 7.3|Stable|
-|7.4, 8.0, 8.1 und 8.2|Stable64|
+|7.4, 8.0, 8.1, 8.2 und 8.3|Stable64|
 
 > [!primary]
 >

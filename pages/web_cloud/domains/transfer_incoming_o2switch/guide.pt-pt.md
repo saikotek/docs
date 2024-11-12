@@ -5,10 +5,6 @@ updated: 2024-06-28
 flag: hidden
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A transferência de um nome de domínio O2Switch requer um processo específico.
@@ -59,7 +55,7 @@ Deve também:
 >
 > Para isso, consulte os seguintes guias:
 >
-> - [Criar uma zona DNS na OVHcloud](pages/web_cloud/domains/dns_zone_create)
+> - [Criar uma zona DNS na OVHcloud](/pages/web_cloud/domains/dns_zone_create)
 > - [Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit)
 >
 > Certifique-se também de que o agente de registo atual não vai fechar outros serviços, como, por exemplo, os endereços de correio eletrónico associados ao domínio.

@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie Ihre WordPress Website und zugehörige Dien
 updated: 2024-06-28
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 In dieser Anleitung erfahren Sie Schritt für Schritt, wie Sie Ihre WordPress Website und alle zugehörigen Dienste zu OVHcloud migrieren.
@@ -28,7 +24,7 @@ In dieser Anleitung erfahren Sie Schritt für Schritt, wie Sie Ihre WordPress We
 
 ### Schritt 1: Backup der Dateien und Datenbanken Ihrer WordPress Website
 
-Der erste Schritt besteht darin, alle Dateien zu Ihrer WordPress Website abzurufen. Dazu gehören WordPress Dateien und Ihre Datenbank. Dann lesen Sie unsere Anleitung "[Backup Ihrer WordPress Website](/pages/web_cloud/web_hosting/how_to_backup_your_wordpress)".
+Der erste Schritt besteht darin, alle Dateien zu Ihrer WordPress Website abzurufen. Dazu gehören die Dateien von WordPress und Ihre Datenbank. Folgen Sie unserer Anleitung "[Backup Ihrer WordPress Website](/pages/web_cloud/web_hosting/how_to_backup_your_wordpress)".
 
 ### Schritt 2: Ihre WordPress Website zu OVHcloud übertragen
 

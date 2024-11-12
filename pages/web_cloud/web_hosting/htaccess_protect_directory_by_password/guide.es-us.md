@@ -4,10 +4,6 @@ excerpt: "Descubra cómo proteger un repertorio o el acceso a la administración
 updated: 2024-04-17
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Este tutorial explica cómo crear la autenticación "usuario/contraseña" para acceder a la totalidad o parte de su sitio web a través de un navegador de internet. 

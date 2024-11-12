@@ -1,16 +1,12 @@
 ---
 title: 'Konfiguracja adresu Additional IP jako aliasu'
 excerpt: 'Dowiedz się, jak dodać kilka adresów Additional IP do interfejsu'
-updated: 2024-03-25
+updated: 2024-11-05
 ---
 
 > [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
 >
-
-> [!primary]
->
-> Od 6 października 2022 nasze rozwiązanie "Failover IP" nazywa się teraz [Additional IP](https://www.ovhcloud.com/pl/network/additional-ip/). To nie ma wpływu na jego funkcje.
+> Od 6 października 2022 nasze rozwiązanie "Failover IP" nazywa się teraz [Additional IP](/links/network/additional-ip). To nie ma wpływu na jego funkcje.
 >
 
 ## Wprowadzenie
@@ -23,12 +19,12 @@ Alias IP (po angielsku IP aliasing) to specjalna konfiguracja sieci serwera dedy
 >
 > OVHcloud oddaje do Twojej dyspozycji usługi, za które to Ty przejmujesz odpowiedzialność. Firma OVHcloud nie ma dostępu do Twoich serwerów, nie pełni funkcji administratora i w związku z tym nie będzie mogła udzielić Ci wsparcia. Dlatego to do Ciebie należy codzienne zarządzanie oprogramowaniem i dbanie o bezpieczeństwo.
 >
-> Oddajemy w Twoje ręce niniejszy przewodnik, którego celem jest pomoc w jak najbardziej optymalnym wykonywaniu bieżących zadań. Jeśli jednak napotkasz jakiekolwiek trudności lub wątpliwości związane z administrowaniem, użytkowaniem lub dbaniem o bezpieczeństwo serwera, zalecamy skontaktowanie się z [wyspecjalizowanym dostawcą](https://partner.ovhcloud.com/pl/directory/). Więcej informacji znajduje się w sekcji "Sprawdź również".
+> Oddajemy w Twoje ręce niniejszy przewodnik, którego celem jest pomoc w jak najbardziej optymalnym wykonywaniu bieżących zadań. Jeśli jednak napotkasz jakiekolwiek trudności lub wątpliwości związane z administrowaniem, użytkowaniem lub dbaniem o bezpieczeństwo serwera, zalecamy skontaktowanie się z [wyspecjalizowanym dostawcą](/links/partner). Więcej informacji znajduje się w sekcji "Sprawdź również".
 >
 
 ## Wymagania początkowe
 
-- Posiadanie [serwera dedykowanego](https://www.ovhcloud.com/pl/bare-metal/){.external}.
+- Posiadanie [serwera dedykowanego](/links/bare-metal/bare-metal){.external}.
 - Dysponowanie jednym lub kilkoma adresami Additional IP.
 - Zalogowanie się poprzez SSH do serwera (dostęp *sudo*).
 
@@ -56,7 +52,7 @@ Poniższe sekcje zawierają konfiguracje aktualnie oferowanych przez nas dystryb
 
 W poniższych przykładach użyjemy edytora tekstu `nano`. W przypadku niektórych systemów operacyjnych należy zainstalować go przed użyciem. Jeśli tak będzie, zostaniesz poproszony o jego wykonanie. Możesz użyć dowolnego edytora tekstu.
 
-### Debian 10/11
+### Debian 11
 
 Domyślnie plik konfiguracyjny znajduje się w katalogu`/etc/network/interfaces.d/`. Zaleca się, aby najpierw wykonać kopię zapasową odpowiedniego pliku konfiguracyjnego.
 
@@ -168,7 +164,7 @@ Pozostaje tylko zrestartować interfejs:
 sudo /etc/init.d/networking restart
 ```
 
-### Fedora 38 i kolejne wersje
+### Fedora 39 i kolejne wersje
 
 Fedora korzysta teraz z kluczowych plików (*keyfiles*).
 Fedora korzystała wcześniej z profili sieci przechowywanych przez NetworkManager w formacie ifcfg w katalogu `/etc/sysconfig/network-scripts/`.<br>
@@ -278,7 +274,6 @@ Następnie edytuj plik, zastępując polecenia `INTERFACE_NAME` i `ADDITIONAL_IP
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -291,7 +286,6 @@ Jeśli chcesz skonfigurować dwa adresy Additional IP, plik konfiguracyjny powin
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -311,7 +305,6 @@ network:
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        eth0:
            dhcp4: true
@@ -337,7 +330,7 @@ sudo netplan apply
 > Używając polecenia `netplan try`, system może zwrócić komunikat ostrzegawczy, taki jak `Permissions for /etc/netplan/xx-cloud-init.yaml are too open. Netplan configuration should NOT be accessible by others`. Oznacza to po prostu, że plik nie ma ograniczonych uprawnień. Nie ma to wpływu na konfigurację Additional IP. Aby uzyskać więcej informacji na temat uprawnień do plików, zobacz [oficjalną dokumentację Ubuntu](https://help.ubuntu.com/community/FilePermissions){.external}.
 >
 
-### CentOS, AlmaLinux (8 & 9), Rocky Linux (8 & 9)
+### AlmaLinux (8 & 9), Rocky Linux (8 & 9)
 
 łówny plik konfiguracyjny znajduje się w `/etc/sysconfig/network-scripts/`. W naszym przykładzie nazywa się `ifcfg-eth0`. Przed wprowadzeniem zmian sprawdź rzeczywistą nazwę pliku w tym folderze.
 
@@ -381,15 +374,9 @@ NETMASK=255.255.255.255
 BROADCAST=203.0.113.1
 ```
 
-#### Krok 3: restart interfejsu alias
+#### Krok 3: restart interfejsu
 
-Następnie zrestartuj swój interfejs. Zastąp `eth0:0` własnymi wartościami:
-
-```sh
-ifup eth0:0
-```
-
-#### Dla AlmaLinux i Rocky Linux
+Pozostaje tylko zrestartować interfejs:
 
 ```sh
 sudo systemctl restart NetworkManager

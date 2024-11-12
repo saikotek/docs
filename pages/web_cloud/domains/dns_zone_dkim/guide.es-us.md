@@ -27,10 +27,6 @@ updated: 2024-07-05
  }
 </style>
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 El registro DKIM (**D**omain**K**eys **I**dentified **M**ail) permite firmar los emails para evitar la usurpación de identidad. Esta firma funciona sobre el principio del hackeo combinado con una criptografía asimétrica.
@@ -186,7 +182,7 @@ Asimismo, asegúrese de que el dominio que quiera utilizar para el correo electr
 
 #### Configuración completa de DKIM <a name="firststep"></a>
 
-Para configurar el DKIM, acceda al sitio web <https://api.ovh.com/console/>, conéctese con el botón `Login`{.action} en la parte superior derecha e introduzca sus claves OVHcloud.
+Para configurar el DKIM, acceda al sitio web <https://ca.api.ovh.com/console/>, conéctese con el botón `Login`{.action} en la parte superior derecha e introduzca sus claves OVHcloud.
 
 > Si nunca ha utilizado la API, puede consultar nuestra guía "[Cómo utilizar las API de OVHcloud](/pages/manage_and_operate/api/first-steps)".
 

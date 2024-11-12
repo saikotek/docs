@@ -3,10 +3,6 @@ title: "Tutorial - Installare manualmente PrestaShop"
 excerpt: "Questa guida ti mostra come installare manualmente il tuo CMS PrestaShop"
 updated: 2023-04-07
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
   
 ## Obiettivo
 

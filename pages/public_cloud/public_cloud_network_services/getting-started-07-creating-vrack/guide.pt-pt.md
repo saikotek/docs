@@ -1,23 +1,19 @@
 ---
 title: 'Configuração do vRack Public Cloud'
 excerpt: 'Saiba como configurar o vRack para as instâncias de Public Cloud'
-updated: 2023-03-03
+updated: 2024-11-07
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
-O [vRack](https://www.ovh.pt/solucoes/vrack/) é uma rede privada que lhe permite configurar o direcionamento entre vários servidores dedicados OVHcloud. Mas permite-lhe também adicionar [instâncias Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) à sua rede privada a fim de criar uma infraestrutura de recursos físicos e virtuais.
+O [vRack](/links/network/vrack) é uma rede privada que lhe permite configurar o direcionamento entre vários servidores dedicados OVHcloud. Mas permite-lhe também adicionar [instâncias Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) à sua rede privada a fim de criar uma infraestrutura de recursos físicos e virtuais.
 
 **Este guia explica como configurar instâncias de Public Cloud no seu vRack.**
 
 ## Requisitos
 
 - Dispor de um [projeto Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project)
-- Ter acesso à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager)
 - um [utilizador OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) (opcional)
 - Conhecimentos básicos de rede
 
@@ -31,7 +27,7 @@ Em função do seu perfil técnico e das suas necessidades, terá de escolher qu
 
 ### Área de Cliente OVHcloud
 
-A [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt) é uma interface completa e unicamente visual, o que a torna uma interface ideal se tiver apenas uma VLAN a gerir. Não poderá personalizar o intervalo de endereços IP privados que será apenas em 10.x.x.x/16.
+A [Área de Cliente OVHcloud](/links/manager) é uma interface inteiramente e unicamente visual, o que faz dela uma interface ideal para a gestão de várias VLANs. Terá igualmente a possibilidade de personalizar o intervalo de IP privado que, por defeito, é 10.x.x.x/16.
 
 As VLAN serão implementadas de forma padrão em todas as zonas. Apenas terá a possibilidade de ativar ou não as gateways.
 
@@ -39,14 +35,14 @@ Também poderá gerir a faturação dos seus serviços através da Área de Clie
 
 ### Interface Horizon
 
-Interface visual independente da OVHcloud, [Horizon](https://horizon.cloud.ovh.net/auth/login/){.external} é a implementação inicial do painel de controlo da OpenStack, que fornece uma interface de utilizador web aos serviços OpenStack, incluindo Nova, Swift, Keystone, etc...
+Interface visual independente da OVHcloud, [Horizon](https://horizon.cloud.ovh.net/auth/login/){.external} é a implementação inicial do painel de controlo da OpenStack, que fornece uma interface de utilizador web aos serviços OpenStack, incluindo Nova, Swift, Keystone, etc.
 
 Esta interface completa e técnica permite-lhe gerir a quase totalidade das ações OpenStack. Esta será uma das interfaces necessárias se deseja gerir mais de duas VLAN, adicionar interfaces de rede privadas às suas instâncias, gerir imagens personalizadas, etc..
 
 Consulte o guia: [Criar um acesso à interface Horizon](/pages/public_cloud/compute/introducing_horizon) para se familiarizar com o Horizon.
 
 > [!primary]
-> Uma vez que o Horizon funciona por zona, pense bem em escolher a sua zona geográfica de trabalho no topo à esquerda da sua interface (GRA5, SBG3, BHS1, etc...)
+> Uma vez que o Horizon funciona por zona, pense bem em escolher a sua zona geográfica de trabalho no topo à esquerda da sua interface (GRA5, SBG3, BHS1, etc.)
 >
 
 ### APIv6 OVHcloud
@@ -87,7 +83,7 @@ Poderá, em função das suas necessidades, utilizar as API dedicadas ao OpenSta
 - Neutron (rede)
 
 > [!primary]
->Em alguns casos, será mais simples utilizar as API OpenStack e noutros, as API Nova, Neutron, etc...
+> Em alguns casos, será mais simples utilizar as API OpenStack e noutros, as API Nova, Neutron, etc.
 >
 > Da mesma forma, algumas funcionalidades podem estar ausentes da API OpenStack de acordo com a versão do seu cliente e do seu sistema operativo.
 No âmbito deste manual, foi escolhido propor-lhe as alternativas mais simples e mais intuitivas.
@@ -104,27 +100,27 @@ Para isso, deve escolher o bom fornecedor e o bom recurso Terraform. Encontre ma
 
 ### Etapa 1: Ativar e gerir um vRack <a name="activation"></a>
 
-Antes de mais, deve criar um vRack.
-
-Este produto é gratuito e a disponibilização demora apenas alguns minutos. No entanto, requer a criação e a validação de uma nota de encomenda.
-
-Uma vez o vRack ativado, este serviço será identificado como "pn-xxxxx".
-
 #### A partir da Área de Cliente OVHcloud
 
-Aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}, aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud à sua escolha no canto superior esquerdo.
+> [!primary]
+> Isto não se aplica aos projetos recém-criados que são agora entregues automaticamente com um vRack. Para visualizar o vRack após a criação do projeto, aceda ao menu `Bare Metal Cloud`{.action} e clique em `Network`{.action} no separador à esquerda. Clique em `Rede privada vRack`{.action} para consultar o(s) vRack(s).
+>
 
-![seleção do projeto](images/vrack2021-05.png){.thumbnail}
+Se tem um projeto mais antigo e não possui vRack, deve encomendar um. Este produto é gratuito e a ativação é realizada em poucos minutos.
 
-Clique em `Private Network`{.action} no menu lateral à esquerda. 
+Aceda ao menu `Bare Metal Cloud`{.action} e clique no botão `Encomendar`{.action}. Neste menu, clique na opção `vRack`{.action}.
 
-![Private Network](images/vrack2021-02.png){.thumbnail}
+![Encomendar o vrack](images/ordering_vrack_2024.png){.thumbnail}
 
-Clique no botão `Para começar, crie um vRack`{.action}. Deverá escolher criar um novo vRack ou utilizar um vRack existente. No nosso exemplo, vamos criar um novo vRack. Depois de escolher, clique em `Criar`{.action}.
+Será redirecionado para outra página para validar a encomenda, a operação demorará alguns minutos.
 
-![vRack creation](images/vrack3.png){.thumbnail}
+Depois de ativado, o serviço será apresentado na Área de Cliente, na secção `Bare Metal Cloud`{.action} > `Network`{.action} > `Rede Privada vRack`{.action}. Sob a designação « pn-xxxxx ».
 
-Para continuar a configuração do vRack a partir da Área de Cliente OVHcloud, prossiga a leitura deste guia a partir de [Criar uma VLAN no vRack a partir da Área de Cliente OVHcloud](./#criar-uma-vlan-a-partir-da-area-de-cliente-ovhcloud).
+Na lista dos serviços elegíveis, selecione o projeto que deseja adicionar ao vRack e clique no botão `Adicionar`{.action}.
+
+![Adicionar o projeto](images/addprojectvrack.png){.thumbnail}
+
+Para continuar a configuração do vRack a partir da Área de Cliente OVHcloud, prossiga a leitura deste guia a partir de [Criar uma VLAN no vRack a partir da Área de Cliente OVHcloud](./#criar-uma-rede-privada-a-partir-da-area-de-cliente-ovhcloud).
 
 #### A partir das APIv6 OVHcloud
 
@@ -132,7 +128,7 @@ Para ativar e gerir um vRack a partir das APIv6 OVHcloud, clique [aqui](/pages/p
 
 ### Etapa 2: Criar uma rede privada no vRack
 
-É necessário criar uma rede privada para que as instâncias ligadas ao vRack possam comunicar entre si.
+É necessário criar uma rede privada com uma rede local virtual (VLAN) para que as instâncias ligadas ao vRack possam comunicar entre si.
 
 Na oferta Public Cloud, pode criar até 4000 VLAN dentro de um único vRack. Isto significa que pode utilizar cada endereço IP privado até 4000 vezes.
 Por exemplo, o IP 192.168.0.10 da VLAN 2 é diferente do IP 192.168.0.10 da VLAN 42.
@@ -141,7 +137,7 @@ Pode ser útil para segmentar o seu vRack entre várias redes virtuais.
 
 A partir da Área de Cliente OVHcloud, poderá afetar a VLAN à sua escolha, mas não poderá personalizar a gama IP. O vRack estará ativo em todas as zonas.
 
-A partir das APIv6 OVHcloud, poderá personalizar o conjunto dos parâmetros: intervalo IP (10.0.0.0/16, por exemplo), zona de implementação, DHCP, Gateway, etc...
+A partir das APIv6 OVHcloud, poderá personalizar o conjunto dos parâmetros: intervalo IP (10.0.0.0/16, por exemplo), zona de implementação, DHCP, Gateway, etc.
 
 > [!primary]
 > Nos servidores dedicados, por predefinição, está na VLAN 0. O funcionamento da infraestrutura OpenStack significa que deverá especificar o número da sua VLAN diretamente ao nível da infraestrutura.
@@ -158,7 +154,9 @@ A partir das APIv6 OVHcloud, poderá personalizar o conjunto dos parâmetros: in
 
 #### Criar uma rede privada a partir da Área de Cliente OVHcloud
 
-Depois de criar o vRack, clique novamente em `Private Network`{.action} no menu lateral à esquerda. 
+Uma vez o vRack criado, o passo seguinte consiste em criar uma rede privada.
+
+No separador Public Cloud, clique em `Private Network`{.action} no menu à esquerda em **Network**.
 
 ![VLAN criação](images/vrack2022-03.png){.thumbnail}
 
@@ -166,34 +164,33 @@ Clique agora em `Criar uma rede privada`{.action}. A página seguinte permite-lh
 
 Na etapa 1, selecione a região na qual deseja criar a rede privada.
 
-![select region](images/vrack5-2022.png){.thumbnail}
+![select region](images/vrack5-2024.png){.thumbnail}
 
 Na etapa seguinte, são-lhe apresentadas várias opções:
 
 ![create network](images/vrack6-2022.png){.thumbnail}
 
+No campo **Nome da rede privada**, defina um nome para a sua rede privada.
+
 **Crie um Gateway e ligue-se à rede privada**
 
-Selecione esta opção se pretende criar instâncias apenas com uma rede privada. Para mais informações, consulte os seguintes guias: [Creating a private network with Gateway (EN)](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway) e [Criação e conexão a uma primeira instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps#etapa-3-criacao-de-uma-instancia).
+Selecione esta opção se pretende criar instâncias apenas com uma rede privada. Para mais informações, consulte os seguintes guias: [Creating a private network with Gateway (EN)](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway) e [Criação e conexão a uma primeira instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!warning]
-> Se a opção for "cinzenta", isto significa que é incompatível com a região selecionada. Para mais informações, consulte a nossa página sobre a [disponibilidade dos produtos Public Cloud para cada região](https://www.ovhcloud.com/pt/public-cloud/regions-availability/).
+> Se a opção for "cinzenta", isto significa que é incompatível com a região selecionada. Para mais informações, consulte a nossa página sobre a [disponibilidade dos produtos Public Cloud para cada região](/links/public-cloud/regions-pci).
 >
 
 **Opções de rede do layer 2**
 
-Se selecionar a opção `Definir um ID de VLAN`, deverá escolher um número de VLAN compreendido entre 2 e 4000.
+Se selecionar a opção `Definir um ID de VLAN`, deverá escolher um número de VLAN compreendido entre 0 e 4000.
 
 Se não seleccionar esta caixa, o sistema atribuirá um número de VLAN aleatório.
-
-Se deseja definir o número da VLAN para 0, deve passar pela
-[API OVHcloud](#vlansetup).
 
 Caso seja necessário fazer comunicar servidores dedicados OVHcloud com VLAN taggado, consulte o seguinte guia: [Criar várias VLAN no vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).
 
 **Opções de distribuição dos endereços DHCP**
 
-O intervalo DHCP predefinido está em 10.0.0.0/16. Para alterar este intervalo IP, deverá obrigatoriamente passar pelas APIv6 OVHcloud.
+O intervalo DHCP padrão é 10.0.0.0/16. Você pode usar outra praia privada de sua escolha.
 
 Depois de fazer as suas escolhas, clique em `Criar`{.action} para lançar o processo.
 
@@ -248,11 +245,11 @@ Existem duas situações:
 - A instância ainda não existe.
 - A instância já existe e deve adicioná-la ao vRack.
 
-#### Em caso de nova instância
+**Em caso de nova instância**
 
-##### **A partir da Área de Cliente OVHcloud**
+#### A partir da Área de Cliente OVHcloud
 
-Consulte o guia: [Criar uma instância a partir da Área de Cliente](/pages/public_cloud/compute/public-cloud-first-steps#create-instance). Ao criar uma instância, poderá especificar, na etapa 5, pode escolher um modo de rede e depois uma rede privada na qual possa integrar a sua instância.
+Consulte o guia: [Criar uma instância a partir da Área de Cliente](/pages/public_cloud/compute/public-cloud-first-steps). Ao criar uma instância, poderá especificar, na etapa 5, pode escolher um modo de rede e depois uma rede privada na qual possa integrar a sua instância.
 
 ![attach new instance](images/network-selection.png){.thumbnail}
 
@@ -261,17 +258,17 @@ Consulte o guia: [Criar uma instância a partir da Área de Cliente](/pages/publ
 > Para adicionar várias interfaces diferentes, deverá passar pelas API OpenStack ou interface Horizon.
 >
 
-##### **A partir da APIv6 OVHcloud**
+#### A partir da APIv6 OVHcloud
 
 Clique [aqui](/pages/public_cloud/public_cloud_network_services/getting-started-08-creating-vrack-with-api#step-4-integrating-an-instance-into-the-vrack) (EN), para consultar o guia específico deste método.
 
-##### **A partir da API OpenStack**
+#### A partir da API OpenStack
 
 Para utilizar a API OpenStack, se ainda não o fez, deverá preparar o seu ambiente de trabalho conforme indicado na [primeira parte deste manual](./#api-openstack).
 
 Assim, para criar uma instância diretamente no vRack, deverá proceder desta forma.
 
-###### Recuperação das informações necessárias
+**Recuperação das informações necessárias**
 
 Identificação das redes públicas e privadas:
 
@@ -311,16 +308,19 @@ Tenha em atenção as seguintes informações, como indicado no [guia de utiliza
 
 - ID ou nome da chave SSH OpenStack
 - ID do tipo de instância (flavor)
-- ID da imagem pretendida (Sistema operativo, snapshot, etc...)
+- ID da imagem pretendida (Sistema operativo, snapshot, etc.)
 
-###### Implementação da instância
+**Implementação da instância**
 
 Com os elementos recuperados anteriormente, é possível criar uma instância ao incluí-la diretamente no vRack:
 
 ```bash
 nova boot --key-name SSHKEY --flavor [ID-flavor] --image [ID-Image] --nic net-id=[ID-Network 1] --nic net-id=[ID-Network 2] [instance name]
+```
 
 Exemplo:
+
+```bash
 nova boot --key-name my-ssh-key --flavor xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --image yyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy --nic net-id=[id_Ext-Net] --nic net-id=[id_VLAN] NameOfInstance
 
 +--------------------------------------+------------------------------------------------------+
@@ -354,12 +354,16 @@ nova boot --key-name my-ssh-key --flavor xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --im
 | user_id                              | zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz                     |
 +--------------------------------------+------------------------------------------------------+
 ```
+
 ou
 
 ```bash
 openstack server create --key-name SSHKEY --flavor [ID-flavor] --image [ID-Image] --nic net-id=[ID-Network 1] --nic net-id=[ID-Network 2] [instance name]
+```
 
-Ex :
+Exemplo :
+
+```bash
 openstack server create --key-name my-ssh-key --flavor xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --image yyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy --nic net-id=[id_Ext-Net] --nic net-id=[id_VLAN] NameOfInstance
 
 +--------------------------------------+------------------------------------------------------+
@@ -396,7 +400,7 @@ openstack server create --key-name my-ssh-key --flavor xxxxxx-xxxx-xxxx-xxxx-xxx
 
 Tem a possibilidade de definir o endereço IP da instância da sua interface vRack ao nível de OpenStack.
 
-Para isso, pode adicionar um simples argumento na função "—nic":
+Para isso, pode adicionar um simples argumento na função "--nic":
 
 `--nic net-id=[ID-Network],v4-fixed-ip=[IP_static_vRack]`
 
@@ -404,7 +408,7 @@ Exemplo:
 
 `--nic net-id=[ID-vRack],v4-fixed-ip=192.168.0.42`
 
-###### Verificação da instância
+**Verificação da instância**
 
 Depois de alguns instantes, pode verificar-se a lista das instâncias existentes a fim de encontrar o servidor criado:
 
@@ -426,7 +430,7 @@ nova list
 +--------------------------------------+--------------------+--------+------------+-------------+--------------------------------------------------+
 ```
 
-#### Caso de uma instância existente
+**Caso de uma instância existente**
 
 A Área de Cliente OVHcloud permite associar uma instância a uma ou várias redes privadas, mas não oferece uma configuração avançada das interfaces de rede. Se deseja personalizar mais estas, terá de as gerir quer a partir das APIv6 OVHcloud, quer através das API OpenStack ou através do Horizon.
 
@@ -439,9 +443,9 @@ Assim, por exemplo, se tiver uma interface pública *eth0*, terá ainda uma inte
 > Será necessário configurá-la em DHCP ou IP Fixo consoante a sua infraestrutura.
 >
 
-##### **A partir da Área de Cliente OVHcloud** 
+#### A partir da Área de Cliente OVHcloud** 
 
-Aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}, aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em questão no canto superior esquerdo.
+Aceda à [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em questão no canto superior esquerdo.
 
 Clique em `Instances`{.action} no menu lateral esquerdo. A seguir, clique no botão `...`{.action} à direita da instância em causa e, a seguir, em `Dados da instância`{.action}.
 
@@ -455,11 +459,11 @@ Na pop-up que aparecer, selecione a ou as redes privadas a associar à sua inst�
 
 ![associar rede](images/vrack9.png){.thumbnail}
 
-##### **Gestão das interfaces de rede a partir da APIv6 OVHcloud**
+#### Gestão das interfaces de rede a partir da APIv6 OVHcloud
 
 Clique [aqui](/pages/public_cloud/public_cloud_network_services/getting-started-08-creating-vrack-with-api#in-case-of-an-existing-instance) (EN), para consultar o guia específico deste método.
 
-##### **Gestão das interfaces de rede a partir do OpenStack Horizon**
+#### Gestão das interfaces de rede a partir do OpenStack Horizon
 
 Ligue-se à interface [Horizon](https://horizon.cloud.ovh.net/auth/login/){.external} de acordo com o método indicado na [primeira parte deste guia](./#interface-horizon).
 
@@ -471,7 +475,7 @@ Selecione `Compute` e, em seguida, `Instances` no menu.
 
 ![Horizon compute instâncias](images/horizon2.png){.thumbnail}
 
-###### Adição de uma interface privada
+**Adição de uma interface privada**
 
 Para adicionar uma interface, na coluna "Actions", clique na seta que permite aceder às ações possíveis na instância. A seguir, clique em `Attach Interface`{.action}:
 
@@ -487,7 +491,7 @@ Selecione a sua interface e valide:
 ><br>É sua responsabilidade configurar corretamente a interface por meio de DHCP ou usando os endereços IP adequados por meio de uma configuração de IP estático.
 >
 
-###### Eliminação de uma interface privada
+**Eliminação de uma interface privada**
 
 > [!warning]
 > A eliminação de uma interface é definitiva.
@@ -504,13 +508,13 @@ Selecione a interface a eliminar e valide:
 
 ![Horizon detach interface](images/horizon6.png){.thumbnail}
 
-##### **Gestão das interfaces de rede a partir da API OpenStack**
+#### Gestão das interfaces de rede a partir da API OpenStack
 
 Para utilizar a API OpenStack, se ainda não o fez, deverá preparar o seu ambiente de trabalho conforme indicado na [primeira parte deste manual](./#api-openstack).
 
 Assim, para integrar uma instância existente no vRack, deverá proceder desta forma.
 
-###### Recuperação das informações necessárias
+**Recuperação das informações necessárias**
 
 Identificação das suas instâncias:
 
@@ -570,7 +574,7 @@ nova net-list
 ><br> - O da ou das VLAN necessárias para a sua configuração
 >
 
-###### Adição de uma interface privada
+**Adição de uma interface privada**
 
 Para associar uma nova interface, pode efetuar o seguinte comando:
 
@@ -609,12 +613,12 @@ openstack server show <ID-instance>
 [...]
 ```
 
-###### Eliminação de uma interface
+**Eliminação de uma interface**
 
 > [!warning]
 > A eliminação de uma interface é definitiva.
 >
->Se eliminar a interface "Ext-Net" (IP público), este endereço será libertado e reposto em circulação. Por isso, não poderia reatribuir-se a ela.
+> Se eliminar a interface "Ext-Net" (IP público), este endereço será libertado e reposto em circulação. Por isso, não poderia reatribuir-se a ela.
 ><br>Esta ação só deve ser realizada se pretender isolar o seu servidor no vRack (interface "Ext-Net") ou retirá-lo de uma VLAN.
 >
 
@@ -664,6 +668,6 @@ nova interface-detach 12345678-90ab-cdef-xxxx-xxxxxxxxxxxx 12345678-abcd-ef01-23
 
 [Servidores dedicados - Criar várias VLAN no vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack)
 
-Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](https://www.ovhcloud.com/pt/professional-services/) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
+Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](/links/professional-services) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
 
-Fale com nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

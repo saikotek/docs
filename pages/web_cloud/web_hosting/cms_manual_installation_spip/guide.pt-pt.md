@@ -4,10 +4,6 @@ excerpt: "Saiba como instalar manualmente o seu CMS SPIP"
 updated: 2024-03-28
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O **CMS** (**C**ontent **M**anagement **S**ystem) SPIP é uma solução adaptada aos sites editoriais como revistas online, jornais ou sites institucionais. Graças à sua arquitetura modular e ao seu sistema de esqueletos personalizáveis, SPIP permite criar sites ricos em funcionalidades, oferecendo uma grande liberdade de personalização.

@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się więcej o transferze domeny z systemu Hostinger do OVHclo
 updated: 2024-06-28
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie
 
 Transfer domeny Hostinger wymaga zastosowania określonej procedury.
@@ -86,7 +82,7 @@ Postępuj zgodnie z instrukcjami zawartymi w [dokumentacji dedykowanej dla Hosti
 ### Uzyskaj kod EPP lub Auth
 
 Jeśli chcesz **przenieść** Twoją domenę z Hostinger do innego operatora (np. OVHcloud), nowy operator może poprosić o kod autoryzacyjny (kod "EPP" lub "Auth"), aby sprawdzić, czy masz uprawnienia do działania w związku z domeną.
-Aby zapoznać się ze zmianą właściciela domeny, zapoznaj się z tym [przewodnikiem](pages/web_cloud/domains/trade_domain).
+Aby zapoznać się ze zmianą właściciela domeny, zapoznaj się z tym [przewodnikiem](/pages/web_cloud/domains/trade_domain).
 
 > [!warning]
 >

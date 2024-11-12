@@ -4,10 +4,6 @@ excerpt: Prepare e configure a zona DNS do seu domínio OVHcloud para a ligar a 
 updated: 2024-06-13
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Se possui um nome de domínio na OVHcloud, deseja ligá-lo a um alojamento GoDaddy. Neste guia, encontrará as etapas de preparação e de configuração da sua zona DNS da OVHcloud para permitir a configuração do seu alojamento GoDaddy.

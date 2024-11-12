@@ -4,10 +4,6 @@ excerpt: "Descubra como Cecil lhe permite criar o seu site estático com a ajuda
 updated: 2023-12-08
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este tutorial explica-lhe como instalar e configurar [Cecil](https://cecil.app/){.external}. Trata-se de uma aplicação escrita em PHP que permite gerar e administrar páginas web estáticas.

@@ -4,10 +4,6 @@ excerpt: "Descubra cómo utilizar SVN por SSH en un alojamiento web"
 updated: 2023-12-05
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
-> 
-
 ## Objetivo
 
 SVN, abreviación de "subversion", es un sistema de gestión de versiones. 
@@ -58,7 +54,7 @@ Es necesario que los directorios se muestren en la siguiente imagen:
 
 Antes de continuar, deberá crear un par de llaves SSH desde el equipo que utilizará para conectarse al repositorio SVN.
 
-Para más información, consulte la guía [Crear llaves SSH](/pages/public_cloud/compute/public-cloud-first-steps#1-crear-claves-ssh). No es necesario seguir el progreso de la operación [Importar la llave SSH al área de cliente de OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps#1-crear-claves-ssh/#importacion-de-una-clave-ssh-en-el-area-de-cliente-de-ovhcloud) en esta guía.
+Para más información, consulte la guía [Crear llaves SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated#create-ssh-key).
 
 ### Adición de la clave pública al alojamiento
 

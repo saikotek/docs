@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come connettersi al database"
 updated: 2023-10-31
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 È possibile consultare il contenuto del tuo database tramite un'interfaccia. Per effettuare questa operazione, è possibile connettersi in diversi modi.

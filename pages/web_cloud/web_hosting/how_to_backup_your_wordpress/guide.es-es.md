@@ -4,10 +4,6 @@ excerpt: "Descubra cómo realizar el backup del contenido de su sitio web WordPr
 updated: 2023-02-22
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Aun tomando todas las precauciones de uso, su sitio web seguirá expuesto a posibles fallos de funcionamiento (error de manipulación, sobrescritura accidental de archivos, fallo de configuración, fallos de seguridad o piratería) que pueden provocar la pérdida parcial o total de sus datos.<br>

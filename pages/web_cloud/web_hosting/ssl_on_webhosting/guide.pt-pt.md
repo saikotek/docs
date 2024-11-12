@@ -1,154 +1,89 @@
 ---
-title: "Gerir um certificado SSL num alojamento web"
+title: "Alojamento web - Gerir um certificado SSL"
 excerpt: "Saiba como gerir um certificado SSL no alojamento web da OVHcloud"
-updated: 2023-12-06
+updated: 2024-10-31
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
+## Objetivo
 
-## Sumário
+Os certificados Secure Socket Layer (SSL) permitem encriptar as trocas efetuadas a partir do seu website ou para o seu website. Isto evita que uma pessoa ou um robô malicioso venha "ouvir" claramente os pedidos enviados a partir do seu website.
 
-O seu alojamento web permite-lhe gerir um certificado SSL. Podem encomendá-lo através da OVHcloud ou comprar um e importá-lo para o seu alojamento. Depois de configurado e instalado, este certificado fornece a um ou vários dos seus websites uma ligação SSL segura, o que permite que os websites funcionem em HTTPS.
+A OVHcloud oferece vários tipos de certificados SSL nas nossas ofertas de [alojamento partilhado OVHcloud](/links/web/hosting). Consulte este manual para saber mais. Os certificados SSL são incontornáveis para a segurança do seu website.
 
-**Saiba como gerir um certificado SSL num alojamento web da OVHcloud.**
+Existem três tipos de certificados SSL:
+
+- Domain Validation (DV)
+- Organization validation (OV)
+- Extended Validation (EV)
+
+Os níveis de encriptação SSL são iguais entre os três tipos de certificado.
+
+A principal diferença reside no nível de verificações que será realizado pela Autoridade de Certificação (AC) que emite o certificado SSL e atesta a sua autenticidade.
+
+Dispor de um certificado SSL para o seu website é incontornável para o utilizar em HTTPS.
+
+**Saiba como gerir um certificado SSL no alojamento web da OVHcloud.**
 
 ## Requisitos
 
-- Dispor de um [alojamento web da OVHcloud](/links/web/hosting){.external}.
-- Ter registado, pelo menos, um [nome de domínio](/links/web/domains){.external}.
-- Ter acesso à [Área de Cliente OVHcloud](/links/manager){.external}, na secção “Web”.
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
+- Dispor de um [alojamento web da OVHcloud](/links/web/hosting).
+- Ter registado, pelo menos, um [nome de domínio](/links/web/domains).
 
 ## Instruções
 
-São necessários vários passos para gerar um certificado SSL no seu alojamento web da OVHcloud. Recomendamos que siga *por esta ordem* os 3 passos descritos abaixo.
-
-[1. Ativar um certificado SSL num multi-site](#multisite): se a sua solução ou o seu certificado SSL o permitirem, poderá fazer beneficiar vários dos seus multi-sites de uma ligação protegida SSL.
-
-[2. Ativar um certificado SSL no seu alojamento web](#enablessl): ajuda-o a ativar um certificado SSL no seu alojamento web. Pode tratar-se de um certificado gratuito ou pago encomendado junto da OVHcloud. Também pode importar o seu próprio certificado SSL encomendado junto de outro fornecedor.
-
-[3. Gerar um certificado SSL num alojamento web](#regeneratessl): permite-lhe gerar um certificado SSL Let's Encrypt no seu alojamento web quando ativar o SSL num ou vários multi-sites.
-
-Também pode [eliminar o certificado SSL num alojamento web](#deletessl). **Tenha em conta que isto pode apresentar riscos se um dos seus websites utiliza atualmente o certificado que pretende eliminar**.
-
-### 1. Ativar um certificado SSL num multisite <a name="multisite"></a>
-
-Em função do [certificado SSL](/links/web/hosting-options-ssl){.external} que pretende encomendar, pode ativar uma ligação SSL segura num ou vários dos seus multi-sites. Para isso, aceda à [Área de Cliente OVHcloud](/links/manager){.external} e selecione a `Web Cloud`{.action}. Clique em `Alojamentos`{.action} e escolha o alojamento correspondente. Por fim, clique no separador `Multisite`{.action}.
-
-Aparecerá uma tabela com todos os domínios adicionados ao seu alojamento web. A coluna "SSL" mostra-lhe o estado de ativação das ligações SSL seguras nos seus multi-sites.
-
-![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/ssls.png){.thumbnail}
-
-Neste caso, podem surgir três estados:
-
-|Estados|Descrição|
-|---|---|
-|Ativado|Um certificado SSL já foi ativado para este multisite. No entanto, se o seu website não estiver disponível em HTTPS, consulte as instruções indicadas no nosso manual “[Ativar o HTTPS num website com certificado SSL](/pages/web_cloud/web_hosting/ssl-activate-https-website){.external}”.|
-|A gerar / atualizar|Um certificado SSL foi ativado para este multisite, mas ainda não está ativo a nível técnico. Para isso, deverá regenerá-lo para que inclua os novos domínios do multisite.|
-|Desativado|Não foi ativado nenhum certificado SSL para este multisite. Para o ativar, siga os passo abaixo.|
-
-Para ativar o SSL num multi-site, clique no botão `...`{.action} à direita do multi-site em causa e, a seguir, em `Alterar o domínio`{.action}. Na nova janela, selecione a caixa `SSL`{.action}. Também pode ativar a opção para modificar o subdomínio www ao mesmo tempo que o nome de domínio associado. Siga os passos para confirmar a alteração.
-
 > [!warning]
 >
-> A atribuição de um certificado SSL a uma entrada multisite através da tabela "multisite" só pode ser efetuada se encomendou o certificado SSL gratuito **Let's Encrypt** fornecido pela OVHcloud.
+> **Antes de continuar**, verifique se **o(s) domínio(s) e/ou subdomínio(s)** em causa no seu futuro certificado SSL:
 >
-> Os certificados SSL pagos **Sectigo** (DV e EV) só são válidos para um único domínio (e o seu subdomínio em *www*). Por isso, a menção *Ativado* não poderá aparecer à direita dos outros multi-sites declarados no alojamento web.
+> - apontado(a) para o endereço IP do seu alojamento web;
+> - está(ão) declarado(s) em multi-site no seu alojamento web.
 >
-> Alguns certificados SSL **Externos** podem ser válidos para vários domínios de uma só vez. Se utilizar um destes, o texto *Ativado* também não será apresentado para todos os domínios declarados na tabela "multisite". No entanto, o seu certificado SSL será válido para os nomes de domínios que ele *engloba*.
+> Para mais informações, consulte os nossos manuais:
 >
+> - [Partilhar o alojamento entre vários sites](/pages/web_cloud/web_hosting/multisites_configure_multisite) ;
+> - [Lista dos endereços IP dos clusters e alojamentos web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP) ;
+> - [Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
 
-![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/modify-domain-2.png){.thumbnail}
+### Ativar um certificado SSL num alojamento web <a name="ssl-enable"></a>
 
-Uma vez que tenha submetido o pedido de ativação, o estado da ligação protegida SSL para o multi-site em causa deve ser atualizado ao fim de alguns segundos, sendo o estado substituído por "A gerar / atualizar". Repita este processo se pretender ativar um certificado SSL para outros multisites.
+A OVHcloud oferece 4 soluções para ativar/instalar um certificado SSL num alojamento web. Cada uma destas soluções encontra-se documentada.
+
+Encontre aqui os 4 links para os nossos guias dedicados a estas 4 soluções:
+
+- [Ativar o certificado SSL gratuito Let's Encrypt (DV)](/pages/web_cloud/web_hosting/ssl_letsencrypt): certificado que pode incluir até **99** nomes de domínios/subdomínios declarados num alojamento web.
+- [Ativar o certificado SSL pago Sectigo (DV)](/pages/web_cloud/web_hosting/ssl_dv): certificado válido para um único nome de domínio + o seu subdomínio em "www" (exemplo: `domain.tld` e `www.domain.tld`) ou **unicamente** um subdomínio (exemplo: `sub.domain.tld`).
+- [Ativar o certificado SSL pago Sectigo (EV)](/pages/web_cloud/web_hosting/ssl_ev): certificado válido para um único nome de domínio + o seu subdomínio em "www" (exemplo: `domain.tld` e `www.domain.tld`) ou **unicamente** um subdomínio (exemplo: `sub.domain.tld`).
+- [Instalar um certificado SSL personalizado](/pages/web_cloud/web_hosting/ssl_custom): se dispõe do seu próprio certificado SSL ou que nenhuma das 3 soluções precedentes corresponde às suas necessidades.
 
 > [!primary]
 >
-> Pode ter duas situações neste estado:
+> Só é possível instalar um certificado SSL por alojamento web (entre as 4 soluções supracitadas).
 >
-> - **Não possui certificados.**
-> Consulte este guia na secção [Ativar um certificado SSL no alojamento web](#enablessl) e escolha o "Certificado gratuito (Let's Encrypt)" que trata dos sites multi-sites.
->
-> - **O certificado SSL está ativo, mas adicionou outros sites multi-site.**
-> Consulte este manual na secção [Gerar um certificado SSL num alojamento Web](#regeneratessl) para regenerar o certificado SSL para os multi-sites restantes.
->
+> Se necessitar de ativar um certificado SSL para vários domínios/subdomínios declarados no seu alojamento web, favoreça a instalação de um [certificado SSL gratuito Let's Encrypt](/links/web/hosting-options-ssl) ou instale o seu próprio [certificado SSL personalizado](/pages/web_cloud/web_hosting/ssl_custom).
 
-### 2. Ativar um certificado SSL no alojamento web <a name="enablessl"></a>
-
-Antes de realizar esta configuração, certifique-se de que a etapa anterior de [ativação de um certificado SSL num website multisite](#multisite) foi realizada corretamente. Pelo menos um domínio deve ter a opção SSL `Ativado` ou o estado `A gerar / atualizar` para ativar o certificado SSL.<br>
-**Estas informações não se aplicam se selecionar `Certificado pago`{.action} ou `Importar do seu certificado SSL`{.action}.**
+### Eliminar um certificado SSL num alojamento web <a name="delete-ssl"></a>
 
 > [!warning]
 >
-> Antes de continuar, certifique-se de que as entradas multisite para as quais ativou a opção SSL apontam para o endereço IP do alojamento web. Esta configuração é-lhe automaticamente proposta quando adiciona ou modifica uma entrada multi-site, mas deve ser feita manualmente para um nome de domínio que não é gerido na sua Área de Cliente.<br>
-> - Encontre o endereço IP do seu alojamento a partir do separador `Informações gerais`{.action}, na menção `IPv4`.
-> ![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/find-ipv4.png){.thumbnail}
-> - Configure a zona DNS do domínio declarado em multi-site, a partir da rubrica `Domínio`{.action}, onglet `Zona DNS`{.action}. Altere ou adicione um registo de tipo `A` para a sua entrada multisite e indique o endereço IP do seu alojamento na `Alvo`.
-> ![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/modify-an-entry.png){.thumbnail}
->
-> Para mais informações, consulte os nossos manuais [sobre a configuração de uma entrada multisite](/pages/web_cloud/web_hosting/multisites_configure_multisite) ou sobre [a configuração de uma zona DNS](/pages/web_cloud/domains/dns_zone_edit).
+> Se deseja eliminar um certificado SSL do alojamento web e **antes de prosseguir**, certifique-se de que a eliminação do certificado SSL não irá afetar a disponibilidade dos seus websites. Se isso acontecer, os seus utilizadores irão encontrar um erro de segurança ao tentar aceder ao seu website em "HTTPS".
 
-O alojamento web da OVHcloud permite-lhe ativar um [certificado SSL graças a várias soluções](/links/web/hosting-options-ssl){.external}:
+Como esta verificação é inerente aos parâmetros do(s) seu(s) website(s), recomendamos que contacte um prestador de serviços especializado se encontrar dificuldades. Não poderemos proporcionar-lhe assistência técnica.
 
-- um certificado SSL gratuito Let's Encrypt, [incluído num plano de alojamento web compatível](/links/web/hosting-options-ssl){.external};
-- um certificado SSL pago, [como opção num plano de alojamento web compatível](/links/web/hosting-options-ssl){.external};
-- a importação de um certificado SSL encomendado junto de outro fornecedor.
+Para eliminar o certificado SSL instalado no alojamento web, efetue as seguintes ações:
 
-Para ativar o certificado, aceda à [Área de Cliente OVHcloud](/links/manager){.external}e selecione a opção `Web Cloud`{.action}. Clique em `Alojamentos`{.action} e escolha o nome do alojamento em causa. Clique no separador `Informações gerais`{.action}. Na secção “Certificado SSL”, deve surgir a menção “Não”, o que indica que não há nenhum certificado instalado no alojamento web. 
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+4. Selecione o alojamento web em causa.
+5. Na página que vai aparecer, permaneça no separador `Informações gerais`{.action}.
+6. Aceda à caixa chamada `Configuração`.
+7. À direita da menção `Certificado SSL`, clique no botão `...`{.action} e, a seguir, em `Eliminar o certificado SSL`{.action}.
+8. Na janela que se abrir, clique em `Validar`{.action} para confirmar a eliminação do certificado SSL.
 
-Clique no botão `...`{.action} junto de “Certificado SSL” e, a seguir, em `Encomendar um certificado SSL`{.action}.
+![Delete SSL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/delete-ssl.png){.thumbnail}
 
-Por outro lado, se vir a menção “Sim”, isto significa que um certificado SSL já foi instalado e configurado no alojamento web. Por consequente, não poderá encomendar outro certificado enquanto já tiver um instalado.
-
-![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/order-an-ssl-certificate.png){.thumbnail}
-
-Na janela que aparecer, selecione o certificado SSL que pretende encomendar. Em função da sua [oferta de alojamento web](/links/web/hosting){.external} e da respetiva configuração, é possível que nenhuma das soluções apresentadas abaixo esteja disponível. Uma vez selecionada uma opção, clique no botão `Seguinte`{.action}.
-
-![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/order-an-ssl-certificate-step-1-le.png){.thumbnail}
-
-Em função da solução que selecionou, poderá ter de realizar alguns passos adicionais:
-
-- **Se selecionou um certificado SSL gratuito**: não deverá ser necessária nenhuma ação adicional, exceto se um elemento técnico impedir a ativação do certificado SSL (nesse caso, surgirá um aviso na Área de Cliente a indicar-lhe os elementos que deve verificar) ou a validação do domínio para a atribuição do certificado SSL. Nesse caso, será notificado e deverá seguir as instruções que receberá;
-
-- **Se selecionou um certificado SSL pago:** deverá concluir o processo de encomenda para receber um certificado. Pode ser necessária uma validação específica para certos tipos de certificados SSL. Poderá receber um ou vários e-mails sobre este assunto. Se tal for o caso, leia as informações enviadas e siga as instruções fornecidas para concluir a configuração;
-
-- **Se optou por importar um certificado SSL:** deverá inserir os detalhes do certificado nas zonas apresentadas. Consulte as informações enviadas pelo fornecedor junto do qual adquiriu o certificado. Normalmente, eles fornecem 3 arquivos: `certificate.crt`, `private.key` e `ca_bundle.crt`. Após selecionar `Importar certificado SSL`{.action}, clique em `Seguinte`{.action}. Na primeira secção "Copiar o conteúdo do seu certificado (apenas RSA):" copie o conteúdo do ficheiro "certificate.crt", na segunda secção "Copiar o conteúdo da sua chave privada (não encriptada):" copie o conteúdo do ficheiro "private.key" e na terceira secção "Copiar o conteúdo da sua cadeia de certificados:" copie o conteúdo do ficheiro "ca_bundle.crt" e clique em `Confirmar`{.action}.
-
-A configuração do certificado pode demorar alguns minutos ou vários dias, dependendo no tipo de certificado selecionado. Para verificar se o certificado SSL já está configurado no alojamento web, aceda à Área de Cliente OVHcloud e clique no separador `Informações gerais`{.action}. A menção “Sim” deve aparecer junto de “Certificado SSL”.
-
-![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/tab-ssl-le.png){.thumbnail}
-
-### 3. Regenerar um certificado SSL do alojamento web <a name="regeneratessl"></a>
-
-> [!primary]
->
-> Esta operação aplica-se apenas aos certificados SSL gratuitos Let's Encrypt [incluído num plano de alojamento web compatível](/links/web/hosting-options-ssl) que permitem ativar uma ligação SSL segura para vários multi-sites.
->
-
-Depois de ativar uma ligação SSL segura num ou vários dos seus multisites, o estado indica “A gerar / atualizar”. Esta geração é essencial para poder adicionar ao certificado SSL do seu alojamento web.
-
-Para isso, aceda à [Área de Cliente OVHcloud](/links/manager){.external} e selecione a `Web Cloud`{.action}. Clique em `Alojamentos` e escolha o nome do alojamento correspondente. Clique no separador `Informações gerais`{.action}. A seguir, clique nos três pontos junto de “Certificado SSL” e selecione `Gerar / atualizar certificado SSL`{.action}.
-
-![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/regenerate-ssl-certificate.png){.thumbnail}
-
-Na janela que surgir, leia as informações apresentadas e clique no botão `Validar`{.action}. A seguir, aguarde até que o certificado SSL seja gerado. Este passo pode demorar algumas horas.
-
-Tenha em conta que a Let's Encrypt, a autoridade que fornece o certificado SSL incluído no seu alojamento web, impõe um [limite de cinco regenerações por semana](https://letsencrypt.org/docs/rate-limits/){.external}. Assim, fique atento às diferentes regenerações que possa realizar a curto prazo, de modo a evitar um bloqueio temporário.
-
-![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/ssl-regeneration.png){.thumbnail}
-
-### Eliminar um certificado SSL do alojamento web
-
-Se pretender, também pode eliminar o certificado SSL atualmente instalado no seu alojamento web. Antes de começar a realizar as alterações, **recomendamos vivamente que se certifique de que a eliminação do certificado não irá afetar a disponibilidade dos seus websites**. Tenha em consideração que os visitantes irão ver um erro de segurança caso acedam a um website que funciona em HTTPS, mas que não beneficia de uma ligação SSL segura.
-
-Como esta verificação se realiza diretamente na configuração do website, recomendamos que recorra a um fornecedor especializado se encontrar dificuldades. Não poderemos proporcionar-lhe assistência técnica.
-
-Quando estiver preparado para eliminar o certificado SSL, aceda à [Área de Cliente OVHcloud](/links/manager){.external} e selecione a `Web Cloud`{.action}. Clique em `Alojamentos`{.action} e escolha o alojamento web em causa. Certifique-se de que está no separador `Informações gerais`{.action}. Clique nos três pontos junto de “Certificado SSL” e selecione a opção `Eliminar o certificado SSL`{.action}.
-
-Na página que aparecer, valide a eliminação. Esta última será concluída em algumas horas.
-
-![managessl](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/delete-ssl.png){.thumbnail}
+Esta ficará efetiva dentro de algumas horas, no máximo.
 
 > [!warning]
 >
@@ -159,9 +94,11 @@ Na página que aparecer, valide a eliminação. Esta última será concluída em
 
 #### "You already have an SSL certificate on your account. It will be migrated on new SSL offers in the next week."
 
-Esta mensagem indica que já é proprietário de um certificado SSL. Por isso, não é necessário ativar um novo certificado SSL (Let's Encrypt) no seu alojamento web.
+Esta mensagem indica que já é proprietário de um certificado SSL. Por isso, não é necessário ativar um novo certificado SSL no alojamento web.
 
-Consulte a secção "[ativação de um certificado SSL num site multisite](#multisite)" deste guia para continuar as suas ações.
+- 1: Se o certificado SSL instalado no seu alojamento web for um certificado SSL gratuito Let's Encrypt, consulte o nosso manual sobre o certificado SSL [Let's Encrypt (DV)](/pages/web_cloud/web_hosting/ssl_letsencrypt) para prosseguir as suas ações.
+
+- 2 : Se o certificado SSL instalado no alojamento web não for o certificado que pretende utilizar, pode [eliminar o seu certificado SSL](#delete-ssl) atual, e depois [ativar um novo certificado SSL](#ssl-enable) no alojamento web.
 
 #### "No attached domain with ssl enabled or no attached domain that redirect on hosting IPs, please use hosting IP in your domain zone."
 
@@ -170,21 +107,37 @@ Existem três casos que podem explicar esta notificação.
 - 1 : O nome de domínio associado ao seu website aponta para o endereço IP do CDN do seu alojamento web, sem nenhuma opção CDN ativa no seu alojamento web:
 
 Para resolver esta situação, através da zona DNS ativa do seu domínio, atribua o endereço IP do alojamento web sem CDN ao seu domínio.
-
-Para obter o endereço IP do alojamento web, consulte o guia "[Lista de endereços IP dos clusters e alojamentos web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)".
+Para obter o endereço IP do alojamento web, consulte o guia "[Lista dos endereços IP dos clusters e alojamentos web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)".
 Para editar a zona DNS ativa do seu domínio, consulte o guia "[Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit)".
 
 - 2 : O nome de domínio associado ao seu website não aponta para o endereço IP do seu alojamento web:
 
 Para resolver esta situação, através da zona DNS ativa do seu domínio, atribua o endereço IP do alojamento web ao seu domínio.
 Se ativou uma opção CDN no seu alojamento web, pode igualmente utilizar o endereço IP do alojamento web com CDN.
-
-Para obter o endereço IP do alojamento web, consulte o guia "[Lista de endereços IP dos clusters e alojamentos web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)".
+Para obter o endereço IP do alojamento web, consulte o guia "[Lista dos endereços IP dos clusters e alojamentos web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)".
 Para editar a zona DNS ativa do seu domínio, consulte o guia "[Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit)".
 
 - 3 : Nenhum dos nomes de domínios presentes no separador "multi-site" dispõe de uma opção SSL "ativa" :
 
-Para resolver a situação, ative o certificado SSL para o(s) nome(s) de domínio. Se necessário, consulte a secção "[ativar um certificado SSL num site multisite](#multisite)" deste guia para continuar as suas ações.
+Para resolver a situação, ative o certificado SSL para o(s) nome(s) de domínio. Se necessário, consulte a secção "[Ativar um certificado SSL](#ssl-enable)" deste manual para continuar as suas ações.
+
+#### Encomendou o SSL Sectigo EV juntamente com o seu alojamento web, mas o certificado ainda não está ativo e o alojamento web não está a funcionar corretamente
+
+Esta situação está ligada aos passos que deve realizar a fim de ativar o SSL EV no seu alojamento web.
+
+Se necessário, consulte o guia "[Alojamento web - Ativar um certificado SSL Sectigo EV](/pages/web_cloud/web_hosting/ssl_ev)" para resolver esta situação.
+
+> [!primary]
+>
+> Se o certificado SSL EV não estiver totalmente ativo, a encomenda nunca será encerrada e nunca irá gerar uma fatura. Por este motivo, o serviço de alojamento web não funciona corretamente.
+>
+
+#### Após a expiração do Certificado SSL Sectigo (DV ou EV), encontrará o erro "No attached domain with ssl enabled or no attached domain that redirect on hosting IPs, please use hosting IP in your domain zone"
+
+Este erro ocorre sempre que o Certificado SSL Sectigo (ativado diretamente a partir do alojamento web) expira e o endereço IP do alojamento web muda. Como tal, deve apontar o seu domínio para o endereço IP correto (registo do tipo A), diretamente a partir da zona DNS ativa do seu domínio.
+
+Para obter o endereço IP do alojamento web, consulte o guia "[Lista dos endereços IP dos clusters e alojamentos web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)".
+Para editar a zona DNS ativa do seu domínio, consulte o guia "[Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit)".
 
 #### O certificado SSL está ativo no seu alojamento web, mas encontrará a mensagem "Your connection is not private" no seu website
 
@@ -197,35 +150,21 @@ Para corrigir isto, consulte o nosso tutorial "[Reescrever o URL de acesso ao me
 - 2 : Alguns elementos da página web não são corretamente reencaminhados para elementos encriptados em "HTTPS":
 
 Para corrigir isto, deve certificar-se de que o conjunto do seu website está encriptado com o protocolo "HTTPS".
-Se necessário, consulte o nosso tutorial "[Alojamento web: transformar o seu website em HTTPS](/pages/web_cloud/web_hosting/ssl-activate-https-website)" ou recorra a um [fornecedor especializado](/links/partner) se encontrar dificuldades.
+Se necessário, consulte o nosso tutorial "[Alojamento web - Passar o seu website em HTTPS](/pages/web_cloud/web_hosting/ssl-activate-https-website)" ou recorra a um [fornecedor especializado](/links/partner) se encontrar dificuldades.
 
 > [!success]
 >
-> Os elementos da página web podem ser vistos diretamente a partir das informações SSL do browser, consultando os *detalhes do Certificado*.
+> Os elementos da página web podem ser vistos diretamente a partir das informações SSL do browser, consultando os *detalhes do certificado*.
 >
-
-#### Encomendou o SSL Sectigo EV juntamente com o seu alojamento web, mas o certificado ainda não está ativo e o alojamento web não está a funcionar corretamente
-
-Esta situação está ligada aos passos que deve realizar a fim de ativar o SSL EV no seu alojamento web.
-
-Caso seja necessário, consulte o guia "[Utilizar um certificado SSL EV para o seu website](/pages/web_cloud/web_hosting/ssl_ev)" para resolver esta situação.
-
-> [!primary]
->
-> Se o certificado SSL EV não estiver totalmente ativo, a encomenda nunca será encerrada e nunca irá gerar uma fatura. Por este motivo, o serviço de alojamento web não funciona corretamente.
->
-
-#### Após a expiração do Certificado SSL Sectigo (DV ou EV), encontrará o erro "No attached domain with ssl enabled or no attached domain that redirect on hosting IPs, please use hosting IP in your domain zone"
-
-Este erro ocorre sempre que o Certificado SSL Sectigo (ativado diretamente a partir do alojamento web) expira e o endereço IP do alojamento web muda. Como tal, deve apontar o seu domínio para o endereço IP correto (registo do tipo A), diretamente a partir da zona DNS ativa do seu domínio.
-
-Para obter o endereço IP do alojamento web, consulte o guia "[Lista de endereços IP dos clusters e alojamentos web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)".
-Para editar a zona DNS ativa do seu domínio, consulte o guia "[Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit)".
 
 ## Quer saber mais?
 
+[Alojamento web - Passar o seu website em HTTPS](/pages/web_cloud/web_hosting/ssl-activate-https-website)
+
+[Erros comuns associados à segurança do seu website com SSL](/pages/web_cloud/web_hosting/ssl_avoid_common_pitfalls_of_making_website_secure).
+ 
 Para serviços especializados (referenciamento, desenvolvimento, etc), contacte os [parceiros OVHcloud](/links/partner).
-
+ 
 Se pretender usufruir de uma assistência na utilização e na configuração das suas soluções OVHcloud, consulte as nossas diferentes [ofertas de suporte](/links/support).
-
+ 
 Fale com nossa [comunidade de utilizadores](/links/community).
