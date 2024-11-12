@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Kontaktgruppen erstellen'
 excerpt: 'Erfahren Sie hier, wie Sie Mailinglisten in Exchange verwalten'
-updated: 2024-11-04
+updated: 2024-11-12
 ---
 
 <style>
