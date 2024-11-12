@@ -1,7 +1,7 @@
 ---
 title: "Using OVHcloud Key Management Service (KMS)"
 excerpt: "Encrypt or sign your data with the OVHcloud Key Management Service (KMS)"
-updated: 2024-10-18
+updated: 2024-11-12
 ---
 
 > [!warning]
@@ -17,19 +17,23 @@ The purpose of this guide is to show you the steps to interact with the OVHcloud
 ## Requirements
 
 - An [OVHcloud customer account](/pages/account_and_service_management/account_information/ovhcloud-account-creation).
-- [An OVHcloud KMS ordered and an access certificate created](/pages/manage_and_operate/kms/quick-start)
+- An [OVHcloud KMS ordered and an access certificate created](/pages/manage_and_operate/kms/quick-start)
 
 ## Instructions
 
 ### Contacting the KMS
 
-Communication with the KMS, except for key creation, is only available via API.
+Communication with the KMS for encryption and signature actions is available via APIs.
 
 Since the KMS is regionalized, you can access the API directly in its region: `https://my-region.ovh.com.net`.
 
 For example, for a KMS created in the **eu-west-rbx** region: <https://eu-west-rbx.okms.ovh.net>.
 
-It's also possible to use the Golang SDK with the documentation available here : <https://pkg.go.dev/github.com/ovh/okms-sdk-go>.
+It's possible to communicate with the KMS using:
+
+- The Swagger UI
+- The OMKS CLI: <https://github.com/ovh/okms-cli>
+- The Golang SDK: <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
 
 ### Using the KMS API via the Swagger UI
 
