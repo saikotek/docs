@@ -1,7 +1,7 @@
 ---
 title: Local Zone Compute - Features, Capabilities and Limitations
 excerpt: Find out the current features, capabilities and limitations of Local Zones for Public Cloud
-updated: 2024-10-15
+updated: 2024-11-12
 ---
 
 ## Objective
@@ -30,14 +30,16 @@ Find more information on our [dedicated Local Zone Compute page](/links/public-c
 | Automatic Backups | No |
 | Volume Snapshots | No |
 | Volume Backups | No |
-| Object Storage | No |
+| Object Storage | Yes |
 | Windows Images | No |
 
 ## Capabilities and limitations
 
 All instance features which are not yet available in Local Zones will be implemented in the next months. Our goal is to support the entire feature set that is already available in global regions as soon as possible.
 
-## Feedback
+## Go further
+
+- [Object Storage - Local Zones specifications](/pages/storage_and_backup/object_storage/s3_local_zones_limitations)
 
 Please send us your questions, feedback and suggestions to improve the service:
 

@@ -1,12 +1,8 @@
 ---
 title: Local Zone Compute - Funktionen, Kapazitäten und Einschränkungen
 excerpt: Informieren Sie sich über die aktuellen Funktionen, Kapazitäten und Einschränkungen von Local Zones Instanzen
-updated: 2024-10-15
+updated: 2024-11-12
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -34,14 +30,16 @@ Weitere Informationen finden Sie auf unserer [Seite für Local Zones](/links/pub
 | Automatische Backups | Nein |
 | Volume-Snapshots | Nein |
 | Volume-Backups | Nein |
-| Object Storage | Nein |
+| Object Storage | Ja |
 | Windows-Images | Nein |
 
 ## Kapazitäten und Einschränkungen
 
 Alle hier nicht aufgeführten Funktionen wie Neustart (Reboot) von Instanzen, Unterstützung von Object Storage werden in den nächsten Monaten verfügbar sein. Unser Ziel ist es, alle Funktionen zu unterstützen, die in globalen Regionen bereits unterstützt werden.
 
-## Feedback
+## Weiterführende Informationen
+
+- [Object Storage - Local Zones specifications](/pages/storage_and_backup/object_storage/s3_local_zones_limitations) (EN)
 
 Zögern Sie nicht, uns Ihre Fragen, Rückmeldungen und Vorschläge zur Verbesserung des Dienstes mitzuteilen:
 
