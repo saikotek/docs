@@ -44,6 +44,7 @@
     + [Managing billing, payments and services](products/account-and-service-management-managing-billing-payments-and-services)
         + [Renewing a service](account-and-service-management-managing-billing-payments-and-services-renewing-a-service)
             + [Managing renewal for OVHcloud services](account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
+            + [How to renew OVHcloud domain names](web_cloud/domains/autorenew_domain_name)
             + [Renewing your services via the OVHcloud API](account_and_service_management/managing_billing_payments_and_services/manual-renew-ovh-services-api)
         + [Invoices, billing and payments](products/account-and-service-management-managing-billing-payments-and-services-invoices-billing-and-payments)
             + [Best practices for managing your OVHcloud services and account](account_and_service_management/managing_billing_payments_and_services/billing_best_practices)
