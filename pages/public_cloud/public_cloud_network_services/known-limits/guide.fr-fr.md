@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Network Services - Limites connues
 excerpt: 'Prérequis et limites à respecter'
-updated: 2024-10-30
+updated: 2024-11-12
 ---
 
 ## Projets Vrack et Public Cloud
@@ -49,15 +49,16 @@ Lors de la mise à jour d'un pool d'allocation, par exemple de [10.0.0.2:10.0.0.
 
 Par exemple, si le DHCP du sous-réseau est activé, les IP 10.0.0.2 et 10.0.0.3 seront utilisées par les serveurs DHCP et continueront à être utilisées après la mise à jour du pool.
 
-Pour libérer ces IP, vous devez supprimer les deux ports DHCP, ils seront recréés automatiquement dans le pool d'allocation mis à jour. Cela peut être fait dans Horizon ou en utilisant l'interface de ligne de commande OpenStack.
+Pour libérer ces IP, vous devez supprimer les deux ports DHCP. Ils seront recréés automatiquement dans le pool d'allocation mis à jour. Cela peut être fait dans Horizon ou en utilisant l'interface de ligne de commande OpenStack.
 
-Par exemple, vous pouvez supprimer tous les ports DHCP du réseau privé avec l'ID <PRIVATE_NETWORK_ID> avec la commande suivante :
+Par exemple, vous pouvez supprimer tous les ports DHCP du réseau privé avec l'ID <PRIVATE_NETWORK_ID> via la commande suivante :
 
 ```bash
 openstack port list --network <PRIVATE_NETWORK_ID> --device-owner network:dhcp -f value -c ID | xargs -I {} openstack port delete {}
 ```
 
-Ensuite, vérifiez les ports nouvellement créés qui devraient être dans le pool d'allocation d'IP mis à jour avec la commande suivante :
+Ensuite, vérifiez les ports nouvellement créés qui devraient être dans le pool d'allocation d'IP mis à jour via la commande suivante :
+
 ```bash 
 openstack port list --network <PRIVATE_NETWORK_UID> --device-owner network:dhcp
 +--------------------------------------+------+-------------------+---------------------------------------------------------------------------+--------+

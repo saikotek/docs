@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Network Services - Known limits
 excerpt: 'Requirements and limits to respect'
-updated: 2024-10-30
+updated: 2024-11-12
 ---
 
 ## Vrack and Public Cloud projects
@@ -47,16 +47,18 @@ For example, when using iperf to test your instance bandwidth, you can enable mu
 
 When updating an allocation pool, e.g. from `[10.0.0.2:10.0.0.255]` to `[10.0.0.128:10.0.0.255]`, **all IPs already used prior to the allocation pool update are kept even if they are not in the new allocation pool.**
 
-For instance, if the subnet DHCP is activated, the IPs  `10.0.0.2` and `10.0.0.3` will be used by DHCP servers and will be still used after the pool update.
+For instance, if the subnet DHCP is activated, the IPs `10.0.0.2` and `10.0.0.3` will be used by DHCP servers and will still be used after the pool update.
 
-In order to release these IPs, you need to delete the two DHCP ports, they will be recreated automatically in the updated allocation pool. This can be done in Horizon or using the Openstack CLI.
+In order to release these IPs, you need to delete the two DHCP ports. They will be recreated automatically in the updated allocation pool. This can be done in Horizon or using the OpenStack CLI.
 
-For instance, you can delete all the dhcp ports from the private network with ID <PRIVATE_NETWORK_ID> with: 
+For instance, you can delete all the dhcp ports from the private network with ID <PRIVATE_NETWORK_ID> with:
+
 ```bash
 openstack port list --network <PRIVATE_NETWORK_ID> --device-owner network:dhcp -f value -c ID | xargs -I {} openstack port delete {}
 ```
 
-then check the newly created port that should be inside the updated IP allocation pool with:
+Then check the newly created port that should be inside the updated IP allocation pool with:
+
 ```bash
 openstack port list --network <PRIVATE_NETWORK_UID> --device-owner network:dhcp
 +--------------------------------------+------+-------------------+---------------------------------------------------------------------------+--------+
