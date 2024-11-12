@@ -83,7 +83,7 @@ The theoretical maximum size of a single large object uploaded via MPU is thus 4
 
 ### Features availability
 
-Read our guide on [Object Storage - S3 compatibility](storage_and_backup/object_storage/s3_s3_compliancy).
+Read our guide on [Object Storage - S3 compatibility](/pages/storage_and_backup/object_storage/s3_s3_compliancy).
 
 ## Go further
 
