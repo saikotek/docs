@@ -1,7 +1,7 @@
 ---
 title: 'Create a custom OpenStack image with Packer'
 excerpt: 'Create and customize an OpenStack image from an existing one with Packer'
-updated: 2018-10-24
+updated: 2024-11-12
 ---
 
 ## Objective
@@ -10,17 +10,23 @@ This guide will show you how to create a Packer configuration file to create you
 
 ## Requirements
 
-You'll need an [OVHcloud Public Cloud](https://www.ovh.com/asia/public-cloud/instances/) OpenStack project and a terminal.
+You'll need an [OVHcloud Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) and a terminal.
 
 ### Install Packer
 
-Packer can be downloaded from the official website (currently [here](https://www.packer.io/downloads.html) ) and you'll need to `unzip` it.
+Packer can be downloaded from the official website (curently [here](https://www.packer.io/downloads.html) ) and you'll need to `unzip` it.
 
 For Linux 64bits
 
 ```shell
-wget https://releases.hashicorp.com/packer/1.3.1/packer_1.3.1_linux_amd64.zip
-unzip packer_1.3.1_linux_amd64.zip
+wget https://releases.hashicorp.com/packer/1.11.2/packer_1.11.2_linux_amd64.zip
+unzip packer_1.11.2_linux_amd64.zip
+```
+
+### Install the OpenStack plugin for Packer
+
+```shell
+packer plugins install github.com/hashicorp/openstack
 ```
 
 ### Install jq
@@ -65,36 +71,40 @@ First, source your `openrc.sh` file with
 . ./openrc.sh
 ```
 
-Next, let's find some needed ID. You'll need the ID of the image, flavor and network. We'll build our image from `Ubuntu 16.04` on a `vps-ssd-1` hardware, with a interface connected on public network `Ext-Net`
+Next, let's find some needed ID. You'll need the ID of the image, flavor and network. We'll build our image from `Ubuntu 24.04` on a `b2-7` hardware, with a interface connected on public network `Ext-Net`
 
 ```shell
-SOURCE_ID=`openstack image list -f json | jq -r '.[] | select(.Name == "Ubuntu 16.04") | .ID'`
-FLAVOR_ID=`openstack flavor list -f json | jq -r '.[] | select(.Name == "vps-ssd-1") | .ID'`
-NETWORK_ID=`openstack network list -f json | jq -r '.[] | select(.Name == "Ext-Net") | .ID'`
+export SOURCE_ID=`openstack image list -f json | jq -r '.[] | select(.Name == "Ubuntu 24.04") | .ID'`
+export FLAVOR_ID=`openstack flavor list -f json | jq -r '.[] | select(.Name == "b2-7") | .ID'`
+export NETWORK_ID=`openstack network list -f json | jq -r '.[] | select(.Name == "Ext-Net") | .ID'`
 ```
 
-**INFO**: for `FLAVOR_ID`, you can directly use the name, ie `vps-ssd-1`
+**INFO**: for `FLAVOR_ID`, you can directly use the name, ie `b2-7`
 
 Finaly, create a `packer.json` file
 
 ```shell
 cat > packer.json <<EOF
 {
+    "variables": {
+        "os_region_name": "{{env `OS_REGION_NAME`}}",
+        "os_tenant_id": "{{env `OS_TENANT_ID`}}",
+        "source_id": "{{env `SOURCE_ID`}}",
+        "flavor_id": "{{env `FLAVOR_ID`}}",
+        "network_id": "{{env `NETWORK_ID`}}"
+    },
     "builders": [
         {
             "type": "openstack",
-            "username": "$OS_USERNAME",
-            "password": "$OS_PASSWORD",
-            "identity_endpoint": "$OS_AUTH_URL",
-            "region": "$OS_REGION_NAME",
-            "tenant_id": "$OS_TENANT_ID",
+            "region": "{{user `os_region_name`}}",
+            "tenant_id": "{{user `os_tenant_id`}}",
             "image_name": "My Custom Image",
             "ssh_username": "ubuntu",
-            "source_image": "$SOURCE_ID",
-            "flavor": "$FLAVOR_ID",
+            "source_image": "{{user `source_id`}}",
+            "flavor": "{{user `flavor_id`}}",
             "ssh_ip_version": "4",
             "networks": [
-                "$NETWORK_ID"
+                "{{user `network_id`}}"
             ]
         }
     ],
@@ -149,4 +159,3 @@ openstack image list | grep 'My Custom Image'
 ## Go further
 
 Join our [community of users](/links/community).
-
