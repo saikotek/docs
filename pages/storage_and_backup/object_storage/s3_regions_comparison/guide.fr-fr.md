@@ -1,8 +1,7 @@
 ---
 title: "Comparaison des modes de déploiement S3 - Présentation des régions 3-AZ / 1-AZ / Local Zones"
 excerpt: "Découvrez les modes de déploiement de l'Object Storage S3 OVHcloud"
-updated: 2024-11-13
-flag: hidden
+updated: 2024-11-21
 ---
 
 ## Objectif

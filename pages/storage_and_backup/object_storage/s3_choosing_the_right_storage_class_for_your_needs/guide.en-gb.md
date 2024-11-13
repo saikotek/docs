@@ -15,7 +15,7 @@ The Standard storage class offers a scalable object storage service, compatible 
 
 This offer is suitable for the following use cases: media/content storage & delivery, datalake, website, backup, logs and application metrics.
 
-> **Note:**  
+> [!primary]
 > The Standard storage class is available on both **1-AZ and 3-AZ** regions. More details about available regions [here](/pages/storage_and_backup/object_storage/s3_location).
 
 ### High Performance object storage - S3 API
@@ -24,7 +24,7 @@ The High Performance storage class is a high-performance object storage space fo
 
 This offer is suitable for the following use cases: AI & Analytics, Datalake, High power Computing Multimedia / Content Platform.
 
-> **Note:**  
+> [!primary]
 > The High Performance storage class is available on **1-AZ regions** only. More details about available regions [here](/pages/storage_and_backup/object_storage/s3_location).
 
 ## The SWIFT object storage offers are:

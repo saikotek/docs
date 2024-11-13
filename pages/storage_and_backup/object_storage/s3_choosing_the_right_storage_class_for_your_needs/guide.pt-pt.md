@@ -1,6 +1,6 @@
 ---
 title: Object Storage - Escolhendo a classe de armazenamento certa para suas necessidades (EN)
-updated: 2024-06-11
+updated: 2024-11-21
 ---
 
 Object Storage is a family of storage solutions that offer high-performance, scalable and secure storage spaces.
@@ -15,11 +15,17 @@ The Standard storage class offers a scalable object storage service, compatible 
 
 This offer is suitable for the following use cases: media/content storage & delivery, datalake, website, backup, logs and application metrics.
 
+> [!primary]
+> The Standard storage class is available on both **1-AZ and 3-AZ** regions. More details about available regions [here](/pages/storage_and_backup/object_storage/s3_location).
+
 ### High Performance object storage - S3 API
 
 The High Performance storage class is a high-performance object storage space for applications that have high bandwidth requirements and require extremely fast and intensive read and write access to data. The solution relies on storage on high-performance NVMe SSD disks, within a resilient architecture in a datacentre. The solution is accessible via an S3 API.
 
 This offer is suitable for the following use cases: AI & Analytics, Datalake, High power Computing Multimedia / Content Platform.
+
+> [!primary]
+> The High Performance storage class is available on **1-AZ regions** only. More details about available regions [here](/pages/storage_and_backup/object_storage/s3_location).
 
 ## The SWIFT object storage offers are:
 
@@ -44,6 +50,6 @@ The list of all API endpoints can be found [here](/pages/storage_and_backup/obje
 
 ## Go further
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/pt/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
