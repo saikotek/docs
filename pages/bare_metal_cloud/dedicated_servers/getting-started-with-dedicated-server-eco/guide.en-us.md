@@ -1,7 +1,7 @@
 ---
 title: "How to get started with a Kimsufi, So You Start or Rise dedicated server"
 excerpt: "Find out how to manage a Kimsufi, So You Start or Rise in the OVHcloud Control Panel and how to start with configuring and securing a server"
-updated: 2024-04-10
+updated: 2024-11-13
 ---
 
 ## Objective
@@ -233,11 +233,6 @@ You can find more information about OVHcloud Monitoring in [this guide](/pages/b
 <a name="network"></a>
 
 ### Network configuration
-
-> [!primary]
->
-> Please note that [Additional IP addresses](/links/network/additional-ip) are not compatible with the **Kimsufi** range.
->
 
 #### Network bridging
 
