@@ -144,20 +144,31 @@ SSH PUB_IP_DEDICATED_SERVER
 >> ```bash
 >> auto lo
 >> iface lo inet loopback
->> 
->> auto enp8s0f0np0
->> iface enp8s0f0np0 inet static
->>     address PUB_IP_DEDICATED_SERVER/32
->>     gateway 100.64.0.1
->> 
+>>
+>> # Public
+>> # Configuring the bridge with a private address and adding route(s) to send Additional IPs to it
+>> # A.B.C.D/X => Subnet of Additional IPs assigned to the server, this can be a host with /32
 >> auto vmbr0
 >> iface vmbr0 inet static
->>     address 192.168.0.1/24
->>     bridge-ports none
->>     bridge-stp off
->>     bridge-fd 0
->>     up ip route add ADDITIONAL_IP/32 dev vmbr0
->>     up ip route add ADDITIONAL_IP_BLOCK/28 dev vmbr0
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
+>>         # Define a private IP, it must not overlap your existing private networks on the vRack for example
+>>         address 192.168.0.1/24
+>>         bridge-ports enp8s0f0np0
+>>         bridge-stp off
+>>         bridge-fd 0
+>>         # Add a single Additional IP
+>>         up ip route add ADDITIONAL_IP/32 dev $IFACE
+>>         # Add an IP block
+>>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
+>>
+>> # Private
+>> # Bridge used for private networks on the vRack
+>> auto vmbr1
+>> iface vmbr1 inet manual
+>>         bridge-ports enp8s0f1np1
+>>         bridge-stp off
+>>         bridge-fd 0
 >> ```
 
 At this point, restart the network services or reboot the server:
