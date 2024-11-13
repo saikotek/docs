@@ -9,23 +9,23 @@ updated: 2024-11-22
 Un log correspond à un événement survenu sur un système informatique (serveur, ordinateur, application, site web, base de données, réseau informatique, etc.).
 Par exemple, un log peut enregistrer et contenir un ou plusieurs des éléments suivants : 
 
- - L'horodatage (date, heure, minute, seconde, etc.) de l'événement.
- - La nature de l'événement (connexion, déconnexion, erreur, download, upload, alerte, etc.).
- - Des informations complémentaires sur l'événement (fichier ou page consulté, application lancée, serveur distant appelé, nom d'un fichier chargé ou téléchargé, etc.)
- - L'origine de l'événement (identifiant de l'utilisateur, adresse IP source, programme source, etc.).
- - L'état du système où se déroule l'événement (ressources disponible, mémoire restante, utilisation du CPU, etc.).
+- L'horodatage (date, heure, minute, seconde, etc.) de l'événement.
+- La nature de l'événement (connexion, déconnexion, erreur, download, upload, alerte, etc.).
+- Des informations complémentaires sur l'événement (page ou fichier consulté, application lancée, serveur distant appelé, nom d'un fichier chargé ou téléchargé, etc.)
+- L'origine de l'événement (identifiant de l'utilisateur, adresse IP source, programme source, etc.).
+- L'état du système où se déroule l'événement (ressources disponible, mémoire restante, utilisation du CPU, etc.).
 
 La plupart du temps, les logs sont générés directement par les systèmes informatiques où les événements se réalisent.
-Ils sont stoqués et historisés dans des fichiers textes également appelés fichiers de logs.
+Ils sont stockés et historisés dans des fichiers textes également appelés fichiers de logs.
 
 De ce fait, les fichiers de logs permettent d'effectuer les actions suivantes :
 
- - analyser le comportement du système informatique générant les logs.
- - identifier les erreurs survenues sur le système informatique.
- - résoudre les erreurs rencontrées sur le système informatique.
- - Optimiser et améliorer les performances du système informatique.
+- Analyser le comportement du système informatique générant les logs.
+- Identifier les erreurs survenues sur le système informatique.
+- Résoudre les erreurs rencontrées sur le système informatique.
+- Optimiser et améliorer les performances du système informatique.
 
-Par conséquent, votre offre [Web Cloud Databases](/links/web/databases) génère ses propres logs.
+Votre offre [Web Cloud Databases](/links/web/databases) génère donc ses propres logs.
 
 Dans certaines situations, vous pouvez être amené à consulter / récupérer les logs  :
 
@@ -64,7 +64,7 @@ C'est dans cette console intégrée que vous trouverez, en temps réel, les logs
 >
 > Comme précisé ci-dessus, les logs ne sont disponibles ici qu'en temps réel. Cela signifie que ces logs n'apparaîtront que s'ils sont générés au moment où vous vous trouvez sur l'onglet `Logs`{.action}. 
 >
-> Si vous quittez l'onglet `Logs`{.action} puis que vous revenez dessus ultérieurement, l'historique qui s'affichait auparavant aura disparu.
+> Si vous quittez l'onglet `Logs`{.action} puis revenez dessus ultérieurement, l'historique qui s'affichait auparavant aura disparu.
 >
 
 ### Récupérer l'historique des logs de votre solution Web Cloud Databases
@@ -118,15 +118,14 @@ Vous pourrez le télécharger sur votre poste pour le consulter.
 
 ### Abonner les logs de votre solution Web Cloud Databases à Logs Data Platform <a name="wcdb-ldp"></a>
 
-[Logs Data Platform](/links/public-cloud/logs-data-platform) est une plateforme permettant de gérer vos logs. Cela peut vous être utile si vous disposez d'une très grosse infrastructure ou si vos services génèrent énormément de logs. Effectivement, cette plateforme est conçue pour faciliter l'aggrégation et la gestion des logs. 
+[Logs Data Platform](/links/manage-operate/ldp) est une plateforme permettant de gérer vos logs. Elle peut vous être utile si vous disposez d'une très grosse infrastructure ou si vos services génèrent énormément de logs. En effet, cette plateforme est conçue pour faciliter l'aggrégation et la gestion des logs. 
 
 Elle fonctionne en récupérant les logs générés par votre infrastructure / vos sites web ou encore vos applications pour, par exemple :
 
-- les stocker;
-- les afficher dans des tableaux de bord en temps réel;
-- permettre aux utilisateurs d'effectuer des requêtes complexes;
-- les filtrer par date, application, type ou contenu;
-- etc.
+- les stocker ;
+- les afficher dans des tableaux de bord en temps réel ;
+- permettre aux utilisateurs d'effectuer des requêtes complexes ;
+- les filtrer par date, application, type ou contenu ;
 
 Pour plus de détails sur Logs Data Platform, consultez notre guide d'[introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) (EN).
 
@@ -139,7 +138,7 @@ Pour abonner votre solution Web Cloud Databases à un flux de données sur Logs 
 3. Dans la colonne de gauche, cliquez sur le menu déroulant `Web Cloud Databases`{.action}.
 4. Sélectionnez l'instance Web Cloud Databases concernée.
 5. Sur la page qui s'affiche, cliquez sur l'onglet `Logs`{.action}.
-6. Sur la droite de l'encadré où s'affichent en temps réel vos logs, cliquez sur le bouton `S'abonner`{.action}.
+6. Sur la droite de l'encadré où s'affichent vos logs en temps réel, cliquez sur le bouton `S'abonner`{.action}.
 
 ////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -147,16 +146,16 @@ Dans la nouvelle page qui s'ouvre et si vous disposez de plusieurs solutions Log
 
 ////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Deux cas de figure s'offrent à vous pour abonner votre solution Web Cloud Databases.
+Deux cas de figure se présentent alors pour abonner votre solution Web Cloud Databases.
 
 #### Cas n°1 - S'abonner à un flux déjà existant sur votre solution Logs Data Platform <a name="wcdb-ldp-case1"></a>
 
 Si le flux concerné existe déjà, celui-ci apparaît sous la forme d'une ligne dans le tableau situé en bas de page.
-Dans cas précis et pour abonner votre solution Web Cloud Databases à ce flux existant, il vous suffit de cliquer sur le bouton `S'abonner`{.action} situé à droite de la ligne correspondant au flux concerné.
+Dans ce cas précis et pour abonner votre solution Web Cloud Databases à ce flux existant, il vous suffit de cliquer sur le bouton `S'abonner`{.action} situé à droite de la ligne correspondant au flux concerné.
 
 ////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Au bout de quelques secondes et si vous restez sur la même page, un message apparaîtra dans votre espace client pour vous signaler que l'abonnement a été créé avec succès.
+Au bout de quelques secondes et si vous restez sur la même page, un message apparaîtra dans votre espace client pour vous indiquer que l'abonnement a été créé avec succès.
 
 #### Cas n°2 - S'abonner à un nouveau flux de données sur votre solution Logs Data Platform
 
@@ -173,15 +172,15 @@ Vous serez ensuite redirigé vers l'onglet `Flux de données` de votre solution 
 
 Il ne vous reste plus qu'à abonner votre solution Web Cloud Databases à votre flux nouvellement créé sur votre solution Logs Data Platform.
 
-Pour cela et comme expliqué [précédemment](#wcdb-ldp), retournez dans l'onglet `Logs`{.action} de votre solution Web Cloud Databases pour vous abonner à ce nouveau flux de données, puis suivez cette fois-ci le [Cas n°1](#wcdb-ldp-case1) décrit plus haut.
+Pour effectuer cela et, comme expliqué [précédemment](#wcdb-ldp), retournez dans l'onglet `Logs`{.action} de votre solution Web Cloud Databases pour vous abonner à ce nouveau flux de données, puis suivez cette fois-ci le [Cas n°1](#wcdb-ldp-case1) décrit plus haut.
 
 ## Aller plus loin <a name="go-further"></a>
 
 [Premiers pas avec votre Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb)
 
-[Introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP)
+[Introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) (EN)
 
-[Démarrer rapidement avec Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_quick_start)
+[Démarrer rapidement avec Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_quick_start) (EN)
 
 Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
 
