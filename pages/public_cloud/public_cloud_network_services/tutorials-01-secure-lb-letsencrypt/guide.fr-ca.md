@@ -27,7 +27,7 @@ Si vous n'êtes pas encore familier avec la création du Load Balancer, veuillez
 
 Vous pouvez créer une instance dans votre projet dans la région où votre Load Balancer se situe. Pour plus de détails à ce sujet, consultez notre [guide](/pages/public_cloud/compute/public-cloud-first-steps). Nous vous recommandons d'utiliser Ubuntu comme système d'exploitation. Le format d2-2 sera suffisant pour cette opération.
 
-Une fois votre instance créée, vous pouvez suivre la [documaentation de Let's Encrypt](https://certbot.eff.org/lets-encrypt/ubuntufocal-other) pour installer *Certbot*.
+Une fois votre instance créée, vous pouvez suivre la [documaentation de Let's Encrypt](https://certbot.eff.org/instructions?ws=other&os=ubuntufocal) pour installer *Certbot*.
 
 ### Attacher une adresse Floating IP à un Load Balancer
 
