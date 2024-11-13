@@ -146,7 +146,7 @@ SSH PUB_IP_DEDICATED_SERVER
 >>         bridge-ports bond0
 >>         bridge-stp off
 >>         bridge-fd 0
->>         # Add a unique Additional IP
+>>         # Add a single Additional IP
 >>         up ip route add ADDITIONAL_IP/32 dev $IFACE
 >>         # Add an IP block
 >>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
