@@ -1,7 +1,7 @@
 ---
-title: "Zimbra - Configurer son compte e-mail sur l'application mobile Zimbra"
-excerpt: "Découvrez comment configurer votre adresse e-mail Zimbra sur l'application mobile Zimbra disponible sur Android et iOS"
-updated: 2024-11-07
+title: "Zimbra - Configurar a sua conta de e-mail na aplicação móvel Zimbra"
+excerpt: "Descubra como configurar o seu endereço de e-mail Zimbra na aplicação móvel Zimbra disponível em Android e iOS"
+updated: 2024-11-13
 ---
 
 <style>
@@ -15,96 +15,95 @@ updated: 2024-11-07
 
 > [!warning]
 >
-> **Important**
+> **Importante**
 >
-> L'offre Zimbra est un produit en phase bêta.
+> A oferta Zimbra é um produto em fase beta.
 >
-> Il est uniquement disponible aux personnes ayant complété le [formulaire d'inscription à la bêta](https://labs.ovhcloud.com/en/zimbra-beta/).
+> Só está disponível para as pessoas que tenham completado o [formulário de inscrição na fase beta](https://labs.ovhcloud.com/en/zimbra-beta/).
 >
-> Certaines fonctionnalités ou limitations présentées dans ce guide sont susceptibles d'évoluer lorsque le produit sera commercialisé.
+> Algumas das funcionalidades e limitações deste guia podem mudar à medida que o produto é colocado no mercado.
 
+## Objetivo
 
-## Objectif
+As contas de e-mail do Zimbra podem ser configuradas em vários softwares de e-mail compatíveis. Isto permite-lhe utilizar o seu endereço de e-mail a partir do dispositivo que preferir. A aplicação Zimbra está disponível gratuitamente em Android e iOS
 
-Les comptes e-mail Zimbra peuvent être configurés sur différents logiciels de messagerie compatibles. Cela vous permet d’utiliser votre adresse e-mail depuis l’appareil de votre choix. L'application Zimbra est disponible gratuitement sur Android et iOS
-
-**Découvrez comment configurer votre adresse e-mail Zimbra sur l'application Zimbra.**
+**Saiba como configurar o seu endereço de e-mail Zimbra na aplicação Zimbra.**
 
 > [!warning]
 >
-> OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
+> A OVHcloud oferece-lhe serviços cuja configuração, gestão e responsabilidade é da sua responsabilidade. Assim, deverá assegurar o seu bom funcionamento.
 >
-> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [partenaire spécialisé](https://marketplace.ovhcloud.com/c/support-collaboration) et/ou de contacter l'éditeur du service si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section « Aller plus loin » de ce guide.
+> Este guia fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [parceiro especializado](https://marketplace.ovhcloud.com/c/support-collaboration) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, consulte a secção « Ir mais longe » deste guia.
 
-## Prérequis
+## Requisitos
 
-- Disposer d’une adresse e-mail Zimbra.
-- Avoir installé l'application Zimbra sur votre appareil [Android](https://play.google.com/store/apps/details?id=com.zimbra.modernapp&hl=fr) ou [iOS](https://apps.apple.com/cm/app/zimbra-email-collaboration/id1554848550).
-- Posséder les identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
+- Dispor de um endereço de e-mail Zimbra.
+- Ter instalado a aplicação Zimbra no seu dispositivo [Android](https://play.google.com/store/apps/details?id=com.zimbra.modernapp&hl=pt) ou [iOS](https://apps.apple.com/cm/app/zimbra-email-collaboration/id1554848550).
+- Dispor das credenciais relativas ao endereço de e-mail que pretende configurar.
 
-## En pratique
+## Instruções
 
-### Configurer son adresse e-mail
+### Configurar o endereço de e-mail
 
-Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
+Siga as etapas de instalação, clicando nos separadores abaixo:
 
 > [!tabs]
-> **Etape 1**
->>
->> lorsque vous lancez l'application pour la première fois, la fenêtre ci-dessous s'affiche. Saisissez l'URL du serveur Zimbra OVHcloud `https://zimbra1.mail.ovh.net`, appuyez sur `Continue`{.action} pour valider.
->>
->> ![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
->>
-> **Etape 2**
->>
->> Saisissez votre **adresse e-mail** Zimbra et le  **mot de passe** associé, appuyez ensuite sur `Connexion`{.action}.
->>
->> ![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
->>
-> **Etape 3**
->>
->> Vous avez maintenant accès au contenu de votre compte e-mail. Par défaut c'est votre boite de réception apparaît <br><br>
->>
->> ![zimbra_app](images/zimbra_app_inbox01.png){.thumbnail .w-600 .h-600}
+> **Etapa 1**
+>>>
+>> Quando iniciar o aplicativo pela primeira vez, a janela abaixo será exibida. Introduza o URL do servidor Zimbra OVHcloud `https://zimbra1.mail.ovh.net`, e prima `Continue`{.action} para validar.
+>>>
+>>>![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
+>>>
+> **Etapa 2**
+>>>
+>>> Introduza o seu **endereço de e-mail** Zimbra e a **palavra-passe** associada. De seguida, prima `Início de sessão`{.action}.
+>>>
+>>>![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
+>>>
+> **Etapa 3**
+>>>
+>>> Já tem acesso ao conteúdo da sua conta de e-mail. Por predefinição, a sua caixa de entrada é apresentada <br><br>
+>>>
+>>>![zimbra_app](images/zimbra_app_inbox01.png){.thumbnail .w-600 .h-600}
 
 > [!success]
 >
-> L'interface de l'application Zimbra est similaire au webmail. Pour plus de détails sur les fonctionnalités et paramètres, consultez notre guide « [Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra) ».
+> A interface da aplicação Zimbra é semelhante ao webmail. Para mais pormenores sobre as funcionalidades e os parâmetros, consulte o guia « [Utilizar o webmail Zimbra](/pages/web_cloud/email_and_colaborative_solutions/mx_plan/email_zimbra) ».
 
-### Utiliser l'adresse e-mail
+### Utilizar o endereço de e-mail
 
-Une fois l'adresse e-mail configurée, il ne reste plus qu’à l'utiliser ! Vous pouvez dès à présent envoyer et recevoir des messages.
+Depois de configurar o endereço de e-mail, já só precisa de o utilizar! Já pode enviar e receber mensagens no seu dispositivo.
 
-OVHcloud propose aussi une application web permettant d'accéder à votre adresse e-mail depuis un navigateur internet. Celle-ci est accessible via [ce lien](/links/web/email). Vous pouvez vous y connecter grâce aux identifiants de votre adresse e-mail. Pour toute question relative à son utilisation, consultez notre guide « [Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/) ».
+A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Ela está acessível através de [este link](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte o guia « [Utilizar o webmail Zimbra](/pages/web_cloud/email_and_colaborative_solutions/) ».
 
-### Consulter une autre adresse e-mail Zimbra <a name="modify-settings"></a>
+### Consultar outro endereço de e-mail Zimbra <a name="modify-settings"></a>
 
-L'application Zimbra ne permet de configurer qu'une seule adresse e-mail à la fois. Il faut donc se déconnecter du compte e-mail en cours d'utilisation pour pouvoir consulter un autre compte e-mail Zimbra.
+A aplicação Zimbra permite configurar apenas um endereço de e-mail de cada vez. Para consultar outra conta de e-mail Zimbra, é necessário encerrar sessão na conta de e-mail que está a ser utilizada.
 
-Dirigez-vous vers le menu `☰`{.action} dans le coin supérieur gauche de votre écran, puis sélectionnez l'icône de profil dans la partie supérieure de votre écran. Enfin, appuyez sur `Déconnexion`.
+Vá ao menu `☰`{.action} no canto superior esquerdo do seu ecrã e selecione o ícone de perfil na parte superior do ecrã. Por fim, prima `Desligar`.
 
 ![zimbra_app](images/zimbra_app_settings01.png){.thumbnail .w-600 .h-600}
 
-### Que faire si un écran blanc apparait lorsque je lance l'application ?
+### O que devo fazer se aparecer um ecrã branco quando executar a aplicação?
 
-Il s'agit d'un défaut de chargement lié à la connectivité au réseau. Il est conseillé de patienter quelques instants, le temps que l'application termine sa tentative de connexion.
+Trata-se de um problema de carregamento associado à ligação à rede. É aconselhável aguardar alguns instantes até que a aplicação termine a sua tentativa de ligação.
 
-Si rien de ne passe, vérifiez que la connectivité réseau de votre mobile est correcte, puis fermez complètement l'application et relancez-la. Répétez l'opération autant de fois que nécessaire.
+Se não passar nada, verifique se a conectividade de rede do seu dispositivo móvel está correta. Em seguida, feche completamente o aplicativo e reinicie-o. Repita o procedimento as vezes que forem necessárias.
 
-Si le problème persiste, réinstallez l'application. Cela permettra de réinitialiser les paramètres et d'éliminer une potentielle corruption du fichier de configuration de l'application.
+Se este erro persistir, reinstale a aplicação. Isso irá permitir que você redefina as configurações e elimine possíveis falhas no arquivo de configuração do aplicativo.
 
-## Aller plus loin
+## Quer saber mais? <a name="go-further"></a>
 
-[Premiers pas avec l'offre Zimbra](/pages/web_cloud/email_and_collaborative_solutions/zimbra/getting_started_zimbra)
+[Primeiros passos com a oferta Zimbra](/pages/web_cloud/email_and_collaborative_solutions/zimbra/getting_started_zimbra)
 
-[Configurer son adresse e-mail Zimbra sur un logiciel de messagerie](/pages/web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps)
+[Configurar o endereço de correio eletrónico do Zimbra num software de correio eletrónico](/pages/web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps)
 
-[Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
+[Utilizar o webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
 
-[FAQ sur la solution Zimbra OVHcloud](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-zimbra)
+[FAQ sobre a solução Zimbra OVHcloud](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-zimbra)
 
-Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
+Para serviços especializados (referenciamento, desenvolvimento, etc), contacte os [parceiros OVHcloud](/links/partner).
 
-Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
+Se pretender usufruir de uma assistência na utilização e na configuração das suas soluções OVHcloud, consulte as nossas diferentes [ofertas de suporte](/links/support).
 
-Échangez avec notre [communauté d'utilisateurs](/links/community).
+Fale com nossa [comunidade de utilizadores](/links/community).

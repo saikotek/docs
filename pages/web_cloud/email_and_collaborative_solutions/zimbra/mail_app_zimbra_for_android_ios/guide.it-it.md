@@ -1,7 +1,7 @@
 ---
 title: "Zimbra - Configurer son compte e-mail sur l'application mobile Zimbra"
 excerpt: "Découvrez comment configurer votre adresse e-mail Zimbra sur l'application mobile Zimbra disponible sur Android et iOS"
-updated: 2024-11-07
+updated: 2024-11-13
 ---
 
 <style>
@@ -15,13 +15,13 @@ updated: 2024-11-07
 
 > [!warning]
 >
-> **Important**
+> **Importante**
 >
-> L'offre Zimbra est un produit en phase bêta.
+> L'offerta Zimbra è un prodotto in fase beta.
 >
-> Il est uniquement disponible aux personnes ayant complété le [formulaire d'inscription à la bêta](https://labs.ovhcloud.com/en/zimbra-beta/).
+> È disponibile solo per coloro che hanno compilato il [modulo di iscrizione alla beta](https://labs.ovhcloud.com/en/zimbra-beta/).
 >
-> Certaines fonctionnalités ou limitations présentées dans ce guide sont susceptibles d'évoluer lorsque le produit sera commercialisé.
+> Alcune delle funzionalità e dei limiti illustrati in questa guida potrebbero cambiare quando il prodotto viene immesso sul mercato.
 
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
-title: "Zimbra - Configurer son compte e-mail sur l'application mobile Zimbra"
-excerpt: "Découvrez comment configurer votre adresse e-mail Zimbra sur l'application mobile Zimbra disponible sur Android et iOS"
-updated: 2024-11-07
+title: "Zimbra - Konfiguration Ihres E-Mail Accounts auf der Zimbra Mobil-App"
+excerpt: "Erfahren Sie, wie Sie Ihre Zimbra-E-Mail-Adresse auf der Zimbra Mobile-App für Android und iOS einrichten"
+updated: 2024-11-13
 ---
 
 <style>
@@ -15,13 +15,13 @@ updated: 2024-11-07
 
 > [!warning]
 >
-> **Important**
+> **Wichtig**
 >
-> L'offre Zimbra est un produit en phase bêta.
+> Das Zimbra Angebot befindet sich in der Beta-Phase.
 >
-> Il est uniquement disponible aux personnes ayant complété le [formulaire d'inscription à la bêta](https://labs.ovhcloud.com/en/zimbra-beta/).
+> Es ist derzeit für Anwender verfügbar, die das [Beta-Anmeldeformular ausgefüllt haben](https://labs.ovhcloud.com/en/zimbra-beta/).
 >
-> Certaines fonctionnalités ou limitations présentées dans ce guide sont susceptibles d'évoluer lorsque le produit sera commercialisé.
+> Einige der in dieser Anleitung aufgeführten Funktionen oder Einschränkungen können sich nach der Markteinführung des Produkts ändern.
 
 ## Ziel
 
@@ -41,7 +41,7 @@ Zimbra E-Mail-Accounts können auf verschiedenen kompatiblen E-Mail-Clients eing
 - Sie haben die Zimbra-App auf Ihrem Gerät [Android](https://play.google.com/store/apps/details?id=com.zimbra.modernapp&hl=de) oder [iOS](https://apps.apple.com/cm/app/zimbra-email-collaboration/id1554848550) installiert.
 - Sie haben die Login-Daten der E-Mail-Adresse, die Sie einrichten möchten.
 
-## In der Praxis
+## In der praktischen Anwendung
 
 ### E-Mail-Adresse konfigurieren
 
@@ -52,19 +52,19 @@ Folgen Sie den Installationsschritten, indem Sie unten auf die Registerkarten kl
 >>
 >> Beim ersten Starten der Anwendung wird das folgende Fenster angezeigt. Geben Sie die URL des OVHcloud Zimbra-Servers `https://zimbra1.mail.ovh.net` ein, drücken Sie `Continue`{.action}, um den Vorgang zu bestätigen.
 >>
->>![Zimbra_App](images/Zimbra_App_Connect01.png){.thumbnail .w-600 .h-600}
+>> ![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
 >>
 > **Schritt 2**
 >>
 >> Geben Sie Ihre **Zimbra E-Mail-Adresse** und das zugehörige **Passwort** ein und tippen Sie anschließend auf `Anmelden`{.action}.
 >>
->>![Zimbra_App](images/Zimbra_App_Connect02.png){.thumbnail .w-600 .h-600}
+>> ![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
 >>
 > **Schritt 3**
 >>
 >> Sie haben nun Zugriff auf den Inhalt Ihres E-Mail-Accounts. Standardmäßig erscheint Ihr Posteingang <br><br>
 >>
->>![ZIMBRA_APP](images/ZIMBRA_APP_INBOX01.PNG){.thumbnail .w-600 .h-600}
+>> ![zimbra_app](images/zimbra_app_inbox01.png){.thumbnail .w-600 .h-600}
 
 > [!success]
 >
@@ -80,9 +80,9 @@ OVHcloud bietet auch eine Web-App, mit der Sie über einen Webbrowser auf Ihre E
 
 Mit der Zimbra App kann immer nur eine E-Mail-Adresse konfiguriert werden. Um einen anderen Zimbra E-Mail-Account zu verwenden, müssen Sie sich daher von Ihrem E-Mail-Account abmelden.
 
-Gehen Sie in das Menü ` ` ``{.action} in der oberen linken Ecke Ihres Bildschirms und wählen Sie das Profilsymbol in der oberen Ecke Ihres Bildschirms. Tippen Sie abschließend auf `Abmelden`.
+Gehen Sie in das Menü `☰`{.action} in der oberen linken Ecke Ihres Bildschirms und wählen Sie das Profilsymbol in der oberen Ecke Ihres Bildschirms. Tippen Sie abschließend auf `Abmelden`.
 
-![ZIMBRA_APP](images/ZIMBRA_APP_SETTINGS01.PNG){.thumbnail .w-600 .h-600}
+![zimbra_app](images/zimbra_app_settings01.png){.thumbnail .w-600 .h-600}
 
 ### Was kann ich tun, wenn beim Starten der Anwendung ein leerer Bildschirm angezeigt wird?
 
@@ -92,7 +92,7 @@ Wenn nichts passiert, überprüfen Sie, ob die Netzwerkverbindung Ihres Mobiltel
 
 Wenn das Problem weiterhin besteht, installieren Sie die Anwendung erneut. Dadurch werden die Einstellungen zurückgesetzt und mögliche Beschädigungen der Konfigurationsdatei der Anwendung beseitigt.
 
-## Aller plus loin
+## Weiterführende Informationen <a name="go-further"></a>
 
 [Erste Schritte mit Zimbra](/pages/web_cloud/email_and_collaborative_solutions/zimbra/getting_started_zimbra)
 

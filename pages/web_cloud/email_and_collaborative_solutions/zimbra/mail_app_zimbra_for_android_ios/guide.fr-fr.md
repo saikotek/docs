@@ -1,7 +1,7 @@
 ---
 title: "Zimbra - Configurer son compte e-mail sur l'application mobile Zimbra"
 excerpt: "Découvrez comment configurer votre adresse e-mail Zimbra sur l'application mobile Zimbra disponible sur Android et iOS"
-updated: 2024-11-07
+updated: 2024-11-13
 ---
 
 <style>
@@ -92,7 +92,7 @@ Si rien de ne passe, vérifiez que la connectivité réseau de votre mobile est 
 
 Si le problème persiste, réinstallez l'application. Cela permettra de réinitialiser les paramètres et d'éliminer une potentielle corruption du fichier de configuration de l'application.
 
-## Aller plus loin
+## Aller plus loin <a name="go-further"></a>
 
 [Premiers pas avec l'offre Zimbra](/pages/web_cloud/email_and_collaborative_solutions/zimbra/getting_started_zimbra)
 
