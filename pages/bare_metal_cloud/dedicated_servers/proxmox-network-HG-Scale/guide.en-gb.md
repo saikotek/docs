@@ -177,7 +177,7 @@ systemctl restart networking.service
 The VM must be attached to the `vmbr0` bridge.
 
 > [!tabs]
-> Debian
+> Debian (ifupdown)
 >> Contents of the `/etc/network/interfaces` file:
 >>
 >> ```text
@@ -196,14 +196,14 @@ The VM must be attached to the `vmbr0` bridge.
 >>   up ip route replace default via 192.168.0.1 dev $IFACE onlink src ADDITIONAL_IP
 >> ```
 >>
-> Ubuntu
+> Ubuntu (Netplan)
 >> Contents of the `/etc/netplan/01-netcfg.yaml` file:
 >>
 >> ```yaml
 >> network:
 >>   version: 2
 >>   ethernets:
->>     $iface:
+>>     eth0:
 >>       addresses:
 >>         - 192.168.0.3/24
 >>         - ADDITIONAL_IP/32
@@ -370,19 +370,35 @@ systemctl restart networking.service
 >
 > When the networking service is restarted, VMs are not added back to the bridge. This is because Proxmox disconnects each VM from the bridges and does not reconnect them. To force the VMs to reconnect to the bridges, you can restart the VMs.
 
-#### Configuration example of a client VM on Debian
+#### Client VM configuration example
 
 The VM must be attached to the `vmbr1` bridge.
 
-Contents of the `/etc/network/interfaces` file:
-
-```text
-auto lo ens18
-iface lo inet loopback
-iface ens18 inet static
-        address 46.105.135.97/28
-        gateway 46.105.135.110
-```
+> [!tabs]
+> Debian (ifupdown)
+>> Contents of the `/etc/network/interfaces` file:
+>>
+>> ```text
+>> auto lo ens18
+>> iface lo inet loopback
+>> iface ens18 inet static
+>>         address 46.105.135.97/28
+>>         gateway 46.105.135.110
+>> ```
+> Ubuntu (Netplan)
+>> Contents of the `/etc/netplan/01-netcfg.yaml` file:
+>>
+>> ```yaml
+>> network:
+>>   version: 2
+>>   ethernets:
+>>     eth0:
+>>       addresses:
+>>         - 46.105.135.98/28
+>>       routes:
+>>         - to: default
+>>           via: 46.105.135.110
+>> ```
 
 #### Testing and validation
 
