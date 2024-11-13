@@ -41,9 +41,9 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 > **Etapa 2**
 >>
 >> Na janela "**Adicionar conta de e-mail**", introduza as seguintes informações: <br><br>
->> - Um **Nome** para a sua conta de e-mail
->> - O seu **Endereço de e-mail**
->> - A **Palavra-passe** do seu endereço de e-mail<br>
+>> - Um **Nome** para a sua conta de e-mail<br>
+>> - O seu **Endereço de e-mail**<br>
+>> - A **Palavra-passe** do seu endereço de e-mail<br><br>
 >> ![mailmac](images/mail-mac-email02.png){.thumbnail .w-400 .h-600}
 >>
 > **Etapa 3**

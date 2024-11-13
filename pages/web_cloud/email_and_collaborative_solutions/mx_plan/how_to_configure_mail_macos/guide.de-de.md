@@ -50,9 +50,9 @@ Folgen Sie den Installationsschritten, indem Sie unten auf die Registerkarten kl
 > **Schritt 2**
 >>
 >> Geben Sie im Fenster "**E-Mail-Account hinzufügen**" folgende Informationen ein: <br><br>
->> - Ein **Name** für Ihren E-Mail-Account
->> - Ihre **E-Mail-Adresse**
->> - Das **Passwort** Ihrer E-Mail-Adresse<br>
+>> - Ein **Name** für Ihren E-Mail-Account<br>
+>> - Ihre **E-Mail-Adresse**<br>
+>> - Das **Passwort** Ihrer E-Mail-Adresse<br><br>
 >> ![mailmac](images/mail-mac-email02.png){.thumbnail .w-400 .h-600}
 >>
 > **Schritt 3**

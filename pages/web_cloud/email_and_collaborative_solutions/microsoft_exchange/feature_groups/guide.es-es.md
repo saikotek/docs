@@ -66,7 +66,7 @@ Para añadir `Contacts` a su grupo o definir los `Administradores`, haga clic en
 
 #### Administrar las delegaciones de un grupo
 
-Aparecerá la opción `Configurar delegaciones`{.action} del menú. Esta opción le permite delegar el acceso del mismo modo que se hace para una cuenta Exchange. Encontrar todos los detalles en [esta guía](/pages/web_cloud/email_and_colaborative_solutions/microsoft_exchange/feature_delegation).
+Aparecerá la opción `Configurar delegaciones`{.action} del menú. Esta opción le permite delegar el acceso del mismo modo que se hace para una cuenta Exchange. Encontrar todos los detalles en [esta guía](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
 
 ![contactgroups](images/exchange-groups-options-delegation01.png){.thumbnail .w-600 .h-600}
 
@@ -77,8 +77,6 @@ Aparecerá la opción `Configurar delegaciones`{.action} del menú. Esta opción
 ### Enviar mensajes a un grupo en OWA
 
 Ahora puede probar su lista de correo a través del [webmail de OVHcloud](/links/web/email) (OWA) simplemente mandando un correo a la dirección del grupo.
-
-![contactgroups](images/exchange-groups-step6.png){.thumbnail}
 
 ## Más información
 
