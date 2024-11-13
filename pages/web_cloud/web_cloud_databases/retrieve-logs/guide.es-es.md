@@ -1,7 +1,7 @@
 ---
 title: 'Web Cloud Databases - ¿Cómo recuperar los logs?'
 excerpt: 'Descubra cómo recuperar los logs de las bases de datos alojadas en un servidor Web Cloud Databases'
-updated: 2024-10-24
+updated: 2024-11-22
 ---
 
 > [!primary]
