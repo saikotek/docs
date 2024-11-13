@@ -345,6 +345,32 @@ To configure the first usable IP address, you must edit the network configuratio
 >> ```
 >>
 >> At this point, restart the network services or reboot the server.
+> ADVANCE range
+>> The entire configuration is done in the `/etc/network/interfaces` file:
+>>
+>> ```bash
+>> vi /etc/network/interfaces
+>> ```
+>>
+>> ```text
+>> auto lo
+>> iface lo inet loopback
+>>
+>> # Public
+>> auto enp8s0f0np0
+>> iface enp8s0f0np0 inet static
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
+>>
+>> # Private
+>> # Bridge connected on private interface
+>> # No need for IPs
+>> auto vmbr1
+>> iface vmbr1 inet manual
+>>         bridge-ports enp8s0f1np1
+>>         bridge-stp off
+>>         bridge-fd 0
+>> ```
 
 #### Configuration example of a client VM on Debian
 
