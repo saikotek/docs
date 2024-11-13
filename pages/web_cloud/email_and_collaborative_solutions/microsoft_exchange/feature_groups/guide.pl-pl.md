@@ -78,8 +78,6 @@ Zostanie wyświetlona opcja `Skonfiguruj delegowanie`{.action} w menu. Opcja ta 
 
 Listę wysyłkową można przetestować za pośrednictwem interfejsu [OVHcloud webmail](/links/web/email) (OWA): wystarczy wysłać e-mail na adres grupy.
 
-![contactgroups](images/exchange-groups-step6.png){.thumbnail}
-
 ## Sprawdź również
 
 [Delegowanie uprawnień do konta Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation)

@@ -50,9 +50,9 @@ Segui i passaggi di installazione cliccando sulle schede qui sotto:
 > **Step 2**
 >>
 >> Nella finestra "**Aggiungi account Mail**", inserisci le informazioni seguenti: <br><br>
->> - Un **Nome** per il tuo account email
->> - Il tuo **Indirizzo email**
->> - La **Password** del tuo indirizzo email<br>
+>> - Un **Nome** per il tuo account email<br>
+>> - Il tuo **Indirizzo email**<br>
+>> - La **Password** del tuo indirizzo email<br><br>
 >> ![mailmac](images/mail-mac-email02.png){.thumbnail .w-400 .h-600}
 >>
 > **Step 3**

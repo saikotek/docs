@@ -87,8 +87,6 @@ Die Menüoption `Berechtigungen konfigurieren`{.action} erlaubt es, den Zugriff 
 
 Sie können jetzt Ihre Mailingliste über [OVHcloud Webmail](/links/web/email) (OWA) testen: Senden Sie einfach eine E-Mail an die Gruppenadresse.
 
-![contactgroups](images/exchange-groups-step6.png){.thumbnail}
-
 ## Weiterführende Informationen
 
 [Berechtigungen eines Exchange Accounts übertragen](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation)

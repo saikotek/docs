@@ -87,8 +87,6 @@ L’option `Configurer les délégations`{.action} du menu s’affichera. Cette 
 
 Vous pouvez déjà  tester votre liste de diffusion via [la messagerie Web d ’OVHcloud](/links/web/email) (OWA) Il suffit d’envoyer un e-mail à l’adresse du groupe.
 
-![contactgroups](images/exchange-groups-step6.png){.thumbnail .w-600 .h-600}
-
 ## Aller plus loin
 
 [Déléguer des permissions sur un compte Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation)

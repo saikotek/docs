@@ -78,8 +78,6 @@ Compare l’opzione `Configura le deleghe`{.action} del menu. Questa opzione per
 
 Per verificare la tua Mailing List tramite [OVHcloud Webmail](/links/web/email)(OWA) invia un’email all’indirizzo del gruppo.
 
-![contactgroups](images/exchange-groups-step6.png){.thumbnail}
-
 ## Per saperne di più 
 
 [Delegare i diritti su un account Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation)
