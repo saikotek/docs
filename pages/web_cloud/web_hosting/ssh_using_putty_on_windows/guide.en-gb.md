@@ -239,7 +239,7 @@ Enter a name for your file and save it. You should now have a new **private key*
 
 > The button `Save public key`{.action} in the **PuTTYgen** interface will convert the **public key** string into the "SSH-2 standard format" and then create a file containing this string. Key strings of that format however are not relevant for this tutorial.
 
-##### Step 4: Prepare the public key
+##### Step 3: Prepare the public key
 
 The next step will be to store the **public key** on the remote host to which you want to connect. The format of the key string as it is displayed in the **PuTTYgen** window under `Public key for pasting into OpenSSH authorized_keys file` is compatible with OpenSSH. You will need the exact key string as one line. 
 

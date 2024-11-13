@@ -239,7 +239,7 @@ Renseignez un nom pour votre fichier et enregistrez-le. Vous devriez maintenant 
 
 > Le bouton `Save public key`{.action} dans l'interface **PuTTYgen** convertira la chaîne **public key** au « SSH-2 standard format », puis créera un fichier contenant cette chaîne. Cependant, les chaînes clés de ce format ne sont pas pertinentes pour ce didacticiel.
 
-##### Étape 4 : Préparer la clé publique
+##### Étape 3 : Préparer la clé publique
 
 L'étape suivante consiste à stocker la **clé publique** sur l'hôte distant auquel vous souhaitez vous connecter. Le format de la chaîne de clé tel qu'il est affiché dans la fenêtre **PuTTYgen** sous `Public key for pasting into OpenSSH authorized_keys file` est compatible avec OpenSSH. Vous aurez besoin de la chaîne de clé exacte sur une seule ligne.
 
