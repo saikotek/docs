@@ -97,11 +97,11 @@ Open **PuTTY** and enter the FTP login credentials for your web hosting plan int
 Click on `Open`{.action}.
 
 At the first connection, the "**PuTTY** Security Alert" will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as a web hosting plan's FTP storage).  
-Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the web hosting's fingerprint will not be saved to the cache and the alert window will show up at the next connection. You can find more information in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the web hosting's fingerprint will not be saved to the cache and the alert window will show up at the next connection. You can find further details in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
 The command line window (**PuTTY** terminal) will open and prompt you to enter the login password.
 
-Enter the password you have [assigned to this user](/pages/web/hosting/ftp_connection). Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example:
+Enter the password you have [assigned to this user](/pages/web/hosting/ftp_connection). Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example output:
 
 ```console
 Using username "yourlogin".
@@ -139,11 +139,11 @@ Open **PuTTY** and enter the login credentials into the appropriate fields.
 Click the button `Open`{.action}.
 
 At the first connection, the "**PuTTY** Security Alert" window will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as your own secured server).  
-Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the server's fingerprint will not be saved to the cache and the alert will show up again at the next connection. You can find more information in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the server's fingerprint will not be saved to the cache and the alert will show up again at the next connection. You can find further details in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
 The command line window (**PuTTY** terminal) will open and prompt you to enter the user account's password. You can paste the password string into this window with a right-click.
 
-Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example:
+Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example output:
 
 ```console
 Using username "ubuntu".
@@ -214,7 +214,7 @@ You now have a **key pair**, consisting of two elements:
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen3.png){.thumbnail}
 
-You can optionally edit the field `Comment` with your own description. This will be displayed by **PuTTY** tools when using the key.
+You can optionally edit the field `Comment` with your own description. It will be displayed by **PuTTY** tools when using the key.
 
 ##### Step 2: Save the private key
 
@@ -347,7 +347,7 @@ To verify that your key is set up properly, connect to your server by following 
 In order to connect to a remote host (Public Cloud instance, dedicated server or VPS), you need to have [created the key pair](#puttygen) and [added the public key string to your server](#transferkeys).
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
-|---|
+|:---|
 | 1\. Open **PuTTY**.<br> 2\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 3\. Expand the node `Auth`.<br> 4\. Click `Credentials` to see the corresponding settings.<br> 5\. Click the button `Browse`{.action}.<br> 6\. Select the private key file (`keyfile.ppk`) from the folder in which you have saved it. |
 
 Navigate back to `Session`{.action} in the left-hand menu. Enter the login credentials into the appropriate fields.
@@ -358,7 +358,7 @@ Navigate back to `Session`{.action} in the left-hand menu. Enter the login crede
 - `Port`: 22 (unless you have changed the SSH port number of your server)
 
 Click the button `Open`{.action}. The **PuTTY** terminal will prompt you for the password of the key file.  
-Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example:
+Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example output:
 
 ```console
 Using username "ubuntu".
@@ -385,7 +385,7 @@ Using **Pageant** enables faster connections in two ways:
  - You do not need to select the private key file for each connection in **PuTTY**.
  - You only need to enter the passphrase for the private key file once, when the key file is opened by **Pageant**.
 
-Open the **Pageant** application [on your device](#installation). Since the **Pageant** key window will not open automatically, you need to (double-)click on its icon in your taskbar ("System tray" in Windows).
+Open the **Pageant** application [on your device](#installation). Since the **Pageant** key window will not open automatically, you need to (double-)click on its icon in your taskbar ("system tray" in Windows).
 
 ![pageant](/pages/assets/screens/other/web-tools/putty/systray.png){.thumbnail}
 
@@ -414,13 +414,13 @@ Select the relevant connection method:
 To store a [password-based connection session](#sshconnect1), carry out the following actions:
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions1.png){.thumbnail} |
-|---|
+|:---|
 | 1\. Open **PuTTY**.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`.<br> 4\. Enter a name for this connection into the field under `Saved Sessions`.<br> 5\. Click the button `Save`{.action}. |
 
 To open a connection saved previously, carry out the following actions:
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail} |
-|---|
+|:---|
 | 1\. Open **PuTTY**.<br> 2\. Double-click the desired session in the list under `Saved Sessions` or select it and click the button `Open`{.action}. |
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions3.png){.thumbnail} |
 | In the **PuTTY** terminal window, enter the user password of the remote host. |
@@ -434,11 +434,11 @@ To open a connection saved previously, carry out the following actions:
 To store a [key-based connection session](#puttykeys), carry out the following actions:
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/sessions4.png){.thumbnail} |
-|---|
+|:---|
 | 1\. Open **PuTTY**.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`. |
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
 | 4\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 5\. Expand the node `Auth` in the `Category` tree.<br> 6\. Click `Credentials` to see the corresponding settings.<br> 7\. Click the button `Browse`{.action}.<br> 8\. Navigate to the folder that stores your private key files.<br> 9\. Open the key file concerned. |
-| ![sessions](/pages/assets/screens/other/web-tools/putty3/sessions5.png){.thumbnail} |
+| ![sessions](/pages/assets/screens/other/web-tools/putty/sessions5.png){.thumbnail} |
 | 10\. Go back to the configuration category `Session` in the menu on the left.<br> 11\. Enter a name for this connection into the field under `Saved Sessions`.<br> 12\. Click the button `Save`{.action}. |
 
 <a name="qconnect"></a>
