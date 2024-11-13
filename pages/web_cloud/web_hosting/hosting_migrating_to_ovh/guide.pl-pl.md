@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak migrować stronę WWW, nazwę domeny, bazę danych o
 updated: 2024-06-24
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Niniejszy przewodnik prezentuje różne działania, jakie należy przeprowadzić, aby bez przerwy w dostępie do usług przenieść całą stronę WWW, foldery, nazwę domeny, bazę danych oraz konta e-mail do OVHcloud.

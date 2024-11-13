@@ -4,10 +4,6 @@ excerpt: "Eine Website auf einem Webhosting mit Visual Studio Code mithilfe eine
 updated: 2023-11-06
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Wenn Sie über ein OVHcloud Webhosting verfügen, können Sie auf einen Speicherplatz zugreifen, mit dem Sie Ihre Website verwalten können. Der Zugriff auf diesen Speicherplatz ist über SFTP möglich. Sie können sich über einen Client anmelden, aber auch die integrierte Entwicklungsumgebung (Integrated Development Environment - IDE) von Visual Studio Code verwenden, um die Ordner und Dateien Ihrer Website zu verwalten.

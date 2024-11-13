@@ -4,10 +4,6 @@ excerpt: "Descubra cómo crear una base de datos en un alojamiento web de OVHclo
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Una base de datos (BD) se utiliza para almacenar elementos dinámicos (datos de conexión, datos de usuarios, datos de visualización, datos necesarios para el buen funcionamiento de su sitio web, etc.). Estas bases de datos se utilizan en la mayoría de los sistemas de gestión de contenidos (CMS) modernos, como *WordPress*, *Joomla!*, *Drupal* o *PrestaShop*.

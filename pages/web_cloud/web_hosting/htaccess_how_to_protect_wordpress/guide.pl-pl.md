@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zabezpieczyć blog WordPress jednym lub kilkoma plik
 updated: 2024-05-28
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Tutorial wyjaśnia, jak skonfigurować niektóre funkcjonalności hostingu za pomocą jednego lub kilku plików **.htaccess**, zwłaszcza w celu zmiany ustawień niektórych lub wszystkich Twoich stron WWW (przekierowania, zakazy dostępu, ograniczone uprawnienia, kontrola cache, itp.).

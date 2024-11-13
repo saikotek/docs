@@ -4,11 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie sich im FTP-Speicherplatz Ihres OVHcloud We
 updated: 2024-05-20
 ---
 
-> [!primary]
->
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel 
 
 Die OVHcloud Webhostings bieten Zugriff auf einen FTP-Speicherplatz, um die Dateien Ihrer Websites oder Anwendungen online zu stellen. Zugriff auf diesen Bereich ist über einen FTP- oder SSH-Benutzer mit den dazugehörigen Passwörtern möglich.

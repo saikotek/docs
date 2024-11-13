@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak korzystać z aplikacji Cyberduck, aby zalogować si�
 updated: 2024-02-26
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Cyberduck, dostępny dla systemów macOS i Windows, to aplikacja open-source do transferu plików. Możesz zalogować się do przestrzeni dyskowej FTP Twojego hostingu (za pomocą protokołu FTP lub SFTP).

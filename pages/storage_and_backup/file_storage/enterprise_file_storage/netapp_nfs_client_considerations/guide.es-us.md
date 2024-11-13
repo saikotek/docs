@@ -1,12 +1,8 @@
 ---
 title: "Enterprise File Storage - consideraciones del cliente NFS"
 excerpt: "Parámetros específicos para comprobar y/o implementar para la solución Enterprise File Storage"
-updated: 2024-10-10
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
 
 ## Objetivo
 
@@ -42,22 +38,6 @@ Como solución alternativa, el UID y el GID pueden verse obligados a 0 en la má
 > - <https://learn.microsoft.com/en-gb/archive/blogs/msdn/sfu/can-i-set-up-user-name-mapping-in-windows-vista>
 > - <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753302(v=ws.10)?redirectedfrom=MSDN>
 > - <https://kb.netapp.com/on-prem/ontap/da/NAS/NAS-KBs/Unable_to_perform_write_operations_on_an_export_mounted_on_a_Windows_machine>
-
-#### Permite conexiones de invitado no seguras para los protocolos SMB2 y SMB3
-
-Es posible que necesite habilitar las conexiones de invitado para tener acceso a Enterprise File Storage, ya que no proporciona una cuenta de usuario, sino sólo acceso de invitado.
-
-A continuación se explica cómo modificar la directiva de seguridad en consecuencia:
-
-- Ejecute el comando `gpedit.msc` en el símbolo del sistema y seleccione `Edit group policy`.
-- En el panel izquierdo, en `Local Computer Policy`, vaya a `Computer Configuration\Administrative Templates\Network\Lanman Workstation`.
-- Abra `Enable insecure guest logons`, seleccione `Enabled` y seleccione  `OK`.
-
-> [!primary]
->
-> **Documentación de referencia:**
->
-> - <https://learn.microsoft.com/en-us/windows-server/storage/file-server/enable-insecure-guest-logons-smb2-and-smb3?tabs=group-policy>
 
 #### Solicite la activación de la funcionalidad "showmount" al soporte de OVHcloud
 

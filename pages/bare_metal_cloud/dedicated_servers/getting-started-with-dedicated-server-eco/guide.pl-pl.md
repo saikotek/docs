@@ -1,12 +1,8 @@
 ---
 title: "Pierwsze kroki z serwerem dedykowanym Kimsufi, So You Start lub Rise"
 excerpt: "Dowiedz się, jak zarządzać serwerem dedykowanym Kimsufi, So You Start lub Rise w Panelu klienta i jak rozpocząć konfigurację oraz zabezpieczenie serwera"
-updated: 2024-04-10
+updated: 2024-11-13
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
 
 ## Wprowadzenie
 
@@ -239,11 +235,6 @@ Więcej informacji na temat monitoringu OVHcloud znajdziesz w [tym przewodniku](
 
 ### Konfiguracja sieci
 
-> [!primary]
->
-> Pamiętaj, że [dodatkowe](/links/network/additional-ip) adresy IP nie są kompatybilne z ofertą **Kimsufi**.
->
-
 #### Network Bridging
 
 Mostkowanie sieci to działanie podejmowane przez sprzęt sieciowy w celu utworzenia sieci łączonej z kilku sieci komunikacyjnych lub z kilku segmentów sieci. Tryb bridge jest odrębny od routingu, który pozwala sieciom na samodzielną komunikację przy jednoczesnym zachowaniu odrębności.
@@ -313,4 +304,4 @@ Aby włączyć i korzystać z opcji Backup Storage, zapoznaj się [z tym przewod
 
 Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](/links/professional-services), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

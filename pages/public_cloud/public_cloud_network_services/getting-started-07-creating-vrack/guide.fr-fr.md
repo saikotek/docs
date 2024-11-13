@@ -56,7 +56,7 @@ Il vous sera parfois nécessaire de récupérer plusieurs informations avant l'u
 
 Vous pouvez simplement accéder aux API depuis [notre page web](https://eu.api.ovh.com/), mais aussi créer vos scripts PHP ou Python pour y faire appel.
 
-Ainsi, il vous sera possible de librement automatiser les tâches de base au moyen de scripts, optimiser vos propres fonctions, etc...
+Ainsi, il vous sera possible de librement automatiser les tâches de base au moyen de scripts, optimiser vos propres fonctions, etc.
 
 Consultez le guide [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) pour vous familiariser avec l'utilisation des APIv6 OVHcloud.
 
@@ -114,13 +114,13 @@ Allez dans le menu `Bare Metal Cloud`{.action} et cliquez sur le bouton `Command
 
 Vous serez redirigé vers une autre page pour valider la commande, l'opération prendra quelques minutes.
 
-Une fois le service actif, vous le retrouverez dans votre espace client dans la section `Bare Metal Cloud`{.action} > `Network`{.action} > `vRack private network`{.action}. Sous l’appellation « pn-xxxxxx ».
+Une fois le service actif, vous le retrouverez dans votre espace client dans la section `Bare Metal Cloud`{.action} > `Network`{.action} > `Réseau Privé vRack`{.action}. Sous l’appellation « pn-xxxxxx ».
 
-Dans la liste des services éligibles, sélectionnez le projet que vous souhaitez ajouter au vRack et cliquez sur le bouton `Ajouter`{.action} .
+Dans la liste des services éligibles, sélectionnez le projet que vous souhaitez ajouter au vRack et cliquez sur le bouton `Ajouter`{.action}.
 
 ![ajouter le projet](images/addprojectvrack.png){.thumbnail}
 
-Pour continuer la configuration du vRack depuis l'espace client OVHcloud, poursuivez la lecture de ce guide à partir de [Créer un VLAN dans le vRack depuis l'espace client OVHcloud](./#creer-un-vlan-depuis-lespace-client-ovhcloud).
+Pour continuer la configuration du vRack depuis l'espace client OVHcloud, poursuivez la lecture de ce guide à partir de [Créer un VLAN dans le vRack depuis l'espace client OVHcloud](./#creer-un-reseau-prive-depuis-lespace-client-ovhcloud).
 
 #### Depuis les APIv6 OVHcloud
 
@@ -128,7 +128,7 @@ Pour activer et gérer un vRack depuis les APIv6 OVHcloud, cliquez [ici](/pages/
 
 ### Étape 2 : Créer un réseau privé dans le vRack
 
-Il est nécessaire de créer un réseau privé afin que les instances reliées au vRack puissent communiquer entre elles.
+Il est nécessaire de créer un réseau privé avec un réseau local virtuel (VLAN) afin que les instances reliées au vRack puissent communiquer entre elles.
 
 Sur l'offre Public Cloud, vous pouvez créer jusqu'à 4 000 VLAN au sein d’un seul vRack. Cela signifie donc que vous pouvez utiliser chaque adresse IP privée jusqu’à 4 000 fois.
 Ainsi, par exemple, l'IP 192.168.0.10 du VLAN 2 est différente de l'IP 192.168.0.10 du VLAN 42.
@@ -175,7 +175,7 @@ Dans le champ **Nom du réseau privé**, définissez un nom pour votre réseau p
 Sélectionnez cette option si vous avez l'intention de créer des instances avec un réseau privé uniquement. Pour plus d’informations, nous vous invitons à consulter les guides suivants : [Créer un réseau privé avec une Gateway](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway) et [Créer une première instance Public Cloud et s’y connecter](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!warning]
-> Si l'option est grisée, cela signifie qu'elle est incompatible avec la région sélectionnée. Pour plus d’informations, veuillez vous référer à notre page sur la [disponibilité des produits Public Cloud pour chaque région](//links/public-cloud/regions-pci).
+> Si l'option est grisée, cela signifie qu'elle est incompatible avec la région sélectionnée. Pour plus d’informations, veuillez vous référer à notre page sur la [disponibilité des produits Public Cloud pour chaque région](/links/public-cloud/regions-pci).
 >
 
 **Options réseau du layer 2**
@@ -295,6 +295,7 @@ nova net-list
 | 67890123-4abc-ef12-xxxx-xxxxxxxxxxxx | MonVLAN_0  | None |
 +--------------------------------------+------------+------+
 ```
+
 > [!primary]
 > Vous devrez noter les ID des réseaux vous intéressant :
 ><br> - Ext-Net pour avoir une IP publique
@@ -305,7 +306,7 @@ Pensez également à noter les informations suivantes, comme indiqueé dans le [
 
 - ID ou nom de la clé SSH OpenStack
 - ID du type d'instance (flavor)
-- ID de l'image souhaitée (Système d'exploitation, snapshot, etc...)
+- ID de l'image souhaitée (Système d'exploitation, snapshot, etc.)
 
 **Déploiement de l'instance**
 
@@ -313,8 +314,11 @@ Avec les éléments récupérés précédemment, il est possible de créer une i
 
 ```bash
 nova boot --key-name SSHKEY --flavor [ID-flavor] --image [ID-Image] --nic net-id=[ID-Network 1] --nic net-id=[ID-Network 2] [nom de votre instance]
+```
 
 Ex :
+
+```bash
 nova boot --key-name ma-cle-ssh --flavor xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --image yyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy --nic net-id=[id_Ext-Net] --nic net-id=[id_VLAN] NomDeMonInstance
 
 +--------------------------------------+------------------------------------------------------+
@@ -338,7 +342,7 @@ nova boot --key-name ma-cle-ssh --flavor xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --im
 | image                                | [Image Type] (xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)    |
 | key_name                             | [Nom de la clé]                                      |
 | metadata                             | {}                                                   |
-| name                                 | [Nom de l'instance]                                  |
+| name                                 | [nom de votre instance]                                  |
 | os-extended-volumes:volumes_attached | []                                                   |
 | progress                             | 0                                                    |
 | security_groups                      | default                                              |
@@ -348,12 +352,16 @@ nova boot --key-name ma-cle-ssh --flavor xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --im
 | user_id                              | zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz                     |
 +--------------------------------------+------------------------------------------------------+
 ```
+
 ou
 
 ```bash
 openstack server create --key-name SSHKEY --flavor [ID-flavor] --image [ID-Image] --nic net-id=[ID-Network 1] --nic net-id=[ID-Network 2] [nom de votre instance]
+```
 
 Ex :
+
+```bash
 openstack server create --key-name ma-cle-ssh --flavor xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --image yyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy --nic net-id=[id_Ext-Net] --nic net-id=[id_VLAN] NomDeMonInstance
 
 +--------------------------------------+------------------------------------------------------+
@@ -377,7 +385,7 @@ openstack server create --key-name ma-cle-ssh --flavor xxxxxx-xxxx-xxxx-xxxx-xxx
 | image                                | [Image Type] (xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)    |
 | key_name                             | [Nom de la clé]                                      |
 | metadata                             | {}                                                   |
-| name                                 | [Nom de l'instance]                                  |
+| name                                 | [nom de votre instance]                                  |
 | os-extended-volumes:volumes_attached | []                                                   |
 | progress                             | 0                                                    |
 | security_groups                      | default                                              |
@@ -392,9 +400,7 @@ Vous avez la possibilité de définir l'adresse IP de l'instance de votre interf
 
 Pour cela, vous pouvez ajouter un simple argument dans la fonction « --nic » :
 
-```
---nic net-id=[ID-Network],v4-fixed-ip=[IP_fixe_vRack]
-```
+`--nic net-id=[ID-Network],v4-fixed-ip=[IP_static_vRack]`
 
 Exemple :
 
@@ -418,7 +424,7 @@ nova list
 +--------------------------------------+--------------------+--------+------------+-------------+--------------------------------------------------+
 | ID                                   | Name               | Status | Task State | Power State | Networks                                         |
 +--------------------------------------+--------------------+--------+------------+-------------+--------------------------------------------------+
-| xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx   | [Nom de l'instance]| ACTIVE | -          | Running     | Ext-Net=[IP_V4], [IP_V6]; MonVrack=[IP_V4_vRack] |
+| xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx   | [Nom-de-l'instance]| ACTIVE | -          | Running     | Ext-Net=[IP_V4], [IP_V6]; MonVrack=[IP_V4_vRack] |
 +--------------------------------------+--------------------+--------+------------+-------------+--------------------------------------------------+
 ```
 
@@ -660,6 +666,6 @@ nova interface-detach 12345678-90ab-cdef-xxxx-xxxxxxxxxxxx 12345678-abcd-ef01-23
 
 [Serveurs Dédiés - Créer plusieurs VLAN dans le vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack)
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links//professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

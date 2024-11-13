@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak rozpocząć korzystanie z hostingu Cloud Web"
 updated: 2022-05-04
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Oferta hostingu Cloud Web łączy w sobie 20 lat doświadczenia OVHcloud w zakresie hostingu WWW oraz wydajność rozwiązania Public Cloud. Podobnie jak w przypadku klasycznych hostingów OVHcloud, Twoje strony WWW są hostowane w ramach usługi zarządzanej 24/7\. Dodatkowo zyskujesz więcej funkcjonalności, jak np. wydajne dyski SSD.

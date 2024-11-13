@@ -4,10 +4,6 @@ excerpt: "Saiba como recuperar o backup de uma base de dados quando esta foi eli
 updated: 2024-07-25
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A maioria dos nossos serviços de [alojamento web](/links/web/hosting) incluem bases de dados. Se, acidentalmente, eliminar uma base de dados associada ao seu alojamento web, pode tentar recuperar a cópia de segurança através das nossas API.
@@ -74,15 +70,15 @@ Para isso, efetue as seguintes ações:
 Para isso, preencha os diferentes formulários tal como se especifica a seguir:
 
 - Para a secção intitulada `PATH PARAMETERS`:
-- `serviceName`: Introduza o nome do seu alojamento web anteriormente recuperado na etapa 1 deste guia.
+    - `serviceName`: Introduza o nome do seu alojamento web anteriormente recuperado na etapa 1 deste guia.
 
 - Para a secção intitulada `QUERY-STRING PARAMETERS`:
-- `creationDate.from`: Deixe o formulário vazio.
-- `creationDate.to`: Deixe o formulário vazio.
-- `databaseName`: Introduza o nome da base de dados eliminada acidentalmente. (exemplo: **deletedDatabase.mysql.db**).
-- `deletionDate.from`: Deixe o formulário vazio.
-- `deletionDate.to`: Deixe o formulário vazio.
-- `orphan`: Introduza o valor em minúsculas: `true`.
+    - `creationDate.from`: Deixe o formulário vazio.
+    - `creationDate.to`: Deixe o formulário vazio.
+    - `databaseName`: Introduza o nome da base de dados eliminada acidentalmente. (exemplo: **deletedDatabase.mysql.db**).
+    - `deletionDate.from`: Deixe o formulário vazio.
+    - `deletionDate.to`: Deixe o formulário vazio.
+    - `orphan`: Introduza o valor em minúsculas: `true`.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 

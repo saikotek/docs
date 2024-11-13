@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie den Inhaber eines Domainnamens wechseln kö
 updated: 2024-09-04
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Neben der Angabe von [Kontakten](/pages/account_and_service_management/account_information/managing_contacts) erfordert die Registrierung eines Domainnamens die Angabe von Informationen zu dessen Inhaber. In diesem Zusammenhang bezeichnet der **Inhaber** entweder eine natürliche Person oder eine Organisation (Unternehmen, Verein, etc.), die über Nutzungsrechte an diesem Domainnamen verfügt. Unter einem **Inhaberwechsel** versteht man eine rechtsverbindliche Änderung dieser Daten bzw. die Übertragung von Nutzungsrechten an einen neuen Inhaber. Zum Beispiel ist der Inhaberwechsel das obligatorische Verfahren bei einer Namensänderung eines Unternehmens.

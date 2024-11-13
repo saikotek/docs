@@ -5,6 +5,7 @@ updated: 2020-05-05
 ---
 
 ## Introducción
+
 En los sistemas de Windows existen varios programas disponibles que permiten conectarse a través de SSH. Uno de los más populares y fáciles de usar es PuTTY. 
 
 Puede descargarlo desde su [página oficial](http://www.putty.org/).

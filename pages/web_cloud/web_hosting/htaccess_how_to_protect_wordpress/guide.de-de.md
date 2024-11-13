@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie Ihre WordPress Website mit einer oder mehre
 updated: 2024-05-28
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 In dieser Anleitung erfahren Sie, wie Sie bestimmte Funktionen Ihres Webhostings mit **.htaccess**-Dateien konfigurieren, insbesondere um die Einstellungen Ihrer Website teilweise oder vollständig zu ändern (Weiterleitungen, Zugangsbeschränkungen, Datei-Berechtigungen, Cache-Kontrolle etc.).

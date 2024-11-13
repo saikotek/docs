@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come consultare le statistiche e i log del tuo 
 updated: 2024-02-27
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 L’accesso ai log e alle statistiche del sito Web è incluso nella soluzione di hosting Web attiva dallo Spazio Cliente OVHcloud.

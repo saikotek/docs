@@ -27,10 +27,6 @@ updated: 2024-05-16
  }
 </style>
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 No seu alojamento Web OVHcloud, pode utilizar scripts para automatizar certas operações. A criação de uma tarefa planificada ("tarefa CRON") é a forma mais simples de assegurar que os seus scripts são executados em momentos específicos sem que seja necessário mais ações da sua parte. 

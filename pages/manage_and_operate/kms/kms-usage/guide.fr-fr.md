@@ -1,7 +1,7 @@
 ---
 title: "Utiliser votre OVHcloud Key Management Service (KMS)"
 excerpt: "Chiffrez ou signez vos données avec le Key Management Service (KMS) OVHcloud"
-updated: 2024-10-18
+updated: 2024-11-12
 ---
 
 > [!warning]
@@ -23,13 +23,17 @@ L'objectif de ce guide est de présenter les différentes étapes pour interagir
 
 ### Communiquer avec le KMS
 
-La communication avec le KMS pour les actions de chiffrement et de signature est disponible uniquement par API.
+La communication avec le KMS pour les actions de chiffrement et de signature se fait au travers des APIs.
 
 Le KMS étant régionalisé, l'accès à l'API se fait directement sur la région de celui-ci : `https://my-region.okms.ovh.net`.
 
 Par exemple, pour un KMS créé sur la région **eu-west-rbx** : <https://eu-west-rbx.okms.ovh.net>
 
-Il est aussi possible d'utiliser le SDK en Golang dont la documentation est accessible sur le lien suivant : <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
+Il est possible de communiquer avec le KMS en utilisant :
+
+- L'interface utilisateur Swagger
+- La CLI OKMS : <https://github.com/ovh/okms-cli>
+- Le SDK Golang : <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
 
 ### Utilisation de l'API KMS via l'interface utilisateur Swagger
 

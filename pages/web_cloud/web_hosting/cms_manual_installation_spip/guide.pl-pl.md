@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak ręcznie zainstalować CMS SPIP"
 updated: 2024-03-28
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 **CMS** (**C**ontent **M**anagement **S**ystem) SPIP to rozwiązanie odpowiednie dla stron redakcyjnych, takich jak czasopisma internetowe, gazety i witryny instytucjonalne. Dzięki modułowej architekturze i konfigurowalnym systemom szkieletów SPIP umożliwia projektowanie stron WWW o wielu funkcjach, oferując jednocześnie dużą dowolność personalizacji.

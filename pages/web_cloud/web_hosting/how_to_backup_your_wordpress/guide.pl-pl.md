@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zapisać zawartość strony WordPress i bazę danych
 updated: 2023-02-22
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Twoja strona WWW jest narażona na nieprawidłowe działanie (np. błąd w trakcie operacji, przypadkowe usunięcie plików, nieprawidłowa konfiguracja, luka w zabezpieczeniach lub włamanie), co może spowodować częściową lub całkowitą utratę danych.<br>

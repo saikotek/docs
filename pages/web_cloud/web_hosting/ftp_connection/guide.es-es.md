@@ -4,10 +4,6 @@ excerpt: "Descubra cómo conectarse al espacio de almacenamiento FTP de un aloja
 updated: 2024-05-20
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Los planes de hosting de OVHcloud proporcionan acceso a un espacio de almacenamiento FTP que permite publicar los archivos de sus sitios web o aplicaciones. El acceso a este espacio es posible a través de un usuario FTP o SSH con las contraseñas asociadas.

@@ -4,10 +4,6 @@ excerpt: "Saiba como criar uma base de dados no seu alojamento web OVHcloud"
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Uma base de dados (BDD) é utilizada para armazenar elementos dinâmicos (dados de ligação, dados dos utilizadores, dados de visualização, dados necessários ao bom funcionamento do seu website, etc.). Estas bases de dados são utilizadas na maior parte dos sistemas de gestão de conteúdos (CMS) modernos, tais como *WordPress*, *Joomla!*, *Drupal* ou *PrestaShop*.

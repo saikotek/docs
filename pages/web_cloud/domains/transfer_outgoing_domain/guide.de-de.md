@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie Ihre Domain von OVHcloud zu einem Provider 
 updated: 2024-05-16
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 **Domaintransfer** bezeichnet den Umzug eines Domainnamens von einem Registrar zu einem anderen. Wenn Sie zum Beispiel einen Domainnamen auf unserer Website bestellt haben, ist OVHcloud der zuständige Registrar. Ein ausgehender Domaintransfer muss vom neuen Registrar gestartet werden.

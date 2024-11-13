@@ -4,10 +4,6 @@ excerpt: "Scopri come recuperare il backup di un database eliminato dal tuo Spaz
 updated: 2024-07-25
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La maggior parte delle nostre soluzioni di [hosting Web](/links/web/hosting) includono database. In caso di eliminazione accidentale di un database associato all’hosting Web, è possibile tentare di recuperarne il backup tramite le nostre API.
@@ -74,15 +70,15 @@ Per effettuare questa operazione, esegui le operazioni seguenti:
 Per farlo, compila i diversi moduli come dettagliato di seguito:
 
 - Per la sezione intitolata `PATH PARAMETERS`:
-- `serviceName`: Inserisci il nome del tuo hosting Web precedentemente recuperato nello Step 1 di questa guida.
+    - `serviceName`: Inserisci il nome del tuo hosting Web precedentemente recuperato nello Step 1 di questa guida.
 
 - Per la sezione intitolata `QUERY-STRING PARAMETERS`:
-- `creationDate.from`: lasciare il modulo vuoto.
-- `creationDate.to`: lasciare il modulo vuoto.
-- `databaseName`: Inserisci il nome del database eliminato accidentalmente. (esempio: **deletedDatabase.mysql.db**).
-- `deletionDate.from`: lasciare il modulo vuoto.
-- `deletionDate.to`: lasciare il modulo vuoto.
-- `orphan`: Inserisci in minuscolo il valore: `true`.
+    - `creationDate.from`: lasciare il modulo vuoto.
+    - `creationDate.to`: lasciare il modulo vuoto.
+    - `databaseName`: Inserisci il nome del database eliminato accidentalmente. (esempio: **deletedDatabase.mysql.db**).
+    - `deletionDate.from`: lasciare il modulo vuoto.
+    - `deletionDate.to`: lasciare il modulo vuoto.
+    - `orphan`: Inserisci in minuscolo il valore: `true`.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 

@@ -1,12 +1,8 @@
 ---
 title: "Erste Schritte mit einem Kimsufi, So You Start oder Rise Dedicated Server"
 excerpt: "Erfahren Sie hier, wie Sie einen Kimsufi, So You Start oder Rise Dedicated Server in Ihrem OVHcloud Kundencenter verwalten und wie Sie mit der Konfiguration und Sicherung eines Servers starten"
-updated: 2024-04-10
+updated: 2024-11-13
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -239,11 +235,6 @@ Weitere Informationen zum OVHcloud Monitoring finden Sie in [unserer Anleitung](
 
 ### Netzwerkkonfiguration
 
-> [!primary]
->
-> Beachten Sie, dass [zusätzliche IP Adressen](/links/network/additional-ip) nicht mit der **Kimsufi** Reihe kompatibel sind.
->
-
 #### IP-Bridge-Modus
 
 Network Bridging bezeichnet die Aktion, die Netzwerkgeräte ausführen, um ein aggregiertes Netzwerk aus zwei oder mehr Kommunikationsnetzwerken oder zwei oder mehr Netzwerksegmenten zu erstellen. Bridging unterscheidet sich vom Routing insofern als die Netzwerke unabhängig kommunizieren können, während sie voneinander getrennt bleiben.
@@ -313,4 +304,4 @@ Zur Aktivierung und Nutzung des Backup Storage folgen Sie der [zugehörigen Anle
 
 Wenn Sie Schulungen oder technische Unterstützung bei der Implementierung unserer Lösungen benötigen, wenden Sie sich an Ihren Vertriebsmitarbeiter oder klicken Sie auf [diesen Link](/links/professional-services), um einen Kostenvoranschlag zu erhalten und eine persönliche Analyse Ihres Projekts durch unsere Experten des Professional Services Teams anzufordern.
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

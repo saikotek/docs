@@ -4,10 +4,6 @@ excerpt: Saiba como configurar um registo MX no seu domínio da OVHcloud
 updated: 2024-09-02
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O registo MX permite associar um domínio ao servidor da sua plataforma de e-mail. É indispensável para que o serviço de e-mail do remetente possa atingir o do destinatário.
@@ -36,6 +32,7 @@ O registo MX permite associar um domínio ao servidor da sua plataforma de e-mai
 Os registos MX (**M**ail e**X**change) permitem associar o seu domínio aos servidores de e-mail de receção associados ao seu serviço de e-mail. Vamos citar um exemplo.
 
 Quando o endereço **sender@otherdomain.ovh** envia um e-mail para **contact@mydomain.ovh**, o servidor de envio de e-mail (**Outgoing mail server**) vai:
+
 - **(1)** consultar a zona DNS do nome de domínio **mydomain.ovh** e ler os registos **MX**.
 - **(2)** reencaminhar o e-mail para o URL do registo **MX** lido.
 

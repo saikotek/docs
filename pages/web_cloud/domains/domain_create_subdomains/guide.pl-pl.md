@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zdefiniować subdomenę i jak ją utworzyć w OVHclo
 updated: 2024-03-05
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie <a name="goal"></a>
 
 Internet składa się z serwerów i urządzeń, które współdziałają ze sobą w sieci globalnej. Jeśli te serwery i ich urządzenia są połączone z siecią internetową, przydzielany jest im **publiczny adres IP** (równoważny adresowi pocztowemu). Ten adres IP umożliwia zdalne połączenie z serwerem lub urządzeniem, dzięki czemu użytkownik może wejść na stronę WWW, wprowadzając ten adres IP za pomocą przeglądarki internetowej zainstalowanej na jego komputerze.

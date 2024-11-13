@@ -4,10 +4,6 @@ excerpt: "Saiba como agir quando a base de dados está sobrecarregada"
 updated: 2023-12-13
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Uma base de dados permite, por exemplo, armazenar informações relativas ao seu website e ao seu funcionamento. Estas informações estão estruturadas para que o seu website aceda facilmente a elas, o que permite uma consulta otimizada e personalizada para os utilizadores/visitantes do seu website. 

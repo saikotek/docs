@@ -27,10 +27,6 @@ updated: 2024-07-05
  }
 </style>
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 El registro DKIM (**D**omain**K**eys **I**dentified **M**ail) permite firmar los emails para evitar la usurpación de identidad. Esta firma funciona sobre el principio del hackeo combinado con una criptografía asimétrica.

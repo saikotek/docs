@@ -4,10 +4,6 @@ excerpt: "Descubra como proteger o seu blogue WordPress com um ou vários fichei
 updated: 2024-05-28
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este tutorial explica-lhe como configurar certas funcionalidades do seu alojamento web com um ou vários ficheiros **.htaccess**, nomeadamente para modificar os parâmetros de uma parte ou do conjunto do seu website (reencaminhamentos, proibições de acesso, autorizações restritas, controlo da cache, etc.).

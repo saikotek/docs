@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie Ihre erste Webseite mit Kostenloses Hosting
 updated: 2023-07-16
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Hier erfahren Sie, wie Sie die Homepage einer Website mit *Kostenloses Hosting 100M* erstellen, das Sie kostenlos zu einem Domainnamen bei OVHcloud erhalten.

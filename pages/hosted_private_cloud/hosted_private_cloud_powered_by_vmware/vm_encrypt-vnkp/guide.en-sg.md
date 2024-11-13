@@ -20,7 +20,7 @@ The aim of this guide is to explain the implementation details of **vSphere Nati
 
 ## Requirements
 
-- You must have signed up to a [VMware on OVHcloud](/links/hosted-private-cloud/VMware) solution.
+- You must have signed up to a [VMware on OVHcloud](/links/hosted-private-cloud/vmware) solution.
 - Access to the [OVHcloud Control Panel](/links/manager).
 - Access to the vSphere management interface.
 - vSphere and hosts version 7.0 Update 2 or higher.

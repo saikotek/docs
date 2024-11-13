@@ -1,12 +1,8 @@
 ---
 title: Local Zone Compute - Funzionalità, capacità e limiti
 excerpt: Scopri le funzionalità, le capacità e i limiti attuali delle istanze Local Zones
-updated: 2024-10-15
+updated: 2024-11-12
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
@@ -34,14 +30,16 @@ Per maggiori informazioni, accedi alla nostra [pagina dedicata alle istanze Loca
 | Backup automatici | No |
 | Snapshot dei volumi | No |
 | Backup dei volumi | No |
-| Object Storage | No |
+| Object Storage | Sì |
 | Immagini Windows | No |
 
 ## Funzionalità e limiti
 
 Tutte le funzionalità delle istanze che non sono elencate qui, come il riavvio (reboot) delle istanze o il supporto di Object Storage, saranno disponibili nei prossimi mesi. Il nostro obiettivo è quello di supportare tutte le funzionalità già supportate nelle regioni globali.
 
-## Feedback
+## Per saperne di più
+
+- [Object Storage - Local Zones specifications](/pages/storage_and_backup/object_storage/s3_local_zones_limitations) (EN)
 
 Se hai domande, commenti e suggerimenti per migliorare il servizio, non esitare a contattarci:
 

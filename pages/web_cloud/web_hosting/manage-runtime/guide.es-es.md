@@ -4,10 +4,6 @@ excerpt: "Cómo realizar las operaciones relativas a los motores de ejecución e
 updated: 2022-07-27
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Cloud Web ofrece la posibilidad de utilizar distintos lenguajes de programación para la realización de su proyecto. De hecho, para finalizarlo, debe utilizar el motor de ejecución más adecuado.

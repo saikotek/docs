@@ -4,10 +4,6 @@ excerpt: "Descubra como alterar o nome de domínio de um site existente"
 updated: 2022-10-25
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Durante a vida do seu website, poderá ser obrigado a mudar o nome de domínio do seu site.<br>O caso de utilização mais comum é uma mudança de nome de empresa.

@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak skopiować zawartość bazy danych OVHcloud do innej
 updated: 2023-11-22
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Twoja baza danych jest kluczowym elementem w budowaniu dynamicznej strony WWW. W trakcie cyklu życia Twojej strony internetowej, ze względów praktycznych lub technicznych, możesz skopiować zawartość Twojej bazy danych do innej bazy danych [start SQL](/links/web/hosting-options-startsql) lub [Web Cloud Databases](/links/web/databases).

@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come modificare la password amministratore del 
 updated: 2024-10-15
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Hai perso l'accesso all'interfaccia di gestione di WordPress, PrestaShop, Joomla! o Drupal? O semplicemente vuoi aumentare la sicurezza del tuo sito Web modificando la password amministratore? Questa guida ti mostra come effettuare questa operazione, sia direttamente tramite l’interfaccia di amministrazione del CMS, sia utilizzando phpMyAdmin dallo Spazio Cliente OVHcloud.

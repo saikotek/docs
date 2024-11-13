@@ -1,6 +1,6 @@
 ---
 title: Aussetzen oder Pausieren einer Instanz
-updated: 2023-06-20
+updated: 2024-11-12
 ---
 
 ## Ziel
@@ -26,7 +26,7 @@ Bei der Konfiguration einer hochverfügbaren Infrastruktur müssen Sie mögliche
 > Diese Manipulationen führen dazu, dass die Instanz weiterhin abgerechnet wird, solange sie nicht gelöscht wird.
 >
 
-In der folgenden Tabelle finden Sie die auf Ihren Instanzen verfügbaren Optionen in der Übersicht. Klicken Sie auf die Option Ihrer Wahl, um zum entsprechenden Teil der Anleitung zu gelangen.
+In der folgenden Tabelle finden Sie die auf Ihren Instanzen verfügbaren Optionen in der Übersicht. Klicken Sie auf die Option Ihrer Wahl, um zum entsprechenden Teil der Anleitung zu gelangen. Wir setzen die in der Horizon-Interface verwendete Terminologie in Klammern.
 
 |Funktion|Beschreibung|Abrechnung|
 |---|---|---|
@@ -50,7 +50,7 @@ Loggen Sie sich in Ihr OVHcloud Kundencenter ein und wählen Sie Ihr `Public Clo
 
 Klicken Sie in der Instanzenverwaltung auf `...`{.action} rechts neben der Instanz und wählen Sie `Aussetzen`{.action}.
 
-![suspend instance](images/suspend_an_instance.png){.thumbnail}
+![suspend instance](images/suspend_an_instance_2024.png){.thumbnail}
 
 Nehmen Sie die Meldung im Dialogfenster zur Kenntnis und klicken Sie auf `Bestätigen`{.action}.
 
@@ -66,7 +66,11 @@ Um den Snapshot zu sehen, klicken Sie im linken Menü auf `Instance Backup`{.act
 
 #### Im Horizon-Interface
 
-Um fortzufahren, muss der [Zugang zu Horizon](/pages/public_cloud/compute/introducing_horizon) konfiguriert sein, damit Sie sich [in das Horizon-interface einloggen](https://horizon.cloud.ovh.net/auth/login/) können.
+Um diese Methode zu verwenden, müssen Sie sich [in das Horizon-interface einloggen](https://horizon.cloud.ovh.net/auth/login/).
+
+- Um sich über OVHcloud SSO zu verbinden: Verwenden Sie den Link `Horizon`{.action} im Menü links unter "Management Interfaces", nachdem Sie Ihr `Public Cloud`{.action} Projekt in Ihrem [OVHcloud Kundencenter](/links/manager) geöffnet haben.
+
+- Um sich mit einem bestimmten OpenStack-Benutzer anzumelden: Öffnen Sie die Login-Seite für [Horizon](https://horizon.cloud.ovh.net/auth/login/) und geben Sie die zuvor erstellten [OpenStack-Zugangsdaten](/pages/public_cloud/compute/create_and_delete_a_user) ein. Klicken Sie anschließend auf `Connect`{.action}.
 
 Wenn Sie Instanzen in verschiedenen Regionen eingerichtet haben, stellen Sie sicher, dass Sie sich in der korrekten Region befinden. Überprüfen Sie es in der oberen linken Ecke des Horizon-Interface.
 
@@ -109,7 +113,7 @@ Mit dieser Option können Sie Ihre Instanz aus dem ausgesetzten Zustand entferne
 >
 > Jede Aktion auf dem Snapshot außer der Reaktivierung (*unshelve*), kann für Ihre Infrastruktur sehr gefährlich sein, wenn sie nicht korrekt ausgeführt wird. Wenn Sie eine Instanz reaktivieren, wird der Snapshot automatisch gelöscht. Es wird nicht empfohlen, eine neue Instanz auf einem Snapshot zu basieren, der beim Aussetzen (*shelve*) der Instanz erzeugt wurde.
 >
-> OVHcloud stellt Ihnen Dienstleistungen zur Verfügung, für deren Konfiguration und Verwaltung Sie die alleinige Verantwortung tragen. Es liegt somit bei Ihnen, sicherzustellen, dass diese ordnungsgemäß funktionieren. Wir empfehlen Ihnen, einen [spezialisierten Dienstleister](https://partner.ovhcloud.com/de/directory/) zu kontaktieren oder Ihre Fragen an die [OVHcloud Community](https://community.ovh.com/en/) zu richten, wenn Sie Schwierigkeiten oder Zweifel hinsichtlich der Verwaltung, Nutzung oder Implementierung der Dienste haben.
+> OVHcloud stellt Ihnen Dienstleistungen zur Verfügung, für deren Konfiguration und Verwaltung Sie die alleinige Verantwortung tragen. Es liegt somit bei Ihnen, sicherzustellen, dass diese ordnungsgemäß funktionieren. Wir empfehlen Ihnen, einen [spezialisierten Dienstleister](/links/partner) zu kontaktieren oder Ihre Fragen an die [OVHcloud Community](/links/community) zu richten, wenn Sie Schwierigkeiten oder Zweifel hinsichtlich der Verwaltung, Nutzung oder Implementierung der Dienste haben.
 >
 
 #### Im OVHcloud Kundencenter

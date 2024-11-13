@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak tworzyć, modyfikować lub usuwać użytkowników FT
 updated: 2024-10-07
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Wraz z pakietami hostingowymi OVHcloud zyskujesz dostęp do przestrzeni FTP. Przestrzeń ta pozwala na przykład na umieszczanie w Internecie plików z Twoich stron www lub Twoich aplikacji. Do przestrzeni dyskowej możesz zalogować się, używając protokołu FTP lub SSH oraz powiązanego z nim hasła. Prowadząc działalność, możesz mieć kilku użytkowników FTP dla swoich współpracowników.
