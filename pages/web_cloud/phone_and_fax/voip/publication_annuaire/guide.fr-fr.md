@@ -1,16 +1,18 @@
 ---
 title: "Renseigner les coordonnées d'une ligne ou d'un numéro et les faire paraître en ligne"
 excerpt: 'Découvrez comment rattacher des informations à votre ligne ou numéro OVHcloud et les publier dans les annuaires'
-updated: 2024-11-08
+updated: 2024-11-13
 ---
 
 > [!warning]
 >
-> **La synchronisation avec les Pages Jaunes est actuellement indisponible.** Nos équipes travaillent activement à ajouter un nouvel annuaire.
+> **La synchronisation avec les Pages Jaunes est actuellement indisponible.** 
+>
+> Nos équipes travaillent activement à ajouter un nouvel annuaire.
 >
 > Un message d'erreur peut donc apparaitre dans l'espace client en cas de tentative d'action sur la parution/suppression dans les annuaires.
 >
-> Pour le moment, la parution/suppression dans les annuaires peut être effectuée directement auprès des services des Pages Jaunes.
+> Pour le moment, nous vous conseillons d'utiliser directement les formulaires proposés par les Pages Jaunes pour toute parution dans les annuaires.
 
 ## Objectif
 
