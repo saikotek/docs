@@ -92,7 +92,7 @@ Open **PuTTY** and enter the FTP login credentials for your web hosting plan int
 - `Host Name (or IP address)`: **ftp_username@hosting_cluster_name** (example: **yourlogin@ssh.cluster042.hosting.ovh.net**)
 - `Port`: 22
 
-![putty key](/pages/assets/screens/other/web-tools/putty/putty1.png){.thumbnail}
+![putty](/pages/assets/screens/other/web-tools/putty/putty1.png){.thumbnail}
 
 Click on `Open`{.action}.
 
@@ -346,13 +346,13 @@ To verify that your key is set up properly, connect to your server by following 
 
 In order to connect to a remote host (Public Cloud instance, dedicated server or VPS), you need to have [created the key pair](#puttygen) and [added the public key string to your server](#transferkeys).
 
-| ![sessions](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
+| ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
 |---|
 | 1\. Open **PuTTY**.<br> 2\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 3\. Expand the node `Auth`.<br> 4\. Click `Credentials` to see the corresponding settings.<br> 5\. Click the button `Browse`{.action}.<br> 6\. Select the private key file (`keyfile.ppk`) from the folder in which you have saved it. |
 
 Navigate back to `Session`{.action} in the left-hand menu. Enter the login credentials into the appropriate fields.
 
-![putty key](/pages/assets/screens/other/web-tools/putty/putty2.png){.thumbnail}
+![putty](/pages/assets/screens/other/web-tools/putty/putty2.png){.thumbnail}
 
 - `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)
 - `Port`: 22 (unless you have changed the SSH port number of your server)
@@ -378,7 +378,7 @@ For a more convenient process, find out how to [associate a key file](#pageant) 
 
 If you have followed the instructions above, you can access your remote host via key authentication. While the connection itself does not require a password, **PuTTY** will still ask for the password of the corresponding private key file.
 
-![putty key](/pages/assets/screens/other/web-tools/putty/pterminal.png){.thumbnail}
+![pageant](/pages/assets/screens/other/web-tools/putty/pterminal.png){.thumbnail}
 
 Using **Pageant** enables faster connections in two ways:
 
@@ -387,15 +387,15 @@ Using **Pageant** enables faster connections in two ways:
 
 Open the **Pageant** application [on your device](#installation). Since the **Pageant** key window will not open automatically, you need to (double-)click on its icon in your taskbar ("System tray" in Windows).
 
-![putty key](/pages/assets/screens/other/web-tools/putty/systray.png){.thumbnail}
+![pageant](/pages/assets/screens/other/web-tools/putty/systray.png){.thumbnail}
 
 This will open the **Pageant Key List**. Click the button `Add Key`{.action}, and select the private key file (`keyfile.ppk`) from the folder in which you have saved it.
 
-![putty key](/pages/assets/screens/other/web-tools/putty/pageant1.png){.thumbnail}
+![pageant](/pages/assets/screens/other/web-tools/putty/pageant1.png){.thumbnail}
 
 Enter the passphrase for this key file. The key is now on the list and will be used by **PuTTY** as long as **Pageant** is running.
 
-![putty key](/pages/assets/screens/other/web-tools/putty/pageant2.png){.thumbnail}
+![pageant](/pages/assets/screens/other/web-tools/putty/pageant2.png){.thumbnail}
 
 Even if you close this window, **Pageant** will continue to run in the background. It will function as long as the icon is present in the taskbar.
 
@@ -436,7 +436,7 @@ To store a [key-based connection session](#puttykeys), carry out the following a
 | ![putty](/pages/assets/screens/other/web-tools/putty/sessions4.png){.thumbnail} |
 |---|
 | 1\. Open **PuTTY**.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`. |
-| ![sessions](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
+| ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
 | 4\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 5\. Expand the node `Auth` in the `Category` tree.<br> 6\. Click `Credentials` to see the corresponding settings.<br> 7\. Click the button `Browse`{.action}.<br> 8\. Navigate to the folder that stores your private key files.<br> 9\. Open the key file concerned. |
 | ![sessions](/pages/assets/screens/other/web-tools/putty3/sessions5.png){.thumbnail} |
 | 10\. Go back to the configuration category `Session` in the menu on the left.<br> 11\. Enter a name for this connection into the field under `Saved Sessions`.<br> 12\. Click the button `Save`{.action}. |
