@@ -1,7 +1,7 @@
 ---
 title: "Envoyer des SMS depuis l'espace client OVHcloud"
 excerpt: Découvrez comment envoyer des SMS simplement depuis votre espace client OVHcloud
-updated: 2024-10-10
+updated: 2024-11-13
 ---
 
 ## Objectif
@@ -88,6 +88,14 @@ Trois formats d’envoi (Standard / Flash / Sim) sont proposés (2) mais cette f
 
 ### Étape 3 : choisir votre expéditeur SMS
 
+> [!warning]
+>
+> **Envoi de SMS contenant une URL**
+>
+> Il n'est pas possible d'envoyer un SMS contenant une URL via un numéro court permettant la réponse. Tout envoi de ce type sera bloqué.
+>
+> Si vous avez besoin d'envoyer des SMS contenant des URLs, vous devez utiliser un [expéditeur alphanumérique](#expediteur-alphanumerique).
+
 #### Numéro court permettant la réponse
 
 **Uniquement pour les comptes OVHcloud en France hors DOM-TOM.**
@@ -104,6 +112,8 @@ Si vous disposez d'une offre SMS avec numéro mobile virtuel, vous pouvez rensei
 >
 >Si vous disposez déjà d'un compte SMS, la création d'un numéro mobile virtuel pour ce compte existant est impossible. Il sera nécessaire de commander un nouveau compte SMS via la page de l'offre [numéro mobile virtuel](https://www.ovhtelecom.fr/sms/reponse/numeros-virtuels.xml).
 >
+
+<a name="expediteur-alphanumerique"></a>
 
 #### Expéditeur alphanumérique
 
@@ -134,4 +144,4 @@ La validation d'un expéditeur alphanumérique est effectuée en moyenne dans le
 
 ## Aller plus loin
 
-Échangez avec notre [communauté d'utilisateurs](/links/manager).
+Échangez avec notre [communauté d'utilisateurs](/links/community).
