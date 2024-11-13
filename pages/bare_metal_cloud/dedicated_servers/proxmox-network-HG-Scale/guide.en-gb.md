@@ -300,48 +300,51 @@ To configure the first usable IP address, you must edit the network configuratio
 
 #### Configure the hypervisor
 
-The entire configuration is done in the `/etc/network/interfaces` file:
-
-```bash
-vi /etc/network/interfaces
-```
-
-What matters here is the `bond1` and `vmbr1` configuration:
-
-```bash
-auto lo
-iface lo inet loopback
-
-# Public
-auto bond0
-iface bond0 inet static
-        address PUB_IP_DEDICATED_SERVER/32
-        gateway 100.64.0.1
-        bond-slaves ens33f0 ens33f1
-        bond-mode 802.3ad
-        bond-lacp-rate fast
-        bond-xmit-hash-policy layer3+4
-
-# Private
-auto bond1
-# LACP aggregate on private interfaces
-# No IP on it
-iface bond1 inet manual
-        bond-slaves ens35f0 ens35f1
-        bond-mode 802.3ad
-        bond-lacp-rate fast
-        bond-xmit-hash-policy layer3+4
-
-auto vmbr1
-# Bridge connected on bond1 aggregate
-# No need for IPs
-iface vmbr1 inet manual
-        bridge-ports bond1
-        bridge-stp off
-        bridge-fd 0
-```
-
-At this point, restart the network services or reboot the server.
+> [!tabs]
+> High Grade & SCALE ranges
+>>
+>> The entire configuration is done in the `/etc/network/interfaces` file:
+>>
+>> ```bash
+>> vi /etc/network/interfaces
+>> ```
+>>
+>> What matters here is the `bond1` and `vmbr1` configuration:
+>>
+>> ```bash
+>> auto lo
+>> iface lo inet loopback
+>>
+>> # Public
+>> auto bond0
+>> iface bond0 inet static
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
+>>         bond-slaves ens33f0 ens33f1
+>>         bond-mode 802.3ad
+>>         bond-lacp-rate fast
+>>         bond-xmit-hash-policy layer3+4
+>>
+>> # Private
+>> # LACP aggregate on private interfaces
+>> # No IP on it
+>> auto bond1
+>> iface bond1 inet manual
+>>         bond-slaves ens35f0 ens35f1
+>>         bond-mode 802.3ad
+>>         bond-lacp-rate fast
+>>         bond-xmit-hash-policy layer3+4
+>>
+>> auto vmbr1
+>> # Bridge connected on bond1 aggregate
+>> # No need for IPs
+>> iface vmbr1 inet manual
+>>         bridge-ports bond1
+>>         bridge-stp off
+>>         bridge-fd 0
+>> ```
+>>
+>> At this point, restart the network services or reboot the server.
 
 #### Configuration example of a client VM on Debian
 
