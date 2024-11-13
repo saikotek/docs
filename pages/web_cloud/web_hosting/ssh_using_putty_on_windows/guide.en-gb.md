@@ -117,6 +117,8 @@ Consult our guide on [SSH access for OVHcloud web hosting plans](/pages/web/host
 
 **PuTTY** can save credentials and parameters of an SSH connection as a "session". This allows you to connect to known hosts or local network devices without entering their respective details each time. Learn how to use PuTTY sessions in the [section below](#sessions).
 
+///
+
 <a name="cloudserver"></a>
 
 #### Dedicated server or VPS
@@ -182,7 +184,7 @@ You will need the IP address of your server which you can find in the [OVHcloud 
 
 > [!primary]
 > 
-> **PuTTY** stores key files in a specific format which makes them incompatible with SSH key files created with the **OpenSSH** client. If you want to use a **private key** previously created with the command line SSH client (e.g. for a [server](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) or a [Public Cloud instance](/pages/public_cloud/compute/creating-ssh-keys-pci)), you will need to [convert it to the `PuTTY` format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) first.
+> **PuTTY** stores key files in a specific format which makes them incompatible with SSH key files created with the **OpenSSH** client. If you want to use a **private key** previously created with the command line SSH client (e.g. for a [server](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) or a [Public Cloud instance](/pages/public_cloud/compute/creating-ssh-keys-pci)), you will need to [convert it to the **PuTTY** format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) first.
 >
 
 <a name="puttygen"></a>
@@ -233,6 +235,7 @@ Enter a name for your file and save it. You should now have a new **private key*
 > 
 > For increased convenience, store passphrases in a password manager on your device, such as the open-source solution **KeePass**, and use the [**Pageant** tool](#pageant) for key-based connections.
 >
+
 
 > The button `Save public key`{.action} in the **PuTTYgen** interface will convert the **public key** string into the "SSH-2 standard format" and then create a file containing this string. Key strings of that format however are not relevant for this tutorial.
 
@@ -464,7 +467,7 @@ By following these steps in order, you can configure your connections so that th
 - Step 2: [Create a key pair in PuTTYgen](#puttygen)
 - Step 3: [Add the public key to your remote host](#transferkeys)
 - Step 4: [Add the private key to Pageant](#pageant)
-- Step 5: [Save the connection as a session in PuTTY](#sessionskeys)
+- Step 5: [Save the connection as a session in PuTTY](#sessions)
 - Step 6: [Connect to your remote host via the corresponding saved session](#qconnect)
 
 
