@@ -56,8 +56,6 @@ Pour accéder aux logs en temps réel de votre Web Cloud Databases, effectuez le
 4. Sélectionnez l'instance Web Cloud Databases concernée.
 5. Sur la page qui s'affiche, cliquez sur l'onglet `Logs`{.action}.
 
-////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
-
 C'est dans cette console intégrée que vous trouverez, en temps réel, les logs de votre solution Web Cloud Databases.
 
 > [!primary]
@@ -140,11 +138,7 @@ Pour abonner votre solution Web Cloud Databases à un flux de données sur Logs 
 5. Sur la page qui s'affiche, cliquez sur l'onglet `Logs`{.action}.
 6. Sur la droite de l'encadré où s'affichent vos logs en temps réel, cliquez sur le bouton `S'abonner`{.action}.
 
-////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
-
 Dans la nouvelle page qui s'ouvre et si vous disposez de plusieurs solutions Logs Data Platform dans votre [espace client OVHcloud](/links/manager), sélectionnez, dans la liste déroulante située juste en dessous du bouton intitulé `Ajouter un flux de données`, la référence de la Logs Data Platform avec laquelle vous souhaitez vous abonner.
-
-////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Deux cas de figure se présentent alors pour abonner votre solution Web Cloud Databases.
 
@@ -153,8 +147,6 @@ Deux cas de figure se présentent alors pour abonner votre solution Web Cloud Da
 Si le flux concerné existe déjà, celui-ci apparaît sous la forme d'une ligne dans le tableau situé en bas de page.
 Dans ce cas précis et pour abonner votre solution Web Cloud Databases à ce flux existant, il vous suffit de cliquer sur le bouton `S'abonner`{.action} situé à droite de la ligne correspondant au flux concerné.
 
-////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
-
 Au bout de quelques secondes et si vous restez sur la même page, un message apparaîtra dans votre espace client pour vous indiquer que l'abonnement a été créé avec succès.
 
 #### Cas n°2 - S'abonner à un nouveau flux de données sur votre solution Logs Data Platform
@@ -162,7 +154,7 @@ Au bout de quelques secondes et si vous restez sur la même page, un message app
 Si le flux concerné n'existe pas encore, cliquez sur le bouton `Ajouter un flux de données`{.action}.
 Vous serez alors redirigé vers une nouvelle page de votre espace client OVHcloud qui vous permettra de créer et d'ajouter un nouveau flux de données sur votre solution Logs Data Platform.
 
-////////////////////////////////////////////////////////////////////// screen EN à réaliser /////////////////////////////////////////////////////////////////////////////////////////////////////
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/logs-data-platform/data-stream/add-data-stream.png){.thumbnail}
 
 Si besoin, consultez nos guides « [Introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) » (EN) et « [Démarrer rapidement avec Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_quick_start) » (EN) pour réaliser ces actions.
 
