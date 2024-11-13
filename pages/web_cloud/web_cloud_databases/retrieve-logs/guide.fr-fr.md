@@ -1,7 +1,7 @@
 ---
 title: 'Web Cloud Databases - Comment gérer les logs ?'
 excerpt: 'Découvrez comment gérer les logs de vos bases de données hébergées sur votre serveur Web Cloud Databases'
-updated: 2024-11-04
+updated: 2024-11-22
 ---
 
 ## Objectif
@@ -43,8 +43,6 @@ Dans certaines situations, vous pouvez être amené à consulter / récupérer l
 
 > [!warning]
 >
-> OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
-> 
 > Nous mettons à votre disposition ce tutoriel afin de vous accompagner au mieux sur des tâches courantes. Cependant, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance sur l'interprétation des logs disponibles avec votre solution Web Cloud Databases. Plus d'informations dans la section « [Aller plus loin](#go-further) » de ce tutoriel.
 >
 
@@ -118,16 +116,16 @@ Vous pourrez le télécharger sur votre poste pour le consulter.
 > Grâce à ce fichier, vous pourrez optimiser vos scripts et le contenu de votre (vos) base(s) de données afin d'améliorer les performances de vos différents services associés.
 >
 
-### Cas particulier - Abonner les logs de votre solution Web Cloud Databases à Logs Data Platform <a name="wcdb-ldp"></a>
+### Abonner les logs de votre solution Web Cloud Databases à Logs Data Platform <a name="wcdb-ldp"></a>
 
-[Logs Data Platform](https://www.ovhcloud.com/fr/public-cloud/logs-data-platform/) est une plateforme permettant de gérer vos logs. Cela peut vous être utile si vous disposez d'une très grosse infrastructure ou si vos services génèrent énormément de logs. Effectivement, cette plateforme est conçue pour faciliter l'aggrégation et la gestion des logs. 
+[Logs Data Platform](/links/public-cloud/logs-data-platform) est une plateforme permettant de gérer vos logs. Cela peut vous être utile si vous disposez d'une très grosse infrastructure ou si vos services génèrent énormément de logs. Effectivement, cette plateforme est conçue pour faciliter l'aggrégation et la gestion des logs. 
 
 Elle fonctionne en récupérant les logs générés par votre infrastructure / vos sites web ou encore vos applications pour, par exemple :
 
 - les stocker;
 - les afficher dans des tableaux de bord en temps réel;
 - permettre aux utilisateurs d'effectuer des requêtes complexes;
-- faire de l'indexation;
+- les filtrer par date, application, type ou contenu;
 - etc.
 
 Pour plus de détails sur Logs Data Platform, consultez notre guide d'[introduction à Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) (EN).
