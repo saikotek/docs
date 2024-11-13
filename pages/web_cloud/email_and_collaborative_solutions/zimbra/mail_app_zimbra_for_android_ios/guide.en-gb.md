@@ -23,6 +23,7 @@ updated: 2024-11-07
 >
 > Certaines fonctionnalités ou limitations présentées dans ce guide sont susceptibles d'évoluer lorsque le produit sera commercialisé.
 
+
 ## Objectif
 
 Les comptes e-mail Zimbra peuvent être configurés sur différents logiciels de messagerie compatibles. Cela vous permet d’utiliser votre adresse e-mail depuis l’appareil de votre choix. L'application Zimbra est disponible gratuitement sur Android et iOS
