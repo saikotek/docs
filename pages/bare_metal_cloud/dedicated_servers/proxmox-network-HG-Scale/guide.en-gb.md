@@ -190,10 +190,10 @@ The VM must be attached to the `vmbr0` bridge.
 >>   address 192.168.0.2/24
 >>
 >> iface eth0 inet static
->>   address ADDITIONAL_IP/32
->>   # The "src" option must be set so that packets reaching the Internet
->>   # have the public IP as source, instead of the private IP 192.168.0.2
->>   up ip route replace default via 192.168.0.1 dev $IFACE onlink src ADDITIONAL_IP
+>>         address ADDITIONAL_IP/32
+>>         # The "src" option must be set so that packets reaching the Internet
+>>         # have the public IP as source, instead of the private IP 192.168.0.2
+>>         up ip route replace default via 192.168.0.1 dev $IFACE onlink src ADDITIONAL_IP
 >> ```
 >>
 > Ubuntu (Netplan)
@@ -379,9 +379,11 @@ The VM must be attached to the `vmbr1` bridge.
 >> Contents of the `/etc/network/interfaces` file:
 >>
 >> ```text
->> auto lo ens18
+>> auto lo
 >> iface lo inet loopback
->> iface ens18 inet static
+>>
+>> auto eth0
+>> iface eth0 inet static
 >>         address 46.105.135.97/28
 >>         gateway 46.105.135.110
 >> ```
