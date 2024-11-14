@@ -56,16 +56,16 @@ details[open]>summary::before {
 
 ### Installing PuTTY
 
-Download the latest release version of the **PuTTY** client from [the official website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and install it on your system (or extract the executable files). Ported versions of **PuTTY** might also be available via your software package manager or [Homebrew](https://brew.sh/).
+Download the latest release version of the PuTTY client from [the official website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and install it on your system (or extract the executable files). Ported versions of PuTTY might also be available via your software package manager or [Homebrew](https://brew.sh/).
 
-The recommended standard installation package includes several applications that enhance the functionality of **PuTTY**, namely for file transfers (`psftp`, `pscp`, not covered in this tutorial) and SSH key management (`PuTTYgen`, `Pageant`, required for the corresponding parts below).
+The recommended standard installation package includes several applications that enhance the functionality of PuTTY, namely for file transfers (`psftp`, `pscp`, not covered in this tutorial) and SSH key management (`PuTTYgen`, `Pageant`, required for the corresponding parts below).
 
 > [!primary]
-> The following instructions are based on a Windows operating system. The functionality of the **PuTTY** software itself should be consistent across operating systems. However, if you are not using **PuTTY** on a Windows device, you may need to consult the documentation of your operating system or the [official FAQ](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html) and [documentation](https://www.chiark.greenend.org.uk/~sgtatham/putty/docs.html) of **PuTTY**.
+> The following instructions are based on a Windows operating system. The functionality of the PuTTY software itself should be consistent across operating systems. However, if you are not using PuTTY on a Windows device, you may need to consult the documentation of your operating system or the [official FAQ](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html) and [documentation](https://www.chiark.greenend.org.uk/~sgtatham/putty/docs.html) of PuTTY.
 >
 
-> [!primary]
-> You can have multiple instances of **PuTTY** and its companion tools opened simultaneously. For example, you can open one window to follow the tutorial steps and a second one to test connections.
+> [!success]
+> You can have multiple instances of PuTTY and its companion tools opened simultaneously. For example, you can open one window to follow the tutorial steps and a second one to test connections.
 >
 
 
@@ -87,7 +87,7 @@ You will need the cluster name of your web hosting plan which you can find in th
 
 /// details | How to connect to a web hosting plan
 
-Open **PuTTY** and enter the FTP login credentials for your web hosting plan into the appropriate fields.
+Open PuTTY and enter the FTP login credentials for your web hosting plan into the appropriate fields.
 
 - `Host Name (or IP address)`: **ftp_username@hosting_cluster_name** (example: **yourlogin@ssh.cluster042.hosting.ovh.net**)
 - `Port`: 22
@@ -96,12 +96,12 @@ Open **PuTTY** and enter the FTP login credentials for your web hosting plan int
 
 Click on `Open`{.action}.
 
-At the first connection, the "**PuTTY** Security Alert" will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as a web hosting plan's FTP storage).  
+At the first connection, the "PuTTY Security Alert" will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as a web hosting plan's FTP storage).  
 Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the web hosting's fingerprint will not be saved to the cache and the alert window will show up at the next connection. You can find further details in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-The command line window (**PuTTY** terminal) will open and prompt you to enter the login password.
+The command line window (PuTTY terminal) will open and prompt you to enter the login password.
 
-Enter the password you have [assigned to this user](/pages/web/hosting/ftp_connection). Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example output:
+Enter the password you have [assigned to this user](/pages/web/hosting/ftp_connection). Note that **a password prompt will not display your keyboard inputs** in a PuTTY terminal. Example output:
 
 ```console
 Using username "yourlogin".
@@ -115,7 +115,7 @@ yourlogin@ssh.cluster042.hosting.ovh.net (php/7.3/production/stable) ~ $
 
 Consult our guide on [SSH access for OVHcloud web hosting plans](/pages/web/hosting/ssh_on_webhosting) to learn which actions are possible on your web hosting's FTP storage space.
 
-**PuTTY** can save credentials and parameters of an SSH connection as a "session". This allows you to connect to known hosts or local network devices without entering their respective details each time. Learn how to use PuTTY sessions in the [section below](#sessions).
+PuTTY can save credentials and parameters of an SSH connection as a "session". This allows you to connect to known hosts or local network devices without entering their respective details each time. Learn how to use PuTTY sessions in the [section below](#sessions).
 
 ///
 
@@ -131,7 +131,7 @@ You will need the IP address of your server which you can find in the [OVHcloud 
 
 /// details | How to connect to a remote host
 
-Open **PuTTY** and enter the login credentials into the appropriate fields.
+Open PuTTY and enter the login credentials into the appropriate fields.
 
 - `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)
 - `Port`: 22 (unless you have changed the SSH port number of your server)
@@ -140,12 +140,12 @@ Open **PuTTY** and enter the login credentials into the appropriate fields.
 
 Click the button `Open`{.action}.
 
-At the first connection, the "**PuTTY** Security Alert" window will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as your own secured server).  
+At the first connection, the "PuTTY Security Alert" window will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as your own secured server).  
 Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the server's fingerprint will not be saved to the cache and the alert will show up again at the next connection. You can find further details in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-The command line window (**PuTTY** terminal) will open and prompt you to enter the user account's password. You can paste the password string into this window with a right-click.
+The command line window (PuTTY terminal) will open and prompt you to enter the user account's password. You can paste the password string into this window with a right-click.
 
-Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example output:
+Note that **a password prompt will not display your keyboard inputs** in a PuTTY terminal. Example output:
 
 ```console
 Using username "ubuntu".
@@ -158,7 +158,7 @@ Welcome to Ubuntu 24.04.1 LTS (GNU/Linux 6.8.0-47-generic x86_64)
 
 You can learn more about SSH connections in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-**PuTTY** can save the parameters of an SSH connection as a "session". This allows you to connect to known remote hosts or local network devices without entering their respective details each time. Learn how to use **PuTTY sessions** in the [corresponding section of this tutorial](#sessions).
+PuTTY can save the parameters of an SSH connection as a "session". This allows you to connect to known remote hosts or local network devices without entering their respective details each time. Learn how to use **PuTTY sessions** in the [corresponding section of this tutorial](#sessions).
 
 ///
 
@@ -166,7 +166,7 @@ You can learn more about SSH connections in our [SSH introduction](/pages/bare_m
 
 ### SSH connections with PuTTY - Username and authentication key (SSH key files)
 
-This part of the tutorial explains how to use SSH with **key pair authentication** in **PuTTY** to connect to the following OVHcloud services:
+This part of the tutorial explains how to use SSH with **key pair authentication** in PuTTY to connect to the following OVHcloud services:
 
 - [Public Cloud instance](/links/public-cloud/public-cloud)
 - [Dedicated server](/links/bare-metal/bare-metal)
@@ -184,20 +184,20 @@ You will need the IP address of your server which you can find in the [OVHcloud 
 
 > [!primary]
 > 
-> **PuTTY** stores key files in a specific format which makes them incompatible with SSH key files created with the **OpenSSH** client. If you want to use a **private key** previously created with the command line SSH client (e.g. for a [server](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) or a [Public Cloud instance](/pages/public_cloud/compute/creating-ssh-keys-pci)), you will need to [convert it to the **PuTTY** format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) first.
+> PuTTY stores key files in a specific format which makes them incompatible with SSH key files created with the **OpenSSH** client. If you want to use a **private key** previously created with the command line SSH client (e.g. for a [server](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) or a [Public Cloud instance](/pages/public_cloud/compute/creating-ssh-keys-pci)), you will need to [convert it to the PuTTY format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) first.
 >
 
 <a name="puttygen"></a>
 
 #### Creating SSH keys (PuTTY key generator)
 
-This step requires the **PuTTY** companion tool **PuTTY key generator** (**PuTTYgen**).
+This step requires the PuTTY companion tool **PuTTY key generator** (PuTTYgen).
 
-/// details | How to create SSH keys with **PuTTYgen**
+/// details | How to create SSH keys with PuTTYgen
 
 ##### Step 1: Create a key pair
 
-Open the **PuTTYgen** application and select the encryption algorithm. This example uses **RSA**. Enter "4096" into the field `Number of bits in a generated key:` at the bottom.
+Open the PuTTYgen application and select the encryption algorithm. This example uses **RSA**. Enter "4096" into the field `Number of bits in a generated key:` at the bottom.
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen1.png){.thumbnail}
 
@@ -205,7 +205,7 @@ Click on the button `Generate`{.action}.
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen2.png){.thumbnail}
 
-A progress bar will appear. Move your mouse cursor about the area below the progress bar until **PuTTYgen** has enough randomized data to start generating your key.
+A progress bar will appear. Move your mouse cursor about the area below the progress bar until PuTTYgen has enough randomized data to start generating your key.
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_02.gif){.thumbnail}
 
@@ -216,7 +216,7 @@ You now have a **key pair**, consisting of two elements:
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen3.png){.thumbnail}
 
-You can optionally edit the field `Comment` with your own description. It will be displayed by **PuTTY** tools when using the key.
+You can optionally edit the field `Comment` with your own description. It will be displayed by PuTTY tools when using the key.
 
 ##### Step 2: Save the private key
 
@@ -225,7 +225,7 @@ Enter a passphrase to protect your private key file into the fields `Key passphr
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen4.png){.thumbnail}
 
 Click on the button `Save private key`{.action}. Select a folder for your key files or create a new one, named `putty_key_files` for example.  
-Enter a name for your file and save it. You should now have a new **private key** file with the extension `ppk` (**PuTTY** key file) in your folder.
+Enter a name for your file and save it. You should now have a new **private key** file with the extension `ppk` (PuTTY key file) in your folder.
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen5.png){.thumbnail}
 
@@ -233,18 +233,17 @@ Enter a name for your file and save it. You should now have a new **private key*
 >
 > Access to remote servers is only as secure as the client device storing the private key. Protecting your device and the key files stored on it from unauthorized access is therefore crucial.
 > 
-> For increased convenience, store passphrases in a password manager on your device, such as the open-source solution **KeePass**, and use the [**Pageant** tool](#pageant) for key-based connections.
+> For increased convenience, store passphrases in a password manager on your device, such as the open-source solution **KeePass**, and use the [Pageant tool](#pageant) for key-based connections.
 >
 
-
-> The button `Save public key`{.action} in the **PuTTYgen** interface will convert the **public key** string into the "SSH-2 standard format" and then create a file containing this string. Key strings of that format however are not relevant for this tutorial.
+The button `Save public key`{.action} in the PuTTYgen interface will convert the **public key** string into the "SSH-2 standard format" and then create a file containing this string. Key strings of that format however are not relevant for this tutorial.
 
 ##### Step 3: Prepare the public key
 
-The next step will be to store the **public key** on the remote host to which you want to connect. The format of the key string as it is displayed in the **PuTTYgen** window under `Public key for pasting into OpenSSH authorized_keys file` is compatible with OpenSSH. You will need the exact key string as one line. 
+The next step will be to store the **public key** on the remote host to which you want to connect. The format of the key string as it is displayed in the PuTTYgen window under `Public key for pasting into OpenSSH authorized_keys file` is compatible with OpenSSH. You will need the exact key string as one line. 
 
 > [!primary]
-> There is no need to store the public key as a file since you can always retrieve it from the **private key** file. To do this, open **PuTTYgen** and click on the button `Load`{.action}. Select your `ppk` key file and enter your passphrase to open it.
+> There is no need to store the public key as a file since you can always retrieve it from the **private key** file. To do this, open PuTTYgen and click on the button `Load`{.action}. Select your `ppk` key file and enter your passphrase to open it.
 > 
 Alternatively, you can copy the public key string and paste it into a plain text file (without interrupting the key string with line breaks).
 >
@@ -268,17 +267,20 @@ Click on the tab for your service:
 > [!tabs]
 > **Public Cloud instance**
 >>
->> Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the **PuTTYgen** window. (Open the corresponding **private key file** first if necessary.) Then use it as instructed in the corresponding section of our [guide on how to create a Public Cloud instance in the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps).  
+>> Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the PuTTYgen window. (Open the corresponding **private key file** first if necessary.) Then use it as instructed in the corresponding section of our [guide on how to create a Public Cloud instance in the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps).
+>>
 >>![putty key](/pages/assets/screens/other/web-tools/putty/puttygen6.png){.thumbnail}
 >>
 > **Dedicated server**
 >>
->> Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the **PuTTYgen** window. (Open the corresponding **private key file** first if necessary.) Then enter it into the appropriate field during the installation process. You can find the details in our [guide on how to get started with a dedicated server](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server).  
+>> Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the PuTTYgen window. (Open the corresponding **private key file** first if necessary.) Then enter it into the appropriate field during the installation process. You can find the details in our [guide on how to get started with a dedicated server](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server).
+>>
 >>![putty key](/pages/assets/screens/other/web-tools/putty/puttygen6.png){.thumbnail}
 >>
 > **VPS**
 >>
->> Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the **PuTTYgen** window. (Open the corresponding **private key file** first if necessary.) Then enter it into the appropriate field during the installation process. You can find the details in our [guide on how to get started with a VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps).  
+>> Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the PuTTYgen window. (Open the corresponding **private key file** first if necessary.) Then enter it into the appropriate field during the installation process. You can find the details in our [guide on how to get started with a VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps).
+>>
 >>![putty key](/pages/assets/screens/other/web-tools/putty/puttygen6.png){.thumbnail}
 >>
 
@@ -291,7 +293,7 @@ Select your service type:
 
 /// details | Public Cloud instance
 
-Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the **PuTTYgen** window. (Open the corresponding **private key file** first if necessary.) Then follow the instructions in the appropriate guide:
+Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the PuTTYgen window. (Open the corresponding **private key file** first if necessary.) Then follow the instructions in the appropriate guide:
 
 - [How to configure additional SSH keys on an instance](/pages/public_cloud/compute/configuring_additional_ssh_keys)
 - [How to replace an SSH key pair on a Public Cloud instance](/pages/public_cloud/compute/replacing_lost_ssh_key)
@@ -315,7 +317,7 @@ To store the key for the current user, open (or create) the file `authorized_key
 nano ~/.ssh/authorized_keys
 ```
 
-Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the **PuTTYgen** window. (Open the corresponding **private key file** first if necessary.)
+Highlight and copy **the entire public key string** you have [created in the previous step](#puttygen) from the PuTTYgen window. (Open the corresponding **private key file** first if necessary.)
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen6.png){.thumbnail}
 
@@ -333,7 +335,7 @@ sudo systemctl restart ssh
 sudo systemctl restart sshd
 ```
 
-Quit the current **PuTTY** session:
+Quit the current PuTTY session:
 
 ```bash
 logout
@@ -351,7 +353,7 @@ In order to connect to a remote host (Public Cloud instance, dedicated server or
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
 |:---|
-| 1\. Open **PuTTY**.<br> 2\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 3\. Expand the node `Auth`.<br> 4\. Click `Credentials` to see the corresponding settings.<br> 5\. Click the button `Browse`{.action}.<br> 6\. Select the private key file (`keyfile.ppk`) from the folder in which you have saved it. |
+| 1\. Open PuTTY.<br> 2\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 3\. Expand the node `Auth`.<br> 4\. Click `Credentials` to see the corresponding settings.<br> 5\. Click the button `Browse`{.action}.<br> 6\. Select the private key file (`keyfile.ppk`) from the folder in which you have saved it. |
 
 Navigate back to `Session`{.action} in the left-hand menu. Enter the login credentials into the appropriate fields.
 
@@ -360,8 +362,8 @@ Navigate back to `Session`{.action} in the left-hand menu. Enter the login crede
 - `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)
 - `Port`: 22 (unless you have changed the SSH port number of your server)
 
-Click the button `Open`{.action}. The **PuTTY** terminal will prompt you for the password of the key file.  
-Note that **a password prompt will not display your keyboard inputs** in a **PuTTY** terminal. Example output:
+Click the button `Open`{.action}. The PuTTY terminal will prompt you for the password of the key file.  
+Note that **a password prompt will not display your keyboard inputs** in a PuTTY terminal. Example output:
 
 ```console
 Using username "ubuntu".
@@ -373,22 +375,22 @@ Passphrase for key "rsa-key-example":
 Welcome to Ubuntu 24.04.1 LTS (GNU/Linux 6.8.0-47-generic x86_64)
 ```
   
-For a more convenient process, find out how to [associate a key file](#pageant) and [save this connection](#sessions) in the sections below.
+For a more convenient process, find out how to associate a key file with Pageant and [save this connection](#sessions) in the sections below.
 
 <a name="pageant"></a>
 
 #### Managing SSH keys on a local device with Pageant (PuTTY authentication agent)
 
-If you have followed the instructions above, you can access your remote host via key authentication. While the connection itself does not require a password, **PuTTY** will still ask for the password of the corresponding private key file.
+If you have followed the instructions above, you can access your remote host via key authentication. While the connection itself does not require a password, PuTTY will still ask for the password of the corresponding private key file.
 
 ![pageant](/pages/assets/screens/other/web-tools/putty/pterminal.png){.thumbnail}
 
-Using **Pageant** enables faster connections in two ways:
+Using Pageant enables faster connections in two ways:
 
- - You do not need to select the private key file for each connection in **PuTTY**.
- - You only need to enter the passphrase for the private key file once, when the key file is opened by **Pageant**.
+ - You do not need to select the private key file for each connection in PuTTY.
+ - You only need to enter the passphrase for the private key file once, when the key file is opened by Pageant.
 
-Open the **Pageant** application [on your device](#installation). Since the **Pageant** key window will not open automatically, you need to (double-)click on its icon in your taskbar ("system tray" in Windows).
+Open the Pageant application [on your device](#installation). Since the Pageant key window will not open automatically, you need to (double-)click on its icon in your taskbar ("system tray" in Windows).
 
 ![pageant](/pages/assets/screens/other/web-tools/putty/systray.png){.thumbnail}
 
@@ -396,19 +398,19 @@ This will open the **Pageant Key List**. Click the button `Add Key`{.action}, an
 
 ![pageant](/pages/assets/screens/other/web-tools/putty/pageant1.png){.thumbnail}
 
-Enter the passphrase for this key file. The key is now on the list and will be used by **PuTTY** as long as **Pageant** is running.
+Enter the passphrase for this key file. The key is now on the list and will be used by PuTTY as long as Pageant is running.
 
 ![pageant](/pages/assets/screens/other/web-tools/putty/pageant2.png){.thumbnail}
 
-Even if you close this window, **Pageant** will continue to run in the background. It will function as long as the icon is present in the taskbar.
+Even if you close this window, Pageant will continue to run in the background. It will function as long as the icon is present in the taskbar.
 
-If you also save your connection as a session in **PuTTY** as described in the following section, you will be able to open remote connections with only a few clicks.
+If you also save your connection as a session in PuTTY as described in the following section, you will be able to open remote connections with only a few clicks.
 
 <a name="sessions"></a>
 
 ### Using PuTTY connection sessions
 
-**PuTTY** has the ability to store parameters for different connections as sessions, enabling you to establish a connection to the destination host (web hosting, server, instance, local network device) faster.
+PuTTY has the ability to store parameters for different connections as sessions, enabling you to establish a connection to the destination host (web hosting, server, instance, local network device) faster.
 
 Select the relevant connection method:
 
@@ -418,15 +420,15 @@ To store a [password-based connection session](#sshconnect1), carry out the foll
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions1.png){.thumbnail} |
 |:---|
-| 1\. Open **PuTTY**.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`.<br> 4\. Enter a name for this connection into the field under `Saved Sessions`.<br> 5\. Click the button `Save`{.action}. |
+| 1\. Open PuTTY.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`.<br> 4\. Enter a name for this connection into the field under `Saved Sessions`.<br> 5\. Click the button `Save`{.action}. |
 
 To open a connection saved previously, carry out the following actions:
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail} |
 |:---|
-| 1\. Open **PuTTY**.<br> 2\. Double-click the desired session in the list under `Saved Sessions` or select it and click the button `Open`{.action}. |
+| 1\. Open PuTTY.<br> 2\. Double-click the desired session in the list under `Saved Sessions` or select it and click the button `Open`{.action}. |
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions3.png){.thumbnail} |
-| In the **PuTTY** terminal window, enter the user password of the remote host. |
+| In the PuTTY terminal window, enter the user password of the remote host. |
 
 ///
 
@@ -438,7 +440,7 @@ To store a [key-based connection session](#puttykeys), carry out the following a
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/sessions4.png){.thumbnail} |
 |:---|
-| 1\. Open **PuTTY**.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`. |
+| 1\. Open PuTTY.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`. |
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
 | 4\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 5\. Expand the node `Auth` in the `Category` tree.<br> 6\. Click `Credentials` to see the corresponding settings.<br> 7\. Click the button `Browse`{.action}.<br> 8\. Navigate to the folder that stores your private key files.<br> 9\. Open the key file concerned. |
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions5.png){.thumbnail} |
@@ -446,11 +448,11 @@ To store a [key-based connection session](#puttykeys), carry out the following a
 
 <a name="qconnect"></a>
 
-You can now open any previously saved key-based connection quickly from the **PuTTY** window or via **Pageant**:
+You can now open any previously saved key-based connection quickly from the PuTTY window or via Pageant:
 
 | **PuTTY** | **Pageant** |
 |---|---|
-| ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail}<br> 1\. Open **PuTTY**.<br> 2\. Double-click the desired session in the list under `Saved Sessions`. | ![pageant](/pages/assets/screens/other/web-tools/putty/pageant3.png){.thumbnail}<br> 1\. Right-click the icon of **Pageant** in the taskbar.<br> 2\. Click the desired session from the submenu `Saved Sessions`. |
+| ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail}<br> 1\. Open PuTTY.<br> 2\. Double-click the desired session in the list under `Saved Sessions`. | ![pageant](/pages/assets/screens/other/web-tools/putty/pageant3.png){.thumbnail}<br> 1\. Right-click the icon of Pageant in the taskbar.<br> 2\. Click the desired session from the submenu `Saved Sessions`. |
 
 ///
 
