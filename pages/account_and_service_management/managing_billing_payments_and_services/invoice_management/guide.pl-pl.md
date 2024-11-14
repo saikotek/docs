@@ -4,10 +4,6 @@ excerpt: Dowiedz się, jak zarządzać fakturami i związanymi z nimi płatnośc
 updated: 2022-05-12
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 OVHcloud oddaje do Twojej dyspozycji Panel klienta, na którym możesz przeglądać, zarządzać i regulować faktury.

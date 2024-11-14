@@ -4,7 +4,6 @@ excerpt: Hier finden Sie die häufigsten Fragen zu Abrechnung und Zahlung
 updated: 2023-06-05
 ---
 
-  
 ## Ziel
   
 Hier finden Sie die häufigsten Fragen zur Abrechnung und Bezahlung Ihrer OVHcloud Dienste.
