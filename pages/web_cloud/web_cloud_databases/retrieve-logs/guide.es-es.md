@@ -125,20 +125,20 @@ Esta solución utiliza los logs generados por su infraestructura o sus sitios we
 - permitir a los usuarios realizar consultas complejas;
 - filtrarlos por fecha, aplicación, tipo o contenido;
 
-Para más información sobre Logs Data Platform, consulte nuestra guía de [Introducción a Logs Data Platform] (/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) (EN).
+Para más información sobre Logs Data Platform, consulte nuestra guía de [Introducción a Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) (EN).
 
-Dado que las soluciones [Web Cloud Databases] (/links/web/databases) pueden utilizarse con numerosos servicios (alojamiento compartido, VPS, servidores dedicados, etc.), estos pueden, como complemento de los logs en tiempo real ya disponibles, ser abonados a Logs Data Platform mediante un flujo de datos.
+Dado que las soluciones [Web Cloud Databases](/links/web/databases) pueden utilizarse con numerosos servicios (alojamiento compartido, VPS, servidores dedicados, etc.), estos pueden, como complemento de los logs en tiempo real ya disponibles, ser abonados a Logs Data Platform mediante un flujo de datos.
 
 Para suscribir su solución Web Cloud Databases a un flujo de datos en Logs Data Platform, lleve a cabo las siguientes acciones:
 
-1. Conéctese a su [área de cliente de OVHcloud] (/links/manager).
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
 2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
 3. En la columna izquierda, haga clic en el menú desplegable `Web Cloud Databases`{.action}.
 4. Seleccione la instancia Web Cloud Databases correspondiente.
 5. A continuación, haga clic en la pestaña `Logs`{.action}.
 6. A la derecha del recuadro en el que aparecen sus logs en tiempo real, haga clic en el botón `Suscribirse`{.action}.
 
-En la nueva página que se abre, si dispone de varias soluciones Logs Data Platform en su [área de cliente de OVHcloud] (/links/manager), seleccione la referencia de la Logs Data Platform con la que desea suscribirse en la lista desplegable que aparece justo debajo del botón titulado `Añadir un flujo de datos`.
+En la nueva página que se abre, si dispone de varias soluciones Logs Data Platform en su [área de cliente de OVHcloud](/links/manager), seleccione la referencia de la Logs Data Platform con la que desea suscribirse en la lista desplegable que aparece justo debajo del botón titulado `Añadir un flujo de datos`.
 
 Existen dos situaciones para suscribirse a su solución Web Cloud Databases.
 
@@ -160,7 +160,7 @@ Si lo necesita, consulte nuestras guías "[Introducción a Logs Data Platform](/
 
 Una vez introducidos los distintos formularios e información, haga clic en el botón `Guardar`{.action}.
 
-A continuación, abra la pestaña « Flujos de datos » de su solución Logs Data Platform.
+A continuación, abra la pestaña `Flujos de datos`{.action} de su solución Logs Data Platform.
 
 Por último, suscríbase a su solución Web Cloud Databases para recibir el feed de su solución Logs Data Platform.
 
