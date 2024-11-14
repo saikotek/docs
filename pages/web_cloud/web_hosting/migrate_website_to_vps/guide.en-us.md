@@ -12,17 +12,17 @@ As your website evolves, its resource consumption becomes so high that your web 
 
 ## Requirements
 
-- You must have an active [web hosting plan](/links/web/hosting).
-- You must have signed up to a [VPS](/links/bare-metal/vps) in your OVHcloud account.
-- You must be logged in to your [OVHcloud Control Panel](/links/manager).
+- An OVHcloud [web hosting plan](/links/web/hosting)
+- A [VPS](/links/bare-metal/vps) in your OVHcloud account
+- You must be logged in to your [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
 > [!warning]
 >
-> OVHcloud provides services that you are responsible for configuring, managing and managing. It is therefore up to you to ensure that it works properly.
+> OVHcloud provides services for which you are responsible with regard to their configuration and management. It is therefore your responsibility to ensure that they function correctly.
 >
-> We have provided you with this guide in order to help you with common tasks. However, we recommend contacting a [specialist provider](/links/partner) if you encounter any difficulties. We will not be able to assist you. You can find more information in the ["Go further"](#go-further) section of this guide.
+> This guide is designed to help you with common tasks. Nevertheless, we recommend contacting a [specialist service provider](/links/partner) if you encounter any difficulties. We will not be able to assist you. You can find more information in the [Go further](#go-further) section of this guide.
 >
 
 ### Step 1 - Back up your website files and database <a name="step1"></a>
@@ -57,9 +57,9 @@ If you are using a CMS and want to back up its files, choose the backup method t
 >>
 >> For Joomla!, important files to back up include directories:
 >>
->> - `/administrator`: for the administration interface.
->> - `/components`, `/plugins`: for installed extensions.
->> - `/images`: for your website's media files.
+>> - `/administrator`: For the administration interface.
+>> - `/components`, `/plugins`: For installed extensions.
+>> - `/images`: For your website's media files.
 >>
 >> Find more information on the structure of Joomla! files in the [official Joomla! documentation](https://docs.joomla.org/).
 >>
@@ -67,8 +67,8 @@ If you are using a CMS and want to back up its files, choose the backup method t
 >>
 >> For Drupal, the important folders to back up are:
 >>
->> - `/sites` : which contains the files specific to your site.
->> - `/modules`: and `/themes`: for custom modules and themes.
+>> - `/sites` : Contains the files specific to your site.
+>> - `/modules` and `/themes`: For custom modules and themes.
 >>
 >> For more information, please refer to the [official Drupal documentation](https://www.drupal.org/docs).
 
@@ -88,17 +88,17 @@ If you plan to migrate the database on the VPS, follow the steps in our guide on
 
 > [!primary]
 >
-> If you do not have a VPS yet, go to [OVHcloud VPS product page](/links/bare-metal/vps) to buy one. Make sure you choose a VPS that matches your website’s resource requirements (RAM, CPU, storage, etc.) and the technical specifications of your CMS. If you are not familiar with VPS solutions, please read our guide on ‘[How to get started with a VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps).
+> If you do not have a VPS yet, go to [OVHcloud VPS product page](/links/bare-metal/vps) to buy one. Make sure you choose a VPS that matches your website’s resource requirements (RAM, CPU, storage, etc.) and the technical specifications of your CMS. If you are not familiar with VPS solutions, please read our guide on [How to get started with a VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps).
 
 #### Step 2.1 - Log in to your VPS
 
-Refer to the “ Logging in to your VPS ” section of our guide on “[How to get started with a VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)” to log in to your VPS.
+Refer to the “Logging in to your VPS” section of our guide on “[How to get started with a VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)” to log in to your VPS.
 
 #### Step 2.2 - Install and configure a web server on your VPS <a name="step2.2"></a>
 
 Once you are logged in to your VPS, install and configure a web development environment on your VPS. This step is essential to ensure that your server is ready to host your website once the files and database have been transferred.
 
-To install this web environment, please read our guide on '[How to install a web development environment on a VPS or a dedicated server](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps)".
+To install this web environment, please read our guide on "[How to install a web development environment on a VPS or a dedicated server](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps)".
 
 ### Step 3 - Transfer your website files via SFTP
 
@@ -108,9 +108,9 @@ Using **S**ecure **F**ile **T**ransfer **P**rotocol (**SFTP**) is the recommende
 
 Follow the "Launch the SFTP connection" step in our guide on "[Using FileZilla with your OVHcloud hosting](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide)" using the following configuration:
 
-- **Host** : use the IP address of your VPS.
-- **ID** and **password**: the ones for your SSH user account on the VPS.
-- **Port** : use port 22 (default port for SFTP).
+- **Host**: Use the IP address of your VPS.
+- **ID** and **password**: The credentials for your SSH user account on the VPS.
+- **Port**: Use port 22 (default port for SFTP).
 
 #### Step 3.2 - Transfer your website files to the VPS
 
@@ -126,11 +126,11 @@ Select the files from your website and the database that you downloaded in [step
 
 If you would like to import the database onto your VPS, follow the steps below.
 
-Log in to your VPS via SSH, by going to the ‘Log in to your VPS’ section of our guide on ‘[How to get started with a VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)’.
+Log in to your VPS via SSH, by going to the "Log in to your VPS section" of our guide on "[How to get started with a VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)".
 
-Once you have connected to your VPS via an SSH connection, use the command line below to import the database.
+Once you have connected to your VPS via an SSH connection, use the commands below to import the database.
 
-In the example below, we use MySQL as a **D**ata**B**ase **M**anagement **S**ystem (**DBMS**). Use the official DBMS documentation that you installed in [step 2.2](#step2.2) to use the appropriate command line to import the database to your VPS.
+In the example below, we use MySQL as a **D**ata**B**ase **M**anagement **S**ystem (**DBMS**). Use the official DBMS documentation that you installed in [step 2.2](#step2.2) to use the appropriate commands to import the database to your VPS.
 
 ```php
 <?php
@@ -152,8 +152,8 @@ After you have transferred your website files and, if necessary, imported the da
 >>
 >> - **DB_NAME**: The database name.
 >> - **DB_USER**: The database user.
->> - **DB_PASSWORD** : the user password.
->> - **DB_HOST** : the database host (usually localhost on a VPS).
+>> - **DB_PASSWORD**: The user password.
+>> - **DB_HOST**: The database host (usually localhost on a VPS).
 >>
 >> For more details, see the [WordPress official documentation](https://developer.wordpress.org/advanced-administration/wordpress/wp-config/).
 >>
@@ -163,10 +163,10 @@ After you have transferred your website files and, if necessary, imported the da
 >>
 >> Modify the following variables in the `parameters.php` file:
 >>
->> - **database_host** : the host of the database.
+>> - **database_host**: The host of the database.
 >> - **database_name**: The name of the database.
->> - **database_user** : the database user.
->> - **database_password** : the database password.
+>> - **database_user**: The database user.
+>> - **database_password**: The database password.
 >>
 >> For more details, see the [PrestaShop official documentation](https://devdocs.prestashop-project.org/8/development/configuration/configuring-prestashop/).
 >>
@@ -176,27 +176,27 @@ After you have transferred your website files and, if necessary, imported the da
 >>
 >> Modify the following variables in the `configuration.php` file:
 >>
->> - **public $host** : the database host (often localhost).
+>> - **public $host**: The database host (often localhost).
 >> - **public $db**: The database name.
->> - **public $user** : the database user.
->> - **public $password** : the database password.
+>> - **public $user**: The database user.
+>> - **public $password**: The database password.
 >>
 >> For more details, see the [official documentation of Joomla!](https://docs.joomla.org/).
 >>
->> To avoid security issues, refer to the official documentation on [file permissions for Joomla!](https://docs.joomla.org/What_are_the_recommended_file_and_directory_permissions%3F)
+>> To avoid security issues, refer to the official documentation on [file permissions for Joomla!](https://docs.joomla.org/What_are_the_recommended_file_and_directory_permissions%3F).
 >>
 > Drupal
 >>
 >> Modify the following variables in the `settings.php` file:
 >>
->> - **host** : the database host (often localhost).
+>> - **host**: The database host (often localhost).
 >> - **database**: The name of the database.
->> - **username** : the database user.
+>> - **username**: The database user.
 >> - **password**: The database password.
 >>
 >> For more details, see the [official Drupal documentation](https://www.drupal.org/documentation).
 >>
->> To avoid security issues, refer to the official documentation on [file permissions for Drupal](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-file-permissions-and-ownership)
+>> To avoid security issues, refer to the official documentation on [file permissions for Drupal](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-file-permissions-and-ownership).
 >>
 > Without CMS
 >>
@@ -204,10 +204,10 @@ After you have transferred your website files and, if necessary, imported the da
 >>
 >> Identify the configuration files (such as `config.php` or `.env`). Some of them can be located in sub-folders. In these files, locate the database connection settings and modify them to match the new VPS connection values:
 >>
->> - **DB_HOST** : address of the database server.
+>> - **DB_HOST**: The address of the database server.
 >> - **DB_NAME**: The name of the database.
 >> - **DB_USER**: The database user.
->> - **DB_PASSWORD** : password.
+>> - **DB_PASSWORD**: The password.
 >>
 >> **2. Configure file paths**
 >>
@@ -231,9 +231,9 @@ If you use a Web Cloud Databases database, check that your VPS is authorized to 
 
 > [!primary]
 >
-> Before modifying your DNS zone records to point to the VPS IP address, we recommend reducing the **T**ime **T**o **L**ive (**TTL**). This speeds up the propagation of changes, as the DNS servers will update the information more quickly. Follow the ‘Time to propagate’ step in our guide on [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit) to adjust the TTL and configure the records to point the domain name to the VPS.
+> Before modifying your DNS zone records to point to the VPS IP address, we recommend reducing the **T**ime **T**o **L**ive (**TTL**). This speeds up the propagation of changes, as the DNS servers will update the information more quickly. Follow the "Time to propagate" step in our guide on [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit) to adjust the TTL and configure the records to point the domain name to the VPS.
 
-To point your website’s domain name to your VPS, configure the domain name’s DNS records to direct traffic to your VPS’s public IP address. To guide you through this process, follow our guide on [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit) .
+To point your website’s domain name to your VPS, configure the domain name’s DNS records to direct traffic to your VPS’s public IP address. To guide you through this process, follow our guide on [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit).
 
 ### Step 7 - Check that your website is working properly
 
@@ -247,12 +247,12 @@ Once you have migrated your website to your VPS, it is vital to secure your serv
 - Configure a firewall.
 - Configure two-factor authentication (2FA).
 - Monitor logs.
-- Etc.
+- etc.
 
 For a full list of security best practices, please read our guide on "[How to secure a VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps)".
 
 ## Go further <a name="go-further"></a>
  
-For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+For specialized services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
  
 Join our [community of users](/links/community).
