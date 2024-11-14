@@ -145,10 +145,10 @@ Au lieu d'avoir des IOPS autour de 3 000 pour les disques supplémentaires, ils 
 
 Dans ce cas, nous recommandons de faire les tests de vitesse sur un disque supplémentaire formaté avec un systeme de fichiers Linux (ext3-ext4 par exemple) pour faire la comparaison :
 
-1\. Recréez un disque vierge supplémentaire de la même taille que celui qui est affecté.
-2\. Migrez-le vers l'instance Windows, formatez-le en NTFS et refaites les tests.
-3\. Créez une instance Linux du même type que l'instance d'origine.
-4\. Attachez le disque supplémentaire, formatez-le en tant que système Linux et exécutez les tests demandés suivants.
+1. Recréez un disque vierge supplémentaire de la même taille que celui qui est affecté.
+2. Migrez-le vers l'instance Windows, formatez-le en NTFS et refaites les tests.
+3. Créez une instance Linux du même type que l'instance d'origine.
+4. Attachez le disque supplémentaire, formatez-le en tant que système Linux et exécutez les tests demandés suivants.
 
 **préallocation du volume**
 
