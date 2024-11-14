@@ -4,10 +4,6 @@ excerpt: 'Saiba como criar a sua conta OVHcloud'
 updated: 2024-09-09
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Para utilizar os serviços da OVHcloud, primeiro deve criar a sua conta.

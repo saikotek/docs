@@ -4,10 +4,6 @@ excerpt: 'Saiba como usar a ferramenta Plik para enviar ficheiros a outras pesso
 updated: 2022-02-14
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A ferramenta online [Plik](https://plik.ovhcloud.com) permite partilhar ficheiros entre diferentes pessoas, oferecendo opções de segurança de acesso a esses ficheiros.
