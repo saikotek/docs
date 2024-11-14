@@ -4,10 +4,6 @@ excerpt: Aprenda a adicionar e gerir os seus métodos de pagamento dentro da Ár
 updated: 2022-05-18
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A Área de Cliente OVHcloud permite-lhe guardar e gerir vários métodos de pagamento.

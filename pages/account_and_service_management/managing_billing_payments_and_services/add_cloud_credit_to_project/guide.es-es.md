@@ -4,10 +4,6 @@ excerpt: 'Cómo añadir créditos o códigos promocionales a su proyecto de Publ
 updated: 2022-02-04
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
-
 ## Objetivo
 
 La opción "crédito cloud" le permite asignar un importe específico a su proyecto de Public Cloud, que servirá como forma de pago por defecto para la [facturación del proyecto](/pages/public_cloud/compute/analyze_billing).<br>

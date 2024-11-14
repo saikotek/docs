@@ -4,10 +4,6 @@ excerpt: 'Saiba como adicionar crédito ou vouchers ao seu projeto Public Cloud'
 updated: 2022-02-04
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A opção de "crédito cloud" permite-lhe atribuir um montante específico ao seu projeto Public Cloud, que servirá de método de pagamento predefinido para a [facturação do projecto](/pages/public_cloud/compute/analyze_billing).<br>

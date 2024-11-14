@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak dodać zasilenie lub vouchery do Twojego projektu Pu
 updated: 2022-02-04
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie
 
 Opcja zasilenia konta cloud pozwala na przyznanie określonej kwoty na Twój projekt Public Cloud, który będzie służył jako domyślna metoda płatności przy [rozliczaniu projektu](/pages/public_cloud/compute/analyze_billing).<br>

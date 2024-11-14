@@ -4,10 +4,6 @@ excerpt: Aquí encontrará los elementos imprescindibles para la correcta gesti�
 updated: 2022-05-02
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Esta guía explica los requisitos necesarios para una buena gestión de su cuenta y la facturación de sus servicios de OVHcloud.
