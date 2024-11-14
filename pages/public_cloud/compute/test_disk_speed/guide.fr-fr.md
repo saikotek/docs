@@ -1,7 +1,7 @@
 ---
 title: 'Tester la vitesse des disques'
 excerpt: "Vérifiez le nombre d'opérations d'entrée-sortie par seconde (IOPS) que vos disques sont en mesure d'effectuer"
-updated: 2024-11-05
+updated: 2024-11-13
 ---
 
 ## Objectif
@@ -128,6 +128,49 @@ fio --name=rand-write --ioengine=windowsaio --iodepth=32 --rw=randwrite --invali
 >
 > Vous pouvez récupérer une liste d'arguments et leurs fonctions directement à partir du [guide](https://github.com/axboe/fio/blob/master/HOWTO.rst) de fio.
 >
+
+### Analyser les données
+
+Une fois le test terminé, vous obtenez un résultat semblable à ce qui suit :
+
+![windows](images/fio_windows.png){.thumbnail}
+
+### Disques supplementaires
+
+Les disques supplementaires ne pouvent pas être monté en mode rescue, la seule façon de tester leur vitesse est de le faire lorsque l'instance est active.
+
+Dans le cas de Windows et des systèmes de fichiers NTFS, nous avons remarqué que certains pilotes récents peuvent créer des goulots d'étranglement. Dans ce cas, vous risquez d'obtenir des résultats insatisfaisants.
+
+Au lieu d'avoir des IOPS autour de 3 000 pour les disques supplémentaires, ils plafonnent à environ 500.
+
+Dans ce cas, nous recommandons de faire les tests de vitesse sur disque supplementaire formaté avec un systeme de fichier Linux (ext3-ext4 par ex) pour faire la comparaison :
+
+1\. Recréer un disque vierge supplémentaire de la même taille que celui qui est affecté.
+
+2\. Le migrer vers l'instance Windows, le formater en NTFS et refaire les tests.
+
+3\. Créer une instance Linux du même type que l'instance d'origine.
+
+4\. Attachez le disque supplémentaire, formatez-le en tant que système Linux et exécutez les tests demandés suivants.
+
+**préallocation du volume**
+
+```bash
+fio --group_reporting --name=test-1 --ioengine=libaio --filesize=1G --filename=test-image-1 --rw=write --bs=1M --iodepth=32 --direct=1 --numjobs=1 
+```
+
+**écritures aléatoires**
+
+```bash
+fio --runtime=90 --time_based --group_reporting --name=test-1 --ioengine=libaio --filesize=1G --filename=test-image-1 --rw=randwrite --bs=4k --iodepth=32 --direct=1 --numjobs=1
+```
+
+**lecture aléatoire**
+
+```bash
+fio --runtime=90 --time_based --group_reporting --name=test-1 --ioengine=libaio --filesize=1G --filename=test-image-1 --rw=randread --bs=4k --iodepth=32 --direct=1 --numjobs=1 
+```
+
 
 ## Aller plus loin
 

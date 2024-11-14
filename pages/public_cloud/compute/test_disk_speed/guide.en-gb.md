@@ -1,7 +1,7 @@
 ---
 title: 'Test disk speed'
 excerpt: 'This guide will show you how to test the number of input/output operations per second (IOPS) that your disks are able to achieve, whether for instances or additional disks.'
-updated: 2022-01-04
+updated: 2024-11-13
 ---
 
 ## Objective
@@ -45,7 +45,7 @@ fio --name=rand-write --ioengine=libaio --iodepth=32 --rw=randwrite --invalidate
 To test the speed of an additional disk, you will need to mount the disk with the following command: 
 
 ```bash
-cd /mnt/disk
+root@server:~$ cd /mnt/disk
 ```
 
 ### Analyse the data
@@ -105,6 +105,71 @@ write: io=428032KB, bw=3566.2KB/s, iops=891, runt=120031msec
 ```
 
 We can see that disk performance is approximately 891 IOPS.
+
+### On Windows
+
+### Install the test command
+
+The command that you need to test your disk speed is called `fio`, and is not installed on your server by default.
+
+To install `fio`, log in to your instance via RDP and download this binary: [Microsoft Windows binaries for fio](https://bsdio.com/fio/).
+
+### Test your disk speed
+
+To test your disk speed, run the following command:
+
+```powershell
+fio --name=rand-write --ioengine=windowsaio --iodepth=32 --rw=randwrite --invalidate=1 --bsrange=4k:4k,4k:4k --size=512m --runtime=120 --time_based --do_verify=1 --direct=1 --group_reporting --numjobs=1
+```
+
+> [!primary]
+>
+> Please note that you will need to modify the `--numjobs` argument to reflect the number of CPUs that your instance has.
+>
+> You can retrieve a list of arguments and their functions directly from the [fio guide](https://github.com/axboe/fio/blob/master/HOWTO.rst).
+>
+
+### Analyse the data
+
+Once the test is finished, you will get a result similar to the following:
+
+![windows](images/fio_windows.png){.thumbnail}
+
+### Additional disks
+
+Additional disks cannot be mounted in rescue mode. The only way to test their speed is to do so when the instance is active.
+
+For Windows and NTFS file systems, we have noticed that some newer drivers can create bottlenecks. In this case, you may get unsatisfactory results.
+
+Instead of having IOPS around 3,000 for additional disks, they cap at around 500.
+
+In this case, we recommend doing the speed tests on an additional disk formatted with a Linux file system (ext3-ext4 for example) to make the comparison:
+
+1\. Recreate an additional blank disk of the same size as the one assigned.
+
+2\. Migrate it to the Windows instance, format it in NTFS, and run the tests again.
+
+3\. Create a Linux instance of the same type as the original instance.
+
+4\. Attach the additional disk, format it as a Linux system, and run the following requested tests.
+
+**preallocate volume**
+
+```bash
+fio --group_reporting --name=test-1 --ioengine=libaio --filesize=1G --filename=test-image-1 --rw=write --bs=1M --iodepth=32 --direct=1 --numjobs=1
+```
+
+**random writes**
+
+```bash
+fio --runtime=90 --time_based --group_reporting --name=test-1 --ioengine=libaio --filesize=1G --filename=test-image-1 --rw=randwrite --bs=4k --iodepth=32 --direct=1 --numjobs=1
+```
+
+**random read**
+
+```bash
+fio --runtime=90 --time_based --group_reporting --name=test-1 --ioengine=libaio --filesize=1G --filename=test-image-1 --rw=randread --bs=4k --iodepth=32 --direct=1 --numjobs=1
+```
 
 ## Go further
 
