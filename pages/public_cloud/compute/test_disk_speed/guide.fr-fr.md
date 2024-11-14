@@ -143,7 +143,7 @@ Dans le cas de Windows et des systèmes de fichiers NTFS, nous avons remarqué q
 
 Au lieu d'avoir des IOPS autour de 3 000 pour les disques supplémentaires, ils plafonnent à environ 500.
 
-Dans ce cas, nous recommandons de faire les tests de vitesse sur un disque supplémentaire formaté avec un systeme de fichiers Linux (ext3-ext4 par exemple) pour faire la comparaison :
+Dans ce cas, vous pouvez faire les tests de vitesse sur un disque supplémentaire formaté avec un système de fichiers Linux (ext3-ext4 par exemple) pour faire la comparaison :
 
 1. Recréez un disque vierge supplémentaire de la même taille que celui qui est affecté.
 2. Migrez-le vers l'instance Windows, formatez-le en NTFS et refaites les tests.
