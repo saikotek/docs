@@ -4,10 +4,6 @@ excerpt: Come utilizzare il tool Plik per inviare file ad altre persone
 updated: 2022-02-14
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Il tool online [Plik](https://plik.ovhcloud.com) permette di condividere file tra diverse persone, offrendo opzioni di sicurezza di accesso a questi file.
