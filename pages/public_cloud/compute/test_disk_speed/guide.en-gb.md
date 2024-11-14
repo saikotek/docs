@@ -1,7 +1,7 @@
 ---
 title: 'Test disk speed'
 excerpt: 'This guide will show you how to test the number of input/output operations per second (IOPS) that your disks are able to achieve, whether for instances or additional disks.'
-updated: 2024-11-13
+updated: 2024-11-14
 ---
 
 ## Objective
@@ -145,13 +145,10 @@ Instead of having IOPS around 3,000 for additional disks, they cap at around 500
 
 In this case, we recommend doing the speed tests on an additional disk formatted with a Linux file system (ext3-ext4 for example) to make the comparison:
 
-1\. Recreate an additional blank disk of the same size as the one assigned.
-
-2\. Migrate it to the Windows instance, format it in NTFS, and run the tests again.
-
-3\. Create a Linux instance of the same type as the original instance.
-
-4\. Attach the additional disk, format it as a Linux system, and run the following requested tests.
+1. Recreate an additional blank disk of the same size as the one assigned.
+2. Migrate it to the Windows instance, format it in NTFS, and run the tests again.
+3. Create a Linux instance of the same type as the original instance.
+4. Attach the additional disk, format it as a Linux system, and run the following requested tests.
 
 **preallocate volume**
 

@@ -1,7 +1,7 @@
 ---
 title: 'Tester la vitesse des disques'
 excerpt: "Vérifiez le nombre d'opérations d'entrée-sortie par seconde (IOPS) que vos disques sont en mesure d'effectuer"
-updated: 2024-11-13
+updated: 2024-11-14
 ---
 
 ## Objectif
@@ -126,7 +126,7 @@ fio --name=rand-write --ioengine=windowsaio --iodepth=32 --rw=randwrite --invali
 >
 > Notez que vous devrez modifier l'argument `--numjobs` pour refléter le nombre de CPU de votre instance.
 >
-> Vous pouvez récupérer une liste d'arguments et leurs fonctions directement à partir du [guide](https://github.com/axboe/fio/blob/master/HOWTO.rst) de fio.
+> Vous pouvez récupérer une liste d'arguments et leurs fonctions directement à partir du [guide de fio](https://github.com/axboe/fio/blob/master/HOWTO.rst).
 >
 
 ### Analyser les données
@@ -135,22 +135,19 @@ Une fois le test terminé, vous obtenez un résultat semblable à ce qui suit :
 
 ![windows](images/fio_windows.png){.thumbnail}
 
-### Disques supplementaires
+### Disques supplémentaires
 
-Les disques supplementaires ne pouvent pas être monté en mode rescue, la seule façon de tester leur vitesse est de le faire lorsque l'instance est active.
+Les disques supplémentaires ne pouvent pas être montés en mode rescue, la seule façon de tester leur vitesse est de le faire lorsque l'instance est active.
 
 Dans le cas de Windows et des systèmes de fichiers NTFS, nous avons remarqué que certains pilotes récents peuvent créer des goulots d'étranglement. Dans ce cas, vous risquez d'obtenir des résultats insatisfaisants.
 
 Au lieu d'avoir des IOPS autour de 3 000 pour les disques supplémentaires, ils plafonnent à environ 500.
 
-Dans ce cas, nous recommandons de faire les tests de vitesse sur disque supplementaire formaté avec un systeme de fichier Linux (ext3-ext4 par ex) pour faire la comparaison :
+Dans ce cas, nous recommandons de faire les tests de vitesse sur un disque supplémentaire formaté avec un systeme de fichiers Linux (ext3-ext4 par exemple) pour faire la comparaison :
 
-1\. Recréer un disque vierge supplémentaire de la même taille que celui qui est affecté.
-
-2\. Le migrer vers l'instance Windows, le formater en NTFS et refaire les tests.
-
-3\. Créer une instance Linux du même type que l'instance d'origine.
-
+1\. Recréez un disque vierge supplémentaire de la même taille que celui qui est affecté.
+2\. Migrez-le vers l'instance Windows, formatez-le en NTFS et refaites les tests.
+3\. Créez une instance Linux du même type que l'instance d'origine.
 4\. Attachez le disque supplémentaire, formatez-le en tant que système Linux et exécutez les tests demandés suivants.
 
 **préallocation du volume**
@@ -171,9 +168,8 @@ fio --runtime=90 --time_based --group_reporting --name=test-1 --ioengine=libaio 
 fio --runtime=90 --time_based --group_reporting --name=test-1 --ioengine=libaio --filesize=1G --filename=test-image-1 --rw=randread --bs=4k --iodepth=32 --direct=1 --numjobs=1 
 ```
 
-
 ## Aller plus loin
 
-[Créer et configurer un disque supplementaire sur une instance](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance){.external}.
+[Créer et configurer un disque supplémentaire sur une instance](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance){.external}.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
