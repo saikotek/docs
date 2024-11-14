@@ -4,10 +4,6 @@ excerpt: "Scopri come associare il tuo Entra ID (precedentemente Azure Active Di
 updated: 2024-07-05
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 L'autenticazione **SSO** (*Single Sign-On*) è disponibile per accedere al tuo account OVHcloud. Per attivare queste connessioni, l'account e l'Entra ID (in precedenza Azure Active Directory) devono essere configurati utilizzando SAML (*Security Assertion Markup Language*)..

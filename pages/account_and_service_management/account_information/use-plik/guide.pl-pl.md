@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak używać narzędzia Plik do wysyłania plików innym
 updated: 2022-02-14
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Internetowe narzędzie [Plik](https://plik.ovhcloud.com) umożliwia współdzielenie plików między różnymi osobami, oferując opcje zabezpieczania dostępu do tych plików.

@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak powiązać identyfikator Entra ID (dawniej Azure Act
 updated: 2024-07-05
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Możesz użyć uwierzytelnienia **SSO** (*Single Sign-On*), aby zalogować się do Twojego konta OVHcloud. Aby włączyć te połączenia, Twoje konto i identyfikator Entra ID (dawniej Azure Active Directory) muszą zostać skonfigurowane przy użyciu protokołu SAML (*Security Assertion Markup Language*).

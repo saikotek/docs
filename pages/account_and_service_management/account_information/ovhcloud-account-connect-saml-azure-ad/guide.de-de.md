@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie Entra ID (vormals Azure Active Directory) �
 updated: 2024-07-05
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Sie können die Authentifizierungsmethode **Single Sign-On** (SSO) verwenden, um sich in Ihren OVHcloud Kunden-Account einzuloggen. Um diese Verbindungen zu aktivieren, müssen Ihr Account und Ihr Entra ID (vormals Azure Active Directory) mithilfe von SAML-Authentifizierungen (*Security Serving Markup Language*) konfiguriert werden.
