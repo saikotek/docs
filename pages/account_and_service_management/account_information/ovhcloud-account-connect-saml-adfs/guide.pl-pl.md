@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak powiązać usługę Active Directory Federation Serv
 updated: 2024-06-25
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Do zalogowania się do konta OVHcloud możesz użyć **unikalnego** uwierzytelnienia SSO (*Single Sign-On*). Aby włączyć te połączenia, Twoje konto oraz usługi AD FS (*Active Directory Federation Services*) muszą być skonfigurowane za pomocą uwierzytelniania SAML (*Security Assertion Markup Language*).

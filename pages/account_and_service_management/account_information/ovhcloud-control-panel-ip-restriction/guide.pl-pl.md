@@ -4,11 +4,6 @@ excerpt: "Dowiedz się, jak zabezpieczyć Twoje konto OVHcloud ograniczając dos
 updated: 2022-12-12
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
-  
 ## Wprowadzenie
   
 OVHcloud daje do Twojej dyspozycji opcje służące zwiększeniu bezpieczeństwa Twojego Panelu klienta OVHcloud i Twoich usług.
