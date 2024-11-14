@@ -4,7 +4,6 @@ excerpt: Encontre as questões mais frequentes sobre faturação e pagamento
 updated: 2023-06-05
 ---
 
-  
 ## Objetivo
 
 Veja aqui as questões mais frequentes sobre faturação e pagamento para os seus serviços OVHcloud.
