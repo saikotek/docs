@@ -1,7 +1,7 @@
 ---
 title: "Comment réinitialiser le mot de passe administrateur avec Rescue-Customer-Windows"
 excerpt: "Comment réinitialiser le mot de passe administrateur avec Rescue-Customer-Windows"
-updated: 2024-06-26
+updated: 2024-11-15
 ---
 
 ## Objectif
@@ -83,8 +83,9 @@ Le disque local est désormais accessible et le disque Windows correpsond au vol
 
 ![disk_import_sync](images/disk_import_sync.png){.thumbnail}
 
-__Note__: Dans cet exemple, l'état du volume est "Resynching" car le serveur a été brutalement redémarré en mode rescue. C'est un état normal qui n'est pas causé par le rescue en lui-même.
-Cela n'affectera pas les données du volume et la resynchronisation continuera une fois le serveur redémarré sur son système installé.
+> [!primary]
+> Dans cet exemple, l'état du volume est "Resynching" car le serveur a été brutalement redémarré en mode rescue. C'est un état normal qui n'est pas causé par le rescue en lui-même.
+> Cela n'affectera pas les données du volume et la resynchronisation continuera une fois le serveur redémarré sur son système installé.
 
 > [!warning]
 >
@@ -130,7 +131,7 @@ Dans la fenêtre qui apparaît, tapez votre nouveau mot de passe dans les deux c
 >
 > Gardez à l'esprit que ce mot de passe permettra de se connecter à distance sur le serveur, une fois redémarré sur son système d'exploitation.
 
-Terminez en cliquant sur `Save changes`{.action} puis sur `Exit`{.action}..
+Terminez en cliquant sur `Save changes`{.action} puis sur `Exit`{.action}.
 
 Le serveur doit alors être redémarré sur le système d'exploitation normal.
 
