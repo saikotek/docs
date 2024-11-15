@@ -227,4 +227,4 @@ The maximum bandwidth is 1 Gbps per connection.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

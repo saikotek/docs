@@ -52,7 +52,6 @@ La majorité des outils du marché compatibles avec du stockage S3 standard sont
 
 Oui, l'Object Storage S3 est largement compatible avec les API S3 et peut être intégré avec les outils du marché comme par exemple [Veeam](/pages/storage_and_backup/object_storage/s3_veeam), [Owncloud](/pages/storage_and_backup/object_storage/s3_owncloud), [Nextcloud](/pages/storage_and_backup/object_storage/s3_nextcloud).
 
-
 ## Facturation
 
 ### Comment est facturé le service ?
@@ -168,7 +167,7 @@ La bande passante est mutualisée et non garantie. Nous offrons un maximum de 1 
 
 ### Comment est facturée la bande passante ?
 
-Les prix sont définis et affichés sur [le site OVHcloud](/links/public-cloud/prices#439).
+Les prix sont définis et affichés sur [le site OVHcloud](https://www.ovhcloud.com/fr/public-cloud/prices/#439).
 
 Un serveur OVHcloud est un serveur opéré pour un service OVHcloud, par exemple un serveur de la gamme Bare Metal Cloud, Public Cloud ou Hosted Private Cloud (Serveur Dédié / VPS / Public Cloud / Hosted Private Cloud / So You Start / Kimsufi / xDSL).
 
@@ -224,4 +223,4 @@ La bande passante maximale est de 1 Gbps par connexion.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
