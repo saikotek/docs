@@ -149,7 +149,7 @@ Neste caso preciso, e para subscrever a sua solução Web Cloud Databases a este
 
 Após alguns segundos e se permanecer na mesma página, será apresentada uma mensagem na Área de Cliente a indicar que a subscrição foi criada com sucesso.
 
-#### Cas n°2 - Subscrever um novo fluxo de dados na sua solução Logs Data Platform
+#### Caso n°2 - Subscrever um novo fluxo de dados na sua solução Logs Data Platform
 
 Se o fluxo em causa ainda não existir, clique no botão `Adicionar um fluxo de dados`{.action}.
 Será então reencaminhado para uma nova página da sua Área de Cliente OVHcloud que lhe permitirá criar e adicionar um novo fluxo de dados na sua solução Logs Data Platform.
