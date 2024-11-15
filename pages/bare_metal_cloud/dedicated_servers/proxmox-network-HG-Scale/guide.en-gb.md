@@ -6,6 +6,12 @@ updated: 2024-10-18
 
 > [!primary]
 >
+> The sections related to Advance range servers only apply to third generation Advance servers powered by EPYC 4004 Series processors.
+> Older Advance generation servers do not rely on the same network infrastructure.
+>
+
+> [!primary]
+>
 > Since October 6th, 2022 our service "Failover IP" has been named [Additional IP](/links/network/additional-ip). This renaming has no impact on its technical features.
 >
 
