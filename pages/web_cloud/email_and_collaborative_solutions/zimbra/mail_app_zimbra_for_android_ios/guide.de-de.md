@@ -74,7 +74,7 @@ Folgen Sie den Installationsschritten, indem Sie auf die Tabs klicken:
 
 Nach der Konfiguration des E-Mail-Accounts können Sie diesen verwenden! Sie können ab sofort Nachrichten senden und empfangen.
 
-OVHcloud bietet auch eine Web-App, mit der Sie über einen Webbrowser auf Ihren E-Mail-Accounts zugreifen können. Diese ist über [diesen Link](/links/web/email) verfügbar. Sie können sich mit den Login-Daten Ihres E-Mail-Accounts anmelden. Wenn Sie Fragen zur Verwendung haben, lesen Sie unsere Anleitung „[Zimbra Webmail verwenden](/pages/web_cloud/email_and_collaborative_solutions)“.
+OVHcloud bietet auch eine Web-App, mit der Sie über einen Webbrowser auf Ihren E-Mail-Accounts zugreifen können. Diese ist über [diesen Link](/links/web/email) verfügbar. Sie können sich mit den Login-Daten Ihres E-Mail-Accounts anmelden. Wenn Sie Fragen zur Verwendung haben, lesen Sie unsere Anleitung „[Zimbra Webmail verwenden](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)“.
 
 ### Einen anderen Zimbra E-Mail-Account aufrufen <a name="modify-settings"></a>
 

@@ -74,7 +74,7 @@ Segui i passaggi di installazione cliccando sulle schede qui sotto:
 
 Una volta configurato l’indirizzo email, non ti resta che utilizzarlo! Da questo momento è possibile inviare e ricevere messaggi.
 
-OVHcloud propone anche un’applicazione Web che permette di accedere al tuo indirizzo email da un browser Internet. alla quale puoi accedere tramite [questo link](/links/web/email). e accessibile con le credenziali del tuo account. Per qualsiasi domanda relativa all’utilizzo, consulta la nostra guida "[Utilizzare la webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions)".
+OVHcloud propone anche un’applicazione Web che permette di accedere al tuo indirizzo email da un browser Internet. alla quale puoi accedere tramite [questo link](/links/web/email). e accessibile con le credenziali del tuo account. Per qualsiasi domanda relativa all’utilizzo, consulta la nostra guida "[Utilizzare la webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)".
 
 ### Consultare un altro indirizzo email Zimbra <a name="modify-settings"></a>
 

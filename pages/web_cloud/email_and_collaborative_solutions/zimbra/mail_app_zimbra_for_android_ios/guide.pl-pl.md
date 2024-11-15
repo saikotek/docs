@@ -75,7 +75,7 @@ Postępuj zgodnie z kolejnymi instrukcjami, klikając poniższe zakładki:
 
 Po zakończeniu konfiguracji konto jest gotowe do użytku! Możesz teraz wysyłać i odbierać wiadomości.
 
-OVHcloud oferuje aplikację internetową umożliwiającą korzystanie z Twojego konta e-mail przy użyciu wyszukiwarki. Jest ona dostępna pod [tym linkiem](/links/web/email). Możesz się do niej zalogować, używając tych samych danych, których używasz do logowania się do konta e-mail. Jeśli masz pytania dotyczące korzystania z tej usługi, zapoznaj się z naszym przewodnikiem "[Korzystanie z usługi Zimbra Webmail](/pages/web_cloud/email_and_collaborative_solutions)".
+OVHcloud oferuje aplikację internetową umożliwiającą korzystanie z Twojego konta e-mail przy użyciu wyszukiwarki. Jest ona dostępna pod [tym linkiem](/links/web/email). Możesz się do niej zalogować, używając tych samych danych, których używasz do logowania się do konta e-mail. Jeśli masz pytania dotyczące korzystania z tej usługi, zapoznaj się z naszym przewodnikiem "[Korzystanie z usługi Zimbra Webmail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)".
 
 ### Sprawdź inny adres e-mail Zimbra <a name="modify-settings"></a>
 
