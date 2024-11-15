@@ -1,7 +1,7 @@
 ---
 title: OVHcloud Support FAQ
 excerpt: Hier finden Sie die häufigsten Fragen zum OVHcloud Support
-updated: 2024-08-09
+updated: 2024-11-15
 ---
 
 ## Ziel
@@ -11,6 +11,8 @@ Hier finden Sie Antworten zu den häufigsten Fragen zum OVHcloud Support.
 <a name="sso"></a>
 
 ## Voraussetzungen
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/44q3cfQM-YI?si=JemH0lvLPWFuFGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Was kann ich tun, wenn ich Schwierigkeiten habe, mich mit dem Help Center oder dem Interface zur Verwaltung meiner Tickets zu verbinden?
 

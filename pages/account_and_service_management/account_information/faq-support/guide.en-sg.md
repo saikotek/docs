@@ -1,7 +1,7 @@
 ---
 title: OVHcloud Support FAQ
 excerpt: Find the most frequently asked questions about the OVHcloud support
-updated: 2024-08-09
+updated: 2024-11-15
 ---
 
 ## Objective
@@ -11,6 +11,8 @@ Find the most frequently asked questions about the OVHcloud support.
 <a name="sso"></a>
 
 ## FAQ
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/44q3cfQM-YI?si=JemH0lvLPWFuFGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### What should I do if I experience any difficulties logging in to the Help Center or the ticket management interface?
 
