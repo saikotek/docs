@@ -206,7 +206,7 @@ Cliquez sur le bouton `Generate`{.action}.
 
 Une barre de progression s'affiche. Déplacez le curseur de la souris sur la zone située sous la barre de progression jusqu'à ce que PuTTYgen dispose de suffisamment de données aléatoires pour commencer à générer votre clé.
 
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_02.gif){.thumbnail}
+![putty key](/pages/assets/screens/other/web-tools/putty/puttygen.gif){.thumbnail}
 
 Vous disposez désormais d'une **paire de clés** composée de deux éléments :
 

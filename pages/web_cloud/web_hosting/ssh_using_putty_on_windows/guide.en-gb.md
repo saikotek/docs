@@ -207,7 +207,7 @@ Click on the button `Generate`{.action}.
 
 A progress bar will appear. Move your mouse cursor about the area below the progress bar until PuTTYgen has enough randomized data to start generating your key.
 
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_02.gif){.thumbnail}
+![putty key](/pages/assets/screens/other/web-tools/putty/puttygen.gif){.thumbnail}
 
 You now have a **key pair**, consisting of two elements:
 
