@@ -68,13 +68,13 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 
 > [!success]
 >
-> A interface da aplicação Zimbra é semelhante ao webmail. Para mais pormenores sobre as funcionalidades e os parâmetros, consulte o guia "[Utilizar o webmail Zimbra](/pages/web_cloud/email_and_colaborative_solutions/mx_plan/email_zimbra)".
+> A interface da aplicação Zimbra é semelhante ao webmail. Para mais pormenores sobre as funcionalidades e os parâmetros, consulte o guia "[Utilizar o webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)".
 
 ### Utilizar o endereço de e-mail
 
 Depois de configurar o endereço de e-mail, já só precisa de o utilizar! Já pode enviar e receber mensagens no seu dispositivo.
 
-A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Ela está acessível através de [este link](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte o guia « [Utilizar o webmail Zimbra](/pages/web_cloud/email_and_colaborative_solutions/) ».
+A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Ela está acessível através de [este link](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte o guia « [Utilizar o webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/) ».
 
 ### Consultar outro endereço de e-mail Zimbra <a name="modify-settings"></a>
 
