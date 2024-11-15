@@ -33,7 +33,7 @@ Es posible configurar las cuentas de correo electrónico de Zimbra en el cliente
 >
 > OVHcloud pone a su disposición servicios cuya configuración, gestión y responsabilidad recaen sobre usted. Por lo tanto, usted deberá asegurarse de que estos funcionen correctamente.
 >
-> Esta guía le ayudará a realizar las tareas más habituales. No obstante, si necesita ayuda, le recomendamos que contacte con un [partner especializado](https://marketplace.ovhcloud.com/c/support-collaboration) o con el editor del servicio. Nosotros no podremos asistirle. Para más información, consulte el apartado «Más información» de esta guía.
+> Esta guía le ayudará a realizar las tareas más habituales. No obstante, si necesita ayuda, le recomendamos que contacte con un [partner especializado](/links/partner) o con el editor del servicio. Nosotros no podremos asistirle. Para más información, consulte el apartado «Más información» de esta guía.
 
 ## Requisitos
 
@@ -48,19 +48,19 @@ Es posible configurar las cuentas de correo electrónico de Zimbra en el cliente
 Siga los pasos de instalación haciendo clic en las fichas siguientes:
 
 > [!tabs]
-> **Paso 1**
+> **Etapa 1**
 >>
 >> al iniciar la aplicación por primera vez, aparecerá la siguiente ventana. Introduzca la URL del servidor Zimbra OVHcloud `https://zimbra1.mail.ovh.net`, pulse `Continue`{.action} para validar.
 >>
 >> ![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
 >>
-> **Paso 2**
+> **Etapa 2**
 >>
 >> Introduzca su **dirección de correo electrónico** Zimbra y la **contraseña** asociada y pulse `Conexión`{.action}.
 >>
 >> ![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
 >>
-> **Paso 3**
+> **Etapa 3**
 >>
 >> Ya puede acceder al contenido de su cuenta de correo. Su bandeja de entrada aparece de forma predeterminada <br><br>
 >>

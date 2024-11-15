@@ -1,6 +1,6 @@
 ---
 title: "Zimbra - Configurar a sua conta de e-mail na aplicação móvel Zimbra"
-excerpt: "Descubra como configurar o seu endereço de e-mail Zimbra na aplicação móvel Zimbra disponível em Android e iOS"
+excerpt: "Saiba como configurar o seu endereço de e-mail Zimbra na aplicação móvel Zimbra disponível em Android e iOS"
 updated: 2024-11-13
 ---
 
@@ -33,7 +33,7 @@ As contas de e-mail do Zimbra podem ser configuradas em vários softwares de e-m
 >
 > A OVHcloud oferece-lhe serviços cuja configuração, gestão e responsabilidade é da sua responsabilidade. Assim, deverá assegurar o seu bom funcionamento.
 >
-> Este guia fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [parceiro especializado](https://marketplace.ovhcloud.com/c/support-collaboration) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, consulte a secção « Ir mais longe » deste guia.
+> Este guia fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [parceiro especializado](/links/partner) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, consulte a secção "Ir mais longe" deste guia.
 
 ## Requisitos
 
@@ -68,7 +68,7 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 
 > [!success]
 >
-> A interface da aplicação Zimbra é semelhante ao webmail. Para mais pormenores sobre as funcionalidades e os parâmetros, consulte o guia « [Utilizar o webmail Zimbra](/pages/web_cloud/email_and_colaborative_solutions/mx_plan/email_zimbra) ».
+> A interface da aplicação Zimbra é semelhante ao webmail. Para mais pormenores sobre as funcionalidades e os parâmetros, consulte o guia "[Utilizar o webmail Zimbra](/pages/web_cloud/email_and_colaborative_solutions/mx_plan/email_zimbra)".
 
 ### Utilizar o endereço de e-mail
 

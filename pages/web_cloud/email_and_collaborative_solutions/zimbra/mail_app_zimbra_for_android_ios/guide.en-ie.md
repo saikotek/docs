@@ -33,7 +33,7 @@ Zimbra email accounts can be configured on different email clients that are comp
 >
 > OVHcloud provides services that you are responsible for configuring, managing and managing. It is therefore up to you to ensure that it works properly.
 >
-> We have provided you with this guide in order to help you with common tasks. Nevertheless, we recommend contacting a [specialized partner](https://marketplace.ovhcloud.com/c/support-collaboration) and/or the service publisher if you experience any difficulties. We will not be able to assist you. You can find more information in the “Go further” section of this guide.
+> We have provided you with this guide in order to help you with common tasks. Nevertheless, we recommend contacting a [specialized partner](/links/partner) and/or the service publisher if you experience any difficulties. We will not be able to assist you. You can find more information in the “Go further” section of this guide.
 
 ## Requirements
 
