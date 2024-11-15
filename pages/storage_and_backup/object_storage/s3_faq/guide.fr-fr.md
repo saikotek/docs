@@ -57,28 +57,30 @@ Oui, l'Object Storage S3 est largement compatible avec les API S3 et peut être 
 
 ### Comment est facturé le service ?
 
-L'Object Storage est facturé en fonction de l'espace de stockage utilisé, avec une granularité de 1 Go. Pour assurer sa lisibilité, le prix est affiché au Go/mois, mais la granularité de la facturation est au Go/heure. Consultez la tarification sur [cette page](https://www.ovhcloud.com/fr/public-cloud/prices/).
+L'Object Storage est facturé en fonction de l'espace de stockage utilisé, avec une granularité de 1 Go. Pour assurer sa lisibilité, le prix est affiché au Go/mois, mais la granularité de la facturation est au Go/heure. Consultez la tarification sur [cette page](/links/public-cloud/prices).
 
 ### Exemple de tarification pour Object Storage – 1-AZ
 
 Supposons que vous stockiez au sein d'un **bucket Object Storage** dans une région 1-AZ, **100 Gio** de données S3 Standard pendant les **10 premiers jours** du mois d'octobre, et **100 Tio** (102 400 Go) de données S3 Standard pendant les **21 derniers jours** du mois. On imagine donc dans ce cas une évolution du stockage au sein de ce bucket au cours du mois.
 
-Une fois le mois d'octobre terminé, vous obtiendriez en Gigaoctet-heure : **Gigaoctet-heure total** = [100 Go x 10 jours x (24 heures/jour)] + [102 400 Go x 21 jours x (24 heures/jour)] = 24 000 + 51 609 600 = **51 633 600 Go-heures**
+Une fois le mois d'octobre terminé, vous obtiendriez en Gigaoctet-heure : **Gigaoctet-heure total** = [100 Go x 10 jours x (24 heures/jour)] + [102 400 Go x 21 jours x (24 heures/jour)] = 24 000 + 51 609 600 = **51 633 600 Go-heures**.
 
 Le coût de stockage mensuel (au prix de 0,00000972 EUR / Go-heure) est : 51 633 600 Go-heures * 0,00000972= **501.88 EUR**
 
-Sur le mois de novembre, la volumétrie n'évolue plus, le coût de stockage mensuel est calculé comme suit : **Go-heure du mois de novembre** = 100 * 1024 * 720 = **73 728 000 Go-heure** (il y a 720 heures en novembre)
+Sur le mois de novembre, la volumétrie n'évolue plus, le coût de stockage mensuel est calculé comme suit : **Go-heure du mois de novembre** = 100 * 1024 * 720 = **73 728 000 Go-heure** (il y a 720 heures en novembre).
 
-soit le coût du stockage mensuel ((au prix de 0,00000972 EUR / Go-heure) : 73 728 000 * 0,00000972= **716.63 EUR**
+Soit le coût du stockage mensuel (au prix de 0,00000972 EUR / Go-heure) : 73 728 000 * 0,00000972 = **716.63 EUR**.
 
-### Exemple de tarification pour un Object Storage – 3-AZ (tarification par palier)
+### Exemple de tarification pour un Object Storage – 3-AZ (tarification par paliers)
 
-Dans une région 3-AZ, la tarification du stockage se fait par palier, ou tranche de volumes de stockage. Consultez ces tarifs sur [cette page](https://www.ovhcloud.com/fr/public-cloud/prices/). 
-Supposons que vous stockiez au sein d'un bucket **Object Storage - S3 Standard** dans une région 3-AZ, **100 Gio** de données de pendant les **10 premiers jours** du mois d'octobre, et **100 Tio** (102 400 Go) de données pendant les **21 derniers jours** du mois. On imagine donc dans ce cas une évolution du stockage au sein de ce bucket au cours du mois.
+Dans une région 3-AZ, la tarification du stockage se fait par paliers, ou tranches de volumes de stockage. Consultez ces tarifs sur [cette page](/links/public-cloud/prices).
+
+Supposons que vous stockiez au sein d'un bucket **Object Storage - S3 Standard** dans une région 3-AZ, **100 Gio** de données pendant les **10 premiers jours** du mois d'octobre, et **100 Tio** (102 400 Go) de données pendant les **21 derniers jours** du mois. On imagine donc dans ce cas une évolution du stockage au sein de ce bucket au cours du mois.
 
 Une fois le mois d'octobre terminé, vous obtiendriez en Gigaoctet-heure : **Gigaoctet-heure total** = [100 Go x 10 jours x (24 heures/jour)] + [102 400 Go x 21 jours x (24 heures/jour)] = 24 000 + 51 609 600 = **51 633 600 Go-heures**
 
-Ce volume d'utilisation traverse deux paliers de tarifications différentes. Le coût de stockage mensuel est calculé comme suit :
+Ce volume d'utilisation traverse deux paliers de tarifications différents. Le coût de stockage mensuel est calculé comme suit :
+
 - Premier palier de **0 Go-heures à (50 * 1024 * 730 = 37 376 000 Go-heures)**, prix appliqué : 0.00001873 / Go-heure (ou env. 14 EUR/To/mois).
 - Deuxième palier de **37 376 001 Go-heures à (500 * 1024 * 730 = 373 760 000 Go-heures)**, prix appliqué : 0.00001672 / Go-heure ou (ou env. 12,5 EUR/To/mois).
 
@@ -86,7 +88,7 @@ Le coût de stockage mensuel est : 37 376 000 * 0.00001873 + (51 633 600 - 37 37
 
 Sur le mois de novembre, la volumétrie n'évolue plus, le coût de stockage mensuel est calculé comme suit : **Go-heure du mois de novembre** = 100 * 1024 * 720 = **73 728 000 Go-heure** (il y a 720 heures en novembre)
 
-soit le coût du stockage mensuel : 37 376 000 * 0.00001873 + (73 728 000 - 37 376 000) * 0.00001672 = 700.05248 + 607.80544 = **1307.86 EUR**
+Soit le coût du stockage mensuel : 37 376 000 * 0.00001873 + (73 728 000 - 37 376 000) * 0.00001672 = 700.05248 + 607.80544 = **1307.86 EUR**
 
 ## Accès & sécurité
 
@@ -115,9 +117,10 @@ Il n'est pas encore possible de configurer des droits d'accès par bucket.
 ### Est-ce que je peux chiffrer mes données ?
 
 Vous pouvez chiffrer vos données via deux méthodes:
+
 - **SSE-C (Server-Side Encryption with Customer Keys)** : vous pouvez fournir et gérer vos propres clés de chiffrement, vous offrant ainsi une maîtrise complète sur la sécurité de vos données. Cette option est particulièrement adaptée aux organisations ayant des besoins spécifiques en matière de conformité et de sécurité des données, puisqu'elle permet une gestion exclusive des clés de chiffrement.
 - **SSE-S3 (Server-Side Encryption with OVHcloud-Managed Keys)** : simplifie le processus de chiffrement en utilisant des clés gérées par OVHcloud. Cette méthode est idéale pour les clients qui souhaitent bénéficier d'une solution de chiffrement robuste sans les complexités liées à la gestion des clés.
-    
+
 Lorsque vous chargez un objet, S3 Object Storage utilise la clé de chiffrement que vous fournissez pour appliquer le chiffrement AES-256 à vos données. Lorsque vous récupérez un objet, vous devez fournir la même clé de chiffrement dans le cadre de votre demande. S3 Object Storage vérifie d'abord que la clé de chiffrement que vous avez fournie correspond, puis déchiffre l'objet avant de vous renvoyer les données de l'objet.
 
 Retrouvez plus d'informations dans notre guide « [Chiffrez vos objets côté serveur avec SSE-C ou SSE-S3](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c) ».
@@ -165,7 +168,7 @@ La bande passante est mutualisée et non garantie. Nous offrons un maximum de 1 
 
 ### Comment est facturée la bande passante ?
 
-Les prix sont définis et affichés sur [le site OVHcloud](https://www.ovhcloud.com/fr/public-cloud/prices/#439).
+Les prix sont définis et affichés sur [le site OVHcloud](/links/public-cloud/prices#439).
 
 Un serveur OVHcloud est un serveur opéré pour un service OVHcloud, par exemple un serveur de la gamme Bare Metal Cloud, Public Cloud ou Hosted Private Cloud (Serveur Dédié / VPS / Public Cloud / Hosted Private Cloud / So You Start / Kimsufi / xDSL).
 
