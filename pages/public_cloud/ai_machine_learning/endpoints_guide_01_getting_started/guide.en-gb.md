@@ -65,8 +65,6 @@ This will take you to a page with several options for interacting with the model
 - **Tutorials**: The "Tutorials" option lists blog articles related to AI Endpoints that you may find helpful in learning how to use the model more effectively. Whether you're building a chatbot with Langchain and JavaScript or creating a video translator app, we provide step-by-step guidance to support your AI projects.
 - **API**: The "API" option provides access to POST routes that you can use to send a request to the model and receive an output. Here you can also find information on how to send a correct request to the model.
 
-### Interacting with AI APIs
-
 ### Billing and usage
 
 AI Endpoint is always free during its beta phase. 
