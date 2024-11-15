@@ -37,7 +37,7 @@ Em certas situações, poderá ter de consultar / recuperar os logs:
 ## Requisitos
 
 - Ter uma solução [Web Cloud Databases](/links/web/databases).
-Ter acesso à [Área de Cliente OVHcloud](/links/manager).
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
 
 ## Instruções
 
