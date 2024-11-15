@@ -1,7 +1,7 @@
 ---
 title: "Comment gérer votre module en 1 clic ?"
 excerpt: "Découvrez comment gérer votre module en 1 clic depuis votre espace client OVHcloud"
-updated: 2024-10-11
+updated: 2024-11-15
 ---
 
 ## Objectif
@@ -19,7 +19,7 @@ Les modules en 1 clic permettent l’installation facile et rapide d’un logici
 
 ## Prérequis
 
-- Disposer d'une [offre d'hébergement Web Cloud](https://www.ovh.com/fr/hebergement-web/) permettant l'installation d'un module en 1 clic (seule l'[offre d'hébergement gratuit 100M](/pages/web_cloud/web_hosting/activate_start10m) n'est pas concernée).
+- Disposer d'une [offre d'hébergement Web Cloud](/links/web/hosting) permettant l'installation d'un module en 1 clic (seule l'[offre d'hébergement gratuit 100M](/pages/web_cloud/web_hosting/activate_start10m) n'est pas concernée).
 - Avoir créé un module en 1 clic sur votre hébergement (Si vous n'avez pas encore effectué cette installation, suivez les instructions de ce [guide](/pages/web_cloud/web_hosting/cms_install_1_click_modules)).
 - Être connecté à votre [espace client OVHcloud](/links/manager).
 
@@ -99,6 +99,17 @@ Pour sauvegarder votre site, suivez les instructions de ce [guide](/pages/web_cl
 Pour supprimer votre module en 1 clic, rendez-vous dans votre [espace client OVHcloud](/links/manager), cliquez sur `Web Cloud`{.action}, `Hébergements`{.action}, sur l'hébergement concerné puis sur `Modules en 1 clic`{.action}.
 
 Cliquez ensuite sur le bouton `...`{.action} à droite de la ligne désignant votre module puis sur la commande `Supprimer le module`{.action}.
+
+> [!success]
+> Vous ne trouvez pas le bouton `Supprimer le module`{.action} ? Ou vous souhaitez seulement supprimer des fichiers sur votre module ?
+>
+> Consultez nos guides :
+>
+> - [Se connecter à l’espace de stockage FTP de son hébergement web](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutoriel - Utiliser FileZilla avec votre hébergement OVHcloud](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/q56mkNNalOI?si=CeQ7dGB_Rmogted0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

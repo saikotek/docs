@@ -10,6 +10,8 @@ Jeśli zamówiłeś hosting i nie powiązałeś go bezpośrednio z nazwą domeny
 
 **Dowiedz się, jak aktywować konta e-mail zawarte w hostingu.**
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/oqWovkSP85A?si=1rnqBvhVLdhr2rI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Wymagania początkowe
 
 - Posiadanie [domeny](/links/web/domains){.external}i możliwość zarządzania nią w Panelu klienta

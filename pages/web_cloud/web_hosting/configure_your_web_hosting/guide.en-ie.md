@@ -40,7 +40,7 @@ In short, changing your Web Hosting plan’s configuration from the [OVHcloud Co
 
 **Find out how to modify a web hosting plan’s runtime environment, PHP version, application firewall, engine, mode and .ovhconfig file.**
 
-<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/x_XDyA7D4qQ?si=OovLiOQbB45TDlRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requirements
 

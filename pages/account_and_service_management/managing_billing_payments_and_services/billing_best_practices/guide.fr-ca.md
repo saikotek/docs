@@ -13,7 +13,7 @@ Ce guide contient les éléments indispensables à une bonne gestion de votre co
 ## Prérequis
 
 - Disposer d'un ou plusieurs services OVHcloud actifs.
-- Être connecté à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc).
+- Être connecté à votre [espace client OVHcloud](/links/manager).
 
 ## En pratique
 
@@ -45,16 +45,18 @@ Assurez-vous que votre adresse e-mail est toujours **à jour, sécurisée et acc
 > Ajoutez également un **e-mail de secours** à vos informations personnelles pour vous prémunir de toute perte d’accès à votre compte client OVHcloud.
 >
 
-Les e-mails envoyés par OVHcloud sont également accessibles depuis votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc).<br>
+Les e-mails envoyés par OVHcloud sont également accessibles depuis votre [espace client OVHcloud](/links/manager).<br>
 Cliquez sur votre nom en haut à droite de votre écran puis sur `E-mails de service`{.action} dans le menu de droite.
 
 ![service_emails](images/service_emails.png){.thumbnail}
 
 ### Activez le renouvellement automatique
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/GjViHErfLCg?si=Qnww6IlDvxAB0Vq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 > [!primary]
 >
-> Afin d’éviter toute interruption de service et pour le bon fonctionnement du renouvellement automatique, [enregistrez un moyen de paiement](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) dans votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc)
+> Afin d’éviter toute interruption de service et pour le bon fonctionnement du renouvellement automatique, [enregistrez un moyen de paiement](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) dans votre [espace client OVHcloud](/links/manager)
 >
 > Assurez-vous régulièrement que votre moyen de paiement est **valide**.
 >
@@ -63,12 +65,13 @@ Pour plus d'informations sur l'activation du renouvellement automatique, consult
 
 - [Gérer le renouvellement de mes services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal);
 - [Gérer mes moyens de paiement](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods);
+- [Payer une commande en tant qu’administration publique](/pages/account_and_service_management/managing_billing_payments_and_services/mandat_administratif).
 
 Si vous décidez de ne pas activer le renouvellement automatique, vous recevrez des notifications par e-mail vous invitant à effectuer un **paiement manuel**. Il vous permettra soit de renouveler votre service à l'avance, soit de régler votre facture en attente.
 
 ### Suivi de vos commandes
 
-Saviez-vous que vous pouviez [suivre vos commandes](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) dans votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc) ?<br>
+Saviez-vous que vous pouviez [suivre vos commandes](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) dans votre [espace client OVHcloud](/links/manager) ?<br>
 Il vous suffit de vous rendre dans l'onglet `Tableau de bord`{.action} du menu supérieur de votre écran puis de cliquer sur `Voir mes commandes`{.action}.
 
 ![viewmyorders](images/viewmyorders.png){.thumbnail}
@@ -77,7 +80,7 @@ Vous serez informé des étapes de la livraison et vous saurez si des actions so
 
 ### Résiliation de services
 
-Si vous souhaitez ne plus utiliser l'un de vos services, vous pouvez le résilier, passer son renouvellement en mode manuel ou le supprimer immédiatement depuis votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc).
+Si vous souhaitez ne plus utiliser l'un de vos services, vous pouvez le résilier, passer son renouvellement en mode manuel ou le supprimer immédiatement depuis votre [espace client OVHcloud](/links/manager).
 
 Cliquez d'abord sur votre nom en haut à droite de votre écran puis sur `Produits et services`{.action}. Sur le côté droit de votre écran, cliquez sur le bouton `...`{.action} correspondant au service sur lequel vous souhaitez agir puis cliquez sur l'un des boutons suivants :
 
@@ -90,7 +93,7 @@ Pour obtenir plus d’informations sur la résiliation de vos services, consulte
 ### Fermeture de compte
 
 Si vous souhaitez clôturer définitivement votre compte personnel OVHcloud, vérifiez tout d’abord qu’il ne contient pas de services actifs, de factures en attente de paiement ou de commandes en cours.<br>
-Ouvrez ensuite une [demande d'assistance](https://ca.ovh.com/manager/#/dedicated/support/tickets/new) auprès de nos équipes support pour demander la suppression définitive de votre compte.
+Ensuite, utilisez [ce formulaire](https://www.ovh.com/fr/protection-donnees-personnelles/exercer-vos-droits/) pour demander la suppression définitive de votre compte. Sélectionnez d'exercer le « Droit d'effacement » dans la liste des propositions.
 
 ## Aller plus loin <a name="gofurther"></a>
 
@@ -98,4 +101,4 @@ Ouvrez ensuite une [demande d'assistance](https://ca.ovh.com/manager/#/dedicated
 
 [Gérer mes factures OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

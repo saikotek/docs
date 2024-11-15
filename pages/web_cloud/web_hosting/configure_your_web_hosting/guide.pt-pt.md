@@ -40,7 +40,7 @@ Em resumo, alterar a configuração do seu alojamento web a partir da [Área de 
 
 **Saiba como alterar o ambiente de execução, a versão PHP, a firewall aplicacional, o motor, o modo e o ficheiro ".ovhconfig" de um alojamento web.**
 
-<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/x_XDyA7D4qQ?si=OovLiOQbB45TDlRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 

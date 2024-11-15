@@ -1,7 +1,7 @@
 ---
 title: "1-Klick-Module verwalten"
 excerpt: "Erfahren Sie hier, wie Sie Ihr 1-Klick-Modul über Ihr OVHcloud Kundencenter verwalten"
-updated: 2024-10-11
+updated: 2024-11-15
 ---
 
 ## Ziel 
@@ -98,6 +98,17 @@ Folgen Sie den Anweisungen in [dieser Anleitung](/pages/web_cloud/web_hosting/ex
 Um Ihr 1-Klick-Modul zu löschen, gehen Sie in Ihr [OVHcloud Kundencenter](/links/manager), klicken Sie auf `Web Cloud`{.action}, `Hosting-Pakete`{.action}, das betreffende Hosting und dann auf `1-Klick-Module`{.action}.
 
 Klicken Sie dann auf den Button `...`{.action} rechts neben der Zeile für Ihr Modul und dann auf den Befehl `Das Modul löschen`{.action}.
+
+> [!success]
+> Sie können den Button `Das Modul löschen`{.action} nicht finden? Oder möchten Sie nur Dateien auf Ihrem Modul löschen?
+>
+> Unsere Anleitungen:
+>
+> - [Mit dem FTP-Speicherplatz eines Webhostings verbinden](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutorial - FileZilla mit Ihrem OVHcloud Hosting nutzen](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/LHpsuvyNFtQ?si=4655K8lQQpkE2YNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

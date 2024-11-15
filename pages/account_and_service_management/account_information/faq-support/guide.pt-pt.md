@@ -1,7 +1,7 @@
 ---
 title: FAQ sobre o suporte da OVHcloud
 excerpt: Encontre as questões mais frequentes sobre o suporte da OVHcloud
-updated: 2024-08-09
+updated: 2024-11-15
 ---
 
 ## Objetivo
@@ -11,6 +11,8 @@ Encontre as questões mais frequentes sobre o suporte da OVHcloud
 <a name="sso"></a>
 
 ## FAQ
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/44q3cfQM-YI?si=JemH0lvLPWFuFGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### O que devo fazer se tiver problemas em aceder à Central de Ajuda ou à interface de gestão dos tickets?
 
