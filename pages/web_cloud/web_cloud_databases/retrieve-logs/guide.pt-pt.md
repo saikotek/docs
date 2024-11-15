@@ -142,7 +142,7 @@ Na nova página que se abrir, e se dispuser de várias soluções Logs Data Plat
 
 Ocorrem dois casos para subscrever a solução Web Cloud Databases.
 
-#### Cas n°1 - Subscrever a um fluxo já existente na sua solução Logs Data Platform <a name="wcdb-ldp-case1"></a>
+#### Caso n°1 - Subscrever a um fluxo já existente na sua solução Logs Data Platform <a name="wcdb-ldp-case1"></a>
 
 Se o fluxo em causa já existir, este aparecerá sob a forma de uma linha na tabela situada na parte inferior da página.
 Neste caso preciso, e para subscrever a sua solução Web Cloud Databases a este fluxo existente, basta clicar no botão `Subscrever`{.action} à direita da linha correspondente ao fluxo em causa.
