@@ -75,7 +75,7 @@ Postępuj zgodnie z kolejnymi instrukcjami, klikając poniższe zakładki:
 
 Po zakończeniu konfiguracji konto jest gotowe do użytku! Możesz teraz wysyłać i odbierać wiadomości.
 
-OVHcloud oferuje aplikację internetową umożliwiającą korzystanie z Twojego konta e-mail przy użyciu wyszukiwarki. Jest ona dostępna pod [tym linkiem](/links/web/email). Możesz się do niej zalogować, używając tych samych danych, których używasz do logowania się do konta e-mail. Jeśli masz pytania dotyczące korzystania z tej usługi, zapoznaj się z naszym przewodnikiem "[Korzystanie z usługi Zimbra Webmail](/pages/web_cloud/email_and_collaborative_solutions/)".
+OVHcloud oferuje aplikację internetową umożliwiającą korzystanie z Twojego konta e-mail przy użyciu wyszukiwarki. Jest ona dostępna pod [tym linkiem](/links/web/email). Możesz się do niej zalogować, używając tych samych danych, których używasz do logowania się do konta e-mail. Jeśli masz pytania dotyczące korzystania z tej usługi, zapoznaj się z naszym przewodnikiem "[Korzystanie z usługi Zimbra Webmail](/pages/web_cloud/email_and_collaborative_solutions)".
 
 ### Sprawdź inny adres e-mail Zimbra <a name="modify-settings"></a>
 
@@ -83,7 +83,7 @@ Aplikacja Zimbra pozwala na skonfigurowanie tylko jednego adresu e-mail w danym 
 
 Przejdź do menu `☰`{.action} w lewym górnym rogu ekranu, a następnie wybierz ikonę profilu w górnej części ekranu. Na koniec kliknij `Wyloguj`.
 
-![Zimbra_App](images/Zimbra_App_Settings01.png){.thumbnail .w-600 .h-600}
+![Zimbra_App](images/zimbra_app_settings01.png){.thumbnail .w-600 .h-600}
 
 ### Co zrobić, jeśli podczas uruchamiania aplikacji pojawi się biały ekran?
 
