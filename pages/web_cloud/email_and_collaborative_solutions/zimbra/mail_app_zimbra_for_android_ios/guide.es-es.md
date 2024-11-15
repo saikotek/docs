@@ -1,7 +1,7 @@
 ---
 title: "Zimbra - Configurar una cuenta de correo electrónico en la aplicación móvil Zimbra"
 excerpt: "Cómo configurar una cuenta de correo electrónico de Zimbra en la aplicación móvil de Zimbra disponible en Android e iOS"
-updated: 2024-11-13
+updated: 2024-11-15
 ---
 
 <style>

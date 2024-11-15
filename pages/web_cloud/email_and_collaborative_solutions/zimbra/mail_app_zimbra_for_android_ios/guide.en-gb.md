@@ -1,7 +1,7 @@
 ---
 title: "Zimbra - How to configure your email account on the Zimbra mobile app"
 excerpt: "Find out how to configure your Zimbra email account on the Zimbra mobile app, available on Android and iOS"
-updated: 2024-11-13
+updated: 2024-11-15
 ---
 
 <style>

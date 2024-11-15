@@ -1,7 +1,7 @@
 ---
 title: "Zimbra - Konfiguracja konta e-mail w aplikacji mobilnej Zimbra"
 excerpt: "Dowiedz się, jak skonfigurować Twoje konto e-mail Zimbra w aplikacji mobilnej Zimbra dostępnej dla systemu Android i iOS"
-updated: 2024-11-13
+updated: 2024-11-15
 ---
 
 <style>
