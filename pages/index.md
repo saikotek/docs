@@ -1049,6 +1049,7 @@
         + [AI Endpoints](products/public-cloud-ai-and-machine-learning-ai-endpoints)
             + [Guides](public-cloud-ai-and-machine-learning-ai-endpoints-guides)
                 + [AI Endpoints - Getting started](public_cloud/ai_machine_learning/endpoints_guide_01_getting_started)
+                + [AI Endpoints - Features, Capabilities and Limitations](public_cloud/ai_machine_learning/endpoints_guide_02_capabilities)
         + [AI Partners Ecosystem](products/public-cloud-ai-and-machine-learning-ai-ecosystem)
             + [AI Partners - Guides](public-cloud-ai-and-machine-learning-ai-ecosystem-guides)
                 + [AI Partners Ecosystem - Lettria - Models features, capabilities and billing](public_cloud/ai_machine_learning/ecosystem_01_lettria_billing_features_capabilities)
