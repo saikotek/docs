@@ -39,11 +39,11 @@ With this configuration, Additional IP addresses must be attached to a dedicated
 #### Target configuration schema
 
 > [!tabs]
-> High Grade & SCALE ranges
+> High Grade & Scale ranges
 >>
 >> ![schema route](images/schema_route2022.png){.thumbnail}
 >>
-> ADVANCE range
+> Advance range
 >>
 >> ![schema route](images/gamme-advance-01.png){.thumbnail}
 >>
@@ -55,7 +55,7 @@ Proxmox is a Debian-based distribution which relies on `ifupdown2` for network c
 We will:
 
 - connect via SSH on Proxmox
-- create a bond interface (only for the High Grade & SCALE ranges)
+- create a bond interface (only for the High Grade & Scale ranges)
 - create a bridge interface connected to the bond
 - allow packet forwarding between interfaces
 - add routes to the additional IPs
@@ -87,7 +87,7 @@ sysctl -p
 
 ##### Configure the network interfaces
 > [!tabs]
-> High Grade & SCALE ranges
+> High Grade & Scale ranges
 >>
 >> ```bash
 >> vi /etc/network/interfaces
@@ -134,7 +134,7 @@ sysctl -p
 >>         bridge-stp off
 >>         bridge-fd 0
 >> ```
-> ADVANCE range
+> Advance range
 >>
 >> ```bash
 >> vi /etc/network/interfaces
@@ -262,7 +262,7 @@ Proxmox is a Debian-based distribution which relies on `ifupdown2` for network c
 
 We will:
 
-* create a bond interface (only for the High Grade & SCALE ranges)
+* create a bond interface (only for the High Grade & Scale ranges)
 * create a bridge interface connected to the bond
 
 First, add your public block of IP addresses to the vRack. To do so, go to the `Bare Metal Cloud`{.action} section of your [OVHcloud Control Panel](/links/manager) and open the `vRack`{.action} menu.
@@ -307,7 +307,7 @@ ssh PUB_IP_DEDICATED_SERVER
 ```
 
 > [!tabs]
-> High Grade & SCALE ranges
+> High Grade & Scale ranges
 >>
 >> ```bash
 >> vi /etc/network/interfaces
@@ -342,7 +342,7 @@ ssh PUB_IP_DEDICATED_SERVER
 >>         bridge-fd 0
 >> ```
 >>
-> ADVANCE range
+> Advance range
 >>
 >> ```bash
 >> vi /etc/network/interfaces
