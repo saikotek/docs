@@ -74,7 +74,7 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 
 Depois de configurar o endereço de e-mail, já só precisa de o utilizar! Já pode enviar e receber mensagens no seu dispositivo.
 
-A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Ela está acessível através de [este link](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte o guia « [Utilizar o webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/) ».
+A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Ela está acessível através de [este link](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte o guia « [Utilizar o webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions) ».
 
 ### Consultar outro endereço de e-mail Zimbra <a name="modify-settings"></a>
 
