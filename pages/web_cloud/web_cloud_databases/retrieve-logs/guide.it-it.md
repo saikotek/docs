@@ -9,7 +9,7 @@ updated: 2024-11-22
 Un log corrisponde a un evento che si è verificato su un sistema informatico (server, computer, applicazione, sito Web, database, rete informatica, ecc.).
 Ad esempio, un log può salvare e contenere uno o più dei seguenti elementi:
 
-- la data e l'ora (data, ora, minuto, secondo, ecc.) dell'evento.
+- La data e l'ora (data, ora, minuto, secondo, ecc.) dell'evento.
 - la natura dell'evento (connessione, disconnessione, errore, download, upload, alert, ecc.).
 - Informazioni aggiuntive sull'evento (pagina o file consultato, applicazione avviata, server remoto chiamato, nome di un file caricato o scaricato, ecc.)
 - l'origine dell'evento (identificativo dell'utente, indirizzo IP sorgente, programma sorgente, ecc.).
