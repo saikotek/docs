@@ -175,7 +175,7 @@ In the following table, we will walk you through the AI Notebook creation proces
 >>
 >> ![Create a Notebook API token authentication](images/creating-a-notebook-using-API-02.png){.thumbnail}
 >>
->> After logging in, you may specify the body (Notebook specifications) for the Notebook you wish to create. A default example is provided. Feel free to adjust it.
+>> After logging in, you may modify the body (Notebook specifications) for the Notebook you wish to create. A default example is provided. Feel free to adjust it.
 >>
 >> Once your body is filled, click the `Send API request`{.action} button. If your body is correctly written, the Notebook will be created. You will receive all the necessary information about the created Notebook (`ID`, `access URL`, etc.) in the `Responses` field.
 >>
