@@ -176,8 +176,11 @@ Copy the next YAML snippet in a `patch-ingress-controller-service.yml` file:
 
 ```yaml
 metadata:
-  annotations:
-    service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol: "v2"
+    annotations:
+      # For Managed Kubernetes Service version < 1.31
+      service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol: "v2"
+      # For Managed Kubernetes Service version >= 1.31
+      # loadbalancer.openstack.org/proxy-protocol : "v2"
 spec:
   externalTrafficPolicy: Local
 ```
@@ -238,7 +241,10 @@ controller:
   service:
     externalTrafficPolicy: "Local"
     annotations:
+      # For Managed Kubernetes Service version < 1.31
       service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol: "v2"
+      # For Managed Kubernetes Service version >= 1.31
+      # loadbalancer.openstack.org/proxy-protocol : "v2"
   config:
     use-proxy-protocol: "true"
     real-ip-header: "proxy_protocol"
@@ -252,7 +258,10 @@ controller:
   service:
     externalTrafficPolicy: "Local"
     annotations:
+      # For Managed Kubernetes Service version < 1.31
       service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol: "v2"
+      # For Managed Kubernetes Service version >= 1.31
+      # loadbalancer.openstack.org/proxy-protocol : "v2"
   config:
     use-proxy-protocol: "true"
     real-ip-header: "proxy_protocol"
