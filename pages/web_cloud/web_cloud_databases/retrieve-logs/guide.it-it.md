@@ -20,7 +20,7 @@ e vengono memorizzati e memorizzati in file di testo, detti anche file di log.
 
 In questo modo, i file di log permettono di effettuare le seguenti azioni:
 
-- analizzare il comportamento del sistema informatico che genera i log.
+- Analizzare il comportamento del sistema informatico che genera i log.
 - Identificare gli errori del sistema informatico.
 - Risolvere gli errori riscontrati sul sistema informatico.
 - Ottimizzare e migliorare le prestazioni del sistema informatico.
