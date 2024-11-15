@@ -40,7 +40,7 @@ Diese Konfigurationseinstellungen können auf zwei Arten geändert werden:
 
 **Diese Anleitung erklärt, wie Sie die Laufzeitumgebung, die PHP-Version, die Anwendungsfirewall, die Engine, den Modus und die Datei “.ovhconfig“ eines Webhostings ändern.**
 
-<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/X31MNMLw064" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/x_XDyA7D4qQ?si=OovLiOQbB45TDlRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Voraussetzungen
 
