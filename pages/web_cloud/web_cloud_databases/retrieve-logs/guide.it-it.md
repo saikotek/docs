@@ -13,7 +13,7 @@ Ad esempio, un log può salvare e contenere uno o più dei seguenti elementi:
 - la natura dell'evento (connessione, disconnessione, errore, download, upload, alert, ecc.).
 - Informazioni aggiuntive sull'evento (pagina o file consultato, applicazione avviata, server remoto chiamato, nome di un file caricato o scaricato, ecc.)
 - L'origine dell'evento (identificativo dell'utente, indirizzo IP sorgente, programma sorgente, ecc.).
-- lo stato del sistema in cui si svolge l'evento (risorse disponibili, memoria residua, utilizzo della CPU, ecc.).
+- Lo stato del sistema in cui si svolge l'evento (risorse disponibili, memoria residua, utilizzo della CPU, ecc.).
 
 Nella maggior parte dei casi, i log vengono generati direttamente dai sistemi informatici in cui si verificano gli eventi.
 e vengono memorizzati e memorizzati in file di testo, detti anche file di log.
