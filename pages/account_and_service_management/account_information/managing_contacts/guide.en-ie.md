@@ -112,4 +112,4 @@ Each procedure is carried out by email and an identity check will be required. D
 
 ## Go further
 
-Join our community of users on [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Join our [community of users](/links/community).

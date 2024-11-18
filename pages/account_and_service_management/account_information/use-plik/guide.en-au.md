@@ -77,4 +77,4 @@ To allow your end-user(s) to download your files, give them the link to the indi
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

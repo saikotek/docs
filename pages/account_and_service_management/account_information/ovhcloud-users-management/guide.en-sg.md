@@ -124,4 +124,4 @@ OVHcloud IAM policies management is covered by the [dedicated guide](/pages/acco
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

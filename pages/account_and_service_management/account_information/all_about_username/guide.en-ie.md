@@ -159,4 +159,4 @@ If you observe any suspicious activity on your account, please inform our suppor
 
 [What do I do if I can't log in?](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
