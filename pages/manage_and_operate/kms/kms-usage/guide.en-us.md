@@ -108,7 +108,7 @@ The API expects the following values:
 |type|oct, RSA, EC|Key type: Byte sequence (oct) for symmetric keys, RSA (RSA), Elliptic Curve (EC)|
 |size|Integer|Key size - see lookup below|
 |operations|Array|Key Usage - see lookup below|
-|crv|P-256, P-384, P-521|(optional) Cryptographic curve for EC type keys|
+|curve|P-256, P-384, P-521|(optional) Cryptographic curve for EC type keys|
 
 **Example of symmetric key creation:**
 

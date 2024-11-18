@@ -131,7 +131,7 @@ L'API attend les valeurs suivantes :
 |type|oct, RSA, EC|Type de la clé : Octet sequence (oct) for symmetric keys, RSA (RSA), Elliptic Curve (EC)|
 |size|Integer|Taille de la clé - voir table de correspondance ci-dessous|
 |operations|Array|Usage de la clé - voir table de correspondance ci-dessous|
-|crv|P-256, P-384, P-521|(optionnel) Courbe cryptographique pour les clés de type EC|
+|curve|P-256, P-384, P-521|(optionnel) Courbe cryptographique pour les clés de type EC|
 
 **Exemple de création de clé symétrique :**
 
