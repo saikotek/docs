@@ -1,8 +1,14 @@
 ---
 title: Getting the source IP behind the LoadBalancer
 excerpt: 'Find out how to get the source IP behind the LoadBalancer on OVHcloud Managed Kubernetes'
-updated: 2022-09-14
+updated: 2024-11-18
 ---
+
+> [!warning]
+>
+> Usage of the [Public Cloud Load Balancer](/links/public-cloud/load-balancer) with Managed Kubernetes Service (MKS) is now in General Availability.
+> However this LoadBalancer (based on Octavia project) is not the default one yet for clusters running Kubernetes versions <1.31. For those clusters, you must use the annotation `loadbalancer.ovhcloud.com/class: octavia` to deploy an Octavia LoadBalancer from your MKS cluster.
+>
 
 ## Before you begin
 
