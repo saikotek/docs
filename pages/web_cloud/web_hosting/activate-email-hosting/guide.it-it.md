@@ -10,6 +10,8 @@ Ordinare un hosting Web senza associarlo direttamente a un dominio richiede l’
 
 **Questa guida ti mostra come attivare gli account di posta elettronica inclusi in un piano di hosting Web.**
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/oqWovkSP85A?si=1rnqBvhVLdhr2rI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Prerequisiti
 
 - Aver registrato un [dominio](/links/web/domains){.external} nello Spazio Cliente OVHcloud

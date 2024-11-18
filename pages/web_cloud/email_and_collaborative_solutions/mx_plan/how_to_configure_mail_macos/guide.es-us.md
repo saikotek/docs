@@ -50,9 +50,9 @@ Siga los etapas de instalación haciendo clic en las fichas siguientes:
 > **Etapa 2**
 >>
 >> Introduzca la siguiente información en la ventana "**Añadir una cuenta de correo**": <br><br>
->> - Un **Nombre** para su cuenta de correo
->> - Su **Dirección de correo electrónico**
->> - El **Contraseña** de su dirección de correo<br>
+>> - Un **Nombre** para su cuenta de correo<br>
+>> - Su **Dirección de correo electrónico**<br>
+>> - El **Contraseña** de su dirección de correo<br><br>
 >> ![mailmac](images/mail-mac-email02.png){.thumbnail .w-400 .h-600}
 >>
 > **Etapa 3**

@@ -1,14 +1,14 @@
 ---
-title: VMware DRS (Distributed Ressource Scheduler)
-excerpt: Maitriser la répartition de charge avec la fonction DRS
+title: VMware DRS (Distributed Resource Scheduler)
+excerpt: Maitrisez la répartition de charge avec la fonction DRS
 updated: 2020-07-07
 ---
 
 ## Objectif
 
-La Fonction **DRS** (Distributed Ressource Scheduler) est disponible dans un cluster **VMware**, cette fonction permet d'équilibrer la charge des hôtes grâce au déplacement des machines virtuelles de manière automatique (vMotion). Elle va répartir les VMs sur les différents hôtes du cluster en fonction de leur utilisation et de leurs ressources.
+La Fonction **DRS** (Distributed Resource Scheduler) est disponible dans un cluster **VMware**. Cette fonction permet d'équilibrer la charge des hôtes grâce au déplacement des machines virtuelles de manière automatique (vMotion). Elle va répartir les VMs sur les différents hôtes du cluster en fonction de leur utilisation et de leurs ressources.
 
-**Ce guide explique le paramétrage de cette fonction**
+**Ce guide explique le paramétrage de cette fonction.**
 
 ## Prérequis
 
@@ -17,7 +17,7 @@ La Fonction **DRS** (Distributed Ressource Scheduler) est disponible dans un clu
 
 ## En pratique
 
-La fonctionnalité du **DRS** étant de mieux répartir les ressources, il va procéder, ou vous conseiller, le déplacement des VMs sur un Host ou un Pool (mieux approprié) de votre cluster.
+La fonctionnalité du **DRS** étant de mieux répartir les ressources, elle va procéder (ou vous conseiller) au déplacement des VMs sur un Host ou un Pool (mieux approprié) de votre cluster.
 
 ![Principe du DRS](images/drs0.png){.thumbnail}
 
@@ -43,7 +43,7 @@ Dans la même fenêtre d'édition des paramètres, vous retrouverez 4 catégorie
 
 Trois niveaux différents d'automatisation sont disponibles :
 
-- En mode « Manuelle », DRS ne déplacera pas les VM, vous devrez gérer le déplacement et la répartition de vos VM de manière autonome.
+- En mode « Manuel », DRS ne déplacera pas les VM, vous devrez gérer le déplacement et la répartition de vos VM de manière autonome.
 
 - En mode « Partiellement automatisé », DRS vous conseillera sur des migrations de vos VM, mais ne les fera que si vous validez le déplacement.
 
@@ -54,13 +54,13 @@ Il est également possible de définir un seuil de migration plus ou moins agres
 L'option « Predictive DRS », disponible à partir de la version 6.5 de VMware, permet d'effectuer des migrations en fonction des mesures prévisionnelles renvoyées par vRops.
 Cette dernière est de ce fait indispensable pour le fonctionnement de cette option DRS.
 
-Enfin l'option « Automatisation de machine virtuelle » permet de configurer des règlages DRS particuliers pour certaines VM dans le sous-menu `Remplacements de VM` de l'onglet `Configurer` (Certaines VM pourront avoir un mode de migration en partiellement automatique alors que le cluster sera en mode entièrement automatisé).
+Enfin l'option « Automatisation de machine virtuelle » permet de configurer des réglages DRS particuliers pour certaines VM dans le sous-menu `Remplacements de VM` de l'onglet `Configurer` (certaines VM pourront avoir un mode de migration en partiellement automatique alors que le cluster sera en mode entièrement automatisé).
 
 ![automatisation DRS](images/drs02.png){.thumbnail}
 
 #### Options supplémentaires
 
-Vous pouvez configurez 3 options supplémentaires dans le paramètrage DRS :
+Vous pouvez configurer 3 options supplémentaires dans le paramétrage DRS :
 
 - Distribution des VM : Pour la disponibilité, distribuez un nombre encore plus homogène de machines virtuelles sur les hôtes. 
 

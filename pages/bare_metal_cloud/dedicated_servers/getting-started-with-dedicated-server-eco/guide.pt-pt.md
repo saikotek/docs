@@ -1,12 +1,8 @@
 ---
 title: "Primeiros passos com um servidor dedicado Kimsufi, So You Start ou Rise"
 excerpt: "Descubra como gerir um servidor dedicado na sua Área de Cliente e como começar com a configuração e a segurança de um servidor Kimsufi, So You Start ou Rise"
-updated: 2024-04-10
+updated: 2024-11-13
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em “Contribuir” nesta página.
->
 
 ## Objetivo
 
@@ -76,7 +72,7 @@ Este passo permite-lhe configurar o tipo de RAID e a partição, dentro dos limi
 
 Uma vez os ajustamentos concluídos, clique em `Seguinte`{.action} para aceder à página de resumo.
 
-Encontrará questões complementares específicas ao sistema operativo selecionado.          
+Encontrará questões complementares específicas ao sistema operativo selecionado.
 
 Por exemplo, se instalar um sistema operativo GNU/Linux, pode adicionar a sua chave SSH.
 
@@ -239,11 +235,6 @@ Para mais informações sobre o sistema de monitorização, consulte [este manua
 
 ### Configuração de rede
 
-> [!primary]
->
-> Tenha em conta que os endereços IP [suplementares](/links/network/additional-ip) não são compatíveis com a gama **Kimsufi**.
->
-
 #### Modo bridge IP
 
 O modo bridge é a ação empreendida pelo equipamento de rede para criar uma rede agregada a partir de várias redes de comunicação ou de vários segmentos de rede. O modo bridge é distinto do roteamento, que permite que as redes comuniquem de forma independente, mantendo-se separadas.
@@ -313,4 +304,4 @@ Para ativar e utilizar a opção Backup Storage, consulte [este guia](/pages/bar
 
 Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](/links/professional-services) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

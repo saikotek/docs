@@ -25,7 +25,7 @@ updated: 2024-10-04
 
 #### Access the datastore
 
-Log in to the vSphere web interface, using the guide “[Log in to the vSphere on OVHcloud web console](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/sphere_interface_connexion)” if necessary.
+Log in to the vSphere web interface, using the guide “[Log in to the vSphere on OVHcloud web console](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vsphere_interface_connexion)” if necessary.
 
 You then need to access the directories where you want to store your files (ISO, for example). The goal is to create a tree-view so that you can easily find your elements within your managed vSphere.
 

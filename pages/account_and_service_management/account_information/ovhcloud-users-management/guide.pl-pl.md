@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak dodawać użytkowników lokalnych z poziomu konta OV
 updated: 2024-06-25
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłóś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 OVHcloud umożliwia tworzenie użytkowników lokalnych, którzy mogą działać w trybie odczytu lub zapisu w Twoim Panelu klienta. Dzięki temu możesz przyznać członkom Twojej firmy dostęp do usług OVHcloud, i to bez konieczności podejmowania ryzykownych działań, takich jak udostępnianie hasła lub kodu do weryfikacji dwuetapowej.
@@ -129,4 +125,4 @@ Zapoznaj się z naszym przewodnikiem dotyczącym [zarządzania polityką IAM OVH
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

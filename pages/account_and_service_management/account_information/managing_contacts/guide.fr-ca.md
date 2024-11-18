@@ -101,4 +101,4 @@ Dès que les deux contacts ont validé la demande, le changement sera effectif s
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: "Premiers pas avec un serveur dédié Kimsufi, So You Start ou Rise"
 excerpt: "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur Kimsufi, So You Start ou Rise"
-updated: 2024-04-10
+updated: 2024-11-13
 ---
 
 ## Objectif

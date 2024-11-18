@@ -1,12 +1,8 @@
 ---
 title: FAQ en el soporte de OVHcloud
 excerpt: Encuentre las preguntas más frecuentes en el soporte de OVHcloud
-updated: 2024-08-09
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
 
 ## Objetivo
 
@@ -15,6 +11,8 @@ Encuentre aquí las preguntas más frecuentes sobre el soporte de OVHcloud
 <a name="sso"></a>
 
 ## FAQ
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/44q3cfQM-YI?si=JemH0lvLPWFuFGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ¿Qué hago si tengo problemas para conectarme al centro de ayuda o a la interfaz de gestión de mis tíquets?
 

@@ -4,10 +4,6 @@ excerpt: Dowiedz się, jak przerwać subskrypcję OVHcloud z poziomu Panelu klie
 updated: 2024-01-19
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Chcesz zrezygnować z jednej lub kilku usług OVHcloud. Z tego przewodnika dowiesz się, jak przerwać subskrypcję w Panelu klienta OVHcloud.

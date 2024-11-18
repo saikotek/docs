@@ -4,10 +4,6 @@ excerpt: "Scopri come interrompere l’abbonamento a OVHcloud dallo Spazio Clien
 updated: 2024-01-19
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Vuoi disattivare uno o più servizi OVHcloud. Questa guida ti mostra come interrompere l’abbonamento dallo Spazio Cliente OVHcloud.

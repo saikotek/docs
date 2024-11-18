@@ -4,10 +4,6 @@ excerpt: Dowiedz się, jak dodawać sposoby płatności do Panelu klienta OVHclo
 updated: 2022-05-18
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 W Panelu klienta OVHcloud możesz dodać różne sposoby płatności i zarządzać nimi.

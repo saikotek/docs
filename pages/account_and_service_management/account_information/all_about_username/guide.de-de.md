@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie die Account-Sicherheit optimieren, Ihre per
 updated: 2021-07-01
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Ihre Dienste und Daten werden hauptsächlich über das OVHcloud Kundencenter verwaltet.
@@ -171,4 +167,4 @@ Wenn Sie eine verdächtige Aktivität auf Ihrem Account feststellen, [kontaktier
 
 [Bei fehlschlagendem Login ins Kundencenter](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

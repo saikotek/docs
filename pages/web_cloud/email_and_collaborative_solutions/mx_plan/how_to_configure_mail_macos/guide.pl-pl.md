@@ -41,9 +41,9 @@ Postępuj zgodnie z kolejnymi instrukcjami, klikając poniższe zakładki:
 > **Etap 2**
 >>
 >> W oknie "**Dodaj konto Mail**" wpisz następujące informacje: <br><br>
->> - **Nazwa** dla twojego konta e-mail
->> - Twój **Adres e-mail**
->> - **Hasło** Twojego konta e-mail<br>
+>> - **Nazwa** dla twojego konta e-mail<br>
+>> - Twój **Adres e-mail**<br>
+>> - **Hasło** Twojego konta e-mail<br><br>
 >> ![mailmac](images/mail-mac-email02.png){.thumbnail .w-400 .h-600}
 >>
 > **Etap 3**

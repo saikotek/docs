@@ -4,10 +4,6 @@ excerpt: 'Esta guía explica cómo optimizar la seguridad de su cuenta de OVHclo
 updated: 2021-07-01
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 La gestión de sus servicios y datos se realiza principalmente desde el área de cliente de OVHcloud.
@@ -167,4 +163,4 @@ Si advierte una actividad sospechosa en su cuenta, [póngase en contacto con el 
 
 [En caso de fallo de la conexión al área de cliente](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

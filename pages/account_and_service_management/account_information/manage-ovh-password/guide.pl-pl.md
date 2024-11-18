@@ -123,4 +123,4 @@ Jeśli Twoje hasło wykradzione, rekomendujemy [jego natychmiastową zmianę](./
 
 [Przykładowy darmowy generator haseł](https://www.lastpass.com/password-generator){.external}
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>
+Dołącz do [grona naszych użytkowników](/links/community).

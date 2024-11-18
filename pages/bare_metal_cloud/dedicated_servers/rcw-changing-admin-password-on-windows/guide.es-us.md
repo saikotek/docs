@@ -1,12 +1,8 @@
 ---
 title: "Cómo restablecer la contraseña de administrador con Rescue-Customer-Windows"
 excerpt: "Cómo restablecer la contraseña de administrador con Rescue-Customer-Windows"
-updated: 2024-06-26
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
-> 
 
 ## Objetivo
 
@@ -20,8 +16,8 @@ Esta guía explica cómo restaurar la contraseña de `Administrator` con **Windo
 
 > [!warning]
 >
-> Esta guía no es compatible con el modo WinPE Rescue.
-> Consulte [esta guía](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) si utiliza el modo `WinPe Rescue`.
+> Esta guía no es compatible con el modo `WinPE Rescue` (WinRescue).
+> Consulte [esta guía](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) si utiliza el modo `WinPe Rescue` (WinRescue).
 >
 
 ## Procedimiento
@@ -87,8 +83,10 @@ El disco local ya está accesible y el disco Windows corresponde al volumen `(E:
 
 ![disk_import_sync](images/disk_import_sync.png){.thumbnail}
 
-__Note__: En este ejemplo, el estado del volumen es "Resynching" porque el servidor se reinició de forma inesperada en modo de rescate. Es un estado normal que no es causado por el rescate en sí.
-Esto no afectará a los datos del volumen y la resincronización continuará después de reiniciar el servidor en su sistema instalado.
+> [!primary]
+>
+> En este ejemplo, el estado del volumen es "Resynching" porque el servidor se reinició de forma inesperada en modo de rescate. Es un estado normal que no es causado por el rescate en sí.
+> Esto no afectará a los datos del volumen y la resincronización continuará después de reiniciar el servidor en su sistema instalado.
 
 > [!warning]
 >
@@ -126,7 +124,15 @@ Seleccione la cuenta de usuario "admin" y haga clic en `Change password`{.action
 
 ![ntpwedit2](images/ntpwedit_2.png){.thumbnail}
 
-En la nueva ventana, deje los campos en blanco y haga clic en `Aceptar`{.action}. Finalice haciendo clic en `Guardar cambios`{.action} y luego en `Salir`{.action}.
+En la nueva ventana, escriba la nueva contraseña en ambos campos y haga clic en `OK`{.action}.
+
+> [!warning]
+>
+> Se aceptará la nueva contraseña sin comprobar su complejidad.
+>
+> Tenga en cuenta que esta contraseña le permitirá conectarse de forma remota al servidor una vez reiniciado en su sistema operativo.
+
+Finalice haciendo clic en `Save changes`{.action} y luego en `Exit`{.action}.
 
 El servidor debe reiniciarse en el sistema operativo normal.
 
@@ -137,38 +143,6 @@ En primer lugar, sustituya el netboot por `Booter en el disco duro`{.action} en 
 A continuación, reinicie el servidor desde el área de cliente. Haga clic en el botón `...`{.action} junto a "Estado de los servicios" y seleccione `Reiniciar`{.action}.
 
 ![reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/cp_dedicated_restart.png){.thumbnail}
-
-### Paso 4 - Establecer una nueva contraseña (IPMI) <a name="step4"></a>
-
-En el [área de cliente de OVHcloud](/links/manager), acceda a la pestaña `IPMI`{.action} para abrir una sesión KVM.
-
-![adminpw3](images/adminpw3.png){.thumbnail}
-
-#### Para una versión reciente de Windows
-
-Una vez que se haya conectado al servidor, haga clic en el icono del menú "Inicio" en la parte inferior izquierda.
-
-Comience a escribir `opciones de conexión` y haga clic en `Opciones de conexión`{.action} cuando aparezca en el menú.
-
-![adminpw7](images/adminpw7.png){.thumbnail}
-
-A continuación, en la sección "Contraseña", haga clic en el botón `Añadir`{.action} para establecer la nueva contraseña.
-
-![adminpw8](images/adminpw8.png){.thumbnail}
-
-#### Para una versión anterior de Windows
-
-Una ventana de línea de comandos (cmd) debe abrirse cuando se establece la sesión KVM.
-
-Establezca la contraseña del usuario actual ("Administrator"):
-
-```bash
-net user Administrator *
-```
-
-![adminpw9](images/adminpw9.png){.thumbnail}
-
-Le recomendamos que utilice el teclado virtual al introducir contraseñas en esta interfaz.
 
 ## Más información
 

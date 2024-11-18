@@ -285,4 +285,4 @@ If your email does not appear below `Connected via SSO`, this means you have not
 
 [How to use IAM policies using the OVHcloud Control Panel](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

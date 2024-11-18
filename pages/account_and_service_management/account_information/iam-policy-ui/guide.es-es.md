@@ -175,4 +175,4 @@ Aparecerá una ventana emergente en la que deberá confirmar la eliminación.
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

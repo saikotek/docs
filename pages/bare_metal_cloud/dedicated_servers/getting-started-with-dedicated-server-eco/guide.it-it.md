@@ -1,12 +1,8 @@
 ---
 title: "Iniziare a utilizzare un server dedicato Kimsufi, So You Start o Rise"
 excerpt: "Come gestire un server dedicato Kimsufi, So You Start o Rise nello Spazio Cliente e come iniziare a utilizzare la configurazione e la protezione di un server"
-updated: 2024-04-10
+updated: 2024-11-13
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
@@ -239,11 +235,6 @@ Per maggiori informazioni sul monitoraggio, consulta [questa guida](/pages/bare_
 
 ### Configurazione rete
 
-> [!primary]
->
-> Ti ricordiamo che gli indirizzi IP [aggiuntivi](/links/network/additional-ip) non sono compatibili con la gamma **Kimsufi**.
->
-
 #### Modalità Bridge IP
 
 La modalità bridge è l'azione intrapresa dall'apparecchiatura di rete per creare una rete aggregata a partire da più reti di comunicazione o da più segmenti di rete. La modalità bridge è separata dal routing, che permette alle reti di comunicare in modo indipendente, pur restando separate.
@@ -313,4 +304,4 @@ Per attivare e utilizzare l'opzione Backup Storage, consulta [questa guida](/pag
 
 Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](/links/professional-services) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

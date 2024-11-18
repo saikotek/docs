@@ -180,4 +180,4 @@ Se le condizioni di cui sopra sono soddisfatte, puoi richiedere di eliminare il 
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

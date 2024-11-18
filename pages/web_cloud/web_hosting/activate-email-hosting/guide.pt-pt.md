@@ -10,6 +10,8 @@ Se adquiriu um alojamento web sem o associar diretamente a um nome de domínio, 
 
 **Saiba como ativar os endereços de e-mail incluídos na sua oferta de alojamento web.**
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/oqWovkSP85A?si=1rnqBvhVLdhr2rI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Requisitos
 
 - Dispor de um [nome de domínio](https://www.ovh.com/pt/dominios/){.external} na sua Área de Cliente OVHcloud.

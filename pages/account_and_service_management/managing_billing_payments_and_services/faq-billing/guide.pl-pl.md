@@ -4,7 +4,6 @@ excerpt: Znajdziesz najczęściej zadawane pytania dotyczące płatności i fakt
 updated: 2023-06-05
 ---
 
-  
 ## Wprowadzenie
 
 Znajdziesz tutaj najczęściej zadawane pytania dotyczące fakturowania i płatności za usługi OVHcloud.
