@@ -167,4 +167,4 @@ Se riscontri un'attività sospetta sul tuo account, [contatta il supporto OVHclo
 
 [Se la connessione allo Spazio Cliente OVH non funziona](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

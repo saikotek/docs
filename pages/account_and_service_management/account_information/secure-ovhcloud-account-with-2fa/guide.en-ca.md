@@ -253,8 +253,8 @@ After verifying your documents, a support agent will manually disable two-factor
 
 ## Go further
 
-For specialised services (SEO, development, etc.), contact [OVHcloud partners](https://partner.ovhcloud.com/en-ca/directory/).
-
-If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](https://www.ovhcloud.com/en-ca/support-levels/).
-
+For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+ 
+If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
+ 
 Join our [community of users](/links/community).
