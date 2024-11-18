@@ -173,7 +173,7 @@ The API expects the following values:
     "sign",
     "verify"
   ],
-  "crv": "P-256"
+  "curve": "P-256"
 }
 ```
 

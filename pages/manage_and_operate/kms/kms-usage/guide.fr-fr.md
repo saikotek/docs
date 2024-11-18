@@ -151,7 +151,7 @@ L'API attend les valeurs suivantes :
     "sign",
     "verify"
   ],
-  "crv": "P-256"
+  "curve": "P-256"
 }
 ```
 
