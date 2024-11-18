@@ -92,10 +92,9 @@ Pour tester la vitesse d'un disque supplémentaire, vous devez monter celui-ci �
 ```bash
 root@serveur:~$ cd /mnt/disk
 ```
-
 ### Analyser les données
 
-Une fois le test terminé, vous obtenez un résultat semblable à ce qui suit :
+La valeur IOPS dépend du type de disque supplémentaire utilisé. Dans l'exemple ci-dessous, nous avons effectué le test sur un volume high-speed :
 
 ```console
 fio-3.33
@@ -204,9 +203,9 @@ write: IOPS=39.4k, BW=154MiB/s (161MB/s)(18.0GiB/120001msec); 0 zone resets
 
 Nous pouvons voir que la performance du disque principal est d'environ 40.0k IOPS.
 
-### Disques supplémentaires
+### Disque supplémentaire
 
-Les disques supplémentaires ne pouvent pas être montés en mode rescue, la seule façon de tester leur vitesse est de le faire lorsque l'instance est active.
+Pour tester la vitesse d'un disque supplémentaire, vous devez le monter. Pour plus d'informations, consultez ce [guide](https://github.com/ovh/docs/blob/develop/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#sous-windows)
 
 ## Aller plus loin
 
