@@ -104,4 +104,4 @@ Wenn Sie die E-Mail mit dem Code nicht erhalten haben, überprüfen Sie bitte de
 
 [Den OVHcloud Kunden-Account mit der Zwei-Faktor-Authentifizierung absichern](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

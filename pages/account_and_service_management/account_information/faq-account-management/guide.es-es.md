@@ -189,4 +189,4 @@ Si cumple las condiciones anteriores, puede solicitar la eliminación de su cuen
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -136,4 +136,4 @@ If you would like to use these other APIs, you will need to modify your access p
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

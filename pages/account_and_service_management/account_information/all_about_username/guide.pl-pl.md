@@ -167,4 +167,4 @@ Jeśli zauważysz podejrzaną aktywność na koncie, [skontaktuj się z zespołe
 
 [W przypadku braku połączenia z Panelem klienta](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Dołącz do społeczności naszych użytkowników na stronie<https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

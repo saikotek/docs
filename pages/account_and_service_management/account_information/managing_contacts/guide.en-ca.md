@@ -100,4 +100,8 @@ Once both contacts have confirmed the request, the change will be successful wit
 
 ## Go further
 
-Join our community of users on [https://community.ovh.com/en/](https://community.ovh.com/en/).
+For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+ 
+If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
+ 
+Join our [community of users](/links/community).

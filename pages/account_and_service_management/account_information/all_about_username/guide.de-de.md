@@ -167,4 +167,4 @@ Wenn Sie eine verdächtige Aktivität auf Ihrem Account feststellen, [kontaktier
 
 [Bei fehlschlagendem Login ins Kundencenter](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

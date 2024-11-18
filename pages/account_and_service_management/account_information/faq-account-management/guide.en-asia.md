@@ -193,4 +193,4 @@ If the above conditions are met, you can request to delete your OVHcloud account
 
 ## Go further
   
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

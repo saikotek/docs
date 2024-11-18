@@ -175,4 +175,4 @@ Uma janela contextual irá pedir-lhe que confirme a eliminação.
 
 ## Quer saber mais?
 
-Fale com nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

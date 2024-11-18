@@ -92,4 +92,4 @@ Klicken Sie auf Ihre Kundenkennung oben rechts, um auf die Account-Optionen zuzu
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

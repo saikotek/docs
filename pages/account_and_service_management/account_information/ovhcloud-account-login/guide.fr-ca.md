@@ -74,3 +74,5 @@ Si vous ne retrouvez pas ce code, pensez à vérifier les dossiers « spam » / 
 [Modifier le mot de passe de votre compte](/pages/account_and_service_management/account_information/manage-ovh-password)
 
 [Sécuriser son compte OVHcloud avec la double authentification](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).

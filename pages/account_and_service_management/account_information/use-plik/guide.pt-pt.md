@@ -92,4 +92,4 @@ Através deste menu, pode desligar-se, gerar tokens para utilizar a ferramenta P
 
 ## Saiba mais
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -117,4 +117,4 @@ Se a sua palavra-passe estiver comprometida, recomendamos vivamente que a [alter
 
 [O gestor de palavras-passe KeePass](https://keepass.info/){.external}
 
-Fale com a nossa comunidade de utilizadores em https://community.ovh.com/en/
+Fale com nossa [comunidade de utilizadores](/links/community).

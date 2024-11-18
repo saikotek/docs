@@ -175,4 +175,4 @@ Una finestra contestuale ti chiederà di confermare l'eliminazione.
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all'indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

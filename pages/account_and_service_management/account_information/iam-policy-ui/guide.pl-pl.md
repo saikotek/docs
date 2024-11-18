@@ -175,4 +175,4 @@ W oknie podręcznym zostanie wyświetlona prośba o potwierdzenie usunięcia hos
 
 ## Sprawdź również
 
-Przyłącz się do społeczności naszych użytkowników na <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

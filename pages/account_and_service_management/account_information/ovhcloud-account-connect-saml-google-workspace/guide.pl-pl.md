@@ -190,4 +190,4 @@ Teraz jesteś zalogowany tym samym identyfikatorem klienta, ale za pomocą użyt
 
 [Jak korzystać z polityki IAM w Panelu klienta](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

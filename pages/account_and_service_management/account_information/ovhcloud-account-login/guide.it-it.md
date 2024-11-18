@@ -102,4 +102,4 @@ Se non trovi il codice, controlla la cartella "spam"/posta indesiderata del tuo 
 
 [Rendere sicuro il tuo account OVHcloud con la doppia autenticazione](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

@@ -232,4 +232,4 @@ Adesso sei connesso con lo stesso identificativo cliente, ma tramite l'utente Ac
 
 [Come utilizzare le politiche IAM dallo Spazio Cliente](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).
