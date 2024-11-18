@@ -169,4 +169,4 @@ Si vous constatez une activité suspecte sur votre compte, [contactez le support
 
 [En cas d'échec de connexion à l'espace client](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

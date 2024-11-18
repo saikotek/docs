@@ -285,4 +285,4 @@ Si votre e-mail n'apparait pas en dessous de `Connected via SSO`, cela signifie 
 
 [Créer des politiques d'accès IAM](/pages/account_and_service_management/account_information/iam-policy-ui)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

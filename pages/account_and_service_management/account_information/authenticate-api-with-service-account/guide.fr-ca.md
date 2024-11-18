@@ -136,4 +136,4 @@ Si vous souhaitez utiliser ces autres API, vous devez modifier votre politique d
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
