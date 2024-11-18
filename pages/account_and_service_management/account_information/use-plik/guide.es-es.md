@@ -92,4 +92,4 @@ Desde este menú podrá desconectarse, generar tokens para utilizar la herramien
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

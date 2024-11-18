@@ -167,4 +167,4 @@ Si advierte una actividad sospechosa en su cuenta, [póngase en contacto con el 
 
 [En caso de fallo de la conexión al área de cliente](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).
