@@ -24,8 +24,8 @@ It explains how to obtain an access token, access AI models, and interact with A
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
-  
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+
 ## Instructions
 
 ### Getting an access token
@@ -37,7 +37,7 @@ During the Beta phase of AI Endpoints, obtaining an access token is straightforw
 - Follow the on-screen instructions to generate your access token.
 
 With your access token in hand, you are now ready to access the AI models and their easy-to-use APIs.
-  
+
 ### Accessing AI models
 
 Once your token has been generated, you can navigate to the [Catalog page](https://endpoints.ai.cloud.ovh.net/catalog) to choose the AI model you want to interact with.
@@ -53,9 +53,9 @@ AI Endpoints offers a variety of world-renowned AI models to choose from, includ
 
 *Additional models will be added in the coming months, including multimodal models and object detection models.*
 
-Once you have selected the category of model you want to use, you will be presented with a list of models to choose from. 
+Once you have selected the category of model you want to use, you will be presented with a list of models to choose from.
 
-For example, if you select the "Assistant" category, you will see a list of available assistant models. 
+For example, if you select the "Assistant" category, you will see a list of available assistant models.
 
 To access one of them, simply click on the name of the model you want to use. Let's take the "CodeLlama-13b-Instruct-hf" code assistant as our example.
 
@@ -68,7 +68,7 @@ This will take you to a page with several options for interacting with the model
 
 ### Billing and usage
 
-AI Endpoint is always free during its beta phase. 
+AI Endpoint is always free during its beta phase.
 
 ## Going further
 
@@ -84,4 +84,4 @@ If you need training or technical assistance to implement our solutions, contact
 
 Please feel free to send us your questions, feedback, and suggestions regarding AI Endpoints:
 
--  In the #ai-endpoints channel of the OVHcloud [Discord server](https://discord.com/invite/vXVurFfwe9), where you can engage with the community and OVHcloud team members.
+-  In the #ai-endpoints channel of the OVHcloud [Discord server](https://discord.gg/ovhcloud), where you can engage with the community and OVHcloud team members.

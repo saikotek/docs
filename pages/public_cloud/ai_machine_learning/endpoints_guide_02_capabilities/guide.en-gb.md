@@ -37,15 +37,13 @@ This page provides the technical features, capabilities and limitations of [AI E
 | Planned Feature                                    | Details                                                                                                                                                                                                                                      |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | JSON Mode                        | AI Endpoints plans to support JSON mode in the future, which will allow you to send and receive data in a format that's easy to understand and integrate into your applications. This feature will make it simple to work with AI models and ensure that your data is correctly formatted for the models to process.                                                                          |
-| Function Calling | AI Endpoints also plans to support function calling in the future, which will allow you to invoke specific functions within a model, making it easier to use only the capabilities you need. 
-|
-
+| Function Calling | AI Endpoints also plans to support function calling in the future, which will allow you to invoke specific functions within a model, making it easier to use only the capabilities you need. |
 
 ## Capabilities
 
 ### Compatibility with OpenAI API
 
-AI Endpoints is designed to be compatible with the OpenAI API, making it easy to integrate with existing applications and workflows. This compatibility means that you can take advantage of AI capabilities without having to make major changes to your existing technology stack, allowing you to get up and running quickly and easily. 
+AI Endpoints is designed to be compatible with the OpenAI API, making it easy to integrate with existing applications and workflows. This compatibility means that you can take advantage of AI capabilities without having to make major changes to your existing technology stack, allowing you to get up and running quickly and easily.
 
 ### Flexibile Usage
 
@@ -67,9 +65,8 @@ To discover how to build complete and powerful applications using AI Endpoints, 
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-
 ## Feedback
 
 Please feel free to send us your questions, feedback, and suggestions regarding AI Endpoints:
 
--  In the #ai-endpoints channel of the OVHcloud [Discord server](https://discord.com/invite/vXVurFfwe9), where you can engage with the community and OVHcloud team members.
+-  In the #ai-endpoints channel of the OVHcloud [Discord server](https://discord.gg/ovhcloud), where you can engage with the community and OVHcloud team members.
