@@ -293,4 +293,4 @@ Jeśli Twój e-mail nie wyświetla się poniżej `Connected via SSO`, oznacza to
 
 [Jak korzystać z polityki IAM w Panelu klienta](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

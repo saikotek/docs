@@ -102,4 +102,4 @@ Jeśli nie odnajdziesz tego kodu, sprawdź foldery "spam" / "niechciane wiadomo�
 
 [Zabezpieczenie konta OVHcloud za pomocą weryfikacji dwuetapowej](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
 
-Dołącz do społeczności naszych użytkowników na stronie<https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).
