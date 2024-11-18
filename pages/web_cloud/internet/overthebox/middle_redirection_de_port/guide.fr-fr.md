@@ -32,7 +32,7 @@ Découvrez ainsi :
 > - Il est impératif que l'appareil local cible de la redirection possède comme passerelle par défaut l'IP de l' **OverTheBox**.
 >
 
-Une redirection de ports permet aux appareils externes de se connecter sur une plage de ports d'un appareil du réseau local. Dans cet exemple, nous souhaitons rendre accessible depuis un site web hébergé sur notre réseau local.
+Une redirection de ports permet aux appareils externes de se connecter sur une plage de ports d'un appareil du réseau local. Dans cet exemple, nous souhaitons rendre accessible depuis l'extérieur un site web hébergé sur notre réseau local.
 
 - Rendez-vous dans l'onglet `Network > Firewall`{.action}.
 - Rendez-vous dans la section `Port Forwards`{.action}.
