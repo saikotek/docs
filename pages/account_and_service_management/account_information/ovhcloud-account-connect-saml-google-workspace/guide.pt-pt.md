@@ -190,4 +190,4 @@ Já está conectado com o mesmo identificador de cliente, mas através do seu ut
 
 [Como utilizar as políticas IAM a partir do seu Espaço Cliente](/pages/account_and_service_management/account_information/iam-policy-ui)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -125,4 +125,4 @@ Consulte o nosso guia sobre [gestão das políticas IAM da OVHcloud](/pages/acco
 
 ## Quer saber mais?
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

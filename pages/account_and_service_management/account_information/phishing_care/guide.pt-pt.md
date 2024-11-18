@@ -68,4 +68,4 @@ Aceda à [Área de Cliente](/links/manager) e altere imediatamente a palavra-pas
 
 ## Quer saber mais?
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).
