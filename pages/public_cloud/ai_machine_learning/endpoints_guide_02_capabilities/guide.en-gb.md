@@ -1,7 +1,8 @@
 ---
 title: AI Endpoints - Features, Capabilities and Limitations
 excerpt: Find out about current features, capabilities and limitations of AI Endpoints
-updated: 2024-11-15
+updated: 2024-11-18
+flag: hidden
 ---
 
 > [!primary]

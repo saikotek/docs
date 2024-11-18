@@ -1,7 +1,8 @@
 ---
 title: AI Endpoints - Getting started
 excerpt: Discover AI Endpoints, the secure serverless platform by OVHcloud for developers to access top AI models with easy-to-use APIs. No AI expertise needed.
-updated: 2024-11-15
+updated: 2024-11-18
+flag: hidden
 ---
 
 > [!primary]
