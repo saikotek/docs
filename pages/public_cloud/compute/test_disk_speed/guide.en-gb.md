@@ -85,7 +85,7 @@ The line we are interested in is the fifth, which contains the IOPS:
 write: IOPS=40.0k, BW=156MiB/s (164MB/s)(18.3GiB/120001msec); 0 zone resets
 ```
 
-We can see that main disk performance is approximately 40.0k IOPS.
+We can see that the performance of the main disk is around 40.0k IOPS.
 
 ### Additional disk
 
@@ -97,7 +97,7 @@ root@server:~$ cd /mnt/disk
 
 ### Analyse the data
 
-The IOPS value will depend on the type of additional disk you use. In the example below, the we ran the test on a High speed volume:
+The IOPS value will depend on the type of additional disk you use. In the example below, we ran the test on a High speed volume:
 
 ```console
 fio-3.33
@@ -204,9 +204,13 @@ The line we are interested in is the sixth, which contains the IOPS:
 write: IOPS=39.4k, BW=154MiB/s (161MB/s)(18.0GiB/120001msec); 0 zone resets
 ```
 
-### Additional disks
+We can see that the performance of the main disk is around 39.4k IOPS.
 
-Additional disks cannot be mounted in rescue mode. The only way to test their speed is to do so when the instance is active.
+### Additional disk
+
+To test the speed of an additional disk, you will need to mount the disk. For more information, consult this [guide](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#using-windows).
+
+Next, access the disk via powershell and run the same command as above.
 
 ## Go further
 
