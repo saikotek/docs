@@ -169,4 +169,4 @@ Sie sind nun mit derselben Kundenkennung eingeloggt, jedoch über Ihren Okta Ben
 
 [Verwendung von IAM-Richtlinie über Ihr Kundencenter](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.
