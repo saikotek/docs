@@ -49,7 +49,7 @@ AI Endpoints offers a variety of world-renowned AI models to choose from, includ
 - **Embeddings**: Generate embeddings for use in machine learning applications (BGE base, Multilingual E5).
 - **Natural language Processing**: Use models like RoBERTa, Bert, and T5 for NLP tasks like sentiment analysis, entity recognition, and text summarization.
 - **Translation**: Translate text using NVIDIA Neural Machine Translation or T5 large.
-- **Image Generation**: Generate images using Stable Diffusion XL. WILL IT BE AVAILABLE ? NAME OF THE CATEFGORY ?
+- **Image Generation**: Generate images using Stable Diffusion XL.
 
 *Additional models will be added in the coming months, including multimodal models and object detection models.*
 
