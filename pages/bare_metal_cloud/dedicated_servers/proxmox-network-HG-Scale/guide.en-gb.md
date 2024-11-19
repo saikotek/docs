@@ -240,14 +240,16 @@ This configuration is more flexible as you do not need to associate an Additiona
 
 > [!warning]
 >
+> This configuration only works with a block of additional IPs.
 > It is not possible to use a single Additional IP (/32) directly in the vRack. To use an Additional IP, it must be [configured on a public interface](#additionalipmoderoute) and cannot be directly integrated into the vRack.
 >
 
 #### Requirements
 
-* A [server compatible with vRack](/links/bare-metal/bare-metal).
-* A [vRack service](/links/network/vrack).
-* A block of public IP addresses.
+* A [server compatible with vRack](/links/bare-metal/bare-metal)
+* A [vRack service](/links/network/vrack)
+* A block of Additional IPs
+* Access to the [OVHcloud Control Panel](/links/manager)
 
 #### Target configuration schema
 
@@ -262,9 +264,9 @@ We will:
 * create a bond interface (only for the High Grade & Scale ranges)
 * create a bridge interface connected to the bond
 
-First, add your public block of IP addresses to the vRack. To do so, go to the `Bare Metal Cloud`{.action} section of your [OVHcloud Control Panel](/links/manager) and open the `vRack`{.action} menu.
+First, add your block of Additional IPs to the vRack. To do so, go to the `Bare Metal Cloud`{.action} section of your [OVHcloud Control Panel](/links/manager) and open the `vRack`{.action} menu.
 
-Select your vRack from the list to view the list of eligible services. Click on the public block of IP addresses you want to add to the vRack, then click the `Add`{.action} button.
+Select your vRack from the list to view the list of eligible services. Click on the block of Additional IPs you want to add to the vRack, then click the `Add`{.action} button.
 
 #### Determine assignable IP addresses
 
@@ -291,7 +293,7 @@ When used in a vRack, the first, penultimate, and last addresses of a given IP b
 
 > [!primary]
 >
-> The subnet mask used in this example is appropriate for our IP block. Your subnet mask may differ depending on the size of your block. When you purchase your IP block, you will receive an email with the subnet mask to use.
+> The subnet mask used in this example is appropriate for our block of Additional IPs. Your subnet mask may differ depending on the size of your block. When you purchase your IP block, you will receive an email with the subnet mask to use.
 >
 
 #### Configure the hypervisor

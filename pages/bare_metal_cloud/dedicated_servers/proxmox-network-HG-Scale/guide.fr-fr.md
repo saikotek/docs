@@ -17,7 +17,7 @@ updated: 2024-11-19
 
 ## Prérequis
 
-- Disposer d'un [serveur dédié OVHcloud](/links/bare-metal/bare-metal)
+- Un [serveur dédié OVHcloud](/links/bare-metal/bare-metal)
 - Une ou plusieurs adresses [Additional IP](/links/network/additional-ip)
 - Être connecté à votre [espace client OVHcloud](/links/manager)
 
@@ -53,7 +53,7 @@ Les étapes ci-dessous décrivent successivement comment :
 - se connecter en SSH sur Proxmox ;
 - créer une interface d'agrégation (*bond*) (uniquement pour les gammes High Grade & Scale) ;
 - créer une interface bridge connectée au *bond* ;
-- autoriser le transfert de paquets entre les interfaces ;
+- autoriser le routage de paquets entre les interfaces ;
 - ajouter des routes vers les Additional IP.
 
 #### Configurer l'hyperviseur
@@ -64,7 +64,7 @@ Connectez-vous au serveur Proxmox via SSH :
 ssh PUB_IP_DEDICATED_SERVER
 ```
 
-##### Autoriser le transfert de paquets
+##### Autoriser le routage de paquets
 
 Activez le paramètre sysctl `ip_forward`. Pour cela, nous vous recommandons de modifier le fichier de configuration `sysctl.conf`.
 
@@ -165,7 +165,7 @@ sysctl -p
 >>         bridge-fd 0
 >> ```
 
-À ce stade, relancez les services réseau :
+À ce stade, redémarrez les services réseau :
 
 ```bash
 systemctl restart networking.service
@@ -239,14 +239,16 @@ Cette configuration est plus souple car il n'est pas nécessaire d'associer une 
 
 > [!warning]
 >
+> Cette configuration ne fonctionne qu'avec un bloc d'Additional IP.
 > Il n'est pas possible d'utiliser une seule Additional IP (/32) directement dans le vRack. Pour utiliser une Additional IP, elle doit être [configurée sur une interface publique](#additionalipmoderoute) et ne peut pas être directement intégrée au vRack.
 >
 
 #### Prérequis
 
-* Un [serveur compatible avec le vRack](/links/bare-metal/bare-metal).
-* Un service [vRack](/links/network/vrack).
-* Un bloc d'adresses IP publiques.
+* Un [serveur compatible avec le vRack](/links/bare-metal/bare-metal)
+* Un service [vRack](/links/network/vrack)
+* Un bloc d'additional IP
+* Être connecté à votre [espace client OVHcloud](/links/manager)
 
 #### Schéma de la configuration cible
 
@@ -261,13 +263,13 @@ Nous allons :
 * créer une interface d'agrégation (*bond*) (uniquement pour les gammes High Grade & SCALE) ;
 * créer une interface bridge connectée au *bond*.
 
-Premièrement, ajoutez votre bloc public d’adresses IP au vRack. Pour ce faire, allez dans la section `Bare Metal Cloud`{.action} de votre espace client OVHcloud et ouvrez le menu `vRack`{.action}.
+Premièrement, ajoutez votre bloc d'additional IP au vRack. Pour ce faire, allez dans la section `Bare Metal Cloud`{.action} de votre espace client OVHcloud et ouvrez le menu `vRack`{.action}.
 
-Sélectionnez votre vRack dans la liste pour afficher la liste des services éligibles. Cliquez sur le bloc public d’adresses IP que vous souhaitez ajouter au vRack, puis cliquez sur le bouton `Ajouter`{.action}.
+Sélectionnez votre vRack dans la liste pour afficher la liste des services éligibles. Cliquez sur le bloc d'additional IP que vous souhaitez ajouter au vRack, puis cliquez sur le bouton `Ajouter`{.action}.
 
 #### Déterminer les adresses IP assignables
 
-Lorsqu'elles sont utilisées dans un vRack, la première, l'avant-dernière et la dernière adresses d'un bloc d'IP donné sont toujours réservées respectivement à l'adresse réseau, la passerelle réseau et au *broadcast* du réseau. . Cela signifie que la première adresse assignable est la deuxième adresse du bloc, comme indiqué dans l'exemple ci-dessous pour le bloc `46.105.135.96/28` :
+Lorsqu'elles sont utilisées dans un vRack, la première, l'avant-dernière et la dernière adresses d'un bloc d'IP donné sont toujours réservées respectivement à l'adresse réseau, la passerelle réseau et au *broadcast* du réseau. Cela signifie que la première adresse assignable est la deuxième adresse du bloc, comme indiqué dans l'exemple ci-dessous pour le bloc `46.105.135.96/28` :
 
 ```sh
 46.105.135.96   # Réservée : adresse réseau
@@ -290,7 +292,7 @@ Lorsqu'elles sont utilisées dans un vRack, la première, l'avant-dernière et l
 
 > [!primary]
 >
-> Le masque de sous-réseau utilisé dans cet exemple est approprié pour notre bloc IP. Votre masque de sous-réseau peut différer en fonction de la taille de votre bloc. Lorsque vous achetez votre bloc d'IP, vous recevez un e-mail vous indiquant le masque de sous-réseau à utiliser.
+> Le masque de sous-réseau utilisé dans cet exemple est adapté à notre bloc d'Additional IP. Votre masque de sous-réseau peut différer en fonction de la taille de votre bloc. Lorsque vous achetez votre bloc d'IP, vous recevez un e-mail vous indiquant le masque de sous-réseau à utiliser.
 >
 
 #### Configurer l'hyperviseur
@@ -362,7 +364,7 @@ ssh PUB_IP_DEDICATED_SERVER
 >> ```
 
 
-A ce stade, redémarrez les services réseau :
+À ce stade, redémarrez les services réseau :
 
 ```bash
 systemctl restart networking.service
@@ -372,7 +374,7 @@ systemctl restart networking.service
 >
 > Lorsque les services réseau sont redémarrés, les VM ne sont pas ajoutées au bridge. En effet, Proxmox déconnecte chaque VM des bridges et ne les reconnecte pas. Pour forcer la reconnexion des VM aux bridges, vous pouvez redémarrer les VM.
 
-#### Exemple de configuration VM cliente Debian
+#### Exemple de configuration VM cliente
 
 La VM doit être attachée au bridge `vmbr1`.
 
