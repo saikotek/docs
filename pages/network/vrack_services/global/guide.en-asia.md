@@ -135,9 +135,10 @@ You must first authenticate via this [page](https://ca.api.ovh.com/console-previ
 
 First, you need to list your vRack Services to get the ID of the vRack Services on which you want to perform your actions.
 
-Here is the relevant section of the API page available at this [url](https://ca.api.ovh.com/console-preview/?section=%2FvrackServices&branch=v2#get-/vrackServices/resource):
-
-![image](https://github.com/ovh/docs/assets/60412/7cdeb9c2-5a6e-4ca8-9403-8aede124e6d8)
+> [!api]
+>
+> @api {v2} /vrackServices GET /vrackServices/resource
+>
 
 Here is the command line :
 
@@ -151,9 +152,10 @@ The ID used in our example is `vrs-a8y-v9a-x5m-f4u`
 
 #### 2. Listing all managed services that are eligible for the vRack Services in question
 
-Here is the relevant section of the API page, accessible via this [url](https://ca.api.ovh.com/console-preview/?section=%2FvrackServices&branch=v2#get-/vrackServices/resource/-vrackServicesId-/eligibleManagedService):
-
-![image](https://github.com/ovh/docs/assets/60412/3da50fd3-be4b-479b-a7b3-f3449406b6d7)
+> [!api]
+>
+> @api {v2} /vrackServices GET /vrackServices/resource/{vrackServicesId}/eligibleManagedService
+>
 
 Here is the command line :
 
@@ -170,9 +172,10 @@ The IDs of the managed services used in our example below are as follows:
 
 #### 3. Requesting vRack Services configuration updates
 
-Here is the relevant section of the API page available at this [url](https://ca.api.ovh.com/console-preview/?section=%2FvrackServices&branch=v2#put-/vrackServices/resource/-vrackServicesId-):
-
-![image](https://github.com/ovh/docs/assets/60412/146cc671-6fdd-47ed-a741-5982bb9e07a8)
+> [!api]
+>
+> @api {v2} /vrackServices PUT /vrackServices/resource/{vrackServicesId}
+>
 
 This is the only route that manages any updates to the vRack Services configuration. It works as follows :
 
