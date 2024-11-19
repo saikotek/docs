@@ -99,8 +99,6 @@ The actions to be taken are very simple. All you need to do is enter 3 pieces of
 
 Once you have requested the creation of the Service Endpoint, the list of Service Endpoints will be presented to you. A banner will display the creation status of your Service Endpoint.
 
-![overview 01](images/17-VRS.png){.thumbnail}
-
 Within a few moments, your new Service Endpoint will be configured and available.
 
 ![overview 01](images/18-VRS.png){.thumbnail}

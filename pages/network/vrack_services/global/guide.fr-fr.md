@@ -97,8 +97,6 @@ Les actions à mener sont très simples. En effet il suffit uniquement de rensei
 
 Une fois la création du Service Endpoint demandée, vous êtes redirigé vers la liste des Service Endpoints. Une bannière vous indique le statut de création de votre Service Endpoint.
 
-![overview 01](images/17-VRS.png){.thumbnail}
-
 Après quelques instants, votre nouveau Service Endpoint est configuré et disponible.
 
 ![overview 01](images/18-VRS.png){.thumbnail}
