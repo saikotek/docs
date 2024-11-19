@@ -143,7 +143,7 @@ velero install \
 
 > [!primary]
 >
-> Starting with version 1.14 the plugin-for-csi is integrated in velero. We can simply remove it from the install example if we install a version 1.14 or newer. For upgrading an older version follow the upgrade notes [Upgrade-to-1.14](https://velero.io/docs/v1.14/upgrade-to-1.14/).
+> Starting with version 1.14 the plugin-for-csi is integrated in velero. You can simply remove it from the install example if you install version 1.14 or newer. For upgrading an older version follow the upgrade notes: [Upgrade-to-1.14](https://velero.io/docs/v1.14/upgrade-to-1.14/).
 
 Example for 1.14 and newer:
 
