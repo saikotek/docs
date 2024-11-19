@@ -15,26 +15,26 @@ updated: 2024-11-15
 
 ## Ziel
 
-Diese Seite beantwortet Fragen zur Zimbra Lösung bei OVHcloud
+Diese Seite beantwortet Fragen zur Zimbra Lösung bei OVHcloud.
 
 ### Allgemeine Fragen zu den Zimbra-Angeboten bei OVHcloud
 
 #### Was ist Zimbra?
 
-Zimbra ist eine beliebte Open-Source-Lösung für die Zusammenarbeit. Zimbra bietet zahlreiche Funktionen des OVHcloud Katalogs.
+Zimbra ist eine beliebte Open-Source-Lösung für kollaboratives Arbeiten. Zimbra bietet zahlreiche Funktionen des OVHcloud Katalogs.
 
-Um die Zimbra Lösung bei OVHcloud in einen Kontext zu setzen, wird sie für 2 E-Mail-Angebote verwendet.
+Die Zimbra Lösung bei OVHcloud wird für 2 E-Mail Dienste verwendet.
 
-- **MX Plan**: Zimbra wird im Rahmen einer technologischen Umstellung von Outlook Web Access (OWA) Webmail auf Zimbra für das historische MX Plan E-Mail-Angebot verwendet.
-- **Zimbra**: Zimbra erscheint im Katalog von OVHcloud als eigenständiges Angebot mit dem Angebot [„Zimbra Starter“ aktuell in Beta](https://labs.ovhcloud.com/en/zimbra-beta/).
+- **MX Plan**: Zimbra wird im Rahmen einer technischen Umstellung von Outlook Web App (OWA) auf Zimbra für den MX Plan Legacy verwendet.
+- **Zimbra**: Zimbra erscheint im Katalog von OVHcloud als eigenständiges Angebot [„Zimbra Starter“, aktuell in Beta](https://labs.ovhcloud.com/en/zimbra-beta/).
 
-Die folgende Grafik zeigt Ihnen, welche Technologien derzeit bei den einzelnen OVHcloud Angeboten verwendet werden. Das Webmail Outlook Web Access (OWA) wird schrittweise aus dem MX Plan Angebot verschwinden.
+Die folgende Grafik zeigt Ihnen, welche Funktionen derzeit bei den einzelnen OVHcloud Angeboten verwendet werden. Outlook Web App (OWA) wird schrittweise aus dem MX Plan Angebot verschwinden.
 
 ![FAQ Zimbra](images/technology_email.png){.thumbnail .w-600 .h-600}
 
 > [!warning]
 >
-> Es bestehen Funktionsunterschiede zwischen der im MX Plan Angebot verwendeten Zimbra-Lösung und der im Zimbra Starter Angebot verwendeten Zimbra-Lösung. Die Funktionen, die während des Umstiegs auf Zimbra für das MX Plan Angebot verfügbar bleiben, finden Sie in der Tabelle am Ende dieser FAQ(#features)
+> Es bestehen Funktionsunterschiede zwischen der im MX Plan Angebot verwendeten Zimbra Lösung und der im Zimbra Starter Angebot verwendeten Zimbra-Lösung. Die Funktionen, die während des Umstiegs auf Zimbra für das MX Plan Angebot verfügbar bleiben, finden Sie in der [Tabelle am Ende dieser FAQ](#features).
 
 #### Wo finde ich Anleitungen?
 
@@ -46,7 +46,7 @@ Besuchen Sie unsere Seite „[Zimbra-E-Mail-Adresse auf einem E-Mail-Client konf
 
 ### Fragen zur Migration von MX Plan auf Zimbra
 
-Im Rahmen der Weiterentwicklung des MX Plan Angebots wird eine Migration von der derzeitigen Lösung mit Outlook Web Access (OWA) auf die Zimbra Lösung und deren Webmail geplant.
+Im Rahmen der Weiterentwicklung des MX Plan Angebots wird eine Migration von der derzeitigen Lösung mit Outlook Web App (OWA) auf die Zimbra Lösung und deren Webmail geplant.
 
 Wenn Sie von dieser Migration betroffen sind, finden Sie hier die häufigsten Fragen zu diesem Thema.
 
