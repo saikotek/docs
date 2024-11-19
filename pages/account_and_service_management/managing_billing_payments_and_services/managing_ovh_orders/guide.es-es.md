@@ -116,4 +116,4 @@ Por último, marque la casilla `Sí, quiero cancelar el pedido`{.action} y confi
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

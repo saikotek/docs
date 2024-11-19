@@ -140,5 +140,4 @@ También puede exportar sus justificantes de pago en formato *.CSV* utilizando e
 
 [Gestionar las formas de pago](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
-
+Interactúe con nuestra [comunidad de usuarios](/links/community).
