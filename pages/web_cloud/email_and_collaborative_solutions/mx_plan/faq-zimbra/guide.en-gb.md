@@ -25,10 +25,10 @@ Zimbra is a popular open-source collaborative solution. Zimbra offers many featu
 
 To contextualize the Zimbra solution within OVHcloud, it is used for 2 email offers.
 
-- **MX Plan**: Zimbra is used as part of a technological transition from Outlook Web Access (OWA) webmail to Zimbra webmail for the legacy MX Plan email solution.
-- **Zimbra**: Zimbra is appearing in the OVHcloud catalog as a standalone solution with the ["Zimbra Starter" currently in beta] solution (https://labs.ovhcloud.com/en/zimbra-beta/).
+- **MX Plan**: Zimbra is used as part of a technological transition from Outlook Web App (OWA) to Zimbra webmail for the legacy MX Plan email solution.
+- **Zimbra**: Zimbra is appearing in the OVHcloud catalog as a standalone solution with ["Zimbra Starter" currently in beta](https://labs.ovhcloud.com/en/zimbra-beta/).
 
-To get a better understanding, the following graphic shows the technologies currently used on each OVHcloud solution. Outlook Web Access (OWA) webmail will gradually disappear from the MX Plan solution.
+To get a better understanding, the following graphic shows the technologies currently used on each OVHcloud solution. Outlook Web App (OWA) will gradually disappear from the MX Plan solution.
 
 ![Zimbra FAQ](images/technology_email.png){.thumbnail .w-600 .h-600}
 
@@ -46,7 +46,7 @@ Visit our page “[Configuring your Zimbra email address in an email client](/pa
 
 ### Questions on MX Plan migration to Zimbra solution
 
-As part of the MX Plan solution upgrade, a migration is planned from the current solution using Outlook Web Access (OWA) webmail to the Zimbra solution and its webmail.
+As part of the MX Plan solution upgrade, a migration is planned from the current webmail using Outlook Web App (OWA) to the Zimbra solution's webmail.
 
 If you are affected by this migration, you will find the most frequently asked questions here.
 
@@ -116,7 +116,7 @@ To cancel your solution in the "My services" section of the OVHcloud Control Pan
 
 #### Features maintained, suspended or removed after migration to Zimbra <a name="features"></a> 
 
-| Fonction | Description | Status |
+| Function | Description | Status |
 |-|-|-|
 |**Email account management from the Control Panel**<br>(Password, alias, quota)|Maintained|✅|
 |**Offers and billing**|Maintained|✅|
