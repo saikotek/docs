@@ -1,7 +1,7 @@
 ---
 title: "vRack Services - Exposing a Managed Service on your vRack"
 excerpt: "Discover how to expose your managed service on the vRack using the vRack Services product and the Service Endpoint feature."
-updated: 2024-11-01
+updated: 2024-11-26
 ---
 
 > [!warning]
@@ -151,7 +151,7 @@ curl -X GET "https://eu.api.ovh.com/v2/vrackServices/resource" \
 
 The ID used in our example is `vrs-a8y-v9a-x5m-f4u`
 
-#### 2. Listinf all managed services that are eligible for the vRack Services in question
+#### 2. Listing all managed services that are eligible for the vRack Services in question
 
 Here is the relevant section of the API page, accessible via this [url](https://eu.api.ovh.com/console-preview/?section=%2FvrackServices&branch=v2#get-/vrackServices/resource/-vrackServicesId-/eligibleManagedService):
 
@@ -469,7 +469,7 @@ Output:
 ### Subnet
 
 - The subnet address range must conform to RFC 1918.
-- The length of the subnet range is between /16 and /24.
+- The length of the subnet address range is fixed size /24.
 - Modifying the subnet range will cause an interruption of the associated service endpoints (during the reconfiguration period).
 - The valid VLAN ID range is from 2 to 4094. The value `null` is allowed (no VLAN / untagged).
 - Each subnet address range must be unique for a given vRack Services. Overlaps are detected and discarded when the subnet is created.

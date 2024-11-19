@@ -1,7 +1,7 @@
 ---
 title: "vRack Services - Exposer un service managé sur votre vRack"
 excerpt: "Découvrez comment exposer votre service managé sur le vRack avec le produit vRack Services et la fonctionnalité Service Endpoint"
-updated: 2024-11-01
+updated: 2024-11-26
 ---
 
 > [!warning]
@@ -468,7 +468,7 @@ Retour de l'appel API :
 ### Sous-réseau
 
 - La plage d'adresses du sous-réseau doit respecter le RFC 1918.
-- La longueur de la plage d'adresse du sous-réseau est comprise entre /16 et /24.
+- La longueur de la plage d'adresse du sous-réseau est de taille fixe /24.
 - Modifier la plage d'adresses de sous-réseau causera une interruption des Service Endpoints associés (pendant le temps de la reconfiguration).
 - La plage d'ID de VLAN valide est comprise entre 2 et 4094. La valeur "null" est autorisée (pas de VLAN / untagged).
 - Chaque plage d'addresses de sous-réseau doit être unique pour un vRack Services donné. Les chevauchements sont détectés et écartés lors de la création du sous-réseau.
