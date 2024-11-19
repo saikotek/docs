@@ -139,4 +139,4 @@ In diesem Bereich können Sie Ihre Zahlungsbelege auch im *.csv* Format exportie
 
 [Zahlungsarten verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

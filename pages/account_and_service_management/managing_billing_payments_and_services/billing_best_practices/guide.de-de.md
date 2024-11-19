@@ -98,4 +98,4 @@ Verwenden Sie dieses [Formular](https://www.ovh.de/schutz-personenbezogener-date
 
 [OVHcloud Rechnungen verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

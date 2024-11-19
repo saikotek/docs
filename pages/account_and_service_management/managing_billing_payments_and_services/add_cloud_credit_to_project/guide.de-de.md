@@ -60,4 +60,4 @@ Da die Gültigkeitsdauer der Gutscheine in der Regel kürzer ist, wird der Gutha
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com>.
+Treten Sie unserer [User Community](/links/community) bei.
