@@ -31,7 +31,7 @@ OVHcloud Backint Agent for SAP HANA has been certified by SAP, you can find cert
 
 > [!primary]
 >
-> [** Quick access to OVHcloud Backint Agent download URL**](#ovhcloud-backint-agent-for-sap-hana)
+> [**Quick access to OVHcloud Backint Agent download URL**](#ovhcloud-backint-agent-for-sap-hana)
 >
 
 ### S3 Object Storage
