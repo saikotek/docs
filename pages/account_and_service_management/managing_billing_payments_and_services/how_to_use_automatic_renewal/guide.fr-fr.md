@@ -220,4 +220,4 @@ Ce guide n'a pas répondu à votre question ? Consultez notre [FAQ sur la factur
 
 [Gérer la facturation de vos comptes Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

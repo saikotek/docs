@@ -146,5 +146,4 @@ Depuis cet espace, vous pouvez également exporter vos justificatifs de paiement
 
 [Gérer mes moyens de paiement](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
-
+Échangez avec notre [communauté d'utilisateurs](/links/community).

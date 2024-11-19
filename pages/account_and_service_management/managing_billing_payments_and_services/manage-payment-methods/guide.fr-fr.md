@@ -170,4 +170,4 @@ Sur le bon de commande qui s'affiche, sélectionnez le moyen de paiement de votr
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -175,4 +175,4 @@ Vous ajoutez votre première machine virtuelle à votre sauvegarde le 5 juin. Fi
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
