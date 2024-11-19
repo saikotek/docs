@@ -43,7 +43,7 @@ details[open]>summary::before {
 - [Installing PuTTY](#installation)
 - [SSH connections with username and password](#sshconnect1)
     - [Web hosting plan](#webhosting)
-    - [Dedicated server or VPS](#cloud-server)
+    - [Dedicated server or VPS](#cloudserver)
 - [SSH connections with username and SSH key authentication](#sshconnect2)
     - [Creating SSH keys with PuTTY](#puttygen)
     - [Transferring public SSH keys to your server](#transferkeys)
@@ -99,9 +99,11 @@ Click on `Open`{.action}.
 At the first connection, the "PuTTY Security Alert" will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as a web hosting plan's FTP storage).  
 Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the web hosting's fingerprint will not be saved to the cache and the alert window will show up at the next connection. You can find further details in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-The command line window (PuTTY terminal) will open and prompt you to enter the login password.
+The command line window (PuTTY terminal) will open and prompt you to enter the FTP login password.
 
-Enter the password you have [assigned to this user](/pages/web/hosting/ftp_connection). Note that **a password prompt will not display your keyboard inputs** in a PuTTY terminal. Example output:
+Enter the password you have [assigned to this user](/pages/web/hosting/ftp_connection). You can paste the password string into this window with a right-click.
+
+Note that **a password prompt will not display your keyboard inputs** in a PuTTY terminal. Example output:
 
 ```console
 Using username "yourlogin".
@@ -171,8 +173,6 @@ This part of the tutorial explains how to use SSH with **key pair authentication
 - [Public Cloud instance](/links/public-cloud/public-cloud)
 - [Dedicated server](/links/bare-metal/bare-metal)
 - [VPS](/links/bare-metal/vps)
-
-<a name="getstarted"></a>
 
 You will need the IP address of your server which you can find in the [OVHcloud Control Panel](/links/manager) and the name of the user account you want to use for this login session. Consult our "Getting started" guides if you require further details on this topic:
 
@@ -362,7 +362,8 @@ Navigate back to `Session`{.action} in the left-hand menu. Enter the login crede
 - `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)
 - `Port`: 22 (unless you have changed the SSH port number of your server)
 
-Click the button `Open`{.action}. The PuTTY terminal will prompt you for the password of the key file.  
+Click the button `Open`{.action}. The PuTTY terminal will prompt you for the password of the key file. You can paste the password string into this window with a right-click.
+
 Note that **a password prompt will not display your keyboard inputs** in a PuTTY terminal. Example output:
 
 ```console

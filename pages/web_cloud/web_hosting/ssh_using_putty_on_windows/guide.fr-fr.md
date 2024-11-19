@@ -43,7 +43,7 @@ details[open]>summary::before {
 - [Installation de PuTTY](#installation)
 - [Connexions SSH avec nom d'utilisateur et mot de passe](#sshconnect1)
     - [Hébergement mutualisé](#webhosting)
-    - [Serveur dédié ou VPS](#cloud-server)
+    - [Serveur dédié ou VPS](#cloudserver)
 - [Connexions SSH avec nom d'utilisateur et authentification par clé SSH](#sshconnect2)
     - [Création de clés SSH avec PuTTY](#puttygen)
     - [Transfert des clés SSH publiques vers votre serveur](#transferkeys)
@@ -100,7 +100,9 @@ Cliquez sur `Accept`{.action} pour continuer. Si vous sélectionnez `Connect Onc
 
 La fenêtre de ligne de commande (PuTTY terminal) s'ouvre et vous invite à entrer le mot de passe de connexion.
 
-Entrez le mot de passe que vous avez [attribué à cet utilisateur](/pages/web/hosting/ftp_connection). Notez qu'**une invite de mot de passe n'affichera pas vos saisies clavier** dans un terminal PuTTY. Exemple de sortie :
+Entrez le mot de passe que vous avez [attribué à cet utilisateur](/pages/web/hosting/ftp_connection). Vous pouvez coller la chaîne de mot de passe dans cette fenêtre via un clic droit.
+
+Notez qu'**une invite de mot de passe n'affichera pas vos saisies clavier** dans un terminal PuTTY. Exemple de sortie :
 
 ```console
 Using username "yourlogin".
@@ -170,8 +172,6 @@ Cette partie du tutoriel explique comment utiliser SSH avec **authentification p
 - [Instance Public Cloud](/links/public-cloud/public-cloud)
 - [Serveur dédié](/links/bare-metal/bare-metal)
 - [VPS](/links/bare-metal/vps)
-
-<a name="getstarted"></a>
 
 Vous aurez besoin de l'adresse IP de votre serveur que vous trouverez dans votre [espace client OVHcloud](/links/manager) ainsi que du nom du compte utilisateur que vous souhaitez utiliser pour cette session de connexion. N’hésitez pas à consulter nos guides « Premiers pas » si vous souhaitez obtenir plus de détails sur ce sujet :
 
@@ -361,9 +361,9 @@ Retournez à `Session`{.action} dans le menu de gauche. Renseignez les identifia
 - `Host Name (or IP address)`: **username@IPv4_server** (exemple : **ubuntu@203.0.113.101**)
 - `Port` : 22 (sauf si vous avez changé le numéro de port SSH de votre serveur)
 
-Cliquez sur le bouton `Open`{.action}. Le terminal PuTTY vous demandera le mot de passe du fichier de clé.
+Cliquez sur le bouton `Open`{.action}. Le terminal PuTTY vous demandera le mot de passe du fichier de clé. Vous pouvez coller la chaîne de mot de passe dans cette fenêtre via un clic droit.
 
-Notez qu'**une invite de mot de passe n'affichera pas vos entrées clavier** dans un terminal PuTTY. Exemple de sortie :
+Notez qu'**une invite de mot de passe n'affichera pas vos saisies clavier** dans un terminal PuTTY. Exemple de sortie :
 
 ```console
 Using username "ubuntu".
@@ -406,7 +406,7 @@ Même si vous fermez cette fenêtre, Pageant continuera de s'exécuter en arriè
 
 Si vous enregistrez également votre connexion en tant que session dans PuTTY comme décrit dans la section suivante, vous pourrez ouvrir des connexions à distance en quelques clics seulement.
 
-<a name="sessionskeys"></a>
+<a name="sessions"></a>
 
 ### Utilisation de sessions de connexion PuTTY
 
