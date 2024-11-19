@@ -80,4 +80,4 @@ Nella scheda `Le tue referenze interne`{.action}, è possibile modificare o disa
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

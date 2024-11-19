@@ -175,4 +175,4 @@ L'annullamento della disattivazione ha effetto immediato. Aggiorna la pagina "I 
 
 [Gestire il rinnovo dei servizi OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

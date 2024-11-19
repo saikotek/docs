@@ -175,4 +175,4 @@ Per scaricarlo accedi allo Spazio Cliente, clicca sul tuo nome utente in alto a 
 
 ## Per saperne di più
   
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).
