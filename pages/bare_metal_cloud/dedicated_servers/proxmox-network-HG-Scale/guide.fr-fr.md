@@ -71,7 +71,7 @@ Activez le paramètre sysctl `ip_forward`. Pour cela, nous vous recommandons de 
 Ajoutez la ligne suivante à `/etc/sysctl.conf` :
 
 ```text
-# Enable ip_forward
+# Activer ip_forward
 net.ipv4.ip_forward = 1
 ```
 
