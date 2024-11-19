@@ -13,7 +13,7 @@ Lors de vos tests, vous serez probablement amené à vérifier la vitesse de vos
 ## Prérequis
 
 - Posséder une [instance Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/).
-- Disposer d’un accès administratif (sudo) à cette instance via SSH (pour Linux uniquement).
+- Avoir un accès administratif (sudo) à votre instance via SSH (Linux) ou RDP (Windows).
 
 ## En pratique
 
@@ -201,11 +201,14 @@ La ligne qui nous intéresse est la cinquième, qui contient le nombre d'opérat
 write: IOPS=39.4k, BW=154MiB/s (161MB/s)(18.0GiB/120001msec); 0 zone resets
 ```
 
-Nous pouvons voir que la performance du disque principal est d'environ 40.0k IOPS.
+Nous pouvons voir que la performance du disque principal est d'environ 39.4k IOPS.
 
 ### Disque supplémentaire
 
-Pour tester la vitesse d'un disque supplémentaire, vous devez le monter. Pour plus d'informations, consultez ce [guide](https://github.com/ovh/docs/blob/develop/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#sous-windows)
+Pour tester la vitesse d'un disque supplémentaire, vous devez le monter. Pour plus d'informations, consultez ce [guide](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#sous-windows).
+
+Accédez ensuite au disque supplémentaire via powershell et exécutez la même commande `fio` (voir ci-dessus).
+
 
 ## Aller plus loin
 
