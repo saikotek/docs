@@ -140,5 +140,4 @@ W tej sekcji możesz również wyeksportować dokumenty potwierdzające płatno�
 
 [Zarządzanie sposobami płatności](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
-
+Dołącz do [grona naszych użytkowników](/links/community).

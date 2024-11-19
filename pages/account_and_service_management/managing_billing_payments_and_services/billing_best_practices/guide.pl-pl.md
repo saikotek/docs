@@ -98,4 +98,4 @@ Następnie skorzystaj z [tego formularza](https://www.ovh.pl/ochrona-danych-osob
 
 [Zarządzanie fakturami OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).
