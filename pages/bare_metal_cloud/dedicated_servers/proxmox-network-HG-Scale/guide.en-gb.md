@@ -1,18 +1,14 @@
 ---
 title: 'Configuring the network on Proxmox VE on the High Grade, Scale & Advance ranges'
 excerpt: 'Find out how to configure the network on Proxmox VE'
-updated: 2024-10-18
+updated: 2024-11-19
 ---
 
 > [!primary]
 >
 > The sections related to Advance range servers only apply to third generation Advance servers powered by EPYC 4004 Series processors.
+>
 > Older Advance generation servers do not rely on the same network infrastructure.
->
-
-> [!primary]
->
-> Since October 6th, 2022 our service "Failover IP" has been named [Additional IP](/links/network/additional-ip). This renaming has no impact on its technical features.
 >
 
 ## Objective
@@ -86,6 +82,7 @@ sysctl -p
 ```
 
 ##### Configure the network interfaces
+
 > [!tabs]
 > High Grade & Scale ranges
 >>
@@ -291,7 +288,6 @@ When used in a vRack, the first, penultimate, and last addresses of a given IP b
 46.105.135.110   # Reserved: network gateway
 46.105.135.111   # Reserved: network broadcast
 ```
-
 
 > [!primary]
 >
