@@ -141,6 +141,24 @@ velero install \
   --snapshot-location-config region=<public cloud region without digit>,enableSharedConfig=true
 ```
 
+> [!primary]
+>
+> Starting with version 1.14 the plugin-for-csi is integrated in velero. We can simply remove it from the install example if we install a version 1.14 or newer. For upgrading an older version follow the upgrade notes [Upgrade-to-1.14](https://velero.io/docs/v1.14/upgrade-to-1.14/).
+
+Example for 1.14 and newer:
+
+```bash
+velero install \
+  --features=EnableCSI \
+  --provider aws \
+  --plugins velero/velero-plugin-for-aws:v1.10.1 \
+  --bucket <your bucket name> \
+  --secret-file ./credentials \
+  --backup-location-config region=<public cloud region without digit>,s3ForcePathStyle="true",s3Url=https://s3.<public cloud region without digit>.cloud.ovh.net,checksumAlgorithm="" \
+  --snapshot-location-config region=<public cloud region without digit>,enableSharedConfig=true
+```
+
+
 In our case, with the cluster in the `GRA` region, that meant:
 
 ```bash
@@ -148,6 +166,19 @@ velero install \
   --features=EnableCSI \
   --provider aws \
   --plugins velero/velero-plugin-for-aws:v1.10.1,velero/velero-plugin-for-csi:v0.4.0 \
+  --bucket velero-s3 \
+  --secret-file .aws/credentials \
+  --backup-location-config region=gra,s3ForcePathStyle="true",s3Url=https://s3.gra.cloud.ovh.net,checksumAlgorithm="" \
+  --snapshot-location-config region=gra,enableSharedConfig=true
+```
+
+For 1.14 and newer:
+
+```bash
+velero install \
+  --features=EnableCSI \
+  --provider aws \
+  --plugins velero/velero-plugin-for-aws:v1.10.1 \
   --bucket velero-s3 \
   --secret-file .aws/credentials \
   --backup-location-config region=gra,s3ForcePathStyle="true",s3Url=https://s3.gra.cloud.ovh.net,checksumAlgorithm="" \
