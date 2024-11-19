@@ -172,9 +172,10 @@ The IDs of the managed services used in our example below are as follows:
 
 #### 3. Requesting vRack Services configuration updates
 
-Here is the relevant section of the API page available at this [url](https://eu.api.ovh.com/console-preview/?section=%2FvrackServices&branch=v2#put-/vrackServices/resource/-vrackServicesId-):
-
-![image](https://github.com/ovh/docs/assets/60412/146cc671-6fdd-47ed-a741-5982bb9e07a8)
+> [!api]
+>
+> @api {v2} /vrackServices PUT /vrackServices/resource/{vrackServicesId}
+>
 
 This is the only route that manages any updates to the vRack Services configuration. It works as follows :
 
