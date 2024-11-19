@@ -20,20 +20,26 @@ Afin de faciliter la gestion de votre accès à Internet, vous avez la possibili
 
 ## En pratique
 
-### Étape 1 : accéder à la gestion de votre box
+### Étape 1 : modifier la gestion de votre box
 
 Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, partie « Télécom ». Cliquez sur `Accès Internet`{.action}, puis sélectionnez l'accès concerné.
 
-Positionnez-vous alors sur l'onglet `Mon modem`{.action}. Dans la page qui s'affiche, vérifiez que la case à côté de `Configuration à distance activée` est bien cochée. Dès lors, deux possibilités :
-
-- **la configuration à distance est activée** : poursuivez la lecture de cette documentation à l'étape 2 « [Personnaliser la configuration de votre box](./#etape-2-personnaliser-la-configuration-de-votre-box) » ;
-
-- **la configuration à distance n'est pas activée** : vous devez l'activer si vous souhaitez paramétrer votre box OVHcloud à distance. Pour ce faire, cochez la case à côté de `Configuration à distance activée`, confirmez la manipulation, puis patientez quelques minutes le temps de l'activation.
+Positionnez-vous alors sur l'onglet `Mon modem`{.action}.
 
 > [!warning]
 >
 > L'activation de la configuration à distance écrasera le paramétrage actuel de votre box. Si une configuration spécifique est actuellement en place, celle-ci sera alors effacée.
 >
+
+- Si vous souhaitez utiliser l'outil de configuration à distance, vérifiez que la case `Configuration à distance activée` est bien cochée. Puis poursuivez la lecture de cette documentation à l'étape 2 « [Personnaliser la configuration de votre box](./#etape-2-personnaliser-la-configuration-de-votre-box) ».
+
+> [!primary]
+>
+> La désactivation de la configuration à distance n'écrase pas le paramétrage de votre box. Vous pourrez accéder localement au modem, sans perdre votre configuration actuelle.
+> Un nouveau mot de passe utilisateur vous sera communiqué par email. Il est possible qu'un redémarrage du modem soit nécessaire.
+>
+
+- Si vous souhaitez configurer votre modem localement sans utiliser l'outil de configuration à distance, vérifiez que la case `Configuration à distance activée` est bien décochée.
 
 ![configureremotelybox](images/configure-remotely-box-step1-2022.png){.thumbnail}
 
