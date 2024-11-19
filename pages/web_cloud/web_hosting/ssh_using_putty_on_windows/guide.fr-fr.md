@@ -225,7 +225,7 @@ Entrez une phrase secrète pour protéger votre fichier de clé privée dans les
 
 Cliquez sur le bouton `Enregistrer la clé privée`{.action}. Sélectionnez un dossier pour vos fichiers de clés ou créez-en un nouveau, nommé `putty_key_files` par exemple.
 
-Renseignez un nom pour votre fichier et enregistrez-le. Vous devriez maintenant avoir un nouveau fichier **private key** avec l'extension `ppk` (PuTTY key file) dans votre dossier.
+Renseignez un nom pour votre fichier et enregistrez-le. Vous devriez maintenant avoir un nouveau fichier **private key** avec l'extension `ppk` (*PuTTY private key*) dans votre dossier.
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen5.png){.thumbnail}
 
@@ -354,7 +354,7 @@ Pour vous connecter à un host distant (instance Public Cloud, serveur dédié o
 |:---|
 | 1\. Ouvrez PuTTY.<br> 2\. Développez le nœud `SSH` sous `Connection` dans l'arborescence `Category`.<br> 3\. Développez le nœud `Auth`.<br> 4\. Cliquez sur `Credentials` pour afficher les paramètres correspondants.<br> 5\. Cliquez sur le bouton `Browse`{.action}.<br> 6\. Sélectionnez le fichier de clé privée (`keyfile.ppk`) dans le dossier dans lequel vous l'avez enregistré. |
 
-Retournez à `Session`{.action} dans le menu de gauche. Renseignez les identifiants de connexion dans les champs appropriés.
+Retournez à `Session` dans le menu de gauche. Renseignez les identifiants de connexion dans les champs appropriés.
 
 ![putty](/pages/assets/screens/other/web-tools/putty/putty2.png){.thumbnail}
 
@@ -483,6 +483,6 @@ En suivant ces étapes dans l'ordre, vous configurez vos connexions pour qu'elle
 
 Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

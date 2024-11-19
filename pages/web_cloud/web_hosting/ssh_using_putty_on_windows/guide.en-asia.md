@@ -225,7 +225,7 @@ Enter a passphrase to protect your private key file into the fields `Key passphr
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen4.png){.thumbnail}
 
 Click on the button `Save private key`{.action}. Select a folder for your key files or create a new one, named `putty_key_files` for example.  
-Enter a name for your file and save it. You should now have a new **private key** file with the extension `ppk` (PuTTY key file) in your folder.
+Enter a name for your file and save it. You should now have a new **private key** file with the extension `ppk` (*PuTTY private key*) in your folder.
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen5.png){.thumbnail}
 
@@ -355,7 +355,7 @@ In order to connect to a remote host (Public Cloud instance, dedicated server or
 |:---|
 | 1\. Open PuTTY.<br> 2\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 3\. Expand the node `Auth`.<br> 4\. Click `Credentials` to see the corresponding settings.<br> 5\. Click the button `Browse`{.action}.<br> 6\. Select the private key file (`keyfile.ppk`) from the folder in which you have saved it. |
 
-Navigate back to `Session`{.action} in the left-hand menu. Enter the login credentials into the appropriate fields.
+Navigate back to `Session` in the left-hand menu. Enter the login credentials into the appropriate fields.
 
 ![putty](/pages/assets/screens/other/web-tools/putty/putty2.png){.thumbnail}
 
@@ -480,7 +480,7 @@ By following these steps in order, you can configure your connections so that th
 
 [How to create SSH keys with OpenSSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 
-[How to create SSH keys with OpenSSH for Public Cloud instances](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+[How to create SSH keys with OpenSSH for Public Cloud instances](/pages/public_cloud/compute/creating-ssh-keys-pci)
 
 For specialized services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
 
