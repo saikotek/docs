@@ -139,4 +139,8 @@ To cancel your solution in the "My services" section of the OVHcloud Control Pan
 
 [MX Plan - How to use Zimbra webmail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
 
-Join our community of users on <https://community.ovh.com/en/>.
+For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+
+If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
+
+Join our [community of users](/links/community).

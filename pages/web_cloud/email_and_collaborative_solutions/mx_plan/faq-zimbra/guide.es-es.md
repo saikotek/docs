@@ -42,7 +42,7 @@ Ya está disponible una guía del usuario de Zimbra en [esta dirección](/pages/
 
 #### ¿Cómo puedo configurar mi dirección de correo electrónico en un cliente de correo?
 
-Consulte nuestra página «[Configurar una dirección de correo electrónico de Zimbra en un cliente de correo](/pages/web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps) ».
+Consulte nuestra página "[Configurar una dirección de correo electrónico de Zimbra en un cliente de correo](/pages/web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps)".
 
 ### Preguntas sobre la migración MX Plan hacia la solución Zimbra
 
@@ -139,4 +139,8 @@ Para dar de baja un servicio en la sección « Mis servicios » de su área de O
 
 [MX Plan - Utilizar el webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Para servicios especializados (posicionamiento, desarrollo, etc.), contacte con [partners de OVHcloud](/links/partner).
+
+Si quiere disfrutar de ayuda para utilizar y configurar sus soluciones de OVHcloud, puede consultar nuestras distintas soluciones [pestañas de soporte](/links/support).
+
+Interactúe con nuestra [comunidad de usuarios](/links/community).

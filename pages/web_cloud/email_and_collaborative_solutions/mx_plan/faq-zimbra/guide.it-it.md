@@ -139,4 +139,8 @@ Per disattivare il servizio nella sezione "I tuoi servizi" dello spazio OVHcloud
 
 [MX Plan - Utilizzare la webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com>.
+Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
+
+Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](/links/support).
+
+Contatta la nostra [Community di utenti](/links/community).

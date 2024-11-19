@@ -139,4 +139,8 @@ Pour résilier votre offre dans la section « Mes services » de votre espace OV
 
 [MX Plan - Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
+
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).

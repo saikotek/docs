@@ -139,4 +139,8 @@ Aby anulować ofertę w sekcji „Moje usługi” w przestrzeni OVHCloud, zapozn
 
 [MX Plan - Korzystaj z interfejsu Webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+W przypadku wyspecjalizowanych usług (pozycjonowanie, rozwój, etc.) skontaktuj się z [partnerami OVHcloud](/links/partner).
+ 
+Jeśli chcesz otrzymywać wsparcie w zakresie konfiguracji i użytkowania Twoich rozwiązań OVHcloud, zapoznaj się z naszymi [ofertami pomocy](/links/support).
+ 
+Dołącz do [grona naszych użytkowników](/links/community).
