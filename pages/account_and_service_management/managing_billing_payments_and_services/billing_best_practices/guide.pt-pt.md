@@ -98,4 +98,4 @@ De seguida, utilize [este formulário](https://www.ovh.pt/proteger-dados-pessoai
 
 [Gerir as minhas faturas OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

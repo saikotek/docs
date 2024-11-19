@@ -168,4 +168,4 @@ Nella nuova finestra, seleziona il metodo di pagamento che preferisci e salda il
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

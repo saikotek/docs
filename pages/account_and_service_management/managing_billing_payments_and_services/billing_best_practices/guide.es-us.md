@@ -98,4 +98,4 @@ A continuación, abra un [solicitud de asistencia](https://ca.ovh.com/manager/#/
 
 [Gestionar las facturas de OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

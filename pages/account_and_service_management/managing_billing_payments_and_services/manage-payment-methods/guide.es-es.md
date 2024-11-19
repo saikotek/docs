@@ -168,4 +168,4 @@ En la nueva orden de pedido, seleccione la forma de pago que desee y abone el pe
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

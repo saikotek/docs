@@ -124,4 +124,4 @@ La siguiente llamada le permite crear un enlace hacia su pedido. En primer lugar
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

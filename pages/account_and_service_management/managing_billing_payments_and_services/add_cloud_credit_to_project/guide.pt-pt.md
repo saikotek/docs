@@ -60,4 +60,4 @@ Uma vez que os prazos de validade dos vouchers são geralmente mais limitados, o
 
 ## Quer saber mais?
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

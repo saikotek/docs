@@ -175,4 +175,4 @@ Anulowanie rezygnacji obowiązuje natychmiastowo. Odśwież stronę "Moje usług
 
 [Zarządzanie odnawianiem usług](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

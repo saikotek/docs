@@ -178,4 +178,4 @@ Die Kündigung wird mit sofortiger Wirkung rückgängig gemacht. Aktualisieren S
 
 [Verlängerung Ihrer OVHcloud Dienste verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

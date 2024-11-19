@@ -196,4 +196,4 @@ L'annulation de la résiliation est à effet immédiat. Rafraîchissez la page �
 
 [Gérer le renouvellement de mes services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

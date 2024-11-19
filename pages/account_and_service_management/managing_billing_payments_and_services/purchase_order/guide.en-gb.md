@@ -79,4 +79,4 @@ From the `My internal references`{.action} tab, you can edit or deactivate a ref
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

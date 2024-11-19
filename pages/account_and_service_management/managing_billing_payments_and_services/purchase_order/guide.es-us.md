@@ -80,4 +80,4 @@ Desde la pestaña `Mis referencias internas`{.action} puede modificar o desactiv
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

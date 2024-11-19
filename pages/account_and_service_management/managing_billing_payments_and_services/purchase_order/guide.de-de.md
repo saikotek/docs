@@ -80,4 +80,4 @@ Im Tab `Meine internen Referenzen`{.action} können Sie eine Referenz ändern od
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

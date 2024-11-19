@@ -177,4 +177,4 @@ Aby pobrać fakturę, przejdź do sekcji `Faktury`{.action} widocznej na dashboa
 
 ## Sprawdź również
  
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

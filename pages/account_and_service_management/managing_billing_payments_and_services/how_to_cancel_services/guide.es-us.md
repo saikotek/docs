@@ -145,4 +145,4 @@ La cancelación de la baja tendrá efecto inmediato. Actualice la página "Mis s
 
 [Gestionar la renovación de los servicios](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

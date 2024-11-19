@@ -98,4 +98,4 @@ In seguito, utilizza [questo form](https://www.ovh.it/protezione-dati-personali/
 
 [Gestire le fatture OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

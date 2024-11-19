@@ -60,4 +60,4 @@ Ze względu na to, że kody promocyjne są ważne przez dłuższy czas, pozosta�
 
 ## Sprawdź również
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

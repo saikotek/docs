@@ -82,4 +82,4 @@ Se abrirá una ventana en la que podrá realizar el seguimiento en cuatro pasos.
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

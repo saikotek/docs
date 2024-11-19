@@ -72,4 +72,4 @@ Vous devrez alors renseigner le token de validation disponible dans l'e-mail de 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

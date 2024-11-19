@@ -140,5 +140,4 @@ In questo spazio è possibile esportare anche i giustificativi in formato *.csv*
 
 [Gestire i metodi di pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
-
+Contatta la nostra [Community di utenti](/links/community).

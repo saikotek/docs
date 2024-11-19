@@ -169,4 +169,4 @@ Wählen Sie im angezeigten Bestellschein die Zahlungsart Ihrer Wahl aus und füh
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.
