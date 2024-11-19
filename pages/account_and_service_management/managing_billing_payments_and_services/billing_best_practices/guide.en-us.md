@@ -98,4 +98,4 @@ Then, submit a [request](https://ca.ovh.com/manager/#/dedicated/support/tickets/
 
 [Managing OVHcloud bills](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -72,4 +72,4 @@ You will then need to fill in the validation token available in the termination 
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

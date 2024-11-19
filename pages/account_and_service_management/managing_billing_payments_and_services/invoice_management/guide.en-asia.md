@@ -139,4 +139,4 @@ In this section, you can also export your payment receipts in *.csv* format, by 
 
 [Managing payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

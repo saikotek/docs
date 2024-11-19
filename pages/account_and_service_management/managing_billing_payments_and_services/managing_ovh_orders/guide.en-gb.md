@@ -116,4 +116,4 @@ You can confirm the order cancellation by simply ticking the box saying `Yes, I 
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
