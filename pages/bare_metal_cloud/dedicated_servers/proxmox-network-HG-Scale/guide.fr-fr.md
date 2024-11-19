@@ -84,7 +84,7 @@ sysctl -p
 ##### Configurer les interfaces réseau
 
 > [!tabs]
-> High Grade & Scale ranges
+> Gammes High Grade & Scale
 >>
 >> ```bash
 >> vi /etc/network/interfaces
@@ -131,7 +131,7 @@ sysctl -p
 >>         bridge-stp off
 >>         bridge-fd 0
 >> ```
-> Advance range
+> Gamme Advance
 >>
 >> ```bash
 >> vi /etc/network/interfaces
@@ -141,7 +141,7 @@ sysctl -p
 >> auto lo
 >> iface lo inet loopback
 >>
->> # Interfaces publiques
+>> # Interface publique
 >> auto vmbr0
 >> iface vmbr0 inet static
 >>         address PUB_IP_DEDICATED_SERVER/32
@@ -157,7 +157,7 @@ sysctl -p
 >>         # Ajoutez un bloc IP
 >>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
 >>
->> # Interfaces privées
+>> # Interface privée
 >> auto vmbr1
 >> iface vmbr1 inet manual
 >>         bridge-ports enp8s0f1np1
@@ -349,13 +349,13 @@ ssh PUB_IP_DEDICATED_SERVER
 >> auto lo
 >> iface lo inet loopback
 >>
->> # Interfaces publiques
+>> # Interface publique
 >> auto enp8s0f0np0
 >> iface enp8s0f0np0 inet static
 >>         address PUB_IP_DEDICATED_SERVER/32
 >>         gateway 100.64.0.1
 >>
->> # Interfaces privées
+>> # Interface privée
 >> auto vmbr1
 >> iface vmbr1 inet manual
 >>         bridge-ports enp8s0f1np1

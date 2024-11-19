@@ -141,7 +141,7 @@ sysctl -p
 >> auto lo
 >> iface lo inet loopback
 >>
->> # Public interfaces
+>> # Public interface
 >> auto vmbr0
 >> iface vmbr0 inet static
 >>         address PUB_IP_DEDICATED_SERVER/32
@@ -157,7 +157,7 @@ sysctl -p
 >>         # Add an IP block
 >>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
 >>
->> # Private interfaces
+>> # Private interface
 >> auto vmbr1
 >> iface vmbr1 inet manual
 >>         bridge-ports enp8s0f1np1
@@ -350,13 +350,13 @@ ssh PUB_IP_DEDICATED_SERVER
 >> auto lo
 >> iface lo inet loopback
 >>
->> # Public interfaces
+>> # Public interface
 >> auto enp8s0f0np0
 >> iface enp8s0f0np0 inet static
 >>         address PUB_IP_DEDICATED_SERVER/32
 >>         gateway 100.64.0.1
 >>
->> # Private interfaces
+>> # Private interface
 >> auto vmbr1
 >> iface vmbr1 inet manual
 >>         bridge-ports enp8s0f1np1
