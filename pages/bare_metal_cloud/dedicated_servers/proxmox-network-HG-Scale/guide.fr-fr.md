@@ -94,7 +94,7 @@ sysctl -p
 >> auto lo
 >> iface lo inet loopback
 >>
->> # Public
+>> # Interfaces publiques
 >> auto bond0
 >> iface bond0 inet manual
 >>         bond-slaves ens33f0 ens33f1
@@ -117,7 +117,7 @@ sysctl -p
 >>         # Ajoutez un bloc IP
 >>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
 >>
->> # Private
+>> # Interfaces privées
 >> auto bond1
 >> iface bond1 inet manual
 >>         bond-slaves ens35f0 ens35f1
@@ -141,7 +141,7 @@ sysctl -p
 >> auto lo
 >> iface lo inet loopback
 >>
->> # Public
+>> # Interfaces publiques
 >> auto vmbr0
 >> iface vmbr0 inet static
 >>         address PUB_IP_DEDICATED_SERVER/32
@@ -157,7 +157,7 @@ sysctl -p
 >>         # Ajoutez un bloc IP
 >>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
 >>
->> # Private
+>> # Interfaces privées
 >> auto vmbr1
 >> iface vmbr1 inet manual
 >>         bridge-ports enp8s0f1np1
@@ -263,9 +263,9 @@ Nous allons :
 * créer une interface d'agrégation (*bond*) (uniquement pour les gammes High Grade & SCALE) ;
 * créer une interface bridge connectée au *bond*.
 
-Premièrement, ajoutez votre bloc d'additional IP au vRack. Pour ce faire, allez dans la section `Bare Metal Cloud`{.action} de votre espace client OVHcloud et ouvrez le menu `vRack`{.action}.
+Premièrement, ajoutez votre bloc d'Additional IP au vRack. Pour ce faire, allez dans la section `Bare Metal Cloud`{.action} de votre espace client OVHcloud et ouvrez le menu `vRack`{.action}.
 
-Sélectionnez votre vRack dans la liste pour afficher la liste des services éligibles. Cliquez sur le bloc d'additional IP que vous souhaitez ajouter au vRack, puis cliquez sur le bouton `Ajouter`{.action}.
+Sélectionnez votre vRack dans la liste pour afficher la liste des services éligibles. Cliquez sur le bloc d'Additional IP que vous souhaitez ajouter au vRack, puis cliquez sur le bouton `Ajouter`{.action}.
 
 #### Déterminer les adresses IP assignables
 
@@ -314,7 +314,7 @@ ssh PUB_IP_DEDICATED_SERVER
 >> auto lo
 >> iface lo inet loopback
 >>
->> # Public
+>> # Interfaces publiques
 >> auto bond0
 >> iface bond0 inet static
 >>         address PUB_IP_DEDICATED_SERVER/32
@@ -324,7 +324,7 @@ ssh PUB_IP_DEDICATED_SERVER
 >>         bond-lacp-rate fast
 >>         bond-xmit-hash-policy layer3+4
 >>
->> # Private
+>> # Interfaces privées
 >> auto bond1
 >> iface bond1 inet manual
 >>         bond-slaves ens35f0 ens35f1
@@ -349,13 +349,13 @@ ssh PUB_IP_DEDICATED_SERVER
 >> auto lo
 >> iface lo inet loopback
 >>
->> # Public
+>> # Interfaces publiques
 >> auto enp8s0f0np0
 >> iface enp8s0f0np0 inet static
 >>         address PUB_IP_DEDICATED_SERVER/32
 >>         gateway 100.64.0.1
 >>
->> # Private
+>> # Interfaces privées
 >> auto vmbr1
 >> iface vmbr1 inet manual
 >>         bridge-ports enp8s0f1np1
