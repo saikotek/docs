@@ -169,4 +169,4 @@ A anulação da rescisão produz efeitos imediatos. Atualize a página "O meus S
 
 [Gerir a renovação dos serviços](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

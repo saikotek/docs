@@ -124,4 +124,4 @@ A seguinte chamada permite-lhe criar um link para a sua encomenda. A casa corres
 
 ## Quer saber mais?
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

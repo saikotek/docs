@@ -80,4 +80,4 @@ A partir do separador `As minhas referências internas`{.action}, pode modificar
 
 ## Saiba mais
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).
