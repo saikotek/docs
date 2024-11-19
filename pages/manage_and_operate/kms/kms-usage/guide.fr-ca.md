@@ -1,7 +1,7 @@
 ---
 title: "Utiliser votre OVHcloud Key Management Service (KMS)"
 excerpt: "Chiffrez ou signez vos données avec le Key Management Service (KMS) OVHcloud"
-updated: 2024-11-18
+updated: 2024-11-19
 ---
 
 > [!warning]
@@ -283,6 +283,7 @@ Le champ **context** devant avoir la même valeur que celle donnée lors du chif
 #### Chiffrement avec une Data Key (DK)
 
 Pour plus de performances, il est possible de générer une Data Key (DK) depuis une clé symétrique (AES) pour l'utiliser depuis votre application.
+La clé AES utilisée doit avoir été générée avec les opérations "wrapKey, unwrapKey"
 
 ![Chiffrement avec DK](images/Datakey_encrypt.png){.thumbnail}
 
