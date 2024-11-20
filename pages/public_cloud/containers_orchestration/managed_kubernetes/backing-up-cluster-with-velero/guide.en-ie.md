@@ -158,7 +158,6 @@ velero install \
   --snapshot-location-config region=<public cloud region without digit>,enableSharedConfig=true
 ```
 
-
 In our case, with the cluster in the `GRA` region, that meant:
 
 ```bash
