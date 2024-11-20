@@ -459,7 +459,7 @@ Teraz możesz szybko otworzyć każde połączenie oparte na wcześniej zapisany
 
 Aby zmienić parametry sesji, wybierz ją z listy, a następnie kliknij przycisk `Load`{.action}.
 
-<a name="przykład"></a>
+<a name="example"></a>
 
 ## Przykład zastosowania: Jak korzystać z narzędzi PuTTY do konfiguracji bezpiecznych połączeń z serwerami OVHcloud
 
