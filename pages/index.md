@@ -1230,7 +1230,7 @@
             + [Using Cyberduck (on Mac)](web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac)
             + [Restoring your Web Hosting plan’s storage space](web_cloud/web_hosting/ftp_save_and_backup)
             + [Accessing a web hosting plan via SSH](web_cloud/web_hosting/ssh_on_webhosting)
-            + [Using PuTTy for Windows](web_cloud/web_hosting/ssh_using_putty_on_windows)
+            + [Tutorial - How to use PuTTY for SSH connections and authentication](web_cloud/web_hosting/ssh_using_putty_on_windows)
             + [Using SVN](web_cloud/web_hosting/svn_using_svn)
             + [Web Hosting - Copy files using the SCP command](web_cloud/web_hosting/using-scp-command)
         + [SSL](web-cloud-hosting-ssl)
