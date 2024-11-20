@@ -1,7 +1,7 @@
 ---
 title: "Enterprise File Storage - Private network configuration - Beta"
 excerpt: "Find out how to set up a private network for your Enterprise File Storage service from your OVHcloud Control Panel"
-updated: 2024-11-01
+updated: 2024-11-26
 ---
 
 > [!warning]
@@ -52,7 +52,7 @@ You must have a vRack to activate your vRack services. OVHcloud vRack is a free 
 
 ### Step 2 - Creating and enabling vRack Services
 
-![without network configuration](images/04-EFS.png){.thumbnail}
+![without network configuration](images/03-EFS.png){.thumbnail}
 
 In this second step you will create a vRack Service.
 
@@ -60,7 +60,7 @@ You create a vRack Service by giving it a name and a region. vRack Services are 
 
 To take advantage of the Service Endpoint, you must select the region that corresponds to your Enterprise File Storage. For example, if your service is located in Roubaix (RBX), you must also create your vRack Services in Roubaix.
 
-![Enable vRack Services](images/01.png){.thumbnail}
+![Enable vRack Services](images/04-vrack-services.png){.thumbnail}
 
 Click the `Enable vRack Services`{.action} button.
 
@@ -85,13 +85,13 @@ Click on `Create an Endpoint Service`{.action}. Now all you need to do is fill i
 - The name of the managed service -> select the ID of your Enterprise File Storage service
 - The desired subnet -> select the freshly configured subnet
 
-![Enable vRack Services](images/16-VRS.png){.thumbnail}
+![Enable vRack Services](images/06-service-endpoint.png){.thumbnail}
 
 After a few moments, your new Service Endpoint will be configured and available.
 
 Return to the Enterprise File Storage service menu. The network parameters have now been added and are available.
 
-![Enable vRack Services](images/08-EFS.png){.thumbnail}
+![Enable vRack Services](images/07-EFS.png){.thumbnail}
 
 You can now follow the guides below to create and manage your volumes, snapshots and ACLs.
 

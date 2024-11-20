@@ -1,7 +1,7 @@
 ---
 title: "Enterprise File Storage - Configuration du réseau privé - Bêta"
 excerpt: Découvrez configurer un réseau privé pour votre service Enterprise File Storage depuis votre espace client OVHcloud
-updated: 2024-11-01
+updated: 2024-11-26
 ---
 
 > [!warning]
@@ -54,13 +54,13 @@ Pour activer votre vRack Services, vous devez avoir un vRack. Si vous n'en avez 
 
 ### Etape 2 - Création et activation du vRack Services
 
-![Enable vRack Services](images/04-EFS.png){.thumbnail}
+![Enable vRack Services](images/03-EFS.png){.thumbnail}
 
 Dans cette deuxième étape, vous allez créer un vRack Services. La création d'un vRack Service se déroule en lui attribuant un nom et une région puis en choisissant dans quelle région vous comptez l'utiliser. En effet vRack Services est un service régional.
 
 Pour bénéficier du Service Endpoint, vous devez sélectionner la région correspondante à votre Enterprise File Storage. Par exemple, si votre service est localisé à Roubaix (RBX), alors vous devez également créer votre vRack Services à Roubaix.
 
-![Enable vRack Services](images/01.png){.thumbnail}
+![Enable vRack Services](images/04-vrack-services.png){.thumbnail}
 
 Cliquez sur le bouton `Activer vRack Services`{.action}.
 
@@ -87,13 +87,13 @@ Cliquez sur `Créer un Service Endpoint`{.action}. Il vous suffit désormais de 
 - Le nom du Service Managé -> choisissez l’ID de votre service Enterprise File Storage
 - Le sous-réseau souhaité -> choisissez le sous-réseau nouvellement configuré
 
-![Enable vRack Services](images/16-VRS.png){.thumbnail}
+![Enable vRack Services](images/06-service-endpoint.png){.thumbnail}
 
 Après quelques instants, votre nouveau Service Endpoint est configuré et disponible.
 
 Retournez dans le menu de service Enterprise File Storage. Les paramètres réseaux sont désormais ajoutés et disponibles
 
-![Enable vRack Services](images/08-EFS.png){.thumbnail}
+![Enable vRack Services](images/07-EFS.png){.thumbnail}
 
 Vous pouvez à présent suivre les guides ci-dessous pour créer et gérer vos volumes, créer et gérer vos snapshots ainsi que vos ACLs.
 
