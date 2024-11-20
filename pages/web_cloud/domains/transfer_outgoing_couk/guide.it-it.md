@@ -4,10 +4,6 @@ excerpt: Come effettuare il trasferimento in uscita di un dominio UK verso un al
 updated: 2022-10-19
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Il processo di modifica del Registrar (*registrar*) per i domini di primo livello (*top-level domain*, o **TLD**) del prefisso nazionale **UK** (**.uk**) differisce da quello dettagliato nella nostra [guida al trasferimento delle TLD generiche](/pages/web_cloud/domains/transfer_outgoing_domain). Le istruzioni riportate qui sotto riguardano queste estensioni:

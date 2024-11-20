@@ -149,4 +149,4 @@ A termination of a cancellation procedure is effective immediately. Please refre
 
 [Managing renewal for OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

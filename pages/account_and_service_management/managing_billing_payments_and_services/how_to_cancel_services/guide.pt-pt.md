@@ -4,10 +4,6 @@ excerpt: Descubra como interromper as suas subscrições OVHcloud a partir da Á
 updated: 2024-01-19
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Deseja rescindir um ou vários serviços OVHcloud. Este manual indicar-lhe-á como interromper a sua subscrição a partir da Área de Cliente OVHcloud.
@@ -173,4 +169,4 @@ A anulação da rescisão produz efeitos imediatos. Atualize a página "O meus S
 
 [Gerir a renovação dos serviços](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -4,10 +4,6 @@ excerpt: "Saiba como reforçar a segurança do seu website"
 updated: 2024-01-29
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este guia permite-lhe adquirir conhecimentos fundamentais para assegurar a disponibilidade dos seus serviços, proteger a integridade dos seus dados e proteger o acesso às suas soluções. Apenas diz respeito aos websites alojados nas [soluções partilhadas da OVHcloud](/links/web/hosting).

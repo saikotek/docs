@@ -66,4 +66,4 @@ Vous pouvez enregistrer votre moyen de paiement dans la section `Moyens de paiem
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

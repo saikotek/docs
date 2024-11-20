@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak sprawdzić, czy Twoja strona WWW jest kompatybilna z
 updated: 2024-03-12
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Sieć internetowa działa od początku lat 1990. zgodnie z normą IPv4. Ta norma pozwala na podanie adresu IP X.X.X.X (lub "X" to liczby od 0 do 255.) dla każdej maszyny podłączonej do sieci internetowej (serwery, komputery, smartfony, tablety, itp.). Jednakże norma ta ogranicza liczbę urządzeń podłączonych do sieci internetowej do około 4 miliardów, co w 2022 roku stanowiło mniej niż jedno urządzenie podłączone do sieci dla dwóch osób na Ziemi.

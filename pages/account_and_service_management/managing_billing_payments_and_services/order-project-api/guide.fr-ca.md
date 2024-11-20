@@ -124,4 +124,4 @@ L'appel suivant vous permet de créer un lien vers votre commande. Il faut d'abo
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

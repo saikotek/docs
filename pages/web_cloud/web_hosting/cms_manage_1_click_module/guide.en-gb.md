@@ -1,7 +1,7 @@
 ---
 title: "How to manage your 1-click module"
 excerpt: "Find out how to manage your 1-click module in the OVHcloud Control Panel"
-updated: 2024-10-11
+updated: 2024-11-15
 ---
 
 ## Objective
@@ -97,6 +97,17 @@ To back up your website, follow the instructions of this [guide](/pages/web_clou
 To delete your 1-click module, go to your [OVHcloud Control Panel](/links/manager), click on `Web Cloud`{.action}, `Hosting plans`{.action}, on the concerned hosting plan then on `1-click modules`{.action}.
 
 Then click on the `...`{.action} button to the right of the line related to your module then click on `Delete the module`{.action}.
+
+> [!success]
+> Can't find the `Delete the module`{.action} button? Or do you just want to delete files on your module?
+>
+> See our guides:
+>
+> - [Logging in to your web hosting plan’s FTP storage space](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutorial - Using FileZilla with your OVHcloud hosting](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/LHpsuvyNFtQ?si=4655K8lQQpkE2YNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

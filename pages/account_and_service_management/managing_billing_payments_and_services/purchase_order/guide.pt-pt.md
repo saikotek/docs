@@ -4,10 +4,6 @@ excerpt: 'Compreender a noção de número de encomenda ou purchase order e apli
 updated: 2022-07-22
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este guia explica-lhe a noção de Número de encomenda ou Purchase Order (PO) aplicado à faturação OVHCloud.
@@ -84,4 +80,4 @@ A partir do separador `As minhas referências internas`{.action}, pode modificar
 
 ## Saiba mais
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

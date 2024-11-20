@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zainstalować blog na Cloud Web za pomocą platformy
 updated: 2022-05-04
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 [Ghost](https://ghost.org/){.external} to silnik bloga z otwartym kodem źródłowym. Ma on na celu uproszczenie procesu publikacji online dla blogerów i dziennikarzy. To oprogramowanie jest napisane w JavaScript i wykorzystuje [Node.js](https://nodejs.org/){.external}, platformę programową do tworzenia witryn i interfejsów API w JavaScript po stronie serwera.

@@ -4,10 +4,6 @@ excerpt: 'Zrozumienie i zastosowanie pojęcia numeru zamówienia lub zamówienia
 updated: 2022-07-22
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Niniejszy przewodnik wyjaśnia, jak interpretować numer zamówienia lub polecenie Purchase (PO) zastosowane do fakturowania OVHCloud.
@@ -84,4 +80,4 @@ W zakładce `Moje oznaczenia wewnętrzne`{.action} możesz zmienić lub wyłącz
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie<https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

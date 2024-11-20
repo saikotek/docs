@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come installare il CMS Typo3 su un hosting Web 
 updated: 2024-03-28
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Il **CMS** (**C**ontent **M**anagement **S**ystem) Typo3 permette di sviluppare siti Web complessi e scalabili, per le imprese di tutte le dimensioni, dai siti istituzionali alle piattaforme di e-commerce. Con una forte community di sviluppatori e un'ampia gamma di estensioni, TYPO3 offre potenti strumenti per personalizzare ed estendere il tuo sito in base alle tue esigenze specifiche.

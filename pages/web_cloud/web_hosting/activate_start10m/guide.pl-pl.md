@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak włączyć darmowy hosting 100M"
 updated: 2023-12-18
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie 
 
 Dzięki [Darmowy hosting 100M](/links/web/domains-free-hosting){.external}, OVHcloud oferuje hosting WWW o rozmiarze 100 MB oraz konto e-mail o pojemności 5 GB. Z tego przewodnika dowiesz się, jak włączyć Darmowy hosting 100M w swojej [domenie](/links/web/domains){.external}.

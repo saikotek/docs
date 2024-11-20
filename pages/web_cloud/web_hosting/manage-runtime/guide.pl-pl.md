@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zarządzać frameworkami dostępnymi w ramach hostin
 updated: 2022-07-27
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 W ramach Cloud Web udostępniamy różne języki programowania do tworzenia Twojego projektu. Do jego ukończenia konieczne może się okazać użycie jednego z dostępnych frameworków.

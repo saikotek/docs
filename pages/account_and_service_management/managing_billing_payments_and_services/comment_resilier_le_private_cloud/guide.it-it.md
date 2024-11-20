@@ -72,4 +72,4 @@ In questo caso è necessario inserire il token riportato nell’email di conferm
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

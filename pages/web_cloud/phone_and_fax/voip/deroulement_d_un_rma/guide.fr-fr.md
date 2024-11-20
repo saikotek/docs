@@ -1,8 +1,22 @@
 ---
 title: 'Déroulement d’un RMA'
 excerpt: 'Découvrez les étapes de restitution d’un téléphone fourni par OVHcloud'
-updated: 2024-06-18
+updated: 2024-10-30
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Objectif
 
@@ -28,7 +42,7 @@ D'autres typologies de RMA existent, leur déroulement étant similaire (envoi d
 
 Lorsque votre RMA est créé, vous recevez un premier e-mail :
 
--  Lors d'un échange de téléphone :
+/// details |  E-mail pour un échange de téléphone
 
 > 
 > Objet: [OVH-TELECOM] Bon de retour pour votre matériel : #MODEL# #IDENT# 
@@ -45,7 +59,9 @@ Lorsque votre RMA est créé, vous recevez un premier e-mail :
 > Adresse de retour : OVH SAS 155 avenue Georges Hannart 59170 CROIX.
 >
 
-- Lors d'une résiliation :
+///
+
+/// details | E-mail pour une résiliation
 
 > 
 > Objet: [OVH-TELECOM] Bon de retour pour votre matériel : #MODEL# #IDENT# 
@@ -72,9 +88,18 @@ Lorsque votre RMA est créé, vous recevez un premier e-mail :
 > A défaut, votre abonnement sera définitivement supprimé et les frais éventuels restants appliqués.
 >
 
+///
+
 Lorsque vous recevez cet e-mail, le lien du PDF est disponible dans le corps de l' e-mail. Il se présente sous cette forme :
 
 ![deroulement-rma](images/rma2020.png){.thumbnail}
+
+> [!success]
+>
+> Vous pouvez télécharger le bon de retour RMA depuis votre [espace client OVHcloud](/links/manager).<br>
+> Une fois connecté, rendez-vous dans l'onglet `Telecom`{.action}, cliquez sur `Téléphonie`{.action} puis sélectionnez la ligne VoIP concernée (vous pouvez rechercher le numéro dans le champ prévu à cet effet).<br>
+> Cliquez alors sur l'onglet `Assistance`{.action} puis sur `Suivi RMA`{.action}.<br>
+> Les informations relatives au RMA sont alors visibles, ainsi qu'un bouton pour `Télécharger le bon de retour`{.action}.
 
 Une partie du bon est impérativement à joindre dans le colis et l'autre volet est à coller sur le colis pour l'affranchissement.
 
@@ -89,14 +114,16 @@ Conservez le récépissé de dépôt du colis tant que vous n'avez pas eu confir
 
 > [!warning]
 >
->  Nous vous prions de bien vouloir retirer du matériel et de son emballage tout effet personnel, information ou élément qui n’aurait aucun lien avec le matériel retourné.
->  
->  Dans le cas contraire, OVHcloud tentera de prendre contact avec le client par courriel pour restituer les biens n’appartenant pas à OVHcloud. A compter de l’envoi de ce courriel et sans retour de la part du client dans un délai de 30 jours calendaires, OVHcloud procédera à la destruction dudit matériel.
+> Nous vous prions de bien vouloir retirer du matériel et de son emballage tout effet personnel, information ou élément qui n’aurait aucun lien avec le matériel retourné.
+> 
+> Dans le cas contraire, OVHcloud tentera de prendre contact avec le client par courriel pour restituer les biens n’appartenant pas à OVHcloud. A compter de l’envoi de ce courriel et sans retour de la part du client dans un délai de 30 jours calendaires, OVHcloud procédera à la destruction dudit matériel.
 >
 
 ### Les rappels
 
 Au bout de 10 et de 15 jours, si nous n'avons pas reçu votre colis avec le bon RMA, nous vous envoyons un rappel par e-mail sous cette forme :
+
+/// details | E-mail de rappel
 
 > 
 > Objet: [OVH-TELECOM] Non réception de votre matériel : #MODEL# #IDENT#
@@ -114,11 +141,15 @@ Au bout de 10 et de 15 jours, si nous n'avons pas reçu votre colis avec le bon 
 > Adresse de retour : OVH SAS 155 avenue Georges Hannart 59170 CROIX.
 >
 
+///
+
 ### La clôture
 
 #### Le matériel est reçu
 
 Lorsque nous avons reçu votre équipement, vous recevez cet e-mail :
+
+/// details | E-mail d'accusé de réception
 
 > 
 > Objet: [OVH-TELECOM] Réception du retour de votre matériel : #MODEL# #IDENT#
@@ -132,22 +163,26 @@ Lorsque nous avons reçu votre équipement, vous recevez cet e-mail :
 > Vous pouvez à tout moment procéder à un transfert vers votre compte bancaire depuis votre espace client.
 >
 
+///
+
 Si une caution est restituée, elle sera disponible sur votre compte OVHcloud et servira ainsi à régler vos prochaines factures de manière automatique. 
 <br>Si vous le souhaitez , vous pouvez en demander le versement sur votre compte bancaire via ces étapes :
 
--   connectez vous à votre [espace client OVHcloud](/links/manager), partie **Telecom** ;
--   cliquez sur **Téléphonie**;****
--   cliquez sur le bouton "**Groupe**" ;
--   cliquez sur "**Facturation**" ;
--   cliquez sur "**Virement vers un compte bancaire**".
+- connectez vous à votre [espace client OVHcloud](/links/manager), partie **Telecom** ;
+- cliquez sur **Téléphonie**;****
+- cliquez sur le bouton "**Groupe**" ;
+- cliquez sur "**Facturation**" ;
+- cliquez sur "**Virement vers un compte bancaire**".
 
 Entrez le compte bancaire à créditer et validez. Le virement sera effectué sous 48 heures ouvrées.
 
 #### Le matériel n'est pas reçu
 
-Passé le délai de clôture du RMA, la caution n'est pas restituable. La caution étant HT, la TVA correspondant au matériel non restitué est facturée.
+Passé le délai de clôture du RMA, la caution n'est pas restituable. La caution étant Hors Taxes, la TVA correspondant au matériel non restitué est facturée.
 
 Vous recevez alors l'e-mail suivant :
+
+/// details | E-mail de fermeture du RMA
 
 > 
 > Objet: [OVH-TELECOM] Fermeture du dossier retour : #RMA# #IDENT#
@@ -159,14 +194,16 @@ Vous recevez alors l'e-mail suivant :
 > Réference/Mac : #REFERENCE#
 > Le bon de retour, pour le renvoi de ce matériel, était le suivant : #Lien vers le PDF du RMA#.
 > Nous sommes donc dans l'obligation de fermer votre ticket.
->      
+>
+
+///
 
 ### Erreur d'envoi d'un téléphone 
 
 Si vous renvoyez à OVHcloud un téléphone autre que celui concerné par le RMA, il est malgré tout indispensable de nous retourner le matériel réclamé sur le bon RMA. En effet, le délai de renvoi court toujours et le matériel correspondant au RMA doit nous être restitué. 
 
-Nous vous conseillons de contacter le support, via un [ticket d'assistance depuis votre espace client OVHcloud](https://www.ovh.com/manager/dedicated/index.html#/support/tickets), pour indiquer votre erreur d'envoi afin qu'une solution soit étudiée concernant le matériel renvoyé par erreur.  
+Nous vous conseillons de contacter le support, via un [ticket d'assistance depuis le centre d'aide](https://help.ovhcloud.com/csm?id=csm_get_help), pour indiquer votre erreur d'envoi afin qu'une solution soit étudiée concernant le matériel renvoyé par erreur.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

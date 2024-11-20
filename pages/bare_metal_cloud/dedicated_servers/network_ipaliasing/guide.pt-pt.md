@@ -1,12 +1,8 @@
 ---
 title: Como configurar um IP alias
 excerpt: Descubra como adicionar endereços Additional IP à configuração de rede
-updated: 2024-09-27
+updated: 2024-11-05
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 > [!primary]
 >
@@ -281,7 +277,6 @@ De seguida, edite o ficheiro com o conteúdo abaixo, substituindo `INTERFACE_NAM
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -295,7 +290,6 @@ Se tiver dois endereços Additional IP a configurar, o ficheiro de configuraçã
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -314,7 +308,6 @@ network:
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        eth0:
            dhcp4: true

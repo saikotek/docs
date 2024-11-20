@@ -1,12 +1,8 @@
 ---
 title: "Webhosting - Wie kann ich mein Angebot wechseln"
 excerpt: "Erfahren Sie hier, wie Sie das Abonnement Ihres OVHcloud Webhosting-Dienstes ändern können"
-updated: 2024-10-03
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel 
 
@@ -19,6 +15,8 @@ Im [OVHcloud Kundencenter](/links/manager) können Sie die Kapazitäten Ihrer [W
 - Zusätzliche Funktionen wie [Mailinglisten](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (ab [dem Pro Angebot](/links/web/hosting-professional-offer)) oder [Web Cloud Databases](/links/web/databases){.external} (in [den Performance Angeboten](/links/web/hosting-performance-offer))
 
 **Diese Anleitung erklärt, wie Sie Ihr OVHcloud Hosting ohne Dienstunterbrechung skalieren können.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/vRO7DXx9UsI?si=JOL6gOaCQQ2spsID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Voraussetzungen
 

@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come attivare il piano di Hosting gratuito 100M
 updated: 2023-12-18
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Con [Hosting gratuito 100M](/links/web/domains-free-hosting){.external}, OVHcloud ti offre un hosting Web da 100 MB e un account email con 5 GB di storage. Questa guida ti mostra come attivare l’hosting gratuito 100M sul tuo [dominio](/links/web/domains){.external}.

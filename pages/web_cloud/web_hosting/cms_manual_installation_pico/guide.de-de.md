@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie das Pico CMS manuell auf einem OVHcloud Web
 updated: 2024-03-21
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Mit dem Pico **CMS** (**C**ontent **M**anagement **S**ystem) können Sie schnell Websites erstellen. Pico wurde für die einfache Erstellung und Verwaltung von Inhalten mithilfe von Markdown-Dateien entwickelt und ist ideal für die Erstellung von persönlichen Websites, Portfolios oder Projekten kleiner Unternehmen.

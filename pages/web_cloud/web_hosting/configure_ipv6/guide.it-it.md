@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come rendere il tuo sito Web compatibile con un
 updated: 2024-03-12
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La rete Internet funziona dall'inizio degli anni '90 seguendo lo standard IPv4. Questa norma permette di fornire un indirizzo IP X.X.X.X (o le "X" sono numeri compresi tra 0 e 255) a ciascuna delle macchine collegate alla rete Internet (server, computer, smartphone, tablet, ecc.). Tuttavia, tale norma limita a circa 4 miliardi il numero di dispositivi connessi alla rete Internet, che nel 2022 rappresentava meno di un apparecchio connesso per due persone sulla Terra.

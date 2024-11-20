@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra alcuni esempi di operazioni realizzabili con un
 updated: 2023-05-23
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Questa guida ti mostra le principali funzionalità del file ".htaccess" per il tuo hosting Web.

@@ -1,7 +1,7 @@
 ---
 title: Exchange - Configurer son compte e-mail sur Outlook pour Windows
 excerpt: Découvrez comment configurer un compte Exchange sur Outlook pour Windows
-updated: 2024-10-09
+updated: 2024-10-30
 ---
 
 ## Objectif
@@ -15,6 +15,8 @@ Les comptes Exchange peuvent être configurés sur différents logiciels de mess
 > OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
 >
 > Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [partenaire spécialisé](https://marketplace.ovhcloud.com/c/support-collaboration) et/ou de contacter l'éditeur du service si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section « Aller plus loin » de ce guide.
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/zx7LAzmDrFw?si=DAWV56-E1or1Vgnr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Prérequis
 

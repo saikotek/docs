@@ -1,12 +1,8 @@
 ---
 title: "Como gerir o seu módulo em 1 clique?"
 excerpt: "Saiba como gerir o módulo 1 clique na Área de Cliente OVHcloud"
-updated: 2024-10-11
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -102,6 +98,17 @@ Para guardar o seu site, siga as instruções deste [guia](/pages/web_cloud/web_
 Para eliminar o módulo 1 clique, aceda à [Área de Cliente OVHcloud](/links/manager), clique em `Web Cloud`{.action}, `Alojamentos`{.action}, no alojamento em causa e em `Módulos "1 clique"`{.action}.
 
 A seguir, clique no botão `...`{.action} à direita da linha que designa o seu módulo e, a seguir, no comando `Eliminar o módulo`{.action}.
+
+> [!success]
+> Não encontra o botão `Eliminar o módulo`{.action}? Ou deseja apenas eliminar ficheiros do seu módulo?
+>
+> Consulte os nossos manuais:
+>
+> - [Aceder ao espaço de armazenamento FTP do alojamento web](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutorial - Utilizar o FileZilla com o seu alojamento OVHcloud](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/LHpsuvyNFtQ?si=4655K8lQQpkE2YNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

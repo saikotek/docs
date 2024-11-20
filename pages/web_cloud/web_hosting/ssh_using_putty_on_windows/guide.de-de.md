@@ -477,7 +477,7 @@ Wenn Sie die folgenden Schritte in der angegebenen Reihenfolge ausführen, könn
 
 [SSH-Schlüssel mit OpenSSH erstellen](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 
-[SSH-Schlüssel mit OpenSSH für Public Cloud-Instanzen erstellen](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+[SSH-Schlüssel mit OpenSSH für Public Cloud-Instanzen erstellen](/pages/public_cloud/compute/creating-ssh-keys-pci)
 
 Kontaktieren Sie für spezialisierte Dienstleistungen (SEO, Web-Entwicklung etc.) die [OVHcloud Partner](/links/partner).
 

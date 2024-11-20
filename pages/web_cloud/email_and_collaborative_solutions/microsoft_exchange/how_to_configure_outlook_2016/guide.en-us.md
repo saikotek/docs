@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configure your email account on Outlook for Windows'
 excerpt: 'Find out how to configure your Exchange account in Outlook for Windows'
-updated: 2024-10-09
+updated: 2024-10-30
 ---
 
 ## Objective
@@ -12,6 +12,8 @@ You can configure Exchange accounts on email clients, if they are compatible. By
 > This guide will show you how to use one or more OVHcloud solutions with external tools, and the changes you need to make in specific contexts. You may need to adapt the instructions according to your situation.
 >
 > If you experience any difficulties carrying out these operations, we recommend that you contact a [specialist service provider](/links/partner) and/or discuss the issue with our community. OVHcloud cannot provide you with technical support in this regard. You can find more information in the [Go further](#gofurther) section of this guide.
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2YeGXo10CX8?si=mINBBXq6qb4MiFEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requirements
 

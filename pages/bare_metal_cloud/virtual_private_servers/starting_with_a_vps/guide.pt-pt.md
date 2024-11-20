@@ -1,13 +1,9 @@
 ---
 title: Primeiros passos com um VPS
 excerpt: Aprenda a gerir um VPS na sua Área de Cliente e descubra as primeiras etapas da sua utilização, nomeadamente as ligações remotas e as medidas de segurança
-updated: 2024-10-01
+updated: 2024-10-30
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
- 
 ## Objetivo
 
 Um servidor privado virtual (VPS) é um servidor dedicado virtualizado que lhe oferece uma grande flexibilidade e um controlo acrescido em relação às soluções de alojamento web tradicionais. Ao contrário das ofertas de alojamento geridas pela OVHcloud, em que as tarefas de gestão são tomadas em conta, a administração de um VPS é da inteira responsabilidade do cliente. Como administrador de sistemas, é responsável pela configuração, manutenção e segurança do servidor para garantir que este funcione corretamente e seja fiável.
@@ -77,6 +73,8 @@ Encontre aqui as informações de base sobre o seu VPS e o estado do serviço. C
 >>
 
 #### A sua configuração
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/RcXaZwLhCbY?si=UFygSsQv47LpKIdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Clique nas guias abaixo para ver os detalhes da secção.
 

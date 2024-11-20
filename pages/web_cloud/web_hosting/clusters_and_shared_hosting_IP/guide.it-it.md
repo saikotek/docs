@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra comme tutti gli indirizzi IP disponibili con i 
 updated: 2024-02-28
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Modifica" di questa pagina.
->
-
 ## Obiettivo
 
 In questa guida sono elencati tutti gli indirizzi IP degli hosting Web OVHcloud. In questo modo è possibile individuare l’indirizzo IP da inserire nella tua zona DNS, in base a:

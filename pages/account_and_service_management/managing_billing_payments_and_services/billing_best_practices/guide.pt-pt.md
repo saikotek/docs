@@ -4,10 +4,6 @@ excerpt: Encontre aqui os elementos indispensáveis para a boa gestão das suas 
 updated: 2022-05-02
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este guia contém os elementos indispensáveis a uma boa gestão da sua conta e da faturação dos seus serviços OVHcloud.
@@ -102,4 +98,4 @@ De seguida, utilize [este formulário](https://www.ovh.pt/proteger-dados-pessoai
 
 [Gerir as minhas faturas OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

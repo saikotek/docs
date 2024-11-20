@@ -4,10 +4,6 @@ excerpt: "Descubra cómo modificar la configuración de asociación de un domini
 updated: 2024-09-04
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Al utilizar el alojamiento web o actualizar el sitio web, es posible que deba modificar la configuración del dominio o subdominio que ya esté asociado al alojamiento web.

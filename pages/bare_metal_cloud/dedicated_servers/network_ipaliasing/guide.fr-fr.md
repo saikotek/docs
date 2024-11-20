@@ -1,7 +1,7 @@
 ---
 title: 'Configurer son adresse IP en alias'
 excerpt: 'Découvrez comment ajouter des Additional IP à votre configuration'
-updated: 2024-09-27
+updated: 2024-11-05
 ---
 
 > [!primary]
@@ -274,7 +274,6 @@ Ensuite, éditez le fichier avec le contenu ci-dessous, en remplaçant `INTERFAC
 ```yaml
 network:
   version: 2
-  renderer: networkd
   ethernets:
     INTERFACE_NAME:
       dhcp4: true
@@ -287,7 +286,6 @@ Si vous avez deux adresses Additional IP à configurer, le fichier de configurat
 ```yaml
 network:
   version: 2
-  renderer: networkd
   ethernets:
     INTERFACE_NAME:
       dhcp4: true
@@ -306,7 +304,6 @@ Exemple de configuration :
 ```yaml
 network:
   version: 2
-  renderer: networkd
   ethernets:
     eth0:
       dhcp4: true

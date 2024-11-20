@@ -4,11 +4,6 @@ excerpt: "Erfahren Sie hier die Möglichkeiten, um mit .htaccess Dateien den Zug
 updated: 2024-03-14
 ---
 
-> [!primary]
->
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie beim geringsten Zweifel die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel 
 
 Dieses Tutorial hilft Ihnen dabei, den Zugang zu Ihren Webseiten von externen Netzwerken abzusichern sowie unbefugten Zugriff und DoS-Angriffe (Denial of Service) zu verhindern.

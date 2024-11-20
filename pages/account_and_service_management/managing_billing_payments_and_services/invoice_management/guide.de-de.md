@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier, wie Sie Ihre Rechnungen und deren Bezahlung verwalte
 updated: 2022-05-12
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 OVHcloud stellt Ihnen einen Bereich zur Verfügung, über den Sie Ihre Rechnungen einsehen, verwalten und begleichen können.
@@ -143,4 +139,4 @@ In diesem Bereich können Sie Ihre Zahlungsbelege auch im *.csv* Format exportie
 
 [Zahlungsarten verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

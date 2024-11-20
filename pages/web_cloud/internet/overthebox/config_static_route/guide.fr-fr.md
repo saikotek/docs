@@ -1,7 +1,7 @@
 ---
-title: 'Configurer une route statique'
+title: 'Comment configurer une route statique sur OverTheBox ?'
 excerpt: "Découvrez comment configurer une route statique sur votre OverTheBox pour gérer vos flux réseaux"
-updated: 2021-06-14
+updated: 2024-11-04
 ---
 
 ## Objectif
@@ -10,42 +10,80 @@ Découvrez comment ajouter une route statique sur votre équipement OverTheBox, 
 
 ## Prérequis
 
-- Disposer d'une **OverTheBox** fournie par OVHcloud
+- Une **OverTheBox** fournie par OVHcloud ou une installation depuis [le projet Open Source](/pages/web_cloud/internet/overthebox/advanced_installer_limage_overthebox_sur_votre_materiel).
+- Être connecté à l'interface web de l'**OverTheBox** depuis [overthebox.ovh](http://overthebox.ovh) ou [192.168.100.1](https://192.168.100.1).
 
 ## En pratique
 
 ### Étape 1 : préparation
 
-Dans notre cas, notre OverTheBox à deux interfaces WAN :
+Dans notre cas, notre OverTheBox possède trois interfaces WAN:
 
-* une interface VDSL avec comme IP de gateway **192.168.1.1**
-* une clé LTE avec comme IP de gateway **192.168.8.1**.
+- Une interface **LTE** avec comme IP de gateway `10.212.0.0`.
+- Une interface **FTTH** avec comme IP de gateway `192.168.3.1`.
+- Une interface **ADSL** avec comme IP de gateway `192.168.2.1`.
 
-Nous souhaitons que notre service de VoIP OVHcloud accessible sur la range d'IP **91.121.129.0/23** ne passe pas par le tunnel de notre OverTheBox mais uniquement par l'interface VDSL.
+Pour l'exemple de ce guide, nous souhaitons que notre service de [VoIP OVHcloud](/links/telecom/telephonie-voip) accessible sur la plage d'IP `91.121.128.0/23` ne passe pas par le tunnel de notre OverTheBox mais uniquement par l'interface FTTH.
 
-Nous allons donc créer une route statique pour que la range **91.121.129.0/23** passe uniquement par notre gateway **192.168.1.1**.
+Nous allons donc créer une route statique pour que la plage `91.121.128.0/23` passe uniquement par notre gateway `192.168.3.1`.
 
-![overthebox](images/static_route-step1.png){.thumbnail}
+![overthebox](images/step1-static-1-overview-2024.png){.thumbnail}
 
 ### Étape 2 : ajout de la route statique
 
-Dans le menu, allez sur l'onglet `Network`{.action}, puis sélectionnez `Firewall`{.action}.
-<br>Cliquez ensuite sur l'onglet `Custom Rules`{.action} en haut à droite. Dans l'encart de texte, ajoutez la règle suivante : **ip route add 91.121.129.0/23 via 192.168.1.1**.
-<br>Cliquez enfin sur `Submit`{.action}.
+- Rendez-vous dans l'onglet `Network > Routing`{.action}.
+- Dans l'onglet `Static IPv4 Routes`{.action}, cliquez sur le bouton `Add`{.action}, afin d'ajouter une route statique.
 
-![overthebox](images/static_route-step2.png){.thumbnail}
+![overthebox](images/step2-static-1-addRoute-2024.png){.thumbnail}
 
-### Étape 3 : redémarrer le firewall
+- Pour le paramètre `Interface`{.action}, sélectionnez l'interface qui correspond à la gateway souhaitée. Pour notre exemple, `eth1_dhcp`.
+- Pour le paramètre `Target`{.action}, configurez la plage d'adresse IP qui correspond à la route statique. Pour notre exemple, `91.121.128.0/23`.
+- Pour le paramètre `Gateway`{.action}, configurez l'adresse IP qui correspond à la gateway souhaitée. Pour notre exemple, `192.168.3.1`.
+- Cliquez sur `Save`{.action} pour sauvegarder vos modifications.
+- Cliquez sur `Save & Apply`{.action} pour appliquer vos modifications.
 
-Pour que les changements soit appliqués, il faut redémarrer le firewall.
+![overthebox](images/step2-static-2-configureRoute.png){.thumbnail}
 
-Dans le menu, allez sur l'onglet `System`{.action}, puis sélectionnez `Startup`{.action}.
-<br>Choisissez l'init script **firewall** et cliquez sur le bouton `Restart`{.action}.
+### Étape 3 : identifier la table de routage
 
-Le firewall va redémarrer et la règle sera correctement appliquée.
+Pour la suite du guide, vous devez identifier la table de routage utilisée par votre interface.
 
-![overthebox](images/static_route-step3.png){.thumbnail}
+- Rendez-vous dans l'onglet `Status > Routing`{.action}.
+- Dans la section `Active IPv4 Routes`{.action}, mémorisez la table utilisée par l'interface. Pour notre exemple, l'interface `eth1_dhcp` utilise la table de routage `200`.
+
+![overthebox](images/step3-static-1-findTables-2024.png){.thumbnail}
+
+### Étape 4 : ajout de la règle statique
+
+- Rendez-vous dans l'onglet `Network > Routing`{.action}.
+- Dans l'onglet `IPv4 Rules`{.action}, cliquez sur le bouton `Add`{.action}, afin d'ajouter une règle de routage.
+
+![overthebox](images/step4-static-1-addRules-2024.png){.thumbnail}
+
+- Pour le paramètre `Destination`{.action}, configurez la plage d'adresse IP qui correspond à la route statique. Pour notre exemple, `91.121.128.0/23`.
+- Pour le paramètre `Table`{.action}, configurez la table de routage qui correspond à l'interface. Pour notre exemple, comme vu à l'étape 3, l'interface `eth1_dhcp` utilise la table de routage `200`.
+- Cliquez sur `Save`{.action} pour sauvegarder vos modifications.
+- Cliquez sur `Save & Apply`{.action} pour appliquer vos modifications.
+
+![overthebox](images/step4-static-2-configureRules-2024.png){.thumbnail}
+
+### Étape 5 : redémarrer le service network
+
+> [!primary]
+>
+> Vous pouvez aussi redémarrer votre **OverTheBox** pour cette étape.
+>
+
+Pour que les changements soient correctement pris en compte, vous devez redémarrer le service `Network`.
+
+- Rendez-vous dans l'onglet `System > Startup`{.action}.
+- Choisissez l'`InitScript network` et cliquez sur le bouton `Restart`{.action}.
+- Le service `Network` en charge du réseau va redémarrer et les modifications seront correctement appliquées.
+
+![overthebox](images/step5-static-1-restartNetwork-2024.png){.thumbnail}
 
 ## Aller plus loin
+
+**OverTheBox** étant basé sur **OpenWRT**, vous pouvez également consulter la [documentation OpenWRT](https://openwrt.org/docs/start).
 
 N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)

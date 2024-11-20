@@ -4,10 +4,6 @@ excerpt: 'Questa guida ti mostra come condividere il tuo hosting Web tra più si
 updated: 2024-10-08
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Su una stessa soluzione di hosting è possibile ospitare più siti Internet, anche se i domini non sono registrati in OVHcloud.

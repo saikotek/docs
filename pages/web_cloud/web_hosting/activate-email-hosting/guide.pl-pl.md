@@ -4,15 +4,13 @@ excerpt: "Dowiedz się, jak aktywować konta e-mail zawarte w hostingu"
 updated: 2024-10-01
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie 
 
 Jeśli zamówiłeś hosting i nie powiązałeś go bezpośrednio z nazwą domeny, pakiet e-mail dołączony do hostingu aktywuj ręcznie. Powiąż pakiet z wybraną przez Ciebie nazwą domeny.
 
 **Dowiedz się, jak aktywować konta e-mail zawarte w hostingu.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/oqWovkSP85A?si=1rnqBvhVLdhr2rI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Wymagania początkowe
 

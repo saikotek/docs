@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come eseguire le prime operazioni su un Cloud W
 updated: 2022-05-04
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La nuova soluzione di hosting Cloud Web combina i nostri 20 anni di esperienza nel settore Web e la potenza del nostro Public Cloud. Esattamente come per i classici hosting Web di OVHcloud, i tuoi siti sono ospitati su un servizio gestito 24 ore su 24, 7 giorni su 7, offrendoti però molte più funzionalità, come le performance dei dischi SSD.

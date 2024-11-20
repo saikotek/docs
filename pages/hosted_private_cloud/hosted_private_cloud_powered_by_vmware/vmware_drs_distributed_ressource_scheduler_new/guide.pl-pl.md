@@ -1,12 +1,12 @@
 ---
-title: VMware DRS (Distributed Ressource Scheduler)
+title: VMware DRS (Distributed Resource Scheduler)
 excerpt: Dowiedz się, jak kontrolować równoważenie obciążenia dzięki funkcji DRS
 updated: 2020-07-07
 ---
 
 ## Wprowadzenie
 
-Funkcja **DRS** (Distributed Ressource Scheduler), dostępna w klastrze **VMware**, umożliwia równoważenie obciążenia hostów dzięki automatycznemu migrowaniu maszyn wirtualnych (vMotion). Pozwala ona przydzielać maszyny wirtualne do różnych hostów w klastrze w zależności od ich użycia i dostępnych zasobów.
+Funkcja **DRS** (Distributed Resource Scheduler), dostępna w klastrze **VMware**, umożliwia równoważenie obciążenia hostów dzięki automatycznemu migrowaniu maszyn wirtualnych (vMotion). Pozwala ona przydzielać maszyny wirtualne do różnych hostów w klastrze w zależności od ich użycia i dostępnych zasobów.
 
 **Z tego przewodnika dowiesz się, jak skonfigurować tę funkcję**
 

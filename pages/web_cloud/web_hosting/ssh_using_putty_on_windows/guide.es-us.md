@@ -449,7 +449,7 @@ Para almacenar una [sesión de inicio de sesión basada en claves](#puttykeys), 
 
 Ahora puede abrir rápidamente cualquier conexión basada en una clave previamente guardada desde la ventana PuTTY o a través de Pageant:
 
-| PuTTY | Pageant |
+| **PuTTY** | **Pageant** |
 |---|---|
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail}<br> 1\. Abra PuTTY.<br> 2\. Haga doble clic en la sesión deseada en la lista en `Saved Sessions`. |![pageant](/pages/assets/screens/other/web-tools/putty/pageant3.png){.thumbnail}<br> 1\. Haga clic derecho en el icono de pagador de la barra de tareas.<br> 2\. Haga clic en la sesión deseada en el submenú `Saved Sessions`. |
 

@@ -1,7 +1,7 @@
 ---
 title: How to use IAM policies using the OVHcloud Control Panel
 excerpt: "Find out how to give specific access rights to users from an OVHcloud account"
-updated: 2024-07-04
+updated: 2024-10-30
 ---
 
 ## Objective
@@ -24,6 +24,8 @@ For example, we can create a policy to give to a user called John, for a VPS, ac
 **This guide explains in detail how these policies can be declared using the OVHcloud Control Panel, and how to list the identities, resources and actions available for them.**
 
 ![IAM Policies](images/iam_policies.png){.thumbnail}
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/g6qvskdFwy8?si=51mbyM6affEFknxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requirements
 
@@ -172,4 +174,4 @@ A popup window will ask you to confirm the deletion.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

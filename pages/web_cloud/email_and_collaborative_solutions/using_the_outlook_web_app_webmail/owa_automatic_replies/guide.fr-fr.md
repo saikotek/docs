@@ -1,7 +1,7 @@
 ---
 title: 'Mettre en place un répondeur automatique depuis l’interface OWA'
 excerpt: Découvrez comment mettre en place une réponse automatique sous OWA
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Objectif
@@ -17,18 +17,21 @@ Cette fonctionnalité d’Exchange vous permet de configurer des réponses autom
 
 ## En pratique
 
+> [!warning]
+>
+> Si votre adresse e-mail est liée à une offre **MX Plan** (incluse avec les [hébergements web](/links/web/hosting) et les [hébergements gratuits 100M](/links/web/domains-free-hosting)),  votre espace client propose une section intitulée `Gestion des répondeurs`{.action}. Vous devez alors créer une réponse automatique depuis votre espace client OVHcloud en vous aidant de la documentation [« MX Plan - Créer une réponse automatique sur une adresse e-mail »](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
+
 ### Activer la fonctionnalité
 
 Connectez-vous à votre compte Exchange via le [webmail OVHcloud](/links/web/email). Cliquez sur l’icône d'engrenage en haut à droite pour afficher le menu « Options » et sélectionnez `Réponses automatiques`{.action}.
 
 ![owa options](images/exchange-autorep-step1.png){.thumbnail}
 
-Pour activer la fonctionnalité, il suffit de sélectionner `Envoyer des réponses automatiques`{.action}. Vous pouvez définir une période exacte dans les champs prévus à cet effet ou activer la fonctionnalité indéfiniment. 
+Pour activer la fonctionnalité, il suffit de sélectionner `Envoyer des réponses automatiques`{.action}. Vous pouvez définir une période exacte dans les champs prévus à cet effet ou activer la fonctionnalité indéfiniment.
 
 > [!primary]
 >
 > Si vous ne spécifiez pas d'heure de début et d'heure de fin, la réponse automatique devra être désactivée manuellement par vos soins.
->
 
 Saisissez votre message dans la boîte d'édition et confirmez avec le bouton `OK`{.action} situé en haut à gauche.
 
@@ -54,10 +57,14 @@ Un message alternatif pour les expéditeurs externes peut être saisi dans la de
 
 ## Aller plus loin
 
-[ Consulter son compte Exchange depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
+[Consulter son compte Exchange depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
 
 [Déléguer des droits sur un compte Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation)
 
 [Partager des calendriers via l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
+
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).

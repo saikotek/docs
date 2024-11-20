@@ -73,4 +73,4 @@ If you cannot find this code, please check your spam folder.
 
 [Securing your OVHcloud account with two-factor authentication](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

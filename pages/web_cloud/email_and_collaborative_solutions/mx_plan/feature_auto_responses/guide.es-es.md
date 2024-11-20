@@ -4,10 +4,6 @@ excerpt: 'Cómo configurar una respuesta automática en una dirección de correo
 updated: 2024-05-24
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Si está ausente y no puede consultar su dirección de correo, puede implementar una respuesta automática (o contestador) que transmitirá un correo electrónico a los interlocutores que le envíen un correo.
@@ -21,7 +17,7 @@ Si está ausente y no puede consultar su dirección de correo, puede implementar
 
 ## En la práctica
 
-> [!primary]
+> [!warning]
 >
 > Si su dirección de correo electrónico está en un servicio [**Exchange**](/links/web/emails-hosted-exchange), [**Email Pro**](/links/web/email-pro) o si no hay una sección `Gestión de los contestadores`{.action} en su MX Plan, deberá crear una respuesta automática desde su webmail con ayuda de la documentación ["Configurar una respuesta automática desde la interfaz OWA"](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_automatic_replies).
 

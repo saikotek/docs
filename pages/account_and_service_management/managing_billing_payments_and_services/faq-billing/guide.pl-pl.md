@@ -4,7 +4,6 @@ excerpt: Znajdziesz najczęściej zadawane pytania dotyczące płatności i fakt
 updated: 2023-06-05
 ---
 
-  
 ## Wprowadzenie
 
 Znajdziesz tutaj najczęściej zadawane pytania dotyczące fakturowania i płatności za usługi OVHcloud.
@@ -178,4 +177,4 @@ Aby pobrać fakturę, przejdź do sekcji `Faktury`{.action} widocznej na dashboa
 
 ## Sprawdź również
  
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

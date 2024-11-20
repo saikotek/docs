@@ -125,4 +125,4 @@ If your password has been compromised, we strongly recommend [changing it as soo
 
 [KeePass password manager](https://keepass.info/){.external}
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

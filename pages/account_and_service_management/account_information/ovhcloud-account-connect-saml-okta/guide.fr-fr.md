@@ -169,4 +169,4 @@ Vous êtes maintenant connecté avec le même identifiant client, mais via votre
 
 [Créer des politiques d'accès IAM](/pages/account_and_service_management/account_information/iam-policy-ui)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

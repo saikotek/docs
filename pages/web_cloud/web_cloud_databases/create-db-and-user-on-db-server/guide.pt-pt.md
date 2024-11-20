@@ -4,10 +4,6 @@ excerpt: 'Saiba como criar uma base de dados no servidor de bases de dados.'
 updated: 2024-08-22
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Uma base de dados (*database*, «DB» ou «BDD») permite armazenar elementos considerados dinâmicos, tal como comentários ou artigos, por exemplo. Atualmente, estas bases são utilizadas pela maior parte dos sistemas de gestão de conteúdos (*Content Management System* ou CMS), como o WordPress ou Joomla!.

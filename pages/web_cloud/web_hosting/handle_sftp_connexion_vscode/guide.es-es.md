@@ -4,10 +4,6 @@ excerpt: "Administrar un sitio web en un alojamiento web con Visual Studio Code 
 updated: 2023-11-06
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Si tiene contratado un plan de hosting de OVHcloud, puede acceder a un espacio de almacenamiento desde el que podrá administrar su sitio web. Es posible acceder a este espacio de almacenamiento a través del protocolo SFTP. Aunque se puede conectar con un terminal, también se puede usar el entorno de desarrollo integrado (IDE) de Visual Studio Code para administrar las carpetas y archivos del sitio web.

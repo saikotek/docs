@@ -1,12 +1,8 @@
 ---
 title: 'Konfiguracja adresu Additional IP jako aliasu'
 excerpt: 'Dowiedz się, jak dodać kilka adresów Additional IP do interfejsu'
-updated: 2024-09-27
+updated: 2024-11-05
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
 
 > [!primary]
 >
@@ -278,7 +274,6 @@ Następnie edytuj plik, zastępując polecenia `INTERFACE_NAME` i `ADDITIONAL_IP
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -291,7 +286,6 @@ Jeśli chcesz skonfigurować dwa adresy Additional IP, plik konfiguracyjny powin
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -311,7 +305,6 @@ network:
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        eth0:
            dhcp4: true

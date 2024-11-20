@@ -1,12 +1,8 @@
 ---
 title: "Jak zarządzać modułem za 1 kliknięciem?"
 excerpt: "Dowiedz się, jak zarządzać modułem za pomocą 1 kliknięcia w Panelu klienta OVHcloud"
-updated: 2024-10-11
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie 
 
@@ -102,6 +98,17 @@ Aby wykonać kopię zapasową Twojej strony WWW, postępuj zgodnie z instrukcjam
 Aby usunąć moduł za 1 kliknięciem, przejdź do [Panelu klienta OVHcloud](/links/manager), kliknij `Web Cloud`{.action}, `Hosting`{.action}, a następnie `Moduły CMS`{.action}.
 
 Następnie kliknij przycisk `...`{.action} znajdujący się po prawej stronie linii wyznaczającej moduł, po czym kliknij polecenie `Usuń moduł`{.action}.
+
+> [!success]
+> Nie możesz znaleźć przycisku `Usuń moduł`{.action}? A może chcesz usunąć tylko pliki z Twojego dodatku?
+>
+> Sprawdź nasze przewodniki:
+>
+> - [Logowanie do przestrzeni dyskowej FTP hostingu](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutorial - Korzystanie z FileZilla na Twoim hostingu OVHcloud](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/LHpsuvyNFtQ?si=4655K8lQQpkE2YNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

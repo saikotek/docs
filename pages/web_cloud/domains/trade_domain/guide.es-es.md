@@ -4,10 +4,6 @@ excerpt: "En esta guía, encontrará diversas informaciones en relación con el 
 updated: 2024-09-04
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Además de [gestionar los contactos](/pages/account_and_service_management/account_information/managing_contacts), para registrar un dominio es necesario introducir la información relativa al propietario del mismo. En este contexto, el **propietario** designa a una persona, empresa, organización o asociación que posea los derechos sobre este dominio. **El cambio de propietario** hace referencia a la transferencia de los derechos de propiedad de una persona o empresa a otra. La información del **propietario** tiene valor jurídico. Este proceso es especialmente obligatorio si una empresa cambia de nombre.

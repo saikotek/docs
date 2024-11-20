@@ -1,12 +1,12 @@
 ---
-title: VMware DRS (Distributed Ressource Scheduler)
+title: VMware DRS (Distributed Resource Scheduler)
 excerpt: Controlar a repartição de carga com a função DRS
 updated: 2020-07-07
 ---
 
 ## Objetivo
 
-A função **DRS** (Distributed Ressource Scheduler), disponível nos clusters **VMware**, permite equilibrar a carga dos hosts através da deslocação automática das máquinas virtuais (vMotion). As MV são repartidas pelos diferentes hosts do cluster em função da sua utilização e dos seus recursos.
+A função **DRS** (Distributed Resource Scheduler), disponível nos clusters **VMware**, permite equilibrar a carga dos hosts através da deslocação automática das máquinas virtuais (vMotion). As MV são repartidas pelos diferentes hosts do cluster em função da sua utilização e dos seus recursos.
 
 **Este guia explica a configuração desta função.**
 

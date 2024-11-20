@@ -4,10 +4,6 @@ excerpt: Saiba como gerir as suas faturas e pagamentos na OVHcloud
 updated: 2022-05-12
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A OVHcloud disponibiliza-lhe um espaço que lhe permite consultar, gerir e pagar as suas diferentes faturas.
@@ -149,4 +145,4 @@ A partir deste espaço, pode também exportar os seus comprovativos de pagamento
 
 [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

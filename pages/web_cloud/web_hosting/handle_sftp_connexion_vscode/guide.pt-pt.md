@@ -4,10 +4,6 @@ excerpt: "Administrar um website num alojamento web com Visual Studio Code graç
 updated: 2023-11-06
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Se dispõe de um alojamento web OVHcloud, pode aceder a um espaço de armazenamento que lhe permite gerir o seu site. O acesso a este espaço de armazenamento é possível através do protocolo SFTP. Embora seja possível conectar-se com um terminal, também pode utilizar o ambiente de desenvolvimento integrado (IDE) Visual Studio Code para gerir as pastas e os ficheiros do seu website.

@@ -124,4 +124,4 @@ Das Prinzip ist einfach: Ein Masterpasswort, das hinreichend komplex sein muss, 
 
 [KeePass-Anleitung der Universität Mannheim](https://www.uni-mannheim.de/informationssicherheit/infomaterial/anleitung-keepass/#c132623)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

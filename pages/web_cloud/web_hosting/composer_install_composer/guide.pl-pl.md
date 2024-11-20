@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zainstalować i zrobić pierwsze kroki w Composer"
 updated: 2023-02-24
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie 
 
 [Composer](https://getcomposer.org/){.external} jest menedżerem zależności stworzonym dla języka PHP. Pozwala deweloperom PHP na umieszczanie w programach zewnętrznych bibliotek. "Composer" umożliwiło projektom PHP ułatwienie dystrybucji bibliotek i utrzymania ich kodu. Poza tym, od momentu utworzenia tego narzędzia, w ramach społeczności PHP udostępniano liczne dobre praktyki rozwoju, które poprawiły biblioteki społeczności PHP. Te dobre praktyki są dokumentowane w formie [PSR](http://www.php-fig.org/){.external}.

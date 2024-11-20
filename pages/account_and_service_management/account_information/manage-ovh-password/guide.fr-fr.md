@@ -129,4 +129,4 @@ Si votre mot de passe est compromis, nous vous recommandons vivement de le [modi
 
 [Le gestionnaire de mots de passe KeePass](https://keepass.info/){.external}
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>`
+Échangez avec notre [communauté d'utilisateurs](/links/community).

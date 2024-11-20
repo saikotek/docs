@@ -1,7 +1,7 @@
 ---
 title: How to get started with a VPS
 excerpt: Find out how to manage a VPS in the OVHcloud Control Panel and the first steps of using a VPS, including remote connections and security measures
-updated: 2024-10-01
+updated: 2024-10-30
 ---
 
 ## Objective
@@ -73,6 +73,8 @@ Below, you will find basic information on your VPS, and the status of the servic
 >>
  
 #### Your configuration
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/RcXaZwLhCbY?si=UFygSsQv47LpKIdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Click the tabs below to view details for this section.
 

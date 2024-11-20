@@ -32,6 +32,7 @@ With an MX record, you can link a domain name to the server on your email platfo
 MX (**M**ail e**X**change) records are used to link your domain name to the receiving email servers attached to your email service. We will use an example.
 
 When the address **sender@otherdomain.ovh** sends an email to **contact@mydomain.ovh**, the **Outgoing mail server** will:
+
 - **(1)** Query the DNS zone of the domain name **mydomain.ovh** and read the **MX** records.
 - **(2)** Forward the email to the URL of the **MX** record it has found.
 

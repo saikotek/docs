@@ -222,7 +222,7 @@ L'interface suivante vous permet de téléverser et d'envoyer à nos équipes le
 > - **Formats acceptés** : jpg, jpeg, pdf, png. La taille maximale du fichier pour chaque document est de 10 Mo.
 > - En cas de documents non valides, cette procédure sera annulée et vous devrez en effectuer une nouvelle.
 
-Dans un délai de 72 heures, sous réserve que vos documents soient sont corrects et lisibles, vous recevrez la confirmation de la désactivation de la double authentification par e-mail.
+Dans un délai de 72 heures, sous réserve que vos documents sont corrects et lisibles, vous recevrez la confirmation de la désactivation de la double authentification par e-mail.
 
 /// details | Liste des justificatifs
 
@@ -250,8 +250,8 @@ Après vérification de vos documents, un conseiller pourra désactiver manuelle
 
 ## Aller plus loin
 
-Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](https://partner.ovhcloud.com/fr-ca/directory/).
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
 
-Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](https://www.ovhcloud.com/fr-ca/support-levels/).
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

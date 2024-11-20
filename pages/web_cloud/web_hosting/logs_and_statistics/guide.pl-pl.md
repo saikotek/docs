@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak sprawdzić statystyki i logi Twojej strony WWW dzię
 updated: 2024-02-27
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie 
 
 Dostęp do logów i statystyk Twojej strony WWW jest zawarty w wybranej przez Ciebie ofercie hostingu WWW, dostępnej w Panelu klienta.

@@ -4,10 +4,6 @@ excerpt: "Descubra cómo acelerar la carga de un sitio web en el alojamiento uti
 updated: 2024-10-07
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Si desea mejorar la experiencia de sus usuarios acelerando la carga de su sitio web, la técnica más eficaz es activar una CDN (siglas en inglés de **Content Delivery Network** que significan red de entrega de contenidos). Esta permite guardar en caché los archivos estáticos, como imágenes, CSS y JavaScript en los servidores que se encuentran más cerca de sus clientes.

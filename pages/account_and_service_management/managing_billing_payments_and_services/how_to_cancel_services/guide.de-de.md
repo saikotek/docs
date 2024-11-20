@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier, wie Sie OVHcloud Abonnements über das Kundencenter 
 updated: 2024-01-19
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Sie möchten einen oder mehrere OVHcloud Dienste kündigen. In dieser Anleitung erfahren Sie, wie Sie Abonnements über das OVHcloud Kundencenter beenden können.
@@ -182,4 +178,4 @@ Die Kündigung wird mit sofortiger Wirkung rückgängig gemacht. Aktualisieren S
 
 [Verlängerung Ihrer OVHcloud Dienste verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

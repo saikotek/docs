@@ -1,12 +1,8 @@
 ---
 title: "Web hosting - Cómo mejorar su solución"
 excerpt: "Descubra cómo modificar la fórmula de suscripción de un plan de hosting de OVHcloud"
-updated: 2024-10-03
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
 
 ## Objetivo
 
@@ -19,6 +15,8 @@ Su [área de cliente de OVHcloud](/links/manager) permite aumentar la capacidad 
 - funcionalidades adicionales como las [mailing-lists](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (a partir de [la oferta Pro](/links/web/hosting-professional-offer) o el [servicio Web Cloud Databases](/links/web/databases){.external} (incluido en [los planes Performance](https://www.ovhcloud.com/es/web-hosting/performance-offer)/).
 
 **Descubra cómo mejorar su plan de hosting de OVHcloud sin interrupciones del servicio.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/vRO7DXx9UsI?si=JOL6gOaCQQ2spsID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 

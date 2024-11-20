@@ -1,12 +1,8 @@
 ---
 title: Jak odnawiać usługi OVHcloud
 excerpt: Dowiedz się, jak zarządzać usługami i odnawianiem usług w Panelu klienta
-updated: 2024-01-26
+updated: 2024-11-12
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -189,14 +185,8 @@ W poniższej tabeli przedstawiono możliwe działania zbiorcze.
 >> Aby włączyć automatyczne odnawianie usług, musisz mieć dodany ważny sposób płatności na koncie OVHcloud. Jeśli tak się nie stało lub jeśli sposób płatności wygasł, w Panelu klienta pojawi się komunikat o błędzie podczas prób włączenia opcji automatycznego odnowienia. Zapoznaj się z przewodnikiem "[Zarządzanie sposobami płatności](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)", aby sprawdzić lub dodać sposób płatności.
 > Mój sposób płatności utracił ważność. W jaki sposób dodać nowy sposób płatności?
 >> Sprawdź przewodnik "[Zarządzanie sposobami płatności](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)". Zanim usuniesz stary sposób płatności, dodaj nowy, ważny sposób płatności do Twojego konta OVHcloud.
-> Zapomniałem odnowić swoją domenę na czas. Co mam zrobić?
->> Sprawdź status domeny za pomocą narzędzia [Whois dla domeny](https://www.ovhcloud.com/pl/domains/whois/).
->> Jeśli jest to domena globalna (.com, .org. net, itp.), pozostaje ona "zarezerwowana" przez okres "*grace*" (około 7 dni), a następnie przez okres "*redemption*" (około 35 do 40 dni dodatkowych). Terminy te są zmienne i zależą od rozszerzenia oraz reguł, którym podlega rejestr rozszerzający. Tylko Ty, w tych dwóch okresach, będziesz mógł odnowić domenę.
->> W okresie karencji będziesz mógł go odnowić w Panelu klienta, postępując zgodnie z instrukcjami zawartymi w tym przewodniku.
->> W okresie kwarantanny domena nie jest już zarządzana przez OVHcloud. Odnowienie w Panelu klienta wiąże się z dodatkowymi kosztami (które różnią się w zależności od rozszerzenia).
->> Po zakończeniu okresu kwarantanny domena wchodzi w fazę usuwania, która może trwać kilka dni. Po tym czasie domena zostaje ponownie przypisana do puli domen publicznych. Jeśli chcesz pobrać informacje o używaniu domeny, zalecamy użycie narzędzia [Whois](https://www.ovhcloud.com/pl/domains/whois/) do regularnego sprawdzania jej dostępności.
-> Nie chcę odnawiać mojej domeny, chcę ją przenieść do innego operatora niż OVHcloud. Jak to zrobić?
->> Zapoznaj się z instrukcjami zawartymi w przewodniku "[Transfer_domeny do innego operatora](/pages/web_cloud/domains/transfer_outgoing_domain)".
+> Mam pytanie dotyczące odnowienia mojej domeny
+>> Sprawdź przewodnik "[Odnowienie domen OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)".
 > Nie chcę już automatycznego przelewu, ale nie chcę rezygnować z usługi. Co powinienem zrobić?
 >> Jeśli Twoja usługa na to pozwala, możesz skorzystać z działania [Skonfiguruj odnowienie](#actions) i wybrać odnowienie ręczne.
 > Odnowiłem usługę na 12 miesięcy. Czy mogę cofnąć wybór?
@@ -215,6 +205,8 @@ W poniższej tabeli przedstawiono możliwe działania zbiorcze.
 
 Ten przewodnik nie odpowiedział na Twoje pytanie? Sprawdź nasze [FAQ dotyczący fakturowania i płatności](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
 
+[Odnowienie domen OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)
+
 [Zarządzanie sposobami płatności](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
 [Jak zrezygnować z usług OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
@@ -223,4 +215,4 @@ Ten przewodnik nie odpowiedział na Twoje pytanie? Sprawdź nasze [FAQ dotycząc
 
 [Zarządzanie fakturowaniem kont Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

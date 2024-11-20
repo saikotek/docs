@@ -1,12 +1,12 @@
 ---
 title: "IAM pour VMware on OVHcloud - Comment associer un utilisateur à une politique IAM globale"
-excerpt: "Découvrez comment associer une identité OVHcloud à une politique IAM"
-updated: 2024-05-23
+excerpt: "Découvrez comment associer une identité à une politique IAM OVHcloud"
+updated: 2024-11-05
 ---
 
-> [!warning]
-> La fonctionnalité IAM pour VMware on OVHcloud est actuellement en phase bêta.
-> Ce guide peut donc être incomplet. Notre équipe reste disponible sur notre canal Discord dédié. N’hésitez pas à nous rejoindre et à nous contacter : <https://discord.gg/ovhcloud>. Posez des questions, donnez votre avis et interagissez directement avec l’équipe qui construit nos services Hosted Private Cloud.
+> [!primary]
+> La fonctionnalité IAM est actuellement en phase bêta. Ce guide peut donc être mis à jour à l'avenir avec les avancées de nos équipes en charge de ce produit.
+>
 
 ## Objectif
 
@@ -22,22 +22,30 @@ updated: 2024-05-23
 
 ### Comment associer un utilisateur à une politique IAM globale ?
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager). Cliquez sur votre nom en haut à droite de l'espace client puis cliquez sur vos initiales pour accéder à la rubrique `Mon compte`{.action}.<br>
-Sous `Mon compte`{.action}, cliquez sur `Identités et accès (IAM)`{.action} et restez dans l'onglet `Politiques.`{.action}.
+Connectez-vous à votre [espace client OVHcloud](/links/manager). Cliquez sur votre nom en haut à droite de l'espace client puis cliquez sur vos initiales pour accéder à la rubrique `Mon compte`{.action}.
 
-![IAM USER POLICY](images/iam_user_policy_4.png){.thumbnail}
+Sous `Mon compte`{.action}, cliquez sur `Identités et accès (IAM)`{.action} et restez dans l'onglet `Politiques`{.action}.
 
-Vous retrouverez vos politiques que vous avez déjà créées.
+![IAM USER POLICY](images/iam_policies_resize.png){.thumbnail}
 
-Cliquez sur le bouton `...`{.action} à droite de la politique IAM concenée puis cliquez sur `Gérer les identités associées`{.action}.
+Vous retrouvez ici les politiques que vous avez déjà créés.
 
-Renseignez alors l'identité souhaitée. Il peut s'agir d'utilisateurs, d'un NIC, d'une adresse e-mail, de groupes d'utilisateurs.
+Cliquez sur votre politique ou sur le bouton `...`{.action} puis sur `Modifier la politique`{.action}.
+
+![IAM USER POLICY](images/iam_policies_modify.png){.thumbnail}
+
+Renseignez alors l'identité souhaitée dans les zones `Utilisateurs locaux` et `Groupes d'utilisateurs`, en cliquant sur `Ajouter des utilisateurs`{.action} ou `Ajouter des groupes d'utilisateurs`{.action}.
+
+![IAM USER POLICY](images/iam_add_user.png){.thumbnail}
 
 Uniquement les Groupes IAM (et non les groupes IAM vSphere) apparaissent automatiquement, attention à bien copier-coller votre choix sans fautes.
 
-Validez votre choix en cliquant sur `Ajouter`{.action}.
+Validez l'ajout de votre utilisateur en cliquant sur `Ajouter`{.action}.
 
-![IAM user policy](images/iam_user_policy_3.png){.thumbnail}
+Puis, pour terminer votre politique, cliquez sur `Modifier la politique`{.action}.
+
+> [!primary]
+> Si votre identité n'est pas présente, vous devez l'ajouter auparavant dans votre espace client OVHcloud.
 
 ## Aller plus loin
 
@@ -49,6 +57,8 @@ Validez votre choix en cliquant sur `Ajouter`{.action}.
 - Guide 4 : [IAM pour VMware on OVHcloud - Comment associer un rôle vSphere à une politique IAM](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_iam_role_policy)
 - Guide 5 : IAM pour VMware on OVHcloud - Comment associer un utilisateur à une politique IAM globale
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Notre équipe reste disponible sur notre canal [Discord](https://discord.gg/ovh) dédié. Posez des questions, donnez votre avis et interagissez directement avec l’équipe qui construit nos services Hosted Private Cloud.
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).

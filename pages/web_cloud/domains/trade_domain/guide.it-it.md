@@ -4,10 +4,6 @@ excerpt: "In questa guida troverai le informazioni necessarie per cambiare il pr
 updated: 2024-09-04
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Per registrare un dominio, oltre alla [gestione dei contatti](/pages/account_and_service_management/account_information/managing_contacts), è necessario inserire i dati del proprietario. Il **proprietario** in questo contesto riguarda una persona o una società che detiene i diritti su questo nome di dominio. **Il cambiamento di proprietà** si riferisce al trasferimento dei diritti di proprietà di una persona o di un'impresa verso un'altra, le informazioni del **proprietario** hanno un valore giuridico. Ad esempio, questo processo è obbligatorio se una società cambia nome.

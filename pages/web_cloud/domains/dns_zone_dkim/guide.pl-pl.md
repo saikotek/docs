@@ -27,10 +27,6 @@ updated: 2024-07-05
  }
 </style>
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Wpis DKIM (**D**omain**K**eys **I**dentified **M**ail) pozwala na podpisanie e-maili, aby uniknąć kradzieży tożsamości. Podpis ten działa na zasadzie mielenia połączonego z asymetryczną kryptografią.

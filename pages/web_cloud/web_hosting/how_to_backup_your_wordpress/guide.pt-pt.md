@@ -4,10 +4,6 @@ excerpt: "Descubra como guardar o conteúdo do WordPress e a base de dados do se
 updated: 2023-02-22
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Mesmo tomando todas as precauções de utilização, o seu website fica exposto a um potencial problema (erro de manipulação, esmagamento acidental de ficheiros, falha de configuração, falha de segurança ou pirataria) que pode ter como consequência a perda parcial ou total dos seus dados .<br>

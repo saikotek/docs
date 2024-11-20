@@ -27,10 +27,6 @@ updated: 2024-07-05
  }
 </style>
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O registo DKIM (**D**omain**K**eys **I**dentified **M**ail) permite assinar os e-mails para evitar a usurpação de identidade. Esta assinatura baseia-se no princípio da triagem combinada com uma criptografia assimétrica.

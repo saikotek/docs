@@ -1,12 +1,8 @@
 ---
 title: "Administrator-Passwort eines Windows Servers mit dem Windows Customer Rescue System zurücksetzen"
 excerpt: "Erfahren Sie hier, wie Sie den OVHcloud Windows-Rescue-Modus verwenden, um das Passwort des Administrator-Accounts auf einem Windows Dedicated Server zurückzusetzen"
-updated: 2024-06-26
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -20,9 +16,9 @@ Diese Anleitung erklärt, wie Sie das Passwort für den Administrator-Account mi
 
 > [!warning]
 >
-> Diese Anleitung gilt nicht für den veralteten "Windows PE (WinRescue)" Rescue-Modus.
+> Diese Anleitung gilt nicht für den veralteten `Windows PE` (WinRescue) Rescue-Modus.
 >
-> Befolgen Sie stattdessen [diese Anleitung](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows), wenn Sie den Modus `WinPE Rescue` im OVHcloud Kundencenter verwenden.
+> Befolgen Sie stattdessen [diese Anleitung](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows), wenn Sie den Modus `WinPE Rescue` (WinRescue) im OVHcloud Kundencenter verwenden.
 
 ## In der praktischen Anwendung
 
@@ -125,7 +121,15 @@ Wählen Sie das Benutzerkonto "admin" und klicken Sie auf `Change password`{.act
 
 ![ntpwedit2](images/ntpwedit_2.png){.thumbnail}
 
-Lassen Sie im Popup-Fenster die Felder leer und klicken Sie auf `OK`{.action}. Klicken Sie zum Abschluss auf `Save changes`{.action} and `Exit`{.action}.
+Geben Sie im angezeigten Fenster in beiden Feldern Ihr neues Passwort ein und klicken Sie auf `OK`{.action}.
+
+> [!warning]
+>
+> Das neue Passwort wird ohne Überprüfung seiner Komplexität akzeptiert.
+>
+> Denken Sie daran, dass dieses Passwort die Remote-Verbindung zum Server ermöglicht, nachdem der Server mit seinem Betriebssystem neu gestartet wurde.
+
+Klicken Sie zum Abschluss auf `Save changes`{.action} und dann auf `Exit`{.action}.
 
 Danach muss der Server mit dem regulären Betriebssystem neu gestartet werden.
 
@@ -136,36 +140,6 @@ Danach muss der Server mit dem regulären Betriebssystem neu gestartet werden.
 Wechseln Sie wieder zum Fenster der KVM-Sitzung und wählen Sie die Herunterfahren-Option `Neustart`{.action} über den Windows-Button unten links aus. 
 
 ![reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/cp_dedicated_restart.png){.thumbnail}
-
-### Schritt 4 - Ein neues Passwort einrichten (IPMI) <a name="step4"></a>
-
-Navigieren Sie in Ihrem OVHcloud Kundencenter zum Tab IPMI, um eine KVM-Sitzung zu öffnen.
-
-![adminpw3](images/adminpw3.png){.thumbnail}
-
-#### Für eine neuere Version von Windows
-
-Sobald Sie auf Ihren Server über IPMI zugegriffen haben, klicken Sie auf das Startmenü unten links. Geben Sie `Sign-in options` ein und klicken Sie dann auf `Sign-in options`{.action}
-
-![adminpw7](images/adminpw7.png){.thumbnail}
-
-Klicken Sie anschließend unter "Passwort" auf die Schaltfläche `Hinzufügen`{.action}, um Ihr neues Passwort festzulegen.
-
-![adminpw8](images/adminpw8.png){.thumbnail}
-
-#### Für eine ältere Version von Windows
-
-Ein Kommandozeilenfenster (`cmd`) sollte sich öffnen, wenn die KVM-Sitzung eingerichtet wird.
-
-Legen Sie das Passwort des aktuellen Benutzers ("Administrator") fest:
-
-```bash
-net user Administrator *
-```
-
-![adminpw9](images/adminpw9.png){.thumbnail}
-
-Wir empfehlen, die virtuelle Tastatur zu verwenden, wenn Sie im Konsolenfenster Passwörter eingeben, um Fehler zu vermeiden.
 
 ## Weiterführende Informationen
 

@@ -4,11 +4,6 @@ excerpt: "Questa tutorial ti mostra come riscrivere l'URL di accesso al tuo sito
 updated: 2022-12-22
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
-  
 ## Obiettivo
 
 Il "**mod_rewrite**" è uno dei moduli disponibili sul server Web HTTP **Apache**. **Apache** è installato su tutta la nostra infrastruttura di hosting condiviso. Questi server Web permettono di gestire tutte le richieste HTTP inviate al tuo hosting Web.

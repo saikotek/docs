@@ -4,7 +4,6 @@ excerpt: Hier finden Sie die häufigsten Fragen zu Abrechnung und Zahlung
 updated: 2023-06-05
 ---
 
-  
 ## Ziel
   
 Hier finden Sie die häufigsten Fragen zur Abrechnung und Bezahlung Ihrer OVHcloud Dienste.
@@ -179,4 +178,4 @@ Diese Datei können Sie im Bereich `Rechnungen`{.action} des Dashboards Ihres OV
 
 ## Weiterführende Informationen
  
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

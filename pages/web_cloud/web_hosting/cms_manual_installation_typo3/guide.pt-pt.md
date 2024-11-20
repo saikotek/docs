@@ -4,10 +4,6 @@ excerpt: "Saiba como instalar manualmente o seu CMS Typo3"
 updated: 2024-03-28
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O sistema **CMS** (**C**ontent **M**anagement **S**ystem) Typo3 oferece a capacidade de desenvolver, para qualquer empresa, sites complexos e evolutivos, de sites institucionais a plataformas de e-commerce. Com uma forte comunidade de programadores e uma vasta gama de extensões, o TYPO3 oferece ferramentas potentes para personalizar e alargar o seu site de acordo com as suas necessidades específicas.

@@ -4,10 +4,6 @@ excerpt: "Saiba como tornar o seu website compatível com um endereço IPv6"
 updated: 2024-03-12
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A rede Internet funciona desde o início dos anos 90 seguindo a norma IPv4. Esta norma permite fornecer um endereço IP X.X.X.X (ou os "X" são números compreendidos entre 0 e 255) a cada uma das máquinas ligadas à rede Internet (servidores, computadores, smartphones, tablets, etc.). No entanto, esta norma limita em cerca de 4 mil milhões o número de dispositivos ligados à rede Internet, o que em 2022 representava menos de um dispositivo ligado para duas pessoas na Terra.

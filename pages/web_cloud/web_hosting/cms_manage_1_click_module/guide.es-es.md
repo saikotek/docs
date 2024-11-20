@@ -1,12 +1,8 @@
 ---
 title: "¿Cómo gestionar su módulo en 1 clic?"
 excerpt: "Descubra cómo gestionar su módulo en 1 clic desde el área de cliente de OVHcloud"
-updated: 2024-10-11
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
 
 ## Objetivo
 
@@ -102,6 +98,17 @@ Para hacer copias de seguridad de su sitio web, siga las instrucciones de esta [
 Para eliminar el módulo en 1 clic, acceda al [área de cliente de OVHcloud](/links/manager), haga clic en `Web Cloud`{.action}, `Alojamientos`{.action}, el alojamiento correspondiente y seleccione `Módulos en 1 clic`{.action}.
 
 Haga clic en el botón `..`{.action} a la derecha de la línea que designa el módulo y, seguidamente, en el comando `Eliminar el módulo`{.action}.
+
+> [!success]
+> ¿No encuentra el botón `Eliminar el módulo`{.action} ? ¿O solo quiere eliminar archivos de su módulo?
+>
+> Consulte nuestras guías:
+>
+> - [Conectarse al espacio de almacenamiento FTP de un alojamiento web](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutorial - Utilizar FileZilla con su alojamiento de OVHcloud](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/8SdPLAk_qqw?si=UYxEaUNJoLYQR41O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

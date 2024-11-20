@@ -4,10 +4,6 @@ excerpt: "W tym przewodniku znajdziesz różne informacje na temat zmiany właś
 updated: 2024-09-04
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Oprócz [zarządzania kontaktami](/pages/account_and_service_management/account_information/managing_contacts), zarejestrowanie domeny wymaga podania informacji dotyczących jej właściciela. Właściciel **domeny** w tym kontekście dotyczy osoby lub firmy posiadającej prawa do tej domeny. **Zmiana właściciela** odnosi się do przeniesienia praw własności z jednej osoby lub firmy na inną, informacje **właściciela** mają moc prawną. Na przykład proces ten jest obowiązkowy, jeśli firma zmienia nazwę.

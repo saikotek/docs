@@ -4,10 +4,6 @@ excerpt: "Zapoznaj się z różnego rodzaju informacjami technicznymi dotyczący
 updated: 2023-12-08
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Pakiety hostingowe OVHcloud są współdzielone. W związku z tym konfiguracja tych ofert zawiera pewne cechy techniczne. Zalecamy zapoznanie się z treścią niniejszej dokumentacji *przed* rozpoczęciem korzystania z hostingu WWW OVHcloud.
