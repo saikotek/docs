@@ -459,7 +459,7 @@ Agora pode abrir rapidamente qualquer ligação com base numa chave que tenha si
 
 Para alterar os parâmetros de uma sessão, selecione-a na lista e clique no botão `Load`{.action}.
 
-<a name="exemplo"></a>
+<a name="example"></a>
 
 ### Exemplo de utilização: Como utilizar as ferramentas PuTTY para configurar ligações seguras aos servidores OVHcloud
 
