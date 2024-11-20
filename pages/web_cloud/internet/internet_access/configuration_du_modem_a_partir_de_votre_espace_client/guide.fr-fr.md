@@ -1,7 +1,7 @@
 ---
 title: "Configurer sa box à partir de l'espace client OVHcloud"
 excerpt: "Découvrez comment paramétrer à distance votre box OVHcloud depuis l'espace client"
-updated: 2024-06-18
+updated: 2024-11-20
 ---
 
 ## Objectif
@@ -31,7 +31,7 @@ Positionnez-vous alors sur l'onglet `Mon modem`{.action}.
 > L'activation de la configuration à distance écrasera le paramétrage actuel de votre box. Si une configuration spécifique est actuellement en place, celle-ci sera alors effacée.
 >
 
-- Si vous souhaitez utiliser l'outil de configuration à distance, vérifiez que la case `Configuration à distance activée` est bien cochée. Puis poursuivez la lecture de cette documentation à l'étape 2 « [Personnaliser la configuration de votre box](./#etape-2-personnaliser-la-configuration-de-votre-box) ».
+- Si vous souhaitez utiliser l'outil de configuration à distance, vérifiez que la case `Configuration à distance activée` est bien cochée. Puis poursuivez la lecture de cette documentation à l'étape 2 « [Personnaliser la configuration de votre box](#custom-configuration) » ci-dessous.
 
 > [!primary]
 >
@@ -42,6 +42,8 @@ Positionnez-vous alors sur l'onglet `Mon modem`{.action}.
 - Si vous souhaitez configurer votre modem localement sans utiliser l'outil de configuration à distance, vérifiez que la case `Configuration à distance activée` est bien décochée.
 
 ![configureremotelybox](images/configure-remotely-box-step1-2022.png){.thumbnail}
+
+<a name="custom-configuration"></a>
 
 ### Étape 2 : personnaliser la configuration de votre box
 
@@ -217,4 +219,4 @@ Vous avez la possibilité dans cette partie d'activer ou de désactiver des serv
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
