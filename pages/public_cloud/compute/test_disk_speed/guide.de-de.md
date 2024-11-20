@@ -1,25 +1,25 @@
 ---
-title: Die Geschwindigkeit der Festplatten testen
-excerpt: Die Geschwindigkeit der Festplatten testen
+title: Disk-Geschwindigkeit testen
+excerpt: Erfahren Sie hier, wie Sie die Performance Ihrer Disks überprüfen können
 updated: 2024-11-19
 ---
 
 ## Ziel
 
-Es kann aus verschiedenen Gründen vorkommen, dass Sie die Geschwindigkeit Ihrer Festplatten testen möchten: zum Beispiel um die Performance verschiedener Festplattentypen zu vergleichen, oder um zu überprüfen, dass die Leistung den Angebotsbedingungen entspricht.
+Es kann aus verschiedenen Gründen vorkommen, dass Sie die Geschwindigkeit Ihrer Disks testen möchten: zum Beispiel um die Performance verschiedener Disktypen zu vergleichen, oder um zu überprüfen, dass die Leistung den Angebotsbedingungen entspricht.
 
-**In dieser Hilfe wird die Vorgehensweise für den Test der Anzahl an Ein- und Ausgabeoperationen pro Sekunde (IOPS) beschrieben, die die Festplatten Ihrer Instanzen oder die zusätzlichen Festplatten bewältigen können.**
+**Diese Anleitung erklärt die Vorgehensweise zum Testen der Ein- und Ausgabeoperationen pro Sekunde (IOPS), die die Disks und zusätzlichen Disks Ihrer Instanzen oder bewältigen können.**
 
 ## Voraussetzungen
 
 - Sie verfügen über eine [Public Cloud Instanz](https://www.ovhcloud.com/de/public-cloud/){.external}.
-- Administrativen Zugriff (sudo) auf Ihre Instanz über SSH (Linux) oder RDP (Windows) haben.
+- SIe haven administrativen Zugriff (sudo) auf Ihre Instanz über SSH (Linux) oder RDP (Windows).
 
 ## In der praktischen Anwendung
 
 ### Installation der benötigten Software
 
-Der Befehl, den Sie benötigen, um die Geschwindigkeit Ihres Laufwerks zu überprüfen, heißt `fio`. Er ist auf Ihrem Server nicht standardmäßig vorhanden.
+Das hier verwendete Tool, um die Geschwindigkeit Ihrer Disks zu überprüfen, heißt `fio`. Es ist auf Ihrem Server nicht standardmäßig vorhanden.
 
 Um `fio` zu installieren, stellen Sie eine SSH-Verbindung zu Ihrer Instanz her und führen Sie dann den folgenden Befehl aus:
 
@@ -27,9 +27,9 @@ Um `fio` zu installieren, stellen Sie eine SSH-Verbindung zu Ihrer Instanz her u
 apt install fio
 ```
 
-## Durchführung des Tests
+### Durchführung des Tests
 
-Verwenden Sie folgenden Befehl für den Test Ihrer Festplatten:
+Verwenden Sie folgenden Befehl für den Test Ihrer Disks:
 
 ```bash
 fio --name=rand-write --ioengine=libaio --iodepth=32 --rw=randwrite --invalidate=1 --bsrange=4k:4k,4k:4k --size=512m --runtime=120 --time_based --do_verify=1 --direct=1 --group_reporting --numjobs=1
@@ -37,7 +37,7 @@ fio --name=rand-write --ioengine=libaio --iodepth=32 --rw=randwrite --invalidate
 
 > [!primary]
 > 
-> Das Argument --numjobs muss abhängig von der Anzahl der CPUs angepasst werden, über die Ihre Instanz verfügt.
+> Das Argument `--numjobs` muss abhängig von der Anzahl der CPUs angepasst werden, über die Ihre Instanz verfügt.
 >
 > Sie finden eine vollständige Liste der verfügbaren Argumente und Funktionen im [fio Manual](https://github.com/axboe/fio/blob/master/HOWTO.rst).
 >
@@ -79,17 +79,17 @@ Disk stats (read/write):
   sda: ios=0/4799786, merge=0/29, ticks=0/3797382, in_queue=3797385, util=74.39% 
 ```
 
-Die für uns interessante Information zu den IOPS befindet sich in Zeile 5:
+Die relevante Information zu den IOPS befindet sich in Zeile 5:
 
 ```console
 write: IOPS=40.0k, BW=156MiB/s (164MB/s)(18.3GiB/120001msec); 0 zone resets
 ```
 
-In diesem Beispiel liefert die getestete Festplatte also etwa 40.0k IOPS.
+In diesem Beispiel liefert die getestete Disks also etwa 40.0k IOPS.
 
-### Zusätzliche Festplatte
+### Zusätzliche Disks
 
-Um die Performance einer zusätzlichen Festplatte zu testen, begeben Sie sich in einen der Ordner des Mountpunkts.
+Um die Performance einer zusätzlichen Disks zu testen, öffnen Sie den Ordner des Mountpunkts.
 
 ```bash
 root@server:~$ cd /mnt/disk
@@ -97,7 +97,7 @@ root@server:~$ cd /mnt/disk
 
 ### Daten analysieren
 
-Der IOPS-Wert hängt vom Typ des verwendeten zusätzlichen Laufwerks ab. Im folgenden Beispiel haben wir den Test auf einem High-Speed-Volume durchgeführt:
+Der IOPS-Wert hängt vom Typ des verwendeten zusätzlichen Laufwerks ab. Im folgenden Beispiel wurde der Test auf einem High-Speed-Volume durchgeführt:
 
 ```console
 fio-3.33
@@ -136,28 +136,28 @@ Disk stats (read/write):
 write: IOPS=3052, BW=11.9MiB/s (12.5MB/s)(1431MiB/120011msec); 0 zone resets
 ```
 
-Wir können sehen, dass die Leistung der zusätzlichen Festplatte etwa 3052 IOPS beträgt.
+Wir können sehen, dass die Leistung der zusätzlichen Disks etwa 3052 IOPS beträgt.
 
-### auf Windows
+### Windows
 
 ### Testbefehl installieren
 
-Der Befehl, den Sie zum Überprüfen der Geschwindigkeit Ihrer Festplatte benötigen, heißt `fio`. Sie ist standardmäßig nicht auf Ihrem Server vorhanden.
+Das hier verwendete Tool, um die Geschwindigkeit Ihrer Disks zu überprüfen, heißt `fio`. Es ist auf Ihrem Server nicht standardmäßig vorhanden.
 
 Um `fio` zu installieren, verbinden Sie sich mit Ihrer Instanz über RDP und laden Sie diese Binärdatei herunter: [Microsoft Windows Binaries for fio](https://bsdio.com/fio/).
 
 
-## Testen Sie die Geschwindigkeit Ihrer Festplatte
+### Testen Sie die Geschwindigkeit Ihrer Disks
 
-Um die Geschwindigkeit der Festplatte zu testen, führen Sie folgenden Befehl aus:
+Um die Geschwindigkeit der Disks zu testen, führen Sie folgenden Befehl aus:
 
-```powershell
+```bash
 fio --name=rand-write --ioengine=windowsaio --iodepth=32 --rw=randwrite --invalidate=1 --bsrange=4k:4k,4k:4k --size=512m --runtime=120 --time_based --do_verify=1 --direct=1 --group_reporting --numjobs=1
 ```
 
 > [!primary]
 > 
-> Das Argument --numjobs muss abhängig von der Anzahl der CPUs angepasst werden, über die Ihre Instanz verfügt.
+> Das Argument `--numjobs` muss abhängig von der Anzahl der CPUs angepasst werden, über die Ihre Instanz verfügt.
 >
 > Sie finden eine vollständige Liste der verfügbaren Argumente und Funktionen im [fio Manual](https://github.com/axboe/fio/blob/master/HOWTO.rst).
 >
@@ -166,7 +166,7 @@ fio --name=rand-write --ioengine=windowsaio --iodepth=32 --rw=randwrite --invali
 
 Nach Abschluss des Tests erhalten Sie ein ähnliches Ergebnis:
 
-```powershell
+```console
 fio-3.38
 Starting 1 thread
 rand-write: Laying out IO file (1 file / 512MiB)
@@ -199,22 +199,22 @@ Run status group 0 (all jobs):
 WRITE: bw=154MiB/s (161MB/s), 154MiB/s-154MiB/s (161MB/s-161MB/s), io=18.0GiB (19.4GB), run=120001-120001msec
 ```
 
-Die für uns interessante Information zu den IOPS befindet sich in Zeile 5:
+Die relevante Information zu den IOPS befindet sich in Zeile 5:
 
 ```console
 write: IOPS=39.4k, BW=154MiB/s (161MB/s)(18.0GiB/120001msec); 0 zone resets
 ```
 
-Wir können sehen, dass die Leistung der Hauptfestplatte etwa 39.4k IOPS beträgt.
+Wir können sehen, dass die Leistung der promären Disks etwa 39.4k IOPS beträgt.
 
-### Zusätzliche Festplatte
+### Zusätzliche Disks
 
-Wenn Sie die Geschwindigkeit einer zusätzlichen Festplatte testen möchten, müssen Sie diese einbinden. Weitere Informationen finden Sie in dieser [Anleitung](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#unter-windows)
+Wenn Sie die Geschwindigkeit einer zusätzlichen Disks testen möchten, müssen Sie diese einbinden. Weitere Informationen finden Sie in [dieser Anleitung](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#unter-windows).
 
-Greifen Sie dann über die Powershell auf das zusätzliche Laufwerk zu und führen Sie denselben Befehl `fio` aus (siehe oben).
+Greifen Sie dann über Powershell auf das zusätzliche Laufwerk zu und führen Sie den Befehl `fio` aus (siehe oben).
 
 ## Weiterführende Informationen
 
 [Zusätzliches Volume auf einer Instanz erstellen und konfigurieren](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance)
  
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.
