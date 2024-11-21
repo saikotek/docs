@@ -83,7 +83,7 @@ This section explains how to establish a first SSH connection to the following O
 
 #### Web hosting plan
 
-You will need the cluster name of your web hosting plan which you can find in the [OVHcloud Control Panel](/links/manager), as well as the FTP username and password. Consult [the corresponding guide](/pages/web/hosting/ftp_connection) if you need further information on this access method.
+You will need the cluster name of your web hosting plan which you can find in the [OVHcloud Control Panel](/links/manager), as well as the FTP username and password. Consult [the corresponding guide](/pages/web_cloud/web_hosting/ftp_connection) if you need further information on this access method.
 
 /// details | How to connect to a web hosting plan
 
@@ -96,12 +96,12 @@ Open PuTTY and enter the FTP login credentials for your web hosting plan into th
 
 Click on `Open`{.action}.
 
-At the first connection, the "PuTTY Security Alert" will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as a web hosting plan's FTP storage).  
+At the first connection, the "PuTTY Security Alert" will appear, informing you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as a web hosting plan's FTP storage).  
 Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the web hosting's fingerprint will not be saved to the cache and the alert window will show up at the next connection. You can find further details in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
 The command line window (PuTTY terminal) will open and prompt you to enter the FTP login password.
 
-Enter the password you have [assigned to this user](/pages/web/hosting/ftp_connection). You can paste the password string into this window with a right-click.
+Enter the password you have [assigned to this user](/pages/web_cloud/web_hosting/ftp_connection). You can paste the password string into this window with a right-click.
 
 Note that **a password prompt will not display your keyboard inputs** in a PuTTY terminal. Example output:
 
@@ -115,7 +115,7 @@ Welcome to OVH
 yourlogin@ssh.cluster042.hosting.ovh.net (php/7.3/production/stable) ~ $ 
 ```
 
-Consult our guide on [SSH access for OVHcloud web hosting plans](/pages/web/hosting/ssh_on_webhosting) to learn which actions are possible on your web hosting's FTP storage space.
+Consult our guide on [SSH access for OVHcloud web hosting plans](/pages/web_cloud/web_hosting/ssh_on_webhosting) to learn which actions are possible on your web hosting's FTP storage space.
 
 PuTTY can save credentials and parameters of an SSH connection as a "session". This allows you to connect to known hosts or local network devices without entering their respective details each time. Learn how to use PuTTY sessions in the [section below](#sessions).
 
@@ -142,7 +142,7 @@ Open PuTTY and enter the login credentials into the appropriate fields.
 
 Click the button `Open`{.action}.
 
-At the first connection, the "PuTTY Security Alert" window will appear, warning you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as your own secured server).  
+At the first connection, the "PuTTY Security Alert" window will appear, informing you about possible risks. This is usually not a concern, as long as you are connecting to a trusted host (such as your own secured server).  
 Click `Accept`{.action} to proceed. If you select `Connect Once`{.action}, the server's fingerprint will not be saved to the cache and the alert will show up again at the next connection. You can find further details in our [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
 The command line window (PuTTY terminal) will open and prompt you to enter the user account's password. You can paste the password string into this window with a right-click.
