@@ -82,7 +82,7 @@ Cette section explique comment établir une première connexion SSH aux services
 
 #### Hébergement web
 
-Vous aurez besoin du nom de cluster de votre hébergement web que vous trouverez dans votre [espace client OVHcloud](/links/manager) ainsi que du nom d'utilisateur FTP et du mot de passe. Consultez [le guide correspondant](/pages/web/hosting/ftp_connection) si vous avez besoin de plus amples informations sur cette méthode d'accès.
+Vous aurez besoin du nom de cluster de votre hébergement web que vous trouverez dans votre [espace client OVHcloud](/links/manager) ainsi que du nom d'utilisateur FTP et du mot de passe. Consultez [le guide correspondant](/pages/web_cloud/web_hosting/ftp_connection) si vous avez besoin de plus amples informations sur cette méthode d'accès.
 
 /// details | Connexion à un hébergement web
 
@@ -100,7 +100,7 @@ Cliquez sur `Accept`{.action} pour continuer. Si vous sélectionnez `Connect Onc
 
 La fenêtre de ligne de commande (PuTTY terminal) s'ouvre et vous invite à entrer le mot de passe de connexion.
 
-Entrez le mot de passe que vous avez [attribué à cet utilisateur](/pages/web/hosting/ftp_connection). Vous pouvez coller la chaîne de mot de passe dans cette fenêtre via un clic droit.
+Entrez le mot de passe que vous avez [attribué à cet utilisateur](/pages/web_cloud/web_hosting/ftp_connection). Vous pouvez coller la chaîne de mot de passe dans cette fenêtre via un clic droit.
 
 Notez qu'**une invite de mot de passe n'affichera pas vos saisies clavier** dans un terminal PuTTY. Exemple de sortie :
 
@@ -114,7 +114,7 @@ Welcome to OVH
 yourlogin@ssh.cluster042.hosting.ovh.net (php/7.3/production/stable) ~ $ 
 ```
 
-Consultez notre guide « [Accès SSH pour les hébergements web OVHcloud](/pages/web/hosting/ssh_on_webhosting) » pour connaître les actions possibles sur l'espace de stockage FTP de votre hébergement web.
+Consultez notre guide « [Accès SSH pour les hébergements web OVHcloud](/pages/web_cloud/web_hosting/ssh_on_webhosting) » pour connaître les actions possibles sur l'espace de stockage FTP de votre hébergement web.
 
 PuTTY peut enregistrer les informations d'identification et les paramètres d'une connexion SSH en tant que « session ». Cela vous permet de vous connecter à des hôtes connus ou à des périphériques de réseau local sans entrer à chaque fois leurs informations respectives. Apprenez à utiliser des sessions PuTTY dans la [section ci-dessous](#sessions).
 
@@ -176,7 +176,7 @@ Cette partie du tutoriel explique comment utiliser SSH avec **authentification p
 Vous aurez besoin de l'adresse IP de votre serveur que vous trouverez dans votre [espace client OVHcloud](/links/manager) ainsi que du nom du compte utilisateur que vous souhaitez utiliser pour cette session de connexion. N’hésitez pas à consulter nos guides « Premiers pas » si vous souhaitez obtenir plus de détails sur ce sujet :
 
 - [Instance Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps)
-- [Serveur dédié](/pages/bare_metal_cloud/serveurs_dedies/getting-started-with-dedicated-server)
+- [Serveur dédié](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
 - [Serveur dédié de la gamme **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
 - [VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)
 

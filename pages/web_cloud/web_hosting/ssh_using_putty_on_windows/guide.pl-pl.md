@@ -82,7 +82,7 @@ W tej sekcji wyjaśniamy, jak ustanowić pierwsze połączenie SSH z następują
 
 ### Hosting WWW
 
-Będzie Ci potrzebna nazwa klastra Twojego hostingu WWW znajdująca się w [Panelu klienta OVHcloud](/links/manager) oraz nazwa użytkownika FTP i hasło. Więcej informacji na temat tej metody dostępu można znaleźć w [przewodniku](/pages/web/hosting/ftp_connection).
+Będzie Ci potrzebna nazwa klastra Twojego hostingu WWW znajdująca się w [Panelu klienta OVHcloud](/links/manager) oraz nazwa użytkownika FTP i hasło. Więcej informacji na temat tej metody dostępu można znaleźć w [przewodniku](/pages/web_cloud/web_hosting/ftp_connection).
 
 /// details | Logowanie do hostingu www
 
@@ -100,7 +100,7 @@ Kliknij przycisk `Accept`{.action}, aby kontynuować. Jeśli wybierzesz opcję `
 
 Otworzy się okno wiersza polecenia (terminal PuTTY), w którym pojawi się monit o wprowadzenie hasła logowania.
 
-Wprowadź hasło [przypisane do tego użytkownika](/pages/web/hosting/ftp_connection). Możesz wkleić ciąg hasła w tym oknie prawym przyciskiem myszy.
+Wprowadź hasło [przypisane do tego użytkownika](/pages/web_cloud/web_hosting/ftp_connection). Możesz wkleić ciąg hasła w tym oknie prawym przyciskiem myszy.
 
 Uwaga: **monit o hasło nie będzie wyświetlał wpisów klawiaturowych** w terminalu PuTTY. Przykład wyjścia:
 
@@ -114,7 +114,7 @@ Welcome to OVH
 yourlogin@ssh.cluster042.hosting.ovh.net (php/7.3/production/stable) ~ $ 
 ```
 
-Zapoznaj się z naszym przewodnikiem "[Dostęp SSH do hostingu WWW OVHcloud](/pages/web/hosting/ssh_on_webhosting)", aby poznać możliwe działania dotyczące przestrzeni dyskowej FTP Twojego hostingu.
+Zapoznaj się z naszym przewodnikiem "[Dostęp SSH do hostingu WWW OVHcloud](/pages/web_cloud/web_hosting/ssh_on_webhosting)", aby poznać możliwe działania dotyczące przestrzeni dyskowej FTP Twojego hostingu.
 
 Program PuTTY może zapisać poświadczenia i ustawienia połączenia SSH jako "sesję". Pozwala to na łączenie się ze znanymi hostami lub urządzeniami sieci lokalnej bez wprowadzania za każdym razem ich odpowiednich informacji. Dowiedz się, jak korzystać z sesji PuTTY w [poniższej sekcji](#sessions).
 
@@ -176,7 +176,7 @@ Ta część tutoriala wyjaśnia, jak korzystać z protokołu SSH ze **uwierzytel
 Będzie Ci potrzebny adres IP Twojego serwera, który znajdziesz w [Panelu klienta OVHcloud](/links/manager) oraz nazwa konta użytkownika, którego chcesz użyć podczas tej sesji logowania. Zapoznaj się z naszymi przewodnikami "Pierwsze kroki", jeśli chcesz otrzymać więcej informacji:
 
 - [Instancja Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps)
-- [Serwer dedykowany](/pages/bare_metal_cloud/serwery_dedykowane/getting-started-with-dedicated-server)
+- [Serwer dedykowany](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
 - [Serwer dedykowany z gamy **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
 - [VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)
 
@@ -384,7 +384,7 @@ Aby zastosować bardziej praktyczne podejście, sprawdź, jak powiązać plik kl
 
 Jeśli postępujesz zgodnie z powyższymi instrukcjami, możesz uzyskać dostęp do zdalnego hosta za pomocą uwierzytelniania przy użyciu klucza. Mimo że samo logowanie nie wymaga hasła, program PuTTY zawsze zażąda hasła do odpowiedniego pliku klucza prywatnego.
 
-![pageant](/pages/assets/screens/other/web-tools/putty/terminal.png){.thumbnail}
+![pageant](/pages/assets/screens/other/web-tools/putty/pterminal.png){.thumbnail}
 
 Korzystanie z Pageant umożliwia szybsze połączenia na dwa sposoby:
 
@@ -453,7 +453,7 @@ Teraz możesz szybko otworzyć każde połączenie oparte na wcześniej zapisany
 
 | **PuTTY** | **Pageant** |
 |---|---| 
-| ![sessions](/pages/assets/screens/other/web-tools/putty/session2.png){.thumbnail}<br> 1\. Otwórz PuTTY.<br> 2\. Kliknij dwukrotnie wybraną sesję na liście poniżej `Saved Sessions`. | ![pageant](/pages/assets/screens/other/web-tools/putty/pageant3.png){.thumbnail}<br> 1\. Kliknij prawym przyciskiem myszy ikonę strony WWW na pasku zadań.<br> 2\. Kliknij wybraną sesję w podmenu `Saved Sessions`. |
+| ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail}<br> 1\. Otwórz PuTTY.<br> 2\. Kliknij dwukrotnie wybraną sesję na liście poniżej `Saved Sessions`. | ![pageant](/pages/assets/screens/other/web-tools/putty/pageant3.png){.thumbnail}<br> 1\. Kliknij prawym przyciskiem myszy ikonę strony WWW na pasku zadań.<br> 2\. Kliknij wybraną sesję w podmenu `Saved Sessions`. |
 
 ///
 

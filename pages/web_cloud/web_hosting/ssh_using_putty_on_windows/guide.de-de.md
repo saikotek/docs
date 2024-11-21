@@ -83,7 +83,7 @@ In diesem Abschnitt wird erläutert, wie Sie eine erste SSH-Verbindung mit den f
 
 ### Webhosting
 
-Sie benötigen den Cluster-Namen Ihres Webhostings, den Sie in Ihrem [OVHcloud Kundencenter](/links/manager) finden, sowie den FTP-Benutzernamen und das Passwort.  Weitere Informationen zu dieser Zugriffsmethode finden Sie in [der zugehörigen Anleitung](/pages/web/hosting/ftp_connection).
+Sie benötigen den Cluster-Namen Ihres Webhostings, den Sie in Ihrem [OVHcloud Kundencenter](/links/manager) finden, sowie den FTP-Benutzernamen und das Passwort.  Weitere Informationen zu dieser Zugriffsmethode finden Sie in [der zugehörigen Anleitung](/pages/web_cloud/web_hosting/ftp_connection).
 
 /// details | Verbindung mit einem Webhosting
 
@@ -101,7 +101,7 @@ Klicken Sie auf `Accept`{.action}, um fortzufahren. Wenn Sie `Connect Once`{.act
 
 Es öffnet sich das Befehlszeilenfenster (PuTTY Terminal), in dem Sie zur Eingabe des Login-Passworts aufgefordert werden.
 
-Geben Sie das Passwort ein, das Sie [diesem FTP-Benutzer zugewiesen haben](/pages/web/hosting/ftp_connection). Sie können die Passwortzeichenfolge mit einem Rechtsklick in dieses Fenster einfügen.
+Geben Sie das Passwort ein, das Sie [diesem FTP-Benutzer zugewiesen haben](/pages/web_cloud/web_hosting/ftp_connection). Sie können die Passwortzeichenfolge mit einem Rechtsklick in dieses Fenster einfügen.
 
 Beachten Sie, dass **bei einer Passworteingabeaufforderung im PuTTY-Terminal Ihre Eingaben nicht angezeigt werden**. Beispielausgabe:
 
@@ -115,7 +115,7 @@ Welcome to OVH
 yourlogin@ssh.cluster042.hosting.ovh.net (php/7.3/production/stable) ~ $ 
 ```
 
-In unserer Anleitung zum [SSH-Zugang für OVHcloud Webhostings](/pages/web/hosting/ssh_on_webhosting) finden Sie mögliche Aktionen auf dem FTP-Speicherplatz Ihres Webhostings.
+In unserer Anleitung zum [SSH-Zugang für OVHcloud Webhostings](/pages/web_cloud/web_hosting/ssh_on_webhosting) finden Sie mögliche Aktionen auf dem FTP-Speicherplatz Ihres Webhostings.
 
 PuTTY kann die Anmeldeinformationen und Parameter einer SSH-Verbindung als *Session* speichern. Auf diese Weise können Sie eine Verbindung mit bekannten Hosts oder lokalen Netzwerk-Geräten herstellen, ohne jedes Mal die entsprechenden Informationen einzugeben. Informationen zum Verwenden von PuTTY-*Sessions* finden Sie im [Abschnitt unten](#sessions).
 
