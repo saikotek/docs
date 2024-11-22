@@ -177,7 +177,7 @@ In diesem Teil des Tutorials erfahren Sie, wie Sie SSH mit **Schlüssel-Authenti
 Sie benötigen die IP-Adresse Ihres Servers, die Sie in Ihrem [OVHcloud Kundencenter](/links/manager) finden, sowie den Namen des Benutzer-Accounts, den Sie für diese Login-*Session* verwenden möchten. Weitere Informationen zu diesem Thema finden Sie in unseren Anleitungen zu den ersten Schritten:
 
 - Für [Public Cloud Instanzen](/pages/public_cloud/compute/public-cloud-first-steps)
-- Für [Dedicated Server](/pages/bare_metal_cloud/dedicated_server/getting-started-with-dedicated-server)
+- Für [Dedicated Server](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
 - Für [Dedicated Server der Reihe **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
 - Für [VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)
 
