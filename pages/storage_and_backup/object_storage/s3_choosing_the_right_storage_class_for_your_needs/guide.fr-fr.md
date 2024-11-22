@@ -1,6 +1,6 @@
 ---
 title: Object Storage - Choisir une classe de stockage adaptée à vos besoins
-updated: 2024-11-21
+updated: 2024-11-25
 ---
 
 Le stockage objet « Object Storage » est une famille d’offres de stockage proposant des espaces de stockage performants, scalables et sécurisés.
