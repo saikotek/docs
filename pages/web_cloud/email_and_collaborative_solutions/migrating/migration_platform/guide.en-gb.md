@@ -130,4 +130,4 @@ If you have configured one of the migrated accounts on a local email client (e.g
 
 [Exchange guides](/products/web-cloud-email-collaborative-solutions-microsoft-exchange)
 
-Join our community of users on <https://community.ovh.com/en/>
+Join our [community of users](/links/community).

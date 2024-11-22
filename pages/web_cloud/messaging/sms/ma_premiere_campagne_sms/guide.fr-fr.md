@@ -83,5 +83,5 @@ Il ne vous reste plus qu'à cliquer sur le bouton `Envoi`{.action} pour que votr
 
 Consultez [notre guide dédié à la gestion de l'historique des SMS](/pages/web_cloud/messaging/sms/gerer_l_historique_des_sms).
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).
 

@@ -96,4 +96,4 @@ Pour vous y connecter, vous devez renseigner votre identifiant ainsi que le mot 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

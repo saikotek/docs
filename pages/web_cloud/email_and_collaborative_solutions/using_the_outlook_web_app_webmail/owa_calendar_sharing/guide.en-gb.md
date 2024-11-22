@@ -84,4 +84,4 @@ Clicking on a calendar in the list adds or removes them from the overview displa
 
 [Creating contact groups](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

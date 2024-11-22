@@ -59,4 +59,4 @@ Nous conservons jusqu'à 100 messages sur votre boîte vocale pour une durée de
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -70,4 +70,4 @@ OVHcloud ofrece una aplicación web que tiene [funciones colaborativas](/links/w
 
 [Configurar una cuenta Email Pro en Outlook para Mac](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_outlook_2016_mac)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

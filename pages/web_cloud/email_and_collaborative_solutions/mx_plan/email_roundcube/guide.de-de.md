@@ -418,4 +418,4 @@ Wie in der Nachricht angegeben, wird bei Ihrem E-Mail-Account bereits ein Login 
 
 [E-Mail Weiterleitungen verwenden](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

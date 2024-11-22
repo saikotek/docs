@@ -249,4 +249,4 @@ Ci-dessous, une liste des fichiers contenant les textes de réponses et une brè
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

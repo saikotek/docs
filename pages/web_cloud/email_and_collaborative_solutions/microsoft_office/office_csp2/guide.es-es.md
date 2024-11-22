@@ -102,4 +102,4 @@ Para conectarse, introduzca el usuario y la contraseña que habrá recibido por 
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

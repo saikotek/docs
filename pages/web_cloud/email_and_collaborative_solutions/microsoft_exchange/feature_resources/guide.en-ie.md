@@ -119,4 +119,4 @@ After creating the event (clicking `Send`{.action} in the top menu bar) Exchange
 
 [Sharing folders in OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_directory_sharing)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

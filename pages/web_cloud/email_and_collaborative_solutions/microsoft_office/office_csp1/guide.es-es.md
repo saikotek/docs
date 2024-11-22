@@ -108,4 +108,4 @@ Indique los motivos de su solicitud de baja y haga clic en `Aceptar`{.action}.
 
 [Utilizar el escritorio remoto con Microsoft 365 apps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

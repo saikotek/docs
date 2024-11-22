@@ -96,4 +96,4 @@ Se il tuo account email è già configurato e devi accedere alle impostazioni de
 >
 > Per ulteriori informazioni sulla configurazione di un account email dall'applicazione Thunderbird su Windows, vedere [Help Center Mozilla](https://support.mozilla.org/it/kb/configurazione-manuale-account#thunderbird:win10:tb115).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

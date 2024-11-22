@@ -99,4 +99,4 @@ To log in, enter the username and the password from the email OVHcloud sent you 
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

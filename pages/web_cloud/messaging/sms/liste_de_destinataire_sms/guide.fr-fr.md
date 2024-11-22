@@ -90,4 +90,4 @@ Maintenant que votre liste est importée, vous pouvez suivre les instructions de
 
 [Gérer mes carnets d’adresses SMS](/pages/web_cloud/messaging/sms/gerer_mes_carnets_dadresses_sms)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

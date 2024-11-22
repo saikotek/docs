@@ -123,4 +123,4 @@ Dopo aver creato l'evento (cliccando su `Invia`{.action} nella barra del menu su
 
 [Condividi una cartella con l'interfaccia OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_directory_sharing)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

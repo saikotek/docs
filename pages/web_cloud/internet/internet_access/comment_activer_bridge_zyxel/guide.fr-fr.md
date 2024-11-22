@@ -87,4 +87,4 @@ Pour revenir en mode routeur suivez le guide [Redémarrer ou réinitialiser une 
 
 Vous pouvez retrouver plus d'information sur la configuration du modem sur le [guide utilisateur du modem Zyxel](http://files.isp.ovh.net/zyxel/VMG8825-T50K_V5.13_5.50-1.pdf){.external}
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

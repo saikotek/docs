@@ -99,4 +99,4 @@ Tenga en cuenta que no es posible declarar falsos positivos de correo no deseado
 
 [Usar Outlook Web App con una cuenta de correo electrónico](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

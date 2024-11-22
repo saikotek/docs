@@ -84,4 +84,4 @@ A OVHcloud oferece uma aplicação web que permite aceder ao seu endereço de e-
 
 [FAQ: e-mails](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails).
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

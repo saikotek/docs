@@ -59,4 +59,4 @@ Please take the following specifics into consideration before applying signature
 
 [How to share calendars via OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -87,4 +87,4 @@ La page qui s'affiche alors vous permet de visionner l'historique des consommati
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

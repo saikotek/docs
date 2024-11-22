@@ -108,4 +108,4 @@ Se il tuo account email è già configurato e devi accedere alle impostazioni de
 
 [Configurare un account email MX plan su Mail di macOS](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_mail_macos)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

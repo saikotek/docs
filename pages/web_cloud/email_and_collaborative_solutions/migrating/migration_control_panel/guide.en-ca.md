@@ -176,4 +176,4 @@ You can also manually migrate your email addresses to your new OVHcloud email so
 
 [Exchange guides](/products/web-cloud-email-collaborative-solutions-mx-plan).
 
-Join our community of users on ‹https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

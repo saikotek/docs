@@ -92,4 +92,4 @@ Po dokonaniu wyboru zatwierdź zmiany, klikając polecenie `Zapisz zmiany`{.acti
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com>.
+Dołącz do [grona naszych użytkowników](/links/community).

@@ -85,4 +85,4 @@ Clicca sul pulsante `Invia`{.action} per l'invio o la pianificazione della tua c
 
 Consulta [la nostra guida dedicata alla gestione dello storico degli SMS](/pages/web_cloud/messaging/sms/gerer_l_historique_des_sms).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

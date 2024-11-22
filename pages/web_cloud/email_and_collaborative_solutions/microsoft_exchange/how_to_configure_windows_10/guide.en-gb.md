@@ -66,4 +66,4 @@ OVHcloud also offers a web application that includes various [collaborative feat
 
 [Configuring your Email Pro account in the Mail app for Windows](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_windows_10)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

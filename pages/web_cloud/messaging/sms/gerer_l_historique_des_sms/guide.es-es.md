@@ -82,4 +82,4 @@ Para más información sobre los códigos ptt y los diferentes ID del DLR, consu
  
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

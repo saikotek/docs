@@ -73,4 +73,4 @@ Dalla finestra di gestione della piattaforma Email Pro, clicca sul pulsante `Azi
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

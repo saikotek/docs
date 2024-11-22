@@ -250,4 +250,4 @@ Qui di seguito trovi una lista dei file che contengono i testi delle risposte e 
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

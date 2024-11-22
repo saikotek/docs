@@ -119,4 +119,4 @@ Pour vérifier que votre appareil utilise bien le service OverTheBox, vous pouve
 
 ## Aller plus loin
 
-N'hésitez pas à échangez avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)
+Échangez avec notre [communauté d'utilisateurs](/links/community).

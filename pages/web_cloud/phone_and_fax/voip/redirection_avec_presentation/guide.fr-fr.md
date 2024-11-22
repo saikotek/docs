@@ -53,4 +53,4 @@ Patientez quelques instants afin que celle-ci soit prise en compte.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

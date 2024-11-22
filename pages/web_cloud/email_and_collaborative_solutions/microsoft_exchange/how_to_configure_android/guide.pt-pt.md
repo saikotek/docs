@@ -107,4 +107,4 @@ Após a configuração, a conta de e-mail está pronta a usar Pode desde já env
 
 [E-mail Pro - Configurar um endereço de e-mail no Gmail para Android](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_android).
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -668,4 +668,4 @@ For specialized services (SEO, development, etc.), contact [OVHcloud partners](/
 
 If you would like assistance with using and configuring your OVHcloud solutions, we recommend referring to our range of [support solutions](/links/support).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -602,4 +602,4 @@ Per impostazione predefinita, l'opzione `Attiva risposta automatica durante ques
 
 [Utilizza i reindirizzamenti email](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com>.
+Contatta la nostra [Community di utenti](/links/community).

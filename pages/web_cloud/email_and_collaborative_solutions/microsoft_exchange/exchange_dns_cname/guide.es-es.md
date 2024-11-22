@@ -114,4 +114,4 @@ Para comprobar que la plataforma de correo ha leído la configuración del regis
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

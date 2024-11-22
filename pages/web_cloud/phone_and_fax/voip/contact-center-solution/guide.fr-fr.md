@@ -423,4 +423,4 @@ Vous trouverez plus bas la liste des enregistrements que vous pourrez téléchar
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

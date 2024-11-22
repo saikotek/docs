@@ -88,4 +88,4 @@ Si vous constatez des reconnexions fréquentes sur l'un de vos accès xDSL ou FT
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
+Échangez avec notre [communauté d'utilisateurs](/links/community).

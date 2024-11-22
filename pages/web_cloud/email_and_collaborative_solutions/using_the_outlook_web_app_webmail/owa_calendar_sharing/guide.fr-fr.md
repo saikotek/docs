@@ -84,4 +84,4 @@ Cliquer sur un calendrier de la liste a pour effet de l’ajouter ou de le retir
 
 [Créer un groupe de contacts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/en/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

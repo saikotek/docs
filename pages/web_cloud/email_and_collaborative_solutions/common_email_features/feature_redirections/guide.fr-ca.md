@@ -170,4 +170,4 @@ La méthode pour créer un alias ou une redirection est strictement la même. Su
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

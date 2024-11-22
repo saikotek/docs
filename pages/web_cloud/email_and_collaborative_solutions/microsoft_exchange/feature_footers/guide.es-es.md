@@ -59,4 +59,4 @@ Tenga en cuenta los siguientes datos antes de introducir firmas para los usuario
 
 [Compartir un calendario con el webmail OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -104,4 +104,4 @@ Natürlich können Sie auch weiterhin unser Webinterface unter[Webmail](/links/w
 >
 > Weitere Informationen zur Konfiguration einer E-Mail-Adresse über das Gmail-Interface finden Sie [im Google Help Center](https://support.google.com/mail/answer/21289?hl=de&co=GENIE.Platform%3DDesktop).
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

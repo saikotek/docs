@@ -110,4 +110,4 @@ In the Outlook application, you will see your shared account in the left-hand co
 
 [Creating automatic signatures](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

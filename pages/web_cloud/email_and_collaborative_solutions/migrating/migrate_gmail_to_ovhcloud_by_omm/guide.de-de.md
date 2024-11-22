@@ -160,4 +160,4 @@ Das Migrationsüberwachungsfenster wird angezeigt. Sie können es geöffnet lass
 
 [Weniger sichere Verbindungen in Google Mail zulassen](/pages/web_cloud/email_and_collaborative_solutions/migrating/migrate_gmail_to_ovhcloud_by_omm).
 
-Für den Austausch mit unserer User Community gehen Sie auf [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Treten Sie unserer [User Community](/links/community) bei.

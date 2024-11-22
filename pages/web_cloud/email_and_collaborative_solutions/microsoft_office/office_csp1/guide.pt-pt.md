@@ -107,4 +107,4 @@ Indique as razões do seu pedido de rescisão e clique em `Validar`{.action}.
 
 [Utilizar o ambiente de trabalho remoto com Microsoft 365 apps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -163,4 +163,4 @@ Le dialplan pour les appels entrants se gère dans le fichier**/usr/local/freesw
     
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

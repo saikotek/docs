@@ -149,4 +149,4 @@ Si el asunto del mensaje contiene la palabra "money" **y el** remitente del mens
 
 [Reglas de la bandeja de entrada desde la interfaz OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/creating-inbox-rules-in-owa-mx-plan)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

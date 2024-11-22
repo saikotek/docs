@@ -102,4 +102,4 @@ To edit or delete a contact, click `...`{.action} in the Actions column (4) acro
 
 ## Go further
 
-Join our community of users on [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Join our [community of users](/links/community).

@@ -84,4 +84,4 @@ OVHcloud also has a web application you can use to access your email account fro
 >
 > For more information about setting up an email address from the Mail on Windows email client, see [Microsoft Help Center](https://support.microsoft.com/en-gb/office/setting-email-in-mail-application-7ff79e8b-439b-4b47-8ff9-3f9a33166c60).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

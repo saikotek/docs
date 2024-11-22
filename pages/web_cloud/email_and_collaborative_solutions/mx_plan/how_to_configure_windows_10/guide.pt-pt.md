@@ -95,4 +95,4 @@ A OVHcloud oferece uma aplicação web que permite aceder ao seu endereço de e-
 
 [Configurar uma conta Exchange na aplicação Correio para Windows](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_windows_10)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).
