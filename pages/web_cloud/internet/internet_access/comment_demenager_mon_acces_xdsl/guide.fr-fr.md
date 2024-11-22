@@ -1,7 +1,7 @@
 ---
 title: Comment déménager mon accès xDSL/FTTH
 excerpt: "Découvrez comment demander le déménagement de votre offre d'accès à Internet OVHcloud depuis votre espace client"
-updated: 2022-10-10
+updated: 2024-11-22
 ---
 
 ## Objectif
@@ -107,12 +107,12 @@ Cliquez ensuite sur le bouton `Confirmer la sélection`{.action} pour passer à 
 
 #### Prise de rendez-vous pour le création de l'accès à la nouvelle adresse
 
-Cette étape n'apparait que si la création d'une nouvelle ligne est demandée à la nouvelle adresse. 
-<br>Cette création nécessite le déplacement d'un technicien Orange sur place. 
+Cette étape n'apparait que si la création d'une nouvelle ligne est demandée à la nouvelle adresse ou lors de l'installation d'un abonnement Fibre. 
+<br>Cette création nécessite le déplacement d'un technicien sur place. 
 
 > [!warning]
 >
-> Votre présence sur place lors du déplacement du technicien Orange est indispensable, celui-ci devant accéder aux parties privatives de votre logement ou de vos locaux.
+> Votre présence sur place lors du déplacement du technicien est indispensable, celui-ci devant accéder aux parties privatives de votre logement ou de vos locaux.
 >
 
 Renseignez le nom de la personne qui sera présente sur site pour accueillir le technicien dans le cadre prévu à cet effet.
@@ -130,7 +130,14 @@ Cochez alors les cases correspondantes et cliquez sur `Valider le déménagement
 
 ### Suite à la demande de déménagement
 
-Le déménagement de la ligne à la nouvelle adresse se réalise en 7 à 10 jours en moyenne, sauf en cas de création de ligne ou cela dépend de la date de rendez-vous choisie.
+Le déménagement de votre ligne cuivre à la nouvelle adresse se réalise en 7 à 10 jours en moyenne, sauf en cas de création de ligne ou cela dépend de la date de rendez-vous choisie.
+
+En cas de passage d'une offre cuivre (ADSL/VDSL) vers une offre Fibre (FTTH), un délai moyen de 10 à 30 jours est nécessaire à la réalisation de votre nouvel accès internet Fibre. Dans ce cas précis nous créons, en parallèle de votre *packadsl*, un nouveau *packadsl* temporaire afin de pouvoir réaliser la commande Fibre tout en continuant de garder votre accès cuivre fonctionnel et inchangé. Ce *packadsl* temporaire sera supprimé dès lors où l'accès Fibre sera livré. L'accès Fibre viendra remplacer votre accès cuivre dans votre *packadsl* originel.
+
+> [!warning]
+>
+> Aucune action de modification ou de suppression de votre part n'est nécessaire. Le passage vers votre nouvel accès Fibre ou cuivre se fera de manière entièrement automatisée.
+> 
 
 L'accès à Internet de l'ancienne adresse est maintenu jusqu'à la livraison de l'accès à Internet à la nouvelle adresse. OVHcloud interrompt l'accès à Internet à l'ancienne adresse à la fin du mois en cours, si et uniquement si l'accès à Internet à la nouvelle adresse a été livré.
 
