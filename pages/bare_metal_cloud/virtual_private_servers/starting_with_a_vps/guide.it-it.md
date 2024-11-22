@@ -146,8 +146,19 @@ La reinstallazione del VPS può essere effettuata direttamente dallo Spazio Clie
 
 Nella nuova finestra, seleziona un sistema operativo dall’elenco a discesa. Le opzioni proposte sono [immagini compatibili con un VPS OVHcloud](/pages/public_cloud/compute/image-life-cycle) e sono subito operative dopo l'installazione.
 
-È inoltre possibile selezionare una **chiave SSH** da installare sul sistema, se in precedenza ne era stata archiviata una nello [Spazio Cliente OVHcloud](/links/manager). Per maggiori informazioni su questo argomento, consulta la nostra guida "[Creare e utilizzare chiavi SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)".  
-Se hai selezionato una chiave SSH e non hai bisogno di un identificativo e di una password per accedere, spunta la casella `Non voglio ricevere via email i codici di autenticazione del mio VPS.`.
+Se è stato selezionato un sistema operativo compatibile, è possibile fornire una **chiave pubblica** da installare automaticamente. Le opzioni disponibili sono due:
+
+- Copia manualmente la stringa di chiave e incollala nel campo `La tua chiave SSH pubblica`.
+- Se in precedenza hai salvato una chiave pubblica nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona la chiave desiderata nel menu a tendina `Chiavi SSH da preinstallare`.
+
+![VPSnewreinstallation](images/reinstall.png){.thumbnail}
+
+Per saperne di più, consulta le nostre guide:
+
+- [Come creare e utilizzare le chiavi per l’autenticazione SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Come creare e utilizzare chiavi per l’autenticazione SSH con PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+
+Se hai selezionato una chiave SSH e non hai bisogno di una password per accedere, attiva l’opzione `Non voglio ricevere via email i codici di autenticazione del mio VPS`.
 
 > [!warning]
 >

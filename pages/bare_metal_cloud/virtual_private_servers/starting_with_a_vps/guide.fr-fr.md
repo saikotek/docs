@@ -150,7 +150,7 @@ Dans la fenêtre qui apparaît, choisissez un système d'exploitation dans la li
 Si vous avez sélectionné un système d'exploitation compatible, vous pouvez fournir une **clé publique** à installer automatiquement. Deux possibilités s'offrent à vous :
 
 - Copiez manuellement la chaîne de clé et collez-la dans le champ `Votre clé SSH Publique`.
-- Si vous avez précédemment stocké une clé publique dans votre [espace client OVHcloud](/links/manager), sélectionnez la clé souhaitée dans le menu déroulant `Clé(s) SSH à pré-installer`.
+- Si vous avez précédemment stocké une clé publique dans votre [espace client OVHcloud](/links/manager), sélectionnez la clé souhaitée dans le menu déroulant `Clé SSH à pré-installer`.
 
 ![VPSnewreinstallation](images/reinstall.png){.thumbnail}
 

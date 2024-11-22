@@ -148,7 +148,7 @@ In the popup window, choose an operating system from the drop-down list. The opt
 If you have selected a compatible operating system, you can provide a **public key** to be installed automatically. You have two options:
 
 - Manually copy the key string and paste it into the field `Your Public SSH key`.
-- If you have previously stored a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key(s) to pre-install`.
+- If you have previously stored a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
 
 ![VPSnewreinstallation](images/reinstall.png){.thumbnail}
 

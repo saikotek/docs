@@ -146,8 +146,19 @@ Reinstalacja serwera VPS może zostać przeprowadzona z poziomu panelu klienta. 
 
 W oknie, które się pojawi, wybierz system operacyjny z rozwijanej listy. Proponowane opcje to [obrazy kompatybilne z serwerem VPS OVHcloud](/pages/public_cloud/compute/image-life-cycle), które zaczną działać natychmiast po instalacji.
 
-Możesz również wybrać **klucz SSH** do zainstalowania w systemie, jeśli wcześniej przechowywałeś go w swoim [Panelu klienta OVHcloud](/links/manager). Więcej informacji na ten temat znajdziesz w przewodniku "[Tworzenie i używanie kluczy SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)".
-Jeśli wybrałeś klucz SSH i nie potrzebujesz identyfikatora i hasła, aby się zalogować, zaznacz kratkę `Nie chcę otrzymywać na e-mail danych do logowania dla mojego serwera VPS.`.
+Jeśli wybrano kompatybilny system operacyjny, możesz automatycznie zainstalować **klucz publiczny**. Masz dwie możliwości:
+
+- Ręcznie skopiuj ciąg klucza i wklej go w polu `Twój publiczny klucz SSH`.
+- Jeśli wcześniej przechowywałeś klucz publiczny w Twoim [Panelu klienta OVHcloud](/links/manager), wybierz odpowiedni klucz z rozwijanego menu `Klucz(y) SSH, który chcesz wstępnie zainstalować`.
+
+![VPSnewreinstallation](images/reinstall.png){.thumbnail}
+
+Więcej na ten temat znajdziesz w naszych przewodnikach:
+
+- [Jak tworzyć i używać kluczy do uwierzytelniania SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Jak tworzyć i używać kluczy do uwierzytelniania SSH za pomocą PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+
+Jeśli wybrałeś klucz SSH i nie potrzebujesz hasła, aby się zalogować, włącz opcję `Nie chcę otrzymywać e-mailem kodów uwierzytelniających z mojego serwera VPS`.
 
 > [!warning]
 >

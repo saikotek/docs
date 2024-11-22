@@ -148,10 +148,21 @@ Reinstallationen können über das Kundencenter durchgeführt werden. Klicken Si
 
 ![VPSnewreinstallation](images/2023panel_01.png){.thumbnail}
 
-Wählen Sie im angezeigten Fenster ein Betriebssystem aus der Dropdown-Liste aus. Die angebotenen Optionen sind [mit einem OVHcloud VPS kompatible Images](/pages/public_cloud/compute/image-life-cycle) und unmittelbar nach der Installation funktionsfähig.
+Wählen Sie im angezeigten Fenster ein Betriebssystem aus der Drop-down-Liste aus. Die angebotenen Optionen sind [mit einem OVHcloud VPS kompatible Images](/pages/public_cloud/compute/image-life-cycle) und unmittelbar nach der Installation funktionsfähig.
 
-Sie können auch einen **SSH-Schlüssel** zur Installation auf dem System auswählen, wenn Sie bereits einen in Ihrem [OVHcloud Kundencenter](/links/manager) hinterlegt haben. Weitere Informationen hierzu finden Sie in unserer Anleitung [SSH-Schlüssel erstellen und verwenden](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).  
-Wenn Sie einen SSH-Schlüssel ausgewählt haben und für die Anmeldung keinen Benutzernamen und kein Kennwort benötigen, aktivieren Sie die Option „Ich möchte meine VPS-Authentifizierungscodes nicht per E-Mail erhalten“.
+Wenn Sie ein kompatibles Betriebssystem ausgewählt haben, können Sie einen **öffentlichen Schlüssel** angeben, der automatisch installiert werden soll. Sie haben zwei Möglichkeiten:
+
+- Kopieren Sie die Schlüsselzeichenfolge manuell und fügen Sie sie in das Feld `Ihr öffentlicher SSH-Schlüssel` ein.
+- Wenn Sie zuvor einen öffentlichen Schlüssel in Ihrem [OVHcloud Kundencenter](/links/manager) gespeichert haben, wählen Sie den gewünschten Schlüssel im Drop-down-Menü `SSH-Schlüssel für die Vorinstallation` aus.
+
+![VPSnewreinstallation](images/reinstall.png){.thumbnail}
+
+Weitere Informationen zu diesem Thema finden Sie in unseren Anleitungen:
+
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung mit PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+
+Wenn Sie einen SSH-Schlüssel ausgewählt haben und für die Anmeldung kein Passwort benötigen, aktivieren Sie die Option `Ich möchte die Zugangsdaten zu meinem VPS nicht per E-Mail erhalten.`.
 
 > [!warning]
 >
