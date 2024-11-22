@@ -107,7 +107,7 @@ Cliquez ensuite sur le bouton `Confirmer la sélection`{.action} pour passer à 
 
 #### Prise de rendez-vous pour le création de l'accès à la nouvelle adresse
 
-Cette étape n'apparait que si la création d'une nouvelle ligne est demandée à la nouvelle adresse ou lors de l'installation d'un abonement Fibre. 
+Cette étape n'apparait que si la création d'une nouvelle ligne est demandée à la nouvelle adresse ou lors de l'installation d'un abonnement Fibre. 
 <br>Cette création nécessite le déplacement d'un technicien sur place. 
 
 > [!warning]
