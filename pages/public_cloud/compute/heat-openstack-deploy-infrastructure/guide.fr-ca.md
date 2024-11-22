@@ -14,7 +14,7 @@ Nous vous apportons une première approche de Heat et des *stacks* représentant
 
 > [!warning]
 >
-> Heat d'OpenStack est actuellement déployé en version bêta. En cas de difficulté et/ou si vous souhaitez échanger avec d'autres utilisateurs, vous pouvez envoyer un e-mail sur la mailing list <cloud@ml.ovh.net> ou sur notre forum d'entraide communautaire <https://community.ovh.com>.
+> Heat d'OpenStack est actuellement déployé en version bêta. En cas de difficulté et/ou si vous souhaitez échanger avec d'autres utilisateurs, vous pouvez envoyer un e-mail sur la mailing list <cloud@ml.ovh.net> ou sur notre [forum d'entraide communautaire](/links/community).
 > 
 
 ## Prérequis

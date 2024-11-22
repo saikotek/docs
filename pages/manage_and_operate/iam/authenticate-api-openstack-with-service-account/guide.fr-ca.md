@@ -248,4 +248,4 @@ openstack.exceptions.ForbiddenException: ForbiddenException: 403: Client Error f
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

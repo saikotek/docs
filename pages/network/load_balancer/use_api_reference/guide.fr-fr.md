@@ -239,4 +239,4 @@ Pour une référence complète des fonctions de l'API du service OVHcloud Load B
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

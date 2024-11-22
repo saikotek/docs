@@ -87,4 +87,4 @@ L'exemple ci-dessus montre que l'adresse IP testée est à présent annoncée à
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

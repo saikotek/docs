@@ -72,4 +72,4 @@ Veuillez noter que cette méthode n'est pas recommandée par cPanel. Son utilisa
 
 ## Allez plus loin
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

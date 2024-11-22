@@ -200,4 +200,4 @@ Le déplacement des machines entre les hôtes est effectué par l'échange de cl
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

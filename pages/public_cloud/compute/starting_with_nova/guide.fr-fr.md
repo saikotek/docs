@@ -194,4 +194,4 @@ admin@serveur-1:~$ openstack server delete InstanceTest
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

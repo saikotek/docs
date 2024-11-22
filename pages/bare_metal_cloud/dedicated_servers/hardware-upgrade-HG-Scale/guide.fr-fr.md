@@ -76,4 +76,4 @@ Si vous souhaitez planifier une évolution de mémoire et de stockage lors de la
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

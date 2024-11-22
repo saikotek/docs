@@ -30,4 +30,4 @@ Il ne reste plus qu'a valider en cliquant sur `Suivant`{.action} et une fois que
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

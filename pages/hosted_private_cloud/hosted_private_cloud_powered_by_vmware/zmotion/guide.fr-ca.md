@@ -31,4 +31,4 @@ Du point de vue de VMware, il n'y a pas de temps d'arrêt.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

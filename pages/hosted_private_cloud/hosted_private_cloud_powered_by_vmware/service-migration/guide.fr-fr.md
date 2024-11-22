@@ -287,4 +287,4 @@ Les sauvegardes Veeam fournies par OVHcloud sont configurées par VM. Par consé
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

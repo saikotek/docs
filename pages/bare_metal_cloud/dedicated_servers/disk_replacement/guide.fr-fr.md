@@ -203,4 +203,4 @@ Si vous possédez un serveur en RAID logiciel, il convient de lancer manuellemen
 
 [Mode Rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode){.external}
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

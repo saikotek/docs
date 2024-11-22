@@ -97,4 +97,4 @@ C'est par exemple ici que vous pouvez créer des comptes utilisateur vROPS.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

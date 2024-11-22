@@ -212,4 +212,4 @@ Une liste vide en retour, comme ci-dessous, vous confirme que l'ensemble des act
 
 [Nos guides SecNumCloud Connectivity](/products/network)
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
