@@ -51,7 +51,7 @@ L'augmentation de capacité du disque prendra quelques minutes après la validat
 > [!warning]
 > OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous appartient donc de ce fait d’en assurer le bon fonctionnement.
 >
-> Nous mettons ce guide à votre disposition afin de vous accompagner au mieux sur les tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) ou de faire appel à [notre communauté](/links.community) si vous éprouvez des difficultés.
+> Nous mettons ce guide à votre disposition afin de vous accompagner au mieux sur les tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) ou de faire appel à [notre communauté](/links/community) si vous éprouvez des difficultés.
 >
 
 #### Sur un VPS Linux
