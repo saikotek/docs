@@ -1,7 +1,7 @@
 ---
 title: Premiers pas avec un VPS
 excerpt: "Apprenez à gérer un VPS dans votre espace client et découvrez les premières étapes de son utilisation, notamment les connexions à distance et les mesures de sécurité"
-updated: 2024-10-30
+updated: 2024-11-22
 ---
 
 ## Objectif
@@ -147,8 +147,19 @@ La réinstallation de votre VPS peut être effectuée depuis votre espace client
 
 Dans la fenêtre qui apparaît, choisissez un système d'exploitation dans la liste déroulante. Les options proposées sont [des images compatibles avec un VPS OVHcloud](/pages/public_cloud/compute/image-life-cycle) et sont immédiatement fonctionnelles après l'installation.
 
-Vous pouvez également sélectionner une **clé SSH** à installer sur le système, si vous en avez stocké une précédemment dans votre [espace client OVHcloud](/links/manager). Pour tout savoir sur ce sujet, consultez notre guide « [Créer et utiliser des clés SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) ».
-Si vous avez sélectionné une clé SSH et que vous n'avez pas besoin d'un identifiant et d'un mot de passe pour vous connecter, cochez la case `Je ne souhaite pas recevoir par e-mail les codes d'authentification de mon VPS.`.
+Si vous avez sélectionné un système d'exploitation compatible, vous pouvez fournir une **clé publique** à installer automatiquement. Deux possibilités s'offrent à vous :
+
+- Copiez manuellement la chaîne de clé et collez-la dans le champ `Votre clé SSH Publique`.
+- Si vous avez précédemment stocké une clé publique dans votre [espace client OVHcloud](/links/manager), sélectionnez la clé souhaitée dans le menu déroulant `Clé(s) SSH à pré-installer`.
+
+![VPSnewreinstallation](images/reinstall.png){.thumbnail}
+
+Pour en savoir plus sur ce sujet, consultez nos guides :
+
+- [Comment créer et utiliser des clés pour l'authentification SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Comment créer et utiliser des clés pour l'authentification SSH avec PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+
+Si vous avez sélectionné une clé SSH et que vous n'avez pas besoin de mot de passe pour vous connecter, activez l'option `Je ne souhaite pas recevoir par e-mail les codes d'authentification de mon VPS`.
 
 > [!warning]
 >
