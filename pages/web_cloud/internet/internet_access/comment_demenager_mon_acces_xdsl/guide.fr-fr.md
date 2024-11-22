@@ -130,13 +130,13 @@ Cochez alors les cases correspondantes et cliquez sur `Valider le déménagement
 
 ### Suite à la demande de déménagement
 
-Le déménagement de votre ligne Cuivre à la nouvelle adresse se réalise en 7 à 10 jours en moyenne, sauf en cas de création de ligne ou cela dépend de la date de rendez-vous choisie.
+Le déménagement de votre ligne cuivre à la nouvelle adresse se réalise en 7 à 10 jours en moyenne, sauf en cas de création de ligne ou cela dépend de la date de rendez-vous choisie.
 
-En cas de passage d'une offre Cuivre (adsl/vdsl) vers une offre Fibre (ftth), un délai moyen de 10 à 30 jours est nécessaire à la réalisation de votre nouvel accès internet Fibre. Dans ce cas précis nous créons en parallèle de votre packadsl, un nouveau packadsl temporaire afin de pouvoir réaliser la commande Fibre tout en continuant de garder votre accès Cuivre fonctionnel et inchangé. Ce packadsl temporaire sera supprimé dès lors où l'accès Fibre sera livré. L'accès Fibre viendra remplacer votre accès cuivre dans votre packadsl originel.
+En cas de passage d'une offre cuivre (ADSL/VDSL) vers une offre Fibre (FTTH), un délai moyen de 10 à 30 jours est nécessaire à la réalisation de votre nouvel accès internet Fibre. Dans ce cas précis nous créons, en parallèle de votre *packadsl*, un nouveau *packadsl* temporaire afin de pouvoir réaliser la commande Fibre tout en continuant de garder votre accès cuivre fonctionnel et inchangé. Ce *packadsl* temporaire sera supprimé dès lors où l'accès Fibre sera livré. L'accès Fibre viendra remplacer votre accès cuivre dans votre *packadsl* originel.
 
 > [!warning]
 >
-> Aucune action de modification ou de suppression de votre part n'est nécessaire. Le passage vers votre nouvel accès Fibre ou Cuivre se fera de manière entièrement automatisée.
+> Aucune action de modification ou de suppression de votre part n'est nécessaire. Le passage vers votre nouvel accès Fibre ou cuivre se fera de manière entièrement automatisée.
 > 
 
 L'accès à Internet de l'ancienne adresse est maintenu jusqu'à la livraison de l'accès à Internet à la nouvelle adresse. OVHcloud interrompt l'accès à Internet à l'ancienne adresse à la fin du mois en cours, si et uniquement si l'accès à Internet à la nouvelle adresse a été livré.
