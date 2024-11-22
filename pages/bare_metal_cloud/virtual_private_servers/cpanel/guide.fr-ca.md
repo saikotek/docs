@@ -106,4 +106,4 @@ Nous vous recommandons également de consulter notre guide pour [sécuriser un V
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

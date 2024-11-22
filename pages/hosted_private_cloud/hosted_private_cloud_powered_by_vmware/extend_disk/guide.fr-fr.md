@@ -153,4 +153,4 @@ Le disque est maintenant étendu et prêt à l'usage.<br>
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

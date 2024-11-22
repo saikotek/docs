@@ -33,7 +33,7 @@ Prenez note des informations de tarification, puis cliquez sur `Commander`{.acti
 > [!warning]
 > OVHcloud vous fournit des services dont vous êtes responsable en ce qui concerne leur configuration et leur gestion. Vous êtes donc responsable de leur bon fonctionnement.
 >
->Si vous rencontrez des difficultés pour effectuer ces actions, veuillez contacter un prestataire de services spécialisé et/ou discuter du problème avec notre communauté d'utilisateurs sur https://community.ovh.com/. OVHcloud ne peut pas vous fournir de support technique sur ce sujet.
+>Si vous rencontrez des difficultés pour effectuer ces actions, veuillez contacter un prestataire de services spécialisé et/ou discuter du problème avec notre [communauté d'utilisateurs](/links/community). OVHcloud ne peut pas vous fournir de support technique sur ce sujet.
 >
 
 #### Sur un VPS Linux
@@ -299,4 +299,4 @@ Sous l'onglet `Accueil`{.action}, faites défiler l'écran jusqu'à la zone inti
 
 ## Allez plus loin
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

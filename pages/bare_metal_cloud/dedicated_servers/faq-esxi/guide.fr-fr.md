@@ -83,4 +83,4 @@ Nos clients utilisant les solutions [VMware on OVHcloud](https://www.ovhcloud.co
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

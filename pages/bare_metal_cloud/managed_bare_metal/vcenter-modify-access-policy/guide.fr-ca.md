@@ -36,5 +36,5 @@ Dans la fenêtre qui s'affiche, choisissez  « Ouverte » ou « Restreinte » d
 
 [Autoriser des IP à se connecter au vCenter](/pages/bare_metal_cloud/managed_bare_metal/vcenter-authorise-ip-access)
 
-Échangez avec notre communauté d’utilisateurs sur [https://community.ovh.com/](https://community.ovh.com/){.external}.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
 

@@ -86,4 +86,4 @@ L'API OVH peut être utilisé en complément du [SDK vSphere](https://pccdocs.ov
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

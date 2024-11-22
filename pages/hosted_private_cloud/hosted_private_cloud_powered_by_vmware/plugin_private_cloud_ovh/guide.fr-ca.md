@@ -38,4 +38,4 @@ La commande de datastores supplémentaires s'effectue, elle, dans le menu `Add S
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

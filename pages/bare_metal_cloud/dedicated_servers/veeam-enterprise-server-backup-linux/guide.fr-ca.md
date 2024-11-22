@@ -89,4 +89,4 @@ Pour plus d'informations sur la restauration d'un serveur Bare Metal, consultez 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

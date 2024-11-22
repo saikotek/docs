@@ -49,4 +49,4 @@ Veuillez noter que vous devez avoir mis en place une règle anti-affinité pour 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

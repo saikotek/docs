@@ -163,4 +163,4 @@ openstack --help
 
 [Charger les variables d’environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
-Rejoignez la communauté de nos utilisateurs à l'adresse <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

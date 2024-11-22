@@ -51,4 +51,4 @@ Ajoutez un groupe de sécurité en cliquant sur `Create Security Group`{.action}
 
 ## Aller plus loin
 
-Echangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

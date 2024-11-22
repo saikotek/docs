@@ -61,5 +61,5 @@ Enfin, la migration à froid de la machine virtuelle « SQL3 » vers une autre i
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
 

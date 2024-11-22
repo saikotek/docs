@@ -133,4 +133,4 @@ Sur le serveur Veeam Backup and Recovery, la tâche de sauvegarde apparaîtra :
 
 [Page d'assistance de Veeam](https://www.veeam.com/knowledge-base.html)
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

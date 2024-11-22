@@ -163,4 +163,4 @@ Effectuez une sauvegarde de votre environnement à l'aide du guide Linux ou Wind
 - Pour Linux : [Sauvegarder un serveur Bare Metal Linux avec Veeam Enterprise](/pages/bare_metal_cloud/dedicated_servers/veeam-enterprise-server-backup-linux)
 - Pour Windows : [Sauvegarder un serveur Bare Metal Windows en utilisant Veeam Agent pour Windows](/pages/bare_metal_cloud/dedicated_servers/veeam-enterprise-server-backup-windows-agent)
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

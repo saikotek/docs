@@ -160,4 +160,4 @@ La création/modification de règles n'est pas enregistrée tant que vous ne cli
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

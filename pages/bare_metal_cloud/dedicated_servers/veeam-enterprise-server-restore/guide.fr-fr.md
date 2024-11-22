@@ -66,4 +66,4 @@ Une fenêtre contextuelle s’affiche, indiquant la progression de la restaurati
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

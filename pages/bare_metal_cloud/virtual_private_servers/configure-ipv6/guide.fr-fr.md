@@ -478,4 +478,4 @@ Pour revenir à une gestion automatique de votre réseau par Cloud-init, supprim
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

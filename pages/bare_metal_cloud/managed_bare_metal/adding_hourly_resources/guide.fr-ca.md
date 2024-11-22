@@ -44,4 +44,4 @@ De plus, une tâche apparaîtra dans les tâches récentes de votre vSphere. Cel
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

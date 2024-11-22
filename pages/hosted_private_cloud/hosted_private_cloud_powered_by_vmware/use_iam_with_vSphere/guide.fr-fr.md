@@ -103,4 +103,4 @@ Exécutez l'appel suivant pour désactiver la connexion avec l'IAM OVHcloud :
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

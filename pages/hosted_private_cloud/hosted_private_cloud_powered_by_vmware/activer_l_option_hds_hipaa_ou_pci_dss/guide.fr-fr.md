@@ -85,5 +85,5 @@ Pour plus de détails, consultez [notre guide dédié au fonctionnement de l'int
 
 [Présentation de l’espace client Private Cloud OVHcloud](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/manager_ovh_private_cloud)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
 

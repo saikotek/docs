@@ -142,4 +142,4 @@ Vous pouvez maintenant vous connecter en tant qu'« Administrator » avec ce nou
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

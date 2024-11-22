@@ -172,4 +172,4 @@ Si votre source se trouve sur des hôtes AMD, mettez-les hors tension et utilise
 
 ## Aller plus loin
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

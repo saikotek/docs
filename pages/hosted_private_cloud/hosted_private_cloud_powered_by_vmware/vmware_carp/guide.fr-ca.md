@@ -122,4 +122,4 @@ En pratique, il suffit de faire un clic droit sur le portgroup concerné, puis d
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

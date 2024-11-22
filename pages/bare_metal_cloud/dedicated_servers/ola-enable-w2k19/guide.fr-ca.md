@@ -72,4 +72,4 @@ Pour vérifier que votre équipe NIC fonctionne, effectuez un ping vers un autre
 
 [Comment configurer votre NIC pour l’agrégation de liens OVHcloud dans SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
