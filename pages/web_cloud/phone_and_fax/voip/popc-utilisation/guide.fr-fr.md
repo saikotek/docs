@@ -175,4 +175,4 @@ Validez les modifications en cliquant sur `Sauvegarder`{.action}. Le logiciel va
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -178,4 +178,4 @@ Jeśli potrzebujesz pomocy odnośnie którejś z funkcji, skorzystaj z [naszej d
 
 [Zarządzanie płatnościami za Twoje konta Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>
+Dołącz do [grona naszych użytkowników](/links/community).

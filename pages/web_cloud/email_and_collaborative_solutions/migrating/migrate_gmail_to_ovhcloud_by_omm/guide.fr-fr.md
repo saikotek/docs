@@ -160,4 +160,4 @@ La fenêtre de suivi de migration s'affiche, vous pouvez laisser celle-ci ouvert
 
 [Comment autoriser les connexions moins sécurisées sur Gmail](/pages/web_cloud/email_and_collaborative_solutions/migrating/security_gmail).
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
+Échangez avec notre [communauté d'utilisateurs](/links/community).

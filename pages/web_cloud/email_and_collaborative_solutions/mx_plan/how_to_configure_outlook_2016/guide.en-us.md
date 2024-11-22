@@ -177,4 +177,4 @@ To understand the difference between POP and IMAP, we will detail the elements t
 
 [Configuring your Exchange account in Outlook for Windows](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_outlook_2016)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

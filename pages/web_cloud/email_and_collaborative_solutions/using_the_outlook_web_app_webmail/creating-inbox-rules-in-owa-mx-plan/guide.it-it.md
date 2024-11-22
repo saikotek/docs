@@ -99,4 +99,4 @@ Ricordati che non è possibile segnalare i falsi positivi direttamente da Outloo
 
 [Utilizzare un account di posta da “Outlook on the web”](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

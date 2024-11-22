@@ -84,4 +84,4 @@ Kliknięcie kalendarza na liście powoduje jego dodanie do przeglądu widocznego
 
 [Tworzenie grup kontaktów](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Dołącz do naszej społeczności użytkowników: <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

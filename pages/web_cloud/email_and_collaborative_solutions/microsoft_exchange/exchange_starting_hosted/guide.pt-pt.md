@@ -178,4 +178,4 @@ Para obter ajuda numa das funcionalidades, consulte a [nossa documentação](/pr
 
 [Gerir a faturação das suas contas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

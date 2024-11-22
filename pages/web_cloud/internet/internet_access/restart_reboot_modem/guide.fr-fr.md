@@ -215,4 +215,4 @@ Débranchez tous les câbles de type RJ45 (les ports jaunes sur la photo ci-dess
 La box va redémarrer plusieurs fois avant d'être pleinement opérationnelle. Ce processus devrait durer au total une quinzaine de minutes.
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -99,4 +99,4 @@ Composez alors un numéro abrégé que vous souhaitez contacter depuis l'une de 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -95,4 +95,4 @@ Accedi al tuo account Exchange tramite la [Webmail OVHcloud](/links/web/email) C
 
 [Condividere calendari in OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Partecipa alla nostra community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

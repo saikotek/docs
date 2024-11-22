@@ -80,4 +80,4 @@ Można dodać kilka identyfikatorów OVHcloud, aby zarządzać każdym adresem e
 
 [Pierwsze kroki z usługą MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

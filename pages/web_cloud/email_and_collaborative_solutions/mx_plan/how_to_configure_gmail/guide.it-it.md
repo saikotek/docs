@@ -103,4 +103,4 @@ Ti ricordiamo che per accedere all’account OVHcloud è sempre possibile utiliz
 >
 > Per maggiori informazioni sulla configurazione di un indirizzo email dall’interfaccia Gmail online, consulta [il centro assistenza di Google](https://support.google.com/mail/answer/21289?hl=it&co=GENIE.Platform%3DDesktop).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

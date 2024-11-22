@@ -153,4 +153,4 @@ Para consultar el estado de su proyecto de migración, conéctese a la página <
 
 ## Más información
   
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

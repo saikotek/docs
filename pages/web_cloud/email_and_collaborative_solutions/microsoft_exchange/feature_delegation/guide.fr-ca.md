@@ -133,4 +133,4 @@ Il ne vous reste plus qu'à rédiger votre message et à l'envoyer.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

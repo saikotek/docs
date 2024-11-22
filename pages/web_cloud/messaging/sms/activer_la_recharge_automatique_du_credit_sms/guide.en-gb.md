@@ -90,4 +90,4 @@ Click `Send`{.action} to execute the transfer. This one is immediate.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

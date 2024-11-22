@@ -417,4 +417,4 @@ Jak wskazano w wiadomości, Twoje konto e-mail jest uważane za już zalogowane.
 
 [Korzystanie z przekierowań e-mail](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
 
-Dołącz do społeczności naszych użytkowników na stronie<https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

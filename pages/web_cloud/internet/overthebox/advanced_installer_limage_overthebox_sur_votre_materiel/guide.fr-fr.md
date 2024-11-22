@@ -251,5 +251,5 @@ Retirez maintenant votre « live usb » et redémarrez votre matériel.
 
 ## Aller plus loin
 
-- N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)
+- Échangez avec notre [communauté d'utilisateurs](/links/community).
 - Consultez la [FAQ OverTheBox](/pages/web_cloud/internet/overthebox/install_faq)

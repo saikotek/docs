@@ -84,4 +84,4 @@ Se clicar num calendário da lista, pode exibi-los ou ocultá-los. Através do c
 
 [Utilização de grupos de difusão (mailing list)](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

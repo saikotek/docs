@@ -47,5 +47,5 @@ Vous devez taper le code correspondant sur votre téléphone, établir la commun
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
 

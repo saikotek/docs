@@ -162,4 +162,4 @@ Une fois ces vérifications effectuées, vous pouvez débloquer le groupe en [au
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

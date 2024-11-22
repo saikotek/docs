@@ -228,4 +228,4 @@ Wenn Sie nur die Informationen zur Konfiguration Ihres E-Mail-Accounts benötige
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

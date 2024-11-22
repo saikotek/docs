@@ -99,4 +99,4 @@ The number of users you can add is limited by the available user licences.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

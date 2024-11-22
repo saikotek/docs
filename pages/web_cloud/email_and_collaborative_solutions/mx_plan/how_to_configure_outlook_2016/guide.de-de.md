@@ -185,4 +185,4 @@ Um den Unterschied zwischen der Verwendung des POP- und IMAP-Protokolls zu verst
 
 [Konfiguration von Exchange auf Outlook für Windows](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_outlook_2016)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

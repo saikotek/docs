@@ -60,4 +60,4 @@ Dans le cas contraire, nous vous invitons à vous rapprocher de l’éditeur du 
 
 [En apprendre plus sur la sécurité des mots de passe grâce à l'ANSSI](http://www.ssi.gouv.fr/guide/mot-de-passe/){.external}.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -413,4 +413,4 @@ As you will see in the email, your account will be considered as already logged 
 
 [Using email redirections](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

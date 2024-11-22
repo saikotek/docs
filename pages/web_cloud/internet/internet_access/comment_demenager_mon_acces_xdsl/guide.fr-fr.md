@@ -138,4 +138,4 @@ C'est pourquoi, pendant une période, vous disposerez d'un accès à Internet fo
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

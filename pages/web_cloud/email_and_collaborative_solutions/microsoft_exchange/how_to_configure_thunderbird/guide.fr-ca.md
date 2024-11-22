@@ -92,4 +92,4 @@ Si votre compte e-mail est déjà paramétré et que vous devez accéder aux par
 >
 > Pour plus d'informations sur la configuration d'une adresse e-mail depuis l'application Thunderbird sur Windows, consultez [le centre d'aide Mozilla](https://support.mozilla.org/fr/kb/configurer-un-compte-manuellement#thunderbird:win10:tb115).
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

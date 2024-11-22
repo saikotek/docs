@@ -150,4 +150,4 @@ while (1)
 - [Projet communautaire](/pages/web_cloud/phone_and_fax/voip/projet_communautaire_cti){.external}
 - [Intégration CTI de la téléphonie OVH aux CRM et ERP](/pages/web_cloud/phone_and_fax/voip/cti_crm_erp_sugarcrm){external}
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

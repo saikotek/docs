@@ -94,4 +94,4 @@ Zaloguj się na konto Exchange przy użyciu interfejsu [OVHcloud webmail](/links
 
 [Exchange: współdzielenie kalendarza w interfejsie OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Dołącz do naszej społeczności użytkowników: <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

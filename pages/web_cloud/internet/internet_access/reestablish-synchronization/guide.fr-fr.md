@@ -130,4 +130,4 @@ Le dernier test possible consiste à réinitialiser votre modem. Si besoin, repo
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

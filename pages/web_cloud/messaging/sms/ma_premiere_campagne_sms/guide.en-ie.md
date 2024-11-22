@@ -81,4 +81,4 @@ You just need to click the `Send`{.action} button to send or schedule your campa
 
 See [our guide on managing your SMS history](/pages/web_cloud/messaging/sms/gerer_l_historique_des_sms).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

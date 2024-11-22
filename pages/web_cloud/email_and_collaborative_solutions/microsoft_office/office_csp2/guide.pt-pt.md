@@ -102,4 +102,4 @@ Para se conectar, deve introduzir o seu ID de utilizador bem como a palavra-pass
 
 ## Saiba mais
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

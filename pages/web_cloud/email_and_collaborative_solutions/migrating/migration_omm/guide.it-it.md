@@ -153,4 +153,4 @@ Accedi alla pagina <https://omm.ovh.net/> del tuo progetto di migrazione, nella 
 
 ## Per saperne di più
   
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

@@ -416,4 +416,4 @@ Como verá en el correo electrónico, su cuenta se considerará como que ya ha i
 
 [Utilizar las redirecciones de correo](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

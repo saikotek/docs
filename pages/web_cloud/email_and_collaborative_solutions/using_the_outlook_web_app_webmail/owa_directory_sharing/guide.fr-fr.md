@@ -94,4 +94,4 @@ Connectez-vous à votre compte Exchange via le [webmail OVHcloud](/links/web/ema
 
 [Partager un calendrier depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

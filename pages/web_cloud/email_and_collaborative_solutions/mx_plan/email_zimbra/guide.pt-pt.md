@@ -602,4 +602,4 @@ A opção predefinida `Ativar resposta automática durante estas datas (inclusiv
 
 [Utilizar os reencaminhamentos de e-mail](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com>.
+Fale com nossa [comunidade de utilizadores](/links/community).

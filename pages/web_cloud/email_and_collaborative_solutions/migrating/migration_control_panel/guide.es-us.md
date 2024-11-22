@@ -177,4 +177,4 @@ También puede migrar manualmente sus direcciones de correo a su nueva solución
 
 [Guías Exchange](/products/web-cloud-email-collaborative-solutions-mx-plan).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

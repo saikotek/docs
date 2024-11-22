@@ -161,4 +161,4 @@ Użycie znaków niewymienionych w tych tabelach spowoduje przejście na kodowani
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>
+Dołącz do [grona naszych użytkowników](/links/community).

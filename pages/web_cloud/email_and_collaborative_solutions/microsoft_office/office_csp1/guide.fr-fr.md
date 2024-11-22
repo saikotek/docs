@@ -102,4 +102,4 @@ Précisez les raisons de votre demande de résiliation puis cliquez sur `Valider
 
 [Utiliser le bureau à distance avec Microsoft 365 apps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

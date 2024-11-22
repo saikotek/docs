@@ -108,4 +108,4 @@ Indica i motivi della richiesta di disattivazione e clicca su `Conferma`{.action
 
 [Utilizza il desktop remoto con Microsoft 365 aps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

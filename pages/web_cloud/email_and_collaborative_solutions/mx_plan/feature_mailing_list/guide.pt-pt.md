@@ -249,4 +249,4 @@ Pode encontrar, em seguida, uma lista dos ficheiros com os textos de resposta e 
 
 ## Saiba mais
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

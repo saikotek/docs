@@ -170,4 +170,4 @@ This shared model can help relieve the customer’s operational burden.
 
 [All our Microsoft collaborative solutions documentation](/products/web-cloud-email-collaborative-solutions-microsoft-exchange)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

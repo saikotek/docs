@@ -189,4 +189,4 @@ Vous pouvez également migrer manuellement vos adresses e-mail vers votre nouvel
 
 [Guides Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange).
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
+Échangez avec notre [communauté d'utilisateurs](/links/community).

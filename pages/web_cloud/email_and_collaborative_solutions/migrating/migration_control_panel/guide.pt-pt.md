@@ -186,4 +186,4 @@ Também pode migrar manualmente os seus endereços de e-mail para a nova oferta 
 
 [Guias Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange).
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

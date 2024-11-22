@@ -70,4 +70,4 @@ Pour supprimer une alerte préalablement activée, cliquez sur l'icône prévue 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

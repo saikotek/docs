@@ -94,5 +94,5 @@ Kliknij polecenie `Wyślij`{.action}, aby zatwierdzić przeniesienie. Jest on na
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).
 

@@ -153,4 +153,4 @@ Para aceder de novo ao seguimento do seu projeto de migração, aceda à página
 
 ## Quer saber mais?
  
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

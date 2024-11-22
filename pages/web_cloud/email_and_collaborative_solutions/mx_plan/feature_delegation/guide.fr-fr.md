@@ -76,4 +76,4 @@ Il est possible d'ajouter plusieurs identifiants OVHcloud pour gérer chaque adr
 
 [Premiers pas avec l’offre MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

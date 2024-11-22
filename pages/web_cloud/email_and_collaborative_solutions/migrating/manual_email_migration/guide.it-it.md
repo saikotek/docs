@@ -236,4 +236,4 @@ Nella casella di ricezione e nella colonna di sinistra, troverai le cartelle e l
 
 [Migrare un account email con OVH Mail Migrator](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

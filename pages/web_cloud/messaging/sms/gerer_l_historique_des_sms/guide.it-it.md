@@ -82,4 +82,4 @@ Per maggiori dettagli sui codici ptt e sui diversi ID del DRL, consulta l’ulti
  
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

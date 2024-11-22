@@ -252,4 +252,4 @@ Une fois cette opération effectuée depuis un ordinateur, vous aurez la possibi
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

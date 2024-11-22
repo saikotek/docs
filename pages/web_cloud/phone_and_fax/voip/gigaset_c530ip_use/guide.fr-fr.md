@@ -79,4 +79,4 @@ Pour mettre fin à une communication, appuyez sur le bouton `Raccroché`{.action
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

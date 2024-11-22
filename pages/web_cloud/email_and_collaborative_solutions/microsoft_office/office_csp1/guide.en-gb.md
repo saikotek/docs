@@ -104,4 +104,4 @@ Specify the reasons for your termination request, then click `Confirm`{.action}.
 
 [Using Remote Desktop with Microsoft 365 apps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

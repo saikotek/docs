@@ -130,4 +130,4 @@ Si vous avez configuré l'un des comptes migrés sur un client de messagerie (ex
 
 [Guides Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange).
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
+Échangez avec notre [communauté d'utilisateurs](/links/community).

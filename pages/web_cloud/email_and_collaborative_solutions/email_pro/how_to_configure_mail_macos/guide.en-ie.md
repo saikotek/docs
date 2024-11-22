@@ -90,4 +90,4 @@ For **POP** configuration, the values are:
 >
 > For more information on configuring an email address from the Mail app on macOS, see [the Apple Help Center](https://support.apple.com/en-gb/guide/mail/mail35803/mac).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

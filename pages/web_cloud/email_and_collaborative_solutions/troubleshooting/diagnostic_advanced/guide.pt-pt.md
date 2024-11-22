@@ -136,4 +136,4 @@ Encontrará abaixo a maioria dos códigos de respostas negativas SMTP utilizados
 
 [FAQ E-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

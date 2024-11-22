@@ -160,4 +160,4 @@ Vous retrouverez dans le tableau ci-dessous une liste **non-exhaustive** des cod
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).
