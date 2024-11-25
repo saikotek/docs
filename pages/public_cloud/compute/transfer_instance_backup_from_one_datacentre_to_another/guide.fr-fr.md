@@ -1,7 +1,7 @@
 ---
 title: "Télécharger et transférer la sauvegarde d'une instance d'une région OpenStack à une autre"
 excerpt: "Découvrez comment télécharger et transférer une sauvegarde d'instance d'une région OpenStack à une autre tout en préservant la configuration et l'état de l'instance"
-updated: 2023-09-25
+updated: 2024-11-25
 ---
 
 ## Objectif
@@ -103,10 +103,10 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 
 > [!warning]
 >
-> Si votre instance utilise une image Windows, vous devez ajouter des propriétés spécifiques. Sans cela, lors de la création de l’instance via le manager, il ne sera pas possible d’associer une flavor de type win-x-x. Ce type de flavor, et uniquement celui-là, permet l’authentification auprès du [KMS OVH](https://help.ovhcloud.com/csm/fr-dedicated-servers-windows-key?id=kb_article_view&sysparm_article=KB0044098).
+> Si votre instance utilise une image Windows, vous devez ajouter des propriétés spécifiques. Sans cela, lors de la création de l’instance via l'espace client OVHcloud, il ne sera pas possible d’associer une flavor de type win-x-x. Ce type de flavor, et uniquement celui-là, permet l’authentification auprès du [KMS OVHcloud](/pages/bare_metal_cloud/dedicated_servers/windows_key).
 >
 
-Ajout des propriétés spécifiques à la création de l'image:
+Ajout des propriétés spécifiques à la création de l'image :
 
 ```bash
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
@@ -148,7 +148,7 @@ $ openstack image set --property "_system_cloud_property=windows" --property "di
 
 > [!warning]
 >
-> Si votre instance est un serveur Windows, vous devez sélectionner une flavor de type win-xx-xx (par exemple, win-b2-15) et disposer d’une interface publique sur le réseau Ext-Net. Sans ces conditions, l’authentification auprès du KMS d’OVH ne sera pas possible, et votre serveur restera avec une [licence non activée](https://help.ovhcloud.com/csm/fr-public-cloud-compute-activate-windows-licence-private-mode-instance?id=kb_article_view&sysparm_article=KB0056165). Cela pourrait entraîner des limitations, notamment l’absence de mises à jour. À noter qu’il est impossible de redimensionner une instance Linux (par exemple b2-15) en une instance Windows (comme win-b2-15). Pour effectuer cette transition, il est nécessaire de recréer une nouvelle instance.
+> Si votre instance est un serveur Windows, vous devez sélectionner une flavor de type win-xx-xx (par exemple, win-b2-15) et disposer d’une interface publique sur le réseau Ext-Net. Sans ces conditions, l’authentification auprès du KMS OVHcloud ne sera pas possible, et votre serveur restera avec une [licence non activée](/pages/public_cloud/compute/activate-windows-license-private-mode). Cela pourrait entraîner des limitations, notamment l’absence de mises à jour. À noter qu’il est impossible de redimensionner une instance Linux (par exemple b2-15) en une instance Windows (comme win-b2-15). Pour effectuer cette transition, il est nécessaire de recréer une nouvelle instance.
 >
 
 Pour créer une instance à partir de votre sauvegarde, utilisez l'ID de sauvegarde comme image avec cette commande :

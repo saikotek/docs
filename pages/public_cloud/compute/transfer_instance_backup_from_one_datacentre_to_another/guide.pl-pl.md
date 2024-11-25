@@ -1,7 +1,7 @@
 ---
 title: "Pobieranie i przesyłanie kopii zapasowej instancji z jednego regionu OpenStack do innego"
 excerpt: "Dowiedz się, jak pobrać i przesłać kopię zapasową instancji z jednego regionu OpenStack do innego, zachowując jednocześnie stan i konfigurację instancji"
-updated: 2023-09-25
+updated: 2024-11-25
 ---
 
 > [!primary]

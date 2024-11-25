@@ -1,7 +1,7 @@
 ---
 title: Descargar y transferir la copia de seguridad de una instancia de una región de OpenStack a otra
 excerpt: Cómo descargar y transferir una copia de seguridad de una instancia de una región de OpenStack a otra conservando la configuración y el estado de la instancia
-updated: 2023-09-25
+updated: 2024-11-25
 ---
 
 > [!primary]
