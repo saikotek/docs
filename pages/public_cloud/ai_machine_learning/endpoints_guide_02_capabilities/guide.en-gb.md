@@ -30,7 +30,7 @@ This page provides the technical features, capabilities and limitations of [AI E
 | Data Privacy and Sovereignty | OVHcloud prioritizes data privacy and sovereignty, ensuring that AI models accessed via AI Endpoints are fully compliant with strict European regulations. Our infrastructure, located in Gravelines, France, adheres to European data protection regulations. Data is not stored or shared during or after model use, providing users with peace of mind that their data is secure and protected.                                                                          |
 | Access with Personalized Tokens | To ensure secure and authenticated access to model APIs, users need to provide a token for each request. Access tokens can easily be created through the [OVHcloud Control Panel](/links/manager), providing the flexibility to manage multiple tokens for various projects or teams. Additionally, each token comes with adjustable validity periods, allowing users to tailor their access to specific needs. |
 Easy billing | You pay only for what you consume, with billing based on each request. The specific billing model used will depend on the service you choose (such as audio duration or token consumption for example). 
-|
+
 
 ### Planned features
 
