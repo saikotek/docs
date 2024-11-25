@@ -56,6 +56,8 @@ Per verificare in tempo reale i log della soluzione Web Cloud Databases, esegui 
 4. Seleziona l’istanza Web Cloud Databases interessata.
 5. Clicca sulla scheda `Log`{.action}.
 
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/tab.png){.thumbnail}
+
 È in questa console integrata che trovi in tempo reale i log della tua soluzione Web Cloud Databases.
 
 > [!primary]
@@ -138,7 +140,11 @@ Per iscrivere la tua soluzione Web Cloud Databases a un flusso di dati su Logs D
 5. Clicca sulla scheda `Log`{.action}.
 6. A destra del riquadro in cui vengono visualizzati i log in tempo reale, clicca sul pulsante `Abbonati`{.action}.
 
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/tab-subscribe.png){.thumbnail}
+
 Nella nuova pagina che si apre e se disponi di più soluzioni Logs Data Platform nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona, nel menu a tendina situato immediatamente sotto il pulsante intitolato `Aggiungere un flusso di dati`, il riferimento della Logs Data Platform con cui vuoi effettuare la sottoscrizione.
+
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/data-stream.png){.thumbnail}
 
 In questo caso, sottoscrivi la tua soluzione Web Cloud Databases.
 

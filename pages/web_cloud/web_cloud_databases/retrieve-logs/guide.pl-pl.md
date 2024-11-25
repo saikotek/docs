@@ -56,6 +56,8 @@ Aby w czasie rzeczywistym sprawdzać logi rozwiązania Web Cloud Databases, wyko
 4. Wybierz odpowiednią instancję Web Cloud Databases.
 5. Na stronie, która się wyświetli kliknij zakładkę `Logi`{.action}.
 
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/tab.png){.thumbnail}
+
 To na tej wbudowanej konsoli znajdują się, w czasie rzeczywistym, logi rozwiązania Web Cloud Databases.
 
 > [!primary]
@@ -138,7 +140,11 @@ Aby subskrybować rozwiązanie Web Cloud Databases ze strumieniem danych Logs Da
 5. Na stronie, która się wyświetli kliknij zakładkę `Logi`{.action}.
 6. Po prawej stronie ramki, w której wyświetlają się logi w czasie rzeczywistym, kliknij przycisk `Subskrybuj`{.action}.
 
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/tab-subscribe.png){.thumbnail}
+
 Na nowo otwartej stronie, jeśli dysponujesz kilkoma rozwiązaniami Logs Data Platform w [Panelu klienta OVHcloud](/links/manager), z rozwijanej listy znajdującej się tuż pod przyciskiem `Dodaj strumień danych` wybierz Logs Data Platform, którą chcesz subskrybować.
+
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/data-stream.png){.thumbnail}
 
 Aby zasubskrybować rozwiązanie Web Cloud Databases, pojawiają się dwa scenariusze.
 
