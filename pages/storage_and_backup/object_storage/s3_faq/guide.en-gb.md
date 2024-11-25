@@ -82,16 +82,16 @@ At the end of the month of October, you will have the following GigaByte-Hours :
 
 This usage volume will cross two different volume tiers (through the staircase pricing policy described before). The monthly storage cost will be calculated as below:
 
-- First volume tier from **0 GB-Hours to (50 * 1024 * 730 = 37 376 000 GB-Hours)**, pricing for this tier : 0.00001873 / GB-Hour (about 14 EUR/TB/month).
-- Second volume tier from **37 376 001 GB-Hours to (500 * 1024 * 730 = 373 760 000 GB-Hours)**, pricing for this tier : 0.00001672 / GB-Hour (about 12.5 EUR/TB/month).
+- First volume tier from **0 GB-Hours to (50 * 1024 * 730 = 37 376 000 GB-Hours)**, pricing for this tier : 0.00001917 / GB-Hour (about 14 EUR/TB/month).
+- Second volume tier from **37 376 001 GB-Hours to (500 * 1024 * 730 = 373 760 000 GB-Hours)**, pricing for this tier : 0.00001712 / GB-Hour (about 12.5 EUR/TB/month).
 
-The monthly storage cost will be: 37 376 000 * 0.00001873 + (51 633 600 - 37 376 000) * 0.00001672 = 700.05248 + 238.387072 = **938.44 EUR**
+The monthly storage cost will be: 37 376 000 * 0.00001917 + (51 633 600 - 37 376 000) * 0.00001712 = 716.49792 + 244.090112 = **960.59 EUR**
 
 The next month, in November, data volume won't change, the monthly storage cost will be calculated as below:
 
 **November GB-Hour**: 100 * 1024 * 720 = **73 728 000 GB-Hours** (there are 720 hours in November).
 
-The monthly storage cost will be: 37 376 000 * 0.00001873 + (73 728 000 - 37 376 000) * 0.00001672 = 700.05248 + 607.80544 = **1307.86 EUR**
+The monthly storage cost will be: 37 376 000 * 0.00001917 + (73 728 000 - 37 376 000) * 0.00001712 = 716.49792 + 622,34624 = **1338,84 EUR**
 
 ## Access & Security
 
