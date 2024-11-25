@@ -4,12 +4,6 @@ excerpt: "Découvrez comment nous gérons la sécurité du KMS OVHcloud"
 updated: 2024-06-06
 ---
 
-> [!warning]
->
-> OVHcloud KMS sera bientôt disponible en bêta. Ce guide peut être incomplet et sera mis à jour lors de la bêta.
-> N’hésitez pas à nous faire part de vos feedbacks sur le canal Discord dédié : <https://discord.gg/ovhcloud>.
->
-
 ## Objectif
 
 Ce guide explique comment nous gérons la résilience du service de gestion de clés KMS (*Key Management Service*) OVHcloud.
