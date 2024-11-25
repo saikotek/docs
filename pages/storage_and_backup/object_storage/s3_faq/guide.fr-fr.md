@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ
 excerpt: "FAQ sur la solution Object Storage"
-updated: 2024-10-30
+updated: 2024-11-25
 ---
 
 ## Questions générales
@@ -52,9 +52,42 @@ La majorité des outils du marché compatibles avec du stockage S3 standard sont
 
 Oui, l'Object Storage S3 est largement compatible avec les API S3 et peut être intégré avec les outils du marché comme par exemple [Veeam](/pages/storage_and_backup/object_storage/s3_veeam), [Owncloud](/pages/storage_and_backup/object_storage/s3_owncloud), [Nextcloud](/pages/storage_and_backup/object_storage/s3_nextcloud).
 
+## Facturation
+
 ### Comment est facturé le service ?
 
-L'Object Storage est facturé en fonction de l'espace de stockage utilisé, avec une granularité de 1 Go. Pour assurer sa lisibilité, le prix est affiché au Go/mois, mais la granularité de la facturation est au Go/heure, en considérant qu’en moyenne il y a 720 heures dans un mois. Consultez la tarification sur [cette page](https://www.ovhcloud.com/fr/public-cloud/prices/).
+L'Object Storage est facturé en fonction de l'espace de stockage utilisé, avec une granularité de 1 Go. Pour assurer sa lisibilité, le prix est affiché au Go/mois, mais la granularité de la facturation est au Go/heure. Consultez la tarification sur [cette page](/links/public-cloud/prices).
+
+### Exemple de tarification pour Object Storage – 1-AZ
+
+Supposons que vous stockiez au sein d'un **bucket Object Storage** dans une région 1-AZ, **100 Gio** de données S3 Standard pendant les **10 premiers jours** du mois d'octobre, et **100 Tio** (102 400 Go) de données S3 Standard pendant les **21 derniers jours** du mois. On imagine donc dans ce cas une évolution du stockage au sein de ce bucket au cours du mois.
+
+Une fois le mois d'octobre terminé, vous obtiendriez en Gigaoctet-heure : **Gigaoctet-heure total** = [100 Go x 10 jours x (24 heures/jour)] + [102 400 Go x 21 jours x (24 heures/jour)] = 24 000 + 51 609 600 = **51 633 600 Go-heures**.
+
+Le coût de stockage mensuel (au prix de 0,00000972 EUR / Go-heure) est : 51 633 600 Go-heures * 0,00000972= **501.88 EUR**
+
+Sur le mois de novembre, la volumétrie n'évolue plus, le coût de stockage mensuel est calculé comme suit : **Go-heure du mois de novembre** = 100 * 1024 * 720 = **73 728 000 Go-heure** (il y a 720 heures en novembre).
+
+Soit le coût du stockage mensuel (au prix de 0,00000972 EUR / Go-heure) : 73 728 000 * 0,00000972 = **716.63 EUR**.
+
+### Exemple de tarification pour un Object Storage – 3-AZ (tarification par paliers)
+
+Dans une région 3-AZ, la tarification du stockage se fait par paliers, ou tranches de volumes de stockage. Consultez ces tarifs sur [cette page](/links/public-cloud/prices).
+
+Supposons que vous stockiez au sein d'un bucket **Object Storage - S3 Standard** dans une région 3-AZ, **100 Gio** de données pendant les **10 premiers jours** du mois d'octobre, et **100 Tio** (102 400 Go) de données pendant les **21 derniers jours** du mois. On imagine donc dans ce cas une évolution du stockage au sein de ce bucket au cours du mois.
+
+Une fois le mois d'octobre terminé, vous obtiendriez en Gigaoctet-heure : **Gigaoctet-heure total** = [100 Go x 10 jours x (24 heures/jour)] + [102 400 Go x 21 jours x (24 heures/jour)] = 24 000 + 51 609 600 = **51 633 600 Go-heures**
+
+Ce volume d'utilisation traverse deux paliers de tarifications différents. Le coût de stockage mensuel est calculé comme suit :
+
+- Premier palier de **0 Go-heures à (50 * 1024 * 730 = 37 376 000 Go-heures)**, prix appliqué : 0.00001917 / Go-heure (ou env. 14 EUR/To/mois).
+- Deuxième palier de **37 376 001 Go-heures à (500 * 1024 * 730 = 373 760 000 Go-heures)**, prix appliqué : 0.00001712 / Go-heure ou (ou env. 12,5 EUR/To/mois).
+
+Le coût de stockage mensuel est : 37 376 000 * 0.00001917 + (51 633 600 - 37 376 000) * 0.00001712 = 716.49792 + 244.090112 = **960.59 EUR**
+
+Sur le mois de novembre, la volumétrie n'évolue plus, le coût de stockage mensuel est calculé comme suit : **Go-heure du mois de novembre** = 100 * 1024 * 720 = **73 728 000 Go-heure** (il y a 720 heures en novembre)
+
+Soit le coût du stockage mensuel : 37 376 000 * 0.00001917 + (73 728 000 - 37 376 000) * 0.00001712 = 716.49792 + 622,34624 = **1338,84 EUR**
 
 ## Accès & sécurité
 
@@ -82,11 +115,14 @@ Il n'est pas encore possible de configurer des droits d'accès par bucket.
 
 ### Est-ce que je peux chiffrer mes données ?
 
-L'utilisation du chiffrement côté serveur avec des clés de chiffrement fournies par le client (SSE-C) vous permet de définir vos propres clés de chiffrement.
+Vous pouvez chiffrer vos données via deux méthodes:
+
+- **SSE-C (Server-Side Encryption with Customer Keys)** : vous pouvez fournir et gérer vos propres clés de chiffrement, vous offrant ainsi une maîtrise complète sur la sécurité de vos données. Cette option est particulièrement adaptée aux organisations ayant des besoins spécifiques en matière de conformité et de sécurité des données, puisqu'elle permet une gestion exclusive des clés de chiffrement.
+- **SSE-S3 (Server-Side Encryption with OVHcloud-Managed Keys)** : simplifie le processus de chiffrement en utilisant des clés gérées par OVHcloud. Cette méthode est idéale pour les clients qui souhaitent bénéficier d'une solution de chiffrement robuste sans les complexités liées à la gestion des clés.
 
 Lorsque vous chargez un objet, S3 Object Storage utilise la clé de chiffrement que vous fournissez pour appliquer le chiffrement AES-256 à vos données. Lorsque vous récupérez un objet, vous devez fournir la même clé de chiffrement dans le cadre de votre demande. S3 Object Storage vérifie d'abord que la clé de chiffrement que vous avez fournie correspond, puis déchiffre l'objet avant de vous renvoyer les données de l'objet.
 
-Retrouvez plus d'informations dans notre guide « [Chiffrez vos objets côté serveur avec SSE-C](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c) ».
+Retrouvez plus d'informations dans notre guide « [Chiffrez vos objets côté serveur avec SSE-C ou SSE-S3](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c) ».
 
 ### Comment protéger mes sauvegardes ?
 
