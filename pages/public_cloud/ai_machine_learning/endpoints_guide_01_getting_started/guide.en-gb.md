@@ -85,7 +85,7 @@ AI Endpoints offers a variety of world-renowned AI models to choose from, includ
 - **Translation**: Translate text using NVIDIA Neural Machine Translation or T5 large.
 - **Image Generation**: Generate images using Stable Diffusion XL.
 
-*Additional models will be added in the coming months, including multimodal models and object detection models.*
+*Additional models will be added in the coming months, including multimodal models and object segmentation models.*
 
 Once you have selected the category of model you want to use, you will be presented with a list of models to choose from.
 
