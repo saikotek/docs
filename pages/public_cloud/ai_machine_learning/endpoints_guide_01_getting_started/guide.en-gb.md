@@ -158,9 +158,7 @@ Once done, you can confirm its deletion by trying to send a request using your r
 
 AI Endpoints remains **free** during its beta phase.
 
-However, in the interest of transparency towards our customers, you you can monitor your estimated consumption and resource usage via the [OVHcloud Control Panel](/links/manager), in the `AI Endpoints`{.action} section of the `AI & Machine Learning` category, in the left-hand vertical menu.
-
-This will give you an idea of your potential charges, once the billing system is enabled (future General Availability (GA) phase).
+In the interest of transparency towards our customers, you will soon be able to monitor your estimated consumption and resource usage via the [OVHcloud Control Panel](/links/manager), in the `AI Endpoints`{.action} section of the `AI & Machine Learning` category, in the left-hand vertical menu.
 
 ## Going further
 
