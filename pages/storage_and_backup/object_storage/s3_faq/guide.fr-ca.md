@@ -80,14 +80,14 @@ Une fois le mois d'octobre terminé, vous obtiendriez en Gigaoctet-heure : **Gig
 
 Ce volume d'utilisation traverse deux paliers de tarifications différents. Le coût de stockage mensuel est calculé comme suit :
 
-- Premier palier de **0 Go-heures à (50 * 1024 * 730 = 37 376 000 Go-heures)**, prix appliqué : 0.00001873 / Go-heure (ou env. 14 EUR/To/mois).
-- Deuxième palier de **37 376 001 Go-heures à (500 * 1024 * 730 = 373 760 000 Go-heures)**, prix appliqué : 0.00001672 / Go-heure ou (ou env. 12,5 EUR/To/mois).
+- Premier palier de **0 Go-heures à (50 * 1024 * 730 = 37 376 000 Go-heures)**, prix appliqué : 0.00001917 / Go-heure (ou env. 14 EUR/To/mois).
+- Deuxième palier de **37 376 001 Go-heures à (500 * 1024 * 730 = 373 760 000 Go-heures)**, prix appliqué : 0.00001712 / Go-heure ou (ou env. 12,5 EUR/To/mois).
 
-Le coût de stockage mensuel est : 37 376 000 * 0.00001873 + (51 633 600 - 37 376 000) * 0.00001672 = 700.05248 + 238.387072 = 938.44 EUR
+Le coût de stockage mensuel est : 37 376 000 * 0.00001917 + (51 633 600 - 37 376 000) * 0.00001712 = 716.49792 + 244.090112 = **960.59 EUR**
 
 Sur le mois de novembre, la volumétrie n'évolue plus, le coût de stockage mensuel est calculé comme suit : **Go-heure du mois de novembre** = 100 * 1024 * 720 = **73 728 000 Go-heure** (il y a 720 heures en novembre)
 
-Soit le coût du stockage mensuel : 37 376 000 * 0.00001873 + (73 728 000 - 37 376 000) * 0.00001672 = 700.05248 + 607.80544 = **1307.86 EUR**
+Soit le coût du stockage mensuel : 37 376 000 * 0.00001917 + (73 728 000 - 37 376 000) * 0.00001712 = 716.49792 + 622,34624 = **1338,84 EUR**
 
 ## Accès & sécurité
 
