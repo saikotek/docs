@@ -1,7 +1,7 @@
 ---
 title: "Using OVHcloud Key Management Service (KMS)"
 excerpt: "Encrypt or sign your data with the OVHcloud Key Management Service (KMS)"
-updated: 2024-11-19
+updated: 2024-11-25
 ---
 
 ## Objective
