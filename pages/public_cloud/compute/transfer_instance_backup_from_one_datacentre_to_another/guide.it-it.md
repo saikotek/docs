@@ -1,7 +1,7 @@
 ---
 title: "Scaricare e trasferire il backup di un’istanza da una Region OpenStack ad un’altra"
 excerpt: "Scopri come scaricare e trasferire un backup di istanza da una Region OpenStack ad un’altra preservando la configurazione e lo stato dell’istanza"
-updated: 2024-11-25
+updated: 2023-09-25
 ---
 
 > [!primary]

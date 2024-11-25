@@ -1,7 +1,7 @@
 ---
 title: "Descarregar e transferir a cópia de segurança de uma instância de uma região OpenStack para outra"
 excerpt: "Saiba como descarregar e transferir uma cópia de segurança de uma instância de uma região OpenStack para outra, mantendo a configuração e o estado da instância"
-updated: 2024-11-25
+updated: 2023-09-25
 ---
 
 > [!primary]

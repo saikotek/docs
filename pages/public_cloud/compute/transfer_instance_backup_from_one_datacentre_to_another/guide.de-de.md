@@ -1,7 +1,7 @@
 ---
 title: Backup einer Instanz herunterladen und in eine andere OpenStack-Region übertragen
 excerpt: Erfahren Sie hier, wie Sie ein Instanz-Backup herunterladen und von einer OpenStack-Region in eine andere verschieben und dabei die Konfiguration und den Zustand der Instanz beibehalten
-updated: 2024-11-25
+updated: 2023-09-25
 ---
 
 > [!primary]
