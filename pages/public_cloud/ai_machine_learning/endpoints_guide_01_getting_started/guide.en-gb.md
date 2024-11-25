@@ -31,19 +31,19 @@ It explains how to obtain an access token, access AI models, and interact with A
 
 ### Getting an access token
 
-Getting a token enables you to use the models available in our [catalog](https://endpoints.ai.cloud.ovh.net/catalog) and test their integration into your solutions. To obtain an access token, please follow the following steps:
+Getting a token enables you to use the models available in our [catalog](https://endpoints.ai.cloud.ovh.net/catalog) and test their integration into your solutions. To obtain an access token, please follow the steps below:
 
-**1) Visit the AI Endpoints access token page**
+**1\. Visit the AI Endpoints access token page**
 
 Click [here](https://endpoints.ai.cloud.ovh.net/) to access AI Endpoints. You can also find the product from the [OVHcloud Control Panel](/links/manager), in the `AI & Machine Learning` category, from the left-hand vertical menu.
 
-**2) Generate an access token**
+**2\. Generate an access token**
 
-Once on the site page, click on the `Get it`{.action} button. You will be asked to confirm that you accept the [terms of service](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/48743bf-AI_Endpoints-ALL-1.1.pdf) of the product.
+Once on the site page, click the `Get it`{.action} button. You will be asked to confirm that you accept the [terms of service](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/48743bf-AI_Endpoints-ALL-1.1.pdf) of the product.
 
 ![AI Endpoints token terms](images/getting_access_token.png){.thumbnail}
 
-**3) Scope created token to one of your Public Cloud Projects**
+**3\. Scope created token to one of your Public Cloud Projects**
 
 This will redirect you to the **Public Cloud**. If you haven't already done so, log in to your account, and confirm the following AI OVH OAUTH authorization:
 
@@ -51,13 +51,13 @@ This will redirect you to the **Public Cloud**. If you haven't already done so, 
 
 You will then need to choose the lifetime of your token, and also select one of the Public Cloud projects of your account to which you want to attach the token. If you don't have any projects created in your Public Cloud account, you will receive an error message telling you to create one, with a link to follow.
 
-Once the authorization process is completed, confirm the token creation by clicking the `Generate token`{.button} button.
+Once the authorization process is completed, confirm the token creation by clicking the `Generate token`{.action} button.
 
 *Note that this token can be [revoked](#revoke-your-token) at any time.*
 
 ![AI Endpoints scope token project](images/scope_access_token.png){.thumbnail}
 
-**4) Save created token**
+**4\. Save created token**
 
 This will redirect you to the AI Endpoints site, where you will find your new token in the token field. You will be reminded of the expiry date of your token, and you will be able to copy it.
 
@@ -91,7 +91,7 @@ Once you have selected the category of model you want to use, you will be presen
 
 For example, if you select the `Assistant` category, you will see a list of available assistant models.
 
-To access one of them, simply click on the name of the model you want to use. Let's take the `CodeLlama-13b-Instruct-hf` code assistant as our example.
+To access one of them, simply click the name of the model you want to use. Let's take the `CodeLlama-13b-Instruct-hf` code assistant as our example.
 
 This will take you to a dedicated page with several options for interacting with the chosen model, including the ability to view its specifications. Here is an overview of the available options:
 
@@ -110,13 +110,13 @@ This will take you to a dedicated page with several options for interacting with
 >>
 >> ![AI Endpoints documentation](images/documentation_demo.png){.thumbnail}
 >>
-> **Tutorials**:
+> **Tutorials**
 >>
 >> There, you will find blog articles related to AI Endpoints that you may find helpful in learning how to use the model more effectively. Whether you're building a chatbot with Langchain and JavaScript or creating a video translator app, we provide step-by-step guidance to support your AI projects.
 >>
 >> ![AI Endpoints tutorials](images/tutorials_demo.png){.thumbnail}
 >>
-> **API**:
+> **API**
 >>
 >> The API section provides access to POST routes that you can use to send a request to the model and receive an output.
 >>
@@ -124,9 +124,9 @@ This will take you to a dedicated page with several options for interacting with
 >>
 >> For Assistants (LLMs), two POST routes are available: `Chat Completions` and `Completions`. Here's an example of how to use the `Chat Completions` API:
 >>
->> Click the `Chat Completions`{.button} endpoint in the API section. Once there, select one of the available input schemas.
+>> Click the `Chat Completions`{.action} endpoint in the API section. Once there, select one of the available input schemas.
 >>
->> Here you can also find information on how to send a correct request to the model (existing parameters). Examples of usage are provided. You will also find there the output schema example. Click `Try it out`{.button} to prepare the request. There, you can modify the input schema if needed to customize the request you are sending. When you are ready, click `Execute`{.button} to send your modified request.
+>> Here you can also find information on how to send a correct request to the model (existing parameters). Examples of usage are provided. You will also find there the output schema example. Click `Try it out`{.action} to prepare the request. There, you can modify the input schema if needed to customize the request you are sending. When you are ready, click `Execute`{.action} to send your modified request.
 >>
 >> Upon executing the request, a cURL command will be displayed, representing the request you just sent. This can be useful for re-sending the command using a terminal. Additionally, the server's response body will also be provided, displaying the output of the model.
 >>
@@ -142,7 +142,7 @@ Set a shell variable with the token you want to revoke:
 TOKEN=<YOUR_TOKEN_HERE>
 ```
 
-Then, can use the following command to call the API Token revoke endpoint:
+Then you can use the following command to call the API Token revoke endpoint:
 
 ```bash
 curl -vvv 'https://kepler.ai.cloud.ovh.net/v1/oauth/ovh/revoke' -H 'Content-Type: application/json' -X POST --data "{\"oauth2Token\": \"${TOKEN}\"}"
