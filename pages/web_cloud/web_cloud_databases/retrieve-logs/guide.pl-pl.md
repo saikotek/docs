@@ -1,7 +1,7 @@
 ---
 title: 'Web Cloud Databases - Jak zarządzać logami?'
 excerpt: 'Dowiedz się, jak zarządzać logami baz danych hostowanych na serwerze Web Cloud Databases'
-updated: 2024-11-22
+updated: 2024-11-25
 ---
 
 ## Wprowadzenie
