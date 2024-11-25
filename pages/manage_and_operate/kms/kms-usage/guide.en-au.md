@@ -4,12 +4,6 @@ excerpt: "Encrypt or sign your data with the OVHcloud Key Management Service (KM
 updated: 2024-11-19
 ---
 
-> [!warning]
->
-> The OVHcloud KMS is currently in beta phase. This guide may be incomplete, and will be updated during the beta period.
-> Feel free to send us feedback on the dedicated Discord channel: <https://discord.gg/ovhcloud>.
->
-
 ## Objective
 
 The purpose of this guide is to show you the steps to interact with the OVHcloud KMS to encrypt or sign your data.

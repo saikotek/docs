@@ -4,12 +4,6 @@ excerpt: "Discover the steps you need to take to set up your first Key Managemen
 updated: 2024-11-18
 ---
 
-> [!warning]
->
-> The OVHcloud KMS is currently in beta phase. This guide may be incomplete, and will be updated during the beta period.
-> Feel free to send us feedback on the dedicated Discord channel: <https://discord.gg/ovhcloud>.
->
-
 ## Objective
 
 The purpose of this guide is to show you the steps you need to take to set up your first Key Management Service (KMS), create a key, and an access certificate.

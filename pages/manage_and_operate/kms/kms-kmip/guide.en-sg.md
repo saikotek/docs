@@ -4,12 +4,6 @@ excerpt: "How to communicate with the OVHcloud KMS using KMIP protocol"
 updated: 2024-10-23
 ---
 
-> [!warning]
->
-> The OVHcloud KMS is currently in beta phase. This guide may be incomplete, and will be updated during the beta period.
-> Feel free to send us feedback on the dedicated Discord channel: <https://discord.gg/ovhcloud>.
->
-
 ## Objective
 
 The purpose of this guide is to show you the usage of the KMIP protocol and the different operations and types supported by the OVHcloud KMS.
