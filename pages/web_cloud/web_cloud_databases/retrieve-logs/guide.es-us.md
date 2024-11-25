@@ -1,7 +1,7 @@
 ---
 title: 'Web Cloud Databases - ¿Cómo gestionar los logs?'
 excerpt: 'Descubra cómo gestionar los logs de las bases de datos alojadas en un servidor Web Cloud Databases'
-updated: 2024-11-22
+updated: 2024-11-25
 ---
 
 ## Objetivo
@@ -55,6 +55,8 @@ Para verificar los logs de su solución Web Cloud Databases en tiempo real, llev
 3. En la columna izquierda, haga clic en el menú desplegable `Web Cloud Databases`{.action}.
 4. Seleccione la instancia Web Cloud Databases correspondiente.
 5. A continuación, haga clic en la pestaña `Logs`{.action}.
+
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/tab.png){.thumbnail}
 
 En esta consola integrada podrá encontrar en tiempo real los logs de su solución Web Cloud Databases.
 
@@ -138,7 +140,11 @@ Para suscribir su solución Web Cloud Databases a un flujo de datos en Logs Data
 5. A continuación, haga clic en la pestaña `Logs`{.action}.
 6. A la derecha del recuadro en el que aparecen sus logs en tiempo real, haga clic en el botón `Suscribirse`{.action}.
 
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/tab-subscribe.png){.thumbnail}
+
 En la nueva página que se abre, si dispone de varias soluciones Logs Data Platform en su [área de cliente de OVHcloud](/links/manager), seleccione la referencia de la Logs Data Platform con la que desea suscribirse en la lista desplegable que aparece justo debajo del botón titulado `Añadir un flujo de datos`.
+
+![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/logs/data-stream.png){.thumbnail}
 
 Existen dos situaciones para suscribirse a su solución Web Cloud Databases.
 
