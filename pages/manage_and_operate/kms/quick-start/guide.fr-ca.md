@@ -1,14 +1,8 @@
 ---
 title: "Premiers pas avec OVHcloud Key Management Service (KMS)"
 excerpt: "Mettez en oeuvre votre OVHcloud KMS"
-updated: 2024-11-18
+updated: 2024-11-25
 ---
-
-> [!warning]
->
-> Le KMS OVHcloud est actuellement en phase bêta. Ce guide peut donc être incomplet et sera mis à jour lors de la bêta.
-> N’hésitez pas à nous faire des retours sur le canal Discord dédié : <https://discord.gg/ovhcloud>.
->
 
 ## Objectif
 

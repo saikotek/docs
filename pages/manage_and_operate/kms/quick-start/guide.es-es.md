@@ -1,14 +1,8 @@
 ---
 title: "Getting started with OVHcloud Key Management Service (KMS)"
 excerpt: "Discover the steps you need to take to set up your first Key Management Service (KMS), create a key, and access it"
-updated: 2024-11-18
+updated: 2024-11-25
 ---
-
-> [!warning]
->
-> The OVHcloud KMS is currently in beta phase. This guide may be incomplete, and will be updated during the beta period.
-> Feel free to send us feedback on the dedicated Discord channel: <https://discord.gg/ovhcloud>.
->
 
 ## Objective
 

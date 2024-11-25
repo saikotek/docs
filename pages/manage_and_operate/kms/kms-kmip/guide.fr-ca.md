@@ -1,14 +1,8 @@
 ---
 title: "Comment connecter un produit compatible en utilisant le protocole KMIP"
 excerpt: "Comment communiquer avec le KMS OVHcloud avec le protocole KMIP"
-updated: 2024-10-23
+updated: 2024-11-25
 ---
-
-> [!warning]
->
-> Le KMS OVHcloud est actuellement en phase bêta. Ce guide peut donc être incomplet et sera mis à jour lors de la bêta.
-> N’hésitez pas à nous faire des retours sur le canal Discord dédié : <https://discord.gg/ovhcloud>.
->
 
 ## Objectif
 
