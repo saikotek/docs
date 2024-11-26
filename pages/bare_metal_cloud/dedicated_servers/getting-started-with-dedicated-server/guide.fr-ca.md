@@ -238,7 +238,7 @@ Si vous utilisez un serveur Windows, rendez-vous sur [ce guide](/pages/bare_meta
 
 Vous pouvez activer ou désactiver le monitoring d'un serveur dédié à partir de l'onglet `Informations générales`{.action} de votre [espace client OVHcloud](/links/manager). L'option se situe dans la section `État des services`.
 
-![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-service.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server.png){.thumbnail}
 
 Cliquez sur le bouton `Configurer`{.action}. Dans la fenêtre qui apparaît, vous avez trois options pour le comportement du monitoring :
 
