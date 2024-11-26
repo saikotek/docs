@@ -1,6 +1,6 @@
 ---
 title: "MX Plan - Configurer son compte e-mail sur Outlook pour Android"
-excerpt: "Découvrez comment configurer votre adresse e-mail MX Plan sur l'application mobile Outlook pour Android et iOS"
+excerpt: "Découvrez comment configurer votre adresse e-mail MX Plan sur l'application mobile Outlook pour Android"
 updated: 2024-11-26
 ---
 
@@ -17,7 +17,7 @@ updated: 2024-11-26
 
 Les comptes MX Plan peuvent être configurés sur différents logiciels de messagerie compatibles. Cela vous permet d’utiliser votre adresse e-mail depuis l’appareil de votre choix. L'application Outlook de Microsoft sur Android est disponible gratuitement depuis le Google Play Store.
 
-**Découvrez comment configurer votre adresse e-mail MX Plan sur l'application mobile Outlook pour Android et iOS.**
+**Découvrez comment configurer votre adresse e-mail MX Plan sur l'application mobile Outlook pour Android**
 
 > [!warning]
 >
@@ -63,7 +63,8 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 >> > [!warning]
 >> >
->> > Si la fenêtre de choix du protocole n'apparait pas, appuyez sur le bouton `?` dans le coin supérieur droit de l'écran, puis choisissez `Changer de fournisseur de compte`{.action}. Sélectionnez alors `**IMAP**`(recommandé) ou `**POP3**`.
+>> > Si la fenêtre de choix du protocole n'apparait pas, appuyez sur le bouton `?` dans le coin supérieur droit de l'écran, puis choisissez `Changer de fournisseur de compte`{.action}. Sélectionnez alors `**IMAP**`(recommandé) ou `**POP3**`.<br>
+>> > ![outlook android](images/outlook-app-android-add-step02.png){.thumbnail .w-400 .h-600}
 >>
 > **Etape 3 - IMAP**
 >>
@@ -97,7 +98,6 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 > [!warning]
 >
 > Si, après avoir suivi les étapes de configuration ci-dessus, vous rencontrez un défaut d'envoi ou de réception, consultez la rubrique « [Modifier les paramètres existants](#modify-settings) ».
-
 
 ### Utiliser l'adresse e-mail
 
