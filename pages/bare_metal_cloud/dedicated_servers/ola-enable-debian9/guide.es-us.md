@@ -64,8 +64,6 @@ iface bond0 inet static
   address 10.0.0.1/24
   bond-mode 802.3ad
   bond-slaves eno1 eno2
-  bond-miimon 100
-  bond-downdelay 200
   bond-lacp-rate fast
   bond-xmit_hash_policy layer3+4
 

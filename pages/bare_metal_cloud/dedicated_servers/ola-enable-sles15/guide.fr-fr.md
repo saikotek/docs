@@ -53,7 +53,7 @@ IPADDR='10.0.0.1/24'
 BONDING_MASTER='yes'
 BONDING_SLAVE_0='eth0'
 BONDING_SLAVE_1='eth1'
-BONDING_MODULE_OPTS='mode=802.3ad miimon=100 xmit_hash_policy=layer3+4'
+BONDING_MODULE_OPTS='mode=802.3ad xmit_hash_policy=layer3+4'
 ```
 
 > [!primary]

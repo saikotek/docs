@@ -54,7 +54,7 @@ ONBOOT=yes
 BONDING_MASTER=yes
 IPADDR=10.0.0.1
 NETMASK=255.255.255.0
-BONDING_OPTS="mode=802.3ad miimon=100"
+BONDING_OPTS="mode=802.3ad"
 ```
 
 > [!primary]

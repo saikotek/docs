@@ -133,8 +133,6 @@ network:
                 - ens22f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
         # Facultatif: configuration d'un agrégat privé
@@ -147,8 +145,6 @@ network:
                 - ens33f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
 ```
@@ -193,8 +189,6 @@ network:
                 - ens22f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
         # Facultatif: configuration d'un agrégat privé
@@ -207,8 +201,6 @@ network:
                 - ens33f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
 ```
