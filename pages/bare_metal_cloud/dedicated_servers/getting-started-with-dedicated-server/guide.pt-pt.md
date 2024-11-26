@@ -1,7 +1,7 @@
 ---
 title: "Primeiros passos com um servidor dedicado"
 excerpt: "Descubra como gerir um servidor dedicado na sua Área de Cliente e como começar com a configuração e a segurança de um servidor"
-updated: 2024-05-17
+updated: 2024-11-25
 ---
 
 > [!primary]
@@ -49,7 +49,7 @@ Um servidor dedicado é um servidor físico ("bare metal") situado num dos nosso
 
 Pode facilmente reinstalar o seu servidor ou escolher outra imagem de SO a instalar na sua [Área de Cliente OVHcloud](/links/manager). No separador `Informações gerais`{.action}, clique em `...`{.action} em frente do sistema operativo e, a seguir, em `Instalar`{.action}.
 
-![Botão Reinstalar](images/reinstalling-your-server-01.png){.thumbnail}
+![Botão Reinstalar](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-01.png){.thumbnail}
 
 Na nova janela, selecione uma das opções de instalação:
 
@@ -66,15 +66,15 @@ Na nova janela, selecione uma das opções de instalação:
 
 Clique em `Seguinte`{.action} para continuar.
 
-![Seleção de templates](images/reinstalling-your-server-02.png){.thumbnail}
+![Seleção de templates](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-02.png){.thumbnail}
 
 Depois de escolher `Instalar a partir de um template OVHcloud`{.action}, pode selecionar o sistema operativo nos menus pendentes.
 
-![Seleção operacional](images/reinstalling-your-server-03.png){.thumbnail}
+![Seleção operacional](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-03.png){.thumbnail}
 
 Se necessitar de alterar o esquema de particionamento do seu sistema operativo, selecione a opção "Personalizar a configuração das partições" antes de clicar em `Seguinte`{.action}.
 
-![Personalizar a configuração das partições](images/reinstalling-your-server-04.png){.thumbnail}
+![Personalizar a configuração das partições](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-04.png){.thumbnail}
 
 Este passo permite-lhe configurar o tipo de RAID e a partição, dentro dos limites do hardware e do sistema operativo.
 
@@ -85,17 +85,25 @@ Este passo permite-lhe configurar o tipo de RAID e a partição, dentro dos limi
 
 Se não pretender utilizar todos os seus discos para a instalação, pode atualizá-la após ter assinalado a opção "Personalizar a configuração das partições". Neste caso, será responsável pela montagem dos outros discos no sistema operativo. Consulte a documentação do sistema operativo para obter mais informações.
 
-![select disks](images/choosedisk.png){.thumbnail}
+![select disks](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/choosedisk.png){.thumbnail}
 
 Uma vez os ajustamentos concluídos, clique em `Seguinte`{.action} para aceder à página de resumo.
 
 Encontrará questões complementares específicas ao sistema operativo selecionado.          
 
-Por exemplo, se instalar um sistema operativo GNU/Linux, pode adicionar a sua chave SSH.
+![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-05.png){.thumbnail}
 
-Para obter uma explicação detalhada sobre a geração de chaves SSH, consulte o nosso [guia](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).     
+Se tiver selecionado um sistema operativo compatível, poderá fornecer uma **chave pública** para instalação automática. Tem duas possibilidades ao seu dispor:
 
-![configuração SSH](images/reinstalling-your-server-05.png){.thumbnail}
+- Copie manualmente a cadeia de chaves e cole-a no campo `A sua chave SSH pública`.
+- Se tiver armazenado anteriormente uma chave pública na sua [Área de Cliente OVHcloud](/links/manager), selecione a chave pretendida no menu pendente `Chave(s) SSH a pré-instalar`.
+
+![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/sshkeyds.png){.thumbnail}
+
+Para saber mais sobre este assumpto, consulte os nossos manuais:
+
+- [Como criar e utilizar chaves para a autenticação SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Como criar e utilizar chaves para a autenticação SSH com PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 Por fim, clique em `Confirmar`{.action} para lançar a instalação do sistema operativo no seu servidor dedicado.
 
@@ -218,7 +226,7 @@ reboot
 
 No entanto, pode efetuar um "hard reboot" a qualquer momento na sua [Área de Cliente OVHcloud](/links/manager). No separador `Informações gerais`{.action}, clique em `...`{.action} em face de "Estado" na zona **Estado dos serviços** e, a seguir, em `Reiniciar`{.action} e `Validar`{.action} na janela contextual.
 
-![Reiniciar](images/rebooting-your-server.png){.thumbnail}
+![Reiniciar](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/rebooting-your-server.png){.thumbnail}
 
 <a name="secure"></a>
 
@@ -234,7 +242,7 @@ Se utilizar um servidor Windows, consulte [este guia](/pages/bare_metal_cloud/de
 
 Pode ativar ou desativar o monitoring de um servidor dedicado a partir do separador `Informações gerais`{.action} da sua [Área de Cliente OVHcloud](/links/manager). A opção situa - se na secção `Estado dos serviços`.
 
-![Monitoring](images/monitoring-your-server.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/monitoring-your-server.png){.thumbnail}
 
 Clique no botão `Configurar`{.action}. Na janela que aparece, tem três opções para o comportamento de vigilância:
 
@@ -242,7 +250,7 @@ Clique no botão `Configurar`{.action}. Na janela que aparece, tem três opçõe
 - **Ativado com intervenção proactiva**: Se o servidor deixar de responder, ser-lhe-á enviado um e-mail de alerta e o servidor será verificado por um técnico.
 - **Ativado sem intervenção proactiva**: No caso de o servidor deixar de responder, receberá uma mensagem de alerta por e-mail. Para dar início a uma intervenção, é necessário ativar a opção com intervenção proactiva.
 
-![Monitoring](images/monitoring-your-server2.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/monitoring-your-server2.png){.thumbnail}
 
 Clique em `Confirmar`{.action} para atualizar a sua configuração de vigilância.
 
