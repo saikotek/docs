@@ -179,13 +179,13 @@ network:
 Per testare la tua configurazione utilizza questo comando:
 
 ```bash
-sudo nano netplan try
+sudo netplan try
 ```
 
 Se è corretta, applicala utilizzando il seguente comando:
 
 ```bash
-sudo nano netplan apply
+sudo netplan apply
 ``` 
 
 #### RedHat/CentOS/Rocky Linux/Alma Linux
