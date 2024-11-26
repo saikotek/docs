@@ -127,7 +127,7 @@ Cliquez sur le nom de votre compte en haut à droite, puis de nouveau sur votre 
 
 Vous pouvez accéder au menu IAM via l’entrée dédiée dans votre espace client.
 
-![Accès au menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Accès au menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 Cliquez ensuite sur l'onglet `Identités`{.action} pour accéder à la gestion des utilisateurs locaux.
 
