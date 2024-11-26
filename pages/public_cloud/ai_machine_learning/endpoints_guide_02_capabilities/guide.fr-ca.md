@@ -1,8 +1,7 @@
 ---
 title: AI Endpoints - Caractéristiques, capacités et limites (EN)
 excerpt: Découvrez les principales caractéristiques, capacités et limites de AI Endpoints
-updated: 2024-11-18
-flag: hidden
+updated: 2024-11-26
 ---
 
 > [!primary]
@@ -29,8 +28,7 @@ This page provides the technical features, capabilities and limitations of [AI E
 | Large Selection of Models                        | AI Endpoints offers a diverse range of pre-trained AI models, covering categories such as Assistant (LLMs, Code Assistants), Audio Analysis, Embeddings, Natural Language Processing, Translation, Image Generation, and Computer Vision. For a full list of models, please visit the [AI Endpoints Catalog Page](https://endpoints.ai.cloud.ovh.net/catalog).                                                                          |
 | Model Metrics | Users can access various metrics in the [OVHcloud Control Panel](/links/manager), such as the number of calls made per model, input and output tokens for large language models (LLMs), and other usage data. These insights can help you manage costs and gain a better understanding of how your applications are using AI capabilities.                                                                                              |
 | Data Privacy and Sovereignty | OVHcloud prioritizes data privacy and sovereignty, ensuring that AI models accessed via AI Endpoints are fully compliant with strict European regulations. Our infrastructure, located in Gravelines, France, adheres to European data protection regulations. Data is not stored or shared during or after model use, providing users with peace of mind that their data is secure and protected.                                                                          |
-| Access with Personalized Tokens | To ensure secure and authenticated access to model APIs, users need to provide a token for each request. Access tokens can easily be created through the [OVHcloud Control Panel](/links/manager), providing the flexibility to manage multiple tokens for various projects or teams. Additionally, each token comes with adjustable validity periods, allowing users to tailor their access to specific needs.
-| 
+| Access with Personalized Tokens | To ensure secure and authenticated access to model APIs, users need to provide a token for each request. Access tokens can easily be created through the [OVHcloud Control Panel](/links/manager), providing the flexibility to manage multiple tokens for various projects or teams. Additionally, each token comes with adjustable validity periods, allowing users to tailor their access to specific needs. 
 
 ### Planned features
 
@@ -38,6 +36,7 @@ This page provides the technical features, capabilities and limitations of [AI E
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | JSON Mode                        | AI Endpoints plans to support JSON mode in the future, which will allow you to send and receive data in a format that's easy to understand and integrate into your applications. This feature will make it simple to work with AI models and ensure that your data is correctly formatted for the models to process.                                                                          |
 | Function Calling | AI Endpoints also plans to support function calling in the future, which will allow you to invoke specific functions within a model, making it easier to use only the capabilities you need. |
+| Easy billing | Soon, you will be able to monitor your estimated consumption and resource usage via the [OVHcloud Control Panel](/links/manager), in the `AI Endpoints`{.action} section of the `AI & Machine Learning` category, in the left-hand vertical menu. This will give you an idea of your potential charges, once the billing system is enabled (future General Availability (GA) phase).
 
 ## Capabilities
 
@@ -69,4 +68,4 @@ If you need training or technical assistance to implement our solutions, contact
 
 Please feel free to send us your questions, feedback, and suggestions regarding AI Endpoints:
 
--  In the #ai-endpoints channel of the OVHcloud [Discord server](https://discord.gg/ovhcloud), where you can engage with the community and OVHcloud team members.
+- In the #ai-endpoints channel of the OVHcloud [Discord server](https://discord.gg/ovhcloud), where you can engage with the community and OVHcloud team members.
