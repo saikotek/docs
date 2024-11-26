@@ -45,7 +45,7 @@ A dedicated server is a physical server ("bare metal") located in one of our dat
 
 You can easily reinstall your server or choose a different OS image to install in your [OVHcloud Control Panel](/links/manager). In the `General information`{.action} tab, click on `...`{.action} next to the operating system and then click `Install`{.action}.
 
-![Reinstall button](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-01.png){.thumbnail}
+![Reinstall button](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
 In the popup window, select one of the installation options:
 
@@ -62,15 +62,15 @@ You can manage all your licences in the `Bare Metal Cloud`{.action} section unde
 
 Click `Next`{.action} to continue.
 
-![Template selection](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-02.png){.thumbnail}
+![Template selection](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
 
 After choosing `Install from an OVHcloud template`{.action} you can select the operating system from the drop-down menus.
 
-![Operating selection](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-03.png){.thumbnail}
+![Operating selection](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 
 If you need to modify the partioning scheme of your operating system, check the box "Customise the partition configuration" before clicking on `Next`{.action}.
 
-![partitioning configuration](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-04.png){.thumbnail}
+![partitioning configuration](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-04.png){.thumbnail}
 
 In this step you are able to set up RAID and partitioning options within the limits of the server's hardware and operating system.
 
@@ -81,20 +81,20 @@ In this step you are able to set up RAID and partitioning options within the lim
 
 If you don't want to use all your disks for the installation, you can update it after ticking the "Customise the partition configuration" box. In this case, you will be responsible for mounting the other disks in the operating system. Refer to the operating system documentation to find out how to do this.
 
-![select disks](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/choosedisk.png){.thumbnail}
+![select disks](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/choosedisk.png){.thumbnail}
 
 After you have finished your adjustments, click `Next`{.action} to arrive at the summary page.
 
 You will find additional options that are specific to the chosen operating system.
 
-![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-05.png){.thumbnail}
+![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-05.png){.thumbnail}
 
 If you have selected a compatible operating system, you can provide a **public key** to be installed automatically. You have two options:
 
 - Manually copy the key string and paste it into the field `Your Public SSH key`.
 - If you have previously stored a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
 
-![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/sshkeyds.png){.thumbnail}
+![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 
 To find out more about this topic, consult our guides:
 
@@ -223,7 +223,7 @@ reboot
 
 However, you can carry out a "hard reboot" at any time in your [OVHcloud Control Panel](/links/manager). From the `General information`{.action} tab, click on `...`{.action} next to "Status" in the **Service status** box, then click `Restart`{.action} and `Confirm`{.action} the action in the popup window.
 
-![Rebooting](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/rebooting-your-server.png){.thumbnail}
+![Rebooting](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
 
 <a name="secure"></a>
 
@@ -239,7 +239,7 @@ If your server runs Windows, use [this guide](/pages/bare_metal_cloud/dedicated_
 
 You can set the monitoring status for a dedicated server from the `General information`{.action} tab in your [OVHcloud Control Panel](/links/manager) (section **Service status**).
 
-![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/monitoring-your-server.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server.png){.thumbnail}
 
 Click on the button `Configure`{.action}. In the popup window, you have three options for the monitoring behaviour:
 
@@ -247,7 +247,7 @@ Click on the button `Configure`{.action}. In the popup window, you have three op
 - **Enabled with proactive intervention**: If the server stops responding, an alert email is sent to you and the server will be checked by a technician.
 - **Enabled without proactive intervention**: You will receive an alert message by email in case the server stops responding. To initiate an intervention, enable your server monitoring with proactive intervention.
 
-![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/monitoring-your-server2.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server2.png){.thumbnail}
 
 Click on `Confirm`{.action} to update your monitoring configuration.
 

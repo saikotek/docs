@@ -41,7 +41,7 @@ Serwer dedykowany to fizyczny serwer ("bare metal") zlokalizowany w jednym z nas
 
 Możesz w prosty sposób przeprowadzić reinstalację serwera lub wybrać inny obraz systemu operacyjnego do zainstalowania w [Panelu klienta](/links/manager). W zakładce `Informacje ogólne`{.action} kliknij `...`{.action} naprzeciwko systemu operacyjnego, a następnie wybierz `Zainstaluj`{.action}.
 
-![Przycisk Reinstalacja](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-01.png){.thumbnail}
+![Przycisk Reinstalacja](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
 W oknie, które się pojawi wybierz jedną z opcji instalacji:
 
@@ -58,15 +58,15 @@ W oknie, które się pojawi wybierz jedną z opcji instalacji:
 
 Kliknij na `Dalej`{.action}, aby kontynuować.
 
-![Wybór szablonu](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-02.png){.thumbnail}
+![Wybór szablonu](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
 
 Po wybraniu `Instalacji z szablonu OVHcloud`{.action}, możesz wybrać system operacyjny z menu rozwijanego.
 
-![Wybór operacyjny](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-03.png){.thumbnail}
+![Wybór operacyjny](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 
 Jeśli chcesz zmienić schemat partycjonowania Twojego systemu operacyjnego, zaznacz pole wyboru "Personalizuj konfigurację partycji", zanim klikniesz `Dalej`{.action}.
 
-![Spersonalizuj konfigurację partycji](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-04.png){.thumbnail}
+![Spersonalizuj konfigurację partycji](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-04.png){.thumbnail}
 
 W tym kroku skonfigurujesz typ macierzy RAID i partycjonowanie w ramach sprzętowych oraz systemu operacyjnego.
 
@@ -74,14 +74,14 @@ Po zakończeniu wprowadzania korekt kliknij przycisk `Dalej`{.action}, aby przej
 
 W dokumentacji tej znajdziesz pytania dodatkowe specyficzne dla wybranego systemu operacyjnego.          
 
-![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/reinstalling-your-server-05.png){.thumbnail}
+![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-05.png){.thumbnail}
 
 Jeśli wybrano kompatybilny system operacyjny, możesz automatycznie zainstalować **klucz publiczny**. Masz dwie możliwości:
 
 - Ręcznie skopiuj ciąg klucza i wklej go w polu `Twój publiczny klucz SSH`.
 - Jeśli wcześniej przechowywałeś klucz publiczny w Twoim [Panelu klienta OVHcloud](/links/manager), wybierz odpowiedni klucz z rozwijanego menu `Klucz(y) SSH, który chcesz wstępnie zainstalować`.
 
-![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/sshkeyds.png){.thumbnail}
+![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 
 Więcej na ten temat znajdziesz w naszych przewodnikach:
 
@@ -212,7 +212,7 @@ reboot
 
 W każdej chwili możesz jednak wykonać "reboot hard" w [Panelu klienta OVHcloud](/links/manager). W zakładce `Informacje ogólne`{.action} kliknij `...`{.action} naprzeciwko "Status" w strefie **Stan usług**, następnie `Restart`{.action} ponownie i `Zatwierdź`{.action} w oknie kontekstowym.
 
-![Restart](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/rebooting-your-server.png){.thumbnail}
+![Restart](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
 
 <a name="secure"></a>
 
@@ -228,7 +228,7 @@ Jeśli korzystasz z serwera Windows, zapoznaj się z [tym przewodnikiem](/pages/
 
 Możesz włączyć lub wyłączyć monitoring serwera dedykowanego w zakładce `Informacje ogólne`{.action} w Twoim [Panelu klienta OVHcloud](/links/manager). Wariant ten znajduje się w sekcji `Status usług`.
 
-![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/monitoring-your-server.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server.png){.thumbnail}
 
 Kliknij przycisk `Skonfiguruj`{.action}. W oknie, które się pojawi, masz trzy opcje dotyczące zachowania inwigilacji:
 
@@ -236,7 +236,7 @@ Kliknij przycisk `Skonfiguruj`{.action}. W oknie, które się pojawi, masz trzy 
 - **Aktywny z aktywną interwencją**: Jeśli serwer przestanie odpowiadać, otrzymasz wiadomość e-mail z alertem. Serwer zostanie zweryfikowany przez technika.
 - **Aktywny bez aktywnej interwencji**: Otrzymasz e-mail z komunikatem ostrzegawczym, jeśli serwer przestanie odpowiadać. Aby rozpocząć interwencję, należy utworzyć wniosek o pomoc.
 
-![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/general-information/monitoring-your-server2.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server2.png){.thumbnail}
 
 Kliknij na `Zatwierdź`{.action}, aby zaktualizować konfigurację monitorowania.
 
