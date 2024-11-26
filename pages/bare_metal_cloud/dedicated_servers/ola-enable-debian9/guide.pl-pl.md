@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9-11'
 excerpt: 'Dowiedz się, jak włączyć OVHcloud Link Aggregation na serwerze Debian 9-11'
-updated: 2024-10-16
+updated: 2024-11-26
 ---
 
 ## Wprowadzenie
@@ -60,8 +60,6 @@ iface bond0 inet static
   address 10.0.0.1/24
   bond-mode 802.3ad
   bond-slaves eno1 eno2
-  bond-miimon 100
-  bond-downdelay 200
   bond-lacp-rate fast
   bond-xmit_hash_policy layer3+4
 

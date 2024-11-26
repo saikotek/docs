@@ -1,7 +1,7 @@
 ---
 title: "Comment configurer l'agrégation de liens avec LACP dans Debian 12 ou Ubuntu 24.04"
 excerpt: "Activez l'agrégation de liens dans votre serveur Debian 12 ou Ubuntu 24.04 (Netplan) pour augmenter la disponibilité de votre serveur et augmenter l'efficacité de vos connexions réseau"
-updated: 2024-10-17
+updated: 2024-11-26
 ---
 
 <style>
@@ -133,8 +133,6 @@ network:
                 - ens22f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
         # Facultatif: configuration d'un agrégat privé
@@ -147,8 +145,6 @@ network:
                 - ens33f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
 ```
@@ -193,8 +189,6 @@ network:
                 - ens22f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
         # Facultatif: configuration d'un agrégat privé
@@ -207,8 +201,6 @@ network:
                 - ens33f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
 ```
