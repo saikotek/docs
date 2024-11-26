@@ -1,7 +1,7 @@
 ---
-title: "MX Plan - Configurer son compte e-mail sur Outlook Android et iOS"
+title: "MX Plan - Configurer son compte e-mail sur Outlook pour Android"
 excerpt: "Découvrez comment configurer votre adresse e-mail MX Plan sur l'application mobile Outlook pour Anroid et iOS"
-updated: 2024-11-12
+updated: 2024-11-26
 ---
 
 <style>
@@ -15,7 +15,7 @@ updated: 2024-11-12
 
 ## Objectif
 
-Les comptes MX Plan peuvent être configurés sur différents logiciels de messagerie compatibles. Cela vous permet d’utiliser votre adresse e-mail depuis l’appareil de votre choix. L'application Outlook de Microsft sur Android est disponible gratuitement.
+Les comptes MX Plan peuvent être configurés sur différents logiciels de messagerie compatibles. Cela vous permet d’utiliser votre adresse e-mail depuis l’appareil de votre choix. L'application Outlook de Microsft sur Android est disponible gratuitement depuis le Google.
 
 **Découvrez comment configurer votre adresse e-mail MX Plan sur l'application mobile Outlook pour Anroid et iOS.**
 
@@ -33,54 +33,71 @@ Les comptes MX Plan peuvent être configurés sur différents logiciels de messa
 
 ## En pratique
 
-### Ajouter le compte
+### Ajouter le compte <a name="add-account"></a>
 
 - **Lors du premier démarrage de l'application** : un assistant de configuration s'affiche, appuyez sur `Ajouter un compte`{.action}.
 
 ![outlook android](images/outlook-app-android-add01.png){.thumbnail .w-400 .h-600}
 
-- **Si un compte a déjà été paramétré** : appuyer sur l'enveloppe dans la partie supérieure gauche de votre écran, appuyez ensuite sur le bouton `+`{.action} dans la barre verticale de gauche, puis sur `Ajouter un compte`{.action}.
+- **Si un compte a déjà été paramétré** :
+    - Appuyer sur l'enveloppe « &#9993; » dans la partie supérieure gauche de votre écran.
+    - Appuyez ensuite sur le bouton `+`{.action} dans la barre verticale de gauche.
+    - Appuyez sur `Ajouter un compte`{.action}.
 
 ![outlook android](images/outlook-app-android-add02.png){.thumbnail .w-400 .h-600}
 
-Suivez les étapes d'installation en cliqueant sur les onglets ci-dessous :
+Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 
 > [!tabs]
 > **Etape 1**
 >>
->> Saisissez votre adresse e-mail et appuyez sur `Continuer`{.action}.<br><br>
->> ![mailmac](images/mail-mac-email01.png){.thumbnail .w-400 .h-600}
+>> Saisissez votre adresse e-mail et appuyez sur `Continuer`{.action}.
+>>
+>> ![outlook android](images/outlook-app-android-add-step01.png){.thumbnail .w-400 .h-600}
 >>
 > **Etape 2**
 >>
->> Sélectionnez le protocol de réception, **IMAP**(recommandé) ou **POP3**.<br><br>
->> ![mailmac](images/mail-mac-email02.png){.thumbnail .w-400 .h-600}
+>> Sélectionnez le protocol de réception, **IMAP**(recommandé) ou **POP3**.
+>>
+>> ![outlook android](images/outlook-app-android-add-step02.png){.thumbnail .w-400 .h-600}
 >>
 >> > [!warning]
 >> >
 >> > Si la fenêtre de choix du protocole n'apparait pas, appuyer sur le bouton `?` dans le coin supérieur droit de l'écran, puis choisissez `Changer de fournisseur de compte`{.action}. Sélectionnez alors `**IMAP**`(recommandé) ou `**POP3**`.
 >>
-> **Etape 3**
+> **Etape 3 - IMAP**
 >>
->> Dans la fenêtre suivante, cochez complétez les informations :
+>> Dans la fenêtre suivante, cochez `Paramètres avancés`{.action} et  complétez les informations suivantes :
 >>
 >> - **Adresse e-mail**
->> - **Nom d'affichage** : Saisissez votre adresse e-mail complète
+>> - **Nom complet** : Saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant IMAP** :<br>- **EUROPE** : Saisissez `imap.mail.ovh.net` ou `ssl0.ovh.net`<br>- **AMERIQUE/ASIE** : Saisissez `imap.mail.ovh.ca`
->> - **Serveur de courrier sortant SMTP** :<br>- **EUROPE** : Saisissez `smtp.mail.ovh.net` ou `ssl0.ovh.net`<br>- **AMERIQUE/ASIE** : Saisissez `smtp.mail.ovh.ca`
+>> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : pour l'**EUROPE** Saisissez `imap.mail.ovh.net` ou `ssl0.ovh.net` , pour l'**AMERIQUE/ASIE** Saisissez `imap.mail.ovh.ca`<br>- **Port** : 993<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : pour l'**EUROPE** Saisissez `smtp.mail.ovh.net` ou `ssl0.ovh.net` , pour l'**AMERIQUE/ASIE** Saisissez `smtp.mail.ovh.ca`<br>- **Port** : 465<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
 >>
->> Pour finaliser la configuration, cliquez sur `Se connecter`{.action}
+>> Pour finaliser la configuration, cliquez sur le bouton « &#10003;»
 >>
->> > [!warning]
->> >
->> > Il est normal de voir apparaître le message en rouge « **impossible de vérifier le nom ou le mot de passe du compte** » lorsque la fenêtre apparaît la première fois. Néanmoins, si ce message persiste après validation, cela signifie que les informations saisies sont erronées.<br><br>
+>> ![outlook android](images/outlook-app-android-add-step03-imap-eu.png){.thumbnail .w-400 .h-600}
 >>
->> ![mailmac](images/mail-mac-email03.png){.thumbnail .w-400 .h-600}
+> **Etape 3 - POP3**
+>>
+>> Dans la fenêtre suivante, cochez `Paramètres avancés`{.action} et  complétez les informations suivantes :
+>>
+>> - **Adresse e-mail**
+>> - **Nom complet** : Saisissez votre adresse e-mail complète
+>> - **Description**
+>> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : pour l'**EUROPE** saisissez `pop.mail.ovh.net` ou `ssl0.ovh.net` , pour l'**AMERIQUE/ASIE** saisissez `pop.mail.ovh.ca`<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : pour l'**EUROPE** saisissez `smtp.mail.ovh.net` ou `ssl0.ovh.net` , pour l'**AMERIQUE/ASIE** saisissez `smtp.mail.ovh.ca`<br>- **Port** : 465<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
+>>
+>> Pour finaliser la configuration, cliquez sur le bouton « &#10003;»
+>>
+>> ![outlook android](images/outlook-app-android-add-step03-pop-eu.png){.thumbnail .w-400 .h-600}
+>>
 
 > [!warning]
 >
-> Si, après avoir suivi les étapes de configuration ci-dessous, vous rencontrez un défaut d'envoi ou de réception, consultez la rubrique [Modifier les paramètres existants](#modify-settings)
+> Si, après avoir suivi les étapes de configuration ci-dessous, vous rencontrez un défaut d'envoi ou de réception, consultez la rubrique [Modifier les paramètres existants](#modify-settings).
+
 
 ### Utiliser l'adresse e-mail
 
@@ -88,34 +105,33 @@ Une fois l'adresse e-mail configurée, il ne reste plus qu’à l'utiliser ! Vou
 
 OVHcloud propose aussi une application web permettant d'accéder à votre adresse e-mail depuis un navigateur internet. Celle-ci est accessible à l’adresse [Webmail](/links/web/email). Vous pouvez vous y connecter grâce aux identifiants de votre adresse e-mail. Pour toute question relative à son utilisation, aidez-vous de notre guide [Consulter son compte depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa) ou [Utiliser son adresse e-mail depuis le webmail RoundCube](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube#ou-et-comment-se-connecter-au-webmail-roundcube).
 
-### Récupérer une sauvegarde de votre adresse e-mail
-
-Si vous devez effectuer une manipulation qui risquerait d'entrainer la perte des données de votre compte e-mail, nous vous conseillons d'effectuer une sauvegarde préalable du compte e-mail concerné. Pour ce faire, consultez le paragraphe « **Exporter** » dans la partie « **Mail sur Mac OS** » de notre guide [Migrer manuellement votre adresse e-mail](/pages/web_cloud/email_and_collaborative_solutions/migrating/manual_email_migration#exporter).
-
 ### Modifier les paramètres existants <a name="modify-settings"></a>
 
-Si votre compte e-mail est déjà paramétré et que vous devez accéder aux paramètres du compte pour les modifier :
-
-- Cliquez sur `Mail`{.action} dans la barre de menu en haut de votre écran, puis sur `Préférences`{.action}.
-- Sélectionnez le compte concerné dans la colonne de gauche puis cliquez sur `Réglages du serveur`{.action}.
-- Dans la section `Serveur de réception (POP)` ou `Serveur de réception (IMAP)`, saisissez votre adresse e-mail complète dans la case `Nom d'utilisateur`{.action} ainsi que le `Mot de passe`{.action} associé dans la case prévue à cet effet.
-- Dans la section `Serveur de d'envoi (SMTP)` saisissez votre adresse e-mail complète dans la case `Nom d'utilisateur`{.action} ainsi que le `Mot de passe`{.action} associé dans la case prévue à cet effet.
-- Décochez les cases `Gérer automatiquement les réglages de connexion`{.action} pour faire apparaitre les paramètres de `Port`{.action} et `Authentification`{.action}.
-- Assurez-vous que les cases `Utiliser TLS/SSL`{.action} sont cochées.
-- Dans les menus déroulants `Authentification`{.action}, vérifiez que `Mot de passe` est sélectionné.
-- Pour les cases `Nom de l'hôte`{.action} et `Port`{.action}, référez-vous aux valeurs de la rubrique « [Rappel des paramètres POP, IMAP et SMTP](#popimap-settings) ». **Vérifiez bien que le type de serveur (IMAP, POP et SMTP) correspond à votre région (Europe ou Asie-Pacifique)**.
-
-Pour finaliser la configuration, cliquez sur `Enregistrer`{.action}.
-
-![mailmac](images/mail-mac-email04.png){.thumbnail .w-400 .h-600}
-
-> [!primary]
+> [!warning]
 >
-> **Changer sa configuration**
->
-> Si votre adresse e-mail est configurée en **IMAP** et que vous souhaitez changer cette configuration en **POP**, vous devez supprimer le compte sur Mail de MacOS puis le recréer en **POP**.
+> L'application Outlook ne permet pas de modifier les paramètres serveur de votre compte e-mail, il est nécessaire de supprimer le compte e-mail pour le recréer.
+
+Si votre compte e-mail est déjà paramétré et que vous souhaitez le paramétrer à nouveau, vous devrez le supprimer et le recréer, pou cela :
+
+1. Appuyez sur l'enveloppe « &#9993; » dans la partie supérieure gauche de votre écran
+2. Appuyer sur l'icöne de réglage « &#9965; » dans le bas de la colonne de gauche.
+3. Dans la section « Général » appuyez sur `Comptes` pour visualiser l'ensemble des adresses e-mail configurées sur l'application.
+
+![outlook android](images/outlook-app-android-delete-account-01.png){.thumbnail .w-400 .h-600}
+
+- Sélectionnez le compte e-mail concerné
+- Appuyez sur `Supprimer le compte`{.action}.
+- Appuyez sur `Supprimer`{.action} à la question  « Voulez-vous supprimer le compte ? »
+
+![outlook android](images/outlook-app-android-delete-account-02.png){.thumbnail .w-400 .h-600}
+
+Une fois votre compte e-mail supprimé, suivez les instructions de la partie « [Ajouter le compte](#add-account) » sur cette documentation.
+
+![outlook android](images/outlook-app-android-delete-account.png){.thumbnail .w-400 .h-600}
 
 ### Rappel des paramètres POP, IMAP et SMTP <a name="popimap-settings"></a>
+
+#### Paramètres de réception IMAP et POP
 
 Pour la réception des e-mails, lors du choix du type de compte, nous vous conseillons une utilisation en **IMAP**. Vous pouvez cependant sélectionner **POP**.
 
@@ -123,70 +139,51 @@ Pour la réception des e-mails, lors du choix du type de compte, nous vous conse
 >
 > Il est nécessaire de bien relever la valeur correspondante à votre localisation (**EUROPE** ou **AMERIQUE / ASIE-PACIFIQUE**)
 
-- **Pour une configuration en POP**
+Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 
-|Information|Description|
-|---|---|
-|Nom d'utilisateur|Renseignez l'adresse e-mail **complète**|
-|Mot de passe|Renseignez le mot de passe de l'adresse e-mail|
-|Serveur **EUROPE** (entrant)|pop.mail.ovh.net **ou** ssl0.ovh.net|
-|Serveur **AMERIQUE / ASIE-PACIFIQUE** (entrant)|pop.mail.ovh.ca|
-|Port|995|
-|Type de sécurité|SSL/TLS|
+> [!tabs]
+> **Configuration IMAP**
+>>
+>> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
+>> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
+>> - **Serveur EUROPE (entrant)** : imap.mail.ovh.net **ou** ssl0.ovh.net
+>> - **Serveur MERIQUE/ASIE-PACIFIQUE (entrant)** : imap.mail.ovh.ca
+>> - **Port** : 993
+>> - **Type de sécurité** : SSL/TLS
+>>
+> **Configuration POP**
+>>
+>> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
+>> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
+>> - **Serveur EUROPE (entrant)** : pop.mail.ovh.net **ou** ssl0.ovh.net
+>> - **Serveur MERIQUE/ASIE-PACIFIQUE (entrant)** : pop.mail.ovh.ca
+>> - **Port** : 995
+>> - **Type de sécurité** : SSL/TLS
 
-- **Pour une configuration en IMAP**
-
-|Information|Description|
-|---|---|
-|Nom d'utilisateur|Renseignez l'adresse e-mail **complète**|
-|Mot de passe|Renseignez le mot de passe de l'adresse e-mail|
-|Serveur **EUROPE** (entrant)|imap.mail.ovh.net **ou** ssl0.ovh.net|
-|Serveur **AMERIQUE / ASIE-PACIFIQUE** (entrant)|imap.mail.ovh.ca|
-|Port|993|
-|Type de sécurité|SSL/TLS|
+#### Paramètres d'envoi SMTP
 
 Pour l'envoi des e-mails, si vous devez renseigner manuellement les paramètres **SMTP** dans les préférences du compte, retrouvez ci-dessous les paramètres à utiliser :
 
-- **Configuration SMTP**
+**Configuration SMTP**
 
-|Information|Description|
-|---|---|
-|Nom d'utilisateur|Renseignez l'adresse e-mail **complète**|
-|Mot de passe|Renseignez le mot de passe de l'adresse e-mail|
-|Serveur **EUROPE** (sortant)|smtp.mail.ovh.net **ou** ssl0.ovh.net|
-|Serveur **AMERIQUE / ASIE-PACIFIQUE** (sotant)|smtp.mail.ovh.ca|
-|Port|465|
-|Type de sécurité|SSL/TLS|
+- **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
+- **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
+- **Serveur EUROPE (entrant)** : pop.mail.ovh.net **ou** ssl0.ovh.net
+- **Serveur MERIQUE/ASIE-PACIFIQUE (entrant)** : pop.mail.ovh.ca
+- **Port** : 995
+- **Type de sécurité** : SSL/TLS
 
 > [!primary]
 >
 > **Changer sa configuration**
 >
-> Si votre adresse e-mail est configurée en **IMAP** et que vous souhaitez changer cette configuration en **POP**, vous devez supprimer le compte sur Mail de MacOS puis le recréer en **POP**.
-
-### Que faire si je ne parviens pas à recevoir/envoyer mes e-mails ?
-
-- Si vous constatez l'apparition de l'icône visible sur la capture ci-dessous, il s'agit d'une déconnexion réseau. Vérifiez que votre connexion à Internet fonctionne correctement.
-
-![mailmac](images/mail-mac-disconnect.png){.thumbnail .w-400 .h-600}
-
-- Si vous constatez l'apparition de l'icône visible sur la capture ci-dessous, il s'agit d'un défaut de synchronisation. Vérifiez les paramètres de configuration de votre compte e-mail en consultant la rubrique [Modifier les paramètres existants](#modify-settings).
-
-![mailmac](images/mail-mac-fail.png){.thumbnail .w-400 .h-600}
+> Si votre adresse e-mail est configurée en **IMAP** et que vous souhaitez changer cette configuration en **POP**, vous devez supprimer le compte  puis le recréer en **POP**. Consultez le chapitre « [Modifier les paramètres existants](#modify-settings) » de ce guide.
 
 ## Aller plus loin
 
 > [!primary]
 >
-> Pour plus d'informations sur la configuration d'une adresse e-mail depuis l'application Mail sur macOS, consultez [le centre d'aide Apple](https://support.apple.com/fr-fr/guide/mail/mail35803/mac).
-
-[MX Plan - Configurer son compte e-mail sur Mail pour iPhone et iPad](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_ios)
-
-[E-mail Pro - Configurer son compte e-mail sur Mail pour macOS](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_mail_macos)<br>
-[E-mail Pro - Configurer son compte e-mail sur Mail pour iPhone et iPad](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_ios)
-
-[Exchange - Configurer son compte e-mail sur Mail de macOS](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_ios)<br>
-[Exchange - Configurer son compte e-mail sur Mail pour iPhone et iPad](pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_mail_macos)
+> Pour plus d'informations sur la configuration d'une adresse e-mail depuis l'application Outlook sur Android, consultez [le centre d'aide Microsoft](https://support.microsoft.com/fr-fr/office/configurer-le-courrier-%C3%A9lectronique-%C3%A0-l-aide-de-l-application-outlook-pour-android-886db551-8dfa-4fd5-b835-f8e532091872).
 
 Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
 
