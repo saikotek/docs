@@ -1,7 +1,7 @@
 ---
 title: "Konfigurieren der OVHcloud Link Aggregation in SLES 15"
 excerpt: "Erfahren Sie hier, wie Sie OLA für Ihren SLES 15 Server aktivieren"
-updated: 2023-10-26
+updated: 2024-11-26
 ---
 
 > [!primary]

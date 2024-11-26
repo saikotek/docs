@@ -1,7 +1,7 @@
 ---
 title: "Jak skonfigurować identyfikator klienta do celów agregacji linków OVHcloud w SLES 15"
 excerpt: 'Włącz Link Aggregation na serwerze SLES 15'
-updated: 2023-10-26
+updated: 2024-11-26
 ---
 
 > [!primary]

@@ -1,7 +1,7 @@
 ---
 title: 'Konfigurieren Ihrer Netzwerkkarte für die OVHcloud Link Aggregation in Debian 9 bis 11'
 excerpt: 'Erfahren Sie hier, wie Sie OLA auf Ihrem Debian 9 Server aktivieren'
-updated: 2024-10-16
+updated: 2024-11-26
 ---
 
 ## Ziel
