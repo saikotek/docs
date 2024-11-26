@@ -160,7 +160,10 @@ passwd: password updated successfully
 > Sauf mention contraire, toutes les actions d'administration décrites dans notre documentation peuvent être accomplies par le compte d'utilisateur par défaut, c'est-à-dire en tapant `sudo` suivi de la commande correspondante. Apprenez-en plus sur ce sujet dans notre guide sur la [configuration des comptes utilisateurs et de l'accès root sur un serveur](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-Selon vos besoins en matière de sécurité, de mobilité et de commodité, les clés SSH peuvent servir de méthode de connexion supplémentaire ou même remplacer une identification via un nom d'utilisateur et un mot de passe. Découvrez comment les utiliser dans notre guide : [Créer et utiliser des clés SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+Selon vos besoins en matière de sécurité, de mobilité et de commodité, les clés SSH peuvent servir de méthode de connexion supplémentaire ou même remplacer une identification via un nom d'utilisateur et un mot de passe. Découvrez comment les utiliser dans nos guides :
+
+- [Comment créer et utiliser des clés pour l'authentification SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Comment créer et utiliser des clés pour l'authentification SSH avec PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 #### Windows
 

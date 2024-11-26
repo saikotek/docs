@@ -164,7 +164,10 @@ passwd: password updated successfully
 Se non diversamente specificato, tutte le operazioni di amministrazione descritte nella nostra documentazione possono essere effettuate dall’account utente predefinito, ovvero digitando `sudo` seguito dal relativo ordine. Per maggiori informazioni su questo argomento, consulta la nostra guida sulla [configurazione degli account utente e dell'accesso root su un server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-A seconda delle esigenze in termini di sicurezza, mobilità e praticità, le chiavi SSH possono servire come metodo di connessione supplementare o anche sostituire un identificativo tramite un nome utente e una password. Questa guida ti mostra come utilizzarle: [Creare e utilizzare chiavi SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+A seconda delle esigenze in termini di sicurezza, mobilità e praticità, le chiavi SSH possono servire come metodo di connessione supplementare o anche sostituire un identificativo tramite un nome utente e una password. Per saperne di più, consulta le nostre guide:
+
+- [Come creare e utilizzare le chiavi per l’autenticazione SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Come creare e utilizzare chiavi per l’autenticazione SSH con PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 #### Windows
 

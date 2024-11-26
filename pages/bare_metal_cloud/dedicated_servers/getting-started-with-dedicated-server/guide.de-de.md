@@ -164,7 +164,10 @@ passwd: password updated successfully
 > Sofern nicht anders vermerkt, können alle in unserer Dokumentation beschriebenen administrativen Aktionen mit dem Standardbenutzer-Account durchgeführt werden, indem Sie `sudo` gefolgt von dem entsprechenden Befehl eingeben. Weitere Informationen zu diesem Thema finden Sie in unserer Anleitung zum [Konfigurieren von Benutzerkonten und Root-Zugriff auf einem Server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-SSH-Schlüssel können je nach Ihren Anforderungen in Bezug auf Sicherheit, Mobilität und Komfort als zusätzliche Verbindungsmethode verwendet werden oder gar die Identifizierung mittels Benutzername und Kennwort ersetzen. In unserer Anleitung zu [SSH-Schlüsseln](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) erfahren Sie, wie Sie diese verwenden.
+SSH-Schlüssel können je nach Ihren Anforderungen in Bezug auf Sicherheit, Mobilität und Komfort als zusätzliche Verbindungsmethode verwendet werden oder gar die Identifizierung mittels Benutzername und Kennwort ersetzen. In unseren Anleitungen erfahren Sie, wie Sie diese verwenden:
+
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung mit PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 #### Windows
 
