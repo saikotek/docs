@@ -1,7 +1,7 @@
 ---
 title: "Premiers pas avec un serveur dédié"
 excerpt: "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur"
-updated: 2024-11-25
+updated: 2024-11-26
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte mit einem Kimsufi, So You Start oder Rise Dedicated Server"
 excerpt: "Erfahren Sie hier, wie Sie einen Kimsufi, So You Start oder Rise Dedicated Server in Ihrem OVHcloud Kundencenter verwalten und wie Sie mit der Konfiguration und Sicherung eines Servers starten"
-updated: 2024-11-25
+updated: 2024-11-26
 ---
 
 ## Ziel

@@ -1,7 +1,7 @@
 ---
 title: "Pierwsze kroki z serwerem dedykowanym Kimsufi, So You Start lub Rise"
 excerpt: "Dowiedz się, jak zarządzać serwerem dedykowanym Kimsufi, So You Start lub Rise w Panelu klienta i jak rozpocząć konfigurację oraz zabezpieczenie serwera"
-updated: 2024-11-25
+updated: 2024-11-26
 ---
 
 ## Wprowadzenie

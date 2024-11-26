@@ -1,7 +1,7 @@
 ---
 title: "Primeros pasos con un servidor dedicado"
 excerpt: "Cómo gestionar un servidor dedicado en su área de cliente y cómo empezar con la configuración y la seguridad de un servidor"
-updated: 2024-11-25
+updated: 2024-11-26
 ---
 
 > [!primary]

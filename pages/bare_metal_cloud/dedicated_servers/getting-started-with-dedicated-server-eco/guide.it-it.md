@@ -1,7 +1,7 @@
 ---
 title: "Iniziare a utilizzare un server dedicato Kimsufi, So You Start o Rise"
 excerpt: "Come gestire un server dedicato Kimsufi, So You Start o Rise nello Spazio Cliente e come iniziare a utilizzare la configurazione e la protezione di un server"
-updated: 2024-11-25
+updated: 2024-11-26
 ---
 
 ## Obiettivo

@@ -1,7 +1,7 @@
 ---
 title: "Primeiros passos com um servidor dedicado Kimsufi, So You Start ou Rise"
 excerpt: "Descubra como gerir um servidor dedicado na sua Área de Cliente e como começar com a configuração e a segurança de um servidor Kimsufi, So You Start ou Rise"
-updated: 2024-11-25
+updated: 2024-11-26
 ---
 
 ## Objetivo
