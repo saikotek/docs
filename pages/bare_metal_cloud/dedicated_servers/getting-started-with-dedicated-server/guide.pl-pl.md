@@ -164,7 +164,10 @@ passwd: password updated successfully
 > Jeśli nie określono inaczej, wszystkie działania administracyjne opisane w dokumentacji mogą być wykonywane przez domyślne konto użytkownika, po wpisaniu `sudo` po odpowiednim poleceniu. Więcej informacji na ten temat znajdziesz w przewodniku dotyczącym [konfiguracji kont użytkowników i dostępu root na serwerze](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-W zależności od Twoich potrzeb w zakresie bezpieczeństwa, mobilności i wygody, klucze SSH mogą służyć jako dodatkowa metoda logowania lub nawet zastąpić identyfikację za pomocą nazwy użytkownika i hasła. Dowiedz się, jak z nich korzystać w naszym przewodniku: [Tworzenie i używanie kluczy SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+W zależności od Twoich potrzeb w zakresie bezpieczeństwa, mobilności i wygody, klucze SSH mogą służyć jako dodatkowa metoda logowania lub nawet zastąpić identyfikację za pomocą nazwy użytkownika i hasła. Więcej na ten temat znajdziesz w naszych przewodnikach:
+
+- [Jak tworzyć i używać kluczy do uwierzytelniania SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Jak tworzyć i używać kluczy do uwierzytelniania SSH za pomocą PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 ### Windows
 

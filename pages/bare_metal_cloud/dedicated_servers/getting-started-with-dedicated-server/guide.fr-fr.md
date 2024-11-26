@@ -161,7 +161,10 @@ passwd: password updated successfully
 > Sauf mention contraire, toutes les actions d'administration décrites dans notre documentation peuvent être accomplies par le compte d'utilisateur par défaut, c'est-à-dire en tapant `sudo` suivi de la commande correspondante. Apprenez-en plus sur ce sujet dans notre guide sur la [configuration des comptes utilisateurs et de l'accès root sur un serveur](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-Selon vos besoins en matière de sécurité, de mobilité et de commodité, les clés SSH peuvent servir de méthode de connexion supplémentaire ou même remplacer une identification via un nom d'utilisateur et un mot de passe. Découvrez comment les utiliser dans notre guide : [Créer et utiliser des clés SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+Selon vos besoins en matière de sécurité, de mobilité et de commodité, les clés SSH peuvent servir de méthode de connexion supplémentaire ou même remplacer une identification via un nom d'utilisateur et un mot de passe. Découvrez comment les utiliser dans nos guides :
+
+- [Comment créer et utiliser des clés pour l'authentification SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Comment créer et utiliser des clés pour l'authentification SSH avec PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 #### Windows
 
@@ -239,7 +242,7 @@ Si vous utilisez un serveur Windows, rendez-vous sur [ce guide](/pages/bare_meta
 
 Vous pouvez activer ou désactiver le monitoring d'un serveur dédié à partir de l'onglet `Informations générales`{.action} de votre [espace client OVHcloud](/links/manager). L'option se situe dans la section `État des services`.
 
-![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-service.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server.png){.thumbnail}
 
 Cliquez sur le bouton `Configurer`{.action}. Dans la fenêtre qui apparaît, vous avez trois options pour le comportement du monitoring :
 
