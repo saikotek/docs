@@ -444,7 +444,7 @@ To store a [key-based connection session](#puttykeys), carry out the following a
     <td><img alt="putty" class="thumbnail" src="/pages/assets/screens/other/web-tools/putty/sessions4.png" loading="lazy"></td>
   </tr>
   <tr>
-    <td>1. Open PuTTY.<br> 2. Enter the connection details into the field under <code>Host Name (or IP address)</code>: <strong>username@IPv4_server</strong> (example: <strong>ubuntu@203.0.113.101</strong>)<br> 3\. If relevant, edit the SSH port number in the field under <code>Port</code>.</td>
+    <td>1. Open PuTTY.<br> 2. Enter the connection details into the field under <code>Host Name (or IP address)</code>: <strong>username@IPv4_server</strong> (example: <strong>ubuntu@203.0.113.101</strong>)<br> 3. If relevant, edit the SSH port number in the field under <code>Port</code>.</td>
   </tr>
   <tr>
     <td><img alt="putty" class="thumbnail" src="/pages/assets/screens/other/web-tools/putty/putty3.png" loading="lazy"></td>
