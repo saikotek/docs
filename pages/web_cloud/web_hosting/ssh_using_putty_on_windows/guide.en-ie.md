@@ -439,7 +439,7 @@ To open a connection saved previously, carry out the following actions:
 
 To store a [key-based connection session](#puttykeys), carry out the following actions:
 
-<table style="background-color:#ffffff;border: 1px solid;text-align:left;vertical-align:top"><tbody>
+<table style="background-color:#ffffff;border:1px solid;text-align:left;vertical-align:top"><tbody>
   <tr>
     <td><img alt="putty" class="thumbnail" src="/pages/assets/screens/other/web-tools/putty/sessions4.png" loading="lazy"></td>
   </tr>
