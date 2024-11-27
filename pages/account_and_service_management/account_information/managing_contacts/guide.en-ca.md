@@ -38,7 +38,7 @@ There are three different contact types:
 
 Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca){.external}, click on the name linked to your customer account in the menu bar in the top right-hand corner, then click `Contact management`{.action}.
 
-![Contact management](images/hubcontacts.png){.thumbnail}
+![Contact management](/pages/assets/screens/control_panel/product-selection/right-column/initials/contact-management.png){.thumbnail}
 
 The table that appears will show all of the services your account is registered with as a contact.
 

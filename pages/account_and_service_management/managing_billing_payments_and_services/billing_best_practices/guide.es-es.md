@@ -48,7 +48,7 @@ Asegúrese de que su dirección de correo electrónico esté siempre **actualiza
 También puede acceder a los mensajes de correo enviados por OVHcloud desde su [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es).<br>
 Haga clic en su nombre en la esquina superior derecha de su pantalla y, seguidamente, en el menú de la derecha, haga clic en `Emails de servicio`{.action}.
 
-![service_emails](images/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/initials/service_emails.png){.thumbnail}
 
 ### Active la renovación automática
 

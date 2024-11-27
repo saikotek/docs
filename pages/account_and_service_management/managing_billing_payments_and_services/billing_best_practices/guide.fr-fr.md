@@ -48,7 +48,7 @@ Assurez-vous que votre adresse e-mail est toujours **à jour, sécurisée et acc
 Les e-mails envoyés par OVHcloud sont également accessibles depuis votre [espace client OVHcloud](/links/manager).<br>
 Cliquez sur votre nom en haut à droite de votre écran puis sur `E-mails de service`{.action} dans le menu de droite.
 
-![service_emails](images/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/initials/service_emails.png){.thumbnail}
 
 ### Activez le renouvellement automatique
 
