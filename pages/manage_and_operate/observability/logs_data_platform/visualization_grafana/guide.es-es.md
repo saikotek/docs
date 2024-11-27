@@ -1,6 +1,6 @@
 ---
 title: Using Grafana with Logs Data Platform
-updated: 2022-06-15
+updated: 2024-11-26
 ---
 
 ## Objective
@@ -55,7 +55,7 @@ If everything is setup properly, launch your favorite browser, and point it to [
 > - Set your Logs Data Platform credentials for Basic auth values
 > - Set your Logs Data Platform alias name as Grafana Index name value
 > - Change default Time field name to timestamp
-> - Set **1.X** as OpenSearch version
+> - Set **2.X** as OpenSearch version
 > - Register your data source and test it.
 >
 

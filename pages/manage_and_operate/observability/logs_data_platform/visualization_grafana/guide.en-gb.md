@@ -1,6 +1,6 @@
 ---
 title: Using Grafana with Logs Data Platform
-updated: 2022-06-15
+updated: 2024-11-26
 ---
 
 ## Objective
