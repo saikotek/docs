@@ -48,7 +48,7 @@ Una volta inoltrata la richiesta, un’email di conferma della disattivazione vi
 
 Il messaggio è disponibile anche nello Spazio Cliente: clicca sul nome utente in alto a destra e seleziona `Email di servizio`{.action}.
 
-![Conferma disattivazione](images/resiliation4.png){.thumbnail}
+![Conferma disattivazione](/pages/assets/screens/control_panel/product-selection/right-column/initials/service_emails.png){.thumbnail}
 
 L’oggetto dell’email dovrebbe essere:
 
