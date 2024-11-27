@@ -47,7 +47,7 @@ Para conectarse por SSH, utilice un terminal de línea de comandos. De este modo
 
 > [!primary]
 >
-> En MacOS, Linux y Windows 10, esta herramienta está instalada por defecto. Si tiene un entorno Windows más antiguo, deberá instalar un programa como PuTTY o añadir la funcionalidad OpenSSH.
+> En MacOS, Linux y Windows 10, esta herramienta está instalada por defecto. Si tiene un entorno Windows más antiguo, deberá instalar un programa como [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) o añadir la funcionalidad OpenSSH.
 
 Existen dos formas de conectarse según el método que utilice:
 
