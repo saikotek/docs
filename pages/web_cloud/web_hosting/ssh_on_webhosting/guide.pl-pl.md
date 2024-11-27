@@ -47,7 +47,7 @@ Aby zalogować się przez SSH, użyj terminala, dzięki któremu będziesz móg�
 
 > [!primary]
 >
-> Narzędzie to jest zainstalowane domyślnie na MacOS, Linuxie i Windows 10. Starsza wersja środowiska Windows wymagać będzie instalacji programu, takiego jak PuTTY lub dodania funkcji OpenSSH.
+> Narzędzie to jest zainstalowane domyślnie na MacOS, Linuxie i Windows 10. Starsza wersja środowiska Windows wymagać będzie instalacji programu, takiego jak [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) lub dodania funkcji OpenSSH.
 
 Masz teraz dwie możliwości zalogowania się, w zależności od używanej przez Ciebie metody:
 

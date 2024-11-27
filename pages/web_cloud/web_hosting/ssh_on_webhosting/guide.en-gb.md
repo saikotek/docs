@@ -47,7 +47,7 @@ To log in via SSH, use a terminal to interact directly with your storage space v
 
 > [!primary]
 >
-> This tool is installed by default on macOS, Linux, and Windows 10. With an older Windows environment, you will need to install a program like PuTTY, or add the OpenSSH feature.
+> This tool is installed by default on macOS, Linux, and Windows 10. With an older Windows environment, you will need to install a program like [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows), or add the OpenSSH feature.
 
 There are now two ways of connecting to your storage space, depending on the method you use:
 

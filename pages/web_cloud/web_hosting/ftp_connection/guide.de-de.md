@@ -100,7 +100,7 @@ Geben Sie auf der neu geöffneten Seite Ihre FTP-Kennung und das zugehörige Pas
 
 #### 2. Via FTP-Client verbinden <a name="ftpsoftware"></a>
 
-Nachdem Sie zuvor das FTP-Programm Ihrer Wahl auf Ihrem Computer installiert haben (z.B. [FileZilla](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) oder [Cyberduck](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac), starten Sie es. 
+Nachdem Sie zuvor das FTP-Programm Ihrer Wahl auf Ihrem Computer installiert haben (z.B. [FileZilla](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) oder [Cyberduck](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac)), starten Sie es. 
 
 Geben Sie in den dafür vorgesehenen Feldern die Verbindungsdaten ein.
 

@@ -16,7 +16,9 @@ details>summary::before {
 details[open]>summary::before {
     content:'\25BC';
 }
-tr: {background-color: #ffffff;}
+table, th, td {
+  background-color: #ffffff;
+}
 </style>
 
 ## Objective
