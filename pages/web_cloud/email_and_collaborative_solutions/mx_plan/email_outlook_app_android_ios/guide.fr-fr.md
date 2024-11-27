@@ -123,9 +123,9 @@ Si votre compte e-mail est déjà paramétré et que vous souhaitez le paramétr
 
 ![outlook android](images/outlook-app-android-delete-account-02.png){.thumbnail .w-400 .h-600}
 
-Une fois votre compte e-mail supprimé, suivez les instructions de la partie « [Ajouter le compte](#add-account) » sur cette documentation.
-
-![outlook android](images/outlook-app-android-delete-account.png){.thumbnail .w-400 .h-600}
+> [!success]
+>
+> Une fois votre compte e-mail supprimé, suivez les instructions de la partie « [Ajouter le compte](#add-account) » sur cette documentation.
 
 ### Rappel des paramètres POP, IMAP et SMTP <a name="popimap-settings"></a>
 
