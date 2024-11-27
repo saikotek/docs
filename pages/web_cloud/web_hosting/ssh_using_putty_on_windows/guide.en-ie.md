@@ -439,13 +439,27 @@ To open a connection saved previously, carry out the following actions:
 
 To store a [key-based connection session](#puttykeys), carry out the following actions:
 
-| ![putty](/pages/assets/screens/other/web-tools/putty/sessions4.png){.thumbnail} |
-|:---|
-| 1\. Open PuTTY.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`. |
-| ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
-| 4\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 5\. Expand the node `Auth` in the `Category` tree.<br> 6\. Click `Credentials` to see the corresponding settings.<br> 7\. Click the button `Browse`{.action}.<br> 8\. Navigate to the folder that stores your private key files.<br> 9\. Open the key file concerned. |
-| ![sessions](/pages/assets/screens/other/web-tools/putty/sessions5.png){.thumbnail} |
-| 10\. Go back to the configuration category `Session` in the menu on the left.<br> 11\. Enter a name for this connection into the field under `Saved Sessions`.<br> 12\. Click the button `Save`{.action}. |
+<table style="background-color:#ffffff;border: 1px solid;text-align:left;vertical-align:top"><tbody>
+  <tr>
+    <td><img alt="putty" class="thumbnail" src="/pages/assets/screens/other/web-tools/putty/sessions4.png" loading="lazy"></td>
+  </tr>
+  <tr>
+    <td>1. Open PuTTY.<br> 2. Enter the connection details into the field under <code>Host Name (or IP address)</code>: <strong>username@IPv4_server</strong> (example: <strong>ubuntu@203.0.113.101</strong>)<br> 3\. If relevant, edit the SSH port number in the field under <code>Port</code>.</td>
+  </tr>
+  <tr>
+    <td><img alt="putty" class="thumbnail" src="/pages/assets/screens/other/web-tools/putty/putty3.png" loading="lazy"></td>
+  </tr>
+  <tr>
+    <td>4. Expand the node <code>SSH</code> under <code>Connection</code> in the <code>Category</code> tree.<br> 5. Expand the node <code>Auth</code> in the <code>Category</code> tree.<br> 6. Click <code>Credentials</code> to see the corresponding settings.<br> 7. Click the button <code class="action">Browse</code>.<br> 8. Navigate to the folder that stores your private key files.<br> 9. Open the key file concerned.</td>
+  </tr>
+  <tr>
+    <td><img alt="sessions" class="thumbnail" src="/pages/assets/screens/other/web-tools/putty/sessions5.png" loading="lazy"></td>
+  </tr>
+  <tr>
+    <td>10. Go back to the configuration category <code>Session</code> in the menu on the left.<br> 11. Enter a name for this connection into the field under <code>Saved Sessions</code>.<br> 12. Click the button <code class="action">Save</code>.</td>
+  </tr>
+</tbody>
+</table>
 
 <a name="qconnect"></a>
 
