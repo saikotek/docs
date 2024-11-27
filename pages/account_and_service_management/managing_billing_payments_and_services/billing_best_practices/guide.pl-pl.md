@@ -48,7 +48,7 @@ Upewnij się, czy Twoje konto e-mail jest zawsze **aktualne, bezpieczne i dostę
 E-maile wysłane przez OVHcloud są również dostępne w [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)<br>
 Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie kliknij `E-maile od OVHcloud`{.action} w prawym menu.
 
-![service_email](/pages/assets/screens/control_panel/product-selection/right-column/initials/service_emails.png){.thumbnail}
+![service_email](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 ### Włącz automatyczne odnowienie
 

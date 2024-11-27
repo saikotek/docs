@@ -48,7 +48,7 @@ Suite à votre demande, un e-mail de confirmation de résiliation vous est envoy
 
 Vous pouvez également retrouver cet e-mail dans votre espace client OVHcloud. Cliquez sur votre nom en haut à droite puis sur `E-mails de service`{.action}.
 
-![validation resiliation](/pages/assets/screens/control_panel/product-selection/right-column/initials/service_emails.png){.thumbnail}
+![validation resiliation](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 L'objet de l'e-mail est :
 

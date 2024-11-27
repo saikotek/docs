@@ -48,7 +48,7 @@ Aufgrund Ihrer Anfrage wird Ihnen eine Bestätigung der Kündigung per E-Mail an
 
 Diese E-Mail können Sie auch in Ihrem OVHcloud Kundencenter einsehen. Klicken Sie auf Ihren Namen oben rechts, dann auf `E-Mails vom Support`{.action}.
 
-![Bestätigung der Kündigung](/pages/assets/screens/control_panel/product-selection/right-column/initials/service_emails.png){.thumbnail}
+![Bestätigung der Kündigung](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 Der Betreff der E-Mail ist:
 

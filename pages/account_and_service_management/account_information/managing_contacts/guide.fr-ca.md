@@ -39,7 +39,7 @@ Trois types de contacts existent:
 
 Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc){.external}, cliquez sur le nom rattaché à votre compte client dans la barre de menu en haut à droite, puis cliquez sur `Gestion des contacts`{.action}.
 
-![Contact management](/pages/assets/screens/control_panel/product-selection/right-column/initials/contact-management.png){.thumbnail}
+![Contact management](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
 Le tableau qui apparaît permet ainsi de visionner les différents services pour lesquels votre compte client est renseigné en tant que contact.
 

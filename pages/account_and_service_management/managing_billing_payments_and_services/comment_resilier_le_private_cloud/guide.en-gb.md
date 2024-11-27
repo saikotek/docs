@@ -48,7 +48,7 @@ Following your request, a termination confirmation email is sent to you at the a
 
 You can also find this email in your OVHcloud client space. Click on your name at the top right and then on `Service emails`{.action}.
 
-![Cancellation validation](/pages/assets/screens/control_panel/product-selection/right-column/initials/service_emails.png){.thumbnail}
+![Cancellation validation](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 The subject of the email is:
 
