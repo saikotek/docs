@@ -1526,6 +1526,7 @@
             + [Setting up an email application on your computer](web-cloud-email-collaborative-solutions-mx-plan-setting-up-email-application-on-computer)
                 + [Configuring your email account in Outlook for Windows](web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_outlook_2016)
                 + [Configuring your email account in Outlook for macOS](web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_outlook_2016_mac)
+                + [Configure your email account in Outlook for Android](web_cloud/email_and_collaborative_solutions/mx_plan/email_outlook_app_android_ios)
                 + [Configuring an email account on the macOS Mail app](web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_mail_macos)
                 + [Configuring an email account on Thunderbird for Windows](web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_thunderbird_windows)
                 + [Configuring an email account on Thunderbird for macOS](web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_thunderbird_mac)
