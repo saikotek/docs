@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak włączyć OVHcloud Link Aggregation w Panelu klient
 updated: 2022-05-18
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie
 
 Technologia OVHcloud Link Aggregation (OLA) została zaprojektowana przez nasze zespoły w celu zwiększenia dostępności serwera i wydajności połączeń sieciowych. Za pomocą kilku kliknięć możesz łączyć karty sieciowe i redundantować połączenia sieciowe. Oznacza to, że w przypadku awarii połączenia ruch jest automatycznie przekierowywany do innego dostępnego połączenia.<br>
@@ -48,6 +44,8 @@ Zakończenie operacji może potrwać kilka minut. Kolejny krok to powiązanie in
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
+[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
 ### Przywróć OLA do wartości domyślnych
 
 Aby przywrócić OLA do wartości domyślnych, kliknij przycisk `...`{.action} po prawej stronie "Tryb" w ramce **OLA: OVHcloud Link Aggregation**. Następnie kliknij `Dekonfiguruj agregację prywatną`{.action}. Kliknij `Potwierdź`{.action} w menu kontekstowym.
@@ -61,5 +59,7 @@ Operacja może zająć kilka minut.
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
+
+[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
 
 Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.

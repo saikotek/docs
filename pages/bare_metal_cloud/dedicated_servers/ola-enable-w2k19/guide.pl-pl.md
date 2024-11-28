@@ -72,4 +72,6 @@ OVHcloud zapewnia klientom swobodę i elastyczność wykorzystania sprzętu w sp
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
+[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
 Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.

@@ -85,4 +85,6 @@ Dieser Neustart kann einige Sekunden dauern, da die Bond-Schnittstelle erstellt 
 
 [Konfigurieren Ihrer Netzwerkkarte für die OVHcloud Link Aggregation in Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
+[Konfigurieren der OVHcloud Link Aggregation in SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
 Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.

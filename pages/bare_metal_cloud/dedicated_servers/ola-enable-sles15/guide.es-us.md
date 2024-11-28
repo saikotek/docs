@@ -4,10 +4,6 @@ excerpt: 'Activar OVHcloud Link Aggregation en su servidor SLES 15'
 updated: 2024-11-26
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
-
 ## Objetivo
 
 La tecnología OVHcloud Link Aggregation (OLA) está diseñada por nuestros equipos para aumentar la disponibilidad de su servidor y mejorar la eficiencia de sus conexiones de red. En solo unos clics, podrá agregar sus mapas de red y hacer redundantes sus conexiones de red. Esto significa que si un enlace se rompe, el tráfico se redirige automáticamente a otro enlace disponible.
