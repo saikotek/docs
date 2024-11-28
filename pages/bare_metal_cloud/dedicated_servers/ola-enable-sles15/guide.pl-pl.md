@@ -138,8 +138,6 @@ Możesz również sprawdzić parametry używane w interfejsie ifcfg-bond0 za pom
 
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud z systemem Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud z systemem CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud w systemie Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
 Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.

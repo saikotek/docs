@@ -46,8 +46,6 @@ A operação pode demorar alguns minutos até ficar concluída. O próximo passo
 
 [Como configurar a NIC para o OVHcloud Link Aggregation em Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
-[Como configurar a NIC para o OVHcloud Link Aggregation em CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7)
-
 [Como configurar a NIC para o OVHcloud Link Aggregation em Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 ### Restaurar OLA aos valores predefinidos
@@ -61,8 +59,6 @@ A operação pode demorar alguns minutos.
 ## Saiba mais
 
 [Como configurar a NIC para o OVHcloud Link Aggregation em Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
-
-[Como configurar a NIC para o OVHcloud Link Aggregation em CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7)
 
 [Como configurar a NIC para o OVHcloud Link Aggregation em Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 

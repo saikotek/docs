@@ -138,8 +138,6 @@ También puede comprobar los parámetros utilizados en su interfaz ifcfg-bond0 u
 
 [Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
 Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.

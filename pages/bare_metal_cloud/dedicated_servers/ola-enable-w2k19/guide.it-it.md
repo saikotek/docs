@@ -72,6 +72,4 @@ Per testare il corretto funzionamento del nuovo NIC team creato, effettua il pin
 
 [Configurare un NIC per il servizio OVHcloud Link Aggregation in Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Configurare un NIC per il servizio OVHcloud Link Aggregation in CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.

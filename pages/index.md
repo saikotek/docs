@@ -209,7 +209,6 @@
             + [How to configure Link Aggregation with LACP in Debian 12 or Ubuntu 24.04](bare_metal_cloud/dedicated_servers/lacp-enable-netplan)
             + [Configuring OVHcloud Link Aggregation in the OVHcloud Control Panel](bare_metal_cloud/dedicated_servers/ola-enable-manager)
             + [How to Configure Your NIC for OVHcloud Link Aggregation in Debian 9](bare_metal_cloud/dedicated_servers/ola-enable-debian9)
-            + [How to Configure Your NIC for OVHcloud Link Aggregation in CentOS 7](bare_metal_cloud/dedicated_servers/ola-enable-centos7)
             + [How to Configure Your NIC for OVHcloud Link Aggregation in Windows Server 2019](bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
             + [How to Configure Your NIC for OVHcloud Link Aggregation in SLES 15](bare_metal_cloud/dedicated_servers/ola-enable-sles15)
             + [Manage your server reboots with the OVHcloud Link Aggregation feature](bare_metal_cloud/dedicated_servers/pxe-with-full-private-dedicated)

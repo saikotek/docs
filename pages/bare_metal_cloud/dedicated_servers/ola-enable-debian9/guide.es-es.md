@@ -87,8 +87,6 @@ Este reinicio puede tardar unos segundos ya que se está creando la interfaz de 
 
 [Configurar el servicio OVHcloud Link Aggregation desde el área de cliente de OVHcloud](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager)
 
-[Configurar un NIC para el servicio OVHcloud Link Aggregation en CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7)
-
 [Configurar un NIC para el servicio OVHcloud Link Aggregation en Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.

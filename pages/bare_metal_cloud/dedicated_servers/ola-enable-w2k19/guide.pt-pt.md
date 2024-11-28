@@ -72,6 +72,4 @@ Para testar se a equipa NIC está a funcionar, faça um teste de ping noutro ser
 
 [Como configurar a NIC para o OVHcloud Link Aggregation em Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
-[Como configurar a NIC para o OVHcloud Link Aggregation em CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7)
-
 Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.

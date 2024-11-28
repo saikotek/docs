@@ -46,8 +46,6 @@ Zakończenie operacji może potrwać kilka minut. Kolejny krok to powiązanie in
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
-[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7)
-
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 ### Przywróć OLA do wartości domyślnych
@@ -61,8 +59,6 @@ Operacja może zająć kilka minut.
 ## Sprawdź również
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
-
-[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7)
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 

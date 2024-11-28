@@ -87,8 +87,6 @@ Questa operazione potrebbe richiedere alcuni secondi per costruire l’interfacc
 
 [Configurare un NIC per il servizio OVHcloud Link Aggregation nello Spazio Cliente](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager).
 
-[Configurare un NIC per il servizio OVHcloud Link Aggregation in CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Configurare un NIC per il servizio OVHcloud Link Aggregation in Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
 Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
