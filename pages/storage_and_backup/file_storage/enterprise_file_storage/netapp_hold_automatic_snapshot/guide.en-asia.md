@@ -1,14 +1,14 @@
 ---
 title: Enterprise File Storage - Hold an automatic snapshot
 excerpt: "Hold automatic snapshots from Enterprise File Storage offer using the OVHcloud API"
-updated: 2024-11-27
+updated: 2024-11-28
 ---
 
 ## Objective 
 
-**Automatic** snapshots are created by a [Snapshot Policy](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_snapshot_policy) which takes and keeps snapshot copies of a volume as defined by the rules associated with the policy.
+**Automatic** snapshots are created by a [Snapshot Policy](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_snapshot_policy) which takes and keeps snapshot copies of a volume as defined by the rules associated with the policy. 
 
-Holding an **automatic** snapshot prevents it from being rotated by the snapshot policy and makes it an **manual** snapshot.
+Holding an **automatic** snapshot prevents it from being rotated by the snapshot policy and makes it a **manual** snapshot.
 
 **Learn how to hold an automatic snapshot from your Enterprise File Storage offer using the OVHcloud API.**
 
@@ -17,6 +17,9 @@ Holding an **automatic** snapshot prevents it from being rotated by the snapshot
 - An active OVHcloud [Enterprise File Storage](/links/storage/enterprise-file-storage) service
 - Access to the [OVHcloud API](/links/api)
 - An Enterprise File Storage volume with an `automatic` snapshot
+
+> [!success]
+> If you are not familiar with using the OVHcloud API, please refer to our guide on [Getting started with the OVHcloud API](/pages/manage_and_operate/api/first-steps).
 
 ## Instructions
 
@@ -32,7 +35,7 @@ Holding an **automatic** snapshot prevents it from being rotated by the snapshot
 
 ![HoldSnapshot](images/hold_snapshot_step_1.png){.thumbnail}
 
-2\. Hold the snapshot using the following API call: 
+2\. Hold the snapshot using the following API call:
 
 > [!api]
 >
@@ -53,6 +56,6 @@ Holding an **automatic** snapshot prevents it from being rotated by the snapshot
 
 ## Go further
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/asia/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
