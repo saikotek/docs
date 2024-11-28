@@ -70,4 +70,4 @@ Um zu testen, ob unser NIC Team funktioniert, senden Sie einen Ping-Befehl an ei
 
 [Konfigurieren der OVHcloud Link Aggregation in SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

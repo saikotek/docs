@@ -136,4 +136,4 @@ Możesz również sprawdzić parametry używane w interfejsie ifcfg-bond0 za pom
 
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud w systemie Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

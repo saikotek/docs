@@ -136,4 +136,4 @@ Per verificare le impostazioni utilizzate dall'interfaccia ifcfg-bond0, utilizza
 
 [Come configurare il tuo NIC handle per aggregare i link OVHcloud con Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

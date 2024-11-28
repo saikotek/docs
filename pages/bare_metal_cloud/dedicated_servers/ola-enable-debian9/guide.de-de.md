@@ -87,4 +87,4 @@ Dieser Neustart kann einige Sekunden dauern, da die Bond-Schnittstelle erstellt 
 
 [Konfigurieren der OVHcloud Link Aggregation in SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.
