@@ -4,10 +4,6 @@ excerpt: 'Présentation du concept de SPN Connector au sein de la solution SecNu
 updated: 2021-11-18
 ---
 
-> [!primary]
-> Une version en langue anglaise de cette page est disponible [ici](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/snc-connectivity-concepts-spn-connector).
->
-
 ## Objectif
 
 SPN Connector est le mécanisme d'assemblage et d'interconnexion des SPN de différentes zones SecNumCloud et/ou avec VPN-SPN. 
@@ -53,6 +49,6 @@ Seul le transfert du trafic IP (routage) est supporté via le connecteur InterDC
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

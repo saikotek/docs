@@ -4,10 +4,6 @@ excerpt: 'Présentation des concepts de SecNumCloud Connectivity'
 updated: 2021-11-18
 ---
 
-> [!primary]
-> Une version en langue anglaise de cette page est disponible [ici](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/snc-connectivity-concepts-overview).
->
-
 ## Présentation de SecNumCloud Connectivity
 
 Les produits OVHcloud SecNumCloud nécessitent une connexion sécurisée pour répondre aux exigences de conformité. Une telle connexion est sécurisée par le protocole IPsec du vRack pour une connectivité externe et par un lien sécurisé entre zones SecNumCloud.
@@ -50,6 +46,6 @@ Le VPN-SPN gère la connectivité réseau externe via le protocole IPsec.
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

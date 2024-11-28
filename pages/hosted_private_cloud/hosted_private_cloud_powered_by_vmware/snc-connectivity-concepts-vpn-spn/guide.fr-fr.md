@@ -4,10 +4,6 @@ excerpt: 'Présentation du concept de VPN-SPN au sein de la solution SecNumCloud
 updated: 2021-11-18
 ---
 
-> [!primary]
-> Une version en langue anglaise de cette page est disponible [ici](https://help.ovhcloud.com/csm/en-gb-networking-secnumcloud-connectivity-vpn-spn-concept?id=kb_article_view&sysparm_article=KB0044874).
->
-
 ## Objectif
 
 VPN-SPN définit la connexion externe d'une zone SecNumCloud pour un tenant donné.
@@ -116,6 +112,6 @@ Une session eBGP doit être configurée dans le tunnel IPsec :
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
