@@ -6,9 +6,9 @@ updated: 2024-11-29
 
 ## Objective
 
-The SSH (Secure Shell) communication protocol is the preferred means of establishing encrypted host connections through untrusted networks. The OpenSSH utility is available on all OVHcloud servers (VPS, dedicated servers, Public Cloud instances) to allow secure remote server logins and other operations.
+The SSH (Secure Shell) communication protocol is the preferred means of establishing encrypted host connections through public networks. The OpenSSH utility is available on all OVHcloud servers (VPS, dedicated servers, Public Cloud instances) to allow secure remote server logins and other operations.
 
-**This guide explains how to securely access your server with SSH.**
+**This guide explains how to securely log on to your server with the SSH protocol.**
 
 > [!warning]
 >OVHcloud provides services for which you are responsible with regard to their configuration and management. It is therefore your responsibility to ensure that they function correctly.
