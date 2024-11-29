@@ -162,6 +162,14 @@ aws --endpoint-url https://s3.rbx-archive.io.cloud.ovh.net delete-ovh-archive <b
 
 After this request, the objects of the bucket are not deleted yet as the deletion is done asynchronously.<br>
 The operation will delete everything (on tapes and all objects if restored) and the bucket status will be in a "Deleting" status.<br>
+
+> [!primary]
+>
+> Although data deletion is done asynchronously, billing is stopped as soon as you submit the request!<br>
+> Deletion is done on a best effort basis and there is no committed duration.<br>
+> In the "Deleting" status, the bucket is locked and cannot be accessed.<br>
+>
+
 Once the deletion is completed:
 
 - The bucket status will be "Flushed".
