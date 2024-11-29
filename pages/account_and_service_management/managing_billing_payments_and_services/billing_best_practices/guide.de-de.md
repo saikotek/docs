@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier alles zur Verwaltung Ihrer Rechnungen, Bestellungen, 
 updated: 2022-05-02
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Diese Anleitung enthält die wichtigsten Punkte, die für eine ordnungsgemäße Verwaltung Ihres Accounts und die Abrechnung Ihrer OVHcloud Dienste unerlässlich sind.
@@ -102,4 +98,4 @@ Verwenden Sie dieses [Formular](https://www.ovh.de/schutz-personenbezogener-date
 
 [OVHcloud Rechnungen verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

@@ -88,4 +88,4 @@ Mettre fin à un appel via le socle de rechargement, placez le combiné sur le s
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

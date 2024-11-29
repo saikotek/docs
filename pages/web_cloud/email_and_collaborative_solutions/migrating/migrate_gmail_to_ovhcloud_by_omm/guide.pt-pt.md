@@ -160,5 +160,5 @@ A janela de progresso da migração aparece. Pode deixá-la aberta para acompanh
 
 [Como autorizar as conexões menos seguras no Gmail](/pages/web_cloud/email_and_collaborative_solutions/migrating/security_gmail).
 
-Fale com a nossa comunidade de utilizadores: [](https://community.ovh.com/en/).
+Fale com nossa [comunidade de utilizadores](/links/community).
 

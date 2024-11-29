@@ -175,4 +175,4 @@ To understand the difference between POP and IMAP, we will detail the elements t
 >
 > For more information about configuring an email address from the Outlook app on macOS, see [Microsoft Help Center](https://support.microsoft.com/en-gb/office/add-email-account-in-Outlook-6e27792a-9267-4aa4-8bb6-c84ef146101b).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

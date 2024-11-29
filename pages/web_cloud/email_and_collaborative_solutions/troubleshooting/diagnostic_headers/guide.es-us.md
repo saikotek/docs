@@ -176,4 +176,4 @@ Para ver la cabecera en la interfaz webmail &#60;Outlook.com&#62;, consulte la s
 
 [FAQ E-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

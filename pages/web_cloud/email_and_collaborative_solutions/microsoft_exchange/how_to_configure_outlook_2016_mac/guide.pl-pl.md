@@ -61,4 +61,4 @@ OVHcloud oferuje aplikację internetową wyposażoną w [funkcje do pracy zespo�
 
 [Konfiguracja konta e-mail, włączonego do usługi MX Plan lub do usługi hostingu, w programie Outlook na urządzeniu Mac](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_outlook_2016_mac).
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

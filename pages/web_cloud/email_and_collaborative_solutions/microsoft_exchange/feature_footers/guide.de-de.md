@@ -59,4 +59,4 @@ Bitte beachten Sie die folgenden Hinweise, bevor Sie Signaturen für Benutzer ei
 
 [Kalender in OWA freigeben](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Für den Austausch mit unserer Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

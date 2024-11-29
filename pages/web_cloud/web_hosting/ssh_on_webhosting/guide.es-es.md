@@ -4,10 +4,6 @@ excerpt: "Descubra cómo conectarse y utilizar el acceso SSH en un alojamiento w
 updated: 2024-01-30
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Los planes de hosting de OVHcloud permiten disponer de un espacio de almacenamiento en el que publicar los archivos de sus sitios web o aplicaciones. Para acceder a este espacio de almacenamiento, es necesario tener un usuario FTP o SSH y las contraseñas asociadas.
@@ -51,7 +47,7 @@ Para conectarse por SSH, utilice un terminal de línea de comandos. De este modo
 
 > [!primary]
 >
-> En MacOS, Linux y Windows 10, esta herramienta está instalada por defecto. Si tiene un entorno Windows más antiguo, deberá instalar un programa como PuTTY o añadir la funcionalidad OpenSSH.
+> En MacOS, Linux y Windows 10, esta herramienta está instalada por defecto. Si tiene un entorno Windows más antiguo, deberá instalar un programa como [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) o añadir la funcionalidad OpenSSH.
 
 Existen dos formas de conectarse según el método que utilice:
 

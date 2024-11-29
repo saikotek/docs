@@ -1,7 +1,7 @@
 ---
 title: How to get started with a VPS
 excerpt: Find out how to manage a VPS in the OVHcloud Control Panel and the first steps of using a VPS, including remote connections and security measures
-updated: 2024-10-30
+updated: 2024-11-22
 ---
 
 ## Objective
@@ -145,8 +145,19 @@ You can carry out reinstallations in your Control Panel. Click the `...`{.action
 
 In the popup window, choose an operating system from the drop-down list. The options offered represent [images compatible with an OVHcloud VPS](/pages/public_cloud/compute/image-life-cycle) and are immediately functional after installation.
 
-You can also select an **SSH key** to install on the system, if you have stored one previously in your [OVHcloud Control Panel](/links/manager). To find out more about this topic, consult our guide on [how to create and use SSH keys](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).  
-If you have selected an SSH key and you do not need a username and password to log in, activate the option `I do not wish to receive my VPS authentication codes by email`.
+If you have selected a compatible operating system, you can provide a **public key** to be installed automatically. You have two options:
+
+- Manually copy the key string and paste it into the field `Your Public SSH key`.
+- If you have previously stored a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
+
+![VPSnewreinstallation](images/reinstall.png){.thumbnail}
+
+To find out more about this topic, consult our guides:
+
+- [How to create and use keys for SSH authentication](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [How to create and use keys for SSH authentication with PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+
+If you have selected an SSH key and you do not need a password to log in, activate the option `I do not wish to receive my VPS authentication codes by email`.
 
 > [!warning]
 >

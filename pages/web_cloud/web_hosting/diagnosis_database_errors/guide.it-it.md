@@ -4,10 +4,6 @@ excerpt: "Diagnostica i casi di errore più frequenti associati ai database"
 updated: 2024-09-26
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 L'utilizzo dei database può provocare alcune anomalie sul tuo sito o sul tuo [Spazio Cliente OVHcloud](/links/manager), così come sull'interfaccia [PhpMyAdmin](/pages/web_cloud/web_hosting/sql_create_database).

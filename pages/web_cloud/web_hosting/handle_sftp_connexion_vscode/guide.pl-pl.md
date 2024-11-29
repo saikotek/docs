@@ -4,10 +4,6 @@ excerpt: "Zarządzanie stroną WWW na hostingu za pomocą kodu Visual Studio Cod
 updated: 2023-11-06
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Jeśli posiadasz hosting od OVHcloud, zyskasz dostęp do przestrzeni dyskowej umożliwiającej zarządzanie stroną WWW. Dostęp do przestrzeni dyskowej jest możliwy poprzez protokół SFTP. Chociaż możliwe jest połączenie za pomocą terminala, możesz również użyć zintegrowanego środowiska programistycznego (IDE) Visual Studio Code do zarządzania folderami i plikami strony WWW.

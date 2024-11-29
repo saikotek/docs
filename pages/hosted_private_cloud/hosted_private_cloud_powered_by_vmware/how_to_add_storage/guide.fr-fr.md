@@ -44,4 +44,4 @@ Une fois la commande livrée, le nouveau datastore est listé dans votre datacen
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

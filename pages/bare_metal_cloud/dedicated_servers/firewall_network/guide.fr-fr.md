@@ -194,4 +194,4 @@ Après avoir lu ce tutoriel, vous devriez pouvoir configurer le Edge Network Fir
 
 - [Protéger un serveur GAME avec le pare-feu applicatif](/pages/bare_metal_cloud/dedicated_servers/firewall_game_ddos)
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

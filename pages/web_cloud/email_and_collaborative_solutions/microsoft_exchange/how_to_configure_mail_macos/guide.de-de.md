@@ -109,4 +109,4 @@ Wenn Ihr E-Mail-Account bereits eingerichtet ist und Sie auf die Kontoeinstellun
 
 [MX Plan E-Mail-Account auf macOS Mail einrichten](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_mail_macos)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

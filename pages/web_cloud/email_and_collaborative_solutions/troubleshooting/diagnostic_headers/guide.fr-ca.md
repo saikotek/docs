@@ -172,4 +172,4 @@ Pour afficher l'en-tête dans l'interface webmail &#60;Outlook.com&#62;, consult
 
 [FAQ E-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

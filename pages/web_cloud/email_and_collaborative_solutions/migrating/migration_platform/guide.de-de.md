@@ -134,4 +134,4 @@ Wenn Sie einen der migrierten Accounts auf einem lokalen E-Mail-Client eingerich
 
 [Exchange Hilfen](/products/web-cloud-email-collaborative-solutions-microsoft-exchange)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

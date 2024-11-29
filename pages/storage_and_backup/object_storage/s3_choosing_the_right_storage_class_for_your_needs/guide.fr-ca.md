@@ -1,6 +1,6 @@
 ---
 title: Object Storage - Choisir une classe de stockage adaptée à vos besoins
-updated: 2024-06-11
+updated: 2024-11-25
 ---
 
 Le stockage objet « Object Storage » est une famille d’offres de stockage proposant des espaces de stockage performants, scalables et sécurisés.
@@ -15,11 +15,17 @@ La classe de stockage Standard offre un service de stockage objet scalable, comp
 
 Cette offre est adaptée aux cas d'usage suivants : media / content storage & delivery, datalake, website, backup, logs et métriques d'applications.
 
-### High Performance object storage - S3 API
+> [!primary]
+> La classe de stockage Standard est disponible sur les régions **1-AZ et 3-AZ**. Plus de détails sur les régions disponibles [ici](/pages/storage_and_backup/object_storage/s3_location).
+
+### High Performance object storage - S3 API
 
 La classe de stockage High Performance est un espace de stockage objet hautement performant, pour les applicatifs ayant de gros besoins en bande passante et nécessitant des accès à la donnée en lecture et en écriture extrêmement rapides et intensifs. L’offre s’appuie sur un stockage sur des disques performants de type SSD NVMe au sein d'une architecture résiliente dans un datacentre. L’offre est accessible depuis une API S3.
 
 Cette offre est adaptée aux cas d'usage suivants : AI & Analytics, Datalake, High power Computing Multimedia / Content Platform.
+
+> [!primary]
+> La classe de stockage High Performance est disponible sur les régions **1-AZ** uniquement. Plus de détails sur les régions disponibles [ici](/pages/storage_and_backup/object_storage/s3_location).
 
 ## Les offres de stockage objet SWIFT sont les suivantes :
 
@@ -44,6 +50,6 @@ La liste de tous les points de terminaison API est disponible [ici](/pages/stora
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

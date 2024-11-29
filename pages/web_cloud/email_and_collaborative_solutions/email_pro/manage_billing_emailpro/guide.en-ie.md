@@ -69,4 +69,4 @@ In the `Email accounts`{.action} tab of your service, click the `Actions`{.actio
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

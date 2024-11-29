@@ -236,4 +236,4 @@ La disattivazione di questi cookies può compromettere la stabilità della webma
 
 [Creare gruppi di contatti (mailing list)](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

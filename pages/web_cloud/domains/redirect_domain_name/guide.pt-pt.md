@@ -4,10 +4,6 @@ excerpt: "Descubra os diferentes tipos de reencaminhamento e como criar um reenc
 updated: 2024-03-08
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O reencaminhamento de um domínio consiste em reencaminhá-lo para um novo destino. Existem diferentes tipos de reencaminhamentos, cada um deles respondendo a uma necessidade específica.

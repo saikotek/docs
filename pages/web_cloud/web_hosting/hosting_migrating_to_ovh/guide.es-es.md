@@ -4,10 +4,6 @@ excerpt: "Descubra cómo migrar un sitio web, un dominio, una base de datos o un
 updated: 2024-06-24
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Esta guía explica las diferentes acciones que debe realizar para migrar su sitio web, sus carpetas, su dominio, su base de datos y sus direcciones de correo electrónico a OVHcloud, sin interrupción del servicio.

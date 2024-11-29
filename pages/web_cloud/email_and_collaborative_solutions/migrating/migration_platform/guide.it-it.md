@@ -134,4 +134,4 @@ Se hai configurato uno degli account migrati su un client di posta (ad esempio: 
 
 [Guides Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

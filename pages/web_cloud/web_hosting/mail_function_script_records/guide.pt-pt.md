@@ -4,10 +4,6 @@ excerpt: "Seguimento dos seus emails enviados a partir de um website num alojame
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Os e-mails automatizados são mensagens enviadas através de scripts. Geralmente com a ajuda da função "mail()" de PHP. São utilizados, por exemplo, para o formulário de contacto do seu website e permitem que os seus visitantes lhe enviem mensagens.

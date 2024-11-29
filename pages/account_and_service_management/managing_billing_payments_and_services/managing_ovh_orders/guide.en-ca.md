@@ -82,4 +82,4 @@ The window below will appear, allowing you to follow it in four steps.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

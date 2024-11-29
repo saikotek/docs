@@ -117,4 +117,4 @@ Vous pouvez suivre le guide « [Installer l’image OverTheBox sur votre matéri
 
 ## Aller plus loin
 
-N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)
+Échangez avec notre [communauté d'utilisateurs](/links/community).

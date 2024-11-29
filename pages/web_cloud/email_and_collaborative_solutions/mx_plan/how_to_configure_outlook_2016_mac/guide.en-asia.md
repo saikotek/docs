@@ -78,4 +78,4 @@ OVHcloud also offers a web application that you can use to consult your email fr
 >
 > For more information on configuring an email address from the Outlook app on macOS, see [the Microsoft Help Center](https://support.microsoft.com/en-gb/office/add-an-email-account-to-outlook-for-mac-6aeec61b-86af-40af-8ffe-985d0fc82ddb).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

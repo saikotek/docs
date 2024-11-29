@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come creare un database sul tuo hosting Web OVH
 updated: 2024-09-05
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Un database (BDD) è utilizzato per archiviare elementi dinamici (dati di connessione, dati degli utenti, dati di visualizzazione, dati necessari al corretto funzionamento del sito Web, ecc...). Questi database vengono utilizzati nella maggior parte dei moderni sistemi di gestione dei contenuti (CMS), ad esempio *WordPress*, *Joomla!*, *Drupal* o *PrestaShop*.

@@ -174,4 +174,4 @@ A popup window will ask you to confirm the deletion.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

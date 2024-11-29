@@ -44,4 +44,4 @@ Le nouvel hôte sera ensuite listé dans votre datacenter et prêt à l'usage.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

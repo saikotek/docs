@@ -53,4 +53,4 @@ Le nouveau  « reverse » sera alors affiché dans le tableau.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur [https://community.ovh.com/](https://community.ovh.com/){.external}.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

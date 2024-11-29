@@ -133,4 +133,4 @@ Para servicios especializados (posicionamiento web, desarrollo...), póngase en 
 
 Si desea ayuda para el uso y la configuración de sus soluciones de OVHcloud, consulte nuestras distintas [ofertas de soporte](/links/support).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

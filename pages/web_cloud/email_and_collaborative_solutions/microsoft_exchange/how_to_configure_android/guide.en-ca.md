@@ -103,4 +103,4 @@ Once you have configured your email account, you can start using it! You can now
 
 [Email Pro - Configuring an email address in Gmail for Android](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_android).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -114,4 +114,4 @@ Dal tuo software Outlook, troverai il tuo account condiviso nella colonna di sin
 
 [Aggiungi un piede di pagina ai tuoi account Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

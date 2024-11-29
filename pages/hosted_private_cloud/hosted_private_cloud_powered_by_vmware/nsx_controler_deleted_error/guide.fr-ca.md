@@ -39,4 +39,4 @@ Cela explique également l'alerte sur le tableau de bord NSX :
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

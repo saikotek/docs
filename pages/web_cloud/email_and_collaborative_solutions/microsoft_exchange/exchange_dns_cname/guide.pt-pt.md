@@ -114,4 +114,4 @@ Para verificar se a configuração do registo CNAME foi lida corretamente pela s
 
 ## Quer saber mais?
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

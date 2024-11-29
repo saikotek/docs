@@ -236,4 +236,4 @@ En el bandeja de entrada y en la columna de la izquierda encontrará las carpeta
 
 [Migrar una cuenta de correo con OVH Mail Migrator](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

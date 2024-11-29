@@ -175,4 +175,4 @@ Para compreender a diferença entre a utilização do protocolo POP e IMAP, vamo
 
 [Exchange - Configurar um endereço de e-mail no Gmail para Android](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_android).
 
-Fale com a nossa comunidade de utilizadores em [https://community.ovh.com](https://community.ovh.com).
+Fale com nossa [comunidade de utilizadores](/links/community).

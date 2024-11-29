@@ -61,4 +61,4 @@ Une fois le certificat activé, voici ce que vous obtiendrez :
 
 [Première configuration d'un nom de domaine](/pages/network/content_delivery_network_infrastructure/first_domain_name_configuration){.external}
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

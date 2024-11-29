@@ -134,4 +134,4 @@ Se configurou uma das contas migradas num cliente de e-mail (exemplo: Outlook, T
 
 [Guias Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange).
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

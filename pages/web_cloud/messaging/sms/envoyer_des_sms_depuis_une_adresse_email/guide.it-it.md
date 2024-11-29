@@ -161,4 +161,4 @@ L’utilizzo di caratteri non presenti in queste tabelle comporta il passaggio d
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>
+Contatta la nostra [Community di utenti](/links/community).

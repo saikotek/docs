@@ -105,4 +105,4 @@ Aidez-vous du guide « [Supprimer un datastore](/pages/hosted_private_cloud/host
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

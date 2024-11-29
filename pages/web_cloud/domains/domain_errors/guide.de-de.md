@@ -3,10 +3,6 @@ title: "Fehler bei Domain-Operationen beheben"
 updated: 2022-09-01
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Bei der Erstellung eines Domainnamens, dem Transfer oder dem Inhaberwechsel handelt es sich um technische Vorgänge, bei denen Fehler auftreten können. In diesem Fall kann ein Eingriff Ihrerseits erforderlich sein.

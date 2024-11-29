@@ -101,4 +101,4 @@ Pozostałe możliwe kody rezultatów możesz znaleźć w [tym przewodniku](/page
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

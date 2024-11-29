@@ -110,4 +110,4 @@ Depuis votre logiciel Outlook, vous retrouverez votre compte partagé dans la co
 
 [Ajouter un pied de page pour vos comptes Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

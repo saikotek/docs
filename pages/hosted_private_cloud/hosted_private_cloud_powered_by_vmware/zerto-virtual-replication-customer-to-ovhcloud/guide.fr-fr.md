@@ -335,4 +335,4 @@ La cause la plus probable est que la ZVM OVHCloud n'arrive pas à contacter la Z
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

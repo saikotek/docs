@@ -63,4 +63,4 @@ Consulte [nuestra guía relativa a la gestión del historial de envíos de SMS](
 
 [Las especificaciones técnicas del producto SMPP OVHcloud](/pages/web_cloud/messaging/sms/smpp-specification).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>
+Interactúe con nuestra [comunidad de usuarios](/links/community).

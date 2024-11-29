@@ -179,4 +179,4 @@ To understand the difference between POP and IMAP, we will break down the elemen
 
 [Configuring an Exchange account on Android via the Gmail app](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_android)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

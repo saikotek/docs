@@ -65,4 +65,4 @@ Then confirm your selection by clicking on `Recover`{.action}.
 
 ## Go further
   
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

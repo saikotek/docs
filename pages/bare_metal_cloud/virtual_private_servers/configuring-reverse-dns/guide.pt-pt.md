@@ -1,7 +1,7 @@
 ---
 title: "Como configurar a reverse DNS do seu servidor (registo PTR)"
 excerpt: Descubra como configurar a resolução reverse DNS do seu endereço IP a partir da Área de Cliente OVHcloud
-updated: 2024-09-24
+updated: 2024-11-05
 ---
 
 > [!primary]
@@ -44,7 +44,7 @@ Pode igualmente editar a reverse diretamente a partir do ícone em forma de cane
 > Ao introduzir o seu nome de domínio na reverse, este verifica imediatamente se o registo A remete para o mesmo IP. Isto é utilizado nos procedimentos antisspam, pelo que o seu registo A deve ser válido e propagado. Há certas regras a seguir aquando da introdução da reverse:
 >
 >  - a reverse não pode começar por um `-`
->  - a reverse não pode ter mais de 80 caracteres
+>  - a reverse não pode ter mais de 63 caracteres
 >  - a reverse não pode conter caracteres maiúsculos
 >  - a reverse deve terminar com um `.`
 >

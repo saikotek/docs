@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie das Backup einer im OVHcloud Kundencenter g
 updated: 2024-07-25
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Die meisten unserer [Webhosting](/links/web/hosting) Angebote beinhalten Datenbanken. Wenn Sie versehentlich eine mit Ihrem Webhosting verbundene Datenbank löschen, können Sie versuchen, über unsere API ein Backup dieser Datenbank wiederherzustellen.

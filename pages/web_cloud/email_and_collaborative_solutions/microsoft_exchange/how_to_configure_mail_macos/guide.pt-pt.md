@@ -108,4 +108,4 @@ Se a sua conta de e-mail já está configurada e tem de aceder aos parâmetros d
 
 [Configurar a conta de e-mail MX plan no Mail do macOS](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_mail_macos)
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -56,4 +56,4 @@ Renseignez alors un nouveau mot de passe et confirmez-le.
 
 [Définir et gérer le mot de passe de votre compte OVHcloud](/pages/account_and_service_management/account_information/manage-ovh-password)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

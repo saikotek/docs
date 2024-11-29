@@ -4,10 +4,6 @@ excerpt: "Diagnóstico de las causas de la inaccesibilidad de su sitio web"
 updated: 2022-08-02
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 En caso de que su sitio web no sea accesible, pueden aparecer varios errores en su navegador. Los siguientes ejemplos indican una configuración incorrecta de sus [servidores DNS](/pages/web_cloud/domains/dns_server_edit), su [zona DNS](/pages/web_cloud/domains/dns_zone_edit) o un dominio suspendido (si su sitio web no muestra ninguno de los mensajes de error descritos aquí, consulte [Más información](#go-further)):

@@ -1,12 +1,8 @@
 ---
 title: HA-NAS über NFS mounten
 excerpt: "Erfahren Sie hier, wie sich mit Ihrem HA-NAS unter Verwendung einer NFS-Freigabe verbinden"
-updated: 2024-09-18
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel 
 
@@ -18,12 +14,12 @@ OVHcloud HA-NAS ermöglicht Ihnen die Verwaltung eines über Netzwerk zugänglic
 >
 > OVHcloud stellt Ihnen Dienstleistungen zur Verfügung, für deren Konfiguration und Verwaltung Sie die alleinige Verantwortung tragen. Es liegt somit bei Ihnen, sicherzustellen, dass diese ordnungsgemäß funktionieren.
 > 
-> Wir stellen Ihnen diese Anleitung zur Verfügung, um Ihnen bei der Bewältigung alltäglicher Verwaltungsaufgaben zu helfen. Dennoch empfehlen wir Ihnen, einen [spezialisierten Dienstleister](https://partner.ovhcloud.com/de/directory/) zu kontaktieren oder Ihre Fragen an die [OVHcloud Community](https://community.ovh.com/en/) zu richten, wenn Sie Schwierigkeiten oder Zweifel hinsichtlich der Verwaltung, Nutzung oder Implementierung der Dienste auf einem Server haben.
+> Wir stellen Ihnen diese Anleitung zur Verfügung, um Ihnen bei der Bewältigung alltäglicher Verwaltungsaufgaben zu helfen. Dennoch empfehlen wir Ihnen, einen [spezialisierten Dienstleister](/links/partner) zu kontaktieren oder Ihre Fragen an die [OVHcloud Community](/links/community) zu richten, wenn Sie Schwierigkeiten oder Zweifel hinsichtlich der Verwaltung, Nutzung oder Implementierung der Dienste auf einem Server haben.
 > 
 
 ## Voraussetzungen
 
-- Sie haben ein [OVHcloud HA-NAS](https://www.ovhcloud.com/de/storage-solutions/nas-ha/) in Ihrem Kunden-Account.
+- Sie haben ein [OVHcloud HA-NAS](/links/storage/nas-ha) in Ihrem Kunden-Account.
 - Sie verfügen über einen OVHcloud Dienst, dem eine öffentliche IP-Adresse zugeordnet ist (Hosted Private Cloud, Dedicated Server, VPS, Public Cloud Instanz, etc.).
 - Auf Ihrem zugreifenden Server ist ein mit NFS kompatibles Betriebssystem installiert.
 - [Sie haben auf dem Dienst eine Partition mit aktiviertem NFS-Protokoll erstellt](/pages/storage_and_backup/file_storage/ha_nas/nas_get_started#partition).
@@ -34,7 +30,7 @@ OVHcloud HA-NAS ermöglicht Ihnen die Verwaltung eines über Netzwerk zugänglic
 
 Die folgenden Abschnitte enthalten Konfigurationsbeispiele für die am häufigsten verwendeten Distributionen/Betriebssysteme. Verbinden Sie sich zunächst per SSH mit Ihrem Server oder loggen Sie sich in die grafische Oberfläche Ihres installierten Betriebssystems ein. Die Beispiele und Instruktionen setzen voraus, dass Sie als Benutzer mit erhöhten Berechtigungen verbunden sind.
 
-Sie benötigen auch den **internen Namen** und die **IP-Adresse** Ihres HA-NAS, die Sie in der nach der Installation erhaltenen E-Mail oder in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) finden können.
+Sie benötigen auch den **internen Namen** und die **IP-Adresse** Ihres HA-NAS, die Sie in der nach der Installation erhaltenen E-Mail oder in Ihrem [OVHcloud Kundencenter](/links/manager) finden können.
 
 Die folgenden Notationen werden als Argumente in den Kommandozeilenabschnitten verwendet. Ersetzen Sie diese mit den entsprechenden Werten bei der Eingabe der Befehle.
 
@@ -78,30 +74,35 @@ Sie können nun über den angegebenen Ordner auf Ihre gemountete Partition zugre
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### CentOS 7 / AlmaLinux / Rocky Linux
+### RedHat-basierte Distributionen (CentOS / AlmaLinux / Rocky Linux / Fedora / ...)
+
+> [!warning]
+> **Achtung!**
+>
+> DNF ist der Nachfolger des Paketmanagers YUM und wird häufig in Linux-Distributionen verwendet, die auf Red Hat basieren.
 
 Überprüfen Sie, dass die neuesten Versionen der Pakete `nfs-utils` und `rpcbind` installiert sind:
 
 ```bash
-centos@server:~$ sudo yum install nfs-utils rpcbind
+root@server:~$ sudo yum install nfs-utils rpcbind
 ```
 
 Falls nötig, starten Sie den Dienst `rpcbind` mit folgendem Befehl neu:
 
 ```bash
-centos@server:~$ sudo systemctl restart rpcbind
+root@server:~$ sudo systemctl restart rpcbind
 ```
 
 Verwenden Sie folgenden Befehl, um Ihre Partition zu mounten:
 
 ```bash
-centos@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Beispiel:**
+**Beispiel 1:**
 
 ```bash
-centos@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 Sie können nun über den angegebenen Ordner auf Ihre gemountete Partition zugreifen.
@@ -113,24 +114,22 @@ Sie können nun über den angegebenen Ordner auf Ihre gemountete Partition zugre
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### Fedora
+**Beispiel 2:**
 
 Installieren Sie das Paket `nfs-utils`:
 
 ```bash
-fedora@server:~$ sudo dnf -y install nfs-utils
+root@server:~$ sudo dnf -y install nfs-utils
 ```
 
 Verwenden Sie anschließend folgenden Mount-Befehl:
 
 ```bash
-fedora@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Beispiel:**
-
 ```bash
-fedora@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 Sie können nun über den angegebenen Ordner auf Ihre gemountete Partition zugreifen.
@@ -175,6 +174,7 @@ Füllen Sie das Formular mit den folgenden Angaben aus.
 |Name|Bezeichnung für den Share|
 |NFS server|IP-Adresse des HA-NAS (Beispiel: `10.1.1.1`)|
 |NFS share|Pfad der zu mountenden HA-NAS Partition (Beispiel: `zpool-123456/partition01`)|
+|NFS-Version|Die zu verwendende Protokollversion. Wählen Sie die NFS-Version 3 aus.|
 
 ![ESXI](images/esxi3.png){.thumbnail}
 
@@ -191,7 +191,7 @@ HA-NAS unterstützt die Protokolle NFSv3 und NFSv4. Deren Verwendung wird im fol
 **Was passiert, wenn die NFS-Version im Befehl nicht angegeben wird?**
 
 In diesem Fall wird Ihr NFS-Client versuchen, sich direkt mit der aktuellsten unterstützten Version zu verbinden.
-Sie können aber auch auswählen, ob Sie NFSv3 oder NFSv4 verwenden möchten.
+Sie können aber auch auswählen, ob Sie NFSv3, NFSv4, NFSv4.1 oder NFSv4.2 verwenden möchten.
 
 Um die Verwendung von NFSv3 zu erzwingen, verwenden Sie folgenden Befehl:
 
@@ -226,11 +226,6 @@ ubuntu@server:~$ nfsstat -m
 Die Ausgabe zeigt über den Parameter `vers=3` oder `vers=4` das verwendete Protokoll an.
 
 Die oben aufgeführten Befehle können entsprechend in CentOS und Fedora verwendet werden.
-
-**Kann eine bestimmte Version für die Verwendung von NFSv4 eingegeben werden?**
-
-Wie zuvor versucht Ihr NFS-Client, sich direkt mit der höchsten unterstützten Version zu verbinden.
-Bei Bedarf können Sie zwischen NFSv4.1 und NFSv4.2 wählen.
 
 Um die Verwendung von NFSv4.1 zu erzwingen, verwenden Sie folgenden Befehl:
 
@@ -304,6 +299,6 @@ Einige Linux Kernel verwenden standardmäßig einen Wert von 128 KB `read_ahead_
 
 ## Weiterführende Informationen
 
-Wenn Sie Schulungen oder technische Unterstützung bei der Implementierung unserer Lösungen benötigen, wenden Sie sich an Ihren Vertriebsmitarbeiter oder klicken Sie auf [diesen Link](https://www.ovhcloud.com/de/professional-services/), um einen Kostenvoranschlag zu erhalten und eine persönliche Analyse Ihres Projekts durch unsere Experten des Professional Services Teams anzufordern.
+Wenn Sie Schulungen oder technische Unterstützung bei der Implementierung unserer Lösungen benötigen, wenden Sie sich an Ihren Vertriebsmitarbeiter oder klicken Sie auf [diesen Link](/links/professional-services), um einen Kostenvoranschlag zu erhalten und eine persönliche Analyse Ihres Projekts durch unsere Experten des Professional Services Teams anzufordern.
 
-Für den Austausch mit unserer Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

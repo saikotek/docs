@@ -237,4 +237,4 @@ Die Deaktivierung dieser Cookies kann möglicherweise die stabile Funktionalitä
 
 [Kontaktgruppen erstellen](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

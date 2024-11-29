@@ -4,10 +4,6 @@ excerpt: "Descubra cómo proteger su blog WordPress con uno o más archivos htac
 updated: 2024-05-28
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Este tutorial explica cómo configurar algunas funcionalidades de su alojamiento web con uno o varios archivos **.htaccess**, especialmente para modificar los parámetros de una parte o del conjunto de su sitio web (redirecciones, prohibiciones de acceso, autorizaciones restringidas, control de caché, etc.).

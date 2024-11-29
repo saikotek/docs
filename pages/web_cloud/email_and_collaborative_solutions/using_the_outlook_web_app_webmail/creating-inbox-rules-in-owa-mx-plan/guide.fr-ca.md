@@ -110,4 +110,4 @@ Veuillez noter que les faux-positifs ne peuvent pas être identifiés directemen
 
 [Utilisation de Outlook Web App avec un compte de messagerie](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak dodać połączenie do zewnętrznego API na stronie 
 updated: 2023-01-16
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Tutorial wyjaśnia, jak używać generatora strony [Cecil](https://cecil.app){.external} do wyświetlania zawartości dynamicznej strony. Podczas połączenia z API, aby pobrać i wyświetlić informacje na stronie generowanej przez **Cecil**.

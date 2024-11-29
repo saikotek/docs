@@ -123,4 +123,4 @@ Depois de criar o evento (ao clicar em `Enviar`{.action} para a barra de menu su
 
 [Partilhar uma pasta a partir da interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_directory_sharing)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

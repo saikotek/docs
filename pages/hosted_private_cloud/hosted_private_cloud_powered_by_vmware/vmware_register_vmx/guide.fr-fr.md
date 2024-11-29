@@ -184,4 +184,4 @@ register-vmxX -entityName "pcc-192-0-2-1_datacenter1337" -whatif:$true
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

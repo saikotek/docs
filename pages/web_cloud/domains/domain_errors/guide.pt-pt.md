@@ -3,10 +3,6 @@ title: 'Resolver um erro num domínio'
 updated: 2022-09-01
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A criação de um nome de domínio, a sua transferência, a sua mudança de proprietário são outras tantas operações para as quais pode ocorrer um erro. Poderá ser necessária uma intervenção da sua parte.

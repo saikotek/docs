@@ -72,4 +72,4 @@ In diesem Fall müssen Sie das Token zur Bestätigung eingeben. Es befindet sich
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

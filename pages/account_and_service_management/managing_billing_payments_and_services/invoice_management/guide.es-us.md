@@ -4,10 +4,6 @@ excerpt: Cómo gestionar sus facturas y pagos en OVHcloud
 updated: 2022-05-12
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 OVHcloud pone a su disposición un espacio que le permitirá consultar, administrar y abonar sus facturas.
@@ -141,5 +137,4 @@ También puede exportar sus justificantes de pago en formato *.CSV* utilizando e
 
 [Gestionar las formas de pago](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
-
+Interactúe con nuestra [comunidad de usuarios](/links/community).

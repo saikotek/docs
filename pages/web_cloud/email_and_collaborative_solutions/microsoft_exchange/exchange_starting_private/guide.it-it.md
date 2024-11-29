@@ -95,4 +95,4 @@ Per aggiungere un dominio alla tua piattaforma e configurare gli account; consul
 
 [Aggiungere un dominio su Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain) 
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

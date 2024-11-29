@@ -73,4 +73,4 @@ En la ventana de gestión de su plataforma Email Pro, haga clic en el botón `Ac
 
 ## Más información
   
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

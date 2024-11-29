@@ -339,4 +339,4 @@ Poursuivez la lecture de ce guide à l'[etape 5: définir un nouveau mot de pass
 
 [Utilisation de l'IPMI pour les serveurs dédiés](/pages/bare_metal_cloud/dedicated_servers/using_ipmi_on_dedicated_servers)
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

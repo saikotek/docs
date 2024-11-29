@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Network Services - Known limits
 excerpt: 'Requirements and limits to respect'
-updated: 2024-10-30
+updated: 2024-11-12
 ---
 
 ## Vrack and Public Cloud projects
@@ -42,6 +42,32 @@ The traffic towards Load Balancer IP (private IP or floating IP) is filtered. Wh
 To achieve the maximum bandwidth provided with each instance you may need to use **multi-flow**.
 
 For example, when using iperf to test your instance bandwidth, you can enable multi-flow by adding the `-P n` or `--parallel n` option. If n = 1 (which is the default if this option is omitted), you are testing bandwidth with a single flow. To achieve maximum bandwidth, you should increase the value of n.
+
+## Subnet allocation pool update
+
+When updating an allocation pool, e.g. from `[10.0.0.2:10.0.0.255]` to `[10.0.0.128:10.0.0.255]`, **all IPs already used prior to the allocation pool update are kept even if they are not in the new allocation pool.**
+
+For instance, if the subnet DHCP is activated, the IPs `10.0.0.2` and `10.0.0.3` will be used by DHCP servers and will still be used after the pool update.
+
+In order to release these IPs, you need to delete the two DHCP ports. They will be recreated automatically in the updated allocation pool. This can be done in Horizon or using the OpenStack CLI.
+
+For instance, you can delete all the dhcp ports from the private network with ID <PRIVATE_NETWORK_ID> with:
+
+```bash
+openstack port list --network <PRIVATE_NETWORK_ID> --device-owner network:dhcp -f value -c ID | xargs -I {} openstack port delete {}
+```
+
+Then check the newly created port that should be inside the updated IP allocation pool with:
+
+```bash
+openstack port list --network <PRIVATE_NETWORK_UID> --device-owner network:dhcp
++--------------------------------------+------+-------------------+---------------------------------------------------------------------------+--------+
+| ID                                   | Name | MAC Address       | Fixed IP Addresses                                                        | Status |
++--------------------------------------+------+-------------------+---------------------------------------------------------------------------+--------+
+| 4d991711-4322-4934-a06e-2e2b9cff2a56 |      | fa:16:3e:cc:48:27 | ip_address='10.0.0.129', subnet_id='578deb7c-211f-4f0f-8e45-c8ed07b3e16b' | ACTIVE |
+| 738e3c59-439d-4eed-bded-c7c301717a8c |      | fa:16:3e:62:32:5e | ip_address='10.0.0.128', subnet_id='578deb7c-211f-4f0f-8e45-c8ed07b3e16b' | ACTIVE |
++--------------------------------------+------+-------------------+---------------------------------------------------------------------------+--------+
+```
 
 ## We want your feedback!
 

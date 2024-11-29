@@ -333,4 +333,4 @@ Une autre possibilité pour consolider encore un peu plus votre infrastructure e
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

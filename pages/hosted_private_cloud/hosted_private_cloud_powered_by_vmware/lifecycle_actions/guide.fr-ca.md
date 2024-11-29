@@ -197,4 +197,4 @@ Si votre version de NSX-v n'est pas 6.4.14, veuillez créer un ticket afin de pl
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

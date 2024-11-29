@@ -603,4 +603,4 @@ Um auf die Konfiguration des Auto-Responders zuzugreifen, klicken Sie auf das Za
 
 [E-Mail-Weiterleitungen verwenden](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en>.
+Treten Sie unserer [User Community](/links/community) bei.

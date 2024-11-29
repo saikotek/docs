@@ -89,4 +89,4 @@ OVHcloud oferuje aplikację internetową umożliwiającą korzystanie z Twojego 
 
 [Najczęściej zadawane pytania dotyczące kont e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

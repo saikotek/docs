@@ -140,4 +140,4 @@ Le côté client est paramétré et la communication inter-sites est fonctionnel
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

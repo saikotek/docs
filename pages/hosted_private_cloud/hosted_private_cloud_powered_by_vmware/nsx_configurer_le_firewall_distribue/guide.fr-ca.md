@@ -194,4 +194,4 @@ La création/modification de règles/sections n'est pas enregistrée tant que vo
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -75,4 +75,4 @@ Seleccione la opción que corresponde a sus necesidades según la siguiente tabl
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

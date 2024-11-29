@@ -114,4 +114,4 @@ Aby sprawdzić, czy konfiguracja wpisu CNAME została odczytana przez Twoją pla
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie<https://community.ovh.com>.
+Dołącz do [grona naszych użytkowników](/links/community).

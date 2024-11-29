@@ -172,13 +172,13 @@ network:
 Vous pouvez tester votre configuration à l’aide de la commande suivante :
 
 ```bash
-sudo nano netplan try
+sudo netplan try
 ```
 
 Si elle est correcte, appliquez-la à l’aide de la commande suivante :
 
 ```bash
-sudo nano netplan apply
+sudo netplan apply
 ```
 
 #### Sur RedHat / CentOS / Rocky Linux / Alma Linux
@@ -303,4 +303,4 @@ Dans tous les cas, n'hésitez pas à effectuer une demande au support avec les �
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

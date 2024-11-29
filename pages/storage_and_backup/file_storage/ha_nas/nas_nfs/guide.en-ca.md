@@ -1,7 +1,7 @@
 ---
 title: Mounting HA-NAS via NFS share
 excerpt: Find out how to connect to your HA-NAS using an NFS share
-updated: 2024-09-18
+updated: 2024-11-08
 ---
 
 ## Objective 
@@ -13,12 +13,12 @@ The OVHcloud HA-NAS service allows you to manage file storage that can be access
 > [!warning]
 >OVHcloud is providing you with services for which you are responsible, with regard to their configuration and management. It is therefore your responsibility to ensure  that they function correctly.
 >
->This guide is designed to assist you in common tasks as much as possible. Nevertheless, we recommend that you contact a [specialist service provider](https://partner.ovhcloud.com/en-ca/directory/) or reach out to [our community](https://community.ovh.com/en/) if you face difficulties or doubts concerning the administration, usage or implementation of services on a server.
+>This guide is designed to assist you in common tasks as much as possible. Nevertheless, we recommend that you contact a [specialist service provider](/links/partner) or reach out to [our community](/links/community) if you face difficulties or doubts concerning the administration, usage or implementation of services on a server.
 >
 
 ## Requirements
 
-- An [OVHcloud HA-NAS solution](https://www.ovhcloud.com/en-ca/storage-solutions/nas-ha/)
+- An [OVHcloud HA-NAS solution](/links/storage/nas-ha)
 - An OVHcloud service with a public IP address attached to it (Hosted Private Cloud, dedicated server, VPS, Public Cloud instance, etc.)
 - An operating system compatible with NFS installed on your server
 - [A partition created on the service with the NFS protcol enabled](/pages/storage_and_backup/file_storage/ha_nas/nas_get_started#partition)
@@ -29,7 +29,7 @@ The OVHcloud HA-NAS service allows you to manage file storage that can be access
 
 The following sections contain configuration examples for the most commonly used distributions / operating systems. The first step is always to log in to your server via SSH or connecting to the GUI of your installed OS. The examples below presume you are logged in as a user with elevated permissions.
 
-You will also need the **internal name** and the **IP address** of your HA-NAS service which you can find in the email received after the installation or in your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca).
+You will also need the **internal name** and the **IP address** of your HA-NAS service which you can find in the email received after the installation or in your [OVHcloud Control Panel](/links/manager).
 
 The following notations are used as arguments in the command line sections below. Replace them with the appropriate values when entering the commands.
 
@@ -73,30 +73,35 @@ You can now access your mounted partition at the specified folder.
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### CentOS 7 / AlmaLinux / Rocky Linux
+### Distributions based on RedHat (CentOS / AlmaLinux / Rocky Linux / Fedora / ...)
+
+> [!warning]
+> **Warning!**
+>
+> DNF is the successor to YUM Packet Manager and is commonly used in various Linux distributions based on Red Hat.
 
 Verify that the latest versions of the packages `nfs-utils` and `rpcbind` are installed:
 
 ```bash
-centos@server:~$ sudo yum install nfs-utils rpcbind
+root@server:~$ sudo yum install nfs-utils rpcbind
 ```
 
 If necessary, restart the `rpcbind` service with the following command:
 
 ```bash
-centos@server:~$ sudo systemctl restart rpcbind
+root@server:~$ sudo systemctl restart rpcbind
 ```
 
 To mount your partition, use the following command:
 
 ```bash
-centos@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Example:**
+**Example 1:**
 
 ```bash
-centos@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 You can now access your mounted partition at the specified folder.
@@ -108,24 +113,22 @@ You can now access your mounted partition at the specified folder.
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### Fedora
+**Example 2:**
 
 Install the package `nfs-utils`:
 
 ```bash
-fedora@server:~$ sudo dnf -y install nfs-utils
+root@server:~$ sudo dnf -y install nfs-utils
 ```
 
 Then use the following mount command:
 
 ```bash
-fedora@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Example:**
-
 ```bash
-fedora@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 You can now access your mounted partition at the specified folder.
@@ -170,6 +173,7 @@ Complete the form with the following details.
 |Name|An identifier for the share|
 |NFS server|The IP address of the HA-NAS (Example: `10.1.1.1`)|
 |NFS share|The path to the HA-NAS partition to mount (Example: `zpool-123456/partition01`)|
+|NFS version|The protocol version to use, you must select the NFS version 3|
 
 ![ESXI](images/esxi3.png){.thumbnail}
 
@@ -186,7 +190,7 @@ The HA-NAS solution supports NFSv3 and NFSv4 protocols. This section explains ho
 **What happens if the NFS version is not specified inside the mount command?**
 
 In this case, your NFS client will try to connect directly to the latest version supported by it.<br>
-But you can also choose whether you prefer to use NFSv3 or NFSv4:
+But you can also choose whether you prefer to use NFSv3, NFSv4, NFSv4.1 or NFSv4.2:
 
 To force the use of NFSv3, you must use the following command:
 
@@ -221,11 +225,6 @@ ubuntu@server:~$ nfsstat -m
 In the return, the parameter `vers=3` or `vers=4` tells you which protocol is used.
 
 Command usage will be similar for CentOS and Fedora.
-
-**Can I enter a specific version for using NFSv4?**
-
-As before, your NFS client will try to connect directly to the highest version supported by it.
-If you wish, you can choose between NFSv4.1 and NFSv4.2.
 
 To force the use of NFSv4.1, you must use the following command:
 
@@ -299,6 +298,6 @@ Some Linux kernels use a default `read_ahead_kb` value of 128 KB. We recommend t
 
 ## Go further
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-ca/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

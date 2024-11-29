@@ -263,4 +263,4 @@ La configuration est terminée. Votre  **OverTheBox**  utilise à présent les d
 
 Pour utiliser votre **OverTheBox** sur un **switch réseau**, la configuration ne doit pas être modifiée (hormis celle de votre switch s'il est manageable). Il vous suffit de modifier les branchements et tout connecter sur le switch.
 
-N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)
+Échangez avec notre [communauté d'utilisateurs](/links/community).

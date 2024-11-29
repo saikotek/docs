@@ -174,4 +174,4 @@ Notez que ce guide d'installation est également valable pour un [serveur dédi�
 
 Pour ajouter des add-ons, des mods et configurer plus finement votre serveur Minecraft, veuillez consulter la documentation officielle suivante: <https://help.mojang.com/>.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -49,4 +49,4 @@ Vous pouvez maintenant sortir l'instance du mode rescue. (Voir le guide [Comment
 
 ## Aller plus loin
 
-Rejoignez la communauté de nos utilisateurs à l'adresse <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

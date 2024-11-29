@@ -178,4 +178,4 @@ Per maggiori informazioni sulle funzionalità, consulta [la nostra documentazion
 
 [Gestisci la fatturazione dei tuoi account Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

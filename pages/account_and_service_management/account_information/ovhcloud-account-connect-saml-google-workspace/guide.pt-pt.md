@@ -4,10 +4,6 @@ excerpt: "Saiba como associar o seu serviço Google Workspace à sua conta OVHcl
 updated: 2024-07-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Pode utilizar a autenticação **SSO** (*Single Sign-On*) para se ligar à sua conta OVHcloud. Para ativar estas ligações, a sua conta OVHcloud e as suas contas Google Workspace devem ser configuradas com a ajuda das autenticações SAML (*Security Assertion Markup Language*).
@@ -194,4 +190,4 @@ Já está conectado com o mesmo identificador de cliente, mas através do seu ut
 
 [Como utilizar as políticas IAM a partir do seu Espaço Cliente](/pages/account_and_service_management/account_information/iam-policy-ui)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

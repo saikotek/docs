@@ -83,4 +83,4 @@ L'API vous permet de mettre en place une policy selon l'exemple suivant :
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

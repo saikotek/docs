@@ -189,4 +189,4 @@ Afin de faciliter le diagnostic du téléphone par nos équipes, veillez à bien
 
 En cas de difficultés, nous vous recommandons de faire appel à l'un de [nos partenaires](/links/partner).
  
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

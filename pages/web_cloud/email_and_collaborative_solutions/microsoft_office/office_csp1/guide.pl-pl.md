@@ -108,4 +108,4 @@ Podaj powody złożenia wniosku o rezygnację z usługi i kliknij przycisk `Zatw
 
 [Skorzystaj ze zdalnego pulpitu z Microsoft 365 apps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

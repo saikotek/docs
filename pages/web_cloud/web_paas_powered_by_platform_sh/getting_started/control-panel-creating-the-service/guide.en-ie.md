@@ -117,4 +117,4 @@ The final step to get started with a project is to downlad it in order to work o
 
 [Managing Web PaaS from the OVHcloud Control Panel](/pages/web_cloud/web_paas_powered_by_platform_sh/getting_started/control-panel-managing-the-service)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -81,4 +81,4 @@ Dans votre interface vSphere, vous pourrez voir le contenu de ce que vous venez 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

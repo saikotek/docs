@@ -1,7 +1,7 @@
 ---
 title: "How to configure Link Aggregation with LACP in Debian 12 or Ubuntu 24.04"
 excerpt: "Enable Link Aggregation in your Debian 12 or Ubuntu 24.04 server (Netplan) to increase your server’s availability and boost the efficiency of your network connections"
-updated: 2024-10-17
+updated: 2024-11-26
 ---
 
 <style>
@@ -133,8 +133,6 @@ network:
                 - ens22f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
         # Optional: private bond configuration
@@ -147,8 +145,6 @@ network:
                 - ens33f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
 ```
@@ -193,8 +189,6 @@ network:
                 - ens22f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
         # Optional: private bond configuration
@@ -207,8 +201,6 @@ network:
                 - ens33f1np1
             parameters:
                 mode: 802.3ad
-                mii-monitor-interval: 100
-                down-delay: 200
                 lacp-rate: fast
                 transmit-hash-policy: layer3+4
 ```

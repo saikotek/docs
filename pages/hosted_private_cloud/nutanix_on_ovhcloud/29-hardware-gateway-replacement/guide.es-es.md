@@ -1,7 +1,7 @@
 ---
 title: Sustitución del OVHgateway por un servidor dedicado (EN)
 excerpt: "How to replace your gateway integrated in Nutanix with a dedicated server to increase bandwidth"
-updated: 2022-12-05
+updated: 2024-11-26
 ---
 
   
@@ -306,7 +306,6 @@ network:
             parameters:
                 mode: 802.3ad
                 transmit-hash-policy: layer3+4
-                mii-monitor-interval: 100
     vlans:
         bond0.1:
             dhcp4: no

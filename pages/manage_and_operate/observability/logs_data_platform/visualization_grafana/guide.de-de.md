@@ -1,11 +1,11 @@
 ---
 title: Using Grafana with Logs Data Platform
-updated: 2022-06-15
+updated: 2024-11-28
 ---
 
 ## Objective
 
-[Grafana](http://grafana.org/){.external} provides a powerful and elegant way to create, explore, and share dashboards and data with your team and the world. Since release 7, Grafana is able to communicate with OpenSearch and so allow you to mix data from Logs Data Platform and other data sources like IoT at the same place. This guide will show you how to achieve this.
+[Grafana](http://grafana.org/){.external} provides a powerful and elegant way to create, explore, and share dashboards and data with your team and the world. Since release 7, Grafana is able to communicate with OpenSearch and so allow you to mix data from Logs Data Platform and other data sources like IoT in the same place. This guide will show you how to achieve this.
 
 ## Requirements
 
@@ -24,7 +24,7 @@ After some training you will be able to create this kind of dashboard:
 
 To access your logs from Grafana, you will need to setup an OpenSearch Alias and link them to your Graylog streams, so here we go again :
 
-1. Log in to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+1. Log in to the [OVHcloud Control Panel](/links/manager).
 2. In the Alias panel, click on the `Add an alias`{.action} button
 3. Choose a name and define a description for your alias
 4. Save the entry by clicking the `Save`{.action} button
@@ -39,7 +39,7 @@ So here you go, now Logs Data Platform knows what stream you want to browse. Now
 ### Setup your own grafana
 
 Get the latest Grafana release here: [http://grafana.org/download/](http://grafana.org/download/){.external} (v9.0.0 at the time of writing).
-Then follow the Grafana installation guide according your platform: [http://docs.grafana.org/installation/](http://docs.grafana.org/installation/){.external}
+Then follow the Grafana installation guide according to your platform: [http://docs.grafana.org/installation/](http://docs.grafana.org/installation/){.external}
 
 ### Launch it!
 
@@ -51,11 +51,11 @@ If everything is setup properly, launch your favorite browser, and point it to [
 >
 > To make the magic happen, please ensure to:
 >
-> - Set `https://<your_cluster>.logs.ovh.com:9200` as Url value
-> - Set your Logs Data Platform credentials for Basic auth values
-> - Set your Logs Data Platform alias name as Grafana Index name value
-> - Change default Time field name to timestamp
-> - Set **1.X** as OpenSearch version
+> - Set `https://<your_cluster>.logs.ovh.com:9200` as **URL** value
+> - Set your Logs Data Platform credentials for **Basic auth values**
+> - Set the **Index name** as the Logs Data Platform alias linked to Grafana
+> - Change default **Time field name** to timestamp
+> - Set the **Version** by clicking `Get Version and Save`{.action}.
 > - Register your data source and test it.
 >
 
@@ -63,13 +63,7 @@ If your configuration is correct, it should display: " _Index Ok. Timefield Ok._
 
 ![Data source 2](images/datasource_2.png){.thumbnail}
 
-### Test it!
-
-Now let's add a simple counter of your logs to a new dashboard.
-
-1. On dashboard page, click on the green left button and select Add panel => Singlestat
-2. On the bottom right, select your datasource.
-3. That's it :)
+To explore further, you can create a new dashboard and add different styles of visualizations.
 
 If you want to know what you can do with Grafana and OpenSearch, read the [official documentation](https://grafana.com/grafana/plugins/grafana-opensearch-datasource/){.external}.
 

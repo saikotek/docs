@@ -104,4 +104,4 @@ No olvide que también puede utilizar nuestra interfaz web en la dirección [Web
 >
 > Para más información sobre la configuración de una dirección de correo electrónico desde la interfaz de Gmail en línea, visite [el Centro de ayuda de Google](https://support.google.com/mail/answer/21289?hl=es&co=GENIE.Platform%3DDesktop).
 
-Interactúe con nuestra comunidad de usuarios en [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Interactúe con nuestra [comunidad de usuarios](/links/community).

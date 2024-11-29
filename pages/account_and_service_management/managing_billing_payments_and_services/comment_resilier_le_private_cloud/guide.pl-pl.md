@@ -72,4 +72,4 @@ Następnie wprowadź token zatwierdzający podany w przesłanym do Ciebie e-mail
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com>.
+Dołącz do [grona naszych użytkowników](/links/community).

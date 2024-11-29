@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zmienić parametry powiązania domeny/subdomeny zade
 updated: 2024-09-04
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 W przypadku korzystania z hostingu lub aktualizacji strony WWW może być konieczna zmiana ustawień domeny lub subdomeny, która jest już powiązana z Twoim hostingiem.

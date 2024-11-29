@@ -4,7 +4,7 @@ excerpt: 'Como reconhecer um e-mail de phishing e o que fazer depois de clicar n
 updated: 2024-10-30
 ---
 
-## Sumário
+## Objetivo
 
 O phishing é o envio de um e-mail que o convida a clicar numa ligação que o redirige para um formulário. Este último assume fraudulentamente a aparência de uma determinada marca e pede-lhe que introduza as suas informações pessoais.
 
@@ -68,4 +68,4 @@ Aceda à [Área de Cliente](/links/manager) e altere imediatamente a palavra-pas
 
 ## Quer saber mais?
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

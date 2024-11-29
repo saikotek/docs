@@ -597,4 +597,4 @@ By default, the `Enable automatic response during these dates (inclusive)` optio
 
 [Using email aliases and redirections](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

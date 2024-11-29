@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier, wie Sie mit dem Plik Tool Dateien an andere Personen
 updated: 2022-02-14
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Das Online-Tool [Plik](https://plik.ovhcloud.com) erlaubt es, Dateien mit anderen Personen zu teilen und bietet Optionen zur Absicherung des Zugriffs auf diese Dateien.
@@ -96,4 +92,4 @@ Klicken Sie auf Ihre Kundenkennung oben rechts, um auf die Account-Optionen zuzu
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

@@ -79,4 +79,4 @@ A OVHcloud também disponibiliza uma aplicação web com [funcionalidades de col
 
 [FAQ: e-mails](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

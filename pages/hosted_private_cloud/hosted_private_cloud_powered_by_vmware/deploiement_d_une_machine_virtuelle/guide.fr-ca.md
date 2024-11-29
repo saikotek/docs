@@ -105,4 +105,4 @@ La console s'ouvrira dans un nouvel onglet et, après avoir suivi l'installation
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

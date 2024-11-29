@@ -168,4 +168,4 @@ For assistance with these features, please refer to [our documentation](/product
 
 [Managing the billing for Exchange accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

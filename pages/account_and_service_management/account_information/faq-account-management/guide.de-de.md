@@ -186,4 +186,4 @@ Wenn die oben genannten Bedingungen erfüllt sind, können Sie die Löschung Ihr
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

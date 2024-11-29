@@ -1,7 +1,7 @@
 ---
 title: Primeiros passos com um VPS
 excerpt: Aprenda a gerir um VPS na sua Área de Cliente e descubra as primeiras etapas da sua utilização, nomeadamente as ligações remotas e as medidas de segurança
-updated: 2024-10-30
+updated: 2024-11-22
 ---
 
 ## Objetivo
@@ -146,8 +146,19 @@ A reinstalação do VPS pode ser efetuada a partir da Área de Cliente. Clique n
 
 Na janela que aparece, escolha um sistema operativo da lista suspensa. As opções são [imagens compatíveis com um VPS OVHcloud](/pages/public_cloud/compute/image-life-cycle) e são imediatamente funcionais após a instalação.
 
-Também pode selecionar uma **chave SSH** a instalar no sistema, se já tiver armazenado uma no seu [Área de Cliente OVHcloud](/links/manager). Para saber tudo sobre este assumpto, consulte o guia « [Criar e utilizar chaves SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) ».  
-Se tiver selecionado uma chave SSH e não precisar de um nome de utilizador e de uma palavra-passe para aceder, selecione a caixa de verificação "Não quero receber por e-mail os códigos de autenticação do meu VPS."
+Se tiver selecionado um sistema operativo compatível, poderá fornecer uma **chave pública** para instalação automática. Tem duas possibilidades ao seu dispor:
+
+- Copie manualmente a cadeia de chaves e cole-a no campo `A sua chave SSH pública`.
+- Se tiver armazenado anteriormente uma chave pública na sua [Área de Cliente OVHcloud](/links/manager), selecione a chave pretendida no menu pendente `Chave(s) SSH a pré-instalar`.
+
+![VPSnewreinstall](images/reinstall.png){.thumbnail}
+
+Para saber mais sobre este assumpto, consulte os nossos manuais:
+
+- [Como criar e utilizar chaves para a autenticação SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Como criar e utilizar chaves para a autenticação SSH com PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+
+Se selecionou uma chave SSH e não precisa de uma palavra-passe para aceder, ative a opção `Não quero receber por e-mail os códigos de autenticação do meu VPS`.
 
 > [!warning]
 >

@@ -37,4 +37,4 @@ Validez cet ajout en cliquant sur `Suivant`{.action}. Une fois que l'IP est bien
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

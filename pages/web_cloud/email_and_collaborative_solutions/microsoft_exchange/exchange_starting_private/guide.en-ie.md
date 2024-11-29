@@ -94,4 +94,4 @@ To add the first domain name to your platform and configure the accounts, please
 
 [Adding a domain name to your Exchange service](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain) 
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

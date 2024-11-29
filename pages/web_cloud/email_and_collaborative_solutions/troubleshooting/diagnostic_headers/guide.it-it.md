@@ -192,4 +192,4 @@ Per visualizzare l'intestazione nell'interfaccia Web &#60;Outlook.com&#62;, cons
 
 [FAQ E-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

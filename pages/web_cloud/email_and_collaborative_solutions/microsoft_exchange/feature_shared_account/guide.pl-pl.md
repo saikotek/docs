@@ -114,4 +114,4 @@ W programie Outlook możesz odnaleźć konto współdzielone w kolumnie po lewej
 
 [Dodaj stopkę strony dla kont Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Dołącz do społeczności naszych użytkowników na stronie<https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

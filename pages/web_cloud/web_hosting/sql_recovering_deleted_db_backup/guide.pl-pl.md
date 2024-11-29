@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak odzyskać kopię zapasową bazy danych po jej usuni�
 updated: 2024-07-25
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Większość naszych pakietów hostingowych [hosting](/links/web/hosting) zawiera bazy danych. Jeśli przypadkowo usuniesz bazę danych powiązaną z Twoim hostingiem, możesz spróbować pobrać jej kopię zapasową przez nasze API.
@@ -74,15 +70,15 @@ W tym celu wykonaj następujące czynności:
 W tym celu wypełnij poszczególne formularze, jak pokazano poniżej:
 
 - Dla sekcji zatytułowanej `PATH PARAMETERS`:
-- `serviceName`: Wpisz nazwę hostingu, który uzyskałeś podczas etapu 1 niniejszego przewodnika.
+    - `serviceName`: Wpisz nazwę hostingu, który uzyskałeś podczas etapu 1 niniejszego przewodnika.
 
 - Dla sekcji zatytułowanej `QUERY-STRING PARAMETERS`:
-- `creationDate.from`: Pozostaw formularz pusty.
-- `creationDate.to`: Pozostaw formularz pusty.
-- `databaseName`: Wpisz nazwę bazy danych, która została przypadkowo usunięta. (przykład: **deletedDatabase.mysql.db**).
-- `deletionDate.from`: Pozostaw formularz pusty.
-- `deletionDate.to`: Pozostaw formularz pusty.
-- `orphan`: Wpisz małymi literami wartość: `true`.
+    - `creationDate.from`: Pozostaw formularz pusty.
+    - `creationDate.to`: Pozostaw formularz pusty.
+    - `databaseName`: Wpisz nazwę bazy danych, która została przypadkowo usunięta. (przykład: **deletedDatabase.mysql.db**).
+    - `deletionDate.from`: Pozostaw formularz pusty.
+    - `deletionDate.to`: Pozostaw formularz pusty.
+    - `orphan`: Wpisz małymi literami wartość: `true`.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 

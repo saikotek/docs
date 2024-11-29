@@ -136,4 +136,4 @@ Permet d'exécuter les appels depuis la ligne en activant le mode intercom de vo
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

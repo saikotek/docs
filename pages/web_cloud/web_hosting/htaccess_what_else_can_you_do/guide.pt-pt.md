@@ -4,10 +4,6 @@ excerpt: "Saiba alguns exemplos de operações que podem ser realizadas com um f
 updated: 2023-05-23
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este tutorial tem como objetivo apresentar as principais funcionalidades do ficheiro ".htaccess" para o seu alojamento Web.

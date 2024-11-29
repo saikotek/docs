@@ -73,4 +73,4 @@ W oknie zarządzania Twoją usługą E-mail Pro kliknij przycisk `Operacje`{.act
 
 ## Sprawdź również
  
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

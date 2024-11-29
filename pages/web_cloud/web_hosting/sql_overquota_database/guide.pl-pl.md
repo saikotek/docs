@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak działać, gdy baza danych jest przeciążona"
 updated: 2023-12-13
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-  
 ## Wprowadzenie
 
 Na przykład baza danych umożliwia przechowywanie informacji dotyczących Twojej strony WWW i jej działania. Informacje te są tak skonstruowane, aby Twoja strona WWW mogła z łatwością dotrzeć do Twojej strony WWW, co pozwala na optymalne i spersonalizowane przeglądanie stron przez użytkowników/użytkowników Twojej strony WWW. 

@@ -232,4 +232,4 @@ Running  QEMU-GA            QEMU Guest Agent
 
 [Utiliser les snapshots sur un VPS](/pages/bare_metal_cloud/virtual_private_servers/using-snapshots-on-a-vps)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -79,4 +79,4 @@ Une fois l'installation terminée, il vous proposera de redémarrer la machine p
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

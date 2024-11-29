@@ -94,4 +94,4 @@ Una vez importada la lista, puede seguir las instrucciones de nuestra guía [Env
 
 [Agenda de contactos de SMS](/pages/web_cloud/messaging/sms/gerer_mes_carnets_dadresses_sms)
 
-Interactúe con nuestra comunidad de usuarios en [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Interactúe con nuestra [comunidad de usuarios](/links/community).

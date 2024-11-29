@@ -127,4 +127,4 @@ Si estuviese comprometida, le recomendamos encarecidamente [que la cambie de inm
 
 [El gestor de contraseñas KeePass](https://keepass.info/){.external}
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

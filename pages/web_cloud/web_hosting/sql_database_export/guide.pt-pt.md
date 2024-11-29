@@ -4,10 +4,6 @@ excerpt: "Saiba como recuperar a cópia de segurança de uma base de dados de um
 updated: 2023-08-22
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 As bases de dados são utilizadas pela maior parte dos websites e dos **C**ontent **M**anagement **S**ystem (**CMS**) tais como *WordPress*, *Joomla!*, *PrestaShop* ou *Drupal*. Estes cookies permitem geralmente armazenar elementos dinâmicos, como, por exemplo, comentários, utilizadores/palavras-passe, o estado dos stocks caso disponha de um site de e-commerce ou ainda artigos. Por várias razões, terá de realizar um backup da sua base de dados para recuperar o seu conteúdo.

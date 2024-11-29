@@ -89,4 +89,4 @@ Inicie sesión en su cuenta de Exchange a través del [webmail de OVHcloud](/lin
 
 [Compartir un calendario con el webmail OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

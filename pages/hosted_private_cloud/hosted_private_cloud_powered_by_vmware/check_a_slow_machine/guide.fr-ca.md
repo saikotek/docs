@@ -64,4 +64,4 @@ Vous pouvez modifier la vue pour creuser des sujets spécifiques.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

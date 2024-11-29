@@ -130,4 +130,4 @@ Sélectionnez l'accessoire de votre choix puis suivez les étapes qui apparaisse
 
 [Déroulement d’un RMA](/pages/web_cloud/phone_and_fax/voip/deroulement_d_un_rma)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

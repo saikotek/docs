@@ -4,10 +4,6 @@ excerpt: Aquí encontrará los elementos imprescindibles para la correcta gesti�
 updated: 2022-05-02
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Esta guía explica los requisitos necesarios para una buena gestión de su cuenta y la facturación de sus servicios de OVHcloud.
@@ -102,4 +98,4 @@ A continuación, utilice [este formulario](https://www.ovh.es/proteccion-datos-p
 
 [Gestionar las facturas de OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

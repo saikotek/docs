@@ -89,4 +89,4 @@ Tras la validación, le recordamos que la licencia se eliminará definitivamente
 
 ## Más información
   
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -104,4 +104,4 @@ Tenha em conta que pode sempre utilizar a nossa interface online, acessível a p
 >
 > Para mais informações sobre a configuração de um endereço de e-mail a partir da interface Gmail online, consulte [o Centro de Ajuda do Google](https://support.google.com/mail/answer/21289?hl=pt&co=GENIE.Platform%3DDesktop).
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com>.
+Fale com nossa [comunidade de utilizadores](/links/community).

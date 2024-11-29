@@ -160,4 +160,4 @@ The migration tracking window will then open. You can leave it open to track the
 
 [Authorising less secure connections on Gmail](/pages/web_cloud/email_and_collaborative_solutions/migrating/security_gmail)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

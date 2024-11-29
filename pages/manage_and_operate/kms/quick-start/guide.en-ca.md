@@ -1,14 +1,8 @@
 ---
 title: "Getting started with OVHcloud Key Management Service (KMS)"
 excerpt: "Discover the steps you need to take to set up your first Key Management Service (KMS), create a key, and access it"
-updated: 2024-10-23
+updated: 2024-11-25
 ---
-
-> [!warning]
->
-> The OVHcloud KMS is currently in beta phase. This guide may be incomplete, and will be updated during the beta period.
-> Feel free to send us feedback on the dedicated Discord channel: <https://discord.gg/ovhcloud>.
->
 
 ## Objective
 
@@ -130,7 +124,7 @@ The API expects the following values:
 |type|oct, RSA, EC|Key type: Byte sequence (oct) for symmetric keys, RSA (RSA), Elliptic Curve (EC)|
 |size|Integer|Key size - see lookup below|
 |operations|Array|Key Usage - see lookup below|
-|crv|P-256, P-384, P-521|(optional) Cryptographic curve for EC type keys|
+|curve|P-256, P-384, P-521|(optional) Cryptographic curve for EC type keys|
 
 **Example of symmetric key creation:**
 
@@ -173,7 +167,7 @@ The API expects the following values:
     "sign",
     "verify"
   ],
-  "crv": "P-256"
+  "curve": "P-256"
 }
 ```
 

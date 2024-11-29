@@ -78,4 +78,4 @@ Sie können mehrere Kundenkennung angeben, um einen E-Mail-Account zu verwalten.
 
 [Erste Schritte mit MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

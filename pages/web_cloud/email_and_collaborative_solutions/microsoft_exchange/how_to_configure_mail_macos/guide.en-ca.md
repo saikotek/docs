@@ -103,4 +103,4 @@ If your email account is already set up and you need to access the account setti
 
 [Configure your MX Plan email account on macOS Mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/how_to_configure_mail_macos)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -1,12 +1,8 @@
 ---
 title: Gestionar la renovación de los servicios
-excerpt: Cómo gestionar la renovación de los servicios de OVHcloud desde el área de cliente
-updated: 2024-01-26
+excerpt: Descubra cómo gestionar la renovación de los servicios de OVHcloud desde el área de cliente
+updated: 2024-11-12
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
 
 ## Objetivo
 
@@ -188,14 +184,8 @@ El siguiente cuadro explica en detalle cuáles son las acciones que pueden agrup
 >> Para poder activar la renovación automática en sus servicios, debe haber añadido una forma de pago válida a su cuenta de OVHcloud. En caso contrario, o si la forma de pago ha expirado, aparecerá un mensaje de error en el área de cliente al intentar activar la renovación automática. Para consultar o añadir una forma de pago, consulte nuestra guía "[Gestionar las formas de pago](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)".
 > Mi forma de pago ya no es válida. ¿Cómo añadir una nueva forma de pago?
 >> Consulte nuestra guía "[Gestionar mis formas de pago](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)". Para poder eliminar una forma de pago obsoleta, debe añadir una nueva forma de pago válida a su cuenta de OVHcloud.
-> He olvidado renovar mi dominio a tiempo, ¿qué hago?
->> En primer lugar, compruebe el estado del dominio utilizando la herramienta [Whois de un dominio](https://www.ovhcloud.com/es/domains/whois/).
->> Si se trata de un dominio genérico (.com, .org. net, etc.), este permanecerá "reservado" durante un período denominado de "*gracia*" (aproximadamente 7 días) y, posteriormente, durante el de "*redención*" (aproximadamente 35-40 días adicionales). Estos plazos son variables y dependen de la extensión y de las reglas del registro que posea la extensión. Solo usted podrá renovar el dominio durante estos dos períodos.
->> Durante el período de gracia, podrá renovarlo desde el área de cliente, siguiendo las etapas de esta guía.
->> Durante el período de redención, el dominio ya no está gestionado por OVHcloud. La renovación desde el área de cliente conlleva un suplemento (que varía en función de la extensión).
->> Después del periodo de redención, el dominio entra en una fase de eliminación que puede durar varios días, antes de volver al dominio público. Si quiere recuperar el uso que le ha dado, le recomendamos que utilice la herramienta [Whois de un dominio](https://www.ovhcloud.com/es/domains/whois/) para comprobar su disponibilidad con regularidad.
-> No quiero renovar mi dominio, sino transferirlo a un agente registrador distinto de OVHcloud. ¿Cómo lo hago?
->> Siga las instrucciones de nuestra guía "[Transferir un dominio a otro agente registrador](/pages/web_cloud/domains/transfer_outgoing_domain)".
+> Tengo una pregunta relativa a la renovación de mi dominio
+>> Consulte nuestra guía "[Renovar los dominios de OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)".
 > Ya no quiero domiciliación bancaria, pero no quiero dar de baja el servicio. ¿Qué debo hacer?
 >> Si su servicio lo permite, puede utilizar la acción [Configurar renovación](#actions) para elegir una renovación manual.
 > He renovado mi servicio por 12 meses. ¿Puedo revertir mi elección?
@@ -214,6 +204,8 @@ El siguiente cuadro explica en detalle cuáles son las acciones que pueden agrup
 
 ¿Esta guía no ha respondido a su pregunta? Consulte nuestras [FAQ sobre facturación y pago](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
 
+[Renovar los dominios de OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)
+
 [Gestionar las formas de pago](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
 [Cómo dar de baja servicios de OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
@@ -222,4 +214,4 @@ El siguiente cuadro explica en detalle cuáles son las acciones que pueden agrup
 
 [Gestionar la facturación de sus cuentas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

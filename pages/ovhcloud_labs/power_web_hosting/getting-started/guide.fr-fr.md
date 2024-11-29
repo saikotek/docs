@@ -233,6 +233,6 @@ Après chaque modification structurante de votre application, il est conseillé 
 
 [Créer une base de données sur son hébergement web](/pages/web_cloud/web_hosting/sql_create_database).
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
 
 **Pour discuter avec les autres utilisateurs du lab et avec l'équipe POWER Web Hosting, venez sur [notre room Gitter](https://gitter.im/ovh/power-web-hosting)**

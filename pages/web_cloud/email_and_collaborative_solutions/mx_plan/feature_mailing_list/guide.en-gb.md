@@ -249,4 +249,4 @@ Below is a list of files containing the reply texts, and a brief description of 
 
 ## Go further
 
-Join our community of users on [https://community.ovh.com/en/](https://community.ovh.com/en/)
+Join our [community of users](/links/community).

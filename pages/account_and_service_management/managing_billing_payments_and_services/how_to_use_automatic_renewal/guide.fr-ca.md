@@ -1,7 +1,7 @@
 ---
 title: Gérer le renouvellement de mes services
 excerpt: Apprenez à gérer le renouvellement de vos services OVHcloud dans votre espace client
-updated: 2024-01-26
+updated: 2024-11-12
 ---
 
 ## Objectif
@@ -224,4 +224,4 @@ Ce guide n'a pas répondu à votre question ? Consultez notre [FAQ sur la factur
 
 [Gérer la facturation de vos comptes Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
