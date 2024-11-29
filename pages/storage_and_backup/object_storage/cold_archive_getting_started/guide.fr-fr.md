@@ -1,7 +1,7 @@
 ---
 title: Cold Archive - Premiers pas avec Cold Archive
 excerpt: Ce guide vous montre comment gérer vos données avec Cold Archive
-updated: 2024-06-21
+updated: 2024-11-29
 ---
 
 ## Objectif
@@ -161,13 +161,13 @@ aws --endpoint-url https://s3.rbx-archive.io.cloud.ovh.net delete-ovh-archive <b
 ```
 
 Après cette requête, les objets du bucket ne sont pas encore supprimés car la suppression est effectuée de manière asynchrone.<br>
-L'opération supprimera tout (sur les bandes et tous les objets s'ils sont restaurés) et l'état du bucket sera en état "Deleting".<br>
+L'opération supprimera tout (sur les bandes et tous les objets s'ils sont restaurés) et l'état du bucket sera en état `Deleting`.<br>
 
 > [!primary]
 >
 > Bien que la suppression des données soit effectuée de manière asynchrone, vous ne serez plus facturé à partir du moment où vous aurez demandé cette suppression.<br>
-> La suppression est effectuée sur la base du best effort et il n'y a pas de durée d'engagement pour finir le traitement.<br>
-> Dans l'état "Deleting", le bucket est verrouillé et ne sera accessible uniquement qu'à la fin du traitement.<br>
+> La suppression est effectuée sur la base du *best effort* et il n'y a pas de durée d'engagement pour finir le traitement.<br>
+> Dans l'état `Deleting`, le bucket est verrouillé et ne sera accessible uniquement qu'à la fin du traitement.<br>
 >
 
 Une fois la suppression effectuée :
@@ -225,6 +225,6 @@ aws --endpoint-url https://s3.rbx-archive.io.cloud.ovh.net s3api get-bucket-tagg
 
 Découvrez notre chaîne dédiée Discord : <https://discord.gg/ovhcloud>. Posez vos questions, faites vos commentaires et interagissez directement avec l’équipe qui conçoit nos services de stockage et de sauvegarde.
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
