@@ -22,9 +22,6 @@ updated: 2024-11-05
 > Quelle est la date de fin de vie de NSX-v ? <a name="eofnsxv"></a>
 > > VMware a décidé d'initier la fin de vie (EOL) de NSX-v depuis janvier 2022. OVHcloud a obtenu une extension de support jusqu'au 15 janvier 2025.
 > >
-> Quelle est la date fin de support pour les demandes de migration vers NSX-T ? 
-> > La fin de vie de NSX-v a eu lieu le 15 juin 2025. Cette date étant passée, la migration ne peut plus être effectuée.
-> >
 > Est-il possible de faire du Border Gateway Protocol (BGP) ? <a name="bgp"></a>
 > > Il est impossible de faire du BGP public (peer avec les routeurs internet OVHcloud).
 > > Il est toutefois possible de faire du BGP (privé) avec un vRack via une passerelle Tier-0 ou une passerelle VRF de niveau 0, ou dans un tunnel IPsec via une Tier-0 uniquement.
