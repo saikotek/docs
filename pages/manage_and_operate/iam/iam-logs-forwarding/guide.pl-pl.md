@@ -103,7 +103,7 @@ For more details about how to use your logs with Logs Data Platform, refer to th
 - How to view the logs in real time through a WebSocket.
 - How to build visualisation with OpenSearch Dashboards.
 - How to integrate with OpenSearch API.
-- How to to connect with Grafana.
+- How to connect with Grafana.
 
 ### Details of generated logs
 
