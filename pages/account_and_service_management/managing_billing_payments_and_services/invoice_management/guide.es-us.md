@@ -50,7 +50,7 @@ La factura del servicio de OVHcloud se enviará una vez realizado el pago de un 
 
 Para consultar sus facturas, acceda al [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws). Haga clic en su nombre en la esquina superior derecha de su pantalla y, en el nuevo menú que aparecerá, haga clic en `Facturas`{.action}.
 
-![Facturación](images/hubinvoices.png){.thumbnail}
+![Facturación](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 Será redirigido a una página en la que podrá consultar todas sus facturas.
 

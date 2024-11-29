@@ -45,7 +45,7 @@ Um den Verwaltungsbereich Ihrer Bestellungen aufzurufen, klicken Sie im [OVHclou
 
 So gelangen Sie zu einer Übersicht aller nicht abgelaufenen Bestellungen, die über Ihren OVHcloud Kunden-Account getätigt wurden.
 
-![Bestellübersicht](images/order03.png){.thumbnail}
+![Bestellübersicht](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 Hier finden Sie zu jeder Bestellung folgende Informationen:
 

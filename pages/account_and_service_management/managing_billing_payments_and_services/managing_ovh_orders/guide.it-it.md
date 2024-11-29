@@ -45,7 +45,7 @@ Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanag
 
 Ecco una sintesi dei diversi ordini effettuati:
 
-![Riepilogo degli ordini](images/order03.png){.thumbnail}
+![Riepilogo degli ordini](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 In questa pagina vengono riportate queste informazioni:
 

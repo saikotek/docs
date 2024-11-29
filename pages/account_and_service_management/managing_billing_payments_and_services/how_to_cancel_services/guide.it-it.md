@@ -49,11 +49,11 @@ Esistono tuttavia **casi particolari**, descritti in dettaglio [più in basso](#
 
 Per disattivare l’abbonamento al servizio, accedi al tuo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/it/&ovhSubsidiary=it), clicca sul tuo nome in alto a destra e poi sul pulsante `Prodotti e servizi`{.action}.
 
-![prodotti e servizi](images/products-services.png){.thumbnail}
+![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 Clicca sul pulsante `...`{.action} in corrispondenza del servizio da disattivare e seleziona `Rescindi l'impegno contrattuale`{.action}.
 
-![disattiva](images/cancel-en.png){.thumbnail}
+![disattiva](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 
 Indica i motivi della richiesta di disattivazione e clicca su `Conferma`{.action}.
 
@@ -66,7 +66,7 @@ Indica i motivi della richiesta di disattivazione e clicca su `Conferma`{.action
 
 La disattivazione del servizio avverrà alla **data di entrata in vigore** indicata nella tabella "I tuoi servizi". Se non vedi lo stato "Disattivazione richiesta", aggiorna la pagina.
 
-![richiesta di disattivazione](images/cancellation-request.png){.thumbnail}
+![richiesta di disattivazione](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request.png){.thumbnail}
 
 ### Casi particolari <a name="specific-cases"></a>
 
@@ -135,7 +135,7 @@ Per annullare una richiesta di disattivazione, accedi allo [Spazio Cliente OVHcl
 
 Clicca sui tre puntini `...`{.action} in corrispondenza del servizio richiesto e seleziona `Annulla la disattivazione del servizio`{.action} 
 
-![cancel_termination](images/cancel_termination-en.png){.thumbnail}
+![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination-en.png){.thumbnail}
 
 Infine clicca su `Conferma l'annullamento`{.action}.
 

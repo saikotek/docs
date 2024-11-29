@@ -49,11 +49,11 @@ No obstante, existen **casos especiales**, que se explican en detalle [más adel
 
 Para cancelar la suscripción al servicio, conéctese al [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/es/&ovhSubsidiary=es), haga clic en su nombre en la esquina superior derecha y seleccione el botón `Productos y servicios`{.action}.
 
-![productos y servicios](images/products-services.png){.thumbnail}
+![productos y servicios](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 A continuación, haga clic en el botón `...`{.action} a la derecha del servicio que desea dar de baja y, seguidamente, en `Cancelar mi compromiso`{.action}.
 
-![dar de baja](images/cancel-en.png){.thumbnail}
+![dar de baja](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 
 Indique los motivos de su solicitud de baja y haga clic en `Aceptar`{.action}.
 
@@ -66,7 +66,7 @@ Indique los motivos de su solicitud de baja y haga clic en `Aceptar`{.action}.
 
 La baja del servicio tendrá lugar el **fecha de aplicación** que se indica en la tabla "Mis servicios". Si no ve el estado "Baja solicitada", actualice la página.
 
-![solicitud de baja](images/cancellation-request.png){.thumbnail}
+![solicitud de baja](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request.png){.thumbnail}
 
 ### Casos particulares <a name="specific-cases"></a>
 
@@ -135,7 +135,7 @@ Conéctese al [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=go
 
 Haga clic en el botón `...`{.action} a la derecha del servicio objeto de la solicitud de baja y, seguidamente, en `Cancelar la baja del servicio.`{.action} 
 
-![cancel_termination](images/cancel_termination.png){.thumbnail}
+![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination.png){.thumbnail}
 
 Por último, haga clic en `Confirmar la cancelación`{.action}.
 

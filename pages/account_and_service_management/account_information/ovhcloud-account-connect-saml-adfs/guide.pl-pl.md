@@ -127,7 +127,7 @@ Opcja dodawania AD FS jako zaufanego dostawcy danych jest dostępna w [panelu kl
 
 Aby uzyskać dostęp do menu IAM, przejdź do Panelu klienta.
 
-![Dostęp do menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Dostęp do menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 Następnie kliknij zakładkę `Tożsamości`{.action}, aby zarządzać użytkownikami lokalnymi.
 

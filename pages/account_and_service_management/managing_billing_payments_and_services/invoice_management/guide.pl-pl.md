@@ -50,7 +50,7 @@ Faktura za usługę OVHcloud jest wysyłana po opłaceniu zamówienia lub odnowi
 
 Aby sprawdzić faktury, przejdź do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl). Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie w nowym menu, które się pojawi, kliknij `Faktury`{.action}.
 
-![Płatności](images/hubinvoices.png){.thumbnail}
+![Płatności](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 Zostaniesz wówczas przekierowany do strony z listą Twoich faktur:
 
