@@ -61,12 +61,15 @@ All of our hosts are on the same site. We'll select `Single site cluster` and cl
 
 ![VSAN](images/en05vsantype.png){.thumbnail}
 
-We recommend using Deduplication and Compression to optimize storage.<br>
+You can enable `Deduplication and compression` to optimize storage space.<br>
+
+However, lower performance and increased latency may be observed in some cases, especially when using databases. <br>
+
 Click `Next`{.action}.
 
 ![VSAN](images/en06vsanservices.png){.thumbnail}
 
-The Claim disks window assigns avalaible disks to cache or capacity (see [Official VMware VSAN page](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vsan-planning.doc/GUID-18F531E9-FF08-49F5-9879-8E46583D4C70.html){.external} for explanation) depending on types and sizes. You can customize it to your need.<br>
+The Claim disks window assigns available disks to cache or capacity (see [Official VMware VSAN page](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vsan-planning.doc/GUID-18F531E9-FF08-49F5-9879-8E46583D4C70.html){.external} for explanation) depending on types and sizes. You can customize it to your need.<br>
 Click `Next`{.action}.
 
 ![VSAN](images/en07vsanclaim.png){.thumbnail}
@@ -76,7 +79,7 @@ Click `Next`{.action}.
 
 ![VSAN](images/en08vsanfault.png){.thumbnail}
 
-Verify the settings in the summary window then click `Finish`{.action}.
+Verify the settings in the summary window, then click `Finish`{.action}.
 
 ![VSAN](images/en09vsanready.png){.thumbnail}
 
@@ -127,7 +130,7 @@ Confirm by clicking ‘Turn Off’ in the next window.
 
 ![SERVICE](images/en15vsanconfirm.png){.thumbnail}
 
-vSan is now off.
+vSAN is now off.
 
 ## Go further
 
