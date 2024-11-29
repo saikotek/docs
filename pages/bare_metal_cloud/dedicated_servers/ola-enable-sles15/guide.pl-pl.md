@@ -4,10 +4,6 @@ excerpt: 'Włącz Link Aggregation na serwerze SLES 15'
 updated: 2024-11-26
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie
 
 Technologia OVHcloud Link Aggregation (OLA) została zaprojektowana przez nasze zespoły w celu zwiększenia dostępności serwera i wydajności połączeń sieciowych. Za pomocą kilku kliknięć możesz łączyć karty sieciowe i redundantować połączenia sieciowe. Oznacza to, że w przypadku awarii połączenia ruch jest automatycznie przekierowywany do innego dostępnego połączenia.
@@ -138,8 +134,6 @@ Możesz również sprawdzić parametry używane w interfejsie ifcfg-bond0 za pom
 
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud z systemem Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud z systemem CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud w systemie Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

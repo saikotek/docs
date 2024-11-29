@@ -66,8 +66,6 @@ Pour vérifier que votre équipe NIC fonctionne, effectuez un ping vers un autre
 
 [Configurer l’agrégation de liens OLA dans votre espace client](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager).
 
-[Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
 [Comment configurer votre NIC pour l’agrégation de liens OVHcloud dans SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).

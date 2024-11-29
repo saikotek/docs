@@ -42,8 +42,6 @@ L'opération peut prendre quelques minutes. Une fois celle-ci terminée, l'étap
 
 [Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
 [Comment configurer votre NIC pour l’agrégation de liens OVHcloud dans SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).
@@ -59,8 +57,6 @@ L'opération peut prendre quelques minutes.
 ## Aller plus loin
 
 [Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
-
-[Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
 
 [Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 

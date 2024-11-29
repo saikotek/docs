@@ -4,10 +4,6 @@ excerpt: "Attivare l'opzione OVHcloud Link Aggregation sul tuo server Debian 9 a
 updated: 2024-11-26
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La tecnologia OVHcloud Link Aggregation (OLA) è stata progettata dai team OVHcloud per aumentare la disponibilità dei server e potenziare le connessioni di rete. L’attivazione dell’opzione permette di aggregare in pochi click le schede di rete e rendere i collegamenti ridondati in modo che, in caso di malfunzionamenti, il traffico venga reindirizzato automaticamente verso il collegamento disponibile.
@@ -87,8 +83,8 @@ Questa operazione potrebbe richiedere alcuni secondi per costruire l’interfacc
 
 [Configurare un NIC per il servizio OVHcloud Link Aggregation nello Spazio Cliente](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager).
 
-[Configurare un NIC per il servizio OVHcloud Link Aggregation in CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Configurare un NIC per il servizio OVHcloud Link Aggregation in Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+[Configurare un NIC per il servizio OVHcloud Link Aggregation in SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).
+
+Contatta la nostra [Community di utenti](/links/community).

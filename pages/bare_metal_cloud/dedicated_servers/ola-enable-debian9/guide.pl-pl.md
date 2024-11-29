@@ -87,8 +87,8 @@ OVHcloud zapewnia klientom swobodę i elastyczność wykorzystania sprzętu w sp
 
 [Konfiguracja OVHcloud Link Aggregation w Panelu klienta](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager)
 
-[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7)
-
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
+Dołącz do [grona naszych użytkowników](/links/community).

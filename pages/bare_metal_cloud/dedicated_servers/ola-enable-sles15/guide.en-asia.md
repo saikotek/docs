@@ -131,8 +131,6 @@ You can also check the used parameters by your ifcfg-bond0 interface using the f
 
 [How to Configure Your NIC for OVHcloud Link Aggregation in Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[How to Configure Your NIC for OVHcloud Link Aggregation in CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [How to Configure Your NIC for OVHcloud Link Aggregation in Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
 Join our [community of users](/links/community).
