@@ -71,7 +71,7 @@ Antes de continuar leyendo esta guía, debe cumplir los siguientes requisitos:
 Conéctese a su [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws).<br>
 Haga clic en su nombre en la esquina superior derecha y seleccione `Productos y servicios`{.action}.
 
-![productos y servicios](/pages/assets/screens/control_panel/product-selection/right-column/products-services-en.png){.thumbnail}
+![productos y servicios](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 ### Mostrar el tipo de renovación <a name="renewal-type"></a>
 

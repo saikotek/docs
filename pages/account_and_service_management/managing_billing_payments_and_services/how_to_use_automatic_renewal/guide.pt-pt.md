@@ -73,7 +73,7 @@ Antes de continuar a ler este guia, deve preencher as seguintes condições:
 Aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).<br>
 Clique no seu nome no canto superior direito e escolha `Produtos e serviços`{.action}.
 
-![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-services-en.png){.thumbnail}
+![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 ### Apresentar o tipo de renovação <a name="renewal-type"></a>
 
