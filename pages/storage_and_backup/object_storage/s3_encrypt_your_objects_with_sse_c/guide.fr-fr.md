@@ -66,16 +66,12 @@ Lorsque vous utilisez SSE-C, vous devez fournir des informations sur la clé de 
 
 #### Création d'une clé de chiffrement
 
-Exemple de création d'une clé de chiffrement ( *--sse-customer-key* ) :
+Exemple de création d'une clé de chiffrement ( *--sse-customer-key* ) et de son hash MD5:
 
 ```bash
-$ encKey=$(openssl rand -base64 32)
-```
-
-et de la clé MD5 ( *--sse-customer-key-md5* ):
-
-```bash
-$ md5Key=$(echo $encKey | md5sum | awk '{print $1}' | base64 -w0)
+$ secret=$(openssl rand 32)
+$ encKey=$(echo -n $secret | base64)
+$ md5Key=$(echo -n $secret | openssl dgst -md5 -binary | base64)
 ```
 
 #### Envoi d'un objet avec SSE-C
