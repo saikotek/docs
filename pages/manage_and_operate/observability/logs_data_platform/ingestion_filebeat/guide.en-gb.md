@@ -1,6 +1,6 @@
 ---
 title: Pushing logs with a forwarder - Filebeat (Linux)
-updated: 2024-06-24
+updated: 2024-11-28
 ---
 
 ## Objective
@@ -10,11 +10,6 @@ updated: 2024-06-24
 The main benefits of Filebeat are its resilient protocol to send logs, and a variety of ready-to-use modules for most of the common applications.
 
 This guide will describe how to setup Filebeat OSS on your system for forwarding your logs on Logs Data Platform. It will also present you with some configuration setup useful to further structure your logs.
-
-> [!warning]
->
-> As a consequence of the upcoming [OpenSearch 2.X upgrade](/pages/manage_and_operate/observability/logs_data_platform/upgrade_upgrade_to_opensearch_2), we recommend using an alternative such as [Fluent Bit](/pages/manage_and_operate/observability/logs_data_platform/ingestion_kubernetes_fluent_bit/).
->
 
 ## Requirements
 
