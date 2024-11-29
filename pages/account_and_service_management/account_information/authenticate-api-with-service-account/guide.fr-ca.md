@@ -4,8 +4,6 @@ excerpt: "Comment se connecter aux API avec ses comptes de service OVHcloud grâ
 updated: 2023-08-24
 ---
 
-
-
 ## Objectif
 
 Pour réaliser des automatisations sur vos infrastructures, vous devez fournir des identifiants au code qui s'en charge. Avec les comptes de service OVHcloud, il est possible d'avoir un seul identifiant par script pour l'utilisation des différentes API proposées par les produits de OVHcloud ([API de OVHcloud](/pages/manage_and_operate/api/console-preview), [API OpenStack](/pages/public_cloud/compute/starting_with_nova), etc. )
@@ -138,4 +136,4 @@ Si vous souhaitez utiliser ces autres API, vous devez modifier votre politique d
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

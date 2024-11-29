@@ -3,10 +3,6 @@ title: 'Anuncios de fin de venta/vida Web Cloud Databases'
 updated: 2024-07-11
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Los productos cubiertos por estos anuncios de fin de venta y de fin de vida son los servicios Web Cloud Databases, instancias SGBD que pueden accederse a través de la red pública o a través de la red Web Hosting.

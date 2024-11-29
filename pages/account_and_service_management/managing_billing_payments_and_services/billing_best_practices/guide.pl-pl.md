@@ -4,10 +4,6 @@ excerpt: Znajdziesz tutaj elementy niezbędne do prawidłowego zarządzania fakt
 updated: 2022-05-02
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Niniejszy przewodnik zawiera elementy niezbędne do prawidłowego zarządzania kontem i fakturowania usług OVHcloud.
@@ -52,7 +48,7 @@ Upewnij się, czy Twoje konto e-mail jest zawsze **aktualne, bezpieczne i dostę
 E-maile wysłane przez OVHcloud są również dostępne w [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)<br>
 Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie kliknij `E-maile od OVHcloud`{.action} w prawym menu.
 
-![service_email](images/service_emails.png){.thumbnail}
+![service_email](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 ### Włącz automatyczne odnowienie
 
@@ -102,4 +98,4 @@ Następnie skorzystaj z [tego formularza](https://www.ovh.pl/ochrona-danych-osob
 
 [Zarządzanie fakturami OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

@@ -1,8 +1,11 @@
 ---
 title: "Serveurs dédiés ESXi - FAQ"
 excerpt: "Retrouvez les questions les plus fréquemment posées sur la vague d'attaques ciblant les serveurs ESXi"
-updated: 2023-02-10
+updated: 2024-09-13
 ---
+
+> [!warning]
+> L'hyperviseur ESXi n'est plus supporté par OVHcloud. Retrouvez plus d'informations sur [cette page dédiée](/pages/bare_metal_cloud/dedicated_servers/esxi-end-of-support).
 
 ## Objectif
 
@@ -80,4 +83,4 @@ Nos clients utilisant les solutions [VMware on OVHcloud](https://www.ovhcloud.co
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

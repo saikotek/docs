@@ -29,7 +29,7 @@ Die Lizenzen gelten f체r folgende Software:
 
 ### Lizenz bestellen
 
-Gehen Sie zur Angebotsseite [OVHcloud Microsoft 365](https://www.ovhcloud.com/de/collaborative-tools/microsoft-365/){.external} und klicken Sie auf den Button `Bestellen`{.action}.
+Gehen Sie zur Angebotsseite [OVHcloud Microsoft 365](/links/web/ms365) und klicken Sie auf den Button `Bestellen`{.action}.
 
 Vom [OVHcloud Kundencenter](/links/manager) aus w채hlen Sie oben `Web Cloud`{.action} aus und klicken Sie auf `Bestellen`{.action} und dann `O365`{.action}.
 
@@ -108,4 +108,4 @@ Geben Sie die Gr체nde f체r Ihre K체ndigungsanfrage an und klicken Sie auf `Best�
 
 [Remote Desktop mit Microsoft 365 Apps verwenden](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-F체r den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

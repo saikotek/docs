@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come creare un sito Web con CMS WordPress"
 updated: 2024-07-15
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Questa guida ti mostra come creare i tuoi primi contenuti, organizzarli, metterli online e modificare il tema del tuo sito Web con il Content Management System (CMS) **WordPress**. È possibile realizzare il tuo sito senza particolari conoscenze di programmazione, con una vasta scelta di tematiche come siti web aziendali, blog o siti per diffondere la tua attività o passione.

@@ -1,12 +1,8 @@
 ---
 title: "1-Klick-Module verwalten"
 excerpt: "Erfahren Sie hier, wie Sie Ihr 1-Klick-Modul über Ihr OVHcloud Kundencenter verwalten"
-updated: 2022-09-05
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel 
 
@@ -53,43 +49,9 @@ Sie können auch die bei der Erstellung Ihres Moduls erhaltene E-Mail über Ihr 
 
 ### Passwort Ihres Moduls ändern <a name="password-change"></a>
 
-Sie können das Passwort Ihres Moduls über Ihr [OVHcloud Kundencenter](/links/manager) ändern oder direkt auf die Login-Seite Ihrer Website zum Administrator-Bereich gehen.
-
-In beiden Fällen wird Ihnen eine E-Mail zum Zurücksetzen des Passworts zugesandt.
-
 > [!primary]
 >
-> **Was tun, wenn Sie die E-Mail zum Zurücksetzen des Administratorpassworts Ihrer Website nicht erhalten haben?**
->
-> Überprüfen Sie in der betreffenden Mailbox die Ordner für `Spam`{.action} und `Gelöschte Elemente`{.action}.
->
-> Sie finden auch alle von unseren Diensten versendeten E-Mails über Ihr [OVHcloud Kundencenter](/links/manager): Klicken Sie oben rechts auf Ihren Namen und dann im Kontextmenü auf `E-Mails vom Support`{.action}.
->
-> **Laufzeit der Links:**
->
-> - Nachdem Sie die E-Mail zur Passwortänderung erhalten haben, bleibt der Zurücksetzlink 48 Stunden lang gültig. 
-> - Nach Klick auf den Link ist er noch 30 Minuten gültig.
->
-
-> [!warning]
->
-> Die Änderung des Passworts für den Zugang zum Verwaltungsinterface Ihres CMS über das OVHcloud Kundencenter kann nur durchgeführt werden **wenn folgende Bedingungen erfüllt sind**:
->
-> - Das CMS wurde mit der Option "1-Klick-Modul" bei der Bestellung Ihres Hostings oder über das OVHcloud Kundencenter installiert.
-> - Der Benutzer (Benutzername, E-Mail-Adresse, usw.) wurde nicht über das CMS oder die Datenbank geändert.
-> - Die Zugriffsseite zum Verwaltungsinterface Ihres CMS wurde nicht geändert. Insbesondere darf die URL für den Zugang zum Verwaltungsinterface Ihres CMS nicht über das CMS geändert worden sein. Auf dieser Seite dürfen keine Zugangsbeschränkungen liegen.
-> - Das "Präfix" der Tabellen in Ihrer Datenbank wurde weder über das CMS noch direkt über die Datenbank geändert.
->
-> Ist das nicht der Fall, folgen Sie der offiziellen Dokumentation des verwendeten CMS oder kontaktieren Sie direkt den Herausgeber des CMS.
->
-
-Um das Passwort für den Zugang zum Verwaltungsinterface Ihrer Website zu ändern, gehen Sie im [OVHcloud Kundencenter](/links/manager) zu `Web Cloud`{.action}. Klicken Sie auf `Hosting-Pakete`{.action} und auf das betreffende Hosting und dann auf den Tab `1-Klick-Module`{.action}.
-
-Klicken Sie dann auf den Button `...`{.action} rechts in der Zeile für Ihr Modul und dann auf `Passwort ändern`{.action}. Klicken Sie auf `Bestätigen`{.action}. Sie erhalten in einigen Minuten per E-Mail einen Link um Ihr Passwort zurückzusetzen.
-
-> [!primary]
->
-> Wenn Sie Ihr Passwort für den Zugang zum Verwaltungsinterface Ihres CMS aus den oben genannten Gründen nicht über das OVHcloud Kundencenter ändern können, finden Sie die offizielle Dokumentation zu den von unseren Webhostings unterstützten CMS:
+> Finden Sie die offizielle Dokumentation zu den von unseren Webhostings unterstützten CMS:
 >
 > - WordPress: <https://wordpress.org/support/article/resetting-your-password/>
 > - Joomla!: <https://docs.joomla.org/How_do_you_recover_or_reset_your_admin_password%3F>
@@ -136,6 +98,17 @@ Folgen Sie den Anweisungen in [dieser Anleitung](/pages/web_cloud/web_hosting/ex
 Um Ihr 1-Klick-Modul zu löschen, gehen Sie in Ihr [OVHcloud Kundencenter](/links/manager), klicken Sie auf `Web Cloud`{.action}, `Hosting-Pakete`{.action}, das betreffende Hosting und dann auf `1-Klick-Module`{.action}.
 
 Klicken Sie dann auf den Button `...`{.action} rechts neben der Zeile für Ihr Modul und dann auf den Befehl `Das Modul löschen`{.action}.
+
+> [!success]
+> Sie können den Button `Das Modul löschen`{.action} nicht finden? Oder möchten Sie nur Dateien auf Ihrem Modul löschen?
+>
+> Unsere Anleitungen:
+>
+> - [Mit dem FTP-Speicherplatz eines Webhostings verbinden](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutorial - FileZilla mit Ihrem OVHcloud Hosting nutzen](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/LHpsuvyNFtQ?si=4655K8lQQpkE2YNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

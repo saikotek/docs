@@ -1,13 +1,8 @@
 ---
 title: Jak korzystać z polityki IAM w Panelu klienta
 excerpt: Dowiedz się, jak przypisać użytkownikom uprawnienia dostępu do konta OVHcloud
-updated: 2024-07-04
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłóś propozycję modyfikacji” na tej stronie.
->
-
 
 ## Wprowadzenie
 
@@ -30,6 +25,8 @@ Na przykład, możemy stworzyć politykę pozwalającą użytkownikowi o nazwie 
 
 ![polityka IAM](images/iam_policies.png){.thumbnail}
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/g6qvskdFwy8?si=51mbyM6affEFknxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Wymagania początkowe
 
 - Posiadanie [konta OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-creation)
@@ -46,7 +43,7 @@ Kliknij nazwę konta w prawym górnym rogu, a następnie ponownie nazwę użytko
 
 Możesz uzyskać dostęp do menu IAM za pomocą wpisu w Panelu klienta.
 
-![Dostęp do menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Dostęp do menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 W menu wyświetla się listę wszystkich polityk utworzonych na Twoim koncie.
 
@@ -178,4 +175,4 @@ W oknie podręcznym zostanie wyświetlona prośba o potwierdzenie usunięcia hos
 
 ## Sprawdź również
 
-Przyłącz się do społeczności naszych użytkowników na <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

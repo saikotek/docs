@@ -68,4 +68,4 @@ En la sección «Formas de pago» puede guardar una forma de pago para que sus f
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

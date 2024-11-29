@@ -11,19 +11,19 @@ updated: 2023-09-20
 > [!warning]
 >OVHcloud vous fournit des services dont vous êtes responsable en ce qui concerne leur configuration et leur gestion. Vous êtes donc responsable de leur bon fonctionnement.
 >
->Si vous rencontrez des difficultés pour effectuer ces actions, veuillez contacter un prestataire de services spécialisé et/ou échanger avec notre communauté d'utilisateurs sur <https://community.ovh.com/>. OVHcloud ne pourra pas vous fournir de support technique à cet égard.
+>Si vous rencontrez des difficultés pour effectuer ces actions, veuillez contacter un prestataire de services spécialisé et/ou échanger avec notre [communauté d'utilisateurs](/links/community). OVHcloud ne pourra pas vous fournir de support technique à cet égard.
 >
 
 ## Prérequis
 
 - un [VPS](https://www.ovhcloud.com/fr-ca/vps/) dans votre compte OVHcloud
-- disposer d'un accès à l'[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc)
+- disposer d'un accès à l'[espace client OVHcloud](/links/manager)
 
 ## En pratique
 
 ### VPS GNU/Linux
 
-Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc) et lancez un redémarrage du serveur en mode rescue. Si nécessaire, consultez notre [guide du mode rescue](/pages/bare_metal_cloud/virtual_private_servers/rescue).
+Connectez-vous à votre [espace client OVHcloud](/links/manager) et lancez un redémarrage du serveur en mode rescue. Si nécessaire, consultez notre [guide du mode rescue](/pages/bare_metal_cloud/virtual_private_servers/rescue).
 
 Vous pourrez ensuite vérifier la configuration des disques :
 
@@ -89,7 +89,7 @@ fsck /dev/sdb1 -f
 
 Les instructions ci-dessus ne s'appliquent généralement pas à un VPS sous Windows, car la vérification du système de fichiers ne prend pas en charge NTFS. Vous pouvez cependant effectuer une vérification de cohérence NTFS sur les partitions.
 
-Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc) et lancez un redémarrage du serveur en mode rescue. Si nécessaire, consultez notre [guide du mode rescue](/pages/bare_metal_cloud/virtual_private_servers/rescue).
+Connectez-vous à votre [espace client OVHcloud](/links/manager) et lancez un redémarrage du serveur en mode rescue. Si nécessaire, consultez notre [guide du mode rescue](/pages/bare_metal_cloud/virtual_private_servers/rescue).
 
 Vous pourrez ensuite vérifier la configuration des disques :
 
@@ -154,4 +154,4 @@ ntfsfix /dev/sdb2
 
 [Activer le mode rescue sur un VPS](/pages/bare_metal_cloud/virtual_private_servers/rescue)
 
-Echangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

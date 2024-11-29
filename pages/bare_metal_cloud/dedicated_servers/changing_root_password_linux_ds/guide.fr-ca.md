@@ -16,7 +16,7 @@ Même si le serveur n’est pas utilisé à des fins nécessitant l’administra
 
 ## Prérequis
 
-- Un [serveur dédié](https://www.ovhcloud.com/fr-ca/bare-metal/) ou un [VPS](https://www.ovhcloud.com/fr-ca/vps/) avec un système d'exploitation Linux dans votre compte OVHcloud
+- Un [serveur dédié](/links/bare-metal/bare-metal) ou un [VPS](https://www.ovhcloud.com/fr-ca/vps/) avec un système d'exploitation Linux dans votre compte OVHcloud
 - Disposer des identifiants de connexion reçus par e-mail suite à l'installation.
 
 ## En pratique
@@ -33,7 +33,7 @@ N'oubliez pas de consulter également nos guides de premiers pas :
 > [!warning]
 > OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
 >
-> Nous mettons ce guide à votre disposition afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) ou de contacter [notre communauté](https://community.ovh.com/) si vous rencontrez des difficultés ou des doutes concernant l'administration, l'utilisation ou la mise en œuvre de services sur un serveur.
+> Nous mettons ce guide à votre disposition afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) ou de contacter [notre communauté](/links/community) si vous rencontrez des difficultés ou des doutes concernant l'administration, l'utilisation ou la mise en œuvre de services sur un serveur.
 >
 
 > [!primary]
@@ -405,4 +405,4 @@ Cela devrait être suffisant pour appliquer les modifications. Sinon, redémarre
 
 [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

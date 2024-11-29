@@ -4,10 +4,6 @@ excerpt: 'Descubra diferentes datos relativos a la transferencia de un dominio H
 updated: 2024-06-28
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
-> 
-
 ## Objetivo
 
 Para transferir un dominio Hostinger es necesario seguir un procedimiento específico.
@@ -86,7 +82,7 @@ Siga los pasos descritos en la [documentación dedicada de Hostinger](https://su
 ### Obtener el código EPP o Auth
 
 Si desea **transferir** su dominio de Hostinger a otro agente registrador (como OVHcloud), el nuevo agente registrador puede solicitar un código de autorización (código "EPP" o "Auth") para comprobar que tiene derecho a actuar sobre el dominio.
-Para más información sobre el cambio de propietario de un dominio, consulte esta [guía](pages/web_cloud/domains/trade_domain).
+Para más información sobre el cambio de propietario de un dominio, consulte esta [guía](/pages/web_cloud/domains/trade_domain).
 
 > [!warning]
 >

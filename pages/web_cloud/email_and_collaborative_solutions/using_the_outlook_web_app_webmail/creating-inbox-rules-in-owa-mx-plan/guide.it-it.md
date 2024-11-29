@@ -12,14 +12,14 @@ Tramite l’opzione “Regole Posta in arrivo” è possibile creare una serie d
 
 ## Prerequisiti
 
-- Disporre di una soluzione di posta elettronica OVHcloud attiva (**MX Plan**, disponibile nell'ambito delle nostre offerte di [hosting Web](https://www.ovhcloud.com/it/web-hosting/), inclusa in un [Hosting gratuito 100M](https://www.ovhcloud.com/it/domains/free-web-hosting/) oppure ordinata separatamente con una soluzione indipendente; [**Hosted Exchange**](https://www.ovhcloud.com/it/emails/hosted-exchange/)o ancora [**Email Pro**](https://www.ovhcloud.com/it/emails/email-pro/))
+- Disporre di una soluzione di posta elettronica OVHcloud attiva (**MX Plan**, disponibile nell'ambito delle nostre offerte di [hosting Web](/links/web/hosting), inclusa in un [Hosting gratuito 100M](/links/web/domains-free-hosting) oppure ordinata separatamente con una soluzione indipendente; [**Hosted Exchange**](/links/web/emails-hosted-exchange)o ancora [**Email Pro**](/links/web/email-pro))
 - Disporre delle credenziali di accesso dell’indirizzo email da configurare
 
 ## Procedura
 
 ### Step 1: vai alla sezione “Opzioni”
 
-Accedi al tuo account Exchange tramite la [Webmail OVHcloud](https://www.ovh.it/mail) Clicca sull’icona a forma di ingranaggio in alto a destra per aprire il menu e seleziona `Opzioni`{.action}.
+Accedi al tuo account Exchange tramite la [Webmail OVHcloud](/links/web/email) Clicca sull’icona a forma di ingranaggio in alto a destra per aprire il menu e seleziona `Opzioni`{.action}.
 
 ![inboxrules](images/exchange-rules-step1.png){.thumbnail}
 
@@ -99,4 +99,4 @@ Ricordati che non è possibile segnalare i falsi positivi direttamente da Outloo
 
 [Utilizzare un account di posta da “Outlook on the web”](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

@@ -1,12 +1,8 @@
 ---
 title: MX-Eintrag für die E-Mail-Verwaltung konfigurieren
 excerpt: Erfahren Sie hier, wie Sie mit OVHcloud MX-Einträge für Ihren Domainnamen konfigurieren 
-updated: 2024-02-29
+updated: 2024-09-02
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -37,6 +33,7 @@ MX-Einträge (**M**ail e**X**change) werden verwendet, um einen Domainnamen mit 
 Beispiel:
 
 Von der Adresse **sender@otherdomain.ovh** wird eine E-Mail an **contact@mydomain.ovh** gesendet. Der Server, der die E-Mail sendet (**Outgoing mail server**) wird dazu:
+
 - **(1)** Die DNS-Zone von **mydomain.ovh** auf deren **MX**-Einträge abfragen.
 - **(2)** Die E-Mail an die URL des gelesenen **MX**-Eintrags weiterleiten.
 
@@ -54,6 +51,8 @@ Sie können mehrere MX-Einträge für denselben Domainnamen einrichten. In diese
 ### Werte der OVHcloud MX-Konfiguration <a name="mxovhcloud"></a>
 
 Nachfolgend finden Sie die Konfiguration für OVHcloud MX Plan (Standalone oder in einem [OVHcloud Webhosting](/links/web/hosting) enthalten), [E-Mail Pro](/links/web/email-pro) und [Exchange](/links/web/emails). Unsere E-Mail-Server verfügen über integrierte Antispam- und Antivirensoftware.
+
+Diese Werte gelten für alle Angebote außer [Private Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_starting_private) und Dedicated Exchange.
 
 |Domain|TTL|Eintrag|Priorität|Ziel|
 |---|---|---|---|---|

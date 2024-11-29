@@ -16,7 +16,7 @@ Una soluzione email MX Plan è stata appena creata per usufruire di indirizzi em
 
 ## Prerequisiti
 
-- Disporre di una soluzione MX Plan (il servizio è disponibile con un piano di [hosting Web OVHcloud](/links/web/hosting), un [Hosting gratuito 100M](https://www.ovhcloud.com/it/domains/free-web-hosting/) o una soluzione MX Plan ordinata separatamente)
+- Disporre di una soluzione MX Plan (il servizio è disponibile con un piano di [hosting Web OVHcloud](/links/web/hosting), un [Hosting gratuito 100M](/links/web/domains-free-hosting) o una soluzione MX Plan ordinata separatamente)
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}.
 
 > [!primary]
@@ -79,7 +79,7 @@ Per consultare le tue email da un client di posta, consulta la sezione "[Consult
 
 #### Elimina un account email
 
-Dalla nuova versione MXplan, si parla di *reinizializzazione dell'account* quando si deve eliminarlo.
+Dalla nuova versione MX Plan, si parla di *reinizializzazione dell'account* quando si deve eliminarlo.
 
 > [!warning]
 >
@@ -209,4 +209,4 @@ Se non conosci i parametri necessari alla configurazione dell’account email, e
 
 ## Per saperne di più
   
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

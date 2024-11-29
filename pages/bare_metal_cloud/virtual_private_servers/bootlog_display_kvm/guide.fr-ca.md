@@ -18,13 +18,13 @@ Si votre VPS ne répond plus, vous devriez toujours pouvoir y accéder depuis vo
 > [!warning]
 > OVHcloud vous fournit des services dont vous êtes responsable en ce qui concerne leur configuration et leur gestion. Vous êtes donc responsable de leur bon fonctionnement.
 >
->Si vous rencontrez des difficultés pour effectuer ces actions, veuillez contacter un prestataire de services spécialisé et/ou échanger avec notre communauté d'utilisateurs sur <https://community.ovh.com/>. OVHcloud ne pourra pas vous fournir de support technique à cet égard.
+>Si vous rencontrez des difficultés pour effectuer ces actions, veuillez contacter un prestataire de services spécialisé et/ou échanger avec notre [communauté d'utilisateurs](/links/community). OVHcloud ne pourra pas vous fournir de support technique à cet égard.
 >
 
 ## Prérequis
 
 - disposer d'un [VPS](https://www.ovhcloud.com/fr-ca/vps/) dans votre compte OVHcloud
-- disposer d'un accès à l'[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc)
+- disposer d'un accès à l'[espace client OVHcloud](/links/manager)
 
 ## En pratique
 
@@ -37,7 +37,7 @@ Si vous avez toujours accès à votre VPS via SSH, vous pouvez passer à [l'éta
 
 ### Étape 1 : redémarrer le VPS en mode rescue
 
-Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc) et lancez un redémarrage du serveur en mode rescue. Si nécessaire, consultez notre [guide sur le mode rescue](/pages/bare_metal_cloud/virtual_private_servers/rescue).
+Connectez-vous à votre [espace client OVHcloud](/links/manager) et lancez un redémarrage du serveur en mode rescue. Si nécessaire, consultez notre [guide sur le mode rescue](/pages/bare_metal_cloud/virtual_private_servers/rescue).
 
 ### Étape 2 : effectuer la vérification initiale
 
@@ -160,7 +160,7 @@ Utilisez ensuite la commande suivante pour régénérer le fichier de configurat
 ~$ grub2-mkconfig -o "$(readlink /etc/grub.cfg)"
 ```
 
-Une fois les modifications effectuées, redémarrez votre VPS en mode « normal » depuis votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc). Les logs de boot doivent maintenant apparaître lors de l'utilisation de la [console KVM](/pages/bare_metal_cloud/virtual_private_servers/using_kvm_for_vps).
+Une fois les modifications effectuées, redémarrez votre VPS en mode « normal » depuis votre [espace client OVHcloud](/links/manager). Les logs de boot doivent maintenant apparaître lors de l'utilisation de la [console KVM](/pages/bare_metal_cloud/virtual_private_servers/using_kvm_for_vps).
 
 ## Aller plus loin
 
@@ -168,4 +168,4 @@ Une fois les modifications effectuées, redémarrez votre VPS en mode « normal 
 
 [Activer le mode rescue sur un VPS](/pages/bare_metal_cloud/virtual_private_servers/rescue)
 
-Echangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

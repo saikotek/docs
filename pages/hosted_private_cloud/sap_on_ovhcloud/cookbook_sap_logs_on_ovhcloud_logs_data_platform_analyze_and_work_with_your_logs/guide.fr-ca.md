@@ -1,5 +1,5 @@
 ---
-title: "SAP Logs sur OVHcloud Logs Data Platform - Analysez et exploitez vos logs"
+title: "SAP logs sur OVHcloud Logs Data Platform - Analysez et exploitez vos logs"
 excerpt: "Ce guide a pour but de vous accompagner dans la récupération et l'exploitation de vos logs SAP sur le service OVHcloud Logs Data Platform"
 updated: 2024-05-16
 ---
@@ -125,4 +125,4 @@ L’API OVHcloud disponible sur [api.ovh.com](https://ca.api.ovh.com/console-pre
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

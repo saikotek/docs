@@ -4,10 +4,6 @@ excerpt: 'Esta guía explica cómo optimizar la seguridad de su cuenta de OVHclo
 updated: 2021-07-01
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 La gestión de sus servicios y datos se realiza principalmente desde el área de cliente de OVHcloud.
@@ -20,7 +16,7 @@ Desde el área de cliente de OVHcloud podrá gestionar sus datos personales y de
 ## Requisitos
 
 - Haber creado [su cuenta de OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-creation).
-- Haber iniciado sesión en el [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es).
+- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
 
 > [!primary]
 > Si necesita ayuda para conectarse a su cuenta, consulte la sección "[No consigo conectarme](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)" de nuestra guía "[Conectarse al área de cliente de OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-login)".
@@ -66,7 +62,7 @@ Haga clic en el cuadro `Mi perfil` en el botón `...`{.action} y luego en `Edita
 > [!warning]
 > Le recordamos que es **fundamental** que la dirección de correo electrónico alternativa sea **diferente** de la dirección de correo electrónico principal de la cuenta.
 >
-> Evite utilizar direcciones de correo asociadas a un dominio que gestione desde el área de cliente. En caso de corte en este dominio, no recibiría nuestras notificaciones.
+> Evite utilizar direcciones de correo asociadas a un dominio que gestione desde el área de cliente. En caso de corte en este dominio, no recibiría nuestras notificaciones. Si se encuentra en esta situación, siga [los procedimientos que se indican en esta guía](/pages/account_and_service_management/account_information/ovhcloud-account-login#invalid-email).
 >
 
 #### Activar la doble autenticación
@@ -82,7 +78,7 @@ Para más información, consulte nuestra guía [Proteger su cuenta de OVHcloud c
 
 #### Editar mis datos personales
 
-Puede modificar la información de su cuenta desde el [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es). Para ello, haga clic en su nombre en la esquina superior derecha del área de cliente y seleccione sus iniciales.
+Puede modificar la información de su cuenta desde el [área de cliente de OVHcloud](/links/manager). Para ello, haga clic en su nombre en la esquina superior derecha del área de cliente y seleccione sus iniciales.
 
 Haga clic en el botón `...`{.action} en el recuadro `Mi perfil` y seleccione `Editar mi perfil`{.action}.
 
@@ -126,7 +122,6 @@ Puede solicitar la eliminación de su cuenta de OVHcloud y los datos asociados r
 > Para eliminar su cuenta de OVHcloud, debe cumplir las siguientes condiciones:
 >
 > - su cuenta ya no debe contener ningún servicio.
->
 > - Su cuenta no podrá tener facturas ni pedidos pendientes de pago.
 >
 
@@ -154,7 +149,7 @@ Para más información, consulte la [guía sobre la gestión de usuarios](/pages
 
 #### Gestionar los contactos
 
-Puede delegar la gestión administrativa, técnica **o****** de facturación de uno o varios servicios de su cuenta a otro identificador de cliente. Consulte la guía sobre [la gestión de los contactos](/pages/account_and_service_management/account_information/managing_contacts) para obtener más información.
+Puede delegar la gestión administrativa, técnica **o****** de facturación de uno o varios servicios de su cuenta a otra cuenta de OVHcloud. Consulte la guía sobre [la gestión de los contactos](/pages/account_and_service_management/account_information/managing_contacts) para obtener más información.
 
 ### ¿Qué hacer si sospecha de una usurpación de identidad?
 
@@ -172,4 +167,4 @@ Si advierte una actividad sospechosa en su cuenta, [póngase en contacto con el 
 
 [En caso de fallo de la conexión al área de cliente](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -48,7 +48,7 @@ L'identificativo cliente è un codice personale che viene inviato via email al m
 
 Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}, clicca sul tuo nome utente in alto a destra e seleziona `Gestisci i contatti`{.action}.
 
-![Gestione dei contatti](images/hubcontacts.png){.thumbnail}
+![Gestione dei contatti](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
 Visualizzi una tabella con i diversi servizi per cui il tuo identificativo cliente è stato indicato come contatto.
 
@@ -138,8 +138,8 @@ Il controllo di ogni procedura viene effettuato via email e sarà necessario ver
 
 ## Per saperne di più
 
-Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](https://partner.ovhcloud.com/it/directory/).
-
-Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, consulta le nostre [soluzioni di supporto](https://www.ovhcloud.com/it/support-levels/).
-
-Contatta la nostra Community di utenti all’indirizzo [https://community.ovh.com/en/](https://community.ovh.com).
+Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
+ 
+Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](/links/support).
+ 
+Contatta la nostra [Community di utenti](/links/community).

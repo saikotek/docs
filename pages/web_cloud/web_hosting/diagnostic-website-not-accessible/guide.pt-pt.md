@@ -4,10 +4,6 @@ excerpt: "Diagnóstico das causas da inacessibilidade do seu site"
 updated: 2022-08-02
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Vários feedbacks de erro podem aparecer no seu navegador em caso de inacessibilidade do seu site. Os exemplos abaixo indicam uma configuração errada dos seus [servidores DNS](/pages/web_cloud/domains/dns_server_edit), a sua [zona DNS](/pages/web_cloud/domains/dns_zone_edit) ou um domínio suspenso (se o seu site não apresentar uma das mensagens de erro descritas aqui, consulte a secção [Quer saber mais?](#go-further)):

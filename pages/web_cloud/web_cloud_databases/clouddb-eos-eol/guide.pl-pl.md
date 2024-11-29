@@ -3,10 +3,6 @@ title: 'Ogłoszenia dotyczące końca umowy sprzedaży/usługi Web Cloud Databas
 updated: 2024-07-11
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Produktami objętymi ogłoszeniami o zakończeniu sprzedaży są usługi Web Cloud Databases, instancje SGBD dostępne za pośrednictwem sieci publicznej lub sieci Web Hosting.

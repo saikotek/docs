@@ -1,237 +1,280 @@
 ---
-title: 'Configurar a rede em Proxmox VE'
+title: 'Configurar a rede em Proxmox VE nas gamas High Grade, Scale & Advance (EN)'
 excerpt: 'Saiba como configurar a rede em Proxmox VE'
-updated: 2024-07-16
+updated: 2024-11-19
 ---
 
 > [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
+>
+> The sections related to Advance range servers only apply to third generation Advance servers powered by EPYC 4004 Series processors.
+>
+> Older Advance generation servers do not rely on the same network infrastructure.
 >
 
-> [!primary]
->
-> A partir de 6 de outubro de 2022, a nossa solução "Failover IP" passou a designar-se [Additional IP](https://www.ovhcloud.com/pt/network/additional-ip/). Isto não afeta as suas funcionalidades.
->
+## Objective
 
-## Objetivo
+**Find out two ways to configure an _additional IP_ on Proxmox VE: via the public interfaces and via the private interfaces (vRack).**
 
-Nas gamas High Grade & SCALE, o funcionamento dos Additional IP em modo bridged (através de MAC virtuais) não é possível. O mesmo acontece para os novos servidores de última geração entregues com os CPU AMD Epyc 4K e 8K. Por isso, é necessário configurar os Additional IP em modo roteado ou através do vRack.
+## Requirements
 
-> [!primary]
->
-> Até ao final de 2024, esta funcionalidade será fornecida para o conjunto das gamas High Grade, SCALE & ADVANCE.
->
-
-**Saiba como configurar a rede em Proxmox VE.**
-
-## Requisitos
-
-- Dispor de um [servidor dedicado OVHcloud](https://www.ovhcloud.com/pt/bare-metal/)
-- Dispor de [Additional IP](https://www.ovhcloud.com/pt/bare-metal/ip/)
-- Estar ligado à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt)
+- An [OVHcloud dedicated server](/links/bare-metal/bare-metal)
+- One or more [Additional IP addresses](/links/network/additional-ip)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 > [!warning]
 >
-> Nenhum MAC virtual deve ser aplicado aos Additional IP na Área de Cliente OVHcloud.
+> No virtual MAC address must be applied to Additional IPs in the OVHcloud Control Panel.
 >
 
-## Instruções
+## Instructions
 
-> [!primary]
->
-> Nessas gamas de servidores, há 4 placas de rede. As duas primeiras para o público, as duas últimas para o privado. Para beneficiar do conjunto da largura de banda, devem ser criados agregados.
->
+### Additional IP in routed mode on public network interfaces <a name="additionalipmoderoute"></a>
 
-### Additional IP em modo roteado nas interfaces de rede públicas
+With this configuration, Additional IP addresses must be attached to a dedicated server. If you have multiple Proxmox virtualization servers and you want to migrate a VM from one server to another, you will also need to migrate the Additional IP address to the destination server, via the OVHcloud Control Panel or via the OVHcloud API. You can automate this step by writing a script that uses the OVHcloud APIs.
 
-Esta configuração oferece melhores performances em termos de largura de banda, mas é menos flexível. Com esta configuração, os endereços Additional devem estar ligados a um servidor dedicado. Se dispõe de vários servidores de virtualização Proxmox e deseja migrar uma VM de um servidor para outro, deverá também migrar o endereço Additional IP para o servidor de destino, através da Área de Cliente OVHcloud ou através da API OVHcloud. Pode automatizar esta etapa escrevendo um script que utiliza as API da OVHcloud.  
+#### Target configuration schema
 
-#### Esquema da configuração alvo
+> [!tabs]
+> High Grade & Scale ranges
+>>
+>> ![schema route](images/schema_route2022.png){.thumbnail}
+>>
+> Advance range
+>>
+>> ![schema route](images/gamme-advance-01.png){.thumbnail}
+>>
 
-![esquema rodoviário](images/schema_route2022.png){.thumbnail}
+#### Explanations
 
-#### Explicações
+Proxmox is a Debian-based distribution which relies on `ifupdown2` for network configuration. In this guide, the network configuration will be modified via SSH and not via the Web interface.
 
-O Proxmox é baseado numa distribuição Debian. Neste guia, a configuração de rede será modificada através de SSH e não através da interface web.
+We will:
 
-É preciso:
+- connect via SSH on Proxmox
+- create a bond interface (only for the High Grade & Scale ranges)
+- create a bridge interface connected to the bond
+- allow packet forwarding between interfaces
+- add routes to the additional IPs
 
-- conectar-se em SSH em Proxmox;
-- criar um agregado (linux bond);
-- criar um bridge;
-- autorizar o forwarding;
-- autorizar o proxy_arp;
-- adicionar estradas.
+#### Configure the hypervisor
 
-#### Configurar o hypervisor
-
-Ligue-se ao servidor Proxmox através de SSH:
-
-```bash
-ssh root@PUB_IP_DEDICATED_SERVER
-# pode também utilizar o IP privado configurado no vRack
-```
-
-Tudo se passa no ficheiro `/etc/network/interfaces`:
+Log in to the Proxmox server via SSH:
 
 ```bash
-vi /etc/network/interfaces
+ssh PUB_IP_DEDICATED_SERVER
 ```
+
+##### Allow packet forwarding
+
+Enable the `ip_forward` sysctl parameter. To do this, we recommend modifying the `sysctl.conf` configuration file.
+
+Add the following line to `/etc/sysctl.conf`:
+
+```text
+# Enable ip_forward
+net.ipv4.ip_forward = 1
+```
+
+Next, reload the sysctl configuration:
 
 ```bash
-auto lo
-iface lo inet loopback
-  # Enable IP forwarding
-  up echo "1" > /proc/sys/net/ipv4/ip_forward
-  # Enable proxy-arp only for public bond
-  up echo "1" > /proc/sys/net/ipv4/conf/bond0/proxy_arp
-
-# public interface 1
-auto ens33f0
-iface ens33f0 inet manual
-	bond-master bond0
-
-# public interface 2
-auto ens33f1
-iface ens33f1 inet manual
-	bond-master bond0
-
-# private interface 1
-auto ens35f0
-iface ens35f0 inet manual
-
-# private interface 2
-auto ens35f1
-iface ens35f1 inet manual
-
-# LACP aggregate on public interfaces
-# configured in static mode on this example
-# Has the server's public IP
-auto bond0
-iface bond0 inet static
-    address PUB_IP_DEDICATED_SERVER/24
-	gateway PUB_GW
-	bond-slaves ens33f0 ens33f1
-	bond-mode 4
-	bond-miimon 100
-	bond-downdelay 200
-	bond-updelay 200
-	bond-lacp-rate 1
-	bond-xmit-hash-policy layer3+4
-	# Use the mac address of the first public interface
-	hwaddress AB:CD:EF:12:34:56
-
-#Private
-auto bond1
-iface bond1 inet static
-	bond-slaves ens35f0 ens35f1
-	bond-mode 4
-	bond-miimon 100
-	bond-downdelay 200
-	bond-updelay 200
-	bond-lacp-rate 1
-	bond-xmit-hash-policy layer3+4
-	# Use the mac address of the first private interface
-	hwaddress GH:IJ:KL:12:34:56
-
-# Configure the bridge with a private address and add route(s) to send the Additional IPs to it
-# A.B.C.D/X => Subnet of Additional IPs assigned to the server, this can be a host with /32
-# By default Proxmox creates vmbr0.
-# You can use it or create another one 
-auto vmbr0
-iface vmbr0 inet dhcp
-	# Define a private IP, it should not overlap your existing private networks on the vrack for example 
-	address 192.168.0.1/24
-	bridge-ports none
-	bridge-stp off
-	bridge-fd 0
-	# Add single additional
-	up ip route add A.B.C.D/32 dev vmbr0
-	# Add block IP
-	up ip route add A.B.C.D/28 dev vmbr0
-
-# Bridge used for private networks on vRack
-# The VLAN feature is enabled
-auto vmbr1
-iface vmbr1 inet manual
-        bridge-ports bond1
-        bridge-stp off
-        bridge-fd 0
-        bridge-vlan-aware yes
-        bridge-vids 2-4094
+sysctl -p
 ```
 
-Nesta fase, execute novamente os serviços de rede ou reinicie o servidor:
+##### Configure the network interfaces
+
+> [!tabs]
+> High Grade & Scale ranges
+>>
+>> ```bash
+>> vi /etc/network/interfaces
+>> ```
+>>
+>> ```text
+>> auto lo
+>> iface lo inet loopback
+>>
+>> # Public interfaces
+>> auto bond0
+>> iface bond0 inet manual
+>>         bond-slaves ens33f0 ens33f1
+>>         bond-mode 802.3ad
+>>         bond-lacp-rate fast
+>>         bond-xmit-hash-policy layer3+4
+>>
+>> auto vmbr0
+>> iface vmbr0 inet static
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
+>>         # Define a private network used to communicate with the VMs,
+>>         # it must not overlap with other private networks configured on the server
+>>         address 192.168.0.1/24
+>>         bridge-ports bond0
+>>         bridge-stp off
+>>         bridge-fd 0
+>>         # Add a single Additional IP
+>>         up ip route add ADDITIONAL_IP/32 dev $IFACE
+>>         # Add an IP block
+>>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
+>>
+>> # Private interfaces
+>> auto bond1
+>> iface bond1 inet manual
+>>         bond-slaves ens35f0 ens35f1
+>>         bond-mode 802.3ad
+>>         bond-lacp-rate fast
+>>         bond-xmit-hash-policy layer3+4
+>>
+>> auto vmbr1
+>> iface vmbr1 inet manual
+>>         bridge-ports bond1
+>>         bridge-stp off
+>>         bridge-fd 0
+>> ```
+> Advance range
+>>
+>> ```bash
+>> vi /etc/network/interfaces
+>> ```
+>>
+>> ```text
+>> auto lo
+>> iface lo inet loopback
+>>
+>> # Public interface
+>> auto vmbr0
+>> iface vmbr0 inet static
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
+>>         # Define a private network used to communicate with the VMs,
+>>         # it must not overlap with other private networks configured on the server
+>>         address 192.168.0.1/24
+>>         bridge-ports enp8s0f0np0
+>>         bridge-stp off
+>>         bridge-fd 0
+>>         # Add a single Additional IP
+>>         up ip route add ADDITIONAL_IP/32 dev $IFACE
+>>         # Add an IP block
+>>         up ip route add ADDITIONAL_IP_BLOCK/28 dev $IFACE
+>>
+>> # Private interface
+>> auto vmbr1
+>> iface vmbr1 inet manual
+>>         bridge-ports enp8s0f1np1
+>>         bridge-stp off
+>>         bridge-fd 0
+>> ```
+
+At this point, restart the network services:
 
 ```bash
 systemctl restart networking.service
 ```
 
-Quando reinicia os serviços de rede, os flanges (vmbr0, por exemplo) podem estar no estado inativo. Isto deve-se ao facto de que o Proxmox desliga cada VM das luzes e não as liga de novo. Para forçar a ligação das VMs aos bridges, pode reiniciar as VMs.
+> [!primary]
+>
+> When the networking service is restarted, VMs are not added back to the bridge. This is because Proxmox disconnects each VM from the bridges and does not reconnect them. To force the VMs to reconnect to the bridges, you can restart the VMs.
 
-#### Exemplo de configuração VM cliente Debian
+#### Client VM configuration example
 
-Conteúdo do ficheiro `/etc/network/interfaces`:
+The VM must be attached to the `vmbr0` bridge.
 
-```bash
-auto lo ens18
-iface lo inet loopback
-iface ens18 inet static
-    address ADDITIONAL_IP       # this should match with the IP A.B.C.D/32
-    netmask 255.255.255.255
-    gateway 192.168.0.1			# this sould match with the private IP set on bridge
-```
+> [!tabs]
+> Debian (ifupdown)
+>> Contents of the `/etc/network/interfaces` file:
+>>
+>> ```text
+>> auto lo
+>> iface lo inet loopback
+>>
+>> auto eth0
+>>
+>> iface eth0 inet static
+>>   address 192.168.0.2/24
+>>
+>> iface eth0 inet static
+>>         address ADDITIONAL_IP/32
+>>         # The "src" option must be set so that packets reaching the Internet
+>>         # have the public IP as source, instead of the private IP 192.168.0.2
+>>         up ip route replace default via 192.168.0.1 dev $IFACE onlink src ADDITIONAL_IP
+>> ```
+>>
+> Ubuntu (Netplan)
+>> Contents of the `/etc/netplan/01-netcfg.yaml` file:
+>>
+>> ```yaml
+>> network:
+>>   version: 2
+>>   ethernets:
+>>     eth0:
+>>       addresses:
+>>         - 192.168.0.3/24
+>>         - ADDITIONAL_IP/32
+>>       routes:
+>>         - to: default
+>>           via: 192.168.0.1
+>>           # So that packets reaching the Internet have the public IP as source,
+>>           # instead of the private IP 192.168.0.3
+>>           from: ADDITIONAL_IP
+>> ```
+>>
 
-#### Teste e validação
+#### Testing and validation
 
-A partir de agora, as suas máquinas virtuais deverão poder associar um serviço público à Internet. Além disso, as suas máquinas virtuais podem também ser anexadas diretamente na Internet através do endereço Additional IP. A largura de banda disponível corresponde à largura de banda disponível nas interfaces públicas do seu servidor e não afetará as interfaces privadas utilizadas para o vRack. Esta largura de banda é partilhada com as outras máquinas virtuais no mesmo host que utilizam um endereço Additional IP e o host Proxmox para o acesso público.
+From now on, your virtual machines should be able to access the Internet from the additional IPs. They should also be reachable directly from the Internet using their additional IPs. The available bandwidth corresponds to the bandwidth available on your server's public interfaces and will not affect the private interfaces used for the vRack. This public bandwidth is shared with other virtual machines on the same host, as well as the Proxmox host itself.
 
-Para verificar o seu IP público, a partir da VM:
+To check your public IP, from the VM:
 
 ```bash
 curl ifconfig.io
-ADDITIONAL_IP    				# should return your additional ip
+ADDITIONAL_IP # must return your additional ip
 ```
 
-### Additional IP através do vRack
+> [!primary]
+>
+> You need to restart the VM's network services for the configuration to take effect.
 
-Esta configuração é mais flexível, não precisa de associar um IP adicional a um servidor mas ao vRack. Isto significa que se uma máquina virtual deseja utilizar um endereço Additional IP, pode solicitá-lo diretamente sem nenhuma configuração suplementar e independentemente do host no qual está alojada.
+### Additional IP via the vRack
+
+This configuration is more flexible as you do not need to associate an Additional IP with a server, but with a vRack. This means that if you have multiple Proxmox virtualization servers and you want to migrate a VM from one server to another, you do not need to perform any action on OVHcloud APIs. The only requirement is for all servers to be connected to the same vRack.
 
 > [!warning]
 >
-> Esta configuração está limitada a 600 Mb/s para o tráfego de saída.
+> This configuration only works with a block of additional IPs.
+> It is not possible to use a single Additional IP (/32) directly in the vRack. To use an Additional IP, it must be [configured on a public interface](#additionalipmoderoute) and cannot be directly integrated into the vRack.
 >
 
-#### Requisitos
+#### Requirements
 
-* Ter reservado um bloco público de endereços IP na sua conta, com um mínimo de quatro endereços. O bloco deve ser apontado para o vRack.
-* Ter acesso ao intervalo de endereços de IP privados escolhidos.
-* Dispor de um [servidor compatível com o vRack](https://www.ovhcloud.com/pt/bare-metal/){.external}.
-* Ter ativado um serviço [vRack](https://www.ovh.pt/solucoes/vrack/){.external}.
-* Ter acesso à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).
+* A [server compatible with vRack](/links/bare-metal/bare-metal)
+* A [vRack service](/links/network/vrack)
+* A block of Additional IPs
+* Access to the [OVHcloud Control Panel](/links/manager)
 
-#### Esquema da configuração alvo
+#### Target configuration schema
 
-![esquema vrack](images/schema_vrack2022.png){.thumbnail}
+![schema vrack](images/schema_vrack2022.png){.thumbnail}
 
-#### Explicações
+#### Explanations
 
-Tem de:
+Proxmox is a Debian-based distribution which relies on `ifupdown2` for network configuration. In this guide, the network configuration will be modified via SSH and not via the Web interface.
 
-* criar um agregado;
-* criar um bridge ligado ao agregado;
+We will:
 
-Em primeiro lugar, adicione o seu bloco público de endereços IP ao vRack. Para isso, aceda à secção `Bare Metal Cloud`{.action} da Área de Cliente OVHcloud e abra o menu `vRack`{.action}.
+* create a bond interface (only for the High Grade & Scale ranges)
+* create a bridge interface connected to the bond
 
-Selecione o seu vRack na lista para apresentar a lista dos serviços elegíveis. Clique no bloco público de endereços IP que deseja adicionar ao vRack e, a seguir, no botão `Adicionar`{.action}.
+First, add your block of Additional IPs to the vRack. To do so, go to the `Bare Metal Cloud`{.action} section of your [OVHcloud Control Panel](/links/manager) and open the `vRack`{.action} menu.
 
-#### Configurar um endereço IP utilizável
+Select your vRack from the list to view the list of eligible services. Click on the block of Additional IPs you want to add to the vRack, then click the `Add`{.action} button.
 
-No caso do vRack, o primeiro, o penúltimo e o último endereço de um determinado bloco de IP são sempre reservados, respetivamente, ao endereço de rede, ao gateway de rede e ao *broadcast* da rede. Isto significa que o primeiro endereço utilizável é o segundo endereço do bloco, como indicado a seguir:
+#### Determine assignable IP addresses
+
+When used in a vRack, the first, penultimate, and last addresses of a given IP block are always reserved for the network address, network gateway, and network broadcast, respectively. This means that the first assignable address is the second address in the block, as shown in the example below for the `46.105.135.96/28` block:
 
 ```sh
-46.105.135.96 # Reserved: network address
-46.105.135.97 # First usable IP
+46.105.135.96   # Reserved: network address
+46.105.135.97   # First assignable IP
 46.105.135.98
 46.105.135.99
 46.105.135.100
@@ -243,93 +286,141 @@ No caso do vRack, o primeiro, o penúltimo e o último endereço de um determina
 46.105.135.106
 46.105.135.107
 46.105.135.108
-46.105.135.109 # Last usable IP
-46.105.135.110 # Reserved: network gateway
-46.105.135.111 # Reserved: network broadcast
+46.105.135.109   # Last assignable IP
+46.105.135.110   # Reserved: network gateway
+46.105.135.111   # Reserved: network broadcast
 ```
-
-Para configurar o primeiro endereço IP utilizável, é preciso editar o ficheiro de configuração de rede, como indicado abaixo. Neste exemplo, utilize uma máscara de sub-rede **255.255.255.240**.
 
 > [!primary]
 >
-> A máscara de sub-rede utilizada neste exemplo adequa-se ao nosso bloco de endereços IP. A sua máscara de sub-rede pode diferir em função da dimensão do bloco. Quando comprar o seu bloco de endereços IP, receberá um e-mail com a máscara de sub-rede que deve utilizar.
+> The subnet mask used in this example is appropriate for our block of Additional IPs. Your subnet mask may differ depending on the size of your block. When you purchase your IP block, you will receive an email with the subnet mask to use.
 >
 
-#### Configurar o hypervisor
+#### Configure the hypervisor
 
-Tudo se passa no ficheiro `/etc/network/interfaces`:
-
-```bash
-vi /etc/network/interfaces
-```
-
-O que conta aqui é a configuração `bond1` e `vmbr1`:
+Log in to the Proxmox server via SSH:
 
 ```bash
-auto lo
-iface lo inet loopback
-
-# public interface 1
-auto ens33f0
-iface ens33f0 inet manual
-
-# public interface 2
-auto ens33f1
-iface ens33f1 inet manual
-
-# private interface 1
-auto ens35f0
-iface ens35f0 inet manual
-	bond-master bond1
-
-# private interface 2
-auto ens35f1
-iface ens35f1 inet manual
-	bond-master bond1
-
-auto bond0
-iface bond0 inet dhcp
-	bond-slaves ens33f0 ens33f1
-    bond-miimon 100
-	bond-mode 802.3ad
-
-auto bond1
-# LACP Aggregate on private interfaces
-# No IPs on it
-iface bond1 inet manual
-	bond-slaves ens35f0 ens35f1
-    bond-miimon 100
-	bond-mode 802.3ad
-
-#Private
-
-auto vmbr1
-# Bridge connected to bond1 aggregate
-# No need for IP
-iface vmbr1 inet manual
-	bridge-ports bond1
-	bridge-stp off
-	bridge-fd 0
-
-post-up echo 1 > /proc/sys/net/ipv4/ip_forward
-
+ssh PUB_IP_DEDICATED_SERVER
 ```
 
-Agora, execute os serviços de rede ou reinicie o servidor.
+> [!tabs]
+> High Grade & Scale ranges
+>>
+>> ```bash
+>> vi /etc/network/interfaces
+>> ```
+>>
+>> ```text
+>> auto lo
+>> iface lo inet loopback
+>>
+>> # Public interfaces
+>> auto bond0
+>> iface bond0 inet static
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
+>>         bond-slaves ens33f0 ens33f1
+>>         bond-mode 802.3ad
+>>         bond-lacp-rate fast
+>>         bond-xmit-hash-policy layer3+4
+>>
+>> # Private interfaces
+>> auto bond1
+>> iface bond1 inet manual
+>>         bond-slaves ens35f0 ens35f1
+>>         bond-mode 802.3ad
+>>         bond-lacp-rate fast
+>>         bond-xmit-hash-policy layer3+4
+>>
+>> auto vmbr1
+>> iface vmbr1 inet manual
+>>         bridge-ports bond1
+>>         bridge-stp off
+>>         bridge-fd 0
+>> ```
+>>
+> Advance range
+>>
+>> ```bash
+>> vi /etc/network/interfaces
+>> ```
+>>
+>> ```text
+>> auto lo
+>> iface lo inet loopback
+>>
+>> # Public interface
+>> auto enp8s0f0np0
+>> iface enp8s0f0np0 inet static
+>>         address PUB_IP_DEDICATED_SERVER/32
+>>         gateway 100.64.0.1
+>>
+>> # Private interface
+>> auto vmbr1
+>> iface vmbr1 inet manual
+>>         bridge-ports enp8s0f1np1
+>>         bridge-stp off
+>>         bridge-fd 0
+>> ```
 
-#### Exemplo de configuração VM cliente Debian
-
-Conteúdo do ficheiro `/etc/network/interfaces`:
+At this point, restart the network services:
 
 ```bash
-auto lo ens18
-iface lo inet loopback
-iface ens18 inet static
-    address 46.105.135.97
-    netmask 255.255.255.240
-    gateway 46.105.135.110
+systemctl restart networking.service
 ```
 
-## Quer saber mais?
+> [!primary]
+>
+> When the networking service is restarted, VMs are not added back to the bridge. This is because Proxmox disconnects each VM from the bridges and does not reconnect them. To force the VMs to reconnect to the bridges, you can restart the VMs.
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+#### Client VM configuration example
+
+The VM must be attached to the `vmbr1` bridge.
+
+> [!tabs]
+> Debian (ifupdown)
+>> Contents of the `/etc/network/interfaces` file:
+>>
+>> ```text
+>> auto lo
+>> iface lo inet loopback
+>>
+>> auto eth0
+>> iface eth0 inet static
+>>         address 46.105.135.97/28
+>>         gateway 46.105.135.110
+>> ```
+> Ubuntu (Netplan)
+>> Contents of the `/etc/netplan/01-netcfg.yaml` file:
+>>
+>> ```yaml
+>> network:
+>>   version: 2
+>>   ethernets:
+>>     eth0:
+>>       addresses:
+>>         - 46.105.135.98/28
+>>       routes:
+>>         - to: default
+>>           via: 46.105.135.110
+>> ```
+
+#### Testing and validation
+
+From now on, your virtual machines should be able to access the Internet from the additional IPs. They should also be reachable directly from the Internet using their additional IPs.
+
+To check your public IP, from the VM:
+
+```bash
+curl ifconfig.io
+ADDITIONAL_IP # must return your additional ip
+```
+
+> [!primary]
+>
+> You need to restart the VM's network services for the configuration to take effect.
+
+## Go further
+
+Join our [community of users](/links/community).

@@ -4,10 +4,6 @@ excerpt: "Cómo asociar el servicio Active Directory Federation Services (AD FS)
 updated: 2024-06-25
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Puede utilizar la autenticación SSO (*Single Sign-On*) **única** para conectarse a su cuenta de OVHcloud. Para activar estas conexiones, su cuenta y sus servicios AD FS (*Active Directory Federation Services*) deben configurarse mediante autenticación SAML (*Security Assertion Markup Language*).
@@ -131,7 +127,7 @@ Haga clic en el nombre de su cuenta en la esquina superior derecha y, a continua
 
 Puede acceder al menú IAM desde la entrada dedicada del área de cliente.
 
-![Acceso al menú IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Acceso al menú IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 A continuación, haga clic en la pestaña `Identidades`{.action} para acceder a la gestión de los usuarios locales.
 
@@ -236,4 +232,4 @@ Ahora está conectado con el mismo ID de cliente, pero a través de su usuario A
 
 [Cómo utilizar las políticas IAM desde el área de cliente](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -164,4 +164,4 @@ user@host:~$ aws --profile default s3 rb s3://bucket
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -25,7 +25,7 @@ Voici la liste des logiciels compris dans la suite:
 
 ### Commander une licence
 
-Rendez-vous sur la page commerciale [Microsoft 365 OVHcloud](https://www.ovh.com/fr/office-365-business){.external} et sélectionnez la rubrique `Microsoft`{.action} de notre section `Web Cloud`{.action}.
+Rendez-vous sur la page commerciale [Microsoft 365 OVHcloud](/links/web/ms365) et sélectionnez la rubrique `Microsoft`{.action} de notre section `Web Cloud`{.action}.
 
 Vous pouvez également commander une licence depuis l'[espace client OVHcloud](/links/manager). Une fois connecté, sélectionnez `Web Cloud`{.action} dans le bandeau supérieur puis cliquez sur le bouton `Commander`{.action} et sur `o365`{.action}.
 
@@ -102,4 +102,4 @@ Précisez les raisons de votre demande de résiliation puis cliquez sur `Valider
 
 [Utiliser le bureau à distance avec Microsoft 365 apps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

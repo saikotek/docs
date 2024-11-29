@@ -68,7 +68,7 @@ En caso de solicitar un adeudo SEPA, recibirá un mensaje de correo electrónico
 
 Una vez que nuestro equipo haya validado su mandato, ya podrá utilizar esta nueva forma de pago.
 
-![FAQ billing](images/faq-billing01.gif){.thumbnail}
+![FAQ billing](/pages/assets/screens/control_panel/product-selection/right-column/faq-billing01.gif){.thumbnail}
 
 #### Ideas y consejos
 
@@ -178,4 +178,4 @@ Para descargarlo, acceda a la sección `Facturas`{.action} disponible en la colu
 
 ## Más información
   
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -1,15 +1,11 @@
 ---
 title: Suspender o poner en pausa una instancia
-updated: 2023-06-20
+updated: 2024-11-12
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
 
 ## Objetivo
 
- Como parte de la configuración de una infraestructura de alta disponibilidad, puede encontrarse con la necesidad de cortar el acceso a sus instancias para poder realizar distintas pruebas. OpenStack le permite suspender, detener o poner en pausa sus instancias. En cada caso, su IP se mantiene.
+Como parte de la configuración de una infraestructura de alta disponibilidad, puede encontrarse con la necesidad de cortar el acceso a sus instancias para poder realizar distintas pruebas. OpenStack le permite suspender, detener o poner en pausa sus instancias. En cada caso, su IP se mantiene.
 
 > [!warning]
 > El nombre de estas opciones en el área de cliente de OVHcloud es diferente del nombre en OpenStack/Horizon. Si realiza la operación a través del área de cliente, asegúrese de seleccionar la opción correcta.
@@ -20,7 +16,7 @@ updated: 2023-06-20
 ## Requisitos
 
 - Tener [una instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) sobre la facturación por **horas**
-- Tener acceso al [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es){.external} o al [interfaz de Horizon](/pages/public_cloud/compute/introducing_horizon)
+- Tener acceso al [área de cliente de OVHcloud](/links/manager) o al [interfaz de Horizon](/pages/public_cloud/compute/introducing_horizon)
 - Conocimiento de la [API de OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) y de las [variables OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Procedimiento
@@ -30,11 +26,11 @@ updated: 2023-06-20
 > Estas operaciones no interrumpen la facturación de la instancia, que seguirá facturándose mientras no haya sido **terminada**.
 >
 
-En la siguiente tabla podrá diferenciar las opciones disponibles en sus instancias. Continúe leyendo esta guía en el apartado correspondiente a su opción.
+En la siguiente tabla podrá diferenciar las opciones disponibles en sus instancias. Continúe leyendo esta guía en el apartado correspondiente a su opción. Ponemos entre paréntesis la terminología utilizada en la interfaz Horizon.
 
 |Término|Descripción|Facturación|
 |---|---|---|
-|[Suspender (*shelve*)](#shelve-instance)|Conserva los recursos y los datos de su disco creando un snapshot. Todos los demás recursos son liberados.|Solo se le facturará por la instantánea (snapshot).|
+|[Suspender (*shelve*)](#shelve-instance)|Conserve su IP, así como los recursos y los datos de su disco creando un snapshot, liberando todos los demás recursos.|Solo se factura el snapshot.|Solo se le facturará por la instantánea (snapshot).|
 |[Detener (*suspend*)](#stop-suspend-instance)|Almacena el estado de la máquina virtual en el disco. Los recursos dedicados a la instancia están siempre reservados.|La instancia se facturará al mismo precio.|
 |[Pausa](#pause-instance)|Almacena el estado de la máquina virtual en la RAM, una instancia en pausa se convierte en bloqueado.|La instancia se facturará al mismo precio.|
 
@@ -52,9 +48,9 @@ Esta opción le permitirá liberar los recursos dedicados a su instancia de Publ
 
 Conéctese al área de cliente de OVHcloud, acceda a la sección Public Cloud y seleccione el proyecto correspondiente. Clic en `Instances`{.action} en el menú de la izquierda.
 
-Haga clic en el botón `...`{.action} a la derecha de la instancia que desea suspender, y luego haga clic en`Suspender`{.action}.
+Haga clic en el botón `...`{.action} a la derecha de la instancia que desea suspender, y luego haga clic en `Suspender`{.action}.
 
-![suspend instance](images/suspend_an_instance.png){.thumbnail}
+![suspend instance](images/suspend_an_instance_2024.png){.thumbnail}
 
 En la pantalla que aparece, tome nota del mensaje y haga clic en `Confirmar`{.action}.
 
@@ -70,7 +66,11 @@ El snapshot estará entonces disponible en la sección `Instance Backup`{.action
 
 #### Desde la interfaz Horizon
 
-Para continuar, debe [crear un acceso a Horizon](/pages/public_cloud/compute/introducing_horizon) y [conectarse al panel Horizon](https://horizon.cloud.ovh.net/auth/login/).
+Para utilizar este método, conéctese [a Horizon](https://horizon.cloud.ovh.net/auth/login/):
+
+- Para conectarse con el inicio de sesión único de OVHcloud, utilice el enlace `Horizon`{.action} del menú de la izquierda, en «Management Interfaces», tras abrir su proyecto `Public Cloud`{.action} en su [área de cliente de OVHcloud](/links/manager).
+
+- Para conectarse con un usuario específico de OpenStack: abra la página de conexión a [Horizon](https://horizon.cloud.ovh.net/auth/login/) e introduzca las [claves OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) previamente creadas y haga clic en `Connect`{.action}.
 
 Si ha desplegado instancias en diferentes regiones, asegúrese de que se encuentre en la región adecuada. Puede comprobarlo en la esquina superior izquierda de Horizon.
 
@@ -113,7 +113,7 @@ Esta opción le permite reiniciar su instancia para poder seguir utilizándola. 
 >
 > Cualquier acción en el snapshot que no sea la reactivación (*unshelve*) puede ser muy peligrosa para su infraestructura en caso de mal uso. Cuando se «reactiva» (*unshelved*) una instancia, la instantánea se eliminará automáticamente. No es recomendable desplegar una nueva instancia a través de una instantánea creada después de que una instancia haya sido suspendida (*shelve*).
 >
-> La responsabilidad sobre los servicios que OVH pone a su disposición recae íntegramente en usted. Nuestros técnicos no son los administradores de las máquinas, ya que no tienen acceso a ellas. Por lo tanto, la gestión del software y la seguridad le corresponde a usted. Si tiene problemas o dudas sobre  la administración, la utilización o la seguridad de su servidor, le recomendamos que contacte con un proveedor de servicios especializado. Para más información, consulte el apartado «Más información» de esta guía.
+> La responsabilidad sobre los servicios que OVHcloud pone a su disposición recae íntegramente en usted. Nuestros técnicos no son los administradores de las máquinas, ya que no tienen acceso a ellas. Por lo tanto, la gestión del software y la seguridad le corresponde a usted. Si tiene problemas o dudas sobre  la administración, la utilización o la seguridad de su servidor, le recomendamos que contacte con un proveedor de [servicios especializado](/links/partner). Para más información, consulte el apartado «Más información» de esta guía.
 >
 
 #### Desde al área de cliente de OVHcloud.

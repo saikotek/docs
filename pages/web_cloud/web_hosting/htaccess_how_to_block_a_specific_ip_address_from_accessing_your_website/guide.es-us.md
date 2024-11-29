@@ -4,11 +4,6 @@ excerpt: "Descubra las posibles acciones a través de un archivo .htaccess para 
 updated: 2024-03-14
 ---
 
-> [!primary]
->
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Este tutorial le ayudará a proteger el acceso a sus sitios web de la red exterior, a prevenir o corregir posibles intrusiones o intentos de ataques DDoS (ataques de denegación de servicio).

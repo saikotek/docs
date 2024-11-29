@@ -4,10 +4,6 @@ excerpt: Come gestire i tuoi metodi di pagamento nello Spazio Cliente OVHcloud
 updated: 2023-05-09
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Nello Spazio Cliente OVHcloud puoi salvare e gestire diversi metodi di pagamento.
@@ -172,4 +168,4 @@ Nella nuova finestra, seleziona il metodo di pagamento che preferisci e salda il
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

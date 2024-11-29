@@ -12,12 +12,12 @@ Nello Spazio Cliente OVHcloud, è possibile creare firme universali (footers) pe
 
 ## Prerequisiti
 
-- avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it)
-- Disporre di una [soluzione Exchange OVHcloud](https://www.ovhcloud.com/it/emails/hosted-exchange/) o [Email Pro](https://www.ovhcloud.com/it/emails/email-pro/) attive 
+- avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
+- Disporre di una [soluzione Exchange OVHcloud](/links/web/emails-hosted-exchange) o [Email Pro](/links/web/email-pro) attive 
 
 ## Procedura
 
-Per effettuare questa operazione, accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}:
+Per effettuare questa operazione, accedi allo [Spazio Cliente OVHcloud](/links/manager):
 
 - **Exchange**: Clicca su `Microsoft`{.action} > `Exchange`{.action}. 
 - **Email Pro**: Clicca su `Email Pro`{.action}.
@@ -59,4 +59,4 @@ Prima di creare una firma per utenti, prendi in considerazione queste informazio
 
 [Condividi un calendario con la Webmail OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Partecipa alla nostra community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

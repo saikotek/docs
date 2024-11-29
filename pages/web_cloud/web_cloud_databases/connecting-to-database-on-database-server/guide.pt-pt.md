@@ -4,10 +4,6 @@ excerpt: "Saiba como se conectar a uma base de dados"
 updated: 2023-10-31
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Se desejar, pode consultar o conteúdo da sua base de dados através de uma interface. Para isso, tem ao seu dispor várias formas de conexão.

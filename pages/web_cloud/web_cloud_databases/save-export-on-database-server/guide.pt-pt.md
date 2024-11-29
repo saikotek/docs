@@ -4,10 +4,6 @@ excerpt: 'Saiba como fazer o backup e a exportação de uma base de dados'
 updated: 2023-10-26
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A sua base de dados pode conter um grande volume de informações essenciais ao seu site. Por isso, é essencial que possa salvaguardá-la ou exportá-la.

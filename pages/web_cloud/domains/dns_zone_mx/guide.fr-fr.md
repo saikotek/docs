@@ -1,7 +1,7 @@
 ---
 title: "Configurer un enregistrement MX pour la gestion des emails"
 excerpt: "Découvrez comment configurer un enregistrement MX sur votre nom de domaine chez OVHcloud"
-updated: 2024-02-29
+updated: 2024-09-02
 ---
 
 ## Objectif
@@ -32,6 +32,7 @@ L'enregistrement MX permet de relier un nom de domaine au serveur de sa platefor
 Les enregistrements MX (**M**ail e**X**change) permettent de relier votre nom de domaine aux serveurs e-mail de réception attachés à votre service e-mail. Nous allons nous appuyer sur un exemple.
 
 Lorsque l'adresse **sender@otherdomain.ovh** envoie un e-mail vers **contact@mydomain.ovh**, le serveur d'envoi e-mail (**Outgoing mail server**) va :
+
 - **(1)** interroger la zone DNS du nom de domaine **mydomain.ovh** et lire les enregistrements **MX**.
 - **(2)** transmettre l'e-mail vers l'URL de l'enregistrement **MX** lu.
 
@@ -49,6 +50,8 @@ Vous pouvez paramétrer plusieurs enregistrements MX pour un même nom de domain
 ### Valeurs de la configuration MX OVHcloud <a name="mxovhcloud"></a>
 
 Retrouvez ci-dessous la configuration MX OVHcloud à utiliser pour nos solutions MX Plan (seule ou incluse dans une offre d’[hébergement web OVHcloud](/links/web/hosting)), [E-mail Pro](/links/web/email-pro) et [Exchange](/links/web/emails). Nos serveurs e-mail disposent d'un antispam et d'un antivirus intégré.
+
+Ces valeurs sont communes à toutes ces offres, à l'exception de [Private Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_starting_private) et Dedicated Exchange.
 
 |Domaine|TTL|Type d'enregistrement|Priorité|Cible|
 |---|---|---|---|---|

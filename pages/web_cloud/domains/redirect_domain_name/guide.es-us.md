@@ -4,10 +4,6 @@ excerpt: "Distintos tipos de redirecciones y cómo crear una redirección para u
 updated: 2024-03-08
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
-
 ## Objetivo
 
 La redirección de un dominio consiste en redirigir el dominio hacia un nuevo destino. Existen distintos tipos de redirecciones, cada una de las cuales responde a una necesidad específica.

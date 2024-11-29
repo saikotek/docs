@@ -52,7 +52,7 @@ Ensuite, nous utiliserons cette Floating IP pour nous connecter à l'instance (V
 >> 
 >> Avant de créer votre instance, assurez-vous d'avoir créé un [réseau privé avec Gateway](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway).
 >>
->> Si vous avez besoin d'assistance pour créer une nouvelle instance, consultez d'abord notre guide pour [créer une instance depuis l'espace client OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps#create-instance). 
+>> Si vous avez besoin d'assistance pour créer une nouvelle instance, consultez d'abord notre guide pour [créer une instance depuis l'espace client OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps). 
 >>
 >>
 >> > [!warning]
@@ -505,4 +505,4 @@ Une fois les informations récupérées, utilisez l'appel suivant pour supprimer
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

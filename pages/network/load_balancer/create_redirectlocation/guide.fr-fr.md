@@ -110,4 +110,4 @@ Dans l'[API OVHcloud](https://api.ovh.com/){.external}, les redirections sont sp
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

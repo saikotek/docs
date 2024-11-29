@@ -1,6 +1,6 @@
 ---
 title: Object Storage - Gérer un bucket S3 avec Terraform
-updated: 2023-03-14
+updated: 2024-08-27
 ---
 
 ## Objectif
@@ -16,7 +16,7 @@ Ce tutoriel va vous permettre d'automatiser et d'orchestrer des actions pour uti
 
 - Installer la CLI Terraform  (se réferer au [tutoriel](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) d'Hashicorp, la société qui a créé Terraform). 
 - Installer la commande git 
-- Avoir accès aux API v6 (reportez à notre guide de [premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps)). Une fois les accès aux API créés, exportez les 4 IDs dans les variables, tel que décrit ci-dessous :
+- Avoir accès aux API v6 (consultez notre guide de [premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps)). En fonction de vos besoins en termes de permissions (verbes http PUT/GET/POST/DELETE), renseignez la route `/cloud/project/{serviceName}/region/{regionName}/storage/` pour cibler le stockage objet S3 où *{serviceName}* correspond à votre id de projet Public Cloud et *{regionName}* correspond à la région où vos ressources vont être localisées. Une fois les accès aux API créés, exportez les 4 IDs dans les variables, tel que décrit ci-dessous :
 
 ```bash
 $ export OVH_ENDPOINT=ovh-eu
@@ -147,4 +147,4 @@ $ terraform destroy
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
+Échangez avec notre [communauté d'utilisateurs](/links/community).

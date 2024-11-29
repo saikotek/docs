@@ -1,7 +1,7 @@
 ---
 title: Local Zone Compute - Fonctionnalités, capacités et limites
 excerpt: Découvrez les fonctionnalités, les capacités et les limites actuelles des instances Local Zones
-updated: 2024-07-10
+updated: 2024-11-12
 ---
 
 ## Objectif
@@ -9,7 +9,7 @@ updated: 2024-07-10
 Les instances Local Zones sont une extension des [régions](/links/public-cloud/regions-pci) qui rapprochent les services OVHcloud de lieux spécifiques, offrant une latence réduite et des performances améliorées pour les applications.
 Les instances Local Zones sont stratégiquement placées à proximité des zones à forte demande des utilisateurs. Leur objectif principal est de minimiser le temps nécessaire au transfert des données entre l'utilisateur et le cloud, afin de rendre les services plus rapides et plus réactifs et de répondre aux exigences de Data residency.
 
-Retrouvez plus d’informations sur notre [page dédiée aux instances Local Zone](/links/public-cloud/local-zones)).
+Retrouvez plus d’informations sur notre [page dédiée aux instances Local Zone](/links/public-cloud/local-zones).
 
 **Découvrez les fonctionnalités ainsi que les capacités actuelles et à venir des instances Local Zones.**
 
@@ -25,17 +25,20 @@ Retrouvez plus d’informations sur notre [page dédiée aux instances Local Zon
 | Boot/Start | Oui |
 | Stop | Oui |
 | Block Storage | Oui |
-| Sauvegardes des instances | Non |
+| Sauvegardes des instances | Oui |
+| Sauvegarde automatisée des instances | Non |
 | Snapshots de volumes| Non |
 | Sauvegardes de volumes | Non |
-| Object Storage | Non |
+| Object Storage | Oui |
 | Images Windows | Non |
 
 ## Capacités et limitations
 
-Toutes les fonctionnalités d'instance qui ne sont pas répertoriées ici, comme le redémarrage (reboot) des instances ou la prise en charge de Object Storage seront disponibles dans les prochains mois. Notre objectif est de prendre en charge l'ensemble des fonctionnalités déjà supportées dans les régions globales.
+Toutes les fonctionnalités d'instance qui ne sont pas répertoriées ici seront disponibles dans les prochains mois. Notre objectif est de prendre en charge l'ensemble des fonctionnalités déjà supportées dans les régions globales.
 
-## Feedback
+## Aller plus loin
+
+- [Object Storage - Spécifications pour Local Zones](/pages/storage_and_backup/object_storage/s3_local_zones_limitations)
 
 N’hésitez pas à nous faire part de vos questions, retours et suggestions pour améliorer le service :
 

@@ -3,10 +3,6 @@ title: EOL Policy für Managed Databases
 updated: 2023-03-07
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Von OVHcloud verwaltete Datenbanken (*Managed Databases*) verwenden verschiedene Datenbankmanagementsysteme (DBMS) wie MySQL oder PostgreSQL. Jede Version dieser Software erreicht irgendwann das Ende des Verkaufs (EOS) und dann das Ende des Supports. Die Version kann dann jeweils aktualisiert oder eingestellt werden ("Lebensende"). Wir möchten Ihnen dabei helfen, den Lebenszyklus der von OVHcloud verwalteten Datenbanken zu verstehen, um deren Weiterentwicklung besser vorherzusehen und vorzubereiten.

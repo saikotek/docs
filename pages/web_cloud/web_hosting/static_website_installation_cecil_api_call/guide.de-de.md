@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie externe APIs von Ihrer statischen Webseite 
 updated: 2023-01-16
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 In dieser Anleitung erfahren Sie, wie Sie das Web-Entwicklungstool [Cecil](https://cecil.app){.external} verwenden, um den Inhalt einer dynamischen Seite wiederzugeben. Dazu wird eine externe API eingebunden, die Informationen auf einer mit **Cecil** erstellten Seite anzeigt.

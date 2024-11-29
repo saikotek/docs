@@ -37,4 +37,4 @@ Cliquez sur le bouton `Valider`{.action} pour confirmer vos modifications.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur [https://community.ovh.com/](https://community.ovh.com/){.external}.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: "Comment créer une politique IAM pour permettre à un utilisateur de se connecter à l'espace client OVHcloud"
 excerpt: Découvrez comment octroyer les droits minimums nécessaires pour vous connecter à votre espace client
-updated: 2023-10-25
+updated: 2024-10-02
 ---
 
 ## Objectif
@@ -28,6 +28,10 @@ Grâce à ces droits, un utilisateur pourra se connecter à l'espace client. Cep
 ### Via l'interface utilisateur
 
 L'interface utilisateur permet de configurer une stratégie avec la configuration suivante :
+
+Ajouter la ou les identités auxquelles vous souhaitez donner accès.
+
+![Add identities](images/add_identities.png){.thumbnail}
 
 Ajouter un `resourceType` « OVHcloud customer account » et ajouter votre compte en tant que ressource.
 
@@ -79,4 +83,4 @@ L'API vous permet de mettre en place une policy selon l'exemple suivant :
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

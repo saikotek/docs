@@ -1,12 +1,8 @@
 ---
 title: "Come configurare il NIC handle per aggregare i link OVHcloud in SLES 15"
 excerpt: Attiva OVHcloud Link Aggregation sul tuo server SLES 15
-updated: 2023-10-26
+updated: 2024-11-26
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
@@ -17,13 +13,13 @@ La tecnologia OVHcloud Link Aggregation (OLA) è sviluppata dai nostri team per 
 ## Prerequisiti
 
 - [Aver configurato il NIC handle per la funzionalità OVHcloud Link Aggregation dallo Spazio Cliente OVHcloud](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager)
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it)
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 
 ## Procedura
 
 Dal momento che i nostri NIC su OLA sono configurati privatamente, non è possibile connettersi in SSH al server. Per accedere al server è quindi necessario utilizzare il tool IPMI.
 
-accedendo allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) e selezionando la scheda `Bare Metal Cloud`{.action}. Seleziona il tuo server nella lista sotto la rubrica `Server dedicati`{.action}.
+accedendo allo [Spazio Cliente OVHcloud](/links/manager) e selezionando la scheda `Bare Metal Cloud`{.action}. Seleziona il tuo server nella lista sotto la rubrica `Server dedicati`{.action}.
 
 Clicca sulla scheda `IPMI`{.action} (1) e poi sul pulsante `Da un applet Java (KVM)`{.action} (2).
 
@@ -57,7 +53,7 @@ IPADDR='10.0.0.1/24'
 BONDING_MASTER='yes'
 BONDING_SLAVE_0='eth0'
 BONDING_SLAVE_1='eth1'
-BONDING_MODULE_OPTS='mode=802.3ad miimon=100 xmit_hash_policy=layer3+4'
+BONDING_MODULE_OPTS='mode=802.3ad xmit_hash_policy=layer3+4'
 ```
 
 > [!primary]
@@ -138,8 +134,6 @@ Per verificare le impostazioni utilizzate dall'interfaccia ifcfg-bond0, utilizza
 
 [Come configurare il NIC handle per aggregare i link OVHcloud su Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Come configurare il NIC handle per l'aggregazione di link OVHcloud con CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Come configurare il tuo NIC handle per aggregare i link OVHcloud con Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

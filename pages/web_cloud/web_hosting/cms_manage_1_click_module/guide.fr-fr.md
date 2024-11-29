@@ -1,7 +1,7 @@
 ---
 title: "Comment gérer votre module en 1 clic ?"
 excerpt: "Découvrez comment gérer votre module en 1 clic depuis votre espace client OVHcloud"
-updated: 2022-09-05
+updated: 2024-11-15
 ---
 
 ## Objectif
@@ -19,7 +19,7 @@ Les modules en 1 clic permettent l’installation facile et rapide d’un logici
 
 ## Prérequis
 
-- Disposer d'une [offre d'hébergement Web Cloud](https://www.ovh.com/fr/hebergement-web/) permettant l'installation d'un module en 1 clic (seule l'[offre d'hébergement gratuit 100M](/pages/web_cloud/web_hosting/activate_start10m) n'est pas concernée).
+- Disposer d'une [offre d'hébergement Web Cloud](/links/web/hosting) permettant l'installation d'un module en 1 clic (seule l'[offre d'hébergement gratuit 100M](/pages/web_cloud/web_hosting/activate_start10m) n'est pas concernée).
 - Avoir créé un module en 1 clic sur votre hébergement (Si vous n'avez pas encore effectué cette installation, suivez les instructions de ce [guide](/pages/web_cloud/web_hosting/cms_install_1_click_modules)).
 - Être connecté à votre [espace client OVHcloud](/links/manager).
 
@@ -50,42 +50,9 @@ Vous pouvez également rechercher l'e-mail reçu lors de la création de votre m
 
 ### Modifier le mot de passe de votre module <a name="password-change"></a>
 
-Vous pouvez modifier le mot de passe de votre module depuis votre espace client OVHcloud ou en vous rendant directement sur la page de connexion à l'espace administrateur de votre site Web.
-Dans les deux cas, un e-mail de réinitialisation de mot de passe vous sera envoyé.
-
 > [!primary]
 >
-> **Que faire si vous n'avez pas reçu l'e-mail de réinitialisation du mot de passe administrateur de votre site ?**
->
-> Sur la boîte e-mail concernée, vérifiez les dossiers `Spams`{.action} et `Corbeille`{.action}.
->
-> Vous pouvez également retrouver l'ensemble des e-mails envoyés par nos services depuis votre [espace client OVHcloud](/links/manager) : cliquez sur votre nom en haut à droite de votre écran puis, dans le menu contextuel à droite de l'écran, cliquez sur `Emails de service`{.action}.
->
-> **Durée de validité des liens :**
->
-> - Après avoir reçu l'e-mail de changement de mot de passe, le lien de réinitialisation restera valide pendant 48 heures. 
-> - Après avoir cliqué sur le lien, celui-ci n'est valide que pendant 30 minutes.
->
-
-> [!warning]
->
-> La modification du mot de passe d’accès à l’interface d’administration de votre CMS depuis l’espace client OVHcloud peut se faire **uniquement si les conditions suivantes sont respectées** :
->
-> -	Le CMS a été installé à l’aide de l’option « module en 1 clic » lors de la commande de votre hébergement ou depuis l’espace client OVHcloud.
-> -	L’utilisateur (nom d’utilisateur, adresse e-mail, etc) n’a pas été modifié via le CMS ou la base de données.
-> -	La page d’accès à l’interface d’administration de votre CMS n’a pas été modifiée. En particulier, l’URL d’accès à l’interface d’administration de votre CMS ne doit pas avoir été modifiée via le CMS. Des restrictions sur cette même page ne doivent pas avoir été mises en place.
-> -	Le « préfixe » des tables présentes dans votre base de données n’a pas été modifié depuis le CMS ou depuis la base de données directement.
->
-> Dans le cas contraire, vous devrez suivre la documentation officielle du CMS que vous utilisez ou contacter directement l’éditeur du CMS. 
->
-
-Pour modifier le mot de passe d'accès à l'interface d'administration de votre site **via l'espace client OVHcloud**, cliquez sur `Web Cloud`{.action}, `Hébergements`{.action}, sur l'hébergement concerné puis sur l'onglet `Modules en 1 clic`{.action}.
-
-Cliquez ensuite sur le bouton `...`{.action} à droite de la ligne concernant votre module puis sur `Modifier le mot de passe`{.action}. Cliquez sur `Valider`{.action}. Vous recevrez sous quelques minutes par e-mail un lien de réinitialisation de votre mot de passe.
-
-> [!primary]
->
-> Si vous ne pouvez pas modifier votre mot de passe d’accès à l’interface d’administration de votre CMS depuis l’espace client OVHcloud pour les raisons citées plus haut, vous trouverez ci-après la documentation officielle pour les différents CMS proposés en installation sur nos hébergements mutualisés :
+> Vous trouverez ci-après la documentation officielle pour les différents CMS proposés en installation sur nos hébergements mutualisés :
 >
 > -	WordPress : <https://wordpress.org/support/article/resetting-your-password/>
 > -	Joomla! : <https://docs.joomla.org/How_do_you_recover_or_reset_your_admin_password%3F>
@@ -132,6 +99,17 @@ Pour sauvegarder votre site, suivez les instructions de ce [guide](/pages/web_cl
 Pour supprimer votre module en 1 clic, rendez-vous dans votre [espace client OVHcloud](/links/manager), cliquez sur `Web Cloud`{.action}, `Hébergements`{.action}, sur l'hébergement concerné puis sur `Modules en 1 clic`{.action}.
 
 Cliquez ensuite sur le bouton `...`{.action} à droite de la ligne désignant votre module puis sur la commande `Supprimer le module`{.action}.
+
+> [!success]
+> Vous ne trouvez pas le bouton `Supprimer le module`{.action} ? Ou vous souhaitez seulement supprimer des fichiers sur votre module ?
+>
+> Consultez nos guides :
+>
+> - [Se connecter à l’espace de stockage FTP de son hébergement web](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutoriel - Utiliser FileZilla avec votre hébergement OVHcloud](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/q56mkNNalOI?si=CeQ7dGB_Rmogted0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

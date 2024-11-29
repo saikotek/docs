@@ -4,11 +4,6 @@ excerpt: "Dowiedz się, jak geolokalizować Twoją stronę WWW za pomocą geolok
 updated: 2022-12-22
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
-  
 ## Wprowadzenie
   
 Wyszukiwarki (Google, Bing, Yahoo, ...) wykorzystują roboty do indeksowania i pozycjonowania na wszystkich stronach internetowych. W pierwszej kolejności odnoszą się one do lokalizowanych geograficznie stron w kraju, z którego prowadzą Państwo badania.

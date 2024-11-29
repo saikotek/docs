@@ -93,7 +93,7 @@ Pour consulter vos e-mails depuis un logiciel de messagerie, référez-vous la r
 
 #### Supprimer un compte e-mail
 
-Depuis la nouvelle version MXplan, on parle de *réinitialisation de compte* lorsque vous devez supprimer celui-ci.
+Depuis la nouvelle version MX Plan, on parle de *réinitialisation de compte* lorsque vous devez supprimer celui-ci.
 
 > [!warning]
 >
@@ -224,4 +224,4 @@ Si vous désirez simplement obtenir les éléments nécessaires pour configurer 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

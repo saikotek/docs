@@ -4,10 +4,6 @@ excerpt: Saiba como gerir as suas faturas e pagamentos na OVHcloud
 updated: 2022-05-12
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A OVHcloud disponibiliza-lhe um espaço que lhe permite consultar, gerir e pagar as suas diferentes faturas.
@@ -19,7 +15,7 @@ A OVHcloud disponibiliza-lhe um espaço que lhe permite consultar, gerir e pagar
 > Em função do seu local de residência e da sua legislação em vigor, bem como do(s) produto(s) em causa, é possível que algumas partes deste guia variem e/ou não se apliquem consoante a sua situação. Caso tenha alguma dúvida, consulte os contratos da OVHcloud disponíveis na sua [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt) (clique no canto superior direito do ecrã no seu nome e, no menu contextual, na `Gestão dos serviços`{.action} e, a seguir, no separador `Contratos`{.action}).
 >
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iiQmopMhzik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iiQmopMhzik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requisitos
 
@@ -59,7 +55,7 @@ A fatura do seu serviço OVHcloud é-lhe enviada após o pagamento de uma encome
 
 Para consultar as suas faturas aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt). Clique no seu nome no canto superior direito do ecrã e, no novo menu que aparecer, em `Faturas`{.action}.
 
-![Faturação](images/hubinvoices.png){.thumbnail}
+![Faturação](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 Aparecerá uma página onde poderá consultar todas as suas faturas.
 
@@ -149,4 +145,4 @@ A partir deste espaço, pode também exportar os seus comprovativos de pagamento
 
 [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -4,7 +4,6 @@ excerpt: Encontre as questões mais frequentes sobre faturação e pagamento
 updated: 2023-06-05
 ---
 
-  
 ## Objetivo
 
 Veja aqui as questões mais frequentes sobre faturação e pagamento para os seus serviços OVHcloud.
@@ -68,7 +67,7 @@ Em caso de pedido de débito direto SEPA, receberá no prazo de 24 a 48 horas, n
 
 Depois de receber a autorização por parte dos nossos serviços, poderá utilizar este novo método de pagamento.
 
-![FAQ billing](images/faq-billing01.gif){.thumbnail}
+![FAQ billing](/pages/assets/screens/control_panel/product-selection/right-column/faq-billing01.gif){.thumbnail}
 
 #### Truques e dicas
 
@@ -178,4 +177,4 @@ Para o descarregar, aceda à secção `Faturas`{.action} que pode ser acedida di
 
 ## Quer saber mais?
  
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -10,7 +10,7 @@ OVHcloud Web PaaS powered by Platform.sh enables web developers to manage, devel
 
 **This guide explains how to order and preconfigure your Web PaaS solution in the OVHcloud Control Panel.**
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EcEBhxuDCDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/EcEBhxuDCDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requirements
 
@@ -117,4 +117,4 @@ The final step to get started with a project is to downlad it in order to work o
 
 [Managing Web PaaS from the OVHcloud Control Panel](/pages/web_cloud/web_paas_powered_by_platform_sh/getting_started/control-panel-managing-the-service)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

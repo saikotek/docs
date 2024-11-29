@@ -14,13 +14,13 @@ Plesk est une interface de gestion de serveurs simple à prendre en main. Vous a
 > 
 > OVHcloud met à votre disposition des services dont la responsabilité vous revient. En effet, n’ayant aucun accès à ces machines, nous n’en sommes pas les administrateurs et ne pourrons vous fournir d'assistance. Il vous appartient de ce fait d’en assurer la gestion logicielle et la sécurisation au quotidien.
 >
-> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) si vous éprouvez des difficultés ou des doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur. N'hésitez pas à vous rendre sur notre [forum communautaire](https://community.ovh.com/){.external} pour échanger avec d'autres utilisateurs.
+> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) si vous éprouvez des difficultés ou des doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur. N'hésitez pas à vous rendre sur notre [forum communautaire](/links/community) pour échanger avec d'autres utilisateurs.
 >
 
 ## Prérequis
 
-- [Avoir créé une instance depuis l'espace client OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps#etape-3-creer-une-instance).
-- [Passer root et définir un mot de passe](/pages/public_cloud/compute/become_root_and_change_password).
+- [Avoir créé une instance depuis l'espace client OVHcloud](/links/public-cloud/public-cloud).
+- [Disposer d'un accès administrateur](/pages/public_cloud/compute/public-cloud-first-steps#connect-instance).
 
 ## En pratique
 
@@ -93,4 +93,4 @@ Une fois la nouvelle clé ajoutée, vous pouvez visualiser le type de licence in
 
 [Documentation officielle de Plesk](https://docs.plesk.com/en-US/onyx/){.external}.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

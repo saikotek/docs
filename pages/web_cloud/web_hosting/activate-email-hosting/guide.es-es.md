@@ -1,18 +1,16 @@
 ---
 title: "Activar el servicio de correo incluido en un plan de hosting"
 excerpt: "Descubra cómo activar las direcciones de correo electrónico incluidas en un plan de alojamiento web"
-updated: 2024-07-17
+updated: 2024-10-01
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
 
 ## Objetivo
 
 Si ha contratado un plan de hosting con OVHcloud sin asociarlo directamente a un dominio, deberá activar manualmente la solución de correo incluida en el servicio para asociarla al dominio que usted elija.
 
 **Esta guía explica cómo activar las direcciones de correo incluidas en su plan de alojamiento web.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Rw3_KAF0Agc?si=phwVNNdXhRPuOPNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 

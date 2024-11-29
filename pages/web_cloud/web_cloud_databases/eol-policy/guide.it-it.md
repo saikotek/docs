@@ -3,10 +3,6 @@ title: Politica di fine vita dei database gestiti
 updated: 2023-03-07
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 I database gestiti OVHcloud propongono diversi Sistemi di Gestione Database (SGBD), come MySQL o PostgreSQL. Ogni versione di questi software raggiunge, in un momento o nell'altro, la fine della vendita e la fine del supporto. e può essere aggiornata dai nostri servizi o cessare di funzionare correttamente ("fine vita"). Per anticipare e preparare al meglio l'evoluzione dei database gestiti, vorremmo condividere con te il ciclo di vita dei database gestiti da OVHcloud.

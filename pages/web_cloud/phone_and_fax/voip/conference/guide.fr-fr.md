@@ -91,4 +91,4 @@ Les participants ont aussi la possibilité de se servir des raccourcis ci-dessou
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

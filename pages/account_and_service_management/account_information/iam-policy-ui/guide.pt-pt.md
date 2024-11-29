@@ -1,13 +1,8 @@
 ---
 title: Como utilizar as políticas IAM a partir do seu Espaço Cliente
 excerpt: Descubra como dar direitos de acesso específicos aos utilizadores a partir de uma conta OVHcloud
-updated: 2024-07-04
+updated: 2024-10-30
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 
 ## Objetivo
 
@@ -30,6 +25,8 @@ Por exemplo, podemos criar uma política para dar a um utilizador chamado John, 
 
 ![políticas IAM](images/iam_policies.png){.thumbnail}
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/g6qvskdFwy8?si=51mbyM6affEFknxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Requisitos
 
 - Dispor de uma [conta OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-creation)
@@ -46,7 +43,7 @@ Clique no nome da sua conta no canto superior direito e, de novo, no seu nome na
 
 Pode aceder ao menu IAM através da entrada dedicada no seu Espaço Cliente.
 
-![Acesso ao menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Acesso ao menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 O menu apresenta a lista de todas as políticas em curso criadas na sua conta.
 
@@ -178,4 +175,4 @@ Uma janela contextual irá pedir-lhe que confirme a eliminação.
 
 ## Quer saber mais?
 
-Fale com nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

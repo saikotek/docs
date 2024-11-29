@@ -3,11 +3,6 @@ title: "Limitare l'accesso via IP al tuo Spazio Cliente OVHcloud"
 excerpt: "Come proteggere un account OVHcloud limitando gli indirizzi IP autorizzati ad accedervi"
 updated: 2022-12-12
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
   
 ## Obiettivo
 
@@ -153,8 +148,8 @@ Una volta inseriti tutti gli indirizzi IP pubblici nella sezione `IP configurati
 
 [Configura la doppia autenticazione sul tuo Spazio Cliente OVHcloud](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
 
-Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](https://partner.ovhcloud.com/it/directory/).
-
-Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](https://www.ovhcloud.com/it/support-levels/).
-
-Contatta la nostra Community di utenti all'indirizzo <https://community.ovh.com>.
+Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
+ 
+Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](/links/support).
+ 
+Contatta la nostra [Community di utenti](/links/community).

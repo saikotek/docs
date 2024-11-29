@@ -1,12 +1,8 @@
 ---
 title: FAQ sul supporto OVHcloud
 excerpt: Le domande più frequenti sul supporto OVHcloud
-updated: 2024-08-09
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
@@ -15,6 +11,8 @@ Le domande più frequenti sul supporto OVHcloud.
 <a name="sso"></a>
 
 ## FAQ
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/44q3cfQM-YI?si=JemH0lvLPWFuFGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Cosa fare se si verificano dei problemi di connessione al centro assistenza o all'interfaccia di gestione dei ticket?
 

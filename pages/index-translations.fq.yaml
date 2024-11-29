@@ -86,7 +86,7 @@ public-cloud-ai-and-machine-learning-general-information: Informations général
 public-cloud-ai-and-machine-learning-command-line-interface: Command Line Interface
 public-cloud-ai-and-machine-learning-ai-notebooks: AI Notebooks
 public-cloud-ai-and-machine-learning-ai-notebooks-guides: AI Notebooks - Guides
-public-cloud-ai-and-machine-learning-ai-notebooks-tutorials: AI Notebooks -Tutoriels
+public-cloud-ai-and-machine-learning-ai-notebooks-tutorials: AI Notebooks - Tutoriels
 public-cloud-ai-and-machine-learning-ai-training: AI Training
 public-cloud-ai-and-machine-learning-ai-training-guides: AI Training - Guides
 public-cloud-ai-and-machine-learning-ai-training-tutorials: AI Training - Tutoriels
@@ -95,6 +95,8 @@ public-cloud-ai-and-machine-learning-ai-deploy-guides: AI Deploy - Guides
 public-cloud-ai-and-machine-learning-ai-deploy-tutorials: AI Deploy - Tutoriels
 public-cloud-ai-and-machine-learning-ai-ecosystem: AI Partners Ecosystem
 public-cloud-ai-and-machine-learning-ai-ecosystem-guides: AI Partners - Guides
+public-cloud-ai-and-machine-learning-ai-endpoints: AI Endpoints
+public-cloud-ai-and-machine-learning-ai-endpoints-guides: AI Endpoints - Guides
 public-cloud-containers-orchestration: Containers & Orchestration
 public-cloud-containers-orchestration-managed-kubernetes-k8s: Managed Kubernetes (K8s)
 public-cloud-containers-orchestration-managed-kubernetes-k8s-getting-started: Getting started
@@ -116,6 +118,7 @@ public-cloud-containers-orchestration-managed-private-registry-getting-started: 
 public-cloud-containers-orchestration-managed-private-registry-tutorials: Tutorials
 public-cloud-containers-orchestration-managed-rancher-service: Managed Rancher Service (MRS)
 public-cloud-containers-orchestration-managed-rancher-service-getting-started: Getting started
+public-cloud-containers-orchestration-managed-rancher-service-resources: Resources
 public-cloud-containers-orchestration-managed-rancher-service-creating-importing-kubernetes: Creating or importing a Kubernetes cluster
 public-cloud-containers-orchestration-managed-rancher-service-operations-kubernetes: Operations on a Kubernetes cluster
 public-cloud-containers-orchestration-managed-rancher-service-deploy-applications: Deploying applications with Rancher
@@ -206,6 +209,7 @@ web-cloud-email-collaborative-solutions-microsoft-exchange-setting-up-email-appl
 web-cloud-email-collaborative-solutions-microsoft-exchange-setting-up-email-application-on-mobile-device: Configurer une application e-mail sur votre smartphone ou tablette
 web-cloud-email-collaborative-solutions-microsoft-exchange-troubleshooting: Diagnostic et dépannage
 web-cloud-email-collaborative-solutions-microsoft-office: Microsoft Office
+web-cloud-email-collaborative-solutions-zimbra: Zimbra
 web-cloud-domains: Domaines
 web-cloud-domains-api: API
 web-cloud-domains-api-frequent-tasks: Tâches courantes
@@ -274,6 +278,7 @@ web-cloud-hosting-tutorials: Tutoriels
 web-cloud-hosting-tutorials-wordpress: Tutoriels WordPress
 web-cloud-hosting-tutorials-cloud-web: Tutoriels Cloud Web
 web-cloud-hosting-website-optimisation: Optimisation de votre site web
+web-cloud-hosting-api: API
 web-cloud-ssl-gateway: SSL Gateway
 web-cloud-ssl-gateway-getting-started: Premiers pas
 web-cloud-web-paas-powered-by-platformsh: Web PaaS powered by Platform.sh
@@ -344,6 +349,7 @@ network-load-balancer-getting-started: Premiers pas
 network-load-balancer-setting-up: Mise en route
 network-load-balancer-use-cases: Cas d'utilisation
 network-load-balancer-viewing-statuses: Consulter les statuts
+network-vrack-services: vRack Services
 network-content-delivery-network-cdninfrastructure: Content Delivery Network (CDN) Infrastructure
 manage-operate-api: API
 manage-operate-api-apiv6: APIv6
@@ -358,7 +364,6 @@ manage-operate-observability: Observabilité
 observability-logs-data-platform: Logs Data Platform
 observability-logs-data-platform-getting-started: Premiers pas
 observability-logs-data-platform-ingestion: Ingestion de vos logs
-observability-logs-data-platform-upgrade: Mise à jour 
 observability-logs-data-platform-visualizing-querying-exploiting: Visualisation, requête et exploitation de vos logs
 observability-logs-data-platform-opensearch-index: Index OpenSearch as-a-service 
 observability-logs-data-platform-security-conformity: Sécurité et conformité

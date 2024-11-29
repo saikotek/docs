@@ -12,12 +12,12 @@ In the OVHcloud Control Panel, you can create universal signatures (footers) for
 
 ## Requirements
 
-- access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca)
-- an [OVHcloud Exchange](https://www.ovhcloud.com/en-ca/emails/hosted-exchange/) solution already set up
+- access to the [OVHcloud Control Panel](/links/manager)
+- an [OVHcloud Exchange](/links/web/emails-hosted-exchange) solution already set up
 
 ## Instructions
 
-First, log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca), navigate to the `Webcloud`{.action} section, and select your Exchange service from the column under `Microsoft`{.action} `Exchange`{.action}. Click on the `More+`{.action} tab in the horizontal menu and select `Footers`{.action}.
+First, log in to your [OVHcloud Control Panel](/links/manager), navigate to the `Webcloud`{.action} section, and select your Exchange service from the column under `Microsoft`{.action} `Exchange`{.action}. Click on the `More+`{.action} tab in the horizontal menu and select `Footers`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 
@@ -54,4 +54,4 @@ Please take the following specifics into consideration before applying signature
 
 [How to share calendars via OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

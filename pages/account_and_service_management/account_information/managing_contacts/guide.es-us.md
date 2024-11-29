@@ -39,7 +39,7 @@ Existen tres tipos de contactos:
 
 Conéctese a su [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws){.external}, haga clic en el nombre asociado a su cuenta de cliente en la esquina superior derecha y seleccione `Gestión de contactos`{.action}.
 
-![Gestión de contactos](images/hubcontacts.png){.thumbnail}
+![Gestión de contactos](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
 Se mostrará una tabla con todos los servicios en los que su identificador de cliente aparece como contacto.
 
@@ -101,4 +101,8 @@ Una vez que los dos contactos hayan validado la solicitud, el cambio se hará ef
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Para servicios especializados (posicionamiento, desarrollo, etc.), contacte con [partners de OVHcloud](/links/partner).
+ 
+Si quiere disfrutar de ayuda para utilizar y configurar sus soluciones de OVHcloud, puede consultar nuestras distintas soluciones [pestañas de soporte](/links/support).
+ 
+Interactúe con nuestra [comunidad de usuarios](/links/community).

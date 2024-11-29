@@ -148,4 +148,4 @@ Les comptes de services sont disponible dans plusieurs API de nos produits. Pour
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -92,4 +92,4 @@ Po zaimportowaniu Twojej listy możesz postępować zgodnie z instrukcjami zawar
 
 [Zarządzanie książkami adresowymi SMS](/pages/web_cloud/messaging/sms/gerer_mes_carnets_dadresses_sms)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>
+Dołącz do [grona naszych użytkowników](/links/community).

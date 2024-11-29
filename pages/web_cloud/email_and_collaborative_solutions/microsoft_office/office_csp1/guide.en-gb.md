@@ -25,7 +25,7 @@ Here is the list of software included in the suite:
 
 ### How to order a licence
 
-Go to the [OVHcloud Microsoft 365](https://www.ovhcloud.com/en-gb/collaborative-tools/microsoft-365/)commercial page and click on the button `Order`{.action}.
+Go to the [OVHcloud Microsoft 365](/links/web/ms365)commercial page and click on the button `Order`{.action}.
 
 From the [OVHcloud Control Panel](/links/manager), select `Web Cloud`{.action} in the top menu, click the `Order`{.action} button and then `Office 365`{.action}.
 
@@ -104,4 +104,4 @@ Specify the reasons for your termination request, then click `Confirm`{.action}.
 
 [Using Remote Desktop with Microsoft 365 apps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

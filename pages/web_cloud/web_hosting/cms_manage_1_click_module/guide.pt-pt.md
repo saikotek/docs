@@ -1,12 +1,8 @@
 ---
 title: "Como gerir o seu módulo em 1 clique?"
 excerpt: "Saiba como gerir o módulo 1 clique na Área de Cliente OVHcloud"
-updated: 2022-09-05
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -54,42 +50,9 @@ Também pode procurar o e-mail recebido durante a criação do módulo a partir 
 
 ### Modificar a palavra-passe do seu módulo <a name="password-change"></a>
 
-Pode alterar a palavra-passe do módulo a partir da [Área de Cliente OVHcloud](/links/manager) ou através de uma ligação direta à página de acesso ao espaço de administrador do seu website.
-Em ambos os casos, ser-lhe-á enviado um e-mail de reinicialização da password.
-
 > [!primary]
 >
-> **O que fazer se não tiver recebido o e-mail de reinicialização da password administrador do seu site?**
->
-> Na caixa de e-mail em causa, verifique as pastas `Spams`{.action} e `Elementos suprimidos`{.action}.
->
-> Pode igualmente encontrar o conjunto dos e-mails enviados pelos nossos serviços a partir do seu [Área de Cliente OVHcloud](/links/manager): clique no seu nome no canto superior direito do seu ecrã e, no menu contextual à direita do ecrã, clique em `E-mails de serviço`{.action}.
->
-> **Duração dos vínculos:**
->
-> - Depois de receber o e-mail de alteração da password, o link de reinicialização ficará válido durante 48 horas. 
-> - Depois de clicar na ligação, esta só é válida durante 30 minutos.
->
-
-> [!warning]
->
-> A alteração da palavra-passe de acesso à interface de gestão do seu CMS a partir da Área de Cliente OVHcloud só pode ser efetuada **se forem respeitadas as seguintes condições** :
->
-> - O CMS foi instalado com a opção "módulo 1 clique" durante a encomenda do alojamento ou a partir da Área de Cliente OVHcloud.
-> O utilizador (nome de utilizador, endereço de e-mail, etc.) não foi modificado através do CMS ou da base de dados.
-> A página de acesso à interface de administração do seu CMS não foi alterada. Em particular, o URL de acesso à interface de administração do seu CMS não deve ter sido alterado através do CMS. Não devem ter sido impostas restrições nesta mesma página.
-> - O "prefixo" das tabelas presentes na sua base de dados não foi modificado a partir do CMS ou da base de dados diretamente.
->
-> Caso contrário, deverá seguir a documentação oficial do CMS que utiliza ou contactar diretamente o editor do CMS.
->
-
-Para alterar a palavra-passe de acesso à interface de administração do seu website **através da Área de Cliente OVHcloud**, clique em `Web Cloud`{.action}, `Alojamentos`{.action}, no alojamento em causa e no separador `Modules "1 clique"`{.action}.
-
-A seguir, clique no botão `...`{.action} à direita da linha relativa ao seu módulo e depois `Alterar palavra-passe`{.action}. Clique em `Validar`{.action}. Receberá dentro de alguns minutos por e-mail um link de reinicialização da sua password.
-
-> [!primary]
->
-> Se não pode alterar a palavra-passe de acesso à interface de gestão do seu CMS a partir da Área de Cliente OVHcloud pelas razões indicadas acima, poderá consultar a documentação oficial para os diferentes CMS propostos em instalação nos nossos alojamentos partilhados:
+> Poderá consultar a documentação oficial para os diferentes CMS propostos em instalação nos nossos alojamentos partilhados:
 >
 > - WordPress : <https://wordpress.org/support/article/resetting-your-password/>
 > - Joomla! : <https://docs.joomla.org/How_do_you_recover_or_reset_your_admin_password%3F>
@@ -135,6 +98,17 @@ Para guardar o seu site, siga as instruções deste [guia](/pages/web_cloud/web_
 Para eliminar o módulo 1 clique, aceda à [Área de Cliente OVHcloud](/links/manager), clique em `Web Cloud`{.action}, `Alojamentos`{.action}, no alojamento em causa e em `Módulos "1 clique"`{.action}.
 
 A seguir, clique no botão `...`{.action} à direita da linha que designa o seu módulo e, a seguir, no comando `Eliminar o módulo`{.action}.
+
+> [!success]
+> Não encontra o botão `Eliminar o módulo`{.action}? Ou deseja apenas eliminar ficheiros do seu módulo?
+>
+> Consulte os nossos manuais:
+>
+> - [Aceder ao espaço de armazenamento FTP do alojamento web](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Tutorial - Utilizar o FileZilla com o seu alojamento OVHcloud](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+>
+> <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/LHpsuvyNFtQ?si=4655K8lQQpkE2YNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
 
 > [!warning]
 >

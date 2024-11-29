@@ -12,14 +12,14 @@ Esta funcionalidade do Exchange permite que outras pessoas tenham acesso aos seu
 
 ## Requisitos
 
-- Dispor de uma [solução Exchange OVHcloud](https://www.ovhcloud.com/pt/emails/hosted-exchange/).
+- Dispor de uma [solução Exchange OVHcloud](/links/web/emails-hosted-exchange).
 - Ter acesso à conta Exchange (com endereço de e-mail e palavra-passe).
 
 ## Instruções
 
 ### Passo 1: Selecionar o calendário a partilhar
 
-Aceda à sua conta Exchange através do [webmail OVHcloud](https://www.ovh.pt/mail/). Mude para a interface «Calendário». Para isso, clique no menu de aplicações (canto superior esquerdo) e selecione o ícone `Calendário`{.action}.
+Aceda à sua conta Exchange através do [webmail OVHcloud](/links/web/email). Mude para a interface «Calendário». Para isso, clique no menu de aplicações (canto superior esquerdo) e selecione o ícone `Calendário`{.action}.
 
 ![sharecalendar](images/exchange-calendars-step1.png){.thumbnail}
 
@@ -84,4 +84,4 @@ Se clicar num calendário da lista, pode exibi-los ou ocultá-los. Através do c
 
 [Utilização de grupos de difusão (mailing list)](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

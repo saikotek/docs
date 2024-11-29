@@ -1,7 +1,7 @@
 ---
 title: Local Zone Compute - Fonctionnalités, capacités et limites
 excerpt: Découvrez les fonctionnalités, les capacités et les limites actuelles des instances Local Zones
-updated: 2024-07-10
+updated: 2024-11-12
 ---
 
 ## Objectif
@@ -25,17 +25,20 @@ Retrouvez plus d’informations sur notre [page dédiée aux instances Local Zon
 | Boot/Start | Oui |
 | Stop | Oui |
 | Block Storage | Oui |
-| Sauvegardes des instances | Non |
+| Sauvegardes des instances | Oui |
+| Sauvegarde automatisée des instances | Non |
 | Snapshots de volumes| Non |
 | Sauvegardes de volumes | Non |
-| Object Storage | Non |
+| Object Storage | Oui |
 | Images Windows | Non |
 
 ## Capacités et limitations
 
-Toutes les fonctionnalités d'instance qui ne sont pas répertoriées ici, comme le redémarrage (reboot) des instances ou la prise en charge de Object Storage seront disponibles dans les prochains mois. Notre objectif est de prendre en charge l'ensemble des fonctionnalités déjà supportées dans les régions globales.
+Toutes les fonctionnalités d'instance qui ne sont pas répertoriées ici seront disponibles dans les prochains mois. Notre objectif est de prendre en charge l'ensemble des fonctionnalités déjà supportées dans les régions globales.
 
-## Feedback
+## Aller plus loin
+
+- [Object Storage - Spécifications pour Local Zones](/pages/storage_and_backup/object_storage/s3_local_zones_limitations)
 
 N’hésitez pas à nous faire part de vos questions, retours et suggestions pour améliorer le service :
 

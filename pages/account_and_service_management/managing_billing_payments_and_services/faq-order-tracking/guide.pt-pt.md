@@ -66,4 +66,4 @@ Pode registar o seu método de pagamento na secção `Métodos de pagamento`{.ac
 
 ## Quer saber mais?
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -4,7 +4,6 @@ excerpt: Hier finden Sie die häufigsten Fragen zu Abrechnung und Zahlung
 updated: 2023-06-05
 ---
 
-  
 ## Ziel
   
 Hier finden Sie die häufigsten Fragen zur Abrechnung und Bezahlung Ihrer OVHcloud Dienste.
@@ -69,7 +68,7 @@ Wenn Sie eine SEPA-Lastschrift beantragen, erhalten Sie innerhalb von 24 bis 48 
 
 Das neue Zahlungsmittel steht Ihnen zur Verfügung, sobald das Lastschriftmandat von unseren Mitarbeitern empfangen und bestätigt ist.
 
-![FAQ billing](images/faq-billing01.gif){.thumbnail}
+![FAQ billing](/pages/assets/screens/control_panel/product-selection/right-column/faq-billing01.gif){.thumbnail}
 
 #### Tipps und Tricks
 
@@ -179,4 +178,4 @@ Diese Datei können Sie im Bereich `Rechnungen`{.action} des Dashboards Ihres OV
 
 ## Weiterführende Informationen
  
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

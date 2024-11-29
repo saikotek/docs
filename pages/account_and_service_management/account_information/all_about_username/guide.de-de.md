@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie die Account-Sicherheit optimieren, Ihre per
 updated: 2021-07-01
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Ihre Dienste und Daten werden hauptsächlich über das OVHcloud Kundencenter verwaltet.
@@ -20,7 +16,7 @@ Das OVHcloud Kundencenter erlaubt es Ihnen auch, Ihre persönlichen Daten zu ver
 ## Voraussetzungen
 
 - Sie haben [Ihren OVHcloud Kunden-Account erstellt](/pages/account_and_service_management/account_information/ovhcloud-account-creation)
-- Sie sind in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) angemeldet.
+- Sie sind in Ihrem [OVHcloud Kundencenter](/links/manager) angemeldet.
 
 > [!primary]
 > Bei Verbindungsschwierigkeiten zu Ihrem Account lesen Sie den [entsprechenden Abschnitt in unserer Anleitung "In das OVHcloud Kundencenter einloggen"](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure).
@@ -66,7 +62,7 @@ Klicken Sie dann im Rahmen `Mein Profil` auf den Button `...`{.action} und dann 
 > [!warning]
 > Zur Erinnerung: Es ist sehr wichtig, dass sich die **Backup-E-Mail-Adresse** von der **Haupt-E-Mail-Adresse** des Accounts **unterscheidet**.
 >
-> Vermeiden Sie hierbei generell E-Mail-Adressen mit Domainnamen, die über denselben Kunden-Account verwaltet werden. Sollte der Domainname eine Dienstunterbrechung erleiden, erhalten Sie unsere Benachrichtigungen nicht mehr.
+> Vermeiden Sie hierbei generell E-Mail-Adressen mit Domainnamen, die über denselben Kunden-Account verwaltet werden. Sollte der Domainname eine Dienstunterbrechung erleiden, erhalten Sie unsere Benachrichtigungen nicht mehr. Wenn dies der Fall ist, folgen Sie [den Schritten in dieser Anleitung](/pages/account_and_service_management/account_information/ovhcloud-account-login#invalid-email).
 >
 
 #### Die Zwei-Faktor-Authentifizierung aktivieren
@@ -82,7 +78,7 @@ Weitere Informationen zur Aktivierung finden Sie in unserer Anleitung "[Den OVHc
 
 #### Meine persönlichen Angaben ändern
 
-Sie können die Daten Ihres Kunden-Accounts über Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ändern. Klicken Sie hierzu in Ihrem Kundencenter oben rechts auf Ihren Namen und anschließend auf Ihre Initialen.
+Sie können die Daten Ihres Kunden-Accounts über Ihr [OVHcloud Kundencenter](/links/manager) ändern. Klicken Sie hierzu in Ihrem Kundencenter oben rechts auf Ihren Namen und anschließend auf Ihre Initialen.
 
 Klicken Sie dann auf den Button `...`{.action} im Rahmen `Mein Profil` und dann auf `Profil bearbeiten`{.action}.
 
@@ -126,7 +122,6 @@ Sie können beantragen, Ihren OVHcloud Kunden-Account und die zugehörigen Daten
 > Die Löschung Ihres OVHcloud Kunden-Accounts setzt voraus, dass folgende Bedingungen erfüllt sind:
 >
 > - Ihr Account darf keine Dienstleistungen mehr enthalten.
->
 > - Ihr Account enthält keine offenen Rechnungen oder unbezahlten Bestellungen.
 >
 
@@ -172,4 +167,4 @@ Wenn Sie eine verdächtige Aktivität auf Ihrem Account feststellen, [kontaktier
 
 [Bei fehlschlagendem Login ins Kundencenter](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

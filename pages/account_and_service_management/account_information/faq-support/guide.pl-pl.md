@@ -1,12 +1,8 @@
 ---
 title: FAQ dotyczący pomocy OVHcloud
 excerpt: Najczęściej zadawane pytania znajdziesz w pomocy OVHcloud
-updated: 2024-08-09
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji” na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -15,6 +11,8 @@ Najczęściej zadawane pytania znajdziesz w pomocy OVHcloud.
 <a name="sso"></a>
 
 ## FAQ
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/44q3cfQM-YI?si=JemH0lvLPWFuFGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Co zrobić w sytuacji, gdy mam problem z zalogowaniem się do centrum pomocy lub do interfejsu zarządzania zgłoszeniami?
 

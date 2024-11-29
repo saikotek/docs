@@ -1,7 +1,7 @@
 ---
 title: Bring Your Own Linux (BYOLinux)
 excerpt: Découvrez comment déployer facilement vos propres images Linux sur des serveurs dédiés
-updated: 2024-07-19
+updated: 2024-10-30
 ---
 
 ## Objectif
@@ -17,8 +17,8 @@ En plus des prérequis et limitations mentionnés ci-dessous, vous devez vous as
 
 ## Prérequis
 
-- Un [serveur dédié](https://www.ovhcloud.com/fr-ca/bare-metal/) dans votre compte OVHcloud
-- Être connecté à l'[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc) (pour la méthode de [déploiement via l'espace client](#viacontrolpanel) de ce guide)
+- Un [serveur dédié](/links/bare-metal/bare-metal) dans votre compte OVHcloud
+- Être connecté à l'[espace client OVHcloud](/links/manager) (pour la méthode de [déploiement via l'espace client](#viacontrolpanel) de ce guide)
 - Avoir accès à l'[API OVHcloud](/pages/manage_and_operate/api/first-steps) (pour la méthode de [déploiement via l'API](#viaapi) de ce guide)
 - Votre image doit être inférieure à la RAM du serveur moins 3 Gio
 - Un script `/root/.ovh/make_image_bootable.sh` exécutable, qui installera ou configurera le bootloader, [par exemple GRUB](https://github.com/ovh/bringyourownlinux/blob/main/example_build/files/make_image_bootable.sh)
@@ -46,7 +46,7 @@ Certaines limites techniques sont liées à l’utilisation de produits physique
 
 ### Déploiement de votre image via l’espace client <a name="viacontrolpanel"></a>
 
-Connectez-vous à l'[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc) et rendez-vous dans la section `Bare Metal Cloud`{.action} puis sélectionnez votre serveur sous `Serveurs dédiés`{.action}.
+Connectez-vous à l'[espace client OVHcloud](/links/manager) et rendez-vous dans la section `Bare Metal Cloud`{.action} puis sélectionnez votre serveur sous `Serveurs dédiés`{.action}.
 
 Dans l'onglet `Informations générales`{.action}, cliquez sur le bouton `...`{.action} à côté de « Système (OS) » puis cliquez sur `Installer`{.action}.
 
@@ -115,6 +115,10 @@ Le contenu de la requête API de Bring Your Own Linux (BYOLinux) doit être simi
     {
       "key": "configDriveUserData",
       "value": "I2Nsb3VkLWNvbmZpZwpzc2hfYXV0aG9yaXplZF9rZXlzOgogIC0gc3NoLXJzYSBBQUFBQjhkallpdz09IG15c2VsZkBteWRvbWFpbi5uZXQKCnVzZXJzOgogIC0gbmFtZTogcGF0aWVudDAKICAgIHN1ZG86IEFMTD0oQUxMKSBOT1BBU1NXRDpBTEwKICAgIGdyb3VwczogdXNlcnMsIHN1ZG8KICAgIHNoZWxsOiAvYmluL2Jhc2gKICAgIGxvY2tfcGFzc3dkOiBmYWxzZQogICAgc3NoX2F1dGhvcml6ZWRfa2V5czoKICAgICAgLSBzc2gtcnNhIEFBQUFCOGRqWWl3PT0gbXlzZWxmQG15ZG9tYWluLm5ldApkaXNhYmxlX3Jvb3Q6IGZhbHNlCnBhY2thZ2VzOgogIC0gdmltCiAgLSB0cmVlCmZpbmFsX21lc3NhZ2U6IFRoZSBzeXN0ZW0gaXMgZmluYWxseSB1cCwgYWZ0ZXIgJFVQVElNRSBzZWNvbmRzCg=="
+    },
+    {
+      "key": "efiBootloaderPath",
+      "value": "\\efi\\debian\\grubx64.efi"
     }
   ]
 }
@@ -162,9 +166,11 @@ Une fois les champs complétés, démarrez le déploiement en cliquant sur `Exec
 | userMetadata/configDriveMetadata | Métadonnées Cloud-Init personnalisées | ❌ |
 | userMetadata/httpHeaders?Key | Clé des en-têtes HTTP | ❌² |
 | userMetadata/httpHeaders?Value | Valeur des en-têtes HTTP | ❌² |
+| userMetadata/efiBootloaderPath | Le chemin du bootloader EFI | ✅³ |
 
 ¹ Il peut s'agir d'un `#cloud-config` ou d'un script. Il doit être sur une ligne et avoir `\n` pour la ligne-retour.<br />
 ² À utiliser uniquement si vous avez besoin d'en-têtes HTTP, tels que `Basic Auth`<br />
+³ Exemples de chemin EFI : Debian : \\efi\\debian\\grubx64.efi, Ubuntu :\\efi\\ubuntu\\grubx64.efi, Microsoft : \\efi\\microsoft\\boot\\bootmgfw.efi
 
 > [!primary]
 >
@@ -199,4 +205,4 @@ Voir section [erreurs clients fréquentes](/pages/bare_metal_cloud/dedicated_ser
 
 [Comparaison entre Bring Your Own Image (BYOI) et Bring Your Own Linux (BYOLinux)](/pages/bare_metal_cloud/dedicated_servers/bring-your-own-image-versus-bring-your-own-linux)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

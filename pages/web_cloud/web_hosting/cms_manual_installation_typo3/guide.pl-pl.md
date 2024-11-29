@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak ręcznie zainstalować CMS Typo3"
 updated: 2024-03-28
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 **CMS** (**C**ontent **M**anagement **S**ystem) Typo3 umożliwia tworzenie złożonych i skalowalnych stron WWW dla firm każdej wielkości, od instytucjonalnych stron WWW po platformy e-commerce. Dzięki dużej społeczności programistów i szerokiej gamie rozszerzeń,  oferuje potężne narzędzia do personalizacji i rozszerzania strony zgodnie z Twoimi potrzebami.

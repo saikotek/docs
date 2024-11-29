@@ -11,8 +11,8 @@ La mise en réseau en mode bridge peut être utilisée pour configurer votre mac
 ## Prérequis
 
 - Avoir un serveur dédié avec un hyperviseur installé, par exemple [VMware ESXi](http://www.vmware.com/products/esxi-and-esx/overview.html){.external}, [Citrix Xenserver](https://www.citrix.com/products/citrix-hypervisor/){.external}, [Proxmox](https://www.proxmox.com/en/proxmox-ve){.external}, etc.
-- Avoir au moins une adresse [Additional IP](https://www.ovhcloud.com/fr-ca/bare-metal/ip/) connectée au serveur 
-- Être connecté à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc)
+- Avoir au moins une adresse [Additional IP](/links/network/additional-ip) connectée au serveur 
+- Être connecté à votre [espace client OVHcloud](/links/manager)
 
 ## Recommandations pour votre machine virtuelle pfSense
 
@@ -24,7 +24,7 @@ La mise en réseau en mode bridge peut être utilisée pour configurer votre mac
 > [!warning]
 > Ce tutoriel vous présente l’utilisation d’une ou de plusieurs solutions OVHcloud avec des outils externes et décrit les actions à réaliser dans un contexte précis. Veuillez noter que ces actions décrites ici doivent être adaptées à votre cas particulier.
 >
-Si vous rencontrez des difficultés lors de l'exécution de ces actions, merci de contacter un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) et/ou d'échanger avec notre communauté sur <https://community.ovh.com/>. OVHcloud ne peut pas vous fournir d’assistance technique à ce sujet.
+Si vous rencontrez des difficultés lors de l'exécution de ces actions, merci de contacter un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) et/ou d'échanger avec notre [communauté d'utilisateurs](/links/community). OVHcloud ne peut pas vous fournir d’assistance technique à ce sujet.
 >
 
 ## En pratique
@@ -39,7 +39,7 @@ Pour la configuration réseau des machines virtuelles pfSense, nous utiliserons 
 
 #### Assigner une adresse MAC virtuelle
 
-Dans votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc), rendez-vous dans la section `Bare Metal Cloud`{.action} et cliquez sur `Network`{.action}. Ensuite, ouvrez le menu `IP`{.action}.
+Dans votre [espace client OVHcloud](/links/manager), rendez-vous dans la section `Bare Metal Cloud`{.action} et cliquez sur `Network`{.action}. Ensuite, ouvrez le menu `IP`{.action}.
 
 Cliquez sur l'onglet `Additional IP`{.action}.
 
@@ -229,4 +229,4 @@ Si vous n'avez pas l'intention d'utiliser Proxmox, nous vous suggérons de consu
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

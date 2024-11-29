@@ -46,7 +46,7 @@ Pour vous connecter en SSH, utilisez un terminal afin d’interagir directement 
 
 > [!primary]
 >
-> Cet outil est installé par défaut sur macOS, Linux et Windows 10. Un environnement Windows plus ancien nécessitera l’installation d’un logiciel comme PuTTY ou l’ajout de la fonctionnalité OpenSSH.
+> Cet outil est installé par défaut sur macOS, Linux et Windows 10. Un environnement Windows plus ancien nécessitera l’installation d’un logiciel comme [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) ou l’ajout de la fonctionnalité OpenSSH.
 
 Dès lors, il existe deux possibilités pour vous connecter selon la méthode que vous utilisez :
 

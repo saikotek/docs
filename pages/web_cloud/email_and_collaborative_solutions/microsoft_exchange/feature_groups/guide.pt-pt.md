@@ -1,10 +1,10 @@
 ---
-title: 'Utilização de grupos de difusão (mailing lists)'
+title: 'Exchange - Utilização de grupos de difusão (mailing lists)'
 excerpt: 'Saiba como gerir grupos de difusão (mailing lists) no Exchange'
-updated: 2020-02-26
+updated: 2024-11-12
 ---
 
-## Sumário
+## Objetivo
 
 Os grupos Exchange permitem que vários participantes comuniquem ao enviarem emails para um endereço coletivo único. Graças a esta característica colaborativa, é possível criar e gerir grupos de difusão (mailing lists) que incluem tanto utilizadores Exchange quanto contactos externos.
 
@@ -12,63 +12,71 @@ Os grupos Exchange permitem que vários participantes comuniquem ao enviarem ema
 
 ## Requisitos
 
-- Ter acesso à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt)
-- Dispor de uma [solução Exchange OVHcloud](https://www.ovhcloud.com/pt/emails/hosted-exchange/).
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager)
+- Dispor de uma [solução Exchange OVHcloud](/links/web/emails-hosted-exchange).
 
 ## Instruções
 
 ### Passo 1: Criar um novo grupo
 
-Antes de mais, aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt), clique na secção `Webcloud`{.action} e selecione o serviço Exchange na coluna sob `Microsoft`{.action} `Exchange`{.action} à esquerda. De seguida clique em `Grupos`{.action}, no menu horizontal.
+Antes de mais, aceda à [Área de Cliente OVHcloud](/links/manager), clique na secção `Webcloud`{.action} e selecione o serviço Exchange na coluna sob `Microsoft`{.action} `Exchange`{.action} à esquerda. De seguida clique em `Grupos`{.action}, no menu horizontal.
 
-![contactgroups](images/exchange-groups-step1.png){.thumbnail}
+![contactgroups](images/exchange-groups-create01.png){.thumbnail .w-600 .h-600}
 
 Ao clicar em `Criar um grupo de contacto`{.action}, aparecerá uma janela onde poderá definir as características do grupo:
 
-![contactgroups](images/exchange-groups-step2.png){.thumbnail}
+![contactgroups](images/exchange-groups-create02.png){.thumbnail .w-600 .h-600}
 
-|Nome|Descrição|
-|---|---|
-|Endereço de e-mail|Novo endereço que enviará mensagens ao grupo de difusão. Atenção: não pode introduzir um endereço de email já existente.|
-|Nome do grupo|Nome de exibição na [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt) e no [webmail OVHcloud](https://www.ovh.pt/mail/) (OWA).|
-|Tamanho máx. entrada / saída|Pode especificar o tamanho máximo dos emails recebidos e enviados.|
-|Ocultar no Outlook|Se selecionar esta opção, o endereço de grupo não vai aparecer na lista de endereços do serviço Exchange.|
-|Autenticação necessária|Se selecionar esta opção, apenas os membros do grupo poderão enviar mensagens através do endereço coletivo.|
+- **Endereço de correio eletrónico**: Defina um novo endereço para enviar mensagens para a lista de correio. Tenha cuidado para não usar um endereço já funcional.
+- **Nome do Grupo** : Utilize o nome que aparecer na sua [Área de Cliente OVHcloud](/links/manager) e no seu [e-mail Web OVHcloud](/links/web/email) (OWA).
+- **Tamanho máximo de entrada ou saída**: Pode especificar o tamanho máximo dos e-mails de entrada e dos e-mails de saída.
+- **Ocultar no Outlook** : Quando esta opção está selecionada, o endereço do grupo não será apresentado na lista de endereços do serviço Exchange.
+- **Authentication required** : Quando esta opção está selecionada, apenas os utilizadores da mesma plataforma poderão enviar mensagens com o endereço do grupo.
 
-> [!primary]
->
-Atenção: as opções «Gerir subscrições» e «Gerir cancelamentos» foram desativadas pelos nossos administradores por razões de segurança. Lamentamos qualquer inconveniência.
->
+Clique em `Seguinte`{.action} para continuar.
 
-Clique `Seguinte`{.action} para continuar.
+Na segunda página, selecione os **Contactos** do grupo e designe os **Administradores**. Estas escolhas apenas serão feitas a partir dos endereços de e-mail e dos contactos externos já listados no serviço.
 
-Na segunda página, defina os membros do grupo e escolha os «Administradores». As escolhas só abrangerão endereços de email e contactos externos que já existam no serviço.
-
-![contactgroups](images/exchange-groups-step3.png){.thumbnail}
-
-Atenção: os Administradores também têm de ser definidos como «Contactos» de modo a receber emails coletivos.
-Clique em `Seguinte`{.action} para continuar e conclua o processo de escolha clicando em `Confirmar`{.action}.
-
-### Passo 2: Gerir grupos
-
-Os grupos recém-criados ficarão operacionais dentro de poucos minutos. Pode ajustar as opções descritas acima a partir da lista de difusão. Para isso, clique em `...`{.action} e selecione-as no menu. 
-
-![contactgroups](images/exchange-groups-step4.png){.thumbnail}
-
-Terá igualmente acesso à opção `Gerir permissões`{.action}. Ela permite-lhe atribuir acesso tal como para uma conta Exchange. Mais informações [neste guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
-
-![contactgroups](images/exchange-groups-step5.png){.thumbnail}
+- **Administradores**: Contas de e-mail autorizadas a enviar um e-mail a todos os contactos do grupo.
+- **Contactos**: Contas de correio eletrónico a receber os e-mails enviados para o grupo pelos administradores.
 
 > [!primary]
 >
-Atenção: as alterações feitas podem levar alguns minutos a entrar em vigor. Se desejar consultar o estado da maioria das operações, selecione `Mais+`{.action} e `Tarefas recentes`{.action} no menu horizontal.
+> Tenha em atenção que os administradores devem estar configurados como **Contactos** para receber correio eletrónico do grupo.
+
+![contactgroups](images/exchange-groups-create03.png){.thumbnail .w-600 .h-600}
+
+Clique em `Seguinte`{.action} para continuar e clique em `Confirmar`{.action} para finalizar as suas escolhas.
+
+### Gerir os grupos
+
+Depois de criar o grupo, pode alterar as definições que definiu. Para isso, clique em `...`{.action} à direita do grupo na tabela.
+
+![contactgroups](images/exchange-groups-options01.png){.thumbnail .w-600 .h-600}
+
+#### Gerir os utilizadores de um grupo
+
+Para adicionar `Contacts` ao seu grupo ou definir os `Administradores`, clique no botão `...`{.action} e depois em `Configurar os utilizadores`{.action}. Selecione os atributos que deseja associar aos endereços de e-mail da coluna `Conta de e-mail`.
+
+> [!primary]
 >
+> Existe a opção de máximo de 10.000 contactos num grupo.
 
-### Passo 3: Enviar um email coletivo em OWA
+![contactgroups](images/exchange-group-options-users01.png){.thumbnail .w-600 .h-600}
 
-Já pode testar a sua lista de difusão (mailing list) através do [webmail OVHcloud](https://www.ovh.pt/mail/) (OWA). Para isso, basta enviar um email para o endereço coletivo.
+#### Gerir as delegações de um grupo
 
-![contactgroups](images/exchange-groups-step6.png){.thumbnail}
+Será apresentada a opção `Configurar as delegações`{.action} do menu. Esta opção permite delegar o acesso da mesma forma que delegamos o acesso a uma conta Exchange. Consultar todos os detalhes em [este guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation).
+
+![contactgroups](images/exchange-groups-options-delegation01.png){.thumbnail .w-600 .h-600}
+
+> [!primary]
+>
+> Tenha em conta que qualquer alteração a este serviço pode levar alguns minutos a ser aplicada. Pode verificar o estado da maior parte das operações selecionando as opções `Mais`{.action} e `Tarefas recentes`{.action} a partir do menu horizontal.
+
+### Enviar um email coletivo em OWA
+
+Já pode testar a sua lista de difusão (mailing list) através do [webmail OVHcloud](/links/web/email) (OWA). Para isso, basta enviar um email para o endereço coletivo.
 
 ## Saiba mais
 
@@ -78,4 +86,8 @@ Já pode testar a sua lista de difusão (mailing list) através do [webmail OVHc
 
 [Partilhar calendários em OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Para serviços especializados (referenciamento, desenvolvimento, etc), contacte os [parceiros OVHcloud](/links/partner).
+
+Se pretender usufruir de uma assistência na utilização e na configuração das suas soluções OVHcloud, consulte as nossas diferentes [ofertas de suporte](/links/support).
+
+Fale com nossa [comunidade de utilizadores](/links/community).

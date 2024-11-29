@@ -17,7 +17,7 @@ Dans le cadre d'une migration, vous pouvez être amené à devoir récupérer le
 >
 ## Prérequis
 
-- Un [serveur dédié](https://www.ovhcloud.com/fr-ca/bare-metal/){.external} sur lequel une distribution GNU/Linux est installée.
+- Un [serveur dédié](/links/bare-metal/bare-metal){.external} sur lequel une distribution GNU/Linux est installée.
 - Un client FTP qui prend en charge les connexions SFTP (ce guide documente l'utilisation de [FileZilla](https://filezilla-project.org/){.external}).
 - Un accès administratif via SSH à votre serveur.
 
@@ -70,4 +70,4 @@ Si vous avez correctement créé le point de montage, les données se trouvent d
 
 [Sécuriser un serveur dédié](/pages/bare_metal_cloud/dedicated_servers/securing-a-dedicated-server)
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

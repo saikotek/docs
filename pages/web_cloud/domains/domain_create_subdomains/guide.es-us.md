@@ -4,10 +4,6 @@ excerpt: "Descubra cómo crear un subdominio en OVHcloud"
 updated: 2024-03-05
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo <a name="goal"></a>
 
 Internet se compone de servidores y dispositivos que interactúan entre sí a través de una red global. Cuando estos servidores y sus dispositivos están conectados a la red Internet, se les asigna una **dirección IP pública** (equivalente a una dirección postal). Esta *dirección IP* permite conectar a distancia un servidor o un dispositivo, de modo que un usuario puede consultar un sitio web introduciendo esta dirección IP gracias a su navegador de internet instalado en su ordenador.
@@ -99,7 +95,7 @@ Existen dos situaciones posibles:
 
 Si los servidores DNS declarados para el dominio tienen una de las dos formas siguientes:
 
-- `dnsXX.ovh.net` y `nsXX.ovh.net` (donde cada una de las "X" representa una cifra);
+- `dnsXX.ovh.ca` y `nsXX.ovh.ca` (donde cada una de las "X" representa una cifra);
 - `dns200.anycast.me` y `ns200.anycast.me`.
 
 Esto significa que la zona DNS activa de su dominio está activada en OVHcloud.

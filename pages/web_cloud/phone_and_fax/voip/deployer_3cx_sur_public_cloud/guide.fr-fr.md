@@ -40,7 +40,7 @@ Nous allons joindre à l'instance un *user-data*. Lors du démarrage de l'instan
 
 Le fichier XML est inclus dans le template que nous allons joindre à l'instance lors de sa création. 
 
-Voici le fichier à utiliser pour suivre ce guide : 
+/// details | Voici le fichier à utiliser pour suivre ce guide : 
 
 ```xml
 #!/bin/bash -e
@@ -568,6 +568,8 @@ apt-get -y install 3cxpbx
 
 ```
 
+///
+
 Dans ce template, il y a deux éléments à modifier pour un premier test de déploiement :
 
 - Remplacez `YourLicenseKey` par votre clé de license 3CX.
@@ -666,4 +668,4 @@ Pour des prestations spécialisées (référencement, développement, etc), cont
 
 Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

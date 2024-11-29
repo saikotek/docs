@@ -19,7 +19,7 @@ Si vous constatez un défaut de disque ou que notre système vous a envoyé une 
 
 ## Prérequis
 
-- Être connecté en SSH à votre [serveur dédié OVHcloud](https://www.ovh.com/fr/serveurs_dedies/){.external} avec l'accès *root* (Linux).
+- Être connecté en SSH à votre [serveur dédié OVHcloud](/links/bare-metal/bare-metal){.external} avec l'accès *root* (Linux).
 
 ## En pratique
 
@@ -203,4 +203,4 @@ Si vous possédez un serveur en RAID logiciel, il convient de lancer manuellemen
 
 [Mode Rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode){.external}
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

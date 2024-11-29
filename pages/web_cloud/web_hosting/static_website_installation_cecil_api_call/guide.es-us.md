@@ -4,10 +4,6 @@ excerpt: "Cómo añadir una llamada a una API externa desde la página web está
 updated: 2023-01-16
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 Este tutorial explica cómo utilizar el generador de sitios web [Cecil](https://cecil.app){.external} para mostrar el contenido de una página dinámica. Llamando a una API para recuperar y mostrar la información en una página generada a través de **Cecil**.

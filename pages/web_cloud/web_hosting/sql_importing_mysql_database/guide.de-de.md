@@ -3,7 +3,6 @@ title: 'Backup in eine Webhosting-Datenbank importieren'
 excerpt: 'In dieser Anleitung erfahren Sie, wie Sie ein Backup in die Datenbank Ihres OVHcloud Webhostings importieren.'
 updated: 2023-12-11
 ---
- 
 
 ## Einleitung
 

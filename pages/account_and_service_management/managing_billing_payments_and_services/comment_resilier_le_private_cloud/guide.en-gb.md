@@ -48,7 +48,7 @@ Following your request, a termination confirmation email is sent to you at the a
 
 You can also find this email in your OVHcloud client space. Click on your name at the top right and then on `Service emails`{.action}.
 
-![Cancellation validation](images/resiliation4.png){.thumbnail}
+![Cancellation validation](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 The subject of the email is:
 
@@ -72,4 +72,4 @@ You will then need to fill in the validation token available in the termination 
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie Ihre Website auf HTTPS umstellen, nachdem S
 updated: 2024-02-26
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Mit Ihrem OVHcloud Webhosting verfügen Sie über ein [SSL-Zertifikat](/links/web/hosting-options-ssl). Mit diesem können Sie eine oder mehrere Ihrer Websites über eine gesicherte Verbindung mittels *HTTPS* erreichbar machen. Bevor Ihre Websites diese sichere Verbindung verwenden können, sind einige Schritte erforderlich.

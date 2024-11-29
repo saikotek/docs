@@ -59,4 +59,4 @@ La page `Home`{.action} permet de retrouver les grands menus de votre vCenter. V
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

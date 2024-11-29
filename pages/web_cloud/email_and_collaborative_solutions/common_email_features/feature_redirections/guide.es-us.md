@@ -64,7 +64,7 @@ Haga clic en las fichas siguientes para obtener una explicación ilustrada del f
 ## Requisitos
 
 - Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
-- Disponer de una solución de correo electrónico de OVHcloud previamente configurada **MX Plan**, incluida en nuestros [planes de hosting](https://www.ovhcloud.com/es-es/web-hosting/) o contratada por separado como solución autónoma, como [Hosted Exchange](https://www.ovhcloud.com/es-es/emails/hosted-exchange/).
+- Disponer de una solución de correo electrónico de OVHcloud previamente configurada **MX Plan**, incluida en nuestros [planes de hosting](/links/web/hosting) o contratada por separado como solución autónoma, como [Hosted Exchange](/links/web/emails-hosted-exchange).
 
 ## Procedimiento
 
@@ -179,4 +179,4 @@ Para servicios especializados (posicionamiento, desarrollo, etc.), contacte con 
 
 Si quiere disfrutar de ayuda para utilizar y configurar sus soluciones de OVHcloud, puede consultar nuestras distintas soluciones [pestañas de soporte](/links/support).
 
-Interactúe con nuestra [comunidad de usuarios](https://community.ovh.com/en/).
+Interactúe con nuestra [comunidad de usuarios](/links/community).

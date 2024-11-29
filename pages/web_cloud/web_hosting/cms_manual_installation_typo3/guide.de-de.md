@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie das Typo3 CMS manuell auf einem OVHcloud We
 updated: 2024-03-28
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Das **CMS** (**C**ontent **M**anagement **S**ystem) Typo3 ermöglicht die Entwicklung komplexer und skalierbarer Websites für Unternehmen jeder Größe von institutionellen Websites bis hin zu E-Commerce-Plattformen. Mit einer starken Entwicklergemeinschaft und einer breiten Palette von Erweiterungen bietet Typo3 leistungsstarke Tools, um Ihre Website an Ihre spezifischen Bedürfnisse anzupassen und zu erweitern.

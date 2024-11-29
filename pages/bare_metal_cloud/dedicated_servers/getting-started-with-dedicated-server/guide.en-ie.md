@@ -1,7 +1,7 @@
 ---
 title: "How to get started with a dedicated server"
 excerpt: "Find out how to manage a dedicated server in the OVHcloud Control Panel and how to start with configuring and securing a server"
-updated: 2024-05-17
+updated: 2024-11-26
 ---
 
 ## Objective
@@ -40,12 +40,12 @@ A dedicated server is a physical server ("bare metal") located in one of our dat
 
 > [!success]
 >
-> Find more information about server operating systems on [our web page](https://www.ovhcloud.com/en-ie/bare-metal/os/).
+> Find more information about server operating systems on [our web page](/links/bare-metal/os).
 >
 
 You can easily reinstall your server or choose a different OS image to install in your [OVHcloud Control Panel](/links/manager). In the `General information`{.action} tab, click on `...`{.action} next to the operating system and then click `Install`{.action}.
 
-![Reinstall button](images/reinstalling-your-server-01.png){.thumbnail}
+![Reinstall button](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
 In the popup window, select one of the installation options:
 
@@ -55,22 +55,22 @@ In the popup window, select one of the installation options:
 
 > [!primary]
 >
-> Some proprietary operating systems or platforms such as Plesk and Windows require licences which generate additional fees. You can buy licences [via OVHcloud](https://www.ovhcloud.com/en-ie/bare-metal/os/) or from an external reseller. You will then need to apply your licence, in the operating system itself or by using your [OVHcloud Control Panel](/links/manager).
+> Some proprietary operating systems or platforms such as Plesk and Windows require licences which generate additional fees. You can buy licences [via OVHcloud](/links/bare-metal/os) or from an external reseller. You will then need to apply your licence, in the operating system itself or by using your [OVHcloud Control Panel](/links/manager).
 >
 You can manage all your licences in the `Bare Metal Cloud`{.action} section under `Licences`{.action}. In this section, you can also order licences or add existing ones via the `Actions`{.action} button.
 >
 
 Click `Next`{.action} to continue.
 
-![Template selection](images/reinstalling-your-server-02.png){.thumbnail}
+![Template selection](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
 
 After choosing `Install from an OVHcloud template`{.action} you can select the operating system from the drop-down menus.
 
-![Operating selection](images/reinstalling-your-server-03.png){.thumbnail}
+![Operating selection](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 
 If you need to modify the partioning scheme of your operating system, check the box "Customise the partition configuration" before clicking on `Next`{.action}.
 
-![partitioning configuration](images/reinstalling-your-server-04.png){.thumbnail}
+![partitioning configuration](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-04.png){.thumbnail}
 
 In this step you are able to set up RAID and partitioning options within the limits of the server's hardware and operating system.
 
@@ -79,19 +79,27 @@ In this step you are able to set up RAID and partitioning options within the lim
 > If your server comes with Soft RAID, our system will give priority to installing the operating system using all your disks. This technology is called RAID 1. RAID 1 (disk mirroring) is the replication of data on two or more disks. With this process, all the disks are automatically mounted during the installation procedure. This also means that you will only have access to storage on one disk, with the other disk(s) being used for data replication, providing redundancy in the event of a disk failure.
 >
 
-If you don't want to use all your disks for the installation, you can update it after ticking the "Customise the partition configuration" box. In this case, you will be responsible for mounting the other disks in the operating system. You should refer to the operating system documentation to find out how to do this.
+If you don't want to use all your disks for the installation, you can update it after ticking the "Customise the partition configuration" box. In this case, you will be responsible for mounting the other disks in the operating system. Refer to the operating system documentation to find out how to do this.
 
-![select disks](images/choosedisk.png){.thumbnail}
+![select disks](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/choosedisk.png){.thumbnail}
 
 After you have finished your adjustments, click `Next`{.action} to arrive at the summary page.
 
-You will find additional questions that are specific to the chosen operating system.
+You will find additional options that are specific to the chosen operating system.
 
-For example, if you are installing a GNU/Linux-based operating system, you can add your SSH key in the last step of the installation process.
+![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-05.png){.thumbnail}
 
-For a detailed explanation on how to generate SSH keys, please refer to [this guide](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+If you have selected a compatible operating system, you can provide a **public key** to be installed automatically. You have two options:
 
-![SSH key configuration](images/reinstalling-your-server-05.png){.thumbnail}
+- Manually copy the key string and paste it into the field `Your Public SSH key`.
+- If you have previously stored a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
+
+![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
+
+To find out more about this topic, consult our guides:
+
+- [How to create and use keys for SSH authentication](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [How to create and use keys for SSH authentication with PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 Finally, click `Confirm`{.action} to trigger the operating system installation on your dedicated server.
 
@@ -152,7 +160,10 @@ passwd: password updated successfully
 Unless stated otherwise, all administrative actions described in our documentation can be accomplished by the default user account, i.e. typing `sudo` followed by the respective command. Learn more about this topic in our guide on [How to configure user accounts and root access on a server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-Depending on your requirements for security, mobility and convenience, SSH keys can serve as an additional connection method or replace logins with username and password. Find out how to use them in our guide: [Creating and using SSH keys](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+Depending on your requirements for security, mobility and convenience, SSH keys can serve as an additional connection method or replace logins with username and password. Find out how to use them in our guides:
+
+- [How to create and use keys for SSH authentication](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [How to create and use keys for SSH authentication with PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 #### Windows
 
@@ -215,7 +226,7 @@ reboot
 
 However, you can carry out a "hard reboot" at any time in your [OVHcloud Control Panel](/links/manager). From the `General information`{.action} tab, click on `...`{.action} next to "Status" in the **Service status** box, then click `Restart`{.action} and `Confirm`{.action} the action in the popup window.
 
-![Rebooting](images/rebooting-your-server.png){.thumbnail}
+![Rebooting](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
 
 <a name="secure"></a>
 
@@ -231,7 +242,7 @@ If your server runs Windows, use [this guide](/pages/bare_metal_cloud/dedicated_
 
 You can set the monitoring status for a dedicated server from the `General information`{.action} tab in your [OVHcloud Control Panel](/links/manager) (section **Service status**).
 
-![Monitoring](images/monitoring-your-server.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server.png){.thumbnail}
 
 Click on the button `Configure`{.action}. In the popup window, you have three options for the monitoring behaviour:
 
@@ -239,7 +250,7 @@ Click on the button `Configure`{.action}. In the popup window, you have three op
 - **Enabled with proactive intervention**: If the server stops responding, an alert email is sent to you and the server will be checked by a technician.
 - **Enabled without proactive intervention**: You will receive an alert message by email in case the server stops responding. To initiate an intervention, enable your server monitoring with proactive intervention.
 
-![Monitoring](images/monitoring-your-server2.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server2.png){.thumbnail}
 
 Click on `Confirm`{.action} to update your monitoring configuration.
 
@@ -303,4 +314,4 @@ To activate and use the backup storage, please refer to [this guide](/pages/bare
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

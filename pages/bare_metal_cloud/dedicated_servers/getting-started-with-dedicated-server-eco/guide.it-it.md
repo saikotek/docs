@@ -1,12 +1,8 @@
 ---
 title: "Iniziare a utilizzare un server dedicato Kimsufi, So You Start o Rise"
 excerpt: "Come gestire un server dedicato Kimsufi, So You Start o Rise nello Spazio Cliente e come iniziare a utilizzare la configurazione e la protezione di un server"
-updated: 2024-04-10
+updated: 2024-11-26
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
@@ -16,9 +12,9 @@ Un server dedicato è un server fisico ("bare metal") situato in uno dei nostri 
 
 ## Prerequisiti
 
-- Disporre di un [server dedicato](https://www.ovhcloud.com/it/bare-metal/) di gamma Kimsufi, So You Start o Rise nello Spazio Cliente OVHcloud
+- Disporre di un [server dedicato](/links/bare-metal/bare-metal) di gamma Kimsufi, So You Start o Rise nello Spazio Cliente OVHcloud
 - Essere connesso al tuo server in SSH con Linux o tramite un desktop remoto con Windows
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it)
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 
 ## Procedura
 
@@ -40,12 +36,12 @@ Un server dedicato è un server fisico ("bare metal") situato in uno dei nostri 
 
 > [!success]
 >
-> Per maggiori informazioni sui sistemi operativi dei server, accedi alla [pagina Web](https://www.ovhcloud.com/it/bare-metal/os/).
+> Per maggiori informazioni sui sistemi operativi dei server, accedi alla [pagina Web](/links/bare-metal/os).
 >
 
-Reinstalla facilmente il tuo server o scegli un'altra immagine del sistema operativo da installare nel tuo  [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it). Nella scheda `Informazioni generali`{.action}, clicca sui tre puntini `...`{.action} in corrispondenza del Sistema operativo e seleziona `Installa`{.action}.
+Reinstalla facilmente il tuo server o scegli un'altra immagine del sistema operativo da installare nel tuo  [Spazio Cliente OVHcloud](/links/manager). Nella scheda `Informazioni generali`{.action}, clicca sui tre puntini `...`{.action} in corrispondenza del Sistema operativo e seleziona `Installa`{.action}.
 
-![Pulsante Reinstalla](images/reinstalling-your-server-01.png){.thumbnail}
+![Pulsante Reinstalla](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
 Nella nuova finestra, seleziona una delle opzioni di installazione:
 
@@ -55,22 +51,22 @@ Nella nuova finestra, seleziona una delle opzioni di installazione:
 
 > [!primary]
 >
-> Alcuni sistemi operativi o piattaforme proprietarie come Plesk o Windows richiedono licenze che generano costi aggiuntivi. È possibile acquistare licenze [da OVHcloud](https://www.ovhcloud.com/it/bare-metal/os/) o da un rivenditore esterno. In seguito, la licenza dovrà essere applicata nel sistema operativo stesso o dallo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it).
+> Alcuni sistemi operativi o piattaforme proprietarie come Plesk o Windows richiedono licenze che generano costi aggiuntivi. È possibile acquistare licenze [da OVHcloud](/links/bare-metal/os) o da un rivenditore esterno. In seguito, la licenza dovrà essere applicata nel sistema operativo stesso o dallo [Spazio Cliente OVHcloud](/links/manager).
 >
 > Tutte le licenze sono disponibili nella sezione `Bare Metal Cloud`{.action} con `Licenze`{.action}. In questa sezione è possibile anche ordinare licenze o aggiungere licenze esistenti tramite il pulsante `Actions`{.action}.
 >
 
 Clicca su `Avanti`{.action} per continuare.
 
-![Seleziona template](images/reinstalling-your-server-02.png){.thumbnail}
+![Seleziona template](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
 
 Dopo aver scelto di `Installare a partire da un template OVHcloud`{.action}, puoi selezionare il sistema operativo nei menu a tendina.
 
-![Selezione operativa](images/reinstalling-your-server-03.png){.thumbnail}
+![Selezione operativa](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 
 Se è necessario modificare lo schema di partizione del sistema operativo, spunta la casella "Personalizza la configurazione delle partizioni" prima di cliccare su `Seguente`{.action}.
 
-![Personalizzare la configurazione delle partizioni](images/reinstalling-your-server-04.png){.thumbnail}
+![Personalizzare la configurazione delle partizioni](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-04.png){.thumbnail}
 
 Questo step permette di configurare il tipo di RAID e il partizionamento, nei limiti dell'hardware e del sistema operativo.
 
@@ -78,11 +74,19 @@ Una volta terminati gli adeguamenti, clicca su `Seguente`{.action} per accedere 
 
 In particolare, sono disponibili domande complementari specifiche per il sistema operativo selezionato.
 
-Ad esempio, se installi un sistema operativo GNU/Linux, puoi aggiungere la tua chiave SSH.
+![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-05.png){.thumbnail}
 
-Per maggiori informazioni sulla generazione delle chiavi SSH, consulta la [nostra guida](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated). 
+Se è stato selezionato un sistema operativo compatibile, è possibile fornire una **chiave pubblica** da installare automaticamente. Le opzioni disponibili sono due:
 
-![configurazione SSH](images/reinstalling-your-server-05.png){.thumbnail}
+- Copia manualmente la stringa di chiave e incollala nel campo `La tua chiave SSH pubblica`.
+- Se in precedenza hai salvato una chiave pubblica nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona la chiave desiderata nel menu a tendina `Chiavi SSH da preinstallare`.
+
+![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
+
+Per saperne di più, consulta le nostre guide:
+
+- [Come creare e utilizzare le chiavi per l’autenticazione SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Come creare e utilizzare chiavi per l’autenticazione SSH con PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 Clicca su `Conferma`{.action} per avviare l’installazione del sistema operativo sul tuo server dedicato.
 
@@ -93,7 +97,7 @@ Clicca su `Conferma`{.action} per avviare l’installazione del sistema operativ
 > [!warning]
 > OVHcloud mette a disposizione i servizi la cui configurazione e gestione sono di vostra responsabilità. È quindi responsabilità dell’utente garantirne il corretto funzionamento.
 >
-> Questa guida ti aiuta a eseguire le operazioni necessarie alla configurazione del tuo account. Tuttavia, in caso di difficoltà o dubbi relativamente all’amministrazione, all’utilizzo o all’implementazione dei servizi di un server, ti consigliamo di contattare un [provider di servizi specializzato](https://partner.ovhcloud.com/it/directory/).
+> Questa guida ti aiuta a eseguire le operazioni necessarie alla configurazione del tuo account. Tuttavia, in caso di difficoltà o dubbi relativamente all’amministrazione, all’utilizzo o all’implementazione dei servizi di un server, ti consigliamo di contattare un [provider di servizi specializzato](/links/partner).
 >
 
 #### Linux
@@ -143,7 +147,10 @@ passwd: password updated successfully
 Se non diversamente specificato, tutte le operazioni di amministrazione descritte nella nostra documentazione possono essere effettuate dall’account utente predefinito, ovvero digitando `sudo` seguito dal relativo ordine. Per maggiori informazioni su questo argomento, consulta la nostra guida sulla [configurazione degli account utente e dell'accesso root su un server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-A seconda delle esigenze in termini di sicurezza, mobilità e praticità, le chiavi SSH possono servire come metodo di connessione supplementare o anche sostituire un identificativo tramite un nome utente e una password. Questa guida ti mostra come utilizzarle: [Creare e utilizzare chiavi SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+A seconda delle esigenze in termini di sicurezza, mobilità e praticità, le chiavi SSH possono servire come metodo di connessione supplementare o anche sostituire un identificativo tramite un nome utente e una password. Per saperne di più, consulta le nostre guide:
+
+- [Come creare e utilizzare le chiavi per l’autenticazione SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Come creare e utilizzare chiavi per l’autenticazione SSH con PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 #### Windows
 
@@ -203,9 +210,9 @@ Il riavvio può essere necessario per applicare configurazioni aggiornate o riso
 reboot
 ```
 
-Tuttavia, puoi effettuare un "hard reboot" in qualsiasi momento nel tuo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it). Nella scheda `Informazioni generali`{.action}, clicca `...`{.action} in corrispondenza di "Stato" nella sezione **Stato dei servizi** e poi clicca su `Riavvia`{.action} e `Conferma`{.action} nella finestra contestuale.
+Tuttavia, puoi effettuare un "hard reboot" in qualsiasi momento nel tuo [Spazio Cliente OVHcloud](/links/manager). Nella scheda `Informazioni generali`{.action}, clicca `...`{.action} in corrispondenza di "Stato" nella sezione **Stato dei servizi** e poi clicca su `Riavvia`{.action} e `Conferma`{.action} nella finestra contestuale.
 
-![Riavvia](images/rebooting-your-server.png){.thumbnail}
+![Riavvia](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
 
 <a name="secure"></a>
 
@@ -219,9 +226,9 @@ Se utilizzi un server Windows, consulta [questa guida](/pages/bare_metal_cloud/d
 
 ### Monitoraggio OVHcloud
 
-È possibile attivare o disattivare il monitoraggio di un server dedicato dalla scheda `Informazioni generali`{.action} dello [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it). L'opzione si trova nella sezione `Stato dei servizi`.
+È possibile attivare o disattivare il monitoraggio di un server dedicato dalla scheda `Informazioni generali`{.action} dello [Spazio Cliente OVHcloud](/links/manager). L'opzione si trova nella sezione `Stato dei servizi`.
 
-![Monitoring](images/monitoring-your-server.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server.png){.thumbnail}
 
 Clicca sul pulsante `Configura`{.action}. Nella nuova finestra, hai tre opzioni per il tuo comportamento di sorveglianza:
 
@@ -229,7 +236,7 @@ Clicca sul pulsante `Configura`{.action}. Nella nuova finestra, hai tre opzioni 
 - **Attivato con intervento proattivo**: Se il server non risponde più, riceverai un'email di alert e il server sarà verificato da un tecnico.
 - **Attivato senza intervento proattivo**: Riceverai un alert via email nel caso in cui il server non risponda più. Per avviare un intervento è necessario creare una richiesta di assistenza.
 
-![Monitoring](images/monitoring-your-server2.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server2.png){.thumbnail}
 
 Clicca su `Conferma`{.action} per aggiornare la tua configurazione di sorveglianza.
 
@@ -238,11 +245,6 @@ Per maggiori informazioni sul monitoraggio, consulta [questa guida](/pages/bare_
 <a name="network"></a>
 
 ### Configurazione rete
-
-> [!primary]
->
-> Ti ricordiamo che gli indirizzi IP [aggiuntivi](https://www.ovhcloud.com/it/bare-metal/ip/) non sono compatibili con la gamma **Kimsufi**.
->
 
 #### Modalità Bridge IP
 
@@ -271,7 +273,7 @@ Tutti i server dedicati OVHcloud vengono consegnati con un blocco /64 IPv6. Per 
 
 ### Modalità Rescue
 
-Per risolvere qualsiasi problema, riavvia il server in modalità Rescue dallo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it). È importante identificare i problemi del server in questa modalità, per escludere i problemi legati al software prima di contattare il nostro team di supporto.
+Per risolvere qualsiasi problema, riavvia il server in modalità Rescue dallo [Spazio Cliente OVHcloud](/links/manager). È importante identificare i problemi del server in questa modalità, per escludere i problemi legati al software prima di contattare il nostro team di supporto.
 
 Consulta la guida [Attivare e utilizzare il Rescue mode](/pages/bare_metal_cloud/dedicated_servers/rescue_mode).
 
@@ -311,6 +313,6 @@ Per attivare e utilizzare l'opzione Backup Storage, consulta [questa guida](/pag
 
 [OVHcloud API & OS installation](/pages/bare_metal_cloud/dedicated_servers/api-os-installation) (EN)
 
-Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](https://www.ovhcloud.com/it/professional-services/) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
+Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](/links/professional-services) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie den Fehler "Seite nicht installiert" behebe
 updated: 2023-11-24
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel 
 
 Möglicherweise wird in Ihrem Webbrowser die Fehlerseite **Seite nicht installiert** angezeigt, insbesondere bei der ersten Installation Ihrer Website.

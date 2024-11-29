@@ -1,12 +1,8 @@
 ---
 title: OVHcloud Support FAQ
 excerpt: Hier finden Sie die häufigsten Fragen zum OVHcloud Support
-updated: 2024-08-09
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -16,15 +12,17 @@ Hier finden Sie Antworten zu den häufigsten Fragen zum OVHcloud Support.
 
 ## Voraussetzungen
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/44q3cfQM-YI?si=JemH0lvLPWFuFGWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Was kann ich tun, wenn ich Schwierigkeiten habe, mich mit dem Help Center oder dem Interface zur Verwaltung meiner Tickets zu verbinden?
 
 Mögliche Ursachen für dieses Problem:
 
 - Sie haben ein ungültiges Passwort eingegeben.
 - Cookies sind in Ihrem Browser nicht erlaubt.
-- Sie versuchen, sich von einem anderen Land als Ihrem Abrechnungsland aus zu verbinden.
+- Sie versuchen, sich von einem anderen Land als Ihrem Abrechnungsland aus einzuloggen.
 
-Hier sind die Lösungen, die Sie ausprobieren können:
+Versuchen Sie zunächst die folgenden Lösungen:
 
 - **Passwort**: Überprüfen Sie, ob Sie das richtige Passwort eingegeben haben, oder setzen Sie Ihr Passwort zurück, indem Sie [diese Anleitung](/pages/account_and_service_management/account_information/manage-ovh-password#lost-password) befolgen.
 - **Cookies**: Stellen Sie sicher, dass Cookies in Ihrem Browser zugelassen sind.
@@ -36,7 +34,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.
 
 #### Tipps und Tricks
 
-Sollten Sie Probleme bei der Verbindung mit Ihrem Kundencenter haben, können Sie auch versuchen, sich mit einem der folgenden Gateways anzumelden:
+Sollten Sie Probleme bei der Verbindung mit Ihrem Kundencenter haben, können Sie auch versuchen, sich über eines der folgenden Gateways anzumelden:
 
 - Europäische Union (EU): <https://www.ovh.com/auth/>
 - Kanada (CA): <https://ca.ovh.com/auth/>

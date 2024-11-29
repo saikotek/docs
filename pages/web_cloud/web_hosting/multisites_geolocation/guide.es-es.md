@@ -4,11 +4,6 @@ excerpt: "Descubra cómo geolocalizar un sitio web con nuestras direcciones IP g
 updated: 2022-12-22
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
-  
 ## Objetivo
 
 Los motores de búsqueda (Google, Bing, Yahoo...) utilizan robots de indexación y posicionamiento en todos los sitios web. Ellos priorizan los sitios geolocalizados en el país desde el que usted realiza la búsqueda.

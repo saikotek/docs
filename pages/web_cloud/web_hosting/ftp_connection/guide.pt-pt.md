@@ -4,10 +4,6 @@ excerpt: "Descubra como aceder ao espaço de armazenamento FTP do alojamento web
 updated: 2024-05-20
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 As ofertas de alojamento web da OVHcloud dão acesso a um espaço de armazenamento FTP que permite publicar ficheiros nos seus websites ou aplicações. O acesso a este espaço é possível através de um utilizador FTP ou SSH com as palavras-passe que lhes estão associadas.

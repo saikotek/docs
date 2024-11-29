@@ -17,14 +17,14 @@ Un **account condiviso** è una casella email condivisa tra più account Exchang
 
 ## Prerequisiti
 
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it)
-- Disporre di una soluzione [Exchange OVHcloud](https://www.ovhcloud.com/it/emails/hosted-exchange/)
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
+- Disporre di una soluzione [Exchange OVHcloud](/links/web/emails-hosted-exchange)
 
 ## Procedura
 
 ### Aggiungi un account condiviso
 
-Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it). Accedi alla sezione `Web Cloud`{.action} e seleziona il tuo servizio di `Microsoft`{.action} e poi `Exchange`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager). Accedi alla sezione `Web Cloud`{.action} e seleziona il tuo servizio di `Microsoft`{.action} e poi `Exchange`{.action}.
 
 Seleziona la scheda `Account condivisi`{.action} nel menu orizzontale e clicca su `Aggiungi un account condiviso`{.action}.
 
@@ -83,7 +83,7 @@ Nel nostro esempio, permettiamo agli account **guide-exchange@** e **test@** di 
 
 ### Utilizzo di un account condiviso con OWA (Webmail)
 
-Accedi alla Webmail Exchange (OWA) all'indirizzo <https://www.ovh.it/mail/> con un account email con diritto di accesso all'account condiviso.
+Accedi alla Webmail Exchange (OWA) all'indirizzo [Webmail](/links/web/email) con un account email con diritto di accesso all'account condiviso.
 <br>Nel nostro esempio, ci connettiamo con l'account **guide-exchange@**.
 
 Nella colonna di sinistra clicca con il tasto destro sulla colonna principale dell'indirizzo email e poi su `Aggiungi una cartella condivisa`{.action}. 
@@ -114,4 +114,4 @@ Dal tuo software Outlook, troverai il tuo account condiviso nella colonna di sin
 
 [Aggiungi un piede di pagina ai tuoi account Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

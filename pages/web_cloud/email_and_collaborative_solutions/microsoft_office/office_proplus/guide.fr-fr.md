@@ -42,7 +42,7 @@ L'installation d'une offre Microsoft 365 Apps for entreprise sur un ordinateur p
 > Si vous avez déjà réalisé l'installation de votre licence Office 365 Proplus, il est nécessaire de la **désinstaller**.
 >
 
-- Une fois votre licence désinstallée, veuillez [cliquer ici](https://www.microsoft.com/en-us/download/details.aspx?id=49117){.external} afin de télécharger l'outil de déploiement Microsoft 365.
+- Une fois votre licence désinstallée, veuillez [cliquer ici](https://www.microsoft.com/en-us/download/details.aspx?id=49117) afin de télécharger l'outil de déploiement Microsoft 365.
 
 - **Exécutez** l'outil de déploiement sur votre machine.
 
@@ -99,4 +99,4 @@ Assurez-vous que sa valeur est à `1`. Si cette clé n'existe pas, vous pouvez l
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

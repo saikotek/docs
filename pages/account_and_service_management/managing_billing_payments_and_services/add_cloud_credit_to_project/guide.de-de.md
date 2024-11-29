@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie Ihrem Public Cloud Projekt Guthaben oder Gu
 updated: 2022-02-04
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Mit der Option "Cloud Guthaben" können Sie in Ihrem Public Cloud Projekt einen bestimmten Betrag hinterlegen, der als Standardzahlungsmittel für die [Abrechnung des Projekts](/pages/public_cloud/compute/analyze_billing) zugewiesen wird.<br>
@@ -64,4 +60,4 @@ Da die Gültigkeitsdauer der Gutscheine in der Regel kürzer ist, wird der Gutha
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com>.
+Treten Sie unserer [User Community](/links/community) bei.

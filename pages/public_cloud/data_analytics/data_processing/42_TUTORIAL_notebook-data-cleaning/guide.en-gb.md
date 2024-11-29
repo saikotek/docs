@@ -27,6 +27,7 @@ This tutorial presents a simple data cleaning with `Notebooks for Apache Spark`.
 ### Upload data
 
 First, download these 2 dataset CSV files locally:
+
 - [books.csv](https://raw.githubusercontent.com/ovh/data-processing-samples/master/apache_spark_notebook_data_cleaning/books.csv)
 - [ratings.csv](https://raw.githubusercontent.com/ovh/data-processing-samples/master/apache_spark_notebook_data_cleaning/ratings.csv)
 

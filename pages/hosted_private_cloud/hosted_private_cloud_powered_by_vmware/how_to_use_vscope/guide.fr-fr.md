@@ -75,4 +75,4 @@ Voici la dernière catégorie qui détaille l'utilisation de chaque **machine vi
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

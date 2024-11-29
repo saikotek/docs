@@ -72,4 +72,4 @@ La récupération de données est soumise à un déblocage préalable de l'objet
 
 ## Aller plus loin
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

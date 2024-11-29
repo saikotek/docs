@@ -15,7 +15,7 @@ OVHcloud provides a space for you to view, manage and pay your various bills.
 > Depending on your place of residence and its local legislation, as well as the products concerned, some parts of this guide may vary from the information provided in the guide, and some may not apply to your situation. If you have any doubts, please refer to your OVHcloud contracts, which you can access from the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au). (Click on your name in the top right-hand corner of the screen, then in the context menu, click on `Service management`{.action}, then on the `Contracts`{.action} tab.)
 >
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iiQmopMhzik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iiQmopMhzik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requirements
 
@@ -50,7 +50,7 @@ Your OVHcloud service bill is sent to you following the payment of an order or a
 
 To view your invoices, go to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au). Click on your name in the top right-hand corner of your screen, then in the new menu that appears, click on `Invoices`{.action}.
 
-![Billing](images/hubinvoices.png){.thumbnail}
+![Billing](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 You will then land on a page summarising your bills:
 
@@ -139,4 +139,4 @@ In this section, you can also export your payment receipts in *.csv* format, by 
 
 [Managing payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

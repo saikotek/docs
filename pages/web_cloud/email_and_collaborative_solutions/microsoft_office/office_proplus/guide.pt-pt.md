@@ -32,7 +32,7 @@ Este guia baseia-se nas informações fornecidas no guia Microsoft [Deploy Micro
 >
 > A responsabilidade sobre a configuração e a gestão dos serviços que a OVHcloud disponibiliza recai sobre o utilizador. Assim, deverá certificar-se de que estes funcionam corretamente.
 > 
-> Este manual fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [prestador de serviços especializado](https://partner.ovhcloud.com/pt/directory/) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, aceda à secção «Quer saber mais?» deste guia.
+> Este manual fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [prestador de serviços especializado](/links/partner) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, aceda à secção «Quer saber mais?» deste guia.
 > 
 
 ### Método 1: Configuração manual
@@ -46,7 +46,7 @@ A instalação de uma oferta Microsoft 365 Apps for entreprise num computador pa
 > Se já realizou a instalação da sua licença Office 365 Proplus, é necessário **desinstalar** a licença.
 >
 
-- Depois de desinstalar a sua licença, queira [clicar aqui](https://www.microsoft.com/en-us/download/details.aspx?id=49117){.external} para descarregar a ferramenta de implementação Microsoft 365.
+- Depois de desinstalar a sua licença, queira [clicar aqui](https://www.microsoft.com/en-us/download/details.aspx?id=49117) para descarregar a ferramenta de implementação Microsoft 365.
 
 - **Execute** a ferramenta de implementação na sua máquina.
 
@@ -104,4 +104,4 @@ Certifique-se de que o seu valor é de `1`. Se esta chave não existir, pode cri
 
 ## Quer saber mais?
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

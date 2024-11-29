@@ -97,4 +97,4 @@ You can view the other possible return codes in [this guide](/pages/web_cloud/me
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

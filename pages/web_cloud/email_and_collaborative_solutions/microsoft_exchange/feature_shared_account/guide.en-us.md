@@ -13,14 +13,14 @@ A **shared account** is a mailbox shared between several Exchange accounts and c
 
 ## Requirements
 
-- access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we)
-- an [OVHcloud Exchange solution](https://www.ovhcloud.com/en/emails/hosted-exchange/)
+- access to the [OVHcloud Control Panel](/links/manager)
+- an [OVHcloud Exchange solution](/links/web/emails-hosted-exchange)
 
 ## Instructions
 
 ### Adding a shared account
 
-Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we). Go to the `Web Cloud`{.action} section and select your service under `Microsoft`{.action}, then `Exchange`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager). Go to the `Web Cloud`{.action} section and select your service under `Microsoft`{.action}, then `Exchange`{.action}.
 
 Select the `Shared accounts`{.action} tab in the horizontal menu and click on `Add a shared account`{.action}.
 
@@ -79,7 +79,7 @@ In our example, we allow the accounts **guide-exchange@** and **test@** to acces
 
 ### Using the account shared from OWA (webmail)
 
-Log in to [webmail](https://www.ovh.com/world/mail/) with an Exchange account that has access to the shared account.
+Log in to [webmail](/links/web/email) with an Exchange account that has access to the shared account.
 <br>In our example, we connect with the **guide-exchange@** account.
 
 Once you have logged in, right-click on the main tree for your email address in the left-hand column. Select `Add shared folder...`{.action} from the context menu. 
@@ -110,4 +110,4 @@ In the Outlook application, you will see your shared account in the left-hand co
 
 [Creating automatic signatures](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

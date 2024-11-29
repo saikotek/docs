@@ -4,10 +4,6 @@ excerpt: "Saiba neste guia diferentes informações e especificidades técnicas 
 updated: 2023-12-08
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 As ofertas de alojamento web da OVHcloud são partilhadas. Por conseguinte, a configuração destas propostas contém algumas especificidades técnicas. Recomendamos que consulte estas especificações *antes* de utilizar o seu alojamento web da OVHcloud.

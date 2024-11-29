@@ -4,10 +4,6 @@ excerpt: "Saiba como se conectar e utilizar o acesso SSH do seu alojamento web O
 updated: 2024-01-30
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Os planos de alojamento web da OVHcloud dão-lhe acesso a um espaço de armazenamento que permite publicar ficheiros nos seus sites ou aplicações. O acesso a este espaço é possível através de um utilizador FTP ou SSH e das respetivas palavras-passe.
@@ -51,7 +47,7 @@ Para estabelecer uma conexão em SSH, utilize um terminal para interagir diretam
 
 > [!primary]
 >
-> Em macOS, Linux e Windows 10, esta ferramenta encontra-se instalada por predefinição. Um ambiente Windows mais antigo irá requerer a instalação de um software como o PuTTY ou a adição da funcionalidade OpenSSH.
+> Em macOS, Linux e Windows 10, esta ferramenta encontra-se instalada por predefinição. Um ambiente Windows mais antigo irá requerer a instalação de um software como o [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) ou a adição da funcionalidade OpenSSH.
 
 Assim, há duas possibilidades de conexão, em função do método utilizado:
 

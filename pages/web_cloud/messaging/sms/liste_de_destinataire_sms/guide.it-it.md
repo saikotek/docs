@@ -94,4 +94,4 @@ Adesso che hai importato la tua lista, segui la guida [Inviara SMS dal tuo Spazi
 
 [Gestire le rubriche indirizzi SMS](/pages/web_cloud/messaging/sms/gerer_mes_carnets_dadresses_sms)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>
+Contatta la nostra [Community di utenti](/links/community).

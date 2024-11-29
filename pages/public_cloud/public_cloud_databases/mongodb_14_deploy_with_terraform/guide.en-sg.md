@@ -1,6 +1,6 @@
 ---
 title: MongoDB - Tutorial - How to deploy a database with Terraform
-excerpt: Find out how to to set up an OVHcloud managed MongoDB service via Terraform within a vRack, as well as how to access it from other parts of your infrastructure.
+excerpt: Find out how to set up an OVHcloud managed MongoDB service via Terraform within a vRack, as well as how to access it from other parts of your infrastructure.
 updated: 2024-04-17
 ---
 
@@ -17,8 +17,8 @@ However, if you would like to know how to do the same with Terraform, but over a
 - **OVHcloud requirements**
     - A [Public Cloud project](https://www.ovhcloud.com/en-sg/public-cloud/) in your OVHcloud account
     - Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg)
-    - A private vRack network that can be accessed from your Public Cloud project (if you don’t have one, please refer to our guide [Configuring vRack for Public Cloud](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack).
-    - An OpenStack user account in your Public Cloud project (if you don’t have one, please refer to the following guide: [Creating and deleting OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user/).
+    - A private vRack network that can be accessed from your Public Cloud project (if you don’t have one, please refer to our guide [Configuring vRack for Public Cloud](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack)).
+    - An OpenStack user account in your Public Cloud project (if you don’t have one, please refer to the following guide: [Creating and deleting OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user/)).
 - **Terraform requirements**
     - You must have downloaded the `openrc.sh` file for interaction with the OpenStack platform. If not already downloaded, please refer to the following guide: [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
     - You must have created a token to log in to the OVHcloud API. If it's not already created, please refer to the following guide: [First Steps with the OVHcloud APIs](/pages/manage_and_operate/api/first-steps)

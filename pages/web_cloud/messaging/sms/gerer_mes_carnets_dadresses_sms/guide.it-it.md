@@ -108,4 +108,4 @@ Per modificare o eliminare un contatto, clicca sui tre puntini`...`{.action} nel
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Contatta la nostra [Community di utenti](/links/community).

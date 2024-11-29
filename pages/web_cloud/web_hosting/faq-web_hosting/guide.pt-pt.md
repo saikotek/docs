@@ -4,10 +4,6 @@ excerpt: "Encontre aqui as questões mais comuns sobre os alojamentos web da OVH
 updated: 2024-06-27
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Gestão da sua oferta
 
 ### Como configurar o meu alojamento?

@@ -126,4 +126,4 @@ Afin de vérifier que votre adresse IP est bien autorisée, utilisez l'appel sui
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: "Activating email addresses included in your Web Hosting plan"
 excerpt: "Find out how to activate the email addresses included in your Web Hosting plan"
-updated: 2024-07-17
+updated: 2024-10-01
 ---
 
 ## Objective
@@ -9,6 +9,8 @@ updated: 2024-07-17
 If you have ordered a Web Hosting plan without directly linking it to a domain name, the email solution included with your Web Hosting plan must be enabled manually. You can link it to the domain name of your choice.
 
 **Find out how to activate the email addresses included in your Web Hosting plan.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/oqWovkSP85A?si=1rnqBvhVLdhr2rI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requirements
 

@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak Cecil pozwala na tworzenie strony statycznej przy u�
 updated: 2023-12-08
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Tutorial wyjaśnia, jak zainstalować i skonfigurować [Cecil](https://cecil.app/){.external}. Jest to aplikacja napisana w PHP pozwalająca na generowanie i administrowanie statycznymi stronami WWW.

@@ -1,6 +1,6 @@
 ---
 title: Object Storage - Endpoints and Object Storage geoavailability
-updated: 2024-08-09
+updated: 2024-11-25
 ---
 
 <style>
@@ -24,66 +24,109 @@ OVHcloud Object Storage S3 can be accessed through a unique endpoint: `https://s
         <th>Region<br><b><i>To be entered in lower case</i></b></th>
         <th>Protocol</th>
         <th>Signature version</th>
+        <th>Deployment mode</th>
+        <th>Storage tier supported</th>
     </tr>
     <tr>
-        <td rowspan=6>Europe</td>
+        <td rowspan=7><strong>Europe</strong></td>
         <td>Gravelines</td>
         <td>gra</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Roubaix</td>
         <td>rbx</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Strasbourg</td>
         <td>sbg</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
+    </tr>
+    <tr>
+        <td>Paris</td>
+        <td>eu-west-par</td>
+        <td>HTTPS</td>
+        <td>4</td>
+        <td>3-AZ region</td>
+        <td>Standard only</td>
     </tr>
     <tr>
         <td>Frankfurt</td>
         <td>de</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>London</td>
         <td>uk</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Warsaw</td>
         <td>waw</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
-        <td rowspan=2>North America<br>(excluding USA)</td>
+        <td rowspan=2><strong>North America<br>(excluding USA)</strong></td>
         <td>Beauharnois</td>
         <td>bhs</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
         <td>Toronto</td>
         <td>ca-east-tor</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
     </tr>
     <tr>
-        <td>Asia-Pacific</td>
+        <td rowspan=3><strong>Asia-Pacific</strong></td>
         <td>Singapore</td>
         <td>sgp</td>
         <td>HTTPS</td>
         <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
+    </tr>
+    <tr>
+        <td>Sydney</td>
+        <td>ap-southeast-syd</td>
+        <td>HTTPS</td>
+        <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
+    </tr>
+    <tr>
+        <td>Mumbai</td>
+        <td>ap-south-mum</td>
+        <td>HTTPS</td>
+        <td>4</td>
+        <td>1-AZ region</td>
+        <td>Standard & High Performance</td>
     </tr>
 </table>
-
 
 The bucket endpoint is a URL, for example `https://my-bucket.s3.gra.io.cloud.ovh.net` that represents a virtual host style endpoint.
 
@@ -232,4 +275,4 @@ The mapping for **READ(GET/LIST/HEAD)** operations on the **perf** endpoint is t
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

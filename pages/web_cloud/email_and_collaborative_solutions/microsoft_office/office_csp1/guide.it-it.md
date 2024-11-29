@@ -29,7 +29,7 @@ Ecco l'elenco dei software inclusi nella suite:
 
 ### Ordina una licenza
 
-Accedi alla pagina commerciale [Microsoft 365 OVHcloud](https://www.ovh.com/fr/office-365-business){.external} e seleziona la sezione `Microsoft`{.action} della nostra sezione `Web Cloud`{.action}.
+Accedi alla pagina commerciale [Microsoft 365 OVHcloud](/links/web/ms365) e seleziona la sezione `Microsoft`{.action} della nostra sezione `Web Cloud`{.action}.
 
 È inoltre possibile ordinare una licenza dallo [Spazio Cliente OVHcloud](/links/manager). Seleziona `Web Cloud`{.action} nella barra superiore, clicca sul pulsante `Ordina`{.action} e seleziona `O365`{.action}.
 
@@ -108,4 +108,4 @@ Indica i motivi della richiesta di disattivazione e clicca su `Conferma`{.action
 
 [Utilizza il desktop remoto con Microsoft 365 aps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

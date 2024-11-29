@@ -876,4 +876,4 @@ The response is the same as in the previous example.
 
 ## Go further
 
-Join our community of users on [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Join our [community of users](/links/community).

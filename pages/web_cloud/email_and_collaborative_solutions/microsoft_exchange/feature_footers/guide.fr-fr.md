@@ -12,12 +12,12 @@ Dans votre espace client OVHcloud, vous pouvez créer des signatures universelle
 
 ## Prérequis
 
-- Être connecté à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr)
-- Avoir souscrit une offre [Exchange OVHcloud](https://www.ovhcloud.com/fr/emails/hosted-exchange/) ou [Email Pro](https://www.ovhcloud.com/fr/emails/email-pro/)
+- Être connecté à votre [espace client OVHcloud](/links/manager)
+- Avoir souscrit une offre [Exchange OVHcloud](/links/web/emails-hosted-exchange) ou [Email Pro](/links/web/email-pro)
 
 ## En pratique
 
-Pour effectuer cette manipulation, connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr):
+Pour effectuer cette manipulation, connectez-vous à votre [espace client OVHcloud](/links/manager):
 
 - **Exchange**: Cliquez sur `Microsoft`{.action}, puis sur `Exchange`{.action}. 
 - **Email Pro**: Cliquez sur `Email Pro`{.action}.
@@ -59,4 +59,4 @@ Veillez à prendre en considération les spécificités suivantes avant de crée
 
 [Partager un calendrier via le webmail OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: 'Einrichten einer automatischen Antwort in OWA'
 excerpt: 'Erfahren Sie hier, wie Sie automatische Antworten in OWA erstellen'
-updated: 2020-07-20
+updated: 2024-10-22
 ---
 
 ## Ziel
@@ -12,18 +12,26 @@ Mit dieser Exchange-Funktion können Sie für verschiedene Anwendungsfälle auto
 
 ## Voraussetzungen
 
-- Sie verfügen über OVHcloud [Exchange](https://www.ovhcloud.com/de/emails/hosted-exchange/) oder [E-Mail Pro](https://www.ovhcloud.com/de/emails/email-pro/).
+- Sie verfügen über OVHcloud [Exchange](/links/web/emails-hosted-exchange) oder [E-Mail Pro](/links/web/email-pro).
 - Sie haben die Login-Informationen für den E-Mail-Account, die Sie konfigurieren möchten.
 
 ## In der praktischen Anwendung
 
+> [!warning]
+>
+> Wenn Ihre E-Mail-Adresse mit einem **MX Plan** (in [Webhosting](/links/web/hosting) und [Kostenloses Hosting 100M](/links/web/domains-free-hosting) inklusive) verbunden ist, enthält Ihr Kundencenter einen Bereich mit dem Titel `Verwaltung der Auto-Antworten`{.action}. In diesem Fall erstellen Sie automatische Antworten in Ihrem OVHcloud Kundencenter. Nutzen Sie dazu die Dokumentation [„MX Plan - Eine automatische Antwort für eine E-Mail-Adresse erstellen“](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_auto_responses).
+
 ### Aktivierung der Funktion
 
-Melden Sie sich über [OVHcloud Webmail](https://www.ovh.de/mail) bei Ihrem Exchange Account an. Klicken Sie auf das Zahnradsymbol oben rechts, um das Menü „Optionen“ zu öffnen und wählen Sie dann `Automatische Antworten`{.action}.
+Melden Sie sich über [OVHcloud Webmail](/links/web/email) bei Ihrem Exchange Account an. Klicken Sie auf das Zahnradsymbol oben rechts, um das Menü „Optionen“ zu öffnen und wählen Sie dann `Automatische Antworten`{.action}.
 
 ![owaoptions](images/exchange-autorep-step1.png){.thumbnail}
 
-In dieser Oberfläche aktivieren Sie einfach die Funktion, indem Sie `Automatische Antworten senden`{.action} auswählen. Sie können einen genauen Zeitraum in den nachstehenden Feldern festlegen oder das Senden auf unbestimmte Zeit aktivieren. Ohne eine hier eingestellte Start- und Endzeit muss die Funktion manuell deaktiviert werden. 
+In dieser Oberfläche aktivieren Sie einfach die Funktion, indem Sie `Automatische Antworten senden`{.action} auswählen. Sie können einen genauen Zeitraum in den nachstehenden Feldern festlegen oder das Senden auf unbestimmte Zeit aktivieren.
+
+> [!primary]
+>
+> Wenn Sie keine Start- und Endzeit angeben, muss die Antwortfunktion manuell deaktiviert werden.
 
 Verfassen Sie Ihre Nachricht im Editorfeld und bestätigen Sie oben links mit der Schaltfläche `Speichern`{.action}.
 
@@ -55,4 +63,8 @@ In das zweite Feld kann eine alternative Nachricht für externe Absender eingege
 
 [Kalender in OWA freigeben](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Kontaktieren Sie für spezialisierte Dienstleistungen (SEO, Web-Entwicklung etc.) die [OVHcloud Partner](/links/partner).
+
+Wenn Sie Hilfe bei der Nutzung und Konfiguration Ihrer OVHcloud Lösungen benötigen, beachten Sie unsere [Support-Angebote](/links/support).
+
+Treten Sie unserer [User Community](/links/community) bei.

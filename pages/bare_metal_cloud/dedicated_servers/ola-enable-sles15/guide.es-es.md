@@ -1,12 +1,8 @@
 ---
 title: Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en SLES 15
 excerpt: 'Activar OVHcloud Link Aggregation en su servidor SLES 15'
-updated: 2023-10-26
+updated: 2024-11-26
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
 
 ## Objetivo
 
@@ -17,13 +13,13 @@ La tecnología OVHcloud Link Aggregation (OLA) está diseñada por nuestros equi
 ## Requisitos
 
 - [Haber configurado su ID de cliente para la funcionalidad de OVHcloud Link Aggregation desde el área de cliente de OVHcloud](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager).
-- Tienes acceso a tu [Panel de configuración de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es).
+- Tienes acceso a tu [Panel de configuración de OVHcloud](/links/manager).
 
 ## Procedimiento
 
 Debido a que OLA ofrece una configuración privado-privada para sus ID de cliente, no es posible conectarse al servidor por SSH. Por lo tanto, deberá utilizar la herramienta IPMI para acceder al servidor.
 
-Para ello, conéctese al [Panel de configuración de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es) y acceda a la pestaña `Bare Metal Cloud`{.action}. Seleccione el servidor en la lista del apartado `Servidores dedicados`{.action}.
+Para ello, conéctese al [Panel de configuración de OVHcloud](/links/manager) y acceda a la pestaña `Bare Metal Cloud`{.action}. Seleccione el servidor en la lista del apartado `Servidores dedicados`{.action}.
 
 A continuación, abra la pestaña `IPMI`{.action} (1) y haga clic en el botón `Desde un applet Java (KVM)`{.action} (2).
 
@@ -57,7 +53,7 @@ IPADDR='10.0.0.1/24'
 BONDING_MASTER='yes'
 BONDING_SLAVE_0='eth0'
 BONDING_SLAVE_1='eth1'
-BONDING_MODULE_OPTS='mode=802.3ad miimon=100 xmit_hash_policy=layer3+4'
+BONDING_MODULE_OPTS='mode=802.3ad xmit_hash_policy=layer3+4'
 ```
 
 > [!primary]
@@ -138,8 +134,6 @@ También puede comprobar los parámetros utilizados en su interfaz ifcfg-bond0 u
 
 [Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

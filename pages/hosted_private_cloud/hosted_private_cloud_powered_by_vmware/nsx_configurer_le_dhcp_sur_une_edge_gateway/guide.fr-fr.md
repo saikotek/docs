@@ -173,4 +173,4 @@ Votre relais DHCP fonctionnera après un petit temps d'attente.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

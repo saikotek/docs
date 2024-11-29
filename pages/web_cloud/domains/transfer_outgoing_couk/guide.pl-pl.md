@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak wykonać transfer domeny wychodzącej z domeny UK do
 updated: 2022-10-19
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie
 
 Proces zmiany operatora domeny *najwyższego poziomu* (*top-level domain*, lub **TLD**) dla domeny najwyższego poziomu **UK** (**.uk**) różni się od tego wyszczególnionego w naszym [przewodniku transferu domen globalnychKET](/pages/web_cloud/domains/transfer_outgoing_domain). Poniższe instrukcje dotyczą następujących rozszerzeń:

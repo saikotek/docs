@@ -12,14 +12,14 @@ Grâce à cette fonction d’Exchange, autorisez l'accès à vos calendriers par
 
 ## Prérequis
 
-- Avoir souscrit une offre [solution Exchange OVHcloud](https://www.ovhcloud.com/fr-ca/emails/hosted-exchange/) 
+- Avoir souscrit une offre [solution Exchange OVHcloud](/links/web/emails-hosted-exchange) 
 - Avoir accès à votre compte Exchange (adresse e-mail et mot de passe)
 
 ## En pratique
 
 ### Étape 1 : Sélectionnez le calendrier à partager
 
-Connectez-vous à votre compte Exchange via l’interface [Webmail OVHcloud](https://www.ovh.com/ca/fr/mail/). Ouvrir la page « Calendrier » en cliquant sur « App Launcher » visible sur le coin supérieur gauche de l’écran. Sélectionnez l’icône `Calendrier`{.action}.
+Connectez-vous à votre compte Exchange via l’interface [Webmail OVHcloud](/links/web/email). Ouvrir la page « Calendrier » en cliquant sur « App Launcher » visible sur le coin supérieur gauche de l’écran. Sélectionnez l’icône `Calendrier`{.action}.
 
 ![sharecalendar](images/exchange-calendars-step1.png){.thumbnail}
 
@@ -84,4 +84,4 @@ Cliquer sur un calendrier de la liste a pour effet de l’ajouter ou de le retir
 
 [Créer un groupe de contacts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/en/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -15,14 +15,14 @@ Przy użyciu opcji „Reguły skrzynki odbiorczej” można utworzyć złożone 
 
 ## Wymagania początkowe
 
-- skonfigurowane rozwiązanie poczty elektronicznej OVHcloud (**usługa MX Plan** dostępna w ramach [hostingu WWW](https://www.ovhcloud.com/pl/web-hosting/), zawarta w [Darmowy hosting 100M](https://www.ovhcloud.com/pl/domains/free-web-hosting/) lub zamówiona oddzielnie jako rozwiązanie autonomiczne; [**Hosted Exchange**](https://www.ovhcloud.com/pl/emails/hosted-exchange/) lub [**E-mail Pro**](https://www.ovhcloud.com/pl/emails/email-pro/))
+- skonfigurowane rozwiązanie poczty elektronicznej OVHcloud (**usługa MX Plan** dostępna w ramach [hostingu WWW](/links/web/hosting), zawarta w [Darmowy hosting 100M](/links/web/domains-free-hosting) lub zamówiona oddzielnie jako rozwiązanie autonomiczne; [**Hosted Exchange**](/links/web/emails-hosted-exchange) lub [**E-mail Pro**](/links/web/email-pro))
 - dane do logowania dla adresu e-mail, który chcesz skonfigurować
 
 ## W praktyce
 
 ### Krok 1: przejście do sekcji opcji
 
-Zaloguj się na Twoje konto Exchange przy użyciu interfejsu [OVHcloud webmail](https://www.ovh.pl/mail/). Kliknij ikonę koła zębatego w prawym górnym rogu, aby rozwinąć menu „Opcje”, i wybierz pozycję `Opcje`{.action}.
+Zaloguj się na Twoje konto Exchange przy użyciu interfejsu [OVHcloud webmail](/links/web/email). Kliknij ikonę koła zębatego w prawym górnym rogu, aby rozwinąć menu „Opcje”, i wybierz pozycję `Opcje`{.action}.
 
 ![inboxrules](images/exchange-rules-step1.png){.thumbnail}
 
@@ -102,4 +102,4 @@ Ponieważ żadne mechanizmy ochrony antyspamowej nie są w stanie precyzyjnie ok
 
 [Korzystanie z konta e-mail przy użyciu Webmail Outlook Web App (OWA)](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
 
-Dołącz do naszej społeczności użytkowników: <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

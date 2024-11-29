@@ -37,4 +37,4 @@ A partir de ce menu, vous avez la possibilité de modifier les droits de vos uti
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

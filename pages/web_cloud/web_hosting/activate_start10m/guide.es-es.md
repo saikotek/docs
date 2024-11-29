@@ -4,10 +4,6 @@ excerpt: "Descubra cómo activar su Alojamiento gratuito 100M"
 updated: 2023-12-18
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
-> 
-
 ## Objetivo
 
 Con el [Alojamiento gratuito 100M](/links/web/domains-free-hosting){.external}, OVHcloud le ofrece un alojamiento web de 100 MB y una cuenta de correo con 5 GB de almacenamiento. Esta guía explica cómo activar el alojamiento gratuito 100M en su [nombre de dominio](/links/web/domains){.external}.

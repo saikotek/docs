@@ -29,7 +29,7 @@ Esta es la lista de programas incluidos en la siguiente:
 
 ### Contratar una licencia
 
-Acceda a la página comercial [Microsoft 365 OVHcloud](https://www.ovh.com/es/office-365-business){.external} y seleccione la sección `Microsoft`{.action} de nuestra sección `Web Cloud`{.action}.
+Acceda a la página comercial [Microsoft 365 OVHcloud](/links/web/ms365) y seleccione la sección `Microsoft`{.action} de nuestra sección `Web Cloud`{.action}.
 
 También puede contratar una licencia desde el [área de cliente de OVHcloud](/links/manager). Una vez conectado, seleccione `Web Cloud`{.action} en la banda superior y haga clic en el botón `Contratar`{.action} y en `o365`{.action}.
 
@@ -108,4 +108,4 @@ Indique los motivos de su solicitud de baja y haga clic en `Aceptar`{.action}.
 
 [Utilizar el escritorio remoto con Microsoft 365 apps](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_proplus)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

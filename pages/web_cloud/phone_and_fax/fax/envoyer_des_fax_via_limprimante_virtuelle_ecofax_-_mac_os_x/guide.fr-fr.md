@@ -47,4 +47,4 @@ Le Fax est en cours d'envoi, il ne vous reste plus qu'à attendre le passage dan
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -1,13 +1,8 @@
 ---
-title: 'MXplan - Crea risposta automatica su un indirizzo email'
+title: 'MX Plan - Crea risposta automatica su un indirizzo email'
 excerpt: 'Come impostare una risposta automatica su un indirizzo email'
 updated: 2024-05-24
 ---
-
-> [!primary]
->
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
@@ -22,9 +17,9 @@ Quando sei assente e non sei in grado di consultare il tuo indirizzo email, puoi
 
 ## Procedura
 
-> [!primary]
+> [!warning]
 >
-> Se il tuo indirizzo email è su un'offerta [**Exchange**](/links/web/emails-hosted-exchange), [**Email Pro**](/links/web/email-pro) o non hai una sezione `Gestione delle risposte automatiche`{.action} nel tuo MXplan, dovrai creare la risposta automatica dalla tua Webmail utilizzando la documentazione ["Installare una risposta automatica dall'interfaccia OWA"](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_automatic_replies).
+> Se il tuo indirizzo email è su un'offerta [**Exchange**](/links/web/emails-hosted-exchange), [**Email Pro**](/links/web/email-pro) o non hai una sezione `Gestione delle risposte automatiche`{.action} nel tuo MX Plan, dovrai creare la risposta automatica dalla tua Webmail utilizzando la documentazione ["Installare una risposta automatica dall'interfaccia OWA"](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_automatic_replies).
 
 ### Crea la risposta automatica
 
@@ -72,4 +67,4 @@ Una volta creata la risposta automatica, questa comparirà nella lista visualizz
 
 [FAQ e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>
+Contatta la nostra [Community di utenti](/links/community).

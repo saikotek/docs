@@ -65,7 +65,7 @@ In caso di richiesta di addebito SEPA, entro 24-48 ore riceverai all'indirizzo d
 
 Se il mandato è approvato, una volta ricevuto da parte dei nostri servizi è possibile utilizzare questo nuovo metodo di pagamento.
 
-![FAQ billing](images/faq-billing01.gif){.thumbnail}
+![FAQ billing](/pages/assets/screens/control_panel/product-selection/right-column/faq-billing01.gif){.thumbnail}
 
 #### Consigli e suggerimenti
 
@@ -175,4 +175,4 @@ Per scaricarlo accedi allo Spazio Cliente, clicca sul tuo nome utente in alto a 
 
 ## Per saperne di più
   
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

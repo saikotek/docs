@@ -5535,4 +5535,4 @@ This permission group does not cover the administration of a Public Cloud projec
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

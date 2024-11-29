@@ -4,10 +4,6 @@ excerpt: Cómo gestionar los pedidos en OVHcloud
 updated: 2022-05-06
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Al realizar un pedido, puede realizar un seguimiento e interactuar con él desde el [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es).
@@ -49,7 +45,7 @@ Para acceder al panel de gestión de pedidos, conéctese al [área de cliente de
 
 A continuación se muestra un resumen de los pedidos realizados:
 
-![Resumen de pedidos](images/order03.png){.thumbnail}
+![Resumen de pedidos](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 Aquí, podrá ver los siguientes datos:
 
@@ -120,4 +116,4 @@ Por último, marque la casilla `Sí, quiero cancelar el pedido`{.action} y confi
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

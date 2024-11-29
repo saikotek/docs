@@ -48,7 +48,7 @@ No seguimento do seu pedido, ser-lhe-á enviado um e-mail de confirmação para 
 
 Também poderá encontrar este e-mail na sua Área de Cliente OVHcloud. Clique no seu nome na parte superior à direita > `E-mails de serviço`{.action}.
 
-![validação rescisão](images/resiliation4.png){.thumbnail}
+![validação rescisão](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 O assunto do e-mail será:
 
@@ -72,4 +72,4 @@ Deverá indicar o token de validação disponível no e-mail de confirmação da
 
 ## Quer saber mais?
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

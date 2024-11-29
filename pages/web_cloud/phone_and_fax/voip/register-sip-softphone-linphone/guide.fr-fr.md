@@ -59,4 +59,4 @@ Vous pouvez aussi tester l'enregistrement de votre ligne [sur un autre softphone
 
 [Enregistrer une ligne SIP OVHcloud sur Zoiper](/pages/web_cloud/phone_and_fax/voip/register-sip-softphone-zoiper)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

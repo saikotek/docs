@@ -14,12 +14,11 @@ Nous vous apportons une première approche de Heat et des *stacks* représentant
 
 > [!warning]
 >
-> Heat d'OpenStack est actuellement déployé en version bêta. En cas de difficulté et/ou si vous souhaitez échanger avec d'autres utilisateurs, vous pouvez envoyer un e-mail sur la mailing list <cloud@ml.ovh.net> ou sur notre forum d'entraide communautaire <https://community.ovh.com>.
-> 
+> Heat d'OpenStack est actuellement déployé en version bêta. En cas de difficulté et/ou si vous souhaitez échanger avec d'autres utilisateurs, vous pouvez envoyer un e-mail sur la mailing list <cloud@ml.ovh.net> ou sur notre [forum d'entraide communautaire](/links/community).
 
 ## Prérequis
 
-- Être connecté à votre [espace client OVH](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr).
+- Être connecté à votre [espace client OVH](/links/manager).
 - Avoir créé un projet Public Cloud.
 - Posséder un compte utilisateur OpenStack.
 - Savoir manipuler un fichier YAML.
@@ -214,4 +213,4 @@ Are you sure you want to delete this stack(s) [y/N]? y
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

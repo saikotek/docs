@@ -1,12 +1,8 @@
 ---
 title: "Jak skonfigurować identyfikator klienta do celów agregacji linków OVHcloud w SLES 15"
 excerpt: 'Włącz Link Aggregation na serwerze SLES 15'
-updated: 2023-10-26
+updated: 2024-11-26
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
 
 ## Wprowadzenie
 
@@ -17,13 +13,13 @@ Technologia OVHcloud Link Aggregation (OLA) została zaprojektowana przez nasze 
 ## Wymagania początkowe
 
 - [Skonfigurowanie identyfikatora klienta dla funkcji OVHcloud Link Aggregation w Panelu klienta](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager)
-- Dostęp do [Panelu client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)
+- Dostęp do [Panelu client OVHcloud](/links/manager)
 
 ## W praktyce
 
 Ze względu na prywatną konfigurację OLA dla naszych identyfikatorów klienta nie można połączyć się z serwerem za pomocą SSH. Aby uzyskać dostęp do serwera, użyj narzędzia IPMI.
 
-W tym celu zaloguj się do [Panelu client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl) i przejdź do zakładki `Bare Metal Cloud`{.action}. Wybierz serwer z listy w sekcji `Serwery dedykowane`{.action}.
+W tym celu zaloguj się do [Panelu client OVHcloud](/links/manager) i przejdź do zakładki `Bare Metal Cloud`{.action}. Wybierz serwer z listy w sekcji `Serwery dedykowane`{.action}.
 
 Następnie kliknij zakładkę `IPMI`{.action} (1), a następnie przycisk `Z poziomu apletu Java (KVM)`{.action} (2).
 
@@ -57,7 +53,7 @@ IPADDR='10.0.0.1/24'
 BONDING_MASTER='yes'
 BONDING_SLAVE_0='eth0'
 BONDING_SLAVE_1='eth1'
-BONDING_MODULE_OPTS='mode=802.3ad miimon=100 xmit_hash_policy=layer3+4'
+BONDING_MODULE_OPTS='mode=802.3ad xmit_hash_policy=layer3+4'
 ```
 
 > [!primary]
@@ -138,8 +134,6 @@ Możesz również sprawdzić parametry używane w interfejsie ifcfg-bond0 za pom
 
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud z systemem Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud z systemem CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud w systemie Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

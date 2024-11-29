@@ -1,7 +1,7 @@
 ---
 title: Generating OVHcloud account logs with Logs Data Platform
 excerpt: Find out how to forward OVHcloud customer account logs to Logs Data Platform
-updated: 2024-02-29
+updated: 2024-09-26
 ---
 
 ## Objective
@@ -46,7 +46,7 @@ To enable forwarding, you can use the following APIs:
 |**Method**|**Log type**|**Path**|**Description**|
 | :-: | :-: | :-: | :-: |
 POST|Audit logs|/me/logs/audit/forward|Forward account audit logs|
-POST|Activity logs|/me/api/logs/forward|Forward API and Control Panel account logs|
+POST|Activity logs|/me/api/log/subscription|Forward API and Control Panel account logs|
 POST|Access policy logs|/iam/logs/forward|Forward account IAM logs to a dedicated logs stream|
 
 For instance, for audit logs:
@@ -103,7 +103,7 @@ For more details about how to use your logs with Logs Data Platform, refer to th
 - How to view the logs in real time through a WebSocket.
 - How to build visualisation with OpenSearch Dashboards.
 - How to integrate with OpenSearch API.
-- How to to connect with Grafana.
+- How to connect with Grafana.
 
 ### Details of generated logs
 

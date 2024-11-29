@@ -35,7 +35,7 @@ Twój projekt, a także plik autoload.php umożliwiający zarządzanie wszystkim
 Identyfikatory są niezbędne do korzystania z interfejsu API SMS. Identyfikatory te tworzy się jednorazowo w celu określenia aplikacji, która będzie wysyłać wiadomości SMS. Czas ważności tych identyfikatorów można skonfigurować.
 
 Utwórz identyfikatory skryptu (all keys at once) na tej stronie:
-[https://api.ovh.com/createToken/](https://eu.api.ovh.com/createToken/index.cgi?GET=/sms&GET=/sms/*/jobs&POST=/sms/*/jobs) (ten adres URL automatycznie zapewni Ci odpowiednie uprawnienia na potrzeby kroków opisanych w tym przewodniku).
+[https://api.ovh.com/createToken/](https://eu.api.ovh.com/createToken/index.cgi?GET=/sms/&GET=/sms/*/jobs&POST=/sms/*/jobs) (ten adres URL automatycznie zapewni Ci odpowiednie uprawnienia na potrzeby kroków opisanych w tym przewodniku).
 
 ![tworzenie tokenów](images/img_2451.jpg){.thumbnail}
 
@@ -70,7 +70,7 @@ Teraz możesz przetestować połączenie z API, wyświetlając szczegóły każd
 /**
  * Wyświetla szczegóły każdego konta SMS
  * 
- * Przejdź na stronę https://eu.api.ovh.com/createToken/index.cgi?GET=/sms&GET=/sms/*/jobs&POST=/sms/*/jobs
+ * Przejdź na stronę https://eu.api.ovh.com/createToken/index.cgi?GET=/sms/&GET=/sms/*/jobs&POST=/sms/*/jobs
  * aby wygenerować klucze dostępu API do:
  *
  * GET /sms
@@ -121,7 +121,7 @@ Aby wysłać wiadomość SMS, wykorzystaj metodę POST jobs: [https://api.ovh.co
 /**
  * Wysyła wiadomość SMS, a następnie wyświetla listę wiadomości SMS oczekujących na wysłanie.
  * 
- * Przejdź na stronę https://eu.api.ovh.com/createToken/index.cgi?GET=/sms&GET=/sms/*/jobs&POST=/sms/*/jobs
+ * Przejdź na stronę https://eu.api.ovh.com/createToken/index.cgi?GET=/sms/&GET=/sms/*/jobs&POST=/sms/*/jobs
  * aby wygenerować klucze dostępu API do:
  *
  * GET /sms
@@ -202,4 +202,4 @@ Uzyskujesz konto SMS (ServiceName). Otrzymujesz jedną odpowiedź, która zużyw
 
 W konsoli API ([https://api.ovh.com/console/#/sms](https://api.ovh.com/console/#/sms)) możesz odkryć inne metody ułatwiające integrację usług SMS, takie jak: wiadomości SMS pozwalające na odpowiedź (dotyczy wyłącznie kont OVHcloud we Francji), masowa wysyłka przy użyciu pliku CSV, wysyłki reklamowe, monitorowanie potwierdzeń odbioru itd.
 
-Przyłącz się do społeczności naszych użytkowników na stronie [https://community.ovh.com/en/](https://community.ovh.com/en/)
+Dołącz do [grona naszych użytkowników](/links/community).

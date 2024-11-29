@@ -1,12 +1,12 @@
 ---
 title: Configuring IP aliasing
 excerpt: Find out how to add Additional IP addresses to your VPS configuration
-updated: 2024-03-27
+updated: 2024-11-05
 ---
 
 > [!primary]
 >
-> Since October 6th, 2022 our service "Failover IP" is named [Additional IP](https://www.ovhcloud.com/en-ca/network/additional-ip/). This renaming has no effect on its technical features.
+> Since October 6th, 2022 our service "Failover IP" is named [Additional IP](/links/network/additional-ip). This renaming has no effect on its technical features.
 >
 
 ## Objective
@@ -163,7 +163,6 @@ Edit the file with the content below, replacing `INTERFACE_NAME` and `ADDITIONAL
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -176,7 +175,6 @@ If you have more Additional IPs to configure, the configuration file should look
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        INTERFACE_NAME:
            dhcp4: true
@@ -195,7 +193,6 @@ network:
 ```yaml
 network:
    version: 2
-   renderer: networkd
    ethernets:
        eth0:
            dhcp4: true
@@ -493,4 +490,4 @@ To test the connection, simply ping your Additional IP from the outside. If it r
 
 If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](https://www.ovhcloud.com/en-ca/support-levels/).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

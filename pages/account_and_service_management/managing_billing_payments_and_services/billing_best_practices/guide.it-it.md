@@ -4,10 +4,6 @@ excerpt: Trovi qui gli elementi indispensabili per una corretta gestione delle t
 updated: 2022-05-02
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Questa guida ti mostra gli elementi essenziali per una corretta gestione del tuo account e della fatturazione dei tuoi servizi OVHcloud.
@@ -52,7 +48,7 @@ Assicurati che il tuo indirizzo email sia sempre **aggiornato, sicuro e accessib
 Le email inviate da OVHcloud sono accessibili anche dallo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it).<br>
 Clicca sul tuo nome in alto a destra e poi su `Email di servizio`{.action} nel menu di destra.
 
-![service_emails](images/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 ### Attiva il rinnovo automatico
 
@@ -102,4 +98,4 @@ In seguito, utilizza [questo form](https://www.ovh.it/protezione-dati-personali/
 
 [Gestire le fatture OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

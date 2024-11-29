@@ -19,7 +19,7 @@ Les fichiers binaires précompilés sont disponibles dans la plupart des distrib
 
 ### ID OpenStack
 
-Vous pouvez générer votre identifiant et votre mot de passe OpenStack à l'aide de ce [guide](/pages/public_cloud/compute/introducing_horizon).
+Vous pouvez générer votre identifiant et votre mot de passe OpenStack à l'aide de ce [guide](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ### TenantName
 
@@ -85,4 +85,4 @@ En outre, seul un sous-ensemble d'options est autorisé côté client:
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

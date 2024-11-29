@@ -1,7 +1,7 @@
 ---
 title: Using VMware Hyperconvergence with vSAN
 excerpt: Use the power of Hyperconvergence with vSAN
-updated: 2022-09-07
+updated: 2024-11-29
 ---
 
 ## Objective
@@ -12,8 +12,8 @@ Find out how to use the power of Hyperconvergence for your virtual machines with
 
 ## Requirements
 
-- Being an administrative contact of your [Hosted Private Cloud infrastructure](https://www.ovhcloud.com/en/enterprise/products/hosted-private-cloud/) to receive login credentials
-- A user account with access to vSphere as well as the specific rights for NSX (created in the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we))
+- Being an administrative contact of your [Hosted Private Cloud infrastructure](/links/hosted-private-cloud/vmware) to receive login credentials
+- A user account with access to vSphere as well as the specific rights for NSX (created in the [OVHcloud Control Panel](/links/manager))
 - At least three vSAN hosts
 
 > [!warning]
@@ -61,12 +61,15 @@ All of our hosts are on the same site. We'll select `Single site cluster` and cl
 
 ![VSAN](images/en05vsantype.png){.thumbnail}
 
-We recommend using Deduplication and Compression to optimize storage.<br>
+You can enable `Deduplication and compression` to optimize storage space.<br>
+
+However, lower performance and increased latency may be observed in some cases, especially when using databases.
+
 Click `Next`{.action}.
 
 ![VSAN](images/en06vsanservices.png){.thumbnail}
 
-The Claim disks window assigns avalaible disks to cache or capacity (see [Official VMware VSAN page](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vsan-planning.doc/GUID-18F531E9-FF08-49F5-9879-8E46583D4C70.html){.external} for explanation) depending on types and sizes. You can customize it to your need.<br>
+The Claim disks window assigns available disks to cache or capacity (see [Official VMware VSAN page](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vsan-planning.doc/GUID-18F531E9-FF08-49F5-9879-8E46583D4C70.html){.external} for explanation) depending on types and sizes. You can customize it to your need.<br>
 Click `Next`{.action}.
 
 ![VSAN](images/en07vsanclaim.png){.thumbnail}
@@ -76,7 +79,7 @@ Click `Next`{.action}.
 
 ![VSAN](images/en08vsanfault.png){.thumbnail}
 
-Verify the settings in the summary window then click `Finish`{.action}.
+Verify the settings in the summary window, then click `Finish`{.action}.
 
 ![VSAN](images/en09vsanready.png){.thumbnail}
 
@@ -127,8 +130,10 @@ Confirm by clicking ‘Turn Off’ in the next window.
 
 ![SERVICE](images/en15vsanconfirm.png){.thumbnail}
 
-vSan is now off.
+vSAN is now off.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+
+Join our [community of users](/links/community).

@@ -374,7 +374,7 @@ In consequence, the transition to the 4.1.1 version won't have any pricing impac
 
 <a name="pricemigrationpcc"></a>
 
-### Will the commitments dates and initial pricess be be maintained after the migration?
+### Will the commitments dates and initial prices be maintained after the migration?
 
 Commitment and conditions won't be automatically maintened.
 

@@ -4,10 +4,6 @@ excerpt: 'Cómo autenticarse en su cuenta de OVHcloud'
 updated: 2024-02-27
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 ## Objetivo
 
 La gestión de sus servicios se realiza principalmente desde el área de cliente de OVHcloud.
@@ -60,7 +56,7 @@ Una vez conectado, podrá tomar nota de su identificador, que se muestra en el �
 
 Si ha perdido o no recuerda su contraseña, consulte [esta guía, en la que se explican los pasos que deberá seguir para cambiarla](/pages/account_and_service_management/account_information/manage-ovh-password#en-caso-de-haber-olvidado-la-contrasena-actual).
 
-### He perdido mi contraseña y mi dirección de correo electrónico principal ya no es válida
+### He perdido mi contraseña y mi dirección de correo electrónico principal ya no es válida  <a name="invalid-email"></a>
 
 En este caso, no es posible restaurar la contraseña desde la página de conexión.
 
@@ -107,4 +103,4 @@ Si no encuentra el código, compruebe las carpetas "spam" o "correo no deseado" 
 
 [Proteger su cuenta de OVHcloud con la doble autenticación](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).
