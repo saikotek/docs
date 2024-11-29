@@ -71,13 +71,13 @@ Folgende Themen werden erläutert:
 Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).<br>
 Klicken Sie oben rechts auf Ihren Namen und wählen Sie `Produkte und Dienstleistungen`{.action}.
 
-![Produkte und Dienstleistungen](images/products-services-en.png){.thumbnail}
+![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-services-en.png){.thumbnail}
 
 ### Verlängerungstyp anzeigen <a name="renewal-type"></a>
 
 Die Seite **Meine Dienste** enthält eine Tabelle zur Verwaltung Ihrer OVHcloud Dienstleistungen. Sie finden dort deren Namen, den Typ der Dienstleistung, die Verfügbarkeit der Dienstleistung (z.B. `Aktiv`), deren Status (Art der Verlängerung, durchzuführende Aktion, etc.), das nächste Datum, an dem die Verlängerung oder Kündigung wirksam wird, sowie den Button `...`{.action} zum Zugriff die möglichen Aktionen für jeden Dienst.
 
-![Meine Dienstleistungen](images/my-services-en.png){.thumbnail}
+![Meine Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-en.png){.thumbnail}
 
 > [!success]
 > Sortier-, Filter- und Such-Tools stehen über der Tabelle zur Verfügung.
@@ -85,7 +85,7 @@ Die Seite **Meine Dienste** enthält eine Tabelle zur Verwaltung Ihrer OVHcloud 
 >
 > Ihre Filterkriterien werden dann über der Tabelle angezeigt. Im Folgenden finden Sie ein Beispiel für einen Filter zum Anzeigen von Domainnamen mit manueller Verlängerung, deren Ablaufdatum vor einem Monat liegt.
 >
-> ![manageAutomaticRenewal](images/filters-en.png){.thumbnail}
+> ![manageAutomaticRenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-en.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -98,14 +98,14 @@ Die Seite **Meine Dienste** enthält eine Tabelle zur Verwaltung Ihrer OVHcloud 
 
 Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalte `Aktionen` und dann auf die gewünschte Aktion.
 
-![Menü Aktionen](images/actions-en.png){.thumbnail}
+![Menü Aktionen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-en.png){.thumbnail}
 
 **Die Aktionen werden jeweils im entsprechenden Tab beschrieben.**
 
 > [!tabs]
 > **Verlängerung konfigurieren**
 >>
->>![Verlängerung konfigurieren](images/configure-renewal-en.png){.thumbnail}
+>>![Verlängerung konfigurieren](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-en.png){.thumbnail}
 >>
 >> Klicken Sie auf die Aktion `Verlängerung konfigurieren`{.action}. Je nach gewähltem Dienst können Sie die manuelle Verlängerung einstellen oder das Intervall für die automatische Verlängerung auswählen. In diesem Fall können Sie die Verlängerungsart sowie die Häufigkeit der Verlängerung auswählen.
 >>
@@ -115,7 +115,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 > **Vorauszahlen**
 >>
->>![Zahlung vorziehen](images/forward-payment-en.png){.thumbnail}
+>>![Zahlung vorziehen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-en.png){.thumbnail}
 >>
 >> Diese Aktion wird für Dienstleistungen mit **automatischer Verlängerung** angeboten.
 >>
@@ -126,7 +126,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 > **Meine Vertragsbindung kündigen**
 >>
->>![Kündigen](images/cancel-en.png){.thumbnail}
+>>![Kündigen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 >>
 >> Diese Aktion wird für Dienste angezeigt, die als **Automatische Verlängerung*** eingestellt sind.
 >>
@@ -136,7 +136,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 > **Dienst verlängern**
 >>
->>![Dienstleistung verlängern](images/renew-service-en.png){.thumbnail}
+>>![Dienstleistung verlängern](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-en.png){.thumbnail}
 >>
 >> Diese Aktion ist nur für Dienstleistungen mit **manueller Verlängerung** verfügbar.
 >>
@@ -145,7 +145,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 > **Meine Rechnung bezahlen**
 >>
->>![Rechnung bezahlen](images/pay-bill-en.png){.thumbnail}
+>>![Rechnung bezahlen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-en.png){.thumbnail}
 >>
 >> Eine Meldung der Art `Rechnung zu bezahlen` erscheint, wenn eine Rechnung noch nicht beglichen wurde und außerdem folgendes zutrifft:
 >>
@@ -161,7 +161,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 
 Sie können gruppierte Aktionen ausführen, indem Sie mehrere Dienste in der Tabelle auswählen und dann auf den Button `Aktionen`{.action} klicken.
 
-![Gruppierte Aktionen](images/batch-actions-en.png){.thumbnail}
+![Gruppierte Aktionen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-en.png){.thumbnail}
 
 In der folgenden Tabelle sind die möglichen gruppierten Aktionen aufgeführt.
 

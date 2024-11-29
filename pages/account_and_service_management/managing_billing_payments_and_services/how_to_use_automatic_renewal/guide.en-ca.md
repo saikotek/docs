@@ -71,13 +71,13 @@ This guide will help you to:
 Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/en/&ovhSubsidiary=en).<br>
 Click your name in the top right-hand corner, then choose `Products and services`{.action}.
 
-![products and services](images/products-services-en.png){.thumbnail}
+![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services-en.png){.thumbnail}
 
 ### Display renewal type <a name="renewal-type"></a>
 
 The **My services** page contains a table for managing your OVHcloud services. You can find their names, the type of service, service availability (`Active` by default), its status (renewal type, action to be taken, etc.), the next renewal or cancellation date of effect, and a `...`{.action} button dedicated to the possible actions for each service.
 
-![my services](images/my-services-en.png){.thumbnail}
+![my services](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-en.png){.thumbnail}
 
 > [!success]
 > Sorting, filtering, and searching tools are available above the table.
@@ -85,7 +85,7 @@ The **My services** page contains a table for managing your OVHcloud services. Y
 >
 > Your filter criteria will then be displayed above the table. Here is an example of a filter that can be used to display domain names that are renewed manually and have a subscription end date that expires before one month.
 >
-> ![manageautomaticrenewal](images/filters-en.png){.thumbnail}
+> ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-en.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -98,14 +98,14 @@ The **My services** page contains a table for managing your OVHcloud services. Y
 
 To the right of a service, click the `...`{.action}' button in the `Actions` column, then click on the action you want to perform.
 
-![actions menu](images/actions-en.png){.thumbnail}
+![actions menu](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-en.png){.thumbnail}
 
 **Each action is detailed in one of the tabs below.**
 
 > [!tabs]
 > **Configure renewal**
 >>
->>![configure renewal](images/configure-renewal-en.png){.thumbnail}
+>>![configure renewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-en.png){.thumbnail}
 >>
 >> Click the `Configure renewal`{.action} action. Depending on the service you have chosen, you can set it to manual renewal, or choose the automatic renewal frequency.
 >>
@@ -115,7 +115,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 > **Bring forward payment**
 >>
->>![anticipate payment](images/forward-payment-en.png){.thumbnail}
+>>![anticipate payment](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-en.png){.thumbnail}
 >>
 >> This action is available for services with **automatic renewal**.
 >>
@@ -126,7 +126,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 > **Cancel subscription**
 >>
->>![cancel](images/cancel-en.png){.thumbnail}
+>>![cancel](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 >>
 >> This action is available for services set to **automatic renewal**.
 >>
@@ -136,7 +136,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 > **Renew service**
 >>
->>![Renew service](images/renew-service-en.png){.thumbnail}
+>>![Renew service](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-en.png){.thumbnail}
 >>
 >> This action is only available for services with **manual renewal**.
 >>
@@ -145,7 +145,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 > **Pay my bill**
 >>
->>![Pay a bill](images/pay-bill-en.png){.thumbnail}
+>>![Pay a bill](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-en.png){.thumbnail}
 >>
 >> A `Bill to pay` statement is displayed when an invoice is awaiting payment and when:
 >>
@@ -161,7 +161,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 
 You can perform group actions by selecting several services in the table, then clicking on the `Actions`{.action} button.
 
-![bulk actions](images/batch-actions-en.png){.thumbnail}
+![bulk actions](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-en.png){.thumbnail}
 
 The table below details the possible group actions.
 

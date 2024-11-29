@@ -71,13 +71,13 @@ Questa guida ti mostra come:
 Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it).<br>
 Clicca sul tuo nome nell’angolo in alto a destra e seleziona `Prodotti e servizi`{.action}.
 
-![prodotti e servizi](images/products-services-en.png){.thumbnail}
+![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services-en.png){.thumbnail}
 
 ### Visualizza il tipo di rinnovo <a name="renewal-type"></a>
 
 La pagina **I tuoi servizi** contiene una tabella di gestione dei tuoi servizi OVHcloud. Nella tabella sono riportati nome, tipo di servizio, disponibilità del servizio (`Attivo` di default), stato (tipo di rinnovo, azione da eseguire, ecc.), la data di validità successiva del rinnovo o della disattivazione del servizio, nonché un pulsante `...`{.action} dedicato alle azioni possibili per ogni servizio.
 
-![i miei servizi](images/my-services-en.png){.thumbnail}
+![i miei servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-en.png){.thumbnail}
 
 > [!success]
 > Gli strumenti per l'ordinamento, il filtraggio e la ricerca sono disponibili sopra la tabella.
@@ -85,7 +85,7 @@ La pagina **I tuoi servizi** contiene una tabella di gestione dei tuoi servizi O
 >
 > I criteri di filtraggio verranno visualizzati sopra la tabella. Ecco un esempio di filtro che permette di visualizzare i domini con rinnovo manuale e la cui data di fine dell'abbonamento scade prima di un mese.
 >
-> ![manageautomaticrenewal](images/filters-en.png){.thumbnail}
+> ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-en.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -98,14 +98,14 @@ La pagina **I tuoi servizi** contiene una tabella di gestione dei tuoi servizi O
 
 A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azioni` e seleziona l’azione che preferisci.
 
-![menu azioni](images/actions-en.png){.thumbnail}
+![menu azioni](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-en.png){.thumbnail}
 
 **Ciascuna azione è descritta in una delle schede qui sotto.**
 
 > [!tabs]
 > **Configura il rinnovo**
 >>
->> ![configura il rinnovo](images/configure-renewal-en.png){.thumbnail}
+>> ![configura il rinnovo](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-en.png){.thumbnail}
 >>
 >> Clicca sull’azione `Configura il rinnovo`{.action}. In base al servizio scelto, è possibile impostare la funzionalità di rinnovo manuale oppure scegliere la frequenza di rinnovo automatico. Se l’operazione è consentita, è possibile scegliere il tipo di rinnovo e la frequenza.
 >>
@@ -115,7 +115,7 @@ A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azion
 >>
 > **Anticipa il pagamento**
 >>
->> ![anticipare il pagamento](images/forward-payment-en.png){.thumbnail}
+>> ![anticipare il pagamento](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-en.png){.thumbnail}
 >>
 >> Questa azione è consentita per i servizi con **rinnovo automatico**.
 >>
@@ -126,7 +126,7 @@ A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azion
 >>
 > **Rescindi l'impegno contrattuale**
 >>
->> ![disattiva](images/cancel-en.png){.thumbnail}
+>> ![disattiva](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 >>
 >> Questa azione è consentita per i servizi impostati con il **rinnovo automatico**.
 >>
@@ -136,7 +136,7 @@ A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azion
 >>
 > **Rinnova il servizio**
 >>
->> ![Rinnova il servizio](images/renew-service-en.png){.thumbnail}
+>> ![Rinnova il servizio](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-en.png){.thumbnail}
 >>
 >> Questa azione è consentita solo per i servizi con **rinnovo manuale**.
 >>
@@ -145,7 +145,7 @@ A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azion
 >>
 > **Paga la tua fattura**
 >>
->> ![Paga una fattura](images/pay-bill-en.png){.thumbnail}
+>> ![Paga una fattura](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-en.png){.thumbnail}
 >>
 >> Se una fattura è in attesa di pagamento e quando:
 >>
@@ -161,7 +161,7 @@ A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azion
 
 Per effettuare azioni in blocco è possibile selezionare diversi servizi nella tabella e cliccare sul pulsante `Azioni`{.action}.
 
-![azioni in blocco](images/batch-actions-en.png){.thumbnail}
+![azioni in blocco](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-en.png){.thumbnail}
 
 Nella tabella seguente vengono descritte le azioni in blocco disponibili.
 

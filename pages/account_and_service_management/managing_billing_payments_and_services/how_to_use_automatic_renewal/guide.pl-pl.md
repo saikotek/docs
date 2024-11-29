@@ -71,13 +71,13 @@ Z tego przewodnika dowiesz się:
 Zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl).<br>
 Kliknij swoją nazwę w prawym górnym rogu i wybierz `Produkty i usługi`{.action}.
 
-![produkty i usługi](images/products-services-en.png){.thumbnail}
+![produkty i usługi](/pages/assets/screens/control_panel/product-selection/right-column/products-services-en.png){.thumbnail}
 
 ### Wyświetl typ odnowienia <a name="renewal-type"></a>
 
 Na stronie **Moje usługi** znajduje się tabela wyszczególniająca Twoje usługi OVHcloud. Znajdziesz tam nazwy swoich usług, ich rodzaj, dostępność (Domyślny składnik `aktywów`), status (rodzaj odnowienia, działanie do przeprowadzenia itd.), kolejną datę odnowienia lub rozwiązania umowy oraz przycisk `...`{.action} przeznaczony do działań możliwych do przeprowadzenia dla każdej usługi.
 
-![Moje usługi](images/my-services-en.png){.thumbnail}
+![Moje usługi](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-en.png){.thumbnail}
 
 > [!success]
 > Narzędzia do sortowania, filtrowania i wyszukiwania są dostępne nad tabelą.
@@ -85,7 +85,7 @@ Na stronie **Moje usługi** znajduje się tabela wyszczególniająca Twoje usłu
 >
 > Kryteria filtrowania zostaną wyświetlone nad tabelą. Oto przykład filtra umożliwiającego wyświetlenie nazw domen, których odnowienie jest wykonywane ręcznie i których data zakończenia abonamentu wygasa przed miesiącem.
 >
-> ![manageautomaticrenewal](images/filters-en.png){.thumbnail}
+> ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-en.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -98,14 +98,14 @@ Na stronie **Moje usługi** znajduje się tabela wyszczególniająca Twoje usłu
 
 Po prawej stronie usługi kliknij przycisk`...`{.action} w kolumnie `Filtruj`, a następnie wybierz odpowiednią akcję.
 
-![menu actions](images/actions-en.png){.thumbnail}
+![menu actions](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-en.png){.thumbnail}
 
 **Każda operacja została wyszczególniona w jednej z poniższych kart.**
 
 > [!tabs]
 > **Skonfiguruj odnowienie**
 >>
->> ![Skonfiguruj odnowienie](images/configure-renewal-en.png){.thumbnail}
+>> ![Skonfiguruj odnowienie](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-en.png){.thumbnail}
 >>
 >> Kliknij na akcję `Skonfiguruj odnowienie`{.action}. W zależności od wybranej usługi, możesz ustawić odnawianie ręczne lub wybrać częstotliwość odnawiania automatycznego. W razie potrzeby będziesz mógł wybrać rodzaj i częstotliwość odnowienia.
 >>
@@ -115,7 +115,7 @@ Po prawej stronie usługi kliknij przycisk`...`{.action} w kolumnie `Filtruj`, a
 >>
 > **Prognoza płatności**
 >>
->>![antycypowanie płatności](images/forward-payment-en.png){.thumbnail}
+>>![antycypowanie płatności](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-en.png){.thumbnail}
 >>
 >> To działanie jest dostępne w przypadku usług z opcją **automatycznego odnowienia**.
 >>
@@ -126,7 +126,7 @@ Po prawej stronie usługi kliknij przycisk`...`{.action} w kolumnie `Filtruj`, a
 >>
 > **Rezygnacja z umowy terminowej**
 >>
->> ![Zrezygnuj](images/cancel-en.png){.thumbnail}
+>> ![Zrezygnuj](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 >>
 >> To działanie jest dostępne w przypadku usług z opcją **automatycznego odnowienia**.
 >>
@@ -136,7 +136,7 @@ Po prawej stronie usługi kliknij przycisk`...`{.action} w kolumnie `Filtruj`, a
 >>
 > **Odnów usługę**
 >>
->> ![Odnów usługę](images/renew-service-en.png){.thumbnail}
+>> ![Odnów usługę](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-en.png){.thumbnail}
 >>
 >> To działanie jest dostępne tylko w przypadku usług wymagających odnowienia **odnowienie ręczne**.
 >>
@@ -145,7 +145,7 @@ Po prawej stronie usługi kliknij przycisk`...`{.action} w kolumnie `Filtruj`, a
 >>
 > **Ureguluj należności**
 >>
->> ![Zapłać fakturę](images/pay-bill-en.png){.thumbnail}
+>> ![Zapłać fakturę](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-en.png){.thumbnail}
 >>
 >> Pojawi się informacja `Faktura do zapłaty`, gdy faktura oczekuje na płatność i gdy:
 >>
@@ -161,7 +161,7 @@ Po prawej stronie usługi kliknij przycisk`...`{.action} w kolumnie `Filtruj`, a
 
 Działania zbiorcze na usługach możesz wykonać, zaznaczając kilka usług w tabeli i klikając przycisk `Operacje`{.action}.
 
-![operacje zbiorcze](images/batch-actions-en.png){.thumbnail}
+![operacje zbiorcze](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-en.png){.thumbnail}
 
 W poniższej tabeli przedstawiono możliwe działania zbiorcze.
 
