@@ -1,42 +1,47 @@
 ---
-title: "Réinitialiser la configuration d'OverTheBox"
+title: "Comment réinitialiser ou restaurer la configuration d'une OverTheBox"
 excerpt: "Découvrez comment réinitialiser votre OverTheBox afin de revenir à la configuration par défaut"
-updated: 2024-05-29
+updated: 2024-11-29
 ---
 
 ## Objectif
 
-Découvrez comment réinitialiser votre équipement OverTheBox afin de revenir à la configuration par défaut.
+Découvrez comment réinitialiser ou restaurer la configuration de votre équipement **OverTheBox**. Ce guide vous permet de :
+
+- Réinitialiser un équipement **OverTheBox** pour revenir sur la configuration par défaut.
+- Sauvegarder et restaurer la configuration de votre équipement **OverTheBox**.
 
 ## Prérequis
 
-- Une **OverTheBox** fournie par OVHcloud
+- Une **OverTheBox** fournie par OVHcloud ou une installation depuis [le projet Open Source](/pages/web_cloud/internet/overthebox/advanced_installer_limage_overthebox_sur_votre_materiel).
+- Être connecté à l'interface web de l'**OverTheBox** depuis [overthebox.ovh](http://overthebox.ovh) ou [192.168.100.1](https://192.168.100.1).
 
 ## En pratique
 
+### Réinitialiser la configuration
+
 Plusieurs méthodes sont possibles. Le résultat final étant identique, vous pouvez donc choisir celle qui vous convient le mieux.
 
-### Méthode 1 : réinitialisation physique
+#### Méthode 1 : réinitialisation physique
 
-Appuyez de façon répétée, en moins de 2 secondes, 5 fois sur le bouton Power ON/OFF.
+Si votre **OverTheBox** est fournie par OVHcloud, il est possible de la réinitialiser physiquement.
 
-- Dans le cas d'une OverTheBox Intel :
-
-![overthebox](images/reset-method1_OTBv1.png){.thumbnail}
-
-- Dans le cas d'une OverTheBox IT v1 :
-
-![overthebox](images/reset-method1_OTBv2a.jpg){.thumbnail}
-
-- Dans le cas d'un OverTheBox Plus :
-
-![overthebox](images/reset-method1_OTBv2b.png){.thumbnail}
-
-- Dans le cas d'un OverTheBox IT v2 :
-
-![overthebox](images/reset-method1_OTBv2c_edit.jpg){.thumbnail}
-
-Appuyez de façon répétée, en moins de 2 secondes, 5 fois sur le bouton Reset.
+> [!tabs]
+> Plus
+>>
+>> Dans le cas d'une **OTB V2b** vendue avec les anciennes offres **OverTheBox Plus**
+>> Appuyez de façon répétée, en moins de 2 secondes, 5 fois sur le bouton `Power ON/OFF`{.action}.
+>>
+>> ![overthebox](images/reset-method1_OTBv2b.png){.thumbnail}
+>>
+> IT
+>>
+>> Dans le cas d'une **OTB V2c** vendue avec les anciennes offres **OverTheBox IT**
+>> Appuyez de façon répétée, en moins de 2 secondes, 5 fois sur le bouton Reset.
+>>
+>> ![overthebox](images/reset-method1_OTBv2c_edit.jpg){.thumbnail}
+>>
+>>
 
 Attendez quelques minutes afin qu'**OverTheBox** soit de nouveau opérationnelle.
 
@@ -44,77 +49,70 @@ Attendez quelques minutes afin qu'**OverTheBox** soit de nouveau opérationnelle
 >
 > Votre OvertheBox est maintenant réinitialisée, vous pouvez la réinstaller en suivant la procédure décrite dans les guides suivants :
 >
-> [Configurer un ancien appareil OverTheBox v1 (Intel & IT v1)](/pages/web_cloud/internet/overthebox/intel_itv1_installation)
->
 > [Comment installer OverTheBox ?](/pages/web_cloud/internet/overthebox/plus_itv2_installation)
 >
 
-### Méthode 2 : réinitialisation par l'interface
+#### Méthode 2 : réinitialisation logicielle
 
-> [!warning]
->
-> Cette méthode n'est disponible que si le firmware de votre OverTheBox est en version 0.6 ou supérieure.
->
+> [!tabs]
+> WEB
+>>
+>> Il est possible de réinitialiser la configuration depuis l'interface WEB de votre équipement.
+>> - Rendez-vous dans l'onglet `System > Backup / Flash firmware`{.action}.
+>> - Cliquez sur le bouton **rouge** `Perform reset`{.action}.
+>>
+>> ![overthebox](images/luci-reset-2024.png){.thumbnail}
+>>
+> SSH
+>>
+>> Il est possible de réinitialiser l'**OverTheBox** depuis le CLI, accessible depuis une connexion SSH.
+>> - Connectez vous en SSH à votre **OverTheBox** :
+>>
+>>```console
+>>ssh root@overthebox.ovh
+>>```
+>> - Une fois connecté, entrez la commande suivante :
+>>```console
+>>firstboot -y
+>>```
+>>
 
-- Rendez-vous sur [http://overthebox.ovh (192.168.100.1)](http://overthebox.ovh){.external}
-- Cliquez sur **"System"**
-- Cliquez sur **"Backup/Flash Firmware"**
-- Cliquez sur **"Perform Reset"**
-
-![overthebox](images/reset-method2.png){.thumbnail}
-
-- Attendez quelques minutes afin qu' **OverTheBox** soit de nouveau opérationnelle.
+Attendez quelques minutes afin qu' **OverTheBox** soit de nouveau opérationnelle.
 
 > [!success]
 >
 > Votre  OvertheBox  est maintenant réinitialisée, vous pouvez la réinstaller en suivant la procédure décrite dans les guides suivants :
 >
-> [Configurer un ancien appareil OverTheBox v1 (Intel & IT v1)](/pages/web_cloud/internet/overthebox/intel_itv1_installation)
->
 > [Comment installer OverTheBox ?](/pages/web_cloud/internet/overthebox/plus_itv2_installation)
 >
 
-### Méthode 3 : réinitialisation par le CLI
+#### Sauvegarder la configuration
 
-> [!warning]
->
-> Cette méthode n'est disponible que si le firmware de votre OverTheBox est en version 0.6 ou supérieure.
->
+Il est possible de sauvegarder configuration de votre **OverTheBox**.
 
-Il est possible de réinitialiser l'**OverTheBox** depuis le CLI, accessible depuis une connexion SSH.
+- Rendez-vous dans l'onglet `System > Backup / Flash firmware`{.action}.
+- Cliquez sur le bouton `Generate archive`{.action}.
 
-- Connectez vous en SSH à votre **OverTheBox** :
+![overthebox](images/luci-save-2024.png){.thumbnail}
 
-```bash
-ssh root@overthebox.ovh
-```
+### Restaurer la configuration
 
-- Une fois connecté, entrez la commande suivante :
+Il est possible de restaurer la configuration de votre **OverTheBox** à l'aide d'un fichier de sauvegarde.
 
-```bash
-firstboot -y
-```
+- Rendez-vous dans l'onglet `System > Backup / Flash firmware`{.action}.
+- Cliquez sur le bouton `Upload archive...`{.action}.
 
-- Attendez quelques minutes afin qu'**OverTheBox** soit de nouveau opérationnelle.
+![overthebox](images/luci-restore-1-2024.png){.thumbnail}
 
-> [!success]
->
-> Votre OvertheBox est maintenant réinitialisée, vous pouvez la réinstaller en suivant la procédure décrite dans les guides suivants :
->
-> [Configurer un ancien appareil OverTheBox v1 (Intel & IT v1)](/pages/web_cloud/internet/overthebox/intel_itv1_installation)
->
-> [Comment installer OverTheBox ?](/pages/web_cloud/internet/overthebox/plus_itv2_installation)
->
+- Cliquez sur le bouton `Browse...`{.action} et sélectionnez le fichier de sauvegarde.
+- Cliquez sur le bouton `Upload`{.action} pour appliquer la sauvegarde.
 
-### Méthode n°4 : réinitialisation par clé USB
-
-> [!warning]
->
-> Cette méthode n'est pas recommandée et n'est utile uniquement que pour certains usages avancés.
->
-
-Vous pouvez suivre le guide « [Installer l’image OverTheBox sur votre matériel](/pages/web_cloud/internet/overthebox/advanced_installer_limage_overthebox_sur_votre_materiel) » pour installer manuellement la dernière image du système OverTheBox.
+![overthebox](images/luci-restore-2-2024.png){.thumbnail}
 
 ## Aller plus loin
+
+### Réinitialisation par clé USB
+
+Vous pouvez suivre le guide « [Installer l’image OverTheBox sur votre matériel](/pages/web_cloud/internet/overthebox/advanced_installer_limage_overthebox_sur_votre_materiel) » pour installer manuellement la dernière image du système OverTheBox.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
