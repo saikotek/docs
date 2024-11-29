@@ -4,9 +4,19 @@ excerpt: "Cómo utilizar las conexiones SSH para acceder al servidor"
 updated: 2024-01-16
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
+<style>
+details>summary {
+	color:rgb(33, 153, 232) !important;
+	cursor: pointer;
+}
+details>summary::before {
+	content:'\25B6';
+	padding-right:1ch;
+}
+details[open]>summary::before {
+	content:'\25BC';
+}
+</style> 
 
 ## Objetivo
 

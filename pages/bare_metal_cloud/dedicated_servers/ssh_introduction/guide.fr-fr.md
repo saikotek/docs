@@ -4,6 +4,20 @@ excerpt: "Découvrez comment utiliser SSH pour accéder à votre serveur OVHclou
 updated: 2024-11-29
 ---
 
+<style>
+details>summary {
+	color:rgb(33, 153, 232) !important;
+	cursor: pointer;
+}
+details>summary::before {
+	content:'\25B6';
+	padding-right:1ch;
+}
+details[open]>summary::before {
+	content:'\25BC';
+}
+</style>
+
 ## Objectif
 
 Le protocole de communication SSH (Secure Shell) est le moyen privilégié pour établir des connexions hôtes cryptées via des réseaux publics. L'utilitaire OpenSSH est disponible sur tous les serveurs OVHcloud (VPS, serveurs dédiés, instances Public Cloud) pour permettre des connexions à distance sécurisées aux serveurs ainsi que d'autres opérations.

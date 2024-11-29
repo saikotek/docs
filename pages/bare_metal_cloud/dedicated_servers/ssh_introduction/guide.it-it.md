@@ -4,17 +4,25 @@ excerpt: "Scopri come utilizzare le connessioni SSH per accedere al tuo server"
 updated: 2024-01-16
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
+<style>
+details>summary {
+	color:rgb(33, 153, 232) !important;
+	cursor: pointer;
+}
+details>summary::before {
+	content:'\25B6';
+	padding-right:1ch;
+}
+details[open]>summary::before {
+	content:'\25BC';
+}
+</style>
 
 ## Obiettivo
 
 Il protocollo di comunicazione SSH (Secure Shell) è lo strumento principale per stabilire connessioni host cifrate attraverso reti non sicure. OpenSSH è installato nativamente su tutti i server OVHcloud (VPS, server dedicati, istanze Public Cloud) per consentire connessioni sicure a server remoti e altre operazioni.
 
 **Questa guida ti mostra come accedere al tuo server in modo sicuro grazie all'SSH.**
-
-<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/gi7JqUvcEt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!warning]
 > OVHcloud mette a disposizione servizi di cui tu sei responsabile per la configurazione e la gestione. Assicurarne il corretto funzionamento è quindi responsabilità dell'utente.
