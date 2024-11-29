@@ -1,14 +1,14 @@
 ---
 title: "Mettre en oeuvre l'hyperconvergence VMware avec vSAN"
 excerpt: "Utiliser la puissance de l'hyperconvergence avec vSAN"
-updated: 2022-09-07
+updated: 2024-11-29
 ---
 
 ## Objectif
 
 Découvrez comment mettre en oeuvre la puissance de l'hyperconvergence pour vos machines virtuelles avec vSAN.
 
-**Ce guide explique comment mettre en place VMware vSAN dans le OVH Private Cloud.**
+**Ce guide explique comment mettre en place VMware vSAN dans l'OVH Private Cloud.**
 
 ## Prérequis
 
@@ -18,7 +18,7 @@ Découvrez comment mettre en oeuvre la puissance de l'hyperconvergence pour vos 
 
 > [!warning]
 >
-> Les options de chiffrements **vSAN Data-At-Rest Encryption** et **vSAN Data-In-Transit Encryption** ne sont pas supportées par défaut sur les clusters vSAN. Si toutefois vous souhaitez mettre en œuvre ces solutions veuillez contacter votre **Technical Account Manager**.
+> Les options de chiffrements **vSAN Data-At-Rest Encryption** et **vSAN Data-In-Transit Encryption** ne sont pas prises en charge par défaut sur les clusters vSAN. Si toutefois vous souhaitez mettre en œuvre ces solutions, veuillez contacter votre **Technical Account Manager**.
 > 
 > Le chiffrement reste possible au niveau de la machine virtuelle et de ses données, comme indiqué dans le guide « [Activation du chiffrement des machines virtuelles avec vSphere Native Key Provider](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vm_encrypt-vnkp) ».
 >
@@ -61,7 +61,10 @@ Tous nos hôtes résidant sur un unique site, nous utiliserons l'option `Cluster
 
 ![VSAN](images/en05vsantype.png){.thumbnail}
 
-Nous recommandons d'activer `Déduplication et compression` pour optimiser l'espace de stockage.<br>
+Il est possible d'activer `Déduplication et compression` pour optimiser l'espace de stockage.<br>
+
+Cependant, une baisse des performances et une augmentation de la latence peuvent être observées dans certains cas, notamment lors de l'utilisation de bases de données. <br>
+
 Cliquez sur `Suivant`{.action}.
 
 ![VSAN](images/en06vsanservices.png){.thumbnail}
@@ -71,12 +74,12 @@ Cliquez sur `Suivant`{.action}.
 
 ![VSAN](images/en07vsanclaim.png){.thumbnail}
 
-Avec trois hôtes, les domaines de pannes sont créés par défaut et la tolérance de panne est de 1 hôte.<br>
+Avec trois hôtes, les domaines de pannes sont créés par défaut et la tolérance aux pannes est de 1 hôte.<br>
 Cliquez sur `Suivant`{.action}.
 
 ![VSAN](images/en08vsanfault.png){.thumbnail}
 
-Verifiez les paramètres dans la fenêtre de résumé puis cliquez sur `Terminer`{.action}.
+Vérifiez les paramètres dans la fenêtre de résumé, puis cliquez sur `Terminer`{.action}.
 
 ![VSAN](images/en09vsanready.png){.thumbnail}
 
@@ -87,7 +90,7 @@ Votre datastore est visible dans le menu Stockage.
 
 > [!warning]
 >
-> Pour des raisons de performance et de résilience, VMware recommande de ne pas dépasser 70% de remplissage sur un datastore vSAN.
+> Pour des raisons de performance et de résilience, VMware recommande de ne pas dépasser 70 % de remplissage sur un datastore vSAN.
 >
 
 ### Désactiver vSAN
@@ -110,8 +113,8 @@ Cliquez sur `Supprimer`{.action}.
 
 ![VSAN](images/en13vsanmig.png){.thumbnail}
 
-Répétez l’opération sur chacun des nœuds du cluster, jusqu’à la suppression totale des groupe de disques.<br>
-Vous pouvez ignorer les messages d'erreur concernant la santé du groupe de disques.
+Répétez l’opération sur chacun des nœuds du cluster, jusqu’à la suppression totale des groupes de disques.<br>
+Vous pouvez ignorer les messages d'erreur concernant l'état de santé du groupe de disques.
 
 #### Désactiver les Services.
 
