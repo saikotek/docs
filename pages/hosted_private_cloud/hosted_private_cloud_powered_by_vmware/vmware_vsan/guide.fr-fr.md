@@ -8,12 +8,12 @@ updated: 2024-11-29
 
 Découvrez comment mettre en oeuvre la puissance de l'hyperconvergence pour vos machines virtuelles avec vSAN.
 
-**Ce guide explique comment mettre en place VMware vSAN dans l'OVH Private Cloud.**
+**Ce guide explique comment mettre en place VMware vSAN sur votre Hosted Private Cloud.**
 
 ## Prérequis
 
-- Être contact administrateur de l'infrastructure [Hosted Private Cloud](https://www.ovhcloud.com/fr/enterprise/products/hosted-private-cloud/), afin de recevoir des identifiants de connexion.
-- Avoir un identifiant utilisateur actif avec les droits spécifiques pour NSX (créé dans l'[espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr))
+- Être contact administrateur de l'infrastructure [Hosted Private Cloud](/links/hosted-private-cloud/vmware), afin de recevoir des identifiants de connexion.
+- Avoir un identifiant utilisateur actif avec les droits spécifiques pour NSX (créé dans l'[espace client OVHcloud](/links/manager))
 - Avoir au minimum trois hôtes vSAN
 
 > [!warning]
@@ -61,9 +61,9 @@ Tous nos hôtes résidant sur un unique site, nous utiliserons l'option `Cluster
 
 ![VSAN](images/en05vsantype.png){.thumbnail}
 
-Il est possible d'activer `Déduplication et compression` pour optimiser l'espace de stockage.<br>
+Il est possible d'activer l'option `Déduplication et compression` pour optimiser l'espace de stockage.<br>
 
-Cependant, une baisse des performances et une augmentation de la latence peuvent être observées dans certains cas, notamment lors de l'utilisation de bases de données. <br>
+Cependant, une baisse des performances et une augmentation de la latence peuvent être observées dans certains cas, notamment lors de l'utilisation de bases de données.
 
 Cliquez sur `Suivant`{.action}.
 
@@ -135,5 +135,7 @@ vSan est désormais désactivé.
 ## Aller plus loin
 
 [Activation du chiffrement des machines virtuelles avec vSphere Native Key Provider](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vm_encrypt-vnkp).
+
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
