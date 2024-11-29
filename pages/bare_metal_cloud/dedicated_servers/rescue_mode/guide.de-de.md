@@ -123,7 +123,7 @@ root@ns3956771.ip-169-254-10.eu's password:
 >
 > Ihr SSH-Client wird die Verbindung wahrscheinlich zunächst blockieren, weil der ECDSA *Fingerprint* nicht mehr übereinstimmt. Dies ist normal, da der Rescue-Modus seinen eigenen temporären SSH-Server verwendet.
 >
-> Eine Möglichkeit, dieses Problem zu umgehen, besteht im "Auskommentieren" des Server-*Fingerprints*, indem Sie in der Datei `known_hosts` der entsprechenden Zeile ein `#` voranstellen. Vergessen Sie nicht, diese Änderung rückgängig zu machen, bevor Sie den Netboot wieder in den "normalen" Modus versetzen.<br>Sie können alternativ einfach die Zeile aus der Datei löschen. Ihr SSH-Client fügt dann einen neuen *Fingerprint*-Eintrag für den Server hinzu, sobald die Verbindung erneut hergestellt wird. Wenn Sie detaillierte Instruktionen benötigen, konsultieren Sie unsere Anleitung "[Einführung in SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction#login)".
+> Eine Möglichkeit, dieses Problem zu umgehen, besteht im "Auskommentieren" des Server-*Fingerprints*, indem Sie in der Datei `known_hosts` der entsprechenden Zeile ein `#` voranstellen. Vergessen Sie nicht, diese Änderung rückgängig zu machen, bevor Sie den Netboot wieder in den "normalen" Modus versetzen.<br>Sie können alternativ einfach die Zeile aus der Datei löschen. Ihr SSH-Client fügt dann einen neuen *Fingerprint*-Eintrag für den Server hinzu, sobald die Verbindung erneut hergestellt wird. Wenn Sie detaillierte Instruktionen benötigen, konsultieren Sie unsere Anleitung "[Einführung in SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)".
 >
 
 #### Mounten von Partitionen
