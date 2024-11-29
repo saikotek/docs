@@ -162,6 +162,14 @@ aws --endpoint-url https://s3.rbx-archive.io.cloud.ovh.net delete-ovh-archive <b
 
 Après cette requête, les objets du bucket ne sont pas encore supprimés car la suppression est effectuée de manière asynchrone.<br>
 L'opération supprimera tout (sur les bandes et tous les objets s'ils sont restaurés) et l'état du bucket sera en état "Deleting".<br>
+
+> [!primary]
+>
+> Bien que la suppression des données soit effectuée de manière asynchrone, vous ne serez plus facturé à partir du moment où vous aurez demandé cette suppression.<br>
+> La suppression est effectuée sur la base du best effort et il n'y a pas de durée d'engagement pour finir le traitement.<br>
+> Dans l'état "Deleting", le bucket est verrouillé et ne sera accessible uniquement qu'à la fin du traitement.<br>
+>
+
 Une fois la suppression effectuée :
 
 - Le statut du compartiment sera "Flushed".
