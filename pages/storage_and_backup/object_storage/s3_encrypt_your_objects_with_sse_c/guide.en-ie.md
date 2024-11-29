@@ -66,17 +66,14 @@ When you use SSE-C, you must provide encryption key information using the follow
 
 #### Creating an encryption key
 
-Example of creating an encryption key ( *--sse-customer-key* ):
+Example of creating an encryption key ( *--sse-customer-key* ) with its MD5 hash:
 
 ```bash
-$ encKey=$(openssl rand -base64 32)
+$ secret=$(openssl rand 32)
+$ encKey=$(echo -n $secret | base64)
+$ md5Key=$(echo -n $secret | openssl dgst -md5 -binary | base64)
 ```
 
-and the MD5 key ( *--sse-customer-key-md5* ):
-
-```bash
-$ md5Key=$(echo $encKey | md5sum | awk '{print $1}' | base64 -w0)
-```
 
 #### Uploading an object with SSE-C
 
