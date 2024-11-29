@@ -254,7 +254,7 @@ There are two ways of doing that.
 
 In your `services.yaml` file, change the version of your Solr service *and* its name.  Then update the name in the `.platform.app.yaml` relationships block.
 
-When you push that to Web PaaS, the old service will be deleted and a new one with the name name created, with no data.  You can then have your application reindex data as appropriate.
+When you push that to Web PaaS, the old service will be deleted and a new one with the name created, with no data.  You can then have your application reindex data as appropriate.
 
 This approach is simple but has the downside of temporarily having an empty Solr instance, which your application may or may not handle gracefully, and needing to rebuild your index afterward.  Depending on the size of your data that could take a while.
 
