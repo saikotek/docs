@@ -71,7 +71,7 @@ Folgende Themen werden erläutert:
 Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).<br>
 Klicken Sie oben rechts auf Ihren Namen und wählen Sie `Produkte und Dienstleistungen`{.action}.
 
-![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-services-en.png){.thumbnail}
+![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 ### Verlängerungstyp anzeigen <a name="renewal-type"></a>
 

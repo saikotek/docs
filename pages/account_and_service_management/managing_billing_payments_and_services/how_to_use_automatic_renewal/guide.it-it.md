@@ -71,7 +71,7 @@ Questa guida ti mostra come:
 Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it).<br>
 Clicca sul tuo nome nell’angolo in alto a destra e seleziona `Prodotti e servizi`{.action}.
 
-![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services-en.png){.thumbnail}
+![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 ### Visualizza il tipo di rinnovo <a name="renewal-type"></a>
 
