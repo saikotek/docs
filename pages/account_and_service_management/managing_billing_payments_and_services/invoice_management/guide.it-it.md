@@ -50,7 +50,7 @@ La fattura del tuo servizio OVHcloud ti viene inviata in seguito al pagamento di
 
 Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) Clicca sul tuo nome in alto a destra e poi sul nuovo menu che appare su `Fatture`{.action}.
 
-![Fatturazione](images/hubinvoices.png){.thumbnail}
+![Fatturazione](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 Visualizzi una tabella con tutte le fatture associate al tuo identificativo:
 

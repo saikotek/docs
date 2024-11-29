@@ -50,7 +50,7 @@ Die Rechnung zu Ihrer OVHcloud Dienstleistung wird Ihnen nach einer Bezahlung od
 
 Um Ihre Rechnungen einzusehen, loggen Sie sich in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein. Klicken Sie auf Ihren Namen oben rechts neben Ihrem Bildschirm und dann im neu geöffneten Menü auf `Rechnungen`{.action}.
 
-![Rechnungsstellung](images/hubinvoices.png){.thumbnail}
+![Rechnungsstellung](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 Sie gelangen dann auf eine Übersichtsseite, auf der alle Ihre Rechnungen aufgelistet werden:
 
