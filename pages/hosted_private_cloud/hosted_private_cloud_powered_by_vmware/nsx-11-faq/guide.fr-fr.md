@@ -116,21 +116,22 @@ updated: 2024-12-02
 > > >
 > > > @api {v1} /dedicatedCloud POST /dedicatedCloud/{serviceName}/datacenter/{datacenterId}/cluster/{clusterId}/nsxt 
 > > 
-> > 
-> > 
 > Puis-je utiliser l’API OVHcloud pour configurer et utiliser mes NSX Edges en API ? <a name="api"></a>
 > > Oui, il est possible de le faire, voici un exemple des appels API que vous pouvez utiliser au sein de l'univers **/dedicatedcloud** :
 > > Récupérer le Edge ID :
+> >
 > > > [!api]
 > > >
 > > > @api {v1} /dedicatedCloud GET /dedicatedCloud/{serviceName}/datacenter/{datacenterId}/nsxtEdge/{nsxtEdgeId}
 > > >
+> >
 > > Vous pouvez par exemple tester la résilience en simulant la panne d'un des nodes Edge du cluster :
+> >
 > > > [!api]
 > > >
 > > > @api {v1} /dedicatedCloud POST /dedicatedCloud/{serviceName}/datacenter/{datacenterId}/nsxtEdge/{nsxtEdgeId}/resilience/enable 
-> > >  
-> > 
+> > >
+> >
 > Que faire de mes options de sauvegarde Veeam et de replication Zerto ? Sont-elles toujours compatibles avec NSX ? <a name="veeamzerto"></a>
 > > Oui, mais il faudra les reconfigurer après la migration de votre Datacenter virtuel.
 > >
