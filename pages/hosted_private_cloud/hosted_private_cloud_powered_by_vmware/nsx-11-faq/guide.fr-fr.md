@@ -35,7 +35,7 @@ updated: 2024-12-02
 > Peut-on mettre un pare-feu virtuel devant le Tier-0 dans le même vSphere managé ?
 > > Vous pouvez tout à fait déconnecter les interfaces publiques de la T0 et interconnecter celles-ci via un réseau privé ou une appliance de sécurité exposée en direct sur internet. Notez qu'il existe dans la T0 un firewall intégré configurable via l'interface NSX, Gateway Firewall.
 > >
-> Quelle est la différence entre une passerelle Tier-0 et une Tier-1 ? <a name="t0vst1">
+> Quelle est la différence entre une passerelle Tier-0 et une Tier-1 ? <a name="t0vst1"></a>
 > > Dans la conception VMware, une Tier-1 est toujours attachée à une Tier-0.
 > > Les flux passent par une Tier-0 pour aller au réseau externe.
 > > Tous les éléments devant rester à l'intérieur (en local) de la plateforme Vsphere managée sont routés par la Tier-1.

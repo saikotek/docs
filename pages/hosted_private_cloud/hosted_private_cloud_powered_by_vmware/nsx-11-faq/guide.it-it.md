@@ -35,7 +35,7 @@ updated: 2024-12-02
 > Can we put a virtual firewall in front of the Tier-0 in the same managed vSphere?
 > > You can completely disconnect the public interfaces of the T0 and interconnect them via a private network or a security appliance exposed live on the internet. Note that there is an integrated firewall in T0 that can be configured via the NSX interface, Gateway Firewall.
 > >
-> What is the difference between a Tier-0 gateway and a Tier-1? <a name="t0vst1">
+> What is the difference between a Tier-0 gateway and a Tier-1? <a name="t0vst1"></a>
 > > In VMware design, a Tier-1 is always attached to a Tier-0.
 > > Flows pass through a Tier-0 to go to the external network.
 > > All elements that need to remain inside (locally) the managed Vsphere platform are routed by the Tier-1.
