@@ -60,7 +60,7 @@ Lorsque vous utilisez SSE-C, vous devez fournir des informations sur la clé de 
 |:-----|:------------|
 | --sse​-customer-algorithm | Utilisez cet en-tête pour spécifier l'algorithme du chiffrement. La valeur de l'en-tête doit être *AES256*.  |
 | --sse-customer-key | Utilisez cet en-tête pour fournir la clé de chiffrement de 256 bits encodée en Base64 pour chiffrer ou déchiffrer les données. |
-| --sse​-customer-key-md5<p class="optional">Optional</p>| Utilisez cet en-tête pour fournir la valeur de hachage MD5 128 bits encodée en Base64 de la clé de chiffrement conformément à la norme RFC 1321. Cet en-tête est utilisé pour vérifier l'intégrité du message et veiller à ce que la clé de chiffrement ait été transmise sans erreur. |
+| --sse​-customer-key-md5 | Utilisez cet en-tête pour fournir la valeur de hachage MD5 128 bits encodée en Base64 de la clé de chiffrement conformément à la norme RFC 1321. Cet en-tête est utilisé pour vérifier l'intégrité du message et veiller à ce que la clé de chiffrement ait été transmise sans erreur. |
 
 ### SSE-C - Chiffrement côté serveur avec clés de chiffrement client
 
