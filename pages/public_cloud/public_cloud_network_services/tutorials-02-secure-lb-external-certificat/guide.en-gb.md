@@ -4,6 +4,20 @@ excerpt: "Discover how to configure a secure Public Cloud Load Balancer with a c
 updated: 2024-11-29
 ---
 
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
+
 ## Objective
 
 Our Public Cloud Load Balancer  is based on [OpenStack Octavia](https://wiki.openstack.org/wiki/Octavia){.external} and is fully integrated into the Public Cloud universe. 
@@ -40,7 +54,7 @@ Please note that you must add an A record in the DNS Zone of your domain name th
 
 If you are using DNS servers managed by OVHcloud, please consult this [guide](/pages/web_cloud/domains/dns_zone_edit).
 
-### Preparing the certificate
+### Preparing the certificate <a name="preparingcertificate"></a>
 
 For this stage, we will need your certificate, which has already been generated. 
 
@@ -61,7 +75,7 @@ sudo cat <certificate.crt> <intermediate_chain.crt> > main_certificate.pem
 You need to create a PKCS#12 package with your certificate inside:
 
 ```bash
-sudo openssl pkcs12 -export -inkey <private_key.key> -in <main_certificate.pem> -out /etc/ssl/domain.tld.p12
+sudo openssl pkcs12 -export -inkey <private_key.key> -in <main_certificate.pem> -out domain.tld.p12
 ```
 
 You must download this file directly onto your computer in order to be able to send it to Openstack Barbican (‘Secret as a Service’).
@@ -71,6 +85,37 @@ openstack secret store --name='cert-domain.tld' -t 'application/octet-stream' -e
 ```
 
 ### Configuring your Load Balancer
+
+
+/// details | Via Horizon
+
+In the Horizon interface, open the `Network`{.action} section, then click `Load Balancers.`{.action}
+
+Select your Load Balancer by clicking on `the name of your Load Balancer.`{.action}
+
+You can now click on the `Listerners`{.action} section, then on `Create Listener` as follows: 
+
+![listeners list](images/loadbalancerlistenerslist.png){.thumbnail}
+
+In the first section, called ‘Listener Details’, you need to name the listener, choose the `HTTP`{.action} protocol and the `80`{.action} port.
+
+![listener creation details section](images/listenerhttpcreation1.png){.thumbnail}
+
+In the second section called ‘Pool details’, under ‘Create Pool’ click `No`{.action}, then at the bottom click `Create Listener.`{.action}.
+
+![listener creation pool section](images/listenerhttpcreation2.png){.thumbnail}
+
+Once this has been created, you can click on `the listener name`{.action}, then `L7 policies.`{.action} and `Create L7 Policy.`{.action}.
+
+![l7policy creation](images/listenerpolicieslist.png){.thumbnail}
+
+In this window, you need to name the L7 Policy, choose the value `REDIRECT_TO_URL`{.action} in the ‘Action’ field and then `write its domain name`{.action} in the ‘Redirect URL’ field. You can click on `Create L7 policy`{.action} button at the bottom of the window to create your L7 Policy.
+
+![l7policy creation](images/l7policycreation.png){.thumbnail}
+
+///
+
+/// details | Via the OpenStack API
 
 The first step is to add an HTTP listener to the Load Balancer:
 
@@ -84,14 +129,44 @@ Then configure the redirection of HTTP requests to HTTPS:
 openstack loadbalancer l7policy create --action REDIRECT_TO_URL --redirect-url https://<your-domain-or-ip> --name redirect-to-https http-listener
 ```
 
-<!-- Via Horizon :
-    Allez dans l’onglet Listeners du Load Balancer.
-    Créez un Listener HTTP (port 80).
-    Configurez une règle de redirection dans la section Policies pour ce Listener. -->
+///
 
 ### Configuring the secure Listener on the Load Balancer
 
 Now that you have managed your certificate, you can add a secure Listener and associate a pool and its members with it:
+
+/// details | Via Horizon
+
+In the Horizon interface, open the `Network`{.action} section, then click `Load Balancers.`{.action}
+
+Select your Load Balancer by clicking on `the name of your Load Balancer.`{.action}
+
+You can now click on the `Listerners`{.action} section, then on `Create Listener` as follows: 
+
+![listeners list](images/loadbalancerlistenerslist.png){.thumbnail}
+
+In the first section, called ‘Listener Details’, you need to name the listener, choose the protocol `TERMINATED_HTTPS`{.action} and the port `443`{.action}.
+
+![listeners https details](images/listenerhttpscreation1.png){.thumbnail}
+
+In the second section, called ‘Pool Details’, you need to name your Pool, choose the value `ROUND_ROBIN`{.action} in the 'Algortihm' field and press `Yes`{.action} under the “TLS Enabled” field.
+
+![listeners https pool details](images/listenerhttpscreation2.png){.thumbnail}
+
+In the third section, called ‘Pool Members’, select the corresponding instance and press the `Add`{.action} button at the end of the line. Once this has been done, select port `80.`{.action} as the ‘Port’.
+
+![listeners https pool members details](images/listenerhttpscreation3.png){.thumbnail}
+
+For the ‘Monitor Details’ section, we're going to click `No`{.action} as we won't be demonstrating this part in this guide.
+
+Now go to the section called `SSL Certificates`{.action} and select the certificate that was previously added to Openstack Barbican, [in this part](#preparingcertificate).
+You can click `Create L7 policy`{.action} button at the bottom of the window to create your configured Load Balancer.
+
+![listeners https ssl details](images/listenerhttpscreation4.png){.thumbnail}
+
+///
+
+/// details | Via the OpenStack API
 
 ```bash
 openstack loadbalancer listener create --protocol-port 443 --protocol TERMINATED_HTTPS --name https-listener --default-tls-container=$(openstack secret list | awk '/ cert-domain.tld / {print $2}') my_load_balancer
@@ -101,10 +176,7 @@ openstack loadbalancer pool create --name pool-tls --lb-algorithm ROUND_ROBIN --
 openstack loadbalancer member create --subnet-id my_subnet --address <private_ip_instance> --protocol-port 80 pool-tls
 ```
 
-<!-- Via Horizon :
-    Allez dans Network > Load Balancers.
-    Cliquez sur le Load Balancer où vous souhaitez ajouter un Pool.
-    Allez dans l’onglet Pools > Create Pool. -->
+///
 
 You can now access your Load Balancer securely. However, you will need to renew your certificate. Check the renewal policy with your certificate provider.
 
