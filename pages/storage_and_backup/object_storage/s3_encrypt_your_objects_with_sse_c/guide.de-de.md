@@ -60,7 +60,7 @@ When you use SSE-C, you must provide encryption key information using the follow
 |:-----|:------------|
 | --sse​-customer-algorithm | Use this header to specify the encryption algorithm. The header value must be *AES256.* |
 | --sse-customer-key | Use this header to provide the 256-bit, base64-encoded encryption key for S3 Object Storage to use to encrypt or decrypt your data. |
-| --sse​-customer-key-md5<p class="optional">Optional</p>| Use this header to provide the base64-encoded 128-bit MD5 digest of the encryption key according to RFC 1321. S3 Object Storage uses this header for a message integrity check to ensure that the encryption key was transmitted without error. |
+| --sse​-customer-key-md5 | Use this header to provide the base64-encoded 128-bit MD5 digest of the encryption key according to RFC 1321. S3 Object Storage uses this header for a message integrity check to ensure that the encryption key was transmitted without error. |
 
 ### SSE-C - Server-Side Encryption with Client Encryption Keys
 
