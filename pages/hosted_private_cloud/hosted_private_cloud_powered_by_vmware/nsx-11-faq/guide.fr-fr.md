@@ -1,7 +1,7 @@
 ---
 title: "NSX - FAQ"
 excerpt: "Retrouvez une foire aux questions des scénarios les plus fréquents concernant l'utilisation de NSX au sein de l'écosystème Hosted Private Cloud"
-updated: 2024-11-05
+updated: 2024-12-02
 ---
 
 ## Objectif
@@ -17,7 +17,7 @@ updated: 2024-11-05
 > > Cette question sera étudiée avec les équipes [Professional Services](/links/professional-services) lors d'un premier appel d'évaluation.
 > >
 > Comment puis-je protéger mes machines virtuelles directement exposées sur Internet avec une IP Publique ? <a name="public ip"></a>
-> > Vous sécuriser vos flux avec le Distributed Firewall (sécurisation Nord/Sud ou Est/Ouest) de NSX ou utiliser l'une des Gateway Firewall (sécurisation Nord/Sud).
+> > Vous sécurisez vos flux avec le Distributed Firewall (sécurisation Nord/Sud ou Est/Ouest) de NSX ou utilisez l'un des Gateway Firewalls (sécurisation Nord/Sud).
 > >
 > Quelle est la date de fin de vie de NSX-v ? <a name="eofnsxv"></a>
 > > VMware a décidé d'initier la fin de vie (EOL) de NSX-v depuis janvier 2022. OVHcloud a obtenu une extension de support jusqu'au 15 janvier 2025.
@@ -27,7 +27,7 @@ updated: 2024-11-05
 > > Il est toutefois possible de faire du BGP (privé) avec un vRack via une passerelle Tier-0 ou une passerelle VRF de niveau 0, ou dans un tunnel IPsec via une Tier-0 uniquement.
 > > 
 > Est-ce que NSX-T est compatible BGP à travers IPSEC ? <a name="bgpoveripsec"></a>
-> > Oui. Au travers une VRF.
+> > Oui, à travers une VRF.
 > >
 > Quel est le changement concernant le système autonome BGP (AS) ?
 > > Il est possible de positionner des AS numbers privés différents selon les passerelles Tier-0 ou les passerelles VRF de niveau 0.
@@ -51,23 +51,23 @@ updated: 2024-11-05
 > > Non, c'est impossible par défaut, la configuration est gérée par OVHcloud et se fait en mode actif/passif avec un VIP (10 Gbp/s de bande passante garantie).
 > >
 > Est-il possible de se connecter à la Edge en SSH pour effectuer un diagnostic ou de la capture de paquets ? <a name="t0gwdoublebw"></a>
-> > Non, c'est impossible. Que ca soit pour des informations sur Tier-0 ou Tier-1. Il existe dans NSX des outils de troubleshooting.
+> > Non, c'est impossible, que ce soit pour des informations sur Tier-0 ou Tier-1. Il existe dans NSX des outils de troubleshooting.
 > >
 > Quel est le nombre maximum d'interfaces (segments connectés) sur une Tier-1 Gateway ? <a name="t1interface capacity"></a>
-> > Cette information dépend de la version de NSX en production sur l'infrastructure. Les maximums se trouvent sur le site Broadcaom dédié : https://configmax.broadcom.com/home
+> > Cette information dépend de la version de NSX en production sur l'infrastructure. Les valeurs maximales se trouvent sur le site Broadcaom dédié : <https://configmax.broadcom.com/home>.
 > >
 > Comment puis-je ajouter des IP publiques ? <a name="addpublicicip"></a>
 > > L'ajout d'IP publiques supplémentaires peut se faire via le routage "next hop" en spécifiant comme ressource l'environnement VMware Hosted Private Cloud et en `next hop` l'IP virtuelle (VIP) publique de la Tier-0 (T0).
 > >
-> Est-ce que les blocs d’adresses IP peuvent être utilisés/distribués entre deux Datacenter VMware dans un même Hosted Private Cloud ? <a name="ipblockdistribution"></a>
+> Est-ce que les blocs d’adresses IP peuvent être utilisés/distribués entre deux Datacenters VMware dans un même Hosted Private Cloud ? <a name="ipblockdistribution"></a>
 > > Les blocs d'adresses IP sont dépendants de l'environnement VMware Hosted Private Cloud et non du Datacenter virtuel. Il est donc possible d'utiliser le même bloc d'adresses IP entre plusieurs datacentres virtuels (sans aucune modification).
-> > Attention, si vous disposez de plusieurs datacenter virtuels, un bloc d'IP publiques routé sur l'IP virtuelle (VIP) de votre Tier-0 (T0) ne pourra pas être utilisé dans un `VM Network` d'un autre Datacenter virtuel. Il est attaché à la VIP et non plus au `VM Network`.
+> > Attention, si vous disposez de plusieurs Datacenters virtuels, un bloc d'IP publiques routé sur l'IP virtuelle (VIP) de votre Tier-0 (T0) ne pourra pas être utilisé dans un `VM Network` d'un autre Datacenter virtuel. Il est attaché à la VIP et non plus au `VM Network`.
 > > 
-> Comment sont gérés les IP lors de la migration ? <a name="managemigrationip"></a>
+> Comment sont gérées les IP lors de la migration ? <a name="managemigrationip"></a>
 > > Vous trouverez, dans le [guide de migration](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/service-migration-vdc), comment déplacer votre IP existante depuis votre plateforme NSX-v et la router vers l'IP attachée à la partie Tier-0 (T0).
-> > Lorsqu’un Datacenter Virtuel NSX-T est livré, nous déployons et configurons un nouveau bloc IP pour NSX Tier-0 (T0) que nous dédions à la VIP. C'est vers cette VIP que vous pourrez router le block IP. 
+> > Lorsqu’un Datacenter Virtuel NSX-T est livré, nous déployons et configurons un nouveau bloc IP pour NSX Tier-0 (T0) que nous dédions à la VIP. C'est vers cette VIP que vous pourrez router le bloc IP. 
 > >
-> Pour la migration vDC, il faut passer le datastore en global. Un retour arrière est-il possible sur cette configuration ? <a name="vdcmigration"></a>
+> Pour la migration vDC, il faut passer le datastore en global. Un retour en arrière est-il possible sur cette configuration ? <a name="vdcmigration"></a>
 > > Le datastore global est géré au niveau de l'espace client ou de l’API OVHcloud.
 > > Cela vous permet de globaliser votre datastore qui sera visible depuis votre nouveau vDC. Il vous permet de faire un `Compute` vMotion et non un `Storage` vMotion des machines virtuelles.
 > > Il n'est pas possible de le sortir de ce mode. Il vous faudra commander un nouveau datastore et y appliquer un vMotion pour le libérer globalement.
@@ -89,8 +89,8 @@ updated: 2024-11-05
 > > Si vous utilisez NSX-v pour du firewalling, vous pouvez avoir la configuration sur les 2 environnements.
 > > Le temps d'arrêt dépend donc de la complexité de votre environnement.
 > >
-> Quel sera le débit des cartes des edge-nodes, sachant que le Tier-0 (T0) sera mutualisée ? <a name="bandwidthedgenode"></a>
-> > Cela dépendra des services activés (LoadBalancer/NAT/Firewall, etc.). Les débits et maximums sont dépendant de la version de NSX et disponibles sur le site de Broadcom.
+> Quel sera le débit des cartes des edge-nodes, sachant que le Tier-0 (T0) sera mutualisé ? <a name="bandwidthedgenode"></a>
+> > Cela dépendra des services activés (LoadBalancer/NAT/Firewall, etc.). Les débits et maximums sont dépendants de la version de NSX et disponibles sur le site de Broadcom.
 > >
 > Est-ce que le vRack fonctionne avec les NSX-T ?  <a name="vrackwithnsxt"></a>
 > > Oui, le vRack fonctionne avec NSX-T.
@@ -107,10 +107,10 @@ updated: 2024-11-05
 > >
 > Actuellement, nous avons 300 edges et environ 5000 RDP simultanés. La configuration moyenne "4 vcpu / 8 Go RAM / 200 Go" va-t-elle tenir pour les flux ? <a name="averageconfiguration"></a>
 > > Le dimensionnement dépendra des services que vous activerez ou consommerez sur vos edges (firewall ou load balancing...).
-> > Aujourd'hui, les Edge sont de taille Medium. Les maximums et dimensionnement sont disponibles sur le site de Broadcom.
+> > Aujourd'hui, les Edge sont de taille Medium. Les maximums et dimensionnements sont disponibles sur le site de Broadcom.
 > >
 > Je viens de créer un cluster et je voudrais le configurer pour NSX en API. Comment faire ?
-> > Il faut utiliser cette route, après avoir récupérer le cluster ID que vous venez de créer.
+> > Il faut utiliser cette route, après avoir récupéré le cluster ID que vous venez de créer.
 > >
 > > > [!api]
 > > >
@@ -132,10 +132,10 @@ updated: 2024-11-05
 > > >  
 > > 
 > Que faire de mes options de sauvegarde Veeam et de replication Zerto ? Sont-elles toujours compatibles avec NSX ? <a name="veeamzerto"></a>
-> > Oui, mais il faudra les reconfigurer après la migration de votre Datacenter Virtuel.
+> > Oui, mais il faudra les reconfigurer après la migration de votre Datacenter virtuel.
 > >
 > Est-il possible de faire cohabiter NSX-v et NSX-T durant la phase de transition ? <a name="nsxtwithnsxv"></a>
-> > Il est possible d'obtenir NSX-T si vous commandez un nouveau Datacenter virtuel dans votre Hosted Private Cloud. Vous aurez donc au sein de la même infrastructure 2 Datacenter virtuels, un avec NSX-v et un avec NSX-T
+> > Il est possible d'obtenir NSX-T si vous commandez un nouveau Datacenter virtuel dans votre Hosted Private Cloud. Vous aurez donc au sein de la même infrastructure 2 Datacenters virtuels, l'un avec NSX-v et l'autre avec NSX-T.
 > > Veuillez noter que la commande du nouveau vDC déclenchera automatiquement le mécanisme de remboursement pour le mois à venir.
 > >
 > Pouvons-nous utiliser "migration coordinator" pour la migration entre NSX-v et NSX-T ? <a name="nsxmigrationcoordinator"></a>
@@ -146,7 +146,7 @@ updated: 2024-11-05
 > > L'interface NSX est indépendante et non liée à l'interface de vSphere. C'est pourquoi nous avons créé un endpoint dédié pour l'atteindre.
 > >
 > Est-il possible de faire communiquer un routeur NSX Edge entre 2 environnements Hosted Private Cloud ? <a name="nsxedge"></a>
-> > Oui, c'est possible, via le vRack par exemple, ou via le réseau publique et les VIP des Edges Cluster.
+> > Oui, c'est possible, via le vRack par exemple, ou via le réseau public et les VIP des Edges Cluster.
 > >
 > Réalisez-vous des backups des configs NSX-T, y compris le paramétrage manuel du client ? <a name="nsxbackupmanualconfiguration"></a>
 > > Oui, OVHcloud réalise des sauvegardes.
@@ -158,7 +158,7 @@ updated: 2024-11-05
 > Des limitations supplémentaires sont-elles présentes dans un contexte SecNumCloud ? <a name="snclimitations"></a>
 > > Il n’y a pas de limitations supplémentaires par rapport à un environnement non qualifié SecNumCloud.
 > >
-> Existe-t-il une gestion des sauvegardes différentes sur l'offre qualifiée SecNumCloud ? <a name="semnumcloudbackupoutside"></a>
+> La gestion des sauvegardes est-elle différente sur l'offre qualifiée SecNumCloud ? <a name="semnumcloudbackupoutside"></a>
 > > Il n'existe pas de différence entre les sauvegardes dans les environnements qualifiés SecNumCloud et non SecNumCloud.
 > >
 > Pendant la phase de migration, devra-t-on payer en double notre plateforme durant un mois ? <a name="priceduringmigration"></a>
