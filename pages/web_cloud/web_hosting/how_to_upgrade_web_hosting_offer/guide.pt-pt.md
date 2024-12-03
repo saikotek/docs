@@ -22,7 +22,7 @@ A sua [Área de Cliente OVHcloud](/links/manager) permite aumentar as capacidade
 
 - Dispor de um [plano de alojamento web](/links/web/hosting)
 - Ter acesso à [Área de Cliente OVHcloud](/links/manager)
-- Ser, no mínimo, o contacto « [Administrador](/pages/account_and_service_management/account_information/managing_contacts) » dos serviços para os quais pretende alterar a subscrição.
+- Ser, no mínimo, o contacto " [Administrador](/pages/account_and_service_management/account_information/managing_contacts)" dos serviços para os quais pretende alterar a subscrição.
 
 ## Instruções
 

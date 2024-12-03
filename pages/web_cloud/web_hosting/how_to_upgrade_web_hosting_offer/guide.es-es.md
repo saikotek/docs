@@ -12,7 +12,7 @@ Su [área de cliente de OVHcloud](/links/manager) permite aumentar la capacidad 
 - más espacio de almacenamiento FTP;
 - bases de datos adicionales; 
 - direcciones de correo adicionales;
-- funcionalidades adicionales como las [mailing-lists](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (a partir de [la oferta Pro](/links/web/hosting-professional-offer) o el [servicio Web Cloud Databases](/links/web/databases){.external} (incluido en [los planes Performance](https://www.ovhcloud.com/es-es/web-hosting/performance-offer)/).
+- funcionalidades adicionales como las [mailing-lists](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (a partir de [la oferta Pro](/links/web/hosting-professional-offer) o el [servicio Web Cloud Databases](/links/web/databases){.external} (incluido en [los planes Performance](https://www.ovhcloud.com/es-es/web-hosting/performance-offer)).
 
 **Descubra cómo mejorar su plan de hosting de OVHcloud sin interrupciones del servicio.**
 
@@ -22,7 +22,7 @@ Su [área de cliente de OVHcloud](/links/manager) permite aumentar la capacidad 
 
 - Tener un [plan de hosting](/links/web/hosting)
 - Estar conectado a su [área de cliente de OVHcloud](/links/manager)
-- Ser, como mínimo, el contacto «[Administrador](/pages/account_and_service_management/account_information/managing_contacts)» de los servicios para los que quiera modificar la suscripción.
+- Ser, como mínimo, el contacto "[Administrador](/pages/account_and_service_management/account_information/managing_contacts)" de los servicios para los que quiera modificar la suscripción.
 
 ## Procedimiento
 
@@ -74,7 +74,7 @@ Después de eliminar los datos de sus bases de datos, vuelva a calcular la cuota
 #### 2 - Web Cloud Databases
 
 Si utiliza el servicio [Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb) incluido con su alojamiento web [Performance](/links/web/hosting-performance-offer) y desea cambiar su alojamiento web a un plan [Pro](/links/web/hosting-professional-offer), deberá disociar en primer lugar el servicio Web Cloud Databases de su alojamiento web.<br>
-Para ello, conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección «Web Cloud» de la columna izquierda de la columna izquierda, en la columna izquierda, en la columna izquierda y en la columna izquierda de la página «Servidores dedicados» de OVHcloud > {.action}. En la columna izquierda, haga clic en `Alojamientos`{.action} y seleccione el alojamiento web correspondiente. A continuación, siga en la pestaña `Información general`{.action}. En la columna central `Configuración`, haga clic en el botón `...`{.action} situado a la derecha de `Web Cloud Databases`{.action} y seleccione `Desvincular`{.action}.
+Para ello, conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección "Web Cloud" de la columna izquierda de la columna izquierda, en la columna izquierda, en la columna izquierda y en la columna izquierda de la página "Servidores dedicados" de OVHcloud > {.action}. En la columna izquierda, haga clic en `Alojamientos`{.action} y seleccione el alojamiento web correspondiente. A continuación, siga en la pestaña `Información general`{.action}. En la columna central `Configuración`, haga clic en el botón `...`{.action} situado a la derecha de `Web Cloud Databases`{.action} y seleccione `Desvincular`{.action}.
 
 ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/wcdb-detach.png){.thumbnail}
 
@@ -89,7 +89,7 @@ Si no desea conservar estos datos, puede eliminar su solución Web Cloud Databas
 
 Asegúrese de que el nuevo plan ofrece [espacio de almacenamiento FTP](/pages/web_cloud/web_hosting/ftp_connection) suficiente para que sea posible importar los archivos del alojamiento actual.
 
-Para comprobar el espacio de almacenamiento FTP utilizado en su alojamiento web, conéctese al [área de cliente de OVHcloud](/links/manager) y acceda a la sección «Web Cloud» de la página {.action}. En la columna izquierda, haga clic en `Alojamientos`{.action} y seleccione el alojamiento web correspondiente. En la página `Información general`{.action} que aparece, consulte la cuota en la sección `Espacio en disco`.
+Para comprobar el espacio de almacenamiento FTP utilizado en su alojamiento web, conéctese al [área de cliente de OVHcloud](/links/manager) y acceda a la sección "Web Cloud" de la página {.action}. En la columna izquierda, haga clic en `Alojamientos`{.action} y seleccione el alojamiento web correspondiente. En la página `Información general`{.action} que aparece, consulte la cuota en la sección `Espacio en disco`.
 
 ![ftp](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/find-disk-space.png){.thumbnail}
 
