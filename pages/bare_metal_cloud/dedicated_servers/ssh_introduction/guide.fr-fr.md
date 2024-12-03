@@ -1,93 +1,93 @@
 ---
-title: 'Introduction au SSH'
-excerpt: "Découvrez comment utiliser les connexions SSH pour accéder à votre serveur"
-updated: 2024-01-16
+title: Comment bien débuter avec les connexions SSH
+excerpt: "Découvrez comment utiliser SSH pour accéder à votre serveur OVHcloud depuis la plupart des postes de travail"
+updated: 2024-12-03
 ---
+
+<style>
+details>summary {
+	color:rgb(33, 153, 232) !important;
+	cursor: pointer;
+}
+details>summary::before {
+	content:'\25B6';
+	padding-right:1ch;
+}
+details[open]>summary::before {
+	content:'\25BC';
+}
+</style>
 
 ## Objectif
 
-Le protocole de communication SSH (Secure Shell) est l'outil principal pour établir des connexions d'hôte chiffrées à travers des réseaux non sécurisés. L'outil OpenSSH est installé nativement sur tous les serveurs OVHcloud (VPS, Serveurs Dédiés, instances Public Cloud) afin de permettre des connexions sécurisées à des serveurs distants et d'autres opérations.
+Le protocole de communication SSH (Secure Shell) est le moyen privilégié pour établir des connexions hôtes cryptées via des réseaux publics. L'utilitaire OpenSSH est disponible sur tous les serveurs OVHcloud (VPS, serveurs dédiés, instances Public Cloud) pour permettre des connexions à distance sécurisées aux serveurs ainsi que d'autres opérations.
 
-**Ce guide vous explique comment accéder à votre serveur de manière sécurisé grâce au SSH.**
+**Ce guide vous explique comment vous connecter en toute sécurité à votre serveur avec le protocole SSH.**
 
 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/gi7JqUvcEt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!warning]
-> OVHcloud vous met à disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous appartient donc de ce fait d’en assurer le bon fonctionnement.
+> OVHcloud fournit des services dont la configuration et la gestion relèvent de votre responsabilité. Il est donc de votre responsabilité de vous assurer de leur bon fonctionnement.
 >
-> Si vous rencontrez des difficultés lors de l'exécution de ces actions, nous vous invitons à contacter un [prestataire spécialisé](https://partner.ovhcloud.com/fr/directory/) et/ou échanger avec notre [communauté d'utilisateurs](/links/community). OVHcloud ne peut pas vous fournir d’assistance technique à ce sujet.
+> Ce guide est conçu pour vous aider avec les tâches courantes. Néanmoins, nous vous recommandons de contacter un [prestataire de services spécialisé](/links/partner) ou de contacter la [communauté OVHcloud](/links/community) si vous rencontrez des difficultés. Plus d'informations dans la section [Aller plus loin](#gofurther) de ce guide.
 >
 
 ## Prérequis
 
-- Avoir un [serveur dédié](/links/bare-metal/bare-metal) ou un [VPS](https://www.ovhcloud.com/fr/vps/) dans votre compte OVHcloud.
-- Une application cliente SSH (en ligne de commande ou en interface graphique).
+- Un [serveur dédié](/links/bare-metal/bare-metal) ou un [VPS](/links/bare-metal/vps) dans votre compte OVHcloud
 
 > [!primary]
-> Ce guide ne s'applique pas aux installations standard de serveurs Windows car celles-ci reposent sur le protocole de Bureau à distance (*Remote Desktop Protocol*) pour les connexions. Les connexions SSH sont cependant utilisées pour le mode rescue OVHcloud. Retrouvez plus d’informations dans la section [Aller plus loin](#gofurther) de ce guide.
+> Ce guide ne s'applique pas aux installations de serveurs Windows standard, car elles reposent sur le protocole Remote Desktop Protocol (RDP) pour les connexions. Cependant, les connexions SSH sont pertinentes lors de l'utilisation du mode rescue OVHcloud. Retroouvez plus d'informations dans la section [Aller plus loin](#gofurther) de ce guide.
 >
 
 ## En pratique
 
-Plusieurs méthodes existent pour authentifier une connexion à un périphérique distant via SSH.<br>
-Les instructions suivantes concernent la méthode d'authentification via un nom d'utilisateur et un mot de passe.<br>
-Vous pouvez également configurer des clés SSH pour activer les connexions sécurisées sans mot de passe. Retrouvez plus de détails dans notre [guide des clés SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+Il existe plusieurs façons d'authentifier une connexion à un hôte distant via SSH. Les instructions suivantes concernent la méthode d'authentification avec **nom d'utilisateur et mot de passe**.  
+Vous pouvez également configurer l'authentification par clé pour activer des connexions sécurisées sans échange de mot de passe. Retrouvez les détails dans nos guides :
 
-Les identifiants de connexion (identifiant et mot de passe) vous sont envoyés par e-mail après une installation ou une réinstallation de serveur effectuée depuis votre [espace client OVHcloud](/links/manager).<br>
-Le nom d'utilisateur correspond au système d'exploitation, par exemple `ubuntu` ou `debian`.<br>
-Pour vous connecter, vous devez également spécifier l'adresse IPv4 ou le nom d'hôte du serveur. Ces informations sont disponibles dans l’e-mail d’installation et dans l'espace client.
+- [Comment créer et utiliser des clés pour l'authentification SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Comment créer et utiliser des clés pour l'authentification SSH avec PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-N’oubliez pas de consulter également nos guides « Premiers pas » :
+Les identifiants initiaux (identifiant et mot de passe) vous sont transmis par e-mail après une installation ou une réinstallation du serveur depuis l'[espace client OVHcloud](/links/manager).
+
+Le nom d'utilisateur correspond au système d'exploitation, par exemple `ubuntu` ou `debian`. Pour vous connecter, vous devez également spécifier l'adresse IP ou le `hostname` du serveur. Ces détails sont disponibles dans l'e-mail d'installation et dans l'espace client.
+
+N’hésitez pas à consulter nos guides « Premiers pas » si vous souhaitez obtenir plus de détails sur ce sujet :
 
 - Pour un [serveur dédié](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
-- Pour un [serveur dédié de la gamme de produits **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
+- Pour un [serveur dédié de la gamme **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
 - Pour un [VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)
 
-### Connexion depuis une distribution GNU/Linux ou macOS
+### Comment se connecter à un serveur distant depuis une distribution GNU/Linux ou macOS
 
-Un client en ligne de commande SSH (OpenSSH) est généralement disponible par défaut. Ouvrez l'application Terminal et connectez-vous au serveur avec la commande suivante :
+/// details | Dépliez cette section
 
-```bash
-ssh username@server_IP
-```
+#### Établissement d’une connexion
 
-Si le port SSH du serveur n'est pas le port standard, utilisez alors la commande suivante :
-
-```bash
-ssh username@server_IP -p port_number
-```
-
-### Connexion depuis un poste sous Windows
-
-Les dernières versions de Windows intègrent nativement OpenSSH pour les connexions depuis le Powershell ou l'invite de commande.
-
-Faites un clic-droit sur le bouton Démarrer de Windows et sélectionnez `Windows PowerShell`{.action}. Vous pouvez également utiliser le champ de recherche pour démarrer l'un de ces programmes.
-
-![PowerShell](images/windowsps.png){.thumbnail}
-
-Connectez-vous au serveur avec la commande suivante :
+Un client en ligne de commande pour SSH (protocole OpenSSH) est généralement disponible par défaut. Ouvrez l'application de ligne de commande (Terminal) et connectez-vous au serveur avec la commande suivante :
 
 ```bash
 ssh username@server_IP
 ```
 
-Si le port SSH du serveur n'est pas le port standard, utilisez cette commande :
+Si vous avez changé le port SSH du serveur, utilisez plutôt cette commande :
 
 ```bash
 ssh username@server_IP -p port_number
 ```
 
-<a name="login"></a>
+#### Connexion et fingerprint
 
-### Connexion et fingerprint
+Lorsque vous y êtes invité, tapez le mot de passe de l'utilisateur qui se connecte (ou collez-le d'un clic via le bouton central de la souris) et appuyez sur `Entrée`{.action}.
 
-Lorsque vous êtes invité à entrer un mot de passe, tapez celui de l'utilisateur qui se connecte et appuyez sur `Entrée`.
+S'il s'agit d'une nouvelle connexion, votre client SSH recevra une **empreinte de clé** du serveur. Saisissez `yes` pour confirmer, puis le mot de passe de l'utilisateur qui se connecte pour se connecter.
 
-S'il s'agit d'une nouvelle connexion, votre client SSH recevra une empreinte de clé (*fingerprint*) du serveur. Renseignez "yes" pour confirmer puis le mot de passe de l'utilisateur qui se connecte.
+Exemple de sortie :
 
 ```bash
 ssh ubuntu@203.0.113.100
 ```
+
 ```console
 The authenticity of host '203.0.113.100 (203.0.113.100)' can't be established.
 ECDSA key fingerprint is SHA256:rRwrdsmJfzvJF5k0a4JmMSdaWbTlCgRKBukbmQ3gmso.
@@ -96,7 +96,9 @@ Warning: Permanently added '203.0.113.100' (ECDSA) to the list of known hosts.
 ubuntu@203.0.113.100's password:
 ```
 
-L'empreinte de clé est ensuite enregistrée sur votre appareil et vérifiée à chaque nouvelle connexion. Si la clé a changé sur l'hôte distant, un message d'avertissement s'affiche lorsque vous essayez de vous connecter, par exemple :
+L'empreinte sera enregistrée sur votre équipement et vérifiée à chaque nouvelle connexion. Si la clé a changé sur l'hôte distant, vous recevrez un message d'avertissement lors de la tentative de connexion.
+
+Exemple de sortie :
 
 ```console
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -106,14 +108,14 @@ Host key verification failed.
 Offending ECDSA key in /home/user/.ssh/known_hosts:3
 ```
 
-Cela signifie que l'une des situations suivantes s'est produite :
+Cela signifie que l'un des événements suivants s'est produit :
 
-- Le serveur a été réinstallé.
-- Le service SSH sur le serveur a été réinstallé.
-- Vous vous connectez à un autre hôte avec la même adresse IP.
+- Le serveur a été réinstallé avec succès.
+- Le service SSH sur le serveur a été réinstallé avec succès.
+- Vous vous connectez à un hôte différent avec la même adresse IP.
 
 > [!primary]
-> Le message d'avertissement n'indique pas nécessairement un problème de sécurité. Cependant, si vous n'êtes pas à l'initiative d'une de ces situations, le serveur distant peut être compromis.
+> Le message d'avertissement n'indique pas nécessairement un problème de sécurité. Cependant, si vous n'êtes pas à l'origine de l'un de ces incidents, le serveur distant pourrait être compromis.
 >
 
 Pour résoudre ce problème, utilisez la commande suivante avec l'adresse IP de votre serveur :
@@ -122,62 +124,127 @@ Pour résoudre ce problème, utilisez la commande suivante avec l'adresse IP de 
 ssh-keygen -f ~/.ssh/known_hosts -R 203.0.113.100
 ```
 
-Vous pouvez également ouvrir le fichier `known_hosts` situé dans votre dossier personnel à l'aide d'un éditeur de texte et supprimer la ligne "offending" spécifiée dans le message d'avertissement :
+Vous pouvez également modifier le fichier `known_hosts` situé dans le dossier `home` de votre compte d'utilisateur local à l'aide d'un éditeur de texte.
+
+Exemple :
 
 ```bash
 nano ~/.ssh/known_hosts
 ```
 
-Enregistrez les modifications et quittez l'éditeur. La nouvelle empreinte de clé doit être acceptée lors de la prochaine connexion au serveur.
+Localisez la ligne `offending` spécifiée dans le message d'avertissement (dans cet exemple, il s'agirait de la troisième ligne). Mettez en surbrillance la ligne entière et supprimez-la.
 
-Sous Windows, l'emplacement du fichier `known_hosts` et la ligne à supprimer sont également spécifiés, par exemple :
+Enregistrez les modifications et quittez l'éditeur. Vous devrez confirmer la nouvelle empreinte lors de la prochaine connexion au serveur.
+
+///
+
+### Comment se connecter à un serveur distant à partir d'un périphérique Windows
+
+/// details | Dépliez cette section
+
+#### Établissement d’une connexion
+
+Les versions récentes du système d'exploitation Windows incluent OpenSSH, ce qui vous permet de l'utiliser directement à partir des applications de ligne de commande natives (PowerShell ou Invite de commandes).
+
+Faites un clic droit sur le bouton `Démarrer`{.action} de Windows et sélectionnez `Windows PowerShell`{.action}. Vous pouvez également utiliser le champ de recherche pour démarrer l'une des applications de ligne de commande.
+
+![PowerShell](images/windowsps.png){.thumbnail}
+
+Connectez-vous au serveur avec la commande suivante :
+
+```bash
+ssh username@server_IP
+```
+
+Si vous avez changé le port SSH du serveur, utilisez plutôt cette commande :
+
+```bash
+ssh username@server_IP -p port_number
+```
+
+#### Connexion et fingerprint
+
+Lorsque vous y êtes invité, tapez le mot de passe de l'utilisateur qui se connecte (ou collez-le via un clic droit) et appuyez sur `Entrée`{.action}.
+
+S'il s'agit d'une nouvelle connexion, votre client SSH recevra une **empreinte de clé** du serveur. Saisissez `yes` pour confirmer, puis le mot de passe de l'utilisateur qui se connecte pour se connecter.
+
+Exemple de sortie :
+
+```bash
+ssh ubuntu@203.0.113.100
+```
 
 ```console
+The authenticity of host '203.0.113.100 (203.0.113.100)' can't be established.
+ECDSA key fingerprint is SHA256:rRwrdsmJfzvJF5k0a4JmMSdaWbTlCgRKBukbmQ3gmso.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Warning: Permanently added '203.0.113.100' (ECDSA) to the list of known hosts.
+ubuntu@203.0.113.100's password:
+```
+
+L'empreinte sera enregistrée sur votre équipement et vérifiée à chaque nouvelle connexion. Si la clé a changé sur l'hôte distant, vous recevrez un message d'avertissement lors de la tentative de connexion.
+
+Exemple de sortie :
+
+```console
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Host key verification failed.
 Offending ECDSA key in C:\\Users\\Name_Windows_User/.ssh/known_hosts:3
 ```
 
-Pour résoudre ce problème, utilisez la commande suivante avec l'adresse IP de votre serveur :
+Cela signifie que l'un des événements suivants s'est produit :
+
+- Le serveur a été réinstallé avec succès.
+- Le service SSH sur le serveur a été réinstallé avec succès.
+- Vous vous connectez à un hôte différent avec la même adresse IP.
+
+> [!primary]
+> Le message d'avertissement n'indique pas nécessairement un problème de sécurité. Cependant, si vous n'êtes pas à l'origine de l'un de ces incidents, le serveur distant pourrait être compromis.
+>
+
+Pour résoudre ce problème, entrez la commande suivante avec le nom de votre compte d'utilisateur Windows local et l'adresse IP de votre serveur :
 
 ```bash
 ssh-keygen -f "C:\Users\Name_Windows_User\.ssh\known_hosts" -R 203.0.113.100
 ```
 
-Vous pouvez également accéder à ce dossier, effectuer un clic droit sur le fichier et l'ouvrir avec l'application Bloc-notes.
+Vous pouvez également accéder à ce dossier, effectuer un clic droit sur le fichier et l'ouvrir avec un éditeur de texte (Notepad, Notepad++, etc.)
 
 ![known_hosts](images/windowskh.png){.thumbnail}
 
-Supprimez la ligne concernée, en l'occurrence ici la troisième. Enregistrez les modifications et quittez l'éditeur. La nouvelle empreinte de clé doit être acceptée lors de la prochaine connexion au serveur.
+Localisez la ligne `offending` spécifiée dans le message d'avertissement (dans cet exemple, il s'agirait de la troisième ligne). Mettez en surbrillance la ligne entière et supprimez-la.
 
-### Utilisation de clients graphiques ou de logiciels compatibles SSH
+Enregistrez les modifications et quittez l'éditeur. Vous devrez confirmer la nouvelle empreinte lors de la prochaine connexion au serveur.
 
-Pour chaque type de système d’exploitation, de nombreux logiciels vous permettent de vous connecter à votre serveur via le protocole SSH. 
+///
 
-Par exemple, [PuTTY](https://putty.org/){.external} pour Windows est un logiciel client SSH open source doté d’une interface utilisateur graphique. Il a également été porté sur d'autres plateformes et est disponible via [le site officiel](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), les gestionnaires de paquets logiciels et via [Homebrew](https://brew.sh/).
 
-Démarrez PuTTY et entrez l'adresse IP du serveur. Spécifiez le numéro de port si le port standard n'est pas utilisé. Cliquez ensuite sur `Open`{.action} pour vous connecter. Un nom d'utilisateur et un mot de passe vous seront demandés.
+### Utilisation de clients GUI dédiés ou de logiciels compatibles SSH
 
-![PuTTY](images/putty_01.png){.thumbnail}
+Si vous préférez une interface utilisateur graphique, vous pouvez trouver de nombreuses applications logicielles pour chaque type de système d'exploitation qui vous permettent de vous connecter à des hôtes distants via le protocole SSH.
 
-Un des avantages de PuTTY est la possibilité d’enregistrer plusieurs sessions. Entrez les informations de connexion dans le champ `Saved Sessions` et cliquez sur `Save`{.action}.
+Par exemple, [PuTTY](https://putty.org/) est un logiciel client SSH open source doté de nombreuses fonctionnalités utiles. Découvrez comment l’utiliser pour les connexions aux serveurs OVHcloud dans notre tutoriel détaillé :
 
-![PuTTY](images/putty_02.png){.thumbnail}
+[Comment utiliser PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-Comme d’habitude, l’avertissement d’empreinte s’affiche à la première connexion. Cliquez sur `Accept`{.action} pour enregistrer l'empreinte de clé ou sélectionnez `Connect Once`{.action}.
+<a name="gofurther"></a>
 
-![PuTTY](images/putty_03.png){.thumbnail}
-
-Veuillez consulter la FAQ officielle et la documentation de PuTTY pour plus d'informations.
-
-## Aller plus loin <a name="gofurther"></a>
+## Aller plus loin
 
 [Configuration des comptes utilisateurs et de l'accès root sur un serveur](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds)
 
-[Création de clés SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+[Comment créer et utiliser des clés pour l'authentification SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 
-[Mode rescue serveur dédié](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
+[Comment créer et utiliser des clés pour l'authentification SSH avec PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-[VPS mode rescue](/pages/bare_metal_cloud/virtual_private_servers/rescue)
+[Mode rescue sur un serveur dédié](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+[Mode rescue sur un VPS](/pages/bare_metal_cloud/virtual_private_servers/rescue)
+
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
+
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
