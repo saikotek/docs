@@ -108,13 +108,13 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 > If your instance uses a Windows image, you need to add specific properties. Otherwise, when creating the instance via the OVHcloud Control Panel, it will not be possible to associate a flavor of the win-x-x type. This type of flavor, and only this one, enables authentication to the [OVHcloud KMS](/pages/bare_metal_cloud/dedicated_servers/windows_key).
 >
 
-Add specific properties for image creation :
+Add specific properties for image creation:
 
 ```bash
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
 ```
 
-Add specific properties after image creation :
+Add specific properties after image creation:
 
 ```bash
 $ openstack image set --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" <image_uuid>
