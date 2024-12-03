@@ -1,12 +1,8 @@
 ---
 title: Snapshot wolumenu instancji Public Cloud
 excerpt: Dowiedz się, jak utworzyć snapshot dodatkowego dysku Public Cloud
-updated: 2023-04-21
+updated: 2024-12-03
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
 
 ## Wprowadzenie
 
@@ -27,7 +23,7 @@ Tworzenie snapshota dodatkowego wolumenu zwykle odpowiada dwóm celom:
 ## Wymagania początkowe
 
 - Dostęp do [Panelu client OVHcloud](/links/manager)
-- Wolumen [Block storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) utworzony w Twoim projekcie [Public Cloud](https://www.ovhcloud.com/pl/public-cloud/)
+- Wolumen [Block storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) utworzony w Twoim projekcie [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project)
 
 ## W praktyce
 
@@ -35,7 +31,9 @@ Zaloguj się do [Panelu client OVHcloud](/links/manager), przejdź do sekcji `Pu
 
 ![Snapshoty wolumenów](images/volume_snapshot01.png){.thumbnail}
 
-Po prawej stronie wybranego wolumenu kliknij `...`{.action} a następnie `Utwórz snapshot`{.action} (nie ma potrzeby odłączania wolumenu od instancji.) Jeśli jednak chcesz odłączyć wolumen, zapoznaj się z [tą sekcją](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#linux_1) odpowiedniego przewodnika dla systemu Linux i [tą sekcją](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#windows_1) dla systemu Windows.
+Po prawej stronie wybranego wolumenu kliknij przycisk`...`{.action}, a następnie `Utwórz kopię zapasową`{.action} (nie ma potrzeby odłączania najpierw wolumenu od instancji). Jeśli jednak chcesz odłączyć wolumen, zapoznaj się z sekcją "Odłącz wolumen" w [tym przewodniku] (/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+
+Następnie wybierz opcję `Volume Snapshot`{.action}, nadaj jej nazwę i kliknij przycisk `Utwórz kopię zapasową`{.action}.
 
 ![Snapshoty wolumenów](images/volume_snapshot02.png){.thumbnail}
 
@@ -69,4 +67,4 @@ Kliknij przycisk `...`{.action}, aby usunąć snapshot lub Utwórz wolumen z odp
 
 [Zwiększenie rozmiaru dodatkowego dysku](/pages/public_cloud/compute/increase_the_size_of_an_additional_disk)
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

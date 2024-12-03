@@ -1,7 +1,7 @@
 ---
 title: Creating a volume snapshot
 excerpt: 'Find out how to create a snapshot of a Public Cloud additional disk'
-updated: 2023-04-21
+updated: 2024-12-03
 ---
 
 ## Objective
@@ -20,7 +20,7 @@ A snapshot of an additional volume serves two general purposes:
 ## Requirements
 
 - Access to the [OVHcloud Control Panel](/links/manager)
-- A [Block storage volume](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) created in your [Public Cloud](https://www.ovhcloud.com/en/public-cloud/) project
+- A [Block storage volume](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) created in your [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project)
 
 ## Instructions
 
@@ -28,7 +28,9 @@ Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`
 
 ![Volume Snapshot](images/volume_snapshot01.png){.thumbnail}
 
-In the row of the volume concerned, click on `...`{.action} and select `Create a snapshot`{.action} (It is not required to detach the volume from its instance first). However, if you wish to detach your volume, please consult this [section](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#on-linux) of the corresponding guide for Linux and this [section](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#on-windows) for Windows.
+In the row of the volume concerned, click the `...`{.action} button and select `Create a backup`{.action} (It is not required to detach the volume from its instance first). However, if you wish to detach your volume, please consult the "Detach a volume" instructions from [this guide](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+
+Then select `Volume Snapshot`{.action}, name it and click `Create backup`{.action}.
 
 ![Volume Snapshot](images/volume_snapshot02.png){.thumbnail}
 
