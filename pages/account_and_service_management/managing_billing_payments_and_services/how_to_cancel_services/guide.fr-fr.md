@@ -47,7 +47,7 @@ Des **cas particuliers** existent néanmoins et sont détaillés [plus bas](#spe
 
 ### Comment résilier votre abonnement ? <a name="terminate"></a>
 
-Pour résilier l'abonnement à votre service, connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), cliquez sur votre nom en haut à droite puis sur le bouton `Produits et services`{.action}.
+Pour résilier l'abonnement à votre service, connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), cliquez sur votre nom en haut à droite puis sur le bouton `Mes offres & services`{.action}.
 
 ![produits et services](/pages/assets/screens/control_panel/product-selection/right-column/products-services-fr.png){.thumbnail}
 
@@ -64,7 +64,7 @@ Précisez les raisons de votre demande de résiliation puis cliquez sur `Valider
 > N'hésitez donc pas à nous en dire plus sur votre expérience personnelle avec OVHcloud via le formulaire proposé lors de la résiliation. Nous vous remercions par avance de votre contribution à l'amélioration de nos produits.
 >
 
-La résiliation de votre service aura lieu à la **date d'effet** indiquée dans le tableau « Mes services ». Si vous ne voyez pas le statut « Résiliation demandée » apparaître, rafraîchissez la page.
+La résiliation de votre service aura lieu à la **date d'effet** indiquée dans le tableau « Gestion de mes offres et services ». Si vous ne voyez pas le statut « Résiliation demandée » apparaître, rafraîchissez la page.
 
 ![demande de résiliation](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request-fr.png){.thumbnail}
 
@@ -152,7 +152,7 @@ Vous pouvez également [consulter votre consommation actuelle](/pages/public_clo
 > Vous pouvez annuler une demande de résiliation jusqu'à 24 heures avant la date de fin d'abonnement.
 >
 
-Pour annuler une demande de résiliation, connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), cliquez sur votre nom en haut à droite puis sur le bouton `Produits et services`{.action}.
+Pour annuler une demande de résiliation, connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), cliquez sur votre nom en haut à droite puis sur le bouton `Mes offres & services`{.action}.
 
 Cliquez ensuite sur le bouton `...`{.action} à droite du service faisant l'objet d'une demande de résiliation puis sur `Annuler la résiliation du service`{.action} 
 
@@ -160,7 +160,7 @@ Cliquez ensuite sur le bouton `...`{.action} à droite du service faisant l'obje
 
 Enfin, cliquez sur `Confirmer l'annulation`{.action}.
 
-L'annulation de la résiliation est à effet immédiat. Rafraîchissez la page « Mes services » si vous voyez toujours le statut « Résiliation demandée ».
+L'annulation de la résiliation est à effet immédiat. Rafraîchissez la page « Gestion de mes offres et services » si vous voyez toujours le statut « Résiliation demandée ».
 
 ## FAQ
 

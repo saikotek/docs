@@ -6,7 +6,7 @@ updated: 2024-11-12
 
 ## Objectif
 
-Le menu **Mes services** de votre espace client OVHcloud vous permet de vérifier le statut de vos services, de les renouveler, de modifier leur type de renouvellement, de régulariser des factures ou d'anticiper leur paiement.
+Le menu **Mes offres & services** de votre espace client OVHcloud vous permet de vérifier le statut de vos services, de les renouveler, de modifier leur type de renouvellement, de régulariser des factures ou d'anticiper leur paiement.
 
 Ce guide vous permettra de :
 
@@ -19,7 +19,7 @@ Ce guide vous permettra de :
 
 > [!primary]
 >
-> Selon votre lieu de résidence, la législation locale, ainsi que les solutions concernées, certains détails de ce guide peuvent varier ou ne pas s'appliquer à votre situation. Pour toute information, consultez vos contrats OVHcloud depuis votre [espace client](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr) : cliquez sur votre nom en haut à droite de votre écran, sur `Produits et services`{.action} puis sur l'onglet `Contrats`{.action}.
+> Selon votre lieu de résidence, la législation locale, ainsi que les solutions concernées, certains détails de ce guide peuvent varier ou ne pas s'appliquer à votre situation. Pour toute information, consultez vos contrats OVHcloud depuis votre [espace client](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr) : cliquez sur votre nom en haut à droite de votre écran, sur `Mes offres & services`{.action} puis sur l'onglet `Contrats`{.action}.
 >
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/dfpPCa0mUyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -72,13 +72,13 @@ Avant de poursuivre la lecture de ce guide, vous devez remplir les conditions su
 ## En pratique
 
 Connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr).<br>
-Cliquez sur votre nom dans le coin supérieur droit puis choisissez `Produits et services`{.action}.
+Cliquez sur votre nom dans le coin supérieur droit puis choisissez `Mes offres & services`{.action}.
 
 ![produits et services](/pages/assets/screens/control_panel/product-selection/right-column/products-services-fr.png){.thumbnail}
 
 ### Afficher le type de renouvellement <a name="renewal-type"></a>
 
-La page **Mes services** contient un tableau de gestion de vos services OVHcloud. Vous pouvez y retrouver leurs noms, le type de service, la disponibilité du service (`Actif` par défaut), son statut (type de renouvellement, action à réaliser, etc.), la prochaine date d'effet du renouvellement ou de la résiliation ainsi qu'un bouton `...`{.action} dédié aux actions possibles pour chaque service.
+La page **Gestion de mes offres et services** contient un tableau de gestion de vos services OVHcloud. Vous pouvez y retrouver leurs noms, le type de service, la disponibilité du service (`Actif` par défaut), son statut (type de renouvellement, action à réaliser, etc.), la prochaine date d'effet du renouvellement ou de la résiliation ainsi qu'un bouton `...`{.action} dédié aux actions possibles pour chaque service.
 
 ![mes services](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-fr.png){.thumbnail}
 
@@ -202,7 +202,7 @@ Le tableau ci-dessous détaille les actions groupées possibles.
 >> Si votre nom de domaine était également suspendu et a été renouvelé, le délai peut alors être plus long et aller jusqu'à 48 heures, correspondant au délai de propagation DNS.
 >> Afin de vous prémunir d'une indisponibilité d'accès pour tous vos services critiques, nous vous préconisons de privilégier le renouvellement automatique et de [vérifier régulièrement que vos moyens de paiement sont à jour](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods).
 > L'abonnement de mon service expire en juillet 2024. Nous sommes en janvier 2024 et je veux le renouveler pour un an. Est-ce que l'abonnement expirera alors en juillet 2025 ou en janvier 2025 ?
->> Lorsque vous prolongez le renouvellement d'un service (pour 1 an ou une période plus courte), cette période s'ajoute à la prochaine date d'effet visible dans le tableau « Mes services » . Dans votre cas, votre service sera renouvelé jusqu'en juillet 2025.
+>> Lorsque vous prolongez le renouvellement d'un service (pour 1 an ou une période plus courte), cette période s'ajoute à la prochaine date d'effet visible dans le tableau « Gestion de mes offres et services » . Dans votre cas, votre service sera renouvelé jusqu'en juillet 2025.
 > L'abonnement de mon service a expiré le 1er janvier 2024 et j'ai oublié de le renouveler. Je viens de le renouveler le 16 janvier 2024 pour 6 mois mais je constate qu'il expirera le 1er juillet 2024 et non le 16 juillet 2024. Est-ce que c'est normal ?
 >> Oui, c'est en effet normal, le renouvellement commence à la date d'expiration de l'abonnement.
 
