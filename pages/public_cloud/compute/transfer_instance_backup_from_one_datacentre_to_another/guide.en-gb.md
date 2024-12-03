@@ -1,12 +1,12 @@
 ---
 title: Downloading and transferring an instance backup from one OpenStack region to another
 excerpt: Find out how to download and transfer an instance backup from one OpenStack region to another while preserving the configuration and state of the instance
-updated: 2024-11-25
+updated: 2024-12-03
 ---
 
 ## Objective
 
-A situation may arise where you need to move your [Public Cloud instance](https://www.ovhcloud.com/en-gb/public-cloud/){.external} from one OpenStack region to another, either because you would prefer to move to a newly available OpenStack region or because you want to migrate from OVHcloud Labs to Public Cloud. 
+A situation may arise where you need to move your [Public Cloud instance](/links/public-cloud/compute) from one OpenStack region to another, either because you would prefer to move to a newly available OpenStack region or because you want to migrate from OVHcloud Labs to Public Cloud. 
 
 **This guide explains how to transfer an instance backup from one OpenStack region to another while preserving the configuration and state of the instance.**
 
@@ -14,13 +14,13 @@ A situation may arise where you need to move your [Public Cloud instance](https:
 
 In order to do the transfer, you will need an environment with:
 
-- OpenStack CLI. Use [our guide to know how to prepare the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api){.external}.
+- OpenStack CLI. Use [our guide to know how to prepare the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
 - Connectivity to OVHCloud OpenStack APIs.
 - Available storage that matches the instance disk size (for temporary backup storage).
 
 This environment will be used as a "jump host" to transfer the backup from one region to another. This environment can be an instance hosted on OVHCloud or your local machine. 
 
-You will also need a [Public Cloud instance](https://www.ovhcloud.com/en-gb/public-cloud/){.external} in your OVHcloud account.
+You will also need a [Public Cloud instance](/links/public-cloud/compute) in your OVHcloud account.
 
 
 ## Instructions

@@ -1,12 +1,12 @@
 ---
 title: "Télécharger et transférer la sauvegarde d'une instance d'une région OpenStack à une autre"
 excerpt: "Découvrez comment télécharger et transférer une sauvegarde d'instance d'une région OpenStack à une autre tout en préservant la configuration et l'état de l'instance"
-updated: 2024-11-25
+updated: 2024-12-03
 ---
 
 ## Objectif
 
-Vous pourriez être amené à déplacer votre [instance Public Cloud](https://www.ovhcloud.com/fr/public-cloud/) d'une région OpenStack à une autre. Soit parce que vous préférez migrer vers une nouvelle région OpenStack disponible ou parce que vous souhaitez migrer d'OVHcloud Labs vers Public Cloud.
+Vous pourriez être amené à déplacer votre [instance Public Cloud](/links/public-cloud/compute) d'une région OpenStack à une autre. Soit parce que vous préférez migrer vers une nouvelle région OpenStack disponible ou parce que vous souhaitez migrer d'OVHcloud Labs vers Public Cloud.
 
 **Découvrez comment transférer une sauvegarde d'instance d'une région OpenStack à une autre tout en préservant la configuration et l'état de l'instance.**
 
@@ -20,7 +20,7 @@ Pour effectuer le transfert, vous aurez besoin d'un environnement avec :
 
 Cet environnement sera utilisé comme « jump host » pour transférer la sauvegarde d'une région à une autre. Cet environnement peut être une instance hébergée sur OVHcloud ou sur votre machine locale.
 
-Vous aurez également besoin d’une [instance Public Cloud](https://www.ovhcloud.com/fr/public-cloud/) sur votre compte OVHcloud.
+Vous aurez également besoin d’une [instance Public Cloud](/links/public-cloud/compute) sur votre compte OVHcloud.
 
 ## En pratique
 
