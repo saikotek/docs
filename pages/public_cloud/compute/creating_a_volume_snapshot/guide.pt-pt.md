@@ -1,12 +1,8 @@
 ---
 title: "Criar uma snapshot de um volume"
 excerpt: 'Saiba como criar uma snapshot de um disco adicional Public Cloud'
-updated: 2023-04-21
+updated: 2024-12-03
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -27,7 +23,7 @@ Criar uma snapshot com um volume adicional corresponde geralmente a dois objetiv
 ## Requisitos
 
 - Ter acesso à [Área de Cliente OVHcloud](/links/manager)
-- Um volume [Block Storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) criado no seu projeto [Public Cloud](https://www.ovhcloud.com/pt/public-cloud/)
+- Um volume [Block Storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) criado no seu projeto [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project)
 
 ## Instruções
 
@@ -35,7 +31,9 @@ Aceda à [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public 
 
 ![Volume Snapshot](images/volume_snapshot01.png){.thumbnail}
 
-À direita do volume em questão, clique em `...`{.action} e depois em `Criar uma snapshot`{.action} (não é necessário desassociar primeiro o volume da sua instância.) No entanto, se pretender desassociar o seu volume, consulte [esta secção](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#em-linux_1) do guia correspondente para Linux e [esta secção](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#em-windows_1) para Windows.
+À direita do volume em causa, clique no botão `...`{.action} e, a seguir, em `Criar uma cópia de segurança`{.action} (não é necessário desassociar primeiro o volume da sua instância). No entanto, se pretender desassociar o seu volume, sugerimos que consulte a secção "Desassociar um volume"de [este manual](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_instance).
+
+De seguida, selecione `Volume Snapshot`{.action}, dê-lhe um nome e clique em `Criar o backup`{.action}.
 
 ![Volume Snapshot](images/volume_snapshot02.png){.thumbnail}
 
@@ -69,4 +67,4 @@ Clique no botão `...`{.action} para eliminar uma snapshot ou `Criar um volume`{
 
 [Aumentar o tamanho de um disco suplementar](/pages/public_cloud/compute/increase_the_size_of_an_additional_disk)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).
