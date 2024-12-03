@@ -31,7 +31,7 @@ Zaloguj się do [Panelu client OVHcloud](/links/manager), przejdź do sekcji `Pu
 
 ![Snapshoty wolumenów](images/volume_snapshot01.png){.thumbnail}
 
-Po prawej stronie wybranego wolumenu kliknij przycisk`...`{.action}, a następnie `Utwórz kopię zapasową`{.action} (nie ma potrzeby odłączania najpierw wolumenu od instancji). Jeśli jednak chcesz odłączyć wolumen, zapoznaj się z sekcją "Odłącz wolumen" w [tym przewodniku] (/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+Po prawej stronie wybranego wolumenu kliknij przycisk`...`{.action}, a następnie `Utwórz kopię zapasową`{.action} (nie ma potrzeby odłączania najpierw wolumenu od instancji). Jeśli jednak chcesz odłączyć wolumen, zapoznaj się z sekcją "Odłącz wolumen" w [tym przewodniku](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
 
 Następnie wybierz opcję `Volume Snapshot`{.action}, nadaj jej nazwę i kliknij przycisk `Utwórz kopię zapasową`{.action}.
 

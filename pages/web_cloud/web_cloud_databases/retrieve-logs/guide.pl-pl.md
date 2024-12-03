@@ -129,7 +129,7 @@ Działa poprzez pobieranie logów generowanych przez Twoją infrastrukturę / st
 
 Więcej informacji na temat Logs Data Platform znajdziesz w przewodniku wprowadzającym[Logs Data Platform](/pages/manage_and_operate/observability/logs_data_platform/getting_started_introduction_to_LDP) (EN).
 
-Ponieważ rozwiązania [Web Cloud Databases] (/links/web/databases) mogą być wykorzystywane z wieloma usługami (hosting, VPS, serwery dedykowane, etc.), mogą one, w uzupełnieniu dostępnych logów w czasie rzeczywistym, być subskrybowane przez strumień danych Logs Data Platform.
+Ponieważ rozwiązania [Web Cloud Databases](/links/web/databases) mogą być wykorzystywane z wieloma usługami (hosting, VPS, serwery dedykowane, etc.), mogą one, w uzupełnieniu dostępnych logów w czasie rzeczywistym, być subskrybowane przez strumień danych Logs Data Platform.
 
 Aby subskrybować rozwiązanie Web Cloud Databases ze strumieniem danych Logs Data Platform, wykonaj następujące czynności:
 
