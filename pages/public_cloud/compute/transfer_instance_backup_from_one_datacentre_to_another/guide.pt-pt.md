@@ -150,7 +150,7 @@ $ openstack image set --property "_system_cloud_property=windows" --property "di
 
 > [!warning]
 >
-> Se a sua instância for um servidor Windows, deve selecionar um flavor do tipo win-xx-xx (por exemplo, win-b2-15) e dispor de uma interface pública na rede Ext-Net. Sem estas condições, a autenticação junto do KMS OVHcloud não será possível e o seu servidor ficará com uma [licença não ativada](/pages/public_cloud/compute/ativate-windows-license-private-mode). Isto poderá implicar limitações, nomeadamente a ausência de atualizações. Tenha em conta que não é possível redimensionar uma instância Linux (por exemplo, b2-15) numa instância Windows (como win-b2-15). Para efetuar esta transição, é necessário criar uma nova instância.
+> Se a sua instância for um servidor Windows, deve selecionar um flavor do tipo win-xx-xx (por exemplo, win-b2-15) e dispor de uma interface pública na rede Ext-Net. Sem estas condições, a autenticação junto do KMS OVHcloud não será possível e o seu servidor ficará com uma [licença não ativada](/pages/public_cloud/compute/activate-windows-license-private-mode). Isto poderá implicar limitações, nomeadamente a ausência de atualizações. Tenha em conta que não é possível redimensionar uma instância Linux (por exemplo, b2-15) numa instância Windows (como win-b2-15). Para efetuar esta transição, é necessário criar uma nova instância.
 >
 
 Para criar uma instância a partir do seu backup, utilize o ID da cópia de segurança como imagem com este comando:
