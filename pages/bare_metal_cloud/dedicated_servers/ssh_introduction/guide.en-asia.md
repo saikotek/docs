@@ -1,7 +1,7 @@
 ---
 title: How to get started with SSH connections
 excerpt: Find out how you can use SSH to access your OVHcloud server from most desktop clients
-updated: 2024-11-29
+updated: 2024-12-03
 ---
 
 <style>
@@ -40,12 +40,13 @@ The SSH (Secure Shell) communication protocol is the preferred means of establis
 
 ## Instructions
 
-There are multiple ways to authenticate a connection to a remote host via SSH. The following instructions will involve the authentication method with **username and password**. You can also configure key-based authentication to enable secure logins without a password exchange. Find the details in our guides: 
+There are multiple ways to authenticate a connection to a remote host via SSH. The following instructions will involve the authentication method with **username and password**.  
+You can also configure key-based authentication to enable secure logins without a password exchange. Find the details in our guides: 
 
 - [How to create and use keys for SSH authentication](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 - [How to create and use keys for SSH authentication with PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-Initial login credentials (username and password) are sent to you by email after a server installation or reinstallation from the [OVHcloud Control Panel](/links/manager).
+Login credentials (username and password) are sent to you by email at the first installation or when a server is reinstalled in the [OVHcloud Control Panel](/links/manager).
 
 The username corresponds to the operating system, for example `ubuntu` or `debian`. To connect, you also need to specify the IP address or the `hostname` of the server. These details are available in the installation email and in the Control Panel.
 
@@ -121,7 +122,7 @@ To resolve this, use the following command with the IP address of your server:
 ssh-keygen -f ~/.ssh/known_hosts -R 203.0.113.100
 ```
 
-Alternatively, you can open the `known_hosts` file located in your local user account's `home` folder with a text editor.
+Alternatively, you can edit the `known_hosts` file located in your local user account's `home` folder with a text editor.
 
 Example:
 
@@ -143,7 +144,7 @@ Save the changes and exit the editor. You will have to confirm the new fingerpri
 
 Recent versions of the Windows OS include OpenSSH, so you can use it directly from the native command line applications (PowerShell or Command Prompt).
 
-Right-click on the Windows start button and select `Windows PowerShell`{.action}. Alternatively, use the search field to start one of the command line applications.
+Right-click on the Windows `Start`{.action} button and select `Windows PowerShell`{.action}. Alternatively, use the search field to start one of the command line applications.
 
 ![PowerShell](images/windowsps.png){.thumbnail}
 

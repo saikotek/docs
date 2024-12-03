@@ -1,7 +1,7 @@
 ---
 title: Comment bien débuter avec les connexions SSH
 excerpt: "Découvrez comment utiliser SSH pour accéder à votre serveur OVHcloud depuis la plupart des postes de travail"
-updated: 2024-11-29
+updated: 2024-12-03
 ---
 
 <style>
@@ -42,7 +42,8 @@ Le protocole de communication SSH (Secure Shell) est le moyen privilégié pour 
 
 ## En pratique
 
-Il existe plusieurs façons d'authentifier une connexion à un hôte distant via SSH. Les instructions suivantes concernent la méthode d'authentification avec **nom d'utilisateur et mot de passe**. Vous pouvez également configurer l'authentification par clé pour activer des connexions sécurisées sans échange de mot de passe. Retrouvez les détails dans nos guides :
+Il existe plusieurs façons d'authentifier une connexion à un hôte distant via SSH. Les instructions suivantes concernent la méthode d'authentification avec **nom d'utilisateur et mot de passe**.  
+Vous pouvez également configurer l'authentification par clé pour activer des connexions sécurisées sans échange de mot de passe. Retrouvez les détails dans nos guides :
 
 - [Comment créer et utiliser des clés pour l'authentification SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 - [Comment créer et utiliser des clés pour l'authentification SSH avec PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
@@ -123,7 +124,7 @@ Pour résoudre ce problème, utilisez la commande suivante avec l'adresse IP de 
 ssh-keygen -f ~/.ssh/known_hosts -R 203.0.113.100
 ```
 
-Vous pouvez également ouvrir le fichier `known_hosts` situé dans le dossier `home` de votre compte d'utilisateur local à l'aide d'un éditeur de texte.
+Vous pouvez également modifier le fichier `known_hosts` situé dans le dossier `home` de votre compte d'utilisateur local à l'aide d'un éditeur de texte.
 
 Exemple :
 
