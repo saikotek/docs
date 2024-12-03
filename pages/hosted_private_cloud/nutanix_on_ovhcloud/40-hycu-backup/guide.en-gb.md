@@ -1,7 +1,7 @@
 ---
 title: Configuring HYCU Backup
 excerpt: Installing HYCU Backup on a Nutanix cluster
-updated: 2024-12-02
+updated: 2024-12-03
 ---
 
 <style>
@@ -32,17 +32,16 @@ HYCU for Nutanix is a backup software available for Nutanix.
 
 ## Requirements
 
-
 - A valid [HYCU for OVHcloud](/links/hycu) license in your OVHcloud account (the first step of this guide will detail the procedure to follow).
-- A Nutanix cluster on OVHcloud in your OVHcloud account.
-- Access to your [OVHcloud customer space](/links/manager).
+- A Nutanix on OVHcloud cluster in your OVHcloud account.
+- Access to your [OVHcloud Control Panel](/links/manager).
 - Access to the cluster via Prism Central.
 - A Public Cloud project with a High Performance Object Storage type storage bucket, with a user with read and write permissions for this bucket. You can find more information on how to create a Public Cloud project and how to use the High Performance Object Storage service on the following pages:
     - [Creating your first OVHcloud Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project).
     - [Getting started with S3 High Performance](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
 - 60 GB of storage, 8 GB of memory, and 8 cores on your Nutanix Cluster for the HYCU Instance/Appliance.
 
-## How it works
+## Instructions
 
 ### Content Overview
 
@@ -73,7 +72,7 @@ HYCU for Nutanix is a backup software available for Nutanix.
     - [Restore a virtual machine](#restoring-vm)
     - [Retrieve a file](#restoring-file)
     - [Restore an application](#restoring-app)
-    
+
 ### Option 1 - You wish to order a HYCU for OVHcloud license <a name="option1"></a>
 
 We offer different license packs based on the number of virtual machines (VMs) used by your Nutanix workloads.
@@ -82,7 +81,7 @@ For more information, visit our [HYCU for OVHcloud](/links/hycu) page.
 
 #### Order a HYCU for OVHcloud license <a name="license-order"></a>
 
-Log in to your [OVHcloud customer space](/links/manager) and navigate to `Hosted Private Cloud`{.action} and `Storage and Backup`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager) and navigate to `Hosted Private Cloud`{.action} and `Storage and Backup`{.action}.
 
 Click on `HYCU`{.action} then `All My Licenses`{.action}.
 
@@ -114,7 +113,7 @@ Click `Download Request`{.action} and download the file.
 
 ![Activate a HYCU license](images/hycu-for-ovhcloud-license-activation-04.png){.thumbnail}
 
-Back in the OVHcloud customer space, drag and drop the downloaded file into the open window, then click `Activate`{.action}.
+Back in the OVHcloud Control Panel, drag and drop the downloaded file into the open window, then click `Activate`{.action}.
 
 ![Activate a HYCU license](images/hycu-for-ovhcloud-license-activation-05.png){.thumbnail}
 
@@ -124,7 +123,7 @@ After verification, the status of your license will change to `Active`.
 
 Once the license is active, click the `Download License`{.action} button (at the bottom of the `General Information` box).
 
-Return to the `Licensing`{.action} menu of your Hybrid Cloud HYCU instance/appliance and upload the license you just downloaded from the OVHcloud customer space.
+Return to the `Licensing`{.action} menu of your Hybrid Cloud HYCU instance/appliance and upload the license you just downloaded from the OVHcloud Control Panel.
 
 ![Activate a HYCU license](images/hycu-for-ovhcloud-license-activation-07.png){.thumbnail}
 
@@ -138,7 +137,7 @@ If your HYCU technical configuration has changed, you will need to make a new re
 
 /// details | Regenerate a HYCU for OVHcloud license
 
-Log in to your [OVHcloud customer space](/links/manager) and navigate to `Hosted Private Cloud`{.action} and `Storage and Backup`{.action}. Click on `HYCU`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager) and navigate to `Hosted Private Cloud`{.action} and `Storage and Backup`{.action}. Click on `HYCU`{.action}.
 
 Once in your license dashboard, click the `Regenerate License`{.action} button (in the `Shortcuts` box).
 
@@ -157,7 +156,7 @@ Then follow the same process as for license activation:
 
 /// details | How to cancel a HYCU for OVHcloud subscription
 
-Log in to your [OVHcloud customer space](/links/manager) and navigate to `Hosted Private Cloud`{.action} and `Storage and Backup`{.action}. Click on `HYCU`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager) and navigate to `Hosted Private Cloud`{.action} and `Storage and Backup`{.action}. Click on `HYCU`{.action}.
 
 Once in your license dashboard, click `Cancel License`{.action} in the `Subscription` box.
 
@@ -171,7 +170,7 @@ Then confirm the cancellation by typing `TERMINATE` in the provided box, then cl
 
 #### Upgrade a HYCU for OVHcloud license <a name="license-upgrade"></a>
 
-To upgrade your offer, you must first cancel your current HYCU for OVHcloud subscription (see above) and then [order a new subscription](/links/hycu) with the required virtual machine pack.
+To upgrade your offer, you must first cancel your current HYCU for OVHcloud subscription (see above) and then [order a new subscription](/links/hycu) with the required virtual machines pack.
 
 ### Option 2 - You already have a HYCU license ordered from HYCU <a name="option2"></a>
 
@@ -181,7 +180,7 @@ To upgrade your offer, you must first cancel your current HYCU for OVHcloud subs
 
 Log in to **Prism Central**.
 
-For more information on how to connect to the cluster, refer to the " [Go further](#gofurther) " section of this guide.
+For more information on how to connect to the cluster, refer to the [Go further](#gofurther) section of this guide.
 
 From the main menu, click `Images`{.action} from the `Compute & Storage menu`{.action}.
 
@@ -817,8 +816,8 @@ The database is restored into a new database.
 
 [OVHcloud Load Balancer documentation](/products/network-load-balancer)
 
-[Our OVHcloud Object Storage solutions](https://www.ovhcloud.com/en-gb/public-cloud/object-storage/)
+[Our OVHcloud Object Storage solutions](/links/public-cloud/object-storage)
 
 If you need training or technical assistance for implementing our solutions, contact your sales representative or click [this link](/links/professional-services) to get a quote and request a personalized analysis of your project from our Professional Services team experts.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

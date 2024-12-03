@@ -1,7 +1,7 @@
 ---
 title: Configurer HYCU Backup
 excerpt: "Installation de la sauvegarde HYCU Backup sur un cluster Nutanix"
-updated: 2024-12-02
+updated: 2024-12-03
 ---
 
 <style>
@@ -816,7 +816,7 @@ La base de données est restaurée dans une nouvelle base de données.
 
 [Documentation OVHcloud Load Balancer](/products/network-load-balancer)
 
-[Nos solutions OVHcloud Object Storage](https://www.ovhcloud.com/fr/public-cloud/object-storage/)
+[Nos solutions OVHcloud Object Storage](/links/public-cloud/object-storage)
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
