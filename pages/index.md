@@ -682,6 +682,7 @@
             + [Updating a Load Balancer size via the Horizon interface](public_cloud/public_cloud_network_services/update-load-balancer-size)
         + [Tutorials](public-cloud-network-tutorials)
             + [Configuring a secure Load Balancer with Let's Encrypt](public_cloud/public_cloud_network_services/tutorials-01-secure-lb-letsencrypt)
+            + [Configuring a `TERMINATED_HTTPS` listener via CLI / Horizon](pages/public_cloud/public_cloud_network_services/tutorials-02-secure-lb-external-certificat)
             + [Local Zone VPN-as-a-Service (VPNaaS) with Tailscale Integration](public_cloud/compute/local-zones-vpn-tailscale-integration)
             + [Securing your OVHcloud infrastructure with Stormshield Network Security](public_cloud/public_cloud_network_services/tutorial-stormshield_network_security_vrack)
             + [Securing your OVHcloud infrastructure with Ubika WAAP Gateway](public_cloud/public_cloud_network_services/tutorial-ubika_vrack)
