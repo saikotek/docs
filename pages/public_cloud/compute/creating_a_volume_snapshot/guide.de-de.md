@@ -1,6 +1,6 @@
 ---
 title: "Volume Snapshot erstellen"
-excerpt: 'Erfahren Sie hier, wie Sie einen Snapshot einer Public Cloud Disk erstellen'
+excerpt: Erfahren Sie hier, wie Sie einen Snapshot einer Public Cloud Disk erstellen
 updated: 2024-12-03
 ---
 
@@ -31,7 +31,7 @@ Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein. Klicken Si
 
 ![Volume Snapshot](images/volume_snapshot01.png){.thumbnail}
 
-Rechts neben dem betreffenden Volume klicken Sie auf den Button `...`{.action} und dann auf `Backup erstellen`{.action} (Sie müssen das Volume nicht zuerst von seiner Instanz trennen). Wenn Sie Ihr Volume jedoch trennen möchten, lesen Sie bitte den Abschnitt "Volume abtrennen" in [dieser Anleitung](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+Rechts neben dem betreffenden Volume klicken Sie auf den Button `...`{.action} und dann auf `Backup erstellen`{.action}. (Sie müssen das Volume nicht zuerst von seiner Instanz trennen.) Wenn Sie Ihr Volume jedoch trennen möchten, folgen Sie dem Abschnitt "Volume abtrennen" in [dieser Anleitung](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
 
 Wählen Sie anschließend `Volume Snapshot`{.action} aus, benennen Sie ihn und klicken Sie auf `Backup erstellen`{.action}.
 
