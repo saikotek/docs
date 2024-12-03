@@ -40,7 +40,8 @@ Il protocollo di comunicazione SSH (Secure Shell) è il mezzo preferito per stab
 
 ## Procedura
 
-Esistono diversi modi per autenticare una connessione a un host remoto via SSH. Le istruzioni seguenti riguardano il metodo di autenticazione con **nome utente e password**. È inoltre possibile configurare l'autenticazione a chiave per attivare connessioni protette senza lo scambio di password. Per maggiori dettagli, consulta le nostre guide:
+Esistono diversi modi per autenticare una connessione a un host remoto via SSH. Le istruzioni seguenti riguardano il metodo di autenticazione con **nome utente e password**.  
+È inoltre possibile configurare l'autenticazione a chiave per attivare connessioni protette senza lo scambio di password. Per maggiori dettagli, consulta le nostre guide:
 
 - [Come creare e utilizzare le chiavi per l’autenticazione SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 - [Come creare e utilizzare chiavi per l’autenticazione SSH con PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)

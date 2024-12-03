@@ -40,7 +40,7 @@ Das Kommunikationsprotokoll SSH (Secure Shell) ist die bevorzugte Methode zum Au
 
 ## In der praktischen Anwendung
 
-Es gibt mehrere Methoden, um eine Verbindung zu einem Remote-Host mittels SSH zu authentifizieren. Die folgenden Anweisungen beziehen sich auf die Authentifizierungsmethode über  **Benutzername und Kennwort**.  
+Es gibt mehrere Methoden, um eine Verbindung zu einem Remote-Host mittels SSH zu authentifizieren. Die folgenden Anweisungen beziehen sich auf die Authentifizierungsmethode über **Benutzername und Kennwort**.  
 Sie können auch eine schlüsselbasierte Authentifizierung konfigurieren, um gesicherte Verbindungen ohne Passwortaustausch zu aktivieren. Weitere Informationen dazu finden Sie in unseren Anleitungen:
 
 - [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
@@ -130,7 +130,7 @@ Beispiel:
 nano ~/.ssh/known_hosts
 ```
 
-Lokalisieren Sie den in der Warnmeldung angegebenen Fingerprint ("offending key"), in diesem Beispiel wäre es die dritte Zeile. Markieren Sie die gesamte Zeile und löschen Sie sie.
+Identifizieren Sie den in der Warnmeldung angegebenen Fingerprint ("offending key"), in diesem Beispiel wäre es die dritte Zeile. Markieren Sie die gesamte Zeile und löschen Sie sie.
 
 Speichern Sie die Änderungen und beenden Sie den Editor. Sie müssen den neuen Schlüssel-Fingerprint bestätigen, wenn Sie sich das nächste Mal beim Server anmelden.
 

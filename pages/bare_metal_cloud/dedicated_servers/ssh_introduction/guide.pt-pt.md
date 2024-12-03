@@ -40,7 +40,8 @@ O protocolo de comunicação SSH (Secure Shell) é a forma preferida de estabele
 
 ## Instruções
 
-Existem várias formas de autenticar uma ligação a um host remoto através de SSH. As instruções a seguir referem-se ao método de autenticação com **nome de utilizador e palavra-passe**. Pode também configurar a autenticação de chave para ativar ligações seguras sem trocar as palavras-passe. Encontre os detalhes nos nossos guias:
+Existem várias formas de autenticar uma ligação a um host remoto através de SSH. As instruções a seguir referem-se ao método de autenticação com **nome de utilizador e palavra-passe**.  
+Pode também configurar a autenticação de chave para ativar ligações seguras sem trocar as palavras-passe. Encontre os detalhes nos nossos guias:
 
 - [Como criar e utilizar chaves para a autenticação SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 - [Como criar e utilizar chaves para a autenticação SSH com PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)

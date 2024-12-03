@@ -40,7 +40,8 @@ Protokół SSH (Secure Shell) jest preferowanym sposobem nawiązywania szyfrowan
 
 ## W praktyce
 
-Istnieje kilka sposobów uwierzytelnienia połączenia ze zdalnym hostem przez SSH. Poniższe instrukcje dotyczą metody uwierzytelniania za pomocą **nazwa użytkownika i hasło**. Można również skonfigurować uwierzytelnianie za pomocą klucza w celu włączenia bezpiecznych połączeń bez wymiany hasła. Szczegółowe informacje znajdziesz w naszych przewodnikach:
+Istnieje kilka sposobów uwierzytelnienia połączenia ze zdalnym hostem przez SSH. Poniższe instrukcje dotyczą metody uwierzytelniania za pomocą **nazwa użytkownika i hasło**.  
+Można również skonfigurować uwierzytelnianie za pomocą klucza w celu włączenia bezpiecznych połączeń bez wymiany hasła. Szczegółowe informacje znajdziesz w naszych przewodnikach:
 
 - [Jak tworzyć i używać kluczy do uwierzytelniania SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 - [Jak tworzyć i używać kluczy do uwierzytelniania SSH za pomocą PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
