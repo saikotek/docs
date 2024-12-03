@@ -103,7 +103,7 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 
 > [!warning]
 >
-> Si votre instance utilise une image Windows, vous devez ajouter des propriétés spécifiques. Sans cela, lors de la création de l’instance via l'espace client OVHcloud, il ne sera pas possible d’associer une flavor de type win-x-x. Ce type de flavor, et uniquement celui-là, permet l’authentification auprès du [KMS OVHcloud](/pages/bare_metal_cloud/dedicated_servers/windows_key).
+> Si votre instance utilise une image Windows, vous devez ajouter des propriétés spécifiques. Sans cela, lors de la création de l’instance via l'espace client OVHcloud, il ne sera pas possible d’associer une flavor de type win-x-x. Ce type de flavor, et uniquement celui-là, permet l’authentification auprès du [KMS OVHcloud](/pages/manage_and_operate/kms/quick-start).
 >
 
 Ajout des propriétés spécifiques à la création de l'image :
