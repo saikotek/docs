@@ -1,16 +1,12 @@
 ---
 title: Descargar y transferir la copia de seguridad de una instancia de una región de OpenStack a otra
 excerpt: Cómo descargar y transferir una copia de seguridad de una instancia de una región de OpenStack a otra conservando la configuración y el estado de la instancia
-updated: 2023-09-25
+updated: 2024-12-03
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
 
 ## Objetivo
 
-Es posible que tenga que mover su [instancia Public Cloud](https://www.ovhcloud.com/es-es/public-cloud/) de una región de OpenStack a otra. O bien porque prefiere migrar a una nueva región de OpenStack disponible, o bien porque quiere migrar de OVHcloud Labs a Public Cloud.
+Es posible que tenga que mover su [instancia Public Cloud](/links/public-cloud/compute) de una región de OpenStack a otra. O bien porque prefiere migrar a una nueva región de OpenStack disponible, o bien porque quiere migrar de OVHcloud Labs a Public Cloud.
 
 **Esta guía explica cómo transferir una copia de seguridad de una instancia de una región de OpenStack a otra conservando la configuración y el estado de la instancia.**
 
@@ -18,13 +14,13 @@ Es posible que tenga que mover su [instancia Public Cloud](https://www.ovhcloud.
 
 Para realizar la transferencia, necesitará un entorno con:
 
-- CLI OpenStack. Consulte nuestra guía «[Cómo preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)».
+- CLI OpenStack. Consulte nuestra guía [Cómo preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
 - Conectividad a la API OpenStack de OVHcloud.
 - Espacio de almacenamiento disponible correspondiente al tamaño del disco de la instancia (para el almacenamiento de backup temporal).
 
 Este entorno se utilizará como «jump host» para transferir la copia de seguridad de una región a otra. Este entorno puede ser una instancia alojada en OVHcloud o en su máquina local.
 
-También necesitará una [instancia de Public Cloud](https://www.ovhcloud.com/es-es/public-cloud/) en su cuenta de OVHcloud.
+También necesitará una [instancia de Public Cloud](/links/public-cloud/compute) en su cuenta de OVHcloud.
 
 ## Procedimiento
 
@@ -105,6 +101,23 @@ Para transferir la copia de seguridad a la nueva región de OpenStack, utilice e
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow snap_server1
 ```
 
+> [!warning]
+>
+> Si la instancia utiliza una imagen de Windows, deberá agregar propiedades específicas. De lo contrario, al crear la instancia en el área de cliente de OVHcloud, no será posible asociar un *flavor* de tipo win-x-x. Este tipo de *flavor*, y solo este, permite la autenticación ante el [KMS OVHcloud](/pages/manage_and_operate/kms/quick-start).
+>
+
+Agregando propiedades específicas de la creación de la imagen:
+
+```bash
+$ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
+```
+
+Agregando propiedades específicas después de crear la imagen:
+
+```bash
+$ openstack image set --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" <image_uuid>
+```
+
 ```text
 +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Field | Value |
@@ -133,6 +146,11 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 
 ### Crear una instancia a partir del backup
 
+> [!warning]
+>
+> Si su instancia es un servidor Windows, deberá seleccionar un *flavor* de tipo win-xx-xx (por ejemplo, win-b2-15) y disponer de una interfaz pública en la red Ext-Net. Sin estas condiciones, no será posible autenticarse en el KMS de OVHcloud, y su servidor permanecerá con una [licencia no activada](/pages/public_cloud/compute/activate-windows-license-private-mode). Esto podría dar lugar a limitaciones, como la ausencia de actualizaciones. Tenga en cuenta que no es posible redimensionar una instancia Linux (por ejemplo, b2-15) en una instancia Windows (como win-b2-15). Para realizar esta transición, es necesario volver a crear una nueva instancia.
+>
+
 Para crear una instancia a partir de su copia de seguridad, utilice el ID de copia de seguridad como imagen con este comando:
 
 ```bash
@@ -141,4 +159,4 @@ $ openstack server create --key-name SSHKEY --flavor 98c1e679-5f2c-4069-b4da-4a4
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

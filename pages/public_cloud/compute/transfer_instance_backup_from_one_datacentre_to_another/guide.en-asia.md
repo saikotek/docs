@@ -1,12 +1,12 @@
 ---
 title: Downloading and transferring an instance backup from one OpenStack region to another
 excerpt: Find out how to download and transfer an instance backup from one OpenStack region to another while preserving the configuration and state of the instance
-updated: 2023-09-25
+updated: 2024-12-03
 ---
 
 ## Objective
 
-A situation may arise where you need to move your [Public Cloud instance](https://www.ovhcloud.com/asia/public-cloud/){.external} from one OpenStack region to another, either because you would prefer to move to a newly available OpenStack region or because you want to migrate from OVHcloud Labs to Public Cloud. 
+A situation may arise where you need to move your [Public Cloud instance](/links/public-cloud/compute) from one OpenStack region to another, either because you would prefer to move to a newly available OpenStack region or because you want to migrate from OVHcloud Labs to Public Cloud. 
 
 **This guide explains how to transfer an instance backup from one OpenStack region to another while preserving the configuration and state of the instance.**
 
@@ -14,13 +14,13 @@ A situation may arise where you need to move your [Public Cloud instance](https:
 
 In order to do the transfer, you will need an environment with:
 
-- OpenStack CLI. Use [our guide to know how to prepare the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api){.external}.
+- OpenStack CLI. Use [our guide to know how to prepare the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
 - Connectivity to OVHCloud OpenStack APIs.
 - Available storage that matches the instance disk size (for temporary backup storage).
 
 This environment will be used as a "jump host" to transfer the backup from one region to another. This environment can be an instance hosted on OVHCloud or your local machine. 
 
-You will also need a [Public Cloud instance](https://www.ovhcloud.com/asia/public-cloud/){.external} in your OVHcloud account.
+You will also need a [Public Cloud instance](/links/public-cloud/compute) in your OVHcloud account.
 
 
 ## Instructions
@@ -103,6 +103,23 @@ To transfer the backup to the new OpenStack region, use this command:
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow snap_server1
 ```
 
+> [!warning]
+>
+> If your instance uses a Windows image, you need to add specific properties. Otherwise, when creating the instance via the OVHcloud Control Panel, it will not be possible to associate a flavor of the win-x-x type. This type of flavor, and only this one, enables authentication to the [OVHcloud KMS](/pages/manage_and_operate/kms/quick-start).
+>
+
+Add specific properties for image creation:
+
+```bash
+$ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
+```
+
+Add specific properties after image creation:
+
+```bash
+$ openstack image set --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" <image_uuid>
+```
+
 ```text
 +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Field            | Value                                                                                                                                                                                     |
@@ -130,6 +147,11 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 ```
 
 ### Create an instance from your backup
+
+> [!warning]
+>
+> If your instance is a Windows server, you must select a flavor of type win-xx-xx (for example, win-b2-15) and have a public interface on the Ext-Net network. Without these conditions, authentication with the OVHcloud KMS will not be possible, and your server will remain with an [unactivated licence](/pages/public_cloud/compute/activate-windows-license-private-mode). This could lead to limitations, including the absence of updates. Please note that it is not possible to resize a Linux instance (such as b2-15) to a Windows instance (such as win-b2-15). To make this transition, you need to recreate a new instance.
+>
 
 To create an instance from your backup, use the backup ID as the image with this command:
 

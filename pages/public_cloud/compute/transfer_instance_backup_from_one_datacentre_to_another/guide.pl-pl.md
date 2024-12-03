@@ -1,16 +1,12 @@
 ---
 title: "Pobieranie i przesyłanie kopii zapasowej instancji z jednego regionu OpenStack do innego"
 excerpt: "Dowiedz się, jak pobrać i przesłać kopię zapasową instancji z jednego regionu OpenStack do innego, zachowując jednocześnie stan i konfigurację instancji"
-updated: 2023-09-25
+updated: 2024-12-03
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji” na tej stronie.
->
 
 ## Wprowadzenie
 
-Może być konieczne przeniesienie [instancji Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) z jednego regionu OpenStack do innego. Ponieważ wolisz migrować do nowego dostępnego regionu OpenStack lub chcesz migrować z OVHcloud Labs na Public Cloud.
+Może być konieczne przeniesienie [instancji Public Cloud](/links/public-cloud/compute) z jednego regionu OpenStack do innego. Ponieważ wolisz migrować do nowego dostępnego regionu OpenStack lub chcesz migrować z OVHcloud Labs na Public Cloud.
 
 **Dowiedz się, jak przenieść kopię zapasową instancji z jednego regionu OpenStack do innego, zachowując jednocześnie stan i konfigurację instancji.**
 
@@ -24,7 +20,7 @@ Do przeniesienia będziesz potrzebował środowiska z:
 
 Środowisko to będzie używane jako "jump host" do przenoszenia kopii zapasowej z jednego regionu do innego. Środowisko to może być instancją hostowaną w OVHcloud lub na Twojej maszynie lokalnej.
 
-Będziesz również potrzebował [instancji Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) na koncie OVHcloud.
+Będziesz również potrzebował [instancji Public Cloud](/links/public-cloud/compute) na koncie OVHcloud.
 
 ## W praktyce
 
@@ -107,6 +103,23 @@ Aby przenieść kopię zapasową do nowego regionu OpenStack, użyj poniższego 
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow snap_server1
 ```
 
+> [!warning]
+>
+> Jeśli Twoja instancja używa obrazu systemu Windows, musisz dodać określone właściwości. Bez tej zmiany, podczas tworzenia instancji w Panelu klienta OVHcloud, nie będzie można powiązać flavor typu win-x-x. Tylko ten rodzaj flavor pozwala na uwierzytelnienie w [KMS OVHcloud](/pages/manage_and_operate/kms/quick-start).
+>
+
+Dodanie właściwości specyficznych dla obrazu:
+
+```bash
+$ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
+```
+
+Dodanie określonych właściwości po utworzeniu obrazu:
+
+```bash
+$ openstack image set --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" <image_uuid>
+```
+
 ```text
 +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Field | Value |
@@ -135,8 +148,12 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 
 ### Tworzenie instancji z kopii zapasowej
 
-Aby utworzyć instancję na podstawie kopii zapasowej, użyj identyfikatora kopii zapasowej jako obrazu za pomocą polecenia:
+> [!warning]
+>
+> Jeśli Twoja instancja jest serwerem Windows, musisz wybrać flavor typu win-xx-xx (na przykład win-b2-15) i dysponować publicznym interfejsem w sieci Ext-Net. W przeciwnym razie uwierzytelnienie w KMS OVHcloud nie będzie możliwe, a Twój serwer pozostanie w [nieaktywna licencja](/pages/public_cloud/compute/activate-windows-license-private-mode). Może to spowodować pewne ograniczenia, w tym brak aktualizacji. Pamiętaj, że nie można zmienić rozmiaru instancji Linux (np. b2-15) na instancję Windows (np. win-b2-15). W tym celu utwórz ponownie nową instancję.
+>
 
+Aby utworzyć instancję na podstawie kopii zapasowej, użyj identyfikatora kopii zapasowej jako obrazu za pomocą polecenia:
 
 ```bash
 $ openstack server create --key-name SSHKEY --flavor 98c1e679-5f2c-4069-b4da-4a4f7179b758 --image 0a3f5901-2314-438a-a7af-ae984dcbce5c Server1_from_snap
@@ -144,5 +161,5 @@ $ openstack server create --key-name SSHKEY --flavor 98c1e679-5f2c-4069-b4da-4a4
 
 ## Sprawdź również
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).
 
