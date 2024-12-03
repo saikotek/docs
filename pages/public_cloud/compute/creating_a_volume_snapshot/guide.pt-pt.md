@@ -1,7 +1,7 @@
 ---
 title: "Criar uma snapshot de um volume"
 excerpt: 'Saiba como criar uma snapshot de um disco adicional Public Cloud'
-updated: 2024-12-03
+updated: 2023-04-21
 ---
 
 > [!primary]

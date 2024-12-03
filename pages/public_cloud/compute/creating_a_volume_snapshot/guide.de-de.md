@@ -1,7 +1,7 @@
 ---
 title: "Volume Snapshot erstellen"
 excerpt: 'Erfahren Sie hier, wie Sie einen Snapshot einer Public Cloud Disk erstellen'
-updated: 2024-12-03
+updated: 2023-04-21
 ---
 
 > [!primary]
