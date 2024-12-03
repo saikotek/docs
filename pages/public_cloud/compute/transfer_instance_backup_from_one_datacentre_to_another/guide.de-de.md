@@ -103,10 +103,10 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 
 > [!warning]
 >
-> Wenn Ihre Instanz ein Windows-Abbild verwendet, müssen Sie bestimmte Eigenschaften hinzufügen. Andernfalls ist es bei der Erstellung der Instanz über das OVHcloud Kundencenter nicht möglich, eine Flavor vom Typ win-x-x zu verbinden. Diese Art von Flavor ermöglicht ausschließlich die Authentifizierung beim [OVHcloud KMS](/pages/manage_and_operate/kms/quick-start).
+> Wenn Ihre Instanz ein Windows-Image verwendet, müssen Sie bestimmte Eigenschaften hinzufügen. Andernfalls ist es bei der Erstellung der Instanz über das OVHcloud Kundencenter nicht möglich, einen Flavor vom Typ win-x-x zu verbinden. Nur diese Art von Flavor ermöglicht die Authentifizierung beim [OVHcloud KMS](/pages/manage_and_operate/kms/quick-start).
 >
 
-Spezifische Eigenschaften für die Abbilderstellung werden hinzugefügt:
+Spezifische Eigenschaften für die Image-Erstellung werden hinzugefügt:
 
 ```bash
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
@@ -148,7 +148,7 @@ $ openstack image set --property "_system_cloud_property=windows" --property "di
 
 > [!warning]
 >
-> Wenn es sich bei Ihrer Instanz um einen Windows-Server handelt, müssen Sie ein Flavor vom Typ win-xx-xx-xx (z. B. win-b2-15) auswählen und über eine öffentliche Schnittstelle im Ext-Net-Netzwerk verfügen. Ohne diese Bedingungen ist die Authentifizierung beim OVHcloud KMS nicht möglich, und Ihr Server wird mit einer [nicht aktivierten Lizenz](/pages/public_cloud/compute/activate-windows-license-private-mode) weiter betrieben. Dies kann zu Einschränkungen führen, insbesondere zu fehlenden Updates. Es ist nicht möglich, die Größe einer Linux-Instanz (z. B. b2-15) in eine Windows-Instanz (z. B. win-b2-15) zu ändern. Für diesen Übergang muss eine neue Instanz erstellt werden.
+> Wenn es sich bei Ihrer Instanz um einen Windows-Server handelt, müssen Sie einen Flavor vom Typ win-xx-xx-xx (z.B. win-b2-15) auswählen und über eine öffentliche Schnittstelle im Ext-Net-Netzwerk verfügen. Ohne diese Bedingungen ist die Authentifizierung beim OVHcloud KMS nicht möglich, und Ihr Server wird mit einer [nicht aktivierten Lizenz](/pages/public_cloud/compute/activate-windows-license-private-mode) weiter betrieben. Dies kann zu Einschränkungen führen, insbesondere zu fehlenden Updates. Es ist nicht möglich, eine Linux-Instanz (z.B. b2-15) in eine Windows-Instanz (z.B. win-b2-15) zu ändern. Für diesen Wechsel muss eine neue Instanz erstellt werden.
 >
 
 Um eine Instanz aus Ihrem Backup zu erstellen, verwenden Sie die Backup-ID als Image mit folgendem Befehl:
