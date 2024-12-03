@@ -1,16 +1,12 @@
 ---
 title: Backup einer Instanz herunterladen und in eine andere OpenStack-Region übertragen
 excerpt: Erfahren Sie hier, wie Sie ein Instanz-Backup herunterladen und von einer OpenStack-Region in eine andere verschieben und dabei die Konfiguration und den Zustand der Instanz beibehalten
-updated: 2023-09-25
+updated: 2024-12-03
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
-Möglicherweise müssen Sie Ihre [Public Cloud Instanz](https://www.ovhcloud.com/de/public-cloud/) von einer OpenStack-Region in eine andere verschieben; etwa weil Sie in einer neuen OpenStack-Region operieren möchten, oder um von OVHcloud Labs in die Public Cloud zu migrieren.
+Möglicherweise müssen Sie Ihre [Public Cloud Instanz](/links/public-cloud/compute) von einer OpenStack-Region in eine andere verschieben; etwa weil Sie in einer neuen OpenStack-Region operieren möchten, oder um von OVHcloud Labs in die Public Cloud zu migrieren.
 
 **Diese Anleitung erklärt, wie Sie ein Instanz-Backup von einer OpenStack-Region in eine andere übertragen und dabei die Konfiguration und den Zustand der Instanz beibehalten.**
 
@@ -24,7 +20,7 @@ Um den Transfer durchzuführen benötigen Sie eine Umgebung mit:
 
 Diese Umgebung wird als "Jump Host" verwendet, um das Backup von einer Region in eine andere zu übertragen. Bei dieser Umgebung kann es sich um eine bei OVHcloud oder auf Ihrem lokalen System gehostete Instanz handeln.
 
-Sie benötigen auch eine [Public Cloud Instanz](https://www.ovhcloud.com/de/public-cloud/) in Ihrem OVHcloud Account.
+Sie benötigen auch eine [Public Cloud Instanz](/links/public-cloud/compute) in Ihrem OVHcloud Account.
 
 ## In der praktischen Anwendung
 
@@ -105,6 +101,23 @@ Um das Backup in die neue OpenStack-Region zu transferieren, verwenden Sie folge
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow snap_server1
 ```
 
+> [!warning]
+>
+> Wenn Ihre Instanz ein Windows-Image verwendet, müssen Sie bestimmte Eigenschaften hinzufügen. Andernfalls ist es bei der Erstellung der Instanz über das OVHcloud Kundencenter nicht möglich, einen Flavor vom Typ win-x-x zu verbinden. Nur diese Art von Flavor ermöglicht die Authentifizierung beim [OVHcloud KMS](/pages/manage_and_operate/kms/quick-start).
+>
+
+Spezifische Eigenschaften für die Image-Erstellung werden hinzugefügt:
+
+```bash
+$ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
+```
+
+Spezifische Eigenschaften werden nach der Erstellung des Images hinzugefügt:
+
+```bash
+$ openstack image set --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" <image_uuid>
+```
+
 ```text
 +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Field | Value |
@@ -133,6 +146,11 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 
 ### Instanz mithilfe Ihres Backups erstellen
 
+> [!warning]
+>
+> Wenn es sich bei Ihrer Instanz um einen Windows-Server handelt, müssen Sie einen Flavor vom Typ win-xx-xx-xx (z.B. win-b2-15) auswählen und über eine öffentliche Schnittstelle im Ext-Net-Netzwerk verfügen. Ohne diese Bedingungen ist die Authentifizierung beim OVHcloud KMS nicht möglich, und Ihr Server wird mit einer [nicht aktivierten Lizenz](/pages/public_cloud/compute/activate-windows-license-private-mode) weiter betrieben. Dies kann zu Einschränkungen führen, insbesondere zu fehlenden Updates. Es ist nicht möglich, eine Linux-Instanz (z.B. b2-15) in eine Windows-Instanz (z.B. win-b2-15) zu ändern. Für diesen Wechsel muss eine neue Instanz erstellt werden.
+>
+
 Um eine Instanz aus Ihrem Backup zu erstellen, verwenden Sie die Backup-ID als Image mit folgendem Befehl:
 
 ```bash
@@ -141,4 +159,4 @@ $ openstack server create --key-name SSHKEY --flavor 98c1e679-5f2c-4069-b4da-4a4
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.
