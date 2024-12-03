@@ -404,4 +404,4 @@ Si vous avez basculé **sans** du **Reverse Protection**, le retour arrière con
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

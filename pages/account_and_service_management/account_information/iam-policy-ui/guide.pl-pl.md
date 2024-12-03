@@ -43,7 +43,7 @@ Kliknij nazwę konta w prawym górnym rogu, a następnie ponownie nazwę użytko
 
 Możesz uzyskać dostęp do menu IAM za pomocą wpisu w Panelu klienta.
 
-![Dostęp do menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Dostęp do menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 W menu wyświetla się listę wszystkich polityk utworzonych na Twoim koncie.
 

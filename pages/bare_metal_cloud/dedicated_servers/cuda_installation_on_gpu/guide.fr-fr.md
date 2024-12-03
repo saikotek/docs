@@ -156,4 +156,4 @@ Wed Nov 1 09:14:38 2017
 ```
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

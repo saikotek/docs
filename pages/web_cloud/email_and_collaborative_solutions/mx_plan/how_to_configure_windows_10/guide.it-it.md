@@ -93,4 +93,4 @@ OVHcloud propone un’applicazione Web per accedere al tuo account email diretta
 
 [Configurare un account Exchange nell’applicazione Posta per Windows 10](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_windows_10)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

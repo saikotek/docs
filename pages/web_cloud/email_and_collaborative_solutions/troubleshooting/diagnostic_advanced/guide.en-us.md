@@ -130,4 +130,4 @@ The majority of SMTP negative response codes used by servers are listed below:
 
 [Email FAQ](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

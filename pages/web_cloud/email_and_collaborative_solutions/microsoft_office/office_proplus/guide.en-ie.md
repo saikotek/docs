@@ -98,4 +98,4 @@ Make sure the value is `1`. If this key does not exist, you can create it.
 
 ## Go further <a name="gofurther"></a>
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

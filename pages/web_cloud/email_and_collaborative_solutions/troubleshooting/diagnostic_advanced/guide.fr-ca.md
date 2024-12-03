@@ -131,4 +131,4 @@ Vous trouverez ci-dessous la majorité des codes de réponses négatives SMTP ut
 
 [FAQ E-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

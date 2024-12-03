@@ -85,4 +85,4 @@ OVHcloud ofrece una aplicación web con la que podrá acceder a su cuenta de cor
 >
 > Para más información sobre la configuración de una dirección de correo electrónico desde la aplicación Outlook en macOS, consulte [el Centro de ayuda de Microsoft](https://support.microsoft.com/es-es/office/add-an-email-account-to-outlook-for-mac-6aeec61b-86af-40af-8ffe-985d0fc82ddb).
 
-Interactúe con nuestra comunidad de usuarios en [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Interactúe con nuestra [comunidad de usuarios](/links/community).

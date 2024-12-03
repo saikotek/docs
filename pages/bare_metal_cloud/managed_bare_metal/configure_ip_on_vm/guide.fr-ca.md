@@ -213,4 +213,4 @@ Paserelle par défaut : 192.168.70.254
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

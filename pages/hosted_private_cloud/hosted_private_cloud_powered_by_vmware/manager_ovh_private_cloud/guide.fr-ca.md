@@ -235,4 +235,4 @@ Pour plus d'informations sur cette option, vous pouvez consulter ce [guide](/pag
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

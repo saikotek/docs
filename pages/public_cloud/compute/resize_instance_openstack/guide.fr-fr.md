@@ -129,4 +129,4 @@ Si vous souhaitez réduire votre instance, vous pouvez le faire en suivant les m
 
 [Redimensionner une instance Public Cloud via Horizon](/pages/public_cloud/compute/resize_of_an_instance)
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

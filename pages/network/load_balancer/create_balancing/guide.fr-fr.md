@@ -103,4 +103,4 @@ Cet appel permet de modifier la configuration d'une ferme en connaissant son ide
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

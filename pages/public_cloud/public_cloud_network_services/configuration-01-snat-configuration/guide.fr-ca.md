@@ -61,7 +61,7 @@ Créez une VM avec une Floating IP comme expliqué dans ce [guide](/pages/public
 Créez une VM avec uniquement un réseau privé. Dans notre exemple, notre VM s'appelle **vmpriv** :
 
 ```bash
-$ openstack server create --image 'Ubuntu 22.04' --flavor s1-8 --key-name test-key --net test-network vmpriv
+$ openstack server create --image 'Ubuntu 22.04' --flavor d2-8 --key-name test-key --net test-network vmpriv
 $ openstack server show vmpriv -c name -c status -c addresses
 +-----------+---------------------------+
 | Field     | Value                     |
@@ -147,4 +147,4 @@ La VM **vmpriv** a un accès externe à Internet tout en étant connectée à un
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

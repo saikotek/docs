@@ -123,4 +123,4 @@ Si vous souhaitez diminuer le nombre de lignes incluses dans votre offre, nous v
 
 Consultez [nos guides dédiés à la configuration de vos lignes](/products/web-cloud-phone-and-fax-voip).
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

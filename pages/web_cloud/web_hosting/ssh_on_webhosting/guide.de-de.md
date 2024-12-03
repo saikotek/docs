@@ -47,14 +47,14 @@ Verwenden Sie für den Login via SSH ein Terminal, um direkt über Befehlszeilen
 
 > [!primary]
 >
-> Dieses Tool ist standardmäßig auf macOS, Linux und Windows 10 installiert. Bei einer älteren Windows-Umgebung muss ein Programm wie PuTTY installiert oder die OpenSSH-Funktion hinzugefügt werden.
+> Dieses Tool ist standardmäßig auf macOS, Linux und Windows 10 installiert. Bei einer älteren Windows-Umgebung muss ein Programm wie [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) installiert oder die OpenSSH-Funktion hinzugefügt werden.
 
 Je nach der von Ihnen verwendeten Methode gibt es nun zwei Arten, um sich via SSH zu verbinden:
 
 #### 3.1 Über ein Terminal
 
 > [!warning]
-> Für unsere Shared Hosting Angebote gibt es keinen „Superuser“- oder „root“-Zugriff via SSH.
+> Für unsere Hosting Angebote gibt es keinen „Superuser“- oder „root“-Zugriff via SSH.
 
 Wenn das Terminal geöffnet ist, verwenden Sie folgenden Befehl, indem Sie die Elemente "Yourlogin", "ssh.cluster000.hosting.ovh.net"und "22"durch die Elemente ersetzen, die Ihren SSH-Kennungen entsprechen. 
 

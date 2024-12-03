@@ -63,4 +63,4 @@ Sprawdź [przewodnik dotyczący zarządzania historią wiadomości SMS](/pages/w
 
 [Specyfikacje techniczne oferty SMPP OVHcloud](/pages/web_cloud/messaging/sms/smpp-specification).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

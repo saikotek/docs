@@ -47,7 +47,7 @@ Para estabelecer uma conexão em SSH, utilize um terminal para interagir diretam
 
 > [!primary]
 >
-> Em macOS, Linux e Windows 10, esta ferramenta encontra-se instalada por predefinição. Um ambiente Windows mais antigo irá requerer a instalação de um software como o PuTTY ou a adição da funcionalidade OpenSSH.
+> Em macOS, Linux e Windows 10, esta ferramenta encontra-se instalada por predefinição. Um ambiente Windows mais antigo irá requerer a instalação de um software como o [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) ou a adição da funcionalidade OpenSSH.
 
 Assim, há duas possibilidades de conexão, em função do método utilizado:
 

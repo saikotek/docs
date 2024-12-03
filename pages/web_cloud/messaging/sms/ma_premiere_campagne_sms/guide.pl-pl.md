@@ -85,5 +85,5 @@ Teraz kliknij przycisk `Wyślij`{.action}, aby Twoja kampania została wysłana 
 
 Zapoznaj się z [naszym przewodnikiem dotyczącym zarządzania historią wiadomości SMS](/pages/web_cloud/messaging/sms/gerer_l_historique_des_sms).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>
+Dołącz do [grona naszych użytkowników](/links/community).
 

@@ -94,4 +94,4 @@ Il existe deux façons de mettre fin à un appel :
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

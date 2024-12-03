@@ -95,4 +95,4 @@ Nous vous invitons à vous renseigner sur l'utilisation de ces deux protocoles a
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

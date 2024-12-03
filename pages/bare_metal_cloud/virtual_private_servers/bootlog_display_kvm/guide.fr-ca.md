@@ -18,7 +18,7 @@ Si votre VPS ne répond plus, vous devriez toujours pouvoir y accéder depuis vo
 > [!warning]
 > OVHcloud vous fournit des services dont vous êtes responsable en ce qui concerne leur configuration et leur gestion. Vous êtes donc responsable de leur bon fonctionnement.
 >
->Si vous rencontrez des difficultés pour effectuer ces actions, veuillez contacter un prestataire de services spécialisé et/ou échanger avec notre communauté d'utilisateurs sur <https://community.ovh.com/>. OVHcloud ne pourra pas vous fournir de support technique à cet égard.
+>Si vous rencontrez des difficultés pour effectuer ces actions, veuillez contacter un prestataire de services spécialisé et/ou échanger avec notre [communauté d'utilisateurs](/links/community). OVHcloud ne pourra pas vous fournir de support technique à cet égard.
 >
 
 ## Prérequis
@@ -168,4 +168,4 @@ Une fois les modifications effectuées, redémarrez votre VPS en mode « normal 
 
 [Activer le mode rescue sur un VPS](/pages/bare_metal_cloud/virtual_private_servers/rescue)
 
-Echangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

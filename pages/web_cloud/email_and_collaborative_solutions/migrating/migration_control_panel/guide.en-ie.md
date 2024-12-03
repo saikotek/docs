@@ -180,4 +180,4 @@ You can also manually migrate your email accounts to your new OVHcloud email sol
 
 [Exchange guides](/products/web-cloud-email-collaborative-solutions-mx-plan).
 
-Join our community of users on ‹https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

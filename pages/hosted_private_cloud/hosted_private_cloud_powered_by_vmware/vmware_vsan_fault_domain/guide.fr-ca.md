@@ -68,4 +68,4 @@ Le cluster vSAN dispose désormais de la résilience de données via les domaine
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

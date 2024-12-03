@@ -73,4 +73,4 @@ A OVHcloud também disponibiliza uma aplicação web com [funções colaborativa
 
 [Configurar uma conta E-mail Pro na aplicação Correio para Windows](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_windows_10) 
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

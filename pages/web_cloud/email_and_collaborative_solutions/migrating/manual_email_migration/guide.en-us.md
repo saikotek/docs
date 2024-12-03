@@ -12,7 +12,7 @@ You can [migrate an email address automatically](/pages/web_cloud/email_and_coll
 
 > [!warning]
 >
-> This guide will show you how to use one or more OVHcloud solutions with external tools, and the changes you need to make in specific contexts. You may need to adapt the instructions according to your situation. If you experience any difficulties carrying out these operations, please get in touch with a [specialist service provider](/links/partner), and/or discuss your issues with our community on https://community.ovh.com/en/. OVHcloud cannot assist you in this regard.
+> This guide will show you how to use one or more OVHcloud solutions with external tools, and the changes you need to make in specific contexts. You may need to adapt the instructions according to your situation. If you experience any difficulties carrying out these operations, please get in touch with a [specialist service provider](/links/partner), and/or discuss your issues with our [community of users](/links/community). OVHcloud cannot assist you in this regard.
 >
 
 ## Requirements
@@ -230,4 +230,4 @@ In your inbox and the left-hand column, you will find the folders and emails for
 
 [Migrating email accounts using OVH Mail Migrator](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

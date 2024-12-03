@@ -182,4 +182,4 @@ Une fois l'appel PUT exécuté, vous pouvez utiliser l'appel **GET** suivant :
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

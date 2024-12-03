@@ -76,7 +76,7 @@ En cas de demande de prélèvement SEPA, vous recevrez dans les 24 à 48h sur l�
 
 Une fois réceptionné par nos services, si votre mandat est approuvé, vous pourrez alors utiliser ce nouveau moyen de paiement.
 
-![FAQ billing](images/faq-billing01.gif){.thumbnail}
+![FAQ billing](/pages/assets/screens/control_panel/product-selection/right-column/faq-billing01.gif){.thumbnail}
 
 #### Trucs et astuces
 

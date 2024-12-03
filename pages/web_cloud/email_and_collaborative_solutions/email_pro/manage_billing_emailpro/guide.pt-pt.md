@@ -73,4 +73,4 @@ Na janela de gestão da plataforma E-mail Pro, clique no botão `Ações`{.actio
 
 ## Quer saber mais?
  
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -110,4 +110,4 @@ Par la suite, vous pouvez apporter des modifications au niveau de la sécurité 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

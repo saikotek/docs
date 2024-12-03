@@ -45,7 +45,7 @@ Para aceder ao painel de gestão dos comandos, aceda à sua [Área de Cliente OV
 
 Um resumo das diferentes encomendas efetuadas aparece a seguir:
 
-![Resumo das encomendas](images/order03.png){.thumbnail}
+![Resumo das encomendas](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 Aqui, encontrará as seguintes informações:
 

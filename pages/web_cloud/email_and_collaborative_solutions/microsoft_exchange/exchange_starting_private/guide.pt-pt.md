@@ -94,4 +94,4 @@ Para adicionar o primeiro nome de domínio à sua plataforma e configurar as con
 
 [Adicionar um nome de domínio ao serviço Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain)
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

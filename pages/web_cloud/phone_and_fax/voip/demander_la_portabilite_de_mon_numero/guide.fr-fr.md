@@ -192,4 +192,4 @@ Pour cela, et selon la configuration que vous souhaitez mettre en place sur vos 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

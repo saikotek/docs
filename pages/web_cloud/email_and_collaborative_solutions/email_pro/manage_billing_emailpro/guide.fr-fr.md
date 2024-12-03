@@ -70,4 +70,4 @@ Depuis la fenêtre de gestion de votre plateforme E-mail Pro, cliquez sur le bou
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

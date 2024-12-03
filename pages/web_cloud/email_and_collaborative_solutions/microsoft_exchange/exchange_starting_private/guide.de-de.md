@@ -94,4 +94,4 @@ Informationen zum Hinzufügen Ihres ersten Domainnamens zu Ihrer Plattform und z
 
 [Eine Domain zu Ihrem Exchange Dienst hinzufügen](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain) 
 
-Für den Austausch mit unserer Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

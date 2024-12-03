@@ -48,7 +48,7 @@ Vergewissern Sie sich, dass Ihre E-Mail-Adresse stets **aktuell, gesichert und e
 Die von OVHcloud versendeten E-Mails sind auch über Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) einsehbar.<br>
 Klicken Sie oben rechts auf Ihren Bildschirm auf Ihren Namen und dann im rechten Menü auf `E-Mails von OVHcloud`{.action}.
 
-![service_emails](images/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 ### Automatische Verlängerung aktivieren
 

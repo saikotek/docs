@@ -140,4 +140,4 @@ Suivez les instructions de [ce guide](/pages/web_cloud/phone_and_fax/voip/troubl
 
 ## Aller plus loin <a name="gofurther"></a>
  
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -181,4 +181,4 @@ Per comprendere la differenza tra l'utilizzo del protocollo POP e IMAP, scomponi
 
 [Configurare un account Exchange su Android tramite l’applicazione Gmail](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_android).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com>.
+Contatta la nostra [Community di utenti](/links/community).

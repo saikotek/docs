@@ -67,4 +67,4 @@ Nachdem Ihre automatische Antwort erstellt wurde, wird sie in der Tabelle im Ber
 
 [E-Mail FAQ](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

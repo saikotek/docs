@@ -104,4 +104,4 @@ Certifique-se de que o seu valor é de `1`. Se esta chave não existir, pode cri
 
 ## Quer saber mais?
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte mit einem Kimsufi, So You Start oder Rise Dedicated Server"
 excerpt: "Erfahren Sie hier, wie Sie einen Kimsufi, So You Start oder Rise Dedicated Server in Ihrem OVHcloud Kundencenter verwalten und wie Sie mit der Konfiguration und Sicherung eines Servers starten"
-updated: 2024-11-13
+updated: 2024-11-26
 ---
 
 ## Ziel
@@ -41,7 +41,7 @@ Ein dedizierter Server ist ein physischer Server ("Bare Metal") in einem unserer
 
 Sie können Ihren Server in wenigen Schritten in Ihrem [OVHcloud Kundencenter](/links/manager) reinstallieren oder ein anderes Betriebssystem auswählen. Klicken Sie im Tab `Allgemeine Informationen`{.action} auf `...`{.action} neben `System (OS)` und danach auf `Installieren`{.action}.
 
-![Button Reinstallieren](images/reinstalling-your-server-01.png){.thumbnail}
+![Button Reinstallieren](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
 Wählen Sie im Popup-Fenster eine der Installationsoptionen aus:
 
@@ -58,15 +58,15 @@ Wählen Sie im Popup-Fenster eine der Installationsoptionen aus:
 
 Klicken Sie auf `Weiter`{.action}, um fortzufahren.
 
-![Template-Auswahl](images/reinstalling-your-server-02.png){.thumbnail}
+![Template-Auswahl](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
 
 Nachdem Sie `Installation mit einem OVHcloud Template`{.action} ausgewählt haben, können Sie das gewünschte Betriebssystem in den Menüs auswählen.
 
-![Operationelle Auswahl](images/reinstalling-your-server-03.png){.thumbnail}
+![Operationelle Auswahl](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 
 Wenn Sie das Partitionsschema Ihres Betriebssystems ändern müssen, setzen Sie einen Haken in dem Feld "Konfiguration der Partitionen anpassen", bevor Sie auf `Weiter`{.action} klicken.
 
-![Konfiguration anpassen](images/reinstalling-your-server-04.png){.thumbnail}
+![Konfiguration anpassen](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-04.png){.thumbnail}
 
 In diesem Schritt können Sie RAID- und Partitionierungsoptionen innerhalb der Grenzen der Serverhardware und des Betriebssystems einrichten.
 
@@ -74,11 +74,19 @@ Klicken Sie nach Abschluss der Anpassungen auf `Weiter`{.action}, um zur Zusamme
 
 Dort finden Sie außerdem Optionen zu dem von Ihnen ausgewählten Betriebssystem.
 
-Wenn Sie beispielsweise ein GNU/Linux-Betriebssystem installieren, können Sie Ihren SSH-Schlüssel hinzufügen.
+![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-05.png){.thumbnail}
 
-Eine ausführliche Erläuterung zum Verwenden von SSH-Schlüsseln finden Sie in [unserer Anleitung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+Wenn Sie ein kompatibles Betriebssystem ausgewählt haben, können Sie einen **öffentlichen Schlüssel** angeben, der automatisch installiert werden soll. Sie haben zwei Möglichkeiten:
 
-![SSH-Konfiguration](images/reinstalling-your-server-05.png){.thumbnail}
+- Kopieren Sie die Schlüsselzeichenfolge manuell und fügen Sie sie in das Feld `Ihr öffentlicher SSH-Schlüssel` ein.
+- Wenn Sie zuvor einen öffentlichen Schlüssel in Ihrem [OVHcloud Kundencenter](/links/manager) gespeichert haben, wählen Sie den gewünschten Schlüssel im Drop-down-Menü `SSH-Schlüssel für die Vorinstallation` aus.
+
+![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
+
+Weitere Informationen zu diesem Thema finden Sie in unseren Anleitungen:
+
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung mit PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 Klicken Sie anschließend auf `Bestätigen`{.action}, um die Installation des Betriebssystems auf Ihrem Dedicated Server zu starten.
 
@@ -136,10 +144,13 @@ passwd: password updated successfully
 >
 > Es ist nicht notwendig, den Benutzer-Account "root" zu verwenden, um mit der Administration Ihres Servers zu beginnen. Dieser Account muss zuerst im Serverbetriebssystem aktiviert werden, damit er verwendet werden kann. Aus Sicherheitsgründen sind außerdem SSH-Verbindungen mit dem Benutzer "root" standardmäßig **deaktiviert**.
 > 
-> Sofern nicht anders vermerkt, können alle in unserer Dokumentation beschriebenen administrativen Aktionen mit dem Standardbenutzer-Account durchgeführt werden, indem Sie `sudo` gefolgt von dem entsprechenden Befehl eingeben. Weitere Informationen zu diesem Thema finden Sie in unserer Anleitung zum [Konfigurieren von Benutzerkonten und Root-Zugriff auf einem Server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
+> Sofern nicht anders vermerkt, können alle in unserer Dokumentation beschriebenen administrativen Aktionen mit dem voreingerichteten Benutzer-Account durchgeführt werden, indem Sie `sudo` gefolgt von dem entsprechenden Befehl eingeben. Weitere Informationen zu diesem Thema finden Sie in unserer Anleitung zum [Konfigurieren von Benutzerkonten und Root-Zugriff auf einem Server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-SSH-Schlüssel können je nach Ihren Anforderungen in Bezug auf Sicherheit, Mobilität und Komfort als zusätzliche Verbindungsmethode verwendet werden oder gar die Identifizierung mittels Benutzername und Kennwort ersetzen. In unserer Anleitung zu [SSH-Schlüsseln](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) erfahren Sie, wie Sie diese verwenden.
+SSH-Schlüssel können je nach Ihren Anforderungen in Bezug auf Sicherheit, Mobilität und Komfort als zusätzliche Verbindungsmethode verwendet werden oder gar die Identifizierung mittels Benutzername und Kennwort ersetzen. In unseren Anleitungen erfahren Sie, wie Sie diese verwenden:
+
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung mit PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 #### Windows
 
@@ -201,7 +212,7 @@ reboot
 
 Sie können jedoch jederzeit einen "Hard Reboot" in Ihrem [OVHcloud Kundencenter](/links/manager) ausführen. Klicken Sie im Tab `Allgemeine Informationen`{.action} auf `...`{.action} neben "Status" im Bereich **Dienststatus** und klicken Sie dann im Kontextmenü auf `Neu starten`{.action} und `Bestätigen`{.action}.
 
-![Neustart](images/rebooting-your-server.png){.thumbnail}
+![Neustart](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
 
 <a name="secure"></a>
 
@@ -217,7 +228,7 @@ Wenn Sie Windows Server einsetzen, verwenden Sie [diese Anleitung](/pages/bare_m
 
 Sie können den Monitoring-Status eines Servers im [OVHcloud Kundencenter](/links/manager) vom Tab `Allgemeine Informationen`{.action} aus einrichten (Abschnitt **Dienststatus**).
 
-![Monitoring](images/monitoring-your-server.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server.png){.thumbnail}
 
 Klicken Sie auf den Button `Konfigurieren`{.action}. Im neu angezeigten Fenster haben Sie drei Optionen für das Überwachungsverhalten:
 
@@ -225,7 +236,7 @@ Klicken Sie auf den Button `Konfigurieren`{.action}. Im neu angezeigten Fenster 
 - **Aktiviert mit proaktivem Eingriff**: Wenn der Server nicht mehr reagiert wird Ihnen eine Benachrichtigung per E-Mail gesendet und der Server von einem Techniker überprüft.
 - **Aktiviert ohne proaktiven Eingriff**: Sie erhalten eine Benachrichtigung per E-Mail, wenn der Server nicht mehr reagiert. Um eine Intervention zu veranlassen, muss eine Support-Anfrage erstellt werden.
 
-![Monitoring](images/monitoring-your-server2.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server2.png){.thumbnail}
 
 Klicken Sie auf `Bestätigen`{.action}, um Ihre Monitoring-Konfiguration zu aktualisieren.
 

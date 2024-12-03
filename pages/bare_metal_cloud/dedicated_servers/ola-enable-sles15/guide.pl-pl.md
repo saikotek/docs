@@ -1,12 +1,8 @@
 ---
 title: "Jak skonfigurować identyfikator klienta do celów agregacji linków OVHcloud w SLES 15"
 excerpt: 'Włącz Link Aggregation na serwerze SLES 15'
-updated: 2023-10-26
+updated: 2024-11-26
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
 
 ## Wprowadzenie
 
@@ -57,7 +53,7 @@ IPADDR='10.0.0.1/24'
 BONDING_MASTER='yes'
 BONDING_SLAVE_0='eth0'
 BONDING_SLAVE_1='eth1'
-BONDING_MODULE_OPTS='mode=802.3ad miimon=100 xmit_hash_policy=layer3+4'
+BONDING_MODULE_OPTS='mode=802.3ad xmit_hash_policy=layer3+4'
 ```
 
 > [!primary]
@@ -138,8 +134,6 @@ Możesz również sprawdzić parametry używane w interfejsie ifcfg-bond0 za pom
 
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud z systemem Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud z systemem CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Jak skonfigurować identyfikator klienta do agregacji linków OVHcloud w systemie Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

@@ -113,4 +113,4 @@ N'oubliez pas de le sortir du mode de maintenance et il sera de retour en produc
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

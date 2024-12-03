@@ -155,4 +155,4 @@ Dans un PowerShell, la commande `nslookup` permet de vérifier quel est le serve
 
 [Modifier le hostname d’une instance Public Cloud](/pages/public_cloud/compute/changing_the_hostname_of_an_instance)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

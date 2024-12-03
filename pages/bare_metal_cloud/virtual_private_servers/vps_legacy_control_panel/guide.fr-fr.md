@@ -127,4 +127,4 @@ Votre VPS peut être migré automatiquement vers la gamme actuelle. Découvrez l
 
 [Débuter avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

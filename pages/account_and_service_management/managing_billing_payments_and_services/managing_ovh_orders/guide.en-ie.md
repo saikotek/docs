@@ -45,7 +45,7 @@ To access the Order Management Panel, log in to the [OVHcloud Control Panel](htt
 
 A summary of the various orders placed appears as below:
 
-![Order summary](images/order03.png){.thumbnail}
+![Order summary](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 On this page, you will see the following information:
 

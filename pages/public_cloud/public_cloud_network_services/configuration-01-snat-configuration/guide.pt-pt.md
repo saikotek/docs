@@ -65,7 +65,7 @@ Create a VM with a Floating IP as explained in [this guide](/pages/public_cloud/
 Create a VM with a private network only. In our example, our VM is called **vmpriv**:
 
 ```bash
-$ openstack server create --image 'Ubuntu 22.04' --flavor s1-8 --key-name test-key --net test-network vmpriv
+$ openstack server create --image 'Ubuntu 22.04' --flavor d2-8 --key-name test-key --net test-network vmpriv
 $ openstack server show vmpriv -c name -c status -c addresses
 +-----------+---------------------------+
 | Field     | Value                     |

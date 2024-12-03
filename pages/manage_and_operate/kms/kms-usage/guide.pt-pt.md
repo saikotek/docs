@@ -1,14 +1,8 @@
 ---
 title: "Using OVHcloud Key Management Service (KMS)"
 excerpt: "Encrypt or sign your data with the OVHcloud Key Management Service (KMS)"
-updated: 2024-11-18
+updated: 2024-11-25
 ---
-
-> [!warning]
->
-> The OVHcloud KMS is currently in beta phase. This guide may be incomplete, and will be updated during the beta period.
-> Feel free to send us feedback on the dedicated Discord channel: <https://discord.gg/ovhcloud>.
->
 
 ## Objective
 
@@ -283,6 +277,7 @@ The **context** field must have the same value as the one given during encryptio
 #### Encryption with a Data Key (DK)
 
 For better performance, you can generate a Data Key (DK) from a Symmetric Key (AES) to use from your application.
+The AES key use must have been generated with the "wrapKey, unwrapKey" operations
 
 ![Encryption with DK](images/Datakey_encrypt.png){.thumbnail}
 

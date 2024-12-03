@@ -49,11 +49,11 @@ No entanto, existem **casos especiais** que são detalhados [mais abaixo](#speci
 
 Para rescindir a subscrição do seu serviço, aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt), clique no seu nome em cima à direita e, a seguir, clique no botão `Produtos e serviços`{.action}.
 
-![produtos e serviços](images/products-services.png){.thumbnail}
+![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 Clique então no botão `...`{.action} à direita do serviço a rescindir, e depois em `Rescindir o meu compromisso`{.action}.
 
-![Cancelar](images/cancel-en.png){.thumbnail}
+![Cancelar](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 
 Especifique as razões do seu pedido de rescisão e clique em `Validar`{.action}.
 
@@ -66,7 +66,7 @@ Especifique as razões do seu pedido de rescisão e clique em `Validar`{.action}
 
 O cancelamento do seu serviço terá lugar na **data de entrada em vigor** indicada na tabela "Os meus serviçoa". Se não vir o estado "Rescisão solicitada" aparecer, atualize a página.
 
-![pedido de rescisão](images/cancellation-request.png){.thumbnail}
+![pedido de rescisão](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request.png){.thumbnail}
 
 ### Casos particulares <a name="specific-cases"></a>
 
@@ -129,7 +129,7 @@ Para anular um pedido de rescisão, aceda à [Área de Cliente OVHcloud](https:/
 
 A seguir, clique no botão `...`{.action} à direita do serviço que é objeto de um pedido de rescisão e, a seguir, em `Anular a rescisão do serviço`{.action}.
 
-![cancel_terminação](images/cancel_termination.png){.thumbnail}
+![cancel_terminação](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination.png){.thumbnail}
 
 Por fim, clique em `Confirmar a anulação`{.action}.
 

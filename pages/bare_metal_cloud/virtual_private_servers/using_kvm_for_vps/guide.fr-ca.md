@@ -145,4 +145,4 @@ En cas de souci avec le KVM, voici l'API conseillée pour l'accès au KVM :
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

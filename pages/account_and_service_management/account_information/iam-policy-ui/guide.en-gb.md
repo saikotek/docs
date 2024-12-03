@@ -43,7 +43,7 @@ Click your account name in the top-right corner, then on your name again in the 
 
 You can access the IAM menu via the dedicated entry in your Control Panel.
 
-![Access to the IAM menu](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Access to the IAM menu](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 The menu will give you the list of all the current policies created on your account.
 

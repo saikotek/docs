@@ -165,4 +165,4 @@ If you simply need the information required to configure your email account, the
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

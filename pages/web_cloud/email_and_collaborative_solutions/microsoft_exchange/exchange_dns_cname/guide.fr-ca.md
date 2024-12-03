@@ -43,4 +43,4 @@ Pour vérifier que la configuration du champ CNAME est correcte, repositionnez-v
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -90,4 +90,4 @@ Pour en savoir plus, vous pouvez vous rendre à l'étape 3 de la partie résolut
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

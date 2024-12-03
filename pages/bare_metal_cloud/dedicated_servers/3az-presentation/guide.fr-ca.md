@@ -40,4 +40,4 @@ L'interface est toujours la même, il n'y a pas d'autres changements à ce nivea
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

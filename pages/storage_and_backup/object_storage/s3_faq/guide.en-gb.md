@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ
 excerpt: "Frequently Asked Questions on the Object Storage solution"
-updated: 2024-10-30
+updated: 2024-11-25
 ---
 
 ## General questions
@@ -52,9 +52,46 @@ Most of the tools on the market that are compatible with standard S3 storage are
 
 Yes, S3 Object Storage is largely compatible with S3 APIs and can be integrated with market tools such as [Veeam](/pages/storage_and_backup/object_storage/s3_veeam), [Owncloud](/pages/storage_and_backup/object_storage/s3_owncloud), [Nextcloud](/pages/storage_and_backup/object_storage/s3_nextcloud).
 
+## Billing
+
 ### How is the service billed?
 
-Object Storage is billed according to the storage space used, with a granularity of 1GB. To ensure readability, the price is displayed per GB/month, but the billing granularity is per GB/hour, considering that there are on average 720 hours in a month. View pricing on [this page](https://www.ovhcloud.com/en-gb/public-cloud/prices/).
+Object Storage is billed according to the storage space used, with a granularity of 1GB. To ensure readability, the price is displayed per GB/month, but the billing granularity is per GB/hour. View pricing on [this page](/links/public-cloud/prices).
+
+### Billing example for Object Storage – 1-AZ
+
+Assuming you use an Object Storage bucket in a **1-AZ region** and store **100 GiB** of Standard class data for the **first 10 days** of October, and later **100 TiB (102 400 GB)** of Standard class data for the **last 21 days** of October. In this case, it's easy to imagine how storage in this bucket will evolve over the month.
+
+At the end of the month of October, you will have the following GigaByte-Hours : **Total GigaByte-Hours** = [100 GB x 10 days x (24 hours/day)] + [102 400 GB x 21 days x (24 hours/day)] = 24 000 + 51 609 600 = **51 633 600 GB-Hours**
+
+The monthly storage cost (with 0,00000972 EUR / GB-Hour) will be: 51 633 600 GB-Hours * 0,00000972 = **501.88 EUR**
+
+The next month, in November, data volume won't change, the monthly storage cost will be calculated as below:
+
+**November GB-Hour**: 100 * 1024 * 720 = 73 728 000 GB-hour (there are 720 hours in November).
+
+The monthly storage cost (with 0,00000972 EUR / GB-Hour) will be: 73 728 000 * 0,00000972= **716.63 EUR**
+
+### Billing example for Object Storage – 3-AZ (staircase pricing policy)
+
+In a 3-AZ region, Object Storage billing is done following a staircase approach with different volume tiers. View pricing on [this page](/links/public-cloud/prices).
+
+Assuming you use an Object Storage bucket in a **3-AZ region** and store **100 GiB** of Standard class data for the **first 10 days** of October, and later **100 TiB (102 400 GB)** of Standard class data for the **last 21 days** of October. In this case, it's still easy to imagine how storage in this bucket will evolve over the month.
+
+At the end of the month of October, you will have the following GigaByte-Hours : **Total GigaByte-Hours** = [100 GB x 10 days x (24 hours/day)] + [102 400 GB x 21 days x (24 hours/day)] = 24 000 + 51 609 600 = **51 633 600 GB-Hours**
+
+This usage volume will cross two different volume tiers (through the staircase pricing policy described before). The monthly storage cost will be calculated as below:
+
+- First volume tier from **0 GB-Hours to (50 * 1024 * 730 = 37 376 000 GB-Hours)**, pricing for this tier : 0.00001917 / GB-Hour (about 14 EUR/TB/month).
+- Second volume tier from **37 376 001 GB-Hours to (500 * 1024 * 730 = 373 760 000 GB-Hours)**, pricing for this tier : 0.00001712 / GB-Hour (about 12.5 EUR/TB/month).
+
+The monthly storage cost will be: 37 376 000 * 0.00001917 + (51 633 600 - 37 376 000) * 0.00001712 = 716.49792 + 244.090112 = **960.59 EUR**
+
+The next month, in November, data volume won't change, the monthly storage cost will be calculated as below:
+
+**November GB-Hour**: 100 * 1024 * 720 = **73 728 000 GB-Hours** (there are 720 hours in November).
+
+The monthly storage cost will be: 37 376 000 * 0.00001917 + (73 728 000 - 37 376 000) * 0.00001712 = 716.49792 + 622,34624 = **1338,84 EUR**
 
 ## Access & Security
 
@@ -82,11 +119,14 @@ It is not yet possible to configure access rights per bucket.
 
 ### Can I encrypt my data?
 
-Using server-side encryption with client-provided encryption keys (SSE-C) allows you to define your own encryption keys.
+You can encrypt your data in two ways:
+
+- **SSE-C (Server-Side Encryption with Customer Keys)**: You can provide and manage your own encryption keys, giving you complete control over your data security. This option is particularly well-suited to organizations with specific compliance and data security needs, as it allows for exclusive management of encryption keys.
+- **SSE-S3 (Server-Side Encryption with OVHcloud-Managed Keys)**: Simplifies the encryption process by using keys managed by OVHcloud. This method is ideal for customers who want a robust encryption solution without the complexities of key management.
 
 When you updload an object, S3 Object Storage uses the encryption key you provide to apply AES-256 encryption to your data. When you download an object, you must provide the same encryption key as part of your request. S3 Object Storage first checks that the encryption key you provided matches, then decrypts the object before returning the object data to you.
 
-You can find more information in the following guide: [Encrypt your server-side objects with SSE-C](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
+You can find more information in the following guide: [Encrypt your server-side objects with SSE-C or SSE-S3](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
 
 ### How do I protect my backups?
 
@@ -187,4 +227,4 @@ The maximum bandwidth is 1 Gbps per connection.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

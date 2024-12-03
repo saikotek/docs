@@ -65,4 +65,4 @@ Cliquez sur `Confirmer`{.action} pour mettre à jour votre configuration du moni
 
 [Configurer le Network Firewall](/pages/bare_metal_cloud/dedicated_servers/firewall_network)
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

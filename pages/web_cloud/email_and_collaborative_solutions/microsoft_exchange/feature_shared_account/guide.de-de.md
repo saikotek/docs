@@ -115,4 +115,4 @@ Im Outlook-Client finden Sie Ihr freigegebenes Postfach in der linken Spalte, ge
 
 [Automatische Signaturen erstellen](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

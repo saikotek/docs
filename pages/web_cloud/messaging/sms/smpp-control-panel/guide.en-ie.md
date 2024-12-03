@@ -59,4 +59,4 @@ See [our guide on managing SMS history](/pages/web_cloud/messaging/sms/gerer_l_h
 
 [The technical specifications of the OVHcloud SMPP solution](/pages/web_cloud/messaging/sms/smpp-specification).
 
-Join our community of users on <https://community.ovh.com/en/>
+Join our [community of users](/links/community).

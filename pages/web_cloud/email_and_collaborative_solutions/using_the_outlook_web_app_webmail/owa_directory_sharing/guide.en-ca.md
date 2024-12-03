@@ -89,4 +89,4 @@ Log in to your Exchange account via the [OVHcloud webmail](/links/web/email). Ri
 
 [Sharing calendars in OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

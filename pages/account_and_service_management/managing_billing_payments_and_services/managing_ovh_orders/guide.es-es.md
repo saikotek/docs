@@ -45,7 +45,7 @@ Para acceder al panel de gestión de pedidos, conéctese al [área de cliente de
 
 A continuación se muestra un resumen de los pedidos realizados:
 
-![Resumen de pedidos](images/order03.png){.thumbnail}
+![Resumen de pedidos](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 Aquí, podrá ver los siguientes datos:
 

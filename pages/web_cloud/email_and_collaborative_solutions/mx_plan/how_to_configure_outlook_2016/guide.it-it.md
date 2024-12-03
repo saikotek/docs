@@ -187,4 +187,4 @@ Per comprendere la differenza tra l'utilizzo del protocollo POP e IMAP, andremo 
 
 [Configurare un account Exchange su Outlook per Windows](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_outlook_2016)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

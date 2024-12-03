@@ -316,4 +316,4 @@ Jeśli Twoje wiadomości SMS mają charakter reklamowy, możesz je wysyłać wy�
 
 W konsoli API ([https://api.ovh.com/console/#/sms](https://api.ovh.com/console/#/sms)) możesz odkryć inne metody ułatwiające integrację usług SMS, takie jak: wiadomości SMS umożliwiające otrzymanie odpowiedzi (dotyczy wyłącznie kont OVHcloud we Francji), masowa wysyłka przy użyciu pliku CSV, wysyłki reklamowe, monitorowanie potwierdzeń odbioru itd.
 
-Przyłącz się do społeczności naszych użytkowników na stronie [https://community.ovh.com/en/](https://community.ovh.com/en/)
+Dołącz do [grona naszych użytkowników](/links/community).

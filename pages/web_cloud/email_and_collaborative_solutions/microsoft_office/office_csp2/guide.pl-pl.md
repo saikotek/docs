@@ -102,4 +102,4 @@ Aby się zalogować, wpisz swój identyfikator klienta oraz hasło wysłane w e-
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

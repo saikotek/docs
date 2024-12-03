@@ -108,4 +108,4 @@ Suite à ce redémarrage vous pourrez commencer à utiliser votre machine virtue
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).
