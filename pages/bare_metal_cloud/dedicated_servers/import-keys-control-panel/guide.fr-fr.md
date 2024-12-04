@@ -6,7 +6,7 @@ updated: 2024-12-04
 
 ## Objectif
 
-Les paires de clés sont utilisées pour authentifier les connexions SSH entre les hôtes, par exemple entre le client local de votre ordianteur et un serveur distant. Lors de la réinstallation d'un serveur dédié ou d'un VPS depuis votre espace client, vous avez la possibilité d'ajouter une clé publique au système d'exploitation. Le stockage de clés SSH publiques dans votre espace client facilite ce processus.
+Les paires de clés sont utilisées pour authentifier les connexions SSH entre les hôtes, par exemple entre le client local de votre ordinateur et un serveur distant. Lors de la réinstallation d'un serveur dédié ou d'un VPS depuis votre espace client, vous avez la possibilité d'ajouter une clé publique au système d'exploitation. Le stockage de clés SSH publiques dans votre espace client facilite ce processus.
 
 **Ce guide vous explique comment stocker vos clés SSH publiques dans votre espace client.**
 
@@ -28,7 +28,7 @@ Si vous n'avez pas encore créé de paire de clés SSH, consultez d'abord nos gu
 - [Créer et utiliser des clés SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 - [Tutoriel - Comment utiliser PuTTY pour les connexions SSH et l'authentification](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur le nom du compte en haut à droite et ouvrez `Catalogue de produits`{.action}.
+Connectez-vous sur votre [espace client OVHcloud](/links/manager), cliquez sur le nom du compte en haut à droite et ouvrez `Catalogue de produits`{.action}.
 
 ![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
