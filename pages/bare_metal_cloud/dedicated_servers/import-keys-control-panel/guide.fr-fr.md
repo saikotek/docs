@@ -1,14 +1,14 @@
 ---
-title: "Comment stocker les clés publiques d'authentification dans votre espace client"
+title: "Comment stocker les clés SSH dans votre espace client"
 excerpt: "Découvrez comment importer des clés SSH publiques dans votre espace client OVHcloud"
 updated: 2024-12-04
 ---
 
 ## Objectif
 
-Les paires de clés sont utilisées pour authentifier les connexions SSH entre les hôtes, par exemple un client de bureau et un serveur distant. Lors de la réinstallation d'un serveur dédié ou d'un VPS depuis votre espace client, vous avez la possibilité d'ajouter une clé publique au système d'exploitation. Le stockage de clés publiques dans votre espace client facilite ce processus.
+Les paires de clés sont utilisées pour authentifier les connexions SSH entre les hôtes, par exemple entre le client local de votre ordianteur et un serveur distant. Lors de la réinstallation d'un serveur dédié ou d'un VPS depuis votre espace client, vous avez la possibilité d'ajouter une clé publique au système d'exploitation. Le stockage de clés SSH publiques dans votre espace client facilite ce processus.
 
-**Ce guide vous explique comment stocker vos clés publiques d'authentification dans votre espace client.**
+**Ce guide vous explique comment stocker vos clés SSH publiques dans votre espace client.**
 
 ## Prérequis
 
@@ -17,18 +17,18 @@ Les paires de clés sont utilisées pour authentifier les connexions SSH entre l
 
 > [!primary]
 >
-> Pour plus d'informations sur l'utilisation des clés d'authentification avec les services [Public Cloud](/links/public-cloud/public-cloud), consultez notre guide dédié :
+> Pour plus d'informations sur l'utilisation des clés SSH avec les services [Public Cloud](/links/public-cloud/public-cloud), consultez notre guide dédié :
 >
 > [Comment créer des clés SSH avec OpenSSH pour les instances Public Cloud](/pages/public_cloud/compute/creating-ssh-keys-pci)
 
 ## En pratique
 
-Si vous n'avez pas encore créé de paire de clés, consultez d'abord nos guides :
+Si vous n'avez pas encore créé de paire de clés SSH, consultez d'abord nos guides :
 
-- [Comment créer et utiliser des clés pour l'authentification SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
-- [Comment créer et utiliser des clés pour l'authentification SSH avec PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+- [Créer et utiliser des clés SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Tutoriel - Comment utiliser PuTTY pour les connexions SSH et l'authentification](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-Connectez-vous au [espace client OVHcloud](/links/manager), cliquez sur le nom du compte en haut à droite et ouvrez `Catalogue de produits`{.action}.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur le nom du compte en haut à droite et ouvrez `Catalogue de produits`{.action}.
 
 ![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
@@ -40,7 +40,7 @@ Cliquez sur le bouton `Ajouter une clé SSH`{.action} et sélectionnez `Dédié`
 
 ![control panel ssh keys](images/importkey2.png){.thumbnail}
 
-Dans la fenêtre qui s'affiche, saisissez une étiquette pour la clé dans le premier champ.  
+Dans la fenêtre qui s'affiche, saisissez un « label » pour la clé dans le premier champ.  
 Copiez l'intégralité de la chaîne de clé publique et collez-la dans le deuxième champ.
 
 ![control panel ssh keys](images/importkey3.png){.thumbnail}
