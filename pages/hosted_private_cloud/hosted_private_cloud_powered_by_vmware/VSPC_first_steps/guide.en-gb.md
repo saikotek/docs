@@ -21,7 +21,6 @@ It will walk you through the first steps to get started with VSPC, including:
 > This guide is designed to assist you as much as possible with common tasks. However, we recommend contacting a specialist provider if you experience any difficulties or doubts when it comes to managing, using, or setting up a service on a server.
 >
 ## Requirements
-- A [Hosted Private Cloud infrastructure](https://www.ovhcloud.com) from OVHcloud to enable access to the Veeam Service Provider Console.
 - Administrative permissions for the [OVHcloud Control Panel](https://www.ovhcloud.com/control-panel) to manage resources.
 - A server compatible with the Veeam Backup Agents, running a supported [operating system](https://helpcenter.veeam.com).
 - A firewall configured to allow communication between the VSPC and your managed servers.
@@ -32,17 +31,18 @@ It will walk you through the first steps to get started with VSPC, including:
 1. Visit the VSPC portal link provided by OVHcloud (e.g., `https://...`).
 2. Log in using the administrative credentials assigned to your Hosted Private Cloud infrastructure.
    - If credentials are missing, contact OVHcloud support or your account manager.
-3. Upon login, you’ll see the VSPC dashboard. Key elements include:
-   - **Active alarms**: Manage predefined alarms and customize them as needed.
-   - **Dashboard overview**: Displays:
-     - Protected workloads in your backup and cloud infrastructures.
-     - Cloud resources consumed by your organization.
-     - Job session statuses and data protection efficiency.
-   - **Backup jobs**: Lists configured backup jobs, where you can create, run, or modify them.
-   - **Data overview**: Provides a clear summary of backed-up data.
-   - **Host discovery rules**: Configure rules for discovering hosts.
-   - **Managed computers**: Lists all computers managed by the VSPC.
-   - **Reports**: Access detailed reports on backup job completion.
+3.Key elements of the dashboard include:
+
+- **Active alarms**: Displays and allows customization of alarms to monitor key operations.
+- **Protected workloads**: Shows the total number of workloads safeguarded in your backup and cloud infrastructures.
+- **Cloud resource usage**: Highlights the resources consumed by your organization in the cloud.
+- **Job session statuses**: Provides the status and efficiency of data protection jobs.
+- **Backup jobs**: Lists all configured backup jobs, enabling you to create, run, or modify them.
+- **Data overview**: Summarizes backed-up data for quick reference.
+- **Host discovery rules**: Allows you to define rules for automatically discovering hosts.
+- **Managed computers**: Displays all computers connected and managed within the VSPC.
+- **Reports**: Offers access to detailed reports on backup job completion and performance.
+---
 
 *(Placeholder for screenshots of the VSPC dashboard)*
 
@@ -55,7 +55,13 @@ It will walk you through the first steps to get started with VSPC, including:
    - Copy the download link.
    - Download the agent directly.
 
-> **Warning**: Check firewall rules to allow the VSPC to communicate with the target server before downloading.
+> **Warning**: > Make sure your firewall rules allow access to the VSPC for the agent download to succeed.
+
+### Troubleshooting tips
+- **Firewall blockage**: If the agent fails to download, verify that TCP ports 443 and 6183 are open for outbound communication.
+- **Browser compatibility**: Ensure you're using a supported browser (e.g., Chrome, Edge). Older browsers may block or restrict downloads.
+- **Expired download Link**: If you shared the link and it has expired, generate a new one from the **Discovered Computers** section.
+- **Proxy issues**: If your network uses a proxy server, verify that it allows traffic to and from the VSPC.
 
 ---
 
@@ -63,7 +69,13 @@ It will walk you through the first steps to get started with VSPC, including:
 1. Open the generated link on the target server to download the management agent.
 2. Run the downloaded file on the target server.
 3. Follow the installation prompts to complete the setup.
-4. Verify the server appears in the **Discovered Computers** list with an installation progress bar.
+   - For Linux systems, use the `.rpm` or `.deb` installer depending on the distribution.
+4. Once installed, the server will automatically connect to the VSPC.
+5. Verify that the server appears in the **Discovered Computers** list with an installation progress bar.
+
+> **[!Note]**  
+> Some OVHcloud distributions may encounter issues (e.g., UUID errors) during installation. Contact OVHcloud support if the agent fails to install or does not appear in the dashboard.
+
 
 *(Placeholder for screenshots of the installation process and “Discovered Computers” section with progress bar)*
 
@@ -78,19 +90,26 @@ It will walk you through the first steps to get started with VSPC, including:
 ---
 
 ### Step 5: Changing backup policies
-- OVHcloud provides a default backup policy, including a 2TB S3 bucket.
-1. To review or configure the policy:
-   - Navigate to the **Backup Job** section.
-   - Click the value under `Successful Jobs` to view the default policy.
-   - Select the backup policy you want to assign.
-   - Modify components such as:
-     - **Operation mode**: Select the type of host to back up.
-     - **Backup mode**: Choose data to back up.
-     - **Destination**: Define the backup storage location (e.g., 1TB S3 bucket).
-     - **Repository credentials**: Configure authentication.
-     - **Retention policy**: Set backup retention duration (default: 7 days).
-     - **Guest processing mode**: Enable advanced options like file indexing and application-aware processing.
-     - **Schedule**: Configure automatic backups (default: 10 PM daily, with retries for failures).
+OVHcloud provides a **default backup policy** that includes a 2TB S3 bucket. Currently, users can modify this default policy but cannot create custom policies or add personal S3 buckets.
+
+To review or configure the policy:
+
+1. Go to the **Backup Job** section in the VSPC dashboard.
+2. Click the value under **Successful Jobs**. A window will open showing the default policy name (e.g., “FCO – Windows …”).
+3. Select the **backup policy** you want to modify. A new window will display the policy components.
+Here are the components you can adjust:
+- **Operation mode**: Choose the type of host to back up.
+- **Backup mode**: Select specific data to back up (e.g., entire server, partition).
+- **Destination**: Define the backup storage location (default is a 2TB S3 bucket).
+- **Repository credentials**: Configure authentication for the repository.
+- **Retention policy**: Specify the duration for keeping backups (default is 7 days).
+- **Backup cache**: Disabled by default.
+- **Guest processing mode**:
+  - **Application-aware processing**: Maintains consistency for VSS-aware applications by processing application logs for disaster recovery.
+  - **System indexing**: Enables file-by-file browsing and selective restoration.
+- **Schedule**: Backups run daily at 10 PM, with up to three retries for failed jobs.
+
+Before finalizing, a summary screen will display all settings for review.
 
 > **Warning**: Verify available storage space before starting backups or restorations. Insufficient space can result in failures.
 
