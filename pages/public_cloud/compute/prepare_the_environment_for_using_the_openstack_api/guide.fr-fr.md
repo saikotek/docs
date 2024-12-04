@@ -15,6 +15,7 @@ Grâce à l'API OpenStack, vous pouvez automatiser cette gestion en générant d
 > OpenStack requiert Python >=3.8.
 > Ce guide décrit l'installation du paquet `python-openstackclient` qui regroupe la ligne de commande pour la majorité des projets OpenStack.
 > Le projet Octavia (qui alimente le `Load Balancer Public Cloud`) n’est pas inclus. Vous devez donc exécuter `pip3 install python-octaviaclient` en plus des instructions d'installation ci-dessous.
+> De la même manière, si vous utilisez le projet Barbican pour gérer des secrets, la commande `pip3 install python-barbicanclient` doit aussi être ajoutée à la procédure ci dessous.
 >
 
 **Découvrez comment installer ces outils OpenStack.**
