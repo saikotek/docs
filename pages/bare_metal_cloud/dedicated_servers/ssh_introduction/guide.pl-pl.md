@@ -146,7 +146,7 @@ Najnowsze wersje systemu operacyjnego Windows to OpenSSH, który umożliwia korz
 
 Kliknij prawym przyciskiem myszy przycisk `Start`{.action} systemu Windows i wybierz `Windows PowerShell`{.action}. Pole wyszukiwania może być również używane do uruchamiania jednej z aplikacji wiersza polecenia.
 
-![PowerShell](obrazy/windowsps.png){.thumbnail}
+![PowerShell](images/windowsps.png){.thumbnail}
 
 Połącz się z serwerem za pomocą następującego polecenia:
 
