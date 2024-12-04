@@ -49,11 +49,11 @@ By leveraging the lifecycle configuration feature, you can tell OVHcloud Object 
 
 ### Special considerations
 
-When an object reaches the end of its lifetime based on its lifecycle configuration, the result of transiton or expiration actions performed by OVHcloud Object Storage varies according to the versioning state of the bucket:
+When an object reaches the end of its lifetime based on its lifecycle configuration, the result of transition or expiration actions performed by OVHcloud Object Storage varies according to the versioning state of the bucket:
 
 - **non-versioned**: there is only one existing version of the object which is the current version and it is deleted permanently.
 - **versioned**: a delete marker is created and becomes the current version. You can also choose how many old versions you want to keep. If the current object version is the only object version and it is also a delete marker, that delete marker will be removed.
-- **versioning-suspended**: we currently do not allow for the suspension of versioning if you have a lifecycle configuration in effect and vice-versa, we do currently do not allow for the upload of a lifecycle configuration if versioninf is suspended on the bucket
+- **versioning-suspended**: we currently do not allow for the suspension of versioning if you have a lifecycle configuration in effect and vice-versa, we do currently do not allow for the upload of a lifecycle configuration if versioning is suspended on the bucket
 
 ## Expiration
 
@@ -151,7 +151,7 @@ In a versioning-enabled bucket, each object has one current version and zero or 
 | Expiration.Days                                     | yes*     | Indicates at the duration in days after which the objects are to be deleted. The value must be an integer equals or greater than 1. </br></br> /!\ This attribute is mandatory if Date is not present. </br> /!\ this attribute is mutually exclusive with Date i.e you either have Date or Days but you cannot specify both. |
 | Expiration.ExpiredObjectDeleteMarker                | no       | Tells if OVHcloud Object Storage should immediately remove delete markers with no noncurrent versions aka expired delete markers. </br></br> /!\ You cannot specify Days or Date with ExpiredObjectDeleteMarker in the same rule. When you specify the Days/Date, expired delete markers are automatically deleted like normal objects when they satisfy the age criteria. ExpiredObjectDeleteMarker is used to clean up delete markers as soon as they become the only version, you have to create a separate rule with only ExpiredObjectDeleteMarker attribute in Expiration. </br> /!\ When you use the ExpiredObjectDeleteMarker S3 Lifecycle action, the rule cannot specify a tag-based filter. |
 | NoncurrentVersionExpiration                         | no       | A lifecycle action that indicates when noncurrent object versions should be deleted. This action does not affect the current versions. It only deletes the versions that are not current. |
-| NoncurrentVersionExpiration.NoncurrentDays          | no       | Indicates the number of days before a non-current version is elligible to deletion after they became non-current i.e the minimum age of a non-current version. </br> Example: </br></br> Suppose you have an object A with 10 versions: </br> - A v10 (current version, creation date: 2024-10-23) </br> - A v9 (non-current version, creation date: 2024-10-22) </br> - A v8 (non-current version, creation date: 2024-10-21) </br> - A v7 (non-current version, creation date: 2024-10-20) </br> - A v6 (non-current version, creation date: 2024-10-19) </br> - A v5 (non-current version, creation date: 2024-10-18) </br> - A v4 (non-current version, creation date: 2024-10-17) </br> - A v3 (non-current version, creation date: 2024-10-16) </br> - A v2 (non-current version, creation date: 2024-10-15) </br> - A v1 (non-current version, creation date: 2024-10-14) </br></br> If current date is 2024-10-23 and **NoncurrentDays**=5, the lifecycle rule will delete the non-current versions older than 5 days i.e v1, v2, v3, v4 and v5. |
+| NoncurrentVersionExpiration.NoncurrentDays          | no       | Indicates the number of days before a non-current version is eligible to deletion after they became non-current i.e the minimum age of a non-current version. </br> Example: </br></br> Suppose you have an object A with 10 versions: </br> - A v10 (current version, creation date: 2024-10-23) </br> - A v9 (non-current version, creation date: 2024-10-22) </br> - A v8 (non-current version, creation date: 2024-10-21) </br> - A v7 (non-current version, creation date: 2024-10-20) </br> - A v6 (non-current version, creation date: 2024-10-19) </br> - A v5 (non-current version, creation date: 2024-10-18) </br> - A v4 (non-current version, creation date: 2024-10-17) </br> - A v3 (non-current version, creation date: 2024-10-16) </br> - A v2 (non-current version, creation date: 2024-10-15) </br> - A v1 (non-current version, creation date: 2024-10-14) </br></br> If current date is 2024-10-23 and **NoncurrentDays**=5, the lifecycle rule will delete the non-current versions older than 5 days i.e v1, v2, v3, v4 and v5. |
 | NoncurrentVersionExpiration.NewerNoncurrentVersions | no       | Indicates the number of most recent non-current versions to retain. Maximum is 100. </br></br> Example: </br> Suppose you have an object B with 10 versions: </br> - B v10 (current version, creation date: 2024-10-23) </br> - B v9 (non-current version, creation date: 2024-10-22) </br> - B v8 (non-current version, creation date: 2024-10-21) </br> - B v7 (non-current version, creation date: 2024-10-20) </br> - B v6 (non-current version, creation date: 2024-10-19) </br> - B v5 (non-current version, creation date: 2024-10-18) </br> - B v4 (non-current version, creation date: 2024-10-17) </br> - B v3 (non-current version, creation date: 2024-10-16) </br> - B v2 (non-current version, creation date: 2024-10-15) </br> - B v1 (non-current version, creation date: 2024-10-14) </br></br> If **NewerNoncurrentVersions**=3, the lifecycle rule will delete all the non-current versions except the 3 most recent i.e v9, v8 and v7. |
 | AbortIncompleteMultipartUpload                      | no       | A lifecycle action that applies a delete operation on parts of an incomplete multipart upload. |
 | AbortIncompleteMultipartUpload.DaysAfterInitiation  | no       | Indicates the number of days after which all the parts of all incomplete multipart uploads are deleted and aborts the underlying multipart uploads. |
@@ -243,7 +243,7 @@ In the following configuration, there are 2 lifecycle rules:
 - rule "123456" permanently deletes all objects prefixed "old" 30 days after their creation
 - rule "456789" permanently deletes all objects prefixed "old/logs" 65 days after their creation
 
-The same set of objects are elligible to both lifecycle rule. In this case, the first rule will apply after 30 days and the second rule will then be ignored because the objets will have already been removed.
+The same set of objects are eligible to both lifecycle rule. In this case, the first rule will apply after 30 days and the second rule will then be ignored because the objets will have already been removed.
 
 ```JSON
 {
@@ -415,7 +415,7 @@ As already mentioned before, when you have multiple rules in an S3 Lifecycle con
 | Transitions.Days                                     | yes*     | Indicates at the duration in days after which the objects are to be transitioned. The value must be an integer equals or greater than 30. </br></br> /!\ This attribute is mandatory if Date is not present. </br> /!\ this attribute is mutually exclusive with Date i.e you either have Date or Days but you cannot specify both. |
 | Transitions.StorageClass                             | yes      | Indicates the target Storage class. Currently, only "STANDARD" is available. |
 | NoncurrentVersionTransitions                         | no       | An array of lifecycle actions that indicate when noncurrent object versions should be transitioned. These actions do not affect the current versions. They only transition the versions that are not current. |
-| NoncurrentVersionTransitions.NoncurrentDays          | no       | Indicates the number of days before a non-current version is elligible to transition after they became non-current i.e the minimum age of a non-current version. |
+| NoncurrentVersionTransitions.NoncurrentDays          | no       | Indicates the number of days before a non-current version is eligible to transition after they became non-current i.e the minimum age of a non-current version. |
 | NoncurrentVersionTransitions.NewerNoncurrentVersions | no       | Indicates the number of most recent non-current versions to retain in their current storage tier. Maximum is 100. |
 
 ///
@@ -496,9 +496,9 @@ If current date is 2024-10-23:
 
 /// details | Mix of expiration and transition
 
-The follwing lifecycle configuration applies to all objects with prefix "old" and tag "type" with value "logs". It specifies the following actions:
+The following lifecycle configuration applies to all objects with prefix "old" and tag "type" with value "logs". It specifies the following actions:
 
-- 30 days after their creation, the objects will be transitioned from High Perf to Standard tier
+- 30 days after their creation, the objects will be transitioned from High Performance to Standard tier
 - 90 days after their creation, the objects will be deleted
 
 In this scenario, the objects will be stored in High Performance tier for 30 days and then 60 days in Standard tier before being finally deleted.
@@ -534,10 +534,10 @@ In this scenario, the objects will be stored in High Performance tier for 30 day
 
 /// details | Mix of expiration and transition rules with conflicting rules
 
-The follwing lifecycle configuration is uploaded to non-versioned bucket. It defines 2 rules that apply to all objects with prefix "old" and tag "type" with value "logs":
+The following lifecycle configuration is uploaded to non-versioned bucket. It defines 2 rules that apply to all objects with prefix "old" and tag "type" with value "logs":
 
 - 90 days after their creation, the objects will be expired
-- 90 days after their creation, the objects will be transitoned
+- 90 days after their creation, the objects will be transitioned
 
 In this scenario, there are two rules that direct OVHcloud Object Storage to perform two different actions on the same set of objects at the same time. Since permanent deletion takes precedence over transition, the objects are removed after 90 days and there is no further point in changing the storage class.
 
