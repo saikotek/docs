@@ -1,7 +1,7 @@
 ---
-title: "Activer l’hébergement gratuit 100M"
-excerpt: "Découvrez comment activer votre hébergement gratuit 100M"
-updated: 2023-12-18
+title: "Hébergement web - Activer l’hébergement gratuit 100M"
+excerpt: "Découvrez comment activer votre offre d'hébergement gratuit 100M"
+updated: 2024-12-04
 ---
 
 ## Objectif
@@ -13,19 +13,19 @@ Ce guide vous présente comment activer cette offre sur votre [nom de domaine](/
 >
 > Cet hébergement gratuit de 100 Mo convient pour une simple page Web de présentation, il **n'inclut pas de base de données**.
 > Il convient également si vous n'avez pas besoin de plusieurs adresses e-mail de type "MX plan". 
-> Si vous souhaitez mettre en place un site Web comprenant plusieurs pages et nécessitant une base de données, tel qu'un CMS (WordPress, Joomla!, PrestaShop, Drupal, etc.), nous vous invitons à commander directement l'une de [nos offres d'hébergement Web](/links/web/hosting) depuis notre site ou votre [espace client OVHcloud](/links/manager){.external}.
+> Si vous souhaitez mettre en place un site Web comprenant plusieurs pages et nécessitant une base de données, tel qu'un CMS (WordPress, Joomla!, PrestaShop, Drupal, etc.), nous vous invitons à commander directement l'une de [nos offres d'hébergement Web](/links/web/hosting) depuis notre site ou votre [espace client OVHcloud](/links/manager).
 >
 
-**Découvrez comment activer votre hébergement gratuit 100M**
+**Découvrez comment activer votre offre d'hébergement gratuit 100M**
 
 ## Prérequis
 
-- Disposer d'un [nom de domaine](/links/web/domains){.external} dans votre [espace client OVHcloud](/links/manager){.external}, détaché de tout hébergement Web et sans aucun [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) associé.
-- Être connecté à votre [espace client OVHcloud](/links/manager){.external}.
+- Disposer d'un [nom de domaine](/links/web/domains) dans votre [espace client OVHcloud](/links/manager), détaché de tout hébergement Web et sans aucun [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) associé.
+- Être connecté à votre [espace client OVHcloud](/links/manager).
 
 ## En pratique
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, cliquez sur `Noms de domaine`{.action}, puis choisissez le nom de domaine concerné.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur `Noms de domaine`{.action}, puis choisissez le nom de domaine concerné.
 
 Dans le cadre **Informations générales** vous trouverez la mention *Hébergement Web et e-mail gratuit*. Cliquez sur le bouton `...`{.action} à droite puis sur `Activer`{.action}.
 
@@ -39,7 +39,7 @@ La fenêtre d'activation s'affiche. **L'étape 1** vous rappelle l'offre et son 
 >
 > Si vous cochez l'une des deux cases `Entrée DNS A` et `Entrée DNS MX` ou les deux, cela écrasera la configuration initialement mise en place dans la zone DNS de votre domaine.
 >
-> Si votre zone DNS n'est pas gérée dans votre [espace client OVHcloud](/links/manager){.external}, vous devrez effectuer les modifications manuellement dans votre zone DNS externe.
+> Si votre zone DNS n'est pas gérée dans votre [espace client OVHcloud](/links/manager), vous devrez effectuer les modifications manuellement dans votre zone DNS externe.
 >
 > Pour plus de détails, consultez notre guide sur [l'édition d'une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
 >
@@ -51,7 +51,7 @@ La fenêtre d'activation s'affiche. **L'étape 1** vous rappelle l'offre et son 
 
 > [!primary]
 >
-> Si votre projet est amené à évoluer rapidement vers un hébergement disposant d'une base de données, d'un espace de stockage plus important ou davantage d'adresses e-mail, vous pourrez basculer directement et uniquement de l'hébergement gratuit 100M vers une offre d'hébergement **Perso** depuis votre [espace client OVHcloud](/links/manager){.external}.
+> Si votre projet est amené à évoluer rapidement vers un hébergement disposant d'une base de données, d'un espace de stockage plus important ou davantage d'adresses e-mail, vous pourrez basculer directement et uniquement de l'hébergement gratuit 100M vers une offre d'hébergement **Perso** depuis votre [espace client OVHcloud](/links/manager).
 >
 > Une bascule vers l'offre **Pro** ou **Performance** nécessite de passer préalablement de l'offre d'hébergement gratuit 100M à l'offre **Perso**.
 >
@@ -64,15 +64,15 @@ La fenêtre d'activation s'affiche. **L'étape 1** vous rappelle l'offre et son 
 
 Lors de **l'étape 4**, vous devez prendre connaissance des contrats et valider votre commande.
 
-Une fois votre commande validée, un e-mail vous sera transmis avec les informations de [connexion FTP](/pages/web_cloud/web_hosting/ftp_connection){.external} à votre hébergement gratuit 100M.
+Une fois votre commande validée, un e-mail vous sera transmis avec les informations de [connexion FTP](/pages/web_cloud/web_hosting/ftp_connection) à votre hébergement gratuit 100M.
 
-Consultez le guide de [création d'un compte E-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation){.external} pour profiter de l'adresse e-mail incluse avec votre hébergement gratuit 100M.
+Consultez le guide de [création d'un compte E-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation) pour profiter de l'adresse e-mail incluse avec votre hébergement gratuit 100M.
 
 ## Aller plus loin
 
-[Se connecter à l’espace de stockage de son hébergement Web](/pages/web_cloud/web_hosting/ftp_connection){.external}
+[Se connecter à l’espace de stockage de son hébergement Web](/pages/web_cloud/web_hosting/ftp_connection)
 
-[Créer une adresse e-mail avec son offre MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation){.external}
+[Créer une adresse e-mail avec son offre MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation)
 
 [Gérer un certificat SSL sur son hébergement web](/pages/web_cloud/web_hosting/ssl_on_webhosting)
 
