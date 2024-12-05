@@ -74,7 +74,7 @@ Pour activer votre hébergement gratuit 100M, cliquez sur les onglets ci-dessous
 >>
 >> La section **3** vous rappelle la tarification de l'offre. 
 >>
->> Dans la section **4**, prennez connaissance des contrats, puis valider votre commande pour terminer la demande d'activation de votre hébergement gratuit 100M.
+>> Dans la section **4**, prenez connaissance des contrats, puis validez votre commande pour terminer la demande d'activation de votre hébergement gratuit 100M.
 
 > [!primary]
 >
