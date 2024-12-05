@@ -21,7 +21,7 @@ IP-Adressblöcke in einer Region können innerhalb dieser Region von einem Reche
 >
 > Eine Ausnahme bilden die Regionen eu-west-gra, eu-west-rbx und eu-west-sbg, da hier IP-Adressblöcke zwischen diesen 3 Regionen verschoben werden können.
 >
-> Migration funktioniert nur für ganze Blöcke. Es ist nicht möglich, einzelne IPs innerhalb eines Blocks zu migrieren.
+> Migrationen funktionieren nur für ganze Blöcke. Es ist nicht möglich, einzelne IPs innerhalb eines Blocks zu migrieren.
 
 **Diese Anleitung erklärt, wie Sie eine Additional IP über Ihr OVHcloud Kundencenter oder die OVHcloud API umziehen.**
 
@@ -57,9 +57,10 @@ IP-Adressblöcke in einer Region können innerhalb dieser Region von einem Reche
 
 Die Geolokalisierung einer IP-Adresse ist unabhängig von ihrer Heimatregion.
 
-Wenn Sie einen Additional IP Block auf einem Server bestellen, aber einen anderen Standort (Geolokalisierung) für den IP Block wählen, kann dieser IP Block nicht auf einen anderen Server im selben Land wie dieser Block verschoben werden. Ein in Polen geolokalisierter Additional IP Block (eu-central-war), der auf einem Server in einem französischen Rechenzentrum (eu-west-gra) bestellt wird, kann beispielsweise nicht auf einen Server in einem polnischen Rechenzentrum (eu-central-war) umgezogen werden. Der IP-Block kann nur auf einen berechtigten Server in einem Rechenzentrum in Frankreich umgezogen werden.
+Wenn Sie einen Additional IP Block auf einem Server bestellen, aber einen anderen Standort (Geolokalisierung) für den IP Block wählen, kann dieser IP Block nicht auf einen anderen Server im selben Land wie dieser Block verschoben werden.  
+Beispielsweise kann ein in Polen geolokalisierter Additional IP Block (eu-central-war), der auf einem Server in einem französischen Rechenzentrum (eu-west-gra) bestellt wird, nicht auf einen Server in einem polnischen Rechenzentrum (eu-central-war) umgezogen werden. Der IP-Block kann nur auf einen berechtigten Server in einem Rechenzentrum in Frankreich umgezogen werden.
 
-### Eine IP über das OVHcloud Kundencenter umziehen
+### IP-Adresse über das OVHcloud Kundencenter umziehen
 
 > [!warning]
 > Nur ein Block mit einer einzigen Adresse (/32) kann von einem dedizierten Server auf einen VPS verschoben werden.
@@ -81,12 +82,12 @@ Klicken Sie auf `Weiter`{.action} und dann auf `Bestätigen`{.action}.
 
 ![Kundencenter](images/moveadditionalIP2.png){.thumbnail}
 
-### Eine IP über die API umziehen
+### IP-Adresse über die API umziehen
 
 Loggen Sie sich auf der [Webseite der OVHcloud API](https://api.ovh.com/) ein.
 
-Es ist am besten, zunächst zu prüfen, ob die IP-Adresse umgezogen werden kann.
-<br>Um zu überprüfen, ob die IP auf einen Ihrer Dedicated Server umgezogen werden kann, verwenden Sie folgenden Aufruf:
+Es ist am besten, zunächst zu prüfen, ob die IP-Adresse umgezogen werden kann.  
+Um zu überprüfen, ob die IP auf einen Ihrer Dedicated Server umgezogen werden kann, verwenden Sie folgenden Aufruf:
 
 > [!api]
 >
