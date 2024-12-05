@@ -96,10 +96,10 @@ Jeśli posiadasz gotową parę kluczy SSH, możesz pominąć ten krok.
 
 Masz do wyboru dwie opcje tworzenia kluczy SSH i zarządzania nimi:
 
-- Interfejs wiersza poleceń systemu operacyjnego (prosty klient **Open SSH**).
-- Dodatkowe oprogramowanie (kompatybilne z protokołem **Open SSH**) z wierszem poleceń lub interfejsem graficznym.
+- Interfejs wiersza poleceń systemu operacyjnego (prosty klient **OpenSSH**).
+- Dodatkowe oprogramowanie (kompatybilne z protokołem **OpenSSH**) z wierszem poleceń lub interfejsem graficznym.
 
-Większość współczesnych stacjonarnych systemów operacyjnych zawiera natywnie klienta **Open SSH** dostępny za pośrednictwem aplikacji wiersza poleceń systemu (`cmd`, `Powershell`, `Terminal`, etc.). Jeśli nie wiesz, jak używać kluczy SSH jako metody uwierzytelniania, możesz użyć instrukcji z [tego przewodnika](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key), aby utworzyć parę kluczy.
+Większość współczesnych stacjonarnych systemów operacyjnych zawiera natywnie klienta **OpenSSH** dostępny za pośrednictwem aplikacji wiersza poleceń systemu (`cmd`, `Powershell`, `Terminal`, etc.). Jeśli nie wiesz, jak używać kluczy SSH jako metody uwierzytelniania, możesz użyć instrukcji z [tego przewodnika](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key), aby utworzyć parę kluczy.
 
 Jeśli używasz innego oprogramowania, zapoznaj się z jego dokumentacją. Instrukcje dotyczące rozwiązania open source `PuTTY` są dostępne w [tym przewodniku](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
 
@@ -385,7 +385,7 @@ Po zakończeniu konfiguracji Twojej instancji kliknij przycisk `Utwórz instancj
 
 ### Etap 5: Logowanie do instancji
 
-Instrukcje w tej części dotyczą zdalnych połączeń za pomocą protokołów **Open SSH** i **RDP** przez sieć publiczną (Internet).
+Instrukcje w tej części dotyczą zdalnych połączeń za pomocą protokołów **OpenSSH** i **RDP** przez sieć publiczną (Internet).
 
 Informujemy, że proponujemy alternatywne sposoby dostępu (używane głównie do rozwiązywania problemów), które są dostępne tylko w Panelu klienta OVHcloud:
 

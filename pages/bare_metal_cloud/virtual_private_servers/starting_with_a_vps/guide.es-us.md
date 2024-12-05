@@ -201,7 +201,7 @@ Al instalar por primera vez o al reinstalar desde el Panel de control, se crea a
 
 Recibirá por correo electrónico el nombre de usuario y la contraseña necesarios para conectarse a su VPS por SSH. SSH es un protocolo de comunicación seguro que se utiliza para establecer conexiones cifradas con un host remoto.
 
-La mayoría de los sistemas operativos de escritorio actuales tendrán un cliente **Open SSH** instalado de forma nativa. Esto significa que sus claves de acceso le permiten establecer rápidamente una conexión con su VPS en la aplicación de línea de comandos adecuada (`Terminal`, `Command prompt`, `Powershell`, etc.). Introduzca el siguiente comando:
+La mayoría de los sistemas operativos de escritorio actuales tendrán un cliente **OpenSSH** instalado de forma nativa. Esto significa que sus claves de acceso le permiten establecer rápidamente una conexión con su VPS en la aplicación de línea de comandos adecuada (`Terminal`, `Command prompt`, `Powershell`, etc.). Introduzca el siguiente comando:
 
 ```bash
 ssh username@IPv4_VPS
@@ -213,7 +213,7 @@ Por ejemplo:
 ssh ubuntu@203.0.113.101
 ```
 
-También puede utilizar cualquier aplicación de terceros compatible con **Open SSH**.
+También puede utilizar cualquier aplicación de terceros compatible con **OpenSSH**.
 
 <a name="linuxconnect"></a>
 

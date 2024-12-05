@@ -106,7 +106,7 @@ Si vous avez installé un modèle d’OS OVHcloud sur votre serveur, un utilisat
 
 Vous recevrez alors un e-mail contenant les informations nécessaires à l'établissement d'une première connexion en SSH. SSH est un protocole de communication sécurisé, utilisé pour établir des connexions cryptées vers un hôte distant. Retrouvez plus d'informations dans notre guide : [Premiers pas en SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-La plupart des systèmes d'exploitation actuels disposent d'un client **Open SSH** installé nativement. Cela signifie que vos identifiants d'accès vous permettent d'établir rapidement une connexion à votre serveur depuis votre poste de travail via l'application de ligne de commande appropriée (`Terminal`, `Command prompt`, `Powershell`, etc.). Entrez la commande suivante :
+La plupart des systèmes d'exploitation actuels disposent d'un client **OpenSSH** installé nativement. Cela signifie que vos identifiants d'accès vous permettent d'établir rapidement une connexion à votre serveur depuis votre poste de travail via l'application de ligne de commande appropriée (`Terminal`, `Command prompt`, `Powershell`, etc.). Entrez la commande suivante :
 
 ```bash
 ssh username@IPv4
@@ -118,7 +118,7 @@ ssh username@IPv4
 ssh ubuntu@203.0.113.1
 ```
 
-Vous pouvez également utiliser toute application tierce compatible avec **Open SSH**.
+Vous pouvez également utiliser toute application tierce compatible avec **OpenSSH**.
 
 Une fois connecté, vous pouvez remplacer le mot de passe prédéfini de l'utilisateur actuel par une meilleure phrase secrète (*passphrase*) en utilisant cette commande :
 

@@ -207,7 +207,7 @@ Bei der ersten Installation oder bei der Neuinstallation über das Kundencenter 
 
 Sie erhalten dann eine E-Mail mit Benutzernamen und Passwort, die Sie für die SSH-Verbindung zu Ihrem VPS benötigen. SSH ist ein sicheres Kommunikationsprotokoll, das zum Herstellen verschlüsselter Verbindungen zu einem Remote-Host verwendet wird.
 
-Bei den meisten aktuellen Desktop-Betriebssystemen ist ein **Open SSH** Client nativ installiert. Das bedeutet, dass Sie sich mit Ihren Zugangsdaten schnell und einfach über die jeweils verfügbare Befehlszeilenanwendung (`Terminal`, `Command prompt`, `Powershell` etc.) mit Ihrem VPS verbinden können. Geben Sie folgenden Befehl ein:
+Bei den meisten aktuellen Desktop-Betriebssystemen ist ein **OpenSSH** Client nativ installiert. Das bedeutet, dass Sie sich mit Ihren Zugangsdaten schnell und einfach über die jeweils verfügbare Befehlszeilenanwendung (`Terminal`, `Command prompt`, `Powershell` etc.) mit Ihrem VPS verbinden können. Geben Sie folgenden Befehl ein:
 
 ```bash
 ssh username@IPv4_VPS
@@ -219,7 +219,7 @@ Beispiel:
 ssh ubuntu@203.0.113.101
 ```
 
-Sie können auch jede Anwendung eines Drittanbieters verwenden, die mit **Open SSH** kompatibel ist.
+Sie können auch jede Anwendung eines Drittanbieters verwenden, die mit **OpenSSH** kompatibel ist.
 
 <a name="linuxconnect"></a>
 
