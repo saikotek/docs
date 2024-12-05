@@ -70,7 +70,7 @@ Pour activer votre hébergement gratuit 100M, cliquez sur les onglets ci-dessous
 >> | Choix                                       	| Description                                                                                                               							|
 >> |--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 >> | Entrée DNS A                         	| Le nom de domaine pointera vers l'adresse IP de l'hébergement gratuit 100M.                                               								|
->> | Entrée DNS MX 	| Les serveurs e-mail (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) d'OVHcloud seront appliqués au nom de domaine. 	|
+>> | Entrée DNS MX 	| Les serveurs e-mail OVHcloud (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) seront appliqués au nom de domaine. 	|
 >>
 >> La section **3** vous rappelle la tarification de l'offre. 
 >>
