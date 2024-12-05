@@ -28,7 +28,7 @@ We will start by listing the disks on the server. While being able to retrieve t
 
 #### List of disks
 
-To list the disks, you can use the following command: `MegaCli -PdList -aALL | Egrep "Slot | Device ID | Device Id"` or `storcli /cx /eall /sall show (all)`.
+To list the disks, you can use the following command: MegaCli -PdList -aALL | Egrep "Slot | Device ID | Device Id"
 
 For example :
 
