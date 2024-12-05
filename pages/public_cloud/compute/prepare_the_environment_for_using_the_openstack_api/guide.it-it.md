@@ -1,7 +1,7 @@
 ---
 title: 'Preparare l’ambiente per utilizzare l’API OpenStack'
 excerpt: 'Come installare l’ambiente OpenStack per gestire le istanze via API'
-updated: 2024-01-22
+updated: 2024-12-05
 ---
 
 ## Obiettivo
@@ -13,6 +13,7 @@ Per gestire i servizi Public Cloud attraverso un terminale, è possibile scarica
 > OpenStack richiede Python >=3.8.
 > Questa guida descrive l'installazione del pacchetto `python-openstackclient` che contiene la linea di comando per la maggior parte dei progetti OpenStack.
 > Il progetto Octavia (che alimenta il `Public Cloud Load Balancer`) non è incluso. È quindi necessario eseguire `pip3 install python-octaviaclient` oltre alle istruzioni di installazione che si trovano di seguito.
+> Allo stesso modo, se si utilizza il progetto Barbican per gestire i segreti, è necessario aggiungere il comando `pip3 install python-barbicanclient` alla procedura seguente.
 
 **Questa guida ti mostra la procedura da seguire per installare i client OpenStack.**
 
