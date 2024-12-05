@@ -29,7 +29,7 @@ Ce guide vous présente comment activer cette offre sur votre [nom de domaine](/
 
 ## En pratique
 
-Pour activer votre hébergement gratuit 100M, cliquez sur les onglets ci-dessous pour afficher successivement chacune des 5 étapes.
+Pour activer votre hébergement gratuit 100M, cliquez sur les onglets ci-dessous pour afficher successivement chacune des 4 étapes.
 
 > [!tabs]
 > **Etape 1**
