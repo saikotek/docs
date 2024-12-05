@@ -23,6 +23,10 @@ Ce guide vous présente comment activer cette offre sur votre [nom de domaine](/
 - Disposer d'un [nom de domaine](/links/web/domains) dans votre [espace client OVHcloud](/links/manager), détaché de tout hébergement Web et sans aucun [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) associé.
 - Être connecté à votre [espace client OVHcloud](/links/manager).
 
+> [!primary]
+>
+> L'hébergement gratuit 100M est **exclusivement** disponible pour les filialles Européennes.
+
 ## En pratique
 
 Pour activer votre hébergement gratuit 100M, cliquez sur les onglets ci-dessous pour afficher successivement chacune des 5 étapes.
@@ -30,47 +34,42 @@ Pour activer votre hébergement gratuit 100M, cliquez sur les onglets ci-dessous
 > [!tabs]
 > **Etape 1**
 >>
->> Connectez-vous à votre [espace client OVHcloud](/links/manager).
->>
->> ![enable 100m](/pages/assets/screens/control_panel/login.png){.thumbnail}
->>
-> **Etape 2**
->>
->> Rendez-vous dans la partie `Web Cloud`{.action}.
+>> Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}.
 >>
 >> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
-> **Etape 3**
+> **Etape 2**
 >>
 >> Cliquez sur le menu déroulant `Noms de domaine`{.action}, puis choisissez le nom de domaine concerné.
 >>
 >> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
 >>
-> **Etape 4**
+> **Etape 3**
 >>
 >> Dans le cadre **Informations générales** vous trouverez la mention **Hébergement Web et e-mail gratuit**. Cliquez sur le bouton `...`{.action} à droite puis sur `Activer`{.action}.
 >>
 >> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
 >>
-> **Etape 5**
+> **Etape 4**
 >>
 >> La fenêtre d'activation s'affiche. La section **1** vous rappelle l'offre et son tarif, cliquez sur `Suivant`{.action}.
 >> Pour la section **2**, choisissez les modifications à apporter sur votre zone DNS :
 >>
 >> ![activate 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
 >>
->> > [!warning]
->> >
->> > Si vous cochez l'une des deux cases `Entrée DNS A` et `Entrée DNS MX` ou les deux, cela écrasera la configuration initialement mise en place dans la zone DNS de votre nom de domaine.
->> >
->> > Si votre zone DNS n'est pas gérée dans votre [espace client OVHcloud](/links/manager), vous devrez effectuer les modifications manuellement dans votre zone DNS externe.
->> >
->> > Pour plus de détails, consultez notre guide sur [l'édition d'une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
->>
 >> | Choix                                       	| Description                                                                                                               							|
 >> |--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 >> | Entrée DNS A                         	| Le nom de domaine pointera vers l'adresse IP de l'hébergement gratuit 100M.                                               								|
 >> | Entrée DNS MX 	| Les serveurs e-mail OVHcloud (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) seront appliqués au nom de domaine. 	|
+>>
+>> > [!warning]
+>> >
+>> > Si vous cochez l'une des deux cases `Entrée DNS A` et `Entrée DNS MX` ou les deux, cela écrasera la configuration initialement mise en place dans la zone DNS de votre nom de domaine.
+>> > Cochez les deux cases pour configurer automatiquement votre nom de domaine avec l'hébergement gratuit 100M et son service e-mail inclus.
+>> >
+>> > Si votre zone DNS n'est pas gérée dans votre [espace client OVHcloud](/links/manager), vous devrez effectuer les modifications manuellement dans votre zone DNS externe.
+>> >
+>> > Pour plus de détails, consultez notre guide sur [l'édition d'une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
 >>
 >> La section **3** vous rappelle la tarification de l'offre. 
 >>
