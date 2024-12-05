@@ -48,7 +48,7 @@ Pour activer votre hébergement gratuit 100M, cliquez sur les onglets ci-dessous
 >>
 > **Etape 4**
 >>
->> Dans le cadre **Informations générales** vous trouverez la mention *Hébergement Web et e-mail gratuit*. Cliquez sur le bouton `...`{.action} à droite puis sur `Activer`{.action}.
+>> Dans le cadre **Informations générales** vous trouverez la mention **Hébergement Web et e-mail gratuit**. Cliquez sur le bouton `...`{.action} à droite puis sur `Activer`{.action}.
 >>
 >> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
 >>
