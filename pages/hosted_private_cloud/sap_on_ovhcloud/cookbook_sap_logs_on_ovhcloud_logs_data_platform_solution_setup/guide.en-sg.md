@@ -219,7 +219,7 @@ By activating it, all activities that you specify will be recorded into an audit
 
 However, for SAP S/4HANA, the classic approach must be configured. Only one file per day must be generated, the option `protection format active`{.action} must be disabled and the parameter FN_AUDIT (set in the DEFAULT.PFL profile) must be set with the value ++++++++.AUD, where ++++++++ equals YYYYDDMM. In order to load this new configuration, a restart of your SAP system must be done.
 
-These audit files do not have standard rsyslog syntax,, OVHcloud developed a Linux service in order to identify and send logs to rsyslog through the `/var/log/messages` file. These logs come from Security Audit Log process are identified with the tag `security_audit_abap`{.action}.
+These audit files do not have standard rsyslog syntax, OVHcloud developed a Linux service in order to identify and send logs to rsyslog through the `/var/log/messages` file. These logs come from Security Audit Log process are identified with the tag `security_audit_abap`{.action}.
 
 During the installation, two files are created `/etc/systemd/system/ovhcloud-sap-audit.service` and `/usr/sbin/ovhcloud-sap-auditd`. These files are used to create a service named `ovhcloud-sap-audit`{.action}.
 

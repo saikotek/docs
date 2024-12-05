@@ -49,7 +49,7 @@ Technical backups are backups made by OVHcloud to maintain the Service Level Agr
 
 ### 4.2 Customer data backups
 
-Customer data (DB) is backed up, automated and operated following different frequencies. Those backups are encrypted and uploaded to a remote, replicated storage backend, in a different datacenter from the one the database service is hosted on. Details about frequencies,, RPO and locations are listed following type of services and ranges at [this link](/pages/public_cloud/public_cloud_databases/databases_05_automated_backups).<br>
+Customer data (DB) is backed up, automated and operated following different frequencies. Those backups are encrypted and uploaded to a remote, replicated storage backend, in a different datacenter from the one the database service is hosted on. Details about frequencies, RPO and locations are listed following type of services and ranges at [this link](/pages/public_cloud/public_cloud_databases/databases_05_automated_backups).<br>
 Customer data backup health status is checked daily by OVHcloud.<br>
 If you need to restore your data using a backup, you can follow [this guide](/pages/public_cloud/public_cloud_databases/databases_06_restore_backup) and create a new service for this purpose.
 
