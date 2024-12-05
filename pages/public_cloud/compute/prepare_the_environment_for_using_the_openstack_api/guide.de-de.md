@@ -1,7 +1,7 @@
 ---
 title: 'System für die Verwendung der OpenStack API vorbereiten'
 excerpt: 'Erfahren Sie hier, wie Sie Ihre Arbeitsumgebung zur Verwaltung von Instanzen über die OpenStack API nutzen'
-updated: 2024-01-22
+updated: 2024-12-05
 ---
 
 ## Ziel
@@ -15,6 +15,7 @@ Mithilfe der OpenStack API können Sie die Verwaltung automatisieren, indem Sie 
 > OpenStack benötigt Python >=3.8.
 > Diese Anleitung beschreibt die Installation des Pakets `python-openstackclient`, das die Kommandozeile für die meisten OpenStack-Projekte bündelt.
 > Das Octavia-Projekt (das den `Public Cloud Load Balancer` betreibt) ist nicht enthalten. Daher müssen Sie `pip3 install python-octaviaclient` zusätzlich zu den unten stehenden Installationsanweisungen ausführen.
+> Wenn Sie Secrets mit Barbican verwalten müssen, müssen Sie ein zusätzliches Paket mit `pip3 install python-barbicanclient` installieren.
 
 **Diese Anleitung erklärt, wie Sie OpenStack Tools installieren.**
 
