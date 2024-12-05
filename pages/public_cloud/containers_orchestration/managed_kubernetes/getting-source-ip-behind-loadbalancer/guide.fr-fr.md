@@ -1,7 +1,7 @@
 ---
 title: Getting the source IP behind the LoadBalancer
 excerpt: 'Find out how to get the source IP behind the LoadBalancer on OVHcloud Managed Kubernetes'
-updated: 2024-11-18
+updated: 2024-12-05
 ---
 
 > [!warning]
@@ -153,7 +153,7 @@ Now you need to patch the Ingress controller to support the proxy protocol.
 > [!warning]
 > Depends on your Kubernetes cluster is working with private network or not, the proxy protocol configuration differs. Follow the tutorial parts according to your setup.
 
-#### 1a. [PUBLIC NETWORK ONLY] Get the list of the egress load balancer IPs 
+#### 1a. [PUBLIC NETWORK ONLY] Get the list of the egress load balancer IPs
 
 ```bash
 kubectl get svc ingress-nginx-controller -n ingress-nginx -o jsonpath="{.metadata.annotations.lb\.k8s\.ovh\.net/egress-ips}"
@@ -335,7 +335,8 @@ If TLS is enabled for the Ingress, a Secret containing the certificate and key m
 ### 4. Testing
 
 > [!warning]
-> Due to DNS propagation the actual resolving of your Load Balancer FQDN can take an additional 2-5 minutes to be fully usable. In the meantime, you can use the included IP to access the load balancer.
+> Due to DNS propagation the actual resolving of your Load Balancer FQDN can take an additional 2-5 minutes to be fully usable. In the meantime, you can use the included IP to access the load balancer.  
+> The domain name generated for the service displayed in the `EXTERNAL-IP` fields is for cluster internal usage only. It should not be used to access the service from internet.
 >
 
 We can now deploy a simple echo service to verify that everything is working. The service will use the [`mendhak/http-https-echo` image](https://code.mendhak.com/docker-http-https-echo/), a very useful HTTPS echo Docker container for web debugging.
