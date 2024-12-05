@@ -25,7 +25,7 @@ Ce guide vous présente comment activer cette offre sur votre [nom de domaine](/
 
 > [!primary]
 >
-> L'hébergement gratuit 100M est **exclusivement** disponible pour les filialles Européennes.
+> L'hébergement gratuit 100M est **uniquement** disponible pour nos clients en Europe.
 
 ## En pratique
 
