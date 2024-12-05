@@ -1,28 +1,28 @@
 ---
 title: "Kostenloses Hosting 100M aktivieren"
 excerpt: "Diese Anleitung erklärt, wie Sie Ihr kostenloses Hosting 100M aktivieren"
-updated: 2023-12-18
+updated: 2024-12-05
 ---
 
 ## Ziel 
 
-Mit dem Angebot [Kostenloses Hosting 100M](/links/web/domains-free-hosting){.external} bietet Ihnen OVHcloud ein Webhosting mit 100 MB und einen E-Mail-Account mit 5 GB Speicherplatz.
+Mit dem Angebot [Kostenloses Hosting 100M](/links/web/domains-free-hosting) bietet Ihnen OVHcloud ein Webhosting mit 100 MB und einen E-Mail-Account mit 5 GB Speicherplatz.
 
-In dieser Anleitung erfahren Sie, wie Sie dieses Angebot für Ihren [Domainnamen](/links/web/domains){.external} aktivieren.
+In dieser Anleitung erfahren Sie, wie Sie dieses Angebot für Ihren [Domainnamen](/links/web/domains) aktivieren.
 
 > [!warning]
 >
 > Dieses kostenlose Webhosting mit 100 MB Speicherplatz ist für eine einfache Präsentationsseite geeignet; es enthält **keine Datenbank**.
 > Es eignet sich auch für die E-Mail-Nutzung, wenn Sie nicht mehr als einen "MX Plan" E-Mail-Account benötigen.
 >
-> Wenn Sie eine Website mit mehreren Seiten einrichten möchten, die eine Datenbank benötigt, wie etwa WordPress, Joomla!, PrestaShop oder Drupal, bestellen Sie direkt über unsere Website oder Ihr [OVHcloud Kundencenter](/links/manager) eines unserer [Webhosting-Angebote](/links/web/hosting){.external}.
+> Wenn Sie eine Website mit mehreren Seiten einrichten möchten, die eine Datenbank benötigt, wie etwa WordPress, Joomla!, PrestaShop oder Drupal, bestellen Sie direkt über unsere Website oder Ihr [OVHcloud Kundencenter](/links/manager) eines unserer [Webhosting-Angebote](/links/web/hosting).
 >
 
 **Diese Anleitung erklärt, wie Sie Ihr <i>Kostenloses Hosting 100M</i> aktivieren.**
 
 ## Voraussetzungen
 
-- Sie verfügen über einen [Domainnamen](/links/web/domains){.external} in Ihrem [OVHcloud Kundencenter](/links/manager){.external}, der nicht bereits mit einem Webhosting oder einem [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) verbunden ist. 
+- Sie verfügen über einen [Domainnamen](/links/web/domains) in Ihrem [OVHcloud Kundencenter](/links/manager), der nicht bereits mit einem Webhosting oder einem [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) verbunden ist. 
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 ## In der praktischen Anwendung
@@ -41,7 +41,7 @@ Daraufhin öffnet sich das Aktivierungsfenster. **Schritt 1** zeigt Ihnen Angebo
 >
 > Wenn Sie eine oder beide der Optionen `DNS A Eintrag` und `DNS MX Eintrag` anhaken, wird die in der DNS-Zone Ihrer Domain bereits vorhandene Konfiguration überschrieben.
 >
-> Wenn Ihre DNS-Zone nicht in Ihrem [OVHcloud Kundencenter](/links/manager){.external} verwaltet wird, müssen die Änderungen manuell in Ihrer externen DNS-Zone durchgeführt werden.
+> Wenn Ihre DNS-Zone nicht in Ihrem [OVHcloud Kundencenter](/links/manager) verwaltet wird, müssen die Änderungen manuell in Ihrer externen DNS-Zone durchgeführt werden.
 >
 > Weitere Informationen finden Sie in unserer Anleitung zum [Bearbeiten der OVHcloud DNS-Zone](/pages/web_cloud/domains/dns_zone_edit).
 >
@@ -53,7 +53,7 @@ Daraufhin öffnet sich das Aktivierungsfenster. **Schritt 1** zeigt Ihnen Angebo
 
 > [!primary]
 >
-> Wenn Ihr Projekt künftig auf ein Hosting mit einer Datenbank, einem größeren Speicherplatz oder mehr E-Mail-Accounts erweitert werden muss, können Sie von **Kostenloses Hosting 100M** ausschließlich auf ein Webhosting-Angebot **Basic** in Ihrem [OVHcloud Kundencenter](/links/manager){.external} wechseln.
+> Wenn Ihr Projekt künftig auf ein Hosting mit einer Datenbank, einem größeren Speicherplatz oder mehr E-Mail-Accounts erweitert werden muss, können Sie von **Kostenloses Hosting 100M** ausschließlich auf ein Webhosting-Angebot **Basic** in Ihrem [OVHcloud Kundencenter](/links/manager) wechseln.
 >
 > Ein Wechsel zum Angebot **Pro** oder **Performance** erfordert einen vorherigen Wechsel von **Kostenloses Hosting 100M** zum Angebot **Basic**.
 >
@@ -66,15 +66,15 @@ Daraufhin öffnet sich das Aktivierungsfenster. **Schritt 1** zeigt Ihnen Angebo
 
 In **Schritt 4** können Sie die Verträge einsehen und Ihre Bestellung bestätigen.
 
-Sobald Ihre Bestellung bestätigt wurde, erhalten Sie eine E-Mail mit den Informationen zur [FTP-Verbindung](/pages/web_cloud/web_hosting/ftp_connection){.external} für Ihr **Kostenloses Hosting 100M**.
+Sobald Ihre Bestellung bestätigt wurde, erhalten Sie eine E-Mail mit den Informationen zur [FTP-Verbindung](/pages/web_cloud/web_hosting/ftp_connection) für Ihr **Kostenloses Hosting 100M**.
 
-Ziehen Sie die Anleitung zur [Erstellung eines MX Plan E-Mail-Accounts](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation){.external} zu Rate, um den Account zu nutzen, der in **Kostenloses Hosting 100M** inklusive ist.
+Ziehen Sie die Anleitung zur [Erstellung eines MX Plan E-Mail-Accounts](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation) zu Rate, um den Account zu nutzen, der in **Kostenloses Hosting 100M** inklusive ist.
 
 ## Weiterführende Informationen
 
-[Mit dem Speicherplatz Ihres Webhostings verbinden](/pages/web_cloud/web_hosting/ftp_connection){.external}
+[Mit dem Speicherplatz Ihres Webhostings verbinden](/pages/web_cloud/web_hosting/ftp_connection)
 
-[E-Mail-Adresse mit MX Plan erstellen](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation){.external}
+[E-Mail-Adresse mit MX Plan erstellen](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation)
 
 [SSL-Zertifikat auf einem Webhosting verwalten](/pages/web_cloud/web_hosting/ssl_on_webhosting)
 

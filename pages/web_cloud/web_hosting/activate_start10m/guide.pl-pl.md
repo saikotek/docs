@@ -1,30 +1,30 @@
 ---
 title: "Włączanie darmowy hosting 100M"
 excerpt: "Dowiedz się, jak włączyć darmowy hosting 100M"
-updated: 2023-12-18
+updated: 2024-12-05
 ---
 
 ## Wprowadzenie 
 
-Dzięki [Darmowy hosting 100M](/links/web/domains-free-hosting){.external}, OVHcloud oferuje hosting WWW o rozmiarze 100 MB oraz konto e-mail o pojemności 5 GB. Z tego przewodnika dowiesz się, jak włączyć Darmowy hosting 100M w swojej [domenie](/links/web/domains){.external}.
+Dzięki [Darmowy hosting 100M](/links/web/domains-free-hosting), OVHcloud oferuje hosting WWW o rozmiarze 100 MB oraz konto e-mail o pojemności 5 GB. Z tego przewodnika dowiesz się, jak włączyć Darmowy hosting 100M w swojej [domenie](/links/web/domains).
 
 > [!warning]
 >
 > Ten darmowy hosting o rozmiarze 100 MB jest odpowiedni do prostej strony WWW w której **można wyświetlić serwer bez bazy danych**.
 > Jest to również właściwe, jeśli nie potrzebujesz więcej niż jednego konta e-mail typu "MX plan". 
-> Jeśli chcesz uruchomić stronę WWW zawierającą kilka stron i wymagającą bazy danych, takich jak CMS (WordPress, Joomla!, PrestaShop, Drupal, etc.), zachęcamy do zamówienia jednej z [naszych ofert hostingu www](/links/web/hosting) na naszej stronie internetowej lub w Twoim [Panelu klienta OVHcloud](/links/manager){.external}.
+> Jeśli chcesz uruchomić stronę WWW zawierającą kilka stron i wymagającą bazy danych, takich jak CMS (WordPress, Joomla!, PrestaShop, Drupal, etc.), zachęcamy do zamówienia jednej z [naszych ofert hostingu www](/links/web/hosting) na naszej stronie internetowej lub w Twoim [Panelu klienta OVHcloud](/links/manager).
 >
 
 **Dowiedz się, jak włączyć darmowy hosting 100M**
 
 ## Wymagania początkowe
 
-- Posiadanie [domeny](/links/web/domains){.external} w [Panelu klienta OVHcloud](/links/manager){.external}, odłączone od hostingu www i bez żadnego [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities).
-- Dostęp do [Panelu klienta OVHcloud](/links/manager){.external}.
+- Posiadanie [domeny](/links/web/domains) w [Panelu klienta OVHcloud](/links/manager), odłączone od hostingu www i bez żadnego [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities).
+- Dostęp do [Panelu klienta OVHcloud](/links/manager).
 
 ## W praktyce
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager){.external}, kliknij `Domeny`{.action}  na pasku usług po lewej stronie, następnie wybierz odpowiednią domenę.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij `Domeny`{.action}  na pasku usług po lewej stronie, następnie wybierz odpowiednią domenę.
 
 W ramce **Informacje ogólne** znajduje się pozycja *Darmowy hosting WWW i e-mail*. Kliknij przycisk `…`{.action} po prawej stronie, a następnie przycisk `Włącz`{.action}.
 
@@ -38,7 +38,7 @@ Pojawi się okno aktywacyjne. W **etapie 1** wyświetla się przypomnienie ofert
 >
 > Jeśli zaznaczysz jedno z dwóch pól `Rekord DNS A` i `Rekord DNS MX` lub oba te pola, zostanie on usunięty z konfiguracji pierwotnie wprowadzonej w strefie DNS Twojej domeny.
 >
-> Jeśli Twoja strefa DNS nie jest zarządzana w [Panelu klienta OVHcloud](/links/manager){.external}, wprowadź ręcznie zmiany w zewnętrznej strefie DNS.
+> Jeśli Twoja strefa DNS nie jest zarządzana w [Panelu klienta OVHcloud](/links/manager), wprowadź ręcznie zmiany w zewnętrznej strefie DNS.
 >
 > Aby uzyskać więcej informacji, zapoznaj się z naszym przewodnikiem dotyczącym [edycji strefy DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
 >
@@ -50,7 +50,7 @@ Pojawi się okno aktywacyjne. W **etapie 1** wyświetla się przypomnienie ofert
 
 > [!primary]
 >
-> Jeśli Twój projekt wymaga szybszego przejścia na hosting z bazą danych, z większej przestrzeni dyskowej lub z większej liczby adresów e-mail, będziesz mógł przejść bezpośrednio i tylko z Darmowy hosting 100M na ofertę hostingu **Perso** z [Panelu klienta OVHcloud](/links/manager){.external}.
+> Jeśli Twój projekt wymaga szybszego przejścia na hosting z bazą danych, z większej przestrzeni dyskowej lub z większej liczby adresów e-mail, będziesz mógł przejść bezpośrednio i tylko z Darmowy hosting 100M na ofertę hostingu **Perso** z [Panelu klienta OVHcloud](/links/manager).
 >
 > Przejście na ofertę **Pro** lub **Performance** wymaga wcześniejszego przejścia z oferty Darmowy hosting 100M na ofertę **Perso**.
 >
@@ -63,15 +63,15 @@ Pojawi się okno aktywacyjne. W **etapie 1** wyświetla się przypomnienie ofert
 
 Podczas **etapu 4** zapoznaj się z regulaminami i zatwierdź zamówienie.
 
-Po zatwierdzeniu zamówienia otrzymasz wiadomość e-mail z danymi do [logowania FTP](/pages/web_cloud/web_hosting/ftp_connection){.external} do darmowy hosting 100M.
+Po zatwierdzeniu zamówienia otrzymasz wiadomość e-mail z danymi do [logowania FTP](/pages/web_cloud/web_hosting/ftp_connection) do darmowy hosting 100M.
 
-Zapoznaj się z przewodnikiem [utworzenie konta E-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation){.external}, aby korzystać z adresu e-mail zawartego w pakiecie hostingowym Darmowy hosting 100M.
+Zapoznaj się z przewodnikiem [utworzenie konta E-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation), aby korzystać z adresu e-mail zawartego w pakiecie hostingowym Darmowy hosting 100M.
 
 ## Sprawdź również
 
-[Logowanie do przestrzeni dyskowej hostingu www](/pages/web_cloud/web_hosting/ftp_connection){.external}
+[Logowanie do przestrzeni dyskowej hostingu www](/pages/web_cloud/web_hosting/ftp_connection)
 
-[Tworzenie konta e-mail w ramach usługi MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation){.external}
+[Tworzenie konta e-mail w ramach usługi MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation)
 
 [Zarządzanie certyfikatem SSL na hostingu](/pages/web_cloud/web_hosting/ssl_on_webhosting)
 

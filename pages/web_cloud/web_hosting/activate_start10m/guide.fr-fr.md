@@ -6,8 +6,8 @@ updated: 2024-12-05
 
 ## Objectif
 
-Avec [l'hébergement gratuit 100M](/links/web/domains-free-hosting){.external}, OVHcloud vous offre un hébergement Web de 100 Mo et un compte e-mail disposant de 5 Go de stockage. 
-Ce guide vous présente comment activer cette offre sur votre [nom de domaine](/links/web/domains){.external}.
+Avec [l'hébergement gratuit 100M](/links/web/domains-free-hosting), OVHcloud vous offre un hébergement Web de 100 Mo et un compte e-mail disposant de 5 Go de stockage. 
+Ce guide vous présente comment activer cette offre sur votre [nom de domaine](/links/web/domains).
 
 > [!warning]
 >
