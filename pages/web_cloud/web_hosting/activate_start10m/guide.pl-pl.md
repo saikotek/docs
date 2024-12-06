@@ -6,7 +6,8 @@ updated: 2024-12-06
 
 ## Wprowadzenie 
 
-Dzięki [Darmowy hosting 100M](/links/web/domains-free-hosting), OVHcloud oferuje hosting WWW o rozmiarze 100 MB oraz konto e-mail o pojemności 5 GB. Z tego przewodnika dowiesz się, jak włączyć Darmowy hosting 100M w swojej [domenie](/links/web/domains).
+Dzięki [Darmowy hosting 100M](/links/web/domains-free-hosting), OVHcloud oferuje hosting WWW o rozmiarze 100 MB oraz konto e-mail o pojemności 5 GB.
+Z tego przewodnika dowiesz się, jak włączyć Darmowy hosting 100M w swojej [domenie](/links/web/domains).
 
 > [!warning]
 >
@@ -28,29 +29,51 @@ Dzięki [Darmowy hosting 100M](/links/web/domains-free-hosting), OVHcloud oferuj
 
 ## W praktyce
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij `Domeny`{.action}  na pasku usług po lewej stronie, następnie wybierz odpowiednią domenę.
+Aby włączyć darmowy hosting 100M, kliknij na poniższe zakładki, aby wyświetlić wszystkie **4** etapy.
 
-W ramce **Informacje ogólne** znajduje się pozycja *Darmowy hosting WWW i e-mail*. Kliknij przycisk `…`{.action} po prawej stronie, a następnie przycisk `Włącz`{.action}.
-
-![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
-
-Pojawi się okno aktywacyjne. W **etapie 1** wyświetla się przypomnienie oferty i cennika. Kliknij przycisk `Dalej`{.action}. W **etapie 2** wybierz zmiany, jakie mają zostać wprowadzone w strefie DNS:
-
-![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
-
-> [!warning]
->
-> Jeśli zaznaczysz jedno z dwóch pól `Rekord DNS A` i `Rekord DNS MX` lub oba te pola, zostanie on usunięty z konfiguracji pierwotnie wprowadzonej w strefie DNS Twojej domeny.
->
-> Jeśli Twoja strefa DNS nie jest zarządzana w [Panelu klienta OVHcloud](/links/manager), wprowadź ręcznie zmiany w zewnętrznej strefie DNS.
->
-> Aby uzyskać więcej informacji, zapoznaj się z naszym przewodnikiem dotyczącym [edycji strefy DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
->
-
-| Wybór                                       	| Opis                                                                                                               								|
-|--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Rekord DNS A                         	| Domena będzie wskazywać na adres IP Darmowy hosting 100M.                                               								|
-| Rekord DNS MX 	| Do nazwy domeny zostaną zastosowane serwery e-mail (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.). 	|
+> [!tabs]
+> **Etap 1**
+>>
+>> Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etap 2**
+>>
+>> Kliknij menu rozwijane `Domeny`{.action}, następnie wybierz odpowiednią domenę.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Etap 3**
+>>
+>> W ramce **Informacje ogólne** znajduje się pozycja **Darmowy hosting WWW i e-mail**. Kliknij przycisk `...`{.action} po prawej stronie, a następnie przycisk `Włącz`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
+>>
+> **Etap 4**
+>>
+>> Pojawi się okno aktywacyjne. W sekcja **1** wyświetla się przypomnienie oferty i cennika. Kliknij przycisk `Dalej`{.action}.
+>> W sekcja **2** wybierz zmiany, jakie mają zostać wprowadzone w strefie DNS:
+>>
+>> ![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
+>>
+>>| Wybór                                       	| Opis                                                                                                               								|
+>>|--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+>>| Rekord DNS A                         	| Domena będzie wskazywać na adres IP Darmowy hosting 100M.                                               								|
+>>| Rekord DNS MX 	| Do nazwy domeny zostaną zastosowane serwery e-mail (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.). 	|
+>>
+>> > [!warning]
+>> >
+>> > Jeśli zaznaczysz jedno z dwóch pól `Rekord DNS A` i `Rekord DNS MX` lub oba te pola, zostanie on usunięty z konfiguracji pierwotnie wprowadzonej w strefie DNS Twojej domeny.
+>> > Zaznacz oba pola, aby automatycznie skonfigurować domenę z darmowym hostingiem 100M i jego usługą e-mail.
+>> >
+>> > Jeśli Twoja strefa DNS nie jest zarządzana w [Panelu klienta OVHcloud](/links/manager), wprowadź ręcznie zmiany w zewnętrznej strefie DNS.
+>> >
+>> > Aby uzyskać więcej informacji, zapoznaj się z naszym przewodnikiem dotyczącym [edycji strefy DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
+>>
+>> Sekcja **3** przypomina o cenniku oferty. 
+>>
+>> Podczas sekcja **4** zapoznaj się z regulaminami i zatwierdź zamówienie.
 
 > [!primary]
 >
@@ -61,11 +84,6 @@ Pojawi się okno aktywacyjne. W **etapie 1** wyświetla się przypomnienie ofert
 > Możesz również usunąć bezpłatną ofertę, dbając o wcześniejsze pobranie danych o hostingu oraz zawartości konta e-mail.
 >
 > Aby uzyskać więcej informacji, sprawdź [naszą ofertę hostingu](/links/web/hosting).
->
-
-**Etap 3** przypomina o cenniku oferty. 
-
-Podczas **etapu 4** zapoznaj się z regulaminami i zatwierdź zamówienie.
 
 Po zatwierdzeniu zamówienia otrzymasz wiadomość e-mail z danymi do [logowania FTP](/pages/web_cloud/web_hosting/ftp_connection) do darmowy hosting 100M.
 
