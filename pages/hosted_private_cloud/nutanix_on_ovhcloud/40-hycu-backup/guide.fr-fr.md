@@ -1,7 +1,7 @@
 ---
 title: Configurer HYCU Backup
 excerpt: "Installation de la sauvegarde HYCU Backup sur un cluster Nutanix"
-updated: 2024-12-03
+updated: 2024-12-06
 ---
 
 <style>
@@ -32,7 +32,7 @@ HYCU for Nutanix est un logiciel de sauvegarde disponible pour Nutanix.
 
 ## Prérequis
 
-- Une licence [HYCU for OVHcloud](/links/hycu) valide dans votre compte OVHcloud (la première étape de ce guide vous détaille la procédure à suivre).
+- Une licence [HYCU for OVHcloud](/links/hycu) valide dans votre compte OVHcloud (la première étape de ce guide vous détaille la procédure à suivre) ou une licence HYCU acquise depuis un fournisseur tiers.
 - Disposer d'un cluster Nutanix on OVHcloud dans votre compte OVHcloud.
 - Être connecté à votre [espace client OVHcloud](/links/manager).
 - Être connecté sur le cluster via Prism Central.
@@ -45,16 +45,13 @@ HYCU for Nutanix est un logiciel de sauvegarde disponible pour Nutanix.
 
 ### Présentation du contenu
 
-- [Option 1 - Vous souhaitez commander une licence HYCU for OVHcloud](#option1)
-    - [Commander une licence HYCU for OVHcloud](#license-order)
+- [Commander une licence HYCU for OVHcloud](#license-order)
     - [Activer la licence](#license-activation)
     - [Régénérer une licence HYCU for OVHcloud](#license-renew)
     - [Résilier un abonnement HYCU for OVHcloud (et sa licence associée)](#license-cancel)
     - [Mettre à niveau une licence HYCU for OVHcloud](#license-upgrade)
-- [Option 2 - Vous possédez une licence HYCU commandée auprès de HYCU](#option2)
-    - [Ajouter l'image d'installation d'HYCU](#adding-image)
-
 - [Installer et configurer HYCU](#installation)
+    - [Ajouter l'image d'installation d'HYCU](#adding-image)
     - [Configurer l'adresse IP pour ISCSI](#adding-ip)
     - [Ajouter un compte utilisateur dans Prism Element pour HYCU](#adding-user)
     - [Créer la machine virtuelle pour HYCU](#create-vm)
@@ -73,13 +70,16 @@ HYCU for Nutanix est un logiciel de sauvegarde disponible pour Nutanix.
     - [Récupérer un fichier](#restoring-file)
     - [Restaurer une application](#restoring-app)
 
-### Option 1 - Vous souhaitez commander une licence HYCU for OVHcloud <a name="option1"></a>
+### Commander une licence HYCU for OVHcloud <a name="license-order"></a>
 
 Nous vous proposons différents packs de licences selon le nombre de machines virtuelles (VM) utilisées par vos charges de travail Nutanix.
 
-Retrouvez plus d'informations sur notre page [HYCU for OVHcloud](/links/hycu).
+> [!success]
+> Retrouvez plus d'informations sur notre page [HYCU for OVHcloud](/links/hycu).
 
-#### Commander une licence HYCU for OVHcloud <a name="license-order"></a>
+> [!primary]
+> **Vous avez déjà une licence HYCU ?**<br>
+> Poursuivez la lecture de ce guide à l'étape « [Installer et configurer HYCU](installation) ».
 
 Connectez-vous à [l'espace client OVHcloud](/links/manager) puis rendez-vous successivement dans `Hosted Private Cloud`{.action} et `Stockage et sauvegarde`{.action}.
 
@@ -94,6 +94,13 @@ Une fois votre commande effectuée, vous recevrez un e-mail de confirmation et v
 Cliquez sur votre licence pour procéder à son activation.
 
 #### Activer la licence <a name="license-activation"></a>
+
+> [!warning]
+> Cette étape nécessite d'avoir préalablement **installé et configuré le logiciel HYCU sur votre cluster Nutanix**.<br>
+> Si ce n'est pas déjà le cas, poursuivez la lecture de ce guide à l'étape « [Installer et configurer HYCU](installation) » avant de suivre l'étape d'activation de la licence HYCU ci-dessous.
+>
+
+/// details | Activer la licence HYCU
 
 Lorsque vous cliquez sur une licence dans votre tableau de bord, un menu vous permet de renommer, d'activer, de renouveler ou de résilier votre licence HYCU for OVHcloud.
 
@@ -130,6 +137,8 @@ Retournez dans le menu `Licensing`{.action} de votre instance/appliance Hybrid C
 Une fenêtre vous indiquera alors que votre licence est validée.
 
 ![Activer une licence HYCU](images/hycu-for-ovhcloud-license-activation-08.png){.thumbnail}
+
+///
 
 #### Régénérer une licence HYCU for OVHcloud <a name="license-renew"></a>
 
@@ -172,11 +181,7 @@ Confirmez ensuite la résilitation en saisissant `TERMINATE`dans le cadre prévu
 
 Pour mettre à niveau votre offre, vous devez d'abord résilier votre abonnement HYCU for OVHcloud (voir ci-dessus) puis [commander un nouvel abonnement](/links/hycu) avec le pack de machines virtuelles nécessaire.
 
-### Option 2 - Vous possédez une licence HYCU commandée auprès de HYCU <a name="option2"></a>
-
-/// details | Cliquez pour afficher les étapes d'ajout de l'image d'installation d'HYCU
-
-#### Ajouter l'image d'installation d'HYCU <a name="adding-image"></a>
+### Installer et configurer HYCU <a name="installation"></a>
 
 Connectez-vous à **Prism Central**.
 
@@ -208,14 +213,6 @@ Retirez l'extension **.qcow2** derrière le nom et laissez `hycu-4.X.X-XXXX`. Sa
 Cliquez sur `Save`{.action} pour importer l'image.
 
 ![Add Image HYCU 05](images/00-addimagehycu05.png){.thumbnail}
-
-///
-
-### Installer et configurer HYCU <a name="installation"></a>
-
-Connectez-vous à **Prism Central**.
-
-Pour plus d'informations sur la connexion au cluster, reportez-vous à la section « [Aller plus loin](#gofurther) » de ce guide.
 
 Sur le tableau de bord de **Prism Central**, cliquez sur le `nom du cluster`{.action} dans la section **Cluster Quick Access** afin de vous rendre sur **Prism Element**.
 
@@ -807,6 +804,8 @@ Désactivez `OVERWRITE EXISTING DATABASES`{.action} et cliquez sur `Restore`{.ac
 La base de données est restaurée dans une nouvelle base de données.
 
 ## Aller plus loin <a name="gofurther"></a>
+
+[Nutanix on OVHcloud - Documentation générale](/pages/hosted_private_cloud/nutanix_on_ovhcloud/01-global-high-level-doc)
 
 [Hyper-convergence Nutanix](/pages/hosted_private_cloud/nutanix_on_ovhcloud/03-nutanix-hci)
 
