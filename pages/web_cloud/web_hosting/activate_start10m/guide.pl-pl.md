@@ -85,9 +85,9 @@ Aby włączyć darmowy hosting 100M, kliknij na poniższe zakładki, aby wyświe
 >
 > Aby uzyskać więcej informacji, sprawdź [naszą ofertę hostingu](/links/web/hosting).
 
-Po zatwierdzeniu zamówienia otrzymasz wiadomość e-mail z danymi do [logowania FTP](/pages/web_cloud/web_hosting/ftp_connection) do darmowy hosting 100M.
+Po zatwierdzeniu zamówienia otrzymasz wiadomość e-mail z danymi do [logowania FTP](/pages/web_cloud/web_hosting/ftp_connection) do **darmowy hosting 100M**.
 
-Zapoznaj się z przewodnikiem [utworzenie konta E-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation), aby korzystać z adresu e-mail zawartego w pakiecie hostingowym Darmowy hosting 100M.
+Zapoznaj się z przewodnikiem [utworzenie konta E-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation), aby korzystać z adresu e-mail zawartego w pakiecie **hostingowym Darmowy hosting 100M**.
 
 ## Sprawdź również
 

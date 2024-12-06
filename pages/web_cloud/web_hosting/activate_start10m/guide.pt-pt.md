@@ -85,9 +85,9 @@ Para ativar o alojamento gratuito 100M, clique nos separadores abaixo para visua
 >
 > Para mais informações, consulte as nossas [ofertas de alojamento](/links/web/hosting).
 
-Depois de validar a encomenda, receberá um e-mail com as informações de [ligação FTP](/pages/web_cloud/web_hosting/ftp_connection) ao seu alojamento gratuito 100M.
+Depois de validar a encomenda, receberá um e-mail com as informações de [ligação FTP](/pages/web_cloud/web_hosting/ftp_connection) ao seu **alojamento gratuito 100M**.
 
-Consulte o guia de [criação de uma conta E-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation) para beneficiar do endereço de e-mail incluído com o seu alojamento gratuito 100M.
+Consulte o guia de [criação de uma conta E-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation) para beneficiar do endereço de e-mail incluído com o seu **alojamento gratuito 100M**.
 
 ## Quer saber mais?
 

@@ -85,9 +85,9 @@ Si su proyecto evoluciona rápidamente hacia un alojamiento que dispone de una b
 >
 > Para más información, consulte nuestras [ofertas de alojamiento](/links/web/hosting).
 
-Una vez validado el pedido, le enviaremos por correo electrónico la información de [conexión FTP](/pages/web_cloud/web_hosting/ftp_connection) a su alojamiento gratuito 100M.
+Una vez validado el pedido, le enviaremos por correo electrónico la información de [conexión FTP](/pages/web_cloud/web_hosting/ftp_connection) a su **alojamiento gratuito 100M**.
 
-Consulte la guía [creación de una cuenta MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation) para disfrutar de la dirección de correo electrónico incluida con su alojamiento gratuito 100M.
+Consulte la guía [creación de una cuenta MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation) para disfrutar de la dirección de correo electrónico incluida con su **alojamiento gratuito 100M**.
 
 ## Más información
 
