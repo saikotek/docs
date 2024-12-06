@@ -6,7 +6,8 @@ updated: 2024-12-06
 
 ## Objective
 
-With [100M free hosting](/links/web/domains-free-hosting), OVHcloud offers you a 100 MB web hosting plan, and an email account with 5 GB of storage. This guide will show you how to activate a 100M free hosting on your [domain name](/links/web/domains).
+With [100M free hosting](/links/web/domains-free-hosting), OVHcloud offers you a 100 MB web hosting plan, and an email account with 5 GB of storage.
+This guide will show you how to activate a 100M free hosting on your [domain name](/links/web/domains).
 
 > [!warning]
 >
@@ -28,29 +29,51 @@ With [100M free hosting](/links/web/domains-free-hosting), OVHcloud offers you a
 
 ## Instructions
 
-Log in to the [OVHcloud Control Panel](/links/manager), click `Domain names`{.action}, then choose the domain name concerned.
+To activate your free 100M hosting plan, click on the tabs below to view each of the **4** steps in succession.
 
-In the **General information** box, you will see *Free web hosting and email*. Click `...`{.action} on the right-hand side, then `Enable`{.action}.
-
-![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
-
-The activation window will appear. **Step 1** will detail the plan and its price — click `Next`{.action}. For **step 2**, choose the changes you need to make to your DNS zone:
-
-![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
-
-> [!warning]
->
-> If you tick one or both of the `DNS A record` and `DNS MX record` boxes, this will overwrite the configuration originally set up in your domain's DNS zone.
->
-> If your DNS zone is not managed in your [OVHcloud Control Panel](/links/manager), you will need to make the modifications manually in your external DNS zone.
->
-> For more details, please refer to our guide on [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit).
->
-
-| Choice                                       	| Description                                                                                                               								|
-|--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DNS A record                         	| The domain name will point to the IP address of the 100M free hosting plan.                                               								|
-| MX DNS record 	| The email servers (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) of OVHcloud will be applied to the domain name. 	|
+> [!tabs]
+> **Step 1**
+>>
+>> Log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Click the `Domain names`{.action} dropdown menu, then choose the domain name concerned.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> In the **General information** box, you will see **Free web hosting and email**. Click `...`{.action} on the right-hand side, then `Enable`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
+>>
+>> The activation window will appear. Section **1** will detail the plan and its price — click `Next`{.action}. For section **2**, choose the changes you need to make to your DNS zone:
+>>
+> **Step 4**
+>>
+>> ![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
+>>
+>> | Choice                                       	| Description                                                                                                               								|
+>> |--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+>> | DNS A record                         	| The domain name will point to the IP address of the 100M free hosting plan.                                               								|
+>> | MX DNS record 	| The email servers (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) of OVHcloud will be applied to the domain name. 	|
+>> 
+>> > [!warning]
+>> >
+>> > If you tick one or both of the `DNS A record` and `DNS MX record` boxes, this will overwrite the configuration originally set up in your domain's DNS zone.
+>> > Tick both boxes to automatically configure your domain name with the free 100M hosting and email service included.
+>> >
+>> > If your DNS zone is not managed in your [OVHcloud Control Panel](/links/manager), you will need to make the modifications manually in your external DNS zone.
+>> >
+>> > For more details, please refer to our guide on [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit).
+>>
+>>
+>> Section **3** reminds you of the pricing of the offer. 
+>>
+>> During section **4**, you must read the contracts and confirm your order.
 
 > [!primary]
 >
@@ -61,11 +84,6 @@ The activation window will appear. **Step 1** will detail the plan and its price
 > You can also choose to delete the free offer after backing up your hosting data and the contents of your email account.
 >
 > For more details, see our [hosting offers](/links/web/hosting).
->
-
-**Step 3** reminds you of the pricing of the offer. 
-
-During **step 4**, you must read the contracts and confirm your order.
 
 Once your order has been confirmed, you will be sent an email with the information for the [FTP connection](/pages/web_cloud/web_hosting/ftp_connection) to your 100M free hosting plan.
 
