@@ -20,7 +20,11 @@ With [100M free hosting](/links/web/domains-free-hosting), OVHcloud offers you a
 ## Requirements
 
 - A [domain name](/links/web/domains) in your OVHcloud Control Panel, detached from any web hosting plan, and with no associated [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities).
-- Access to the [OVHcloud Control Panel](/links/manager)
+- Access to the [OVHcloud Control Panel](/links/manager).
+
+> [!primary]
+>
+> The free 100M hosting is **only** available to our customers in Europe.
 
 ## Instructions
 

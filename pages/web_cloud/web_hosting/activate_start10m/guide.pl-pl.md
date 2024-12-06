@@ -22,6 +22,10 @@ Dzięki [Darmowy hosting 100M](/links/web/domains-free-hosting), OVHcloud oferuj
 - Posiadanie [domeny](/links/web/domains) w [Panelu klienta OVHcloud](/links/manager), odłączone od hostingu www i bez żadnego [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities).
 - Dostęp do [Panelu klienta OVHcloud](/links/manager).
 
+> [!primary]
+>
+> Darmowe zakwaterowanie 100M jest **tylko** dostępne dla naszych gości w Europie.
+
 ## W praktyce
 
 Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij `Domeny`{.action}  na pasku usług po lewej stronie, następnie wybierz odpowiednią domenę.

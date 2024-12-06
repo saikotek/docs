@@ -15,12 +15,16 @@ Con el [Alojamiento gratuito 100M](/links/web/domains-free-hosting), OVHcloud le
 > Si quiere crear un sitio web que tenga varias páginas y que requiera una base de datos, como un CMS (WordPress, Joomla, PrestaShop, Drupal, etc.), puede contratar uno de [nuestros planes de hosting](/links/web/hosting) directamente desde nuestro sitio web o desde su [área de cliente de OVHcloud](/links/manager).
 >
 
-**Cómo activar el alojamiento gratuito 100M**
+**Descubra cómo activar el alojamiento gratuito 100M**
 
 ## Requisitos
 
 - Disponer de un [dominio](/links/web/domains) en su [área de cliente de OVHcloud](/links/manager), no asociado a ningún alojamiento web y sin ningún [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) asociado.
 - Estar conectado a su [área de cliente de OVHcloud](/links/manager).
+
+> [!primary]
+>
+> El alojamiento gratuito 100M es **únicamente** disponible para nuestros clientes en Europa.
 
 ## Procedimiento
 

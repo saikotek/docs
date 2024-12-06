@@ -12,7 +12,7 @@ Com o [Alojamento gratuito 100M](/links/web/domains-free-hosting), a OVHcloud of
 >
 > Este alojamento gratuito de 100MB é adequado para uma simples página Web de apresentação, e **não inclui uma base de dados**.
 > Também é necessário que não precise de vários endereços de e-mail do tipo "MX plan". 
-> Se pretender implementar um website com várias páginas e que requer uma base de dados, como um CMS (WordPress, Joomla!, PrestaShop, Drupal, etc.), sugerimos que encomende diretamente uma das nossas ofertas de alojamento Web (/links/web/hosting) a partir do nosso website ou do seu [Área de Cliente OVHcloud](/links/manager) {.nal.
+> Se pretender implementar um website com várias páginas e que requer uma base de dados, como um CMS (WordPress, Joomla!, PrestaShop, Drupal, etc.), sugerimos que encomende diretamente uma das [nossas ofertas de alojamento Web](/links/web/hosting) a partir do nosso website ou do seu [Área de Cliente OVHcloud](/links/manager).
 >
 
 **Saiba como ativar o Alojamento gratuito 100M**
@@ -21,6 +21,10 @@ Com o [Alojamento gratuito 100M](/links/web/domains-free-hosting), a OVHcloud of
 
 - Dispor de um [nome de domínio](/links/web/domains) no seu [Área de Cliente OVHcloud](/links/manager), desassociado de qualquer alojamento Web e sem nenhum [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) associado.
 - Ter acesso ao seu [Área de Cliente OVHcloud](/links/manager).
+
+> [!primary]
+>
+> O alojamento gratuito 100M é **unicamente** disponível para os nossos clientes na Europa.
 
 ## Instruções
 

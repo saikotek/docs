@@ -25,6 +25,10 @@ In dieser Anleitung erfahren Sie, wie Sie dieses Angebot für Ihren [Domainnamen
 - Sie verfügen über einen [Domainnamen](/links/web/domains) in Ihrem [OVHcloud Kundencenter](/links/manager), der nicht bereits mit einem Webhosting oder einem [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) verbunden ist. 
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
+> [!primary]
+>
+> Das kostenlose 100M Webhosting ist **nur** für unsere Kunden in Europa verfügbar.
+
 ## In der praktischen Anwendung
 
 Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und klicken Sie im Bereich `Web Cloud`{.action} auf `Domainnamen`{.action}. Wählen Sie den Domainnamen aus.

@@ -22,6 +22,10 @@ Con [Hosting gratuito 100M](/links/web/domains-free-hosting), OVHcloud ti offre 
 - Disporre di un [dominio](/links/web/domains) nel tuo [Spazio Cliente OVHcloud](/links/manager), scollegato da un hosting Web e senza [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities) associato.
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager).
 
+> [!primary]
+>
+> L'hosting gratuito 100M è **solo** disponibile per i nostri clienti in Europa.
+
 ## Procedura
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Domini`{.action} nel menu a sinistra e seleziona il dominio interessato.
