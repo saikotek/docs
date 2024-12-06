@@ -275,7 +275,7 @@ The next prompt allows to name the newly created key or use the standard file na
 
 ```console
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/user/.ssh/id_rsa):
+Enter file in which to save the key (C:\Users\Username/.ssh/id_rsa):
 ```
 
 If you confirm with `Enter`{.action} without entering a name, the standard file name will be used (`id_rsa` in this example).
@@ -296,8 +296,8 @@ You can protect your SSH key with a passphrase at the next prompt. This is recom
 All SSH keys are stored in the `.ssh` directory by default. The public key files will have `.pub` added to the filename.
 
 ```console
-Your identification has been saved in /home/user/.ssh/id_rsa.
-Your public key has been saved in /home/user/.ssh/id_rsa.pub.
+Your identification has been saved in id_rsa.
+Your public key has been saved in id_rsa.pub.
 The key fingerprint is:
 SHA256:MRk+Y0zCOoOkferhkTvMpcMsYspj212lK7sEauNap user@hostname
 The key's randomart image is:
@@ -348,10 +348,10 @@ Output example:
 
 ```console
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/user/.ssh/id_rsa): KeyFileName_rsa
+Enter file in which to save the key (C:\Users\Username/.ssh/id_rsa): KeyFileName_rsa
 
-Your identification has been saved in /home/user/.ssh/KeyFileName_rsa.
-Your public key has been saved in /home/user/.ssh/KeyFileName_rsa.pub.
+Your identification has been saved in KeyFileName_rsa.
+Your public key has been saved in KeyFileName_rsa.pub.
 ```
 
 When connecting to the corresponding instance, specify the name of the private key file in addition to the connecting user and server details:
