@@ -7,14 +7,12 @@ updated: 2024-12-06
 ## Ziel 
 
 Mit dem Angebot [Kostenloses Hosting 100M](/links/web/domains-free-hosting) bietet Ihnen OVHcloud ein Webhosting mit 100 MB und einen E-Mail-Account mit 5 GB Speicherplatz.
-
 In dieser Anleitung erfahren Sie, wie Sie dieses Angebot für Ihren [Domainnamen](/links/web/domains) aktivieren.
 
 > [!warning]
 >
 > Dieses kostenlose Webhosting mit 100 MB Speicherplatz ist für eine einfache Präsentationsseite geeignet; es enthält **keine Datenbank**.
 > Es eignet sich auch für die E-Mail-Nutzung, wenn Sie nicht mehr als einen "MX Plan" E-Mail-Account benötigen.
->
 > Wenn Sie eine Website mit mehreren Seiten einrichten möchten, die eine Datenbank benötigt, wie etwa WordPress, Joomla!, PrestaShop oder Drupal, bestellen Sie direkt über unsere Website oder Ihr [OVHcloud Kundencenter](/links/manager) eines unserer [Webhosting-Angebote](/links/web/hosting).
 >
 
@@ -31,29 +29,51 @@ In dieser Anleitung erfahren Sie, wie Sie dieses Angebot für Ihren [Domainnamen
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und klicken Sie im Bereich `Web Cloud`{.action} auf `Domainnamen`{.action}. Wählen Sie den Domainnamen aus.
+Um Ihr kostenloses 100M Hosting zu aktivieren, klicken Sie auf die folgenden Tab, um nacheinander alle **4** Schritte anzuzeigen.
 
-Im Bereich **Allgemeine Informationen** finden Sie den Abschnitt *Gratis Webhosting und E-Mail*. Klicken Sie rechts auf den Button `...`{.action} und anschließend auf `Aktivieren`{.action}.
-
-![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
-
-Daraufhin öffnet sich das Aktivierungsfenster. **Schritt 1** zeigt Ihnen Angebotsinformationen an. Klicken Sie auf `Weiter`{.action} und wählen Sie in **Schritt 2** die Änderungen aus, die Sie in Ihrer DNS-Zone vornehmen möchten.
-
-![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
-
-> [!warning]
->
-> Wenn Sie eine oder beide der Optionen `DNS A Eintrag` und `DNS MX Eintrag` anhaken, wird die in der DNS-Zone Ihrer Domain bereits vorhandene Konfiguration überschrieben.
->
-> Wenn Ihre DNS-Zone nicht in Ihrem [OVHcloud Kundencenter](/links/manager) verwaltet wird, müssen die Änderungen manuell in Ihrer externen DNS-Zone durchgeführt werden.
->
-> Weitere Informationen finden Sie in unserer Anleitung zum [Bearbeiten der OVHcloud DNS-Zone](/pages/web_cloud/domains/dns_zone_edit).
->
-
-| Option                                       	| Beschreibung                                                                                                               								|
-|--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DNS A Eintrag                         	| Die Domain wird auf die IP-Adresse des <i>Kostenloses Hosting 100M</i> verweisen.                                               								|
-| DNS MX Eintrag 	| Die E-Mail-Server ( `mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) von OVHcloud werden auf den Domainnamen angewandt. 	|
+> [!tabs]
+> **Schritt 1**
+>>
+>> Loggen Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager) und gehen Sie dann in den Bereich `Web Cloud`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Schritt 2**
+>>
+>> Klicken Sie auf das Dropdown-Menü `Domainnamen`{.action} und wählen Sie die betreffende Domain aus.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Schritt 3**
+>>
+>> Im Bereich **Allgemeine Informationen** finden Sie den Abschnitt **Gratis Webhosting und E-Mail**. Klicken Sie rechts auf den Button `...`{.action} und anschließend auf `Aktivieren`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
+>>
+> **Schritt 4**
+>>
+>> Daraufhin öffnet sich das Aktivierungsfenster. Der Abschnitt **1** zeigt Ihnen Angebotsinformationen an.
+>> Klicken Sie auf `Weiter`{.action} und wählen Sie in Abschnitt **2** die Änderungen aus, die Sie in Ihrer DNS-Zone vornehmen möchten.
+>>
+>> ![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
+>>
+>> | Option                                       	| Beschreibung                                                                                                               								|
+>> |--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+>> | DNS A Eintrag                         	| Die Domain wird auf die IP-Adresse des <i>Kostenloses Hosting 100M</i> verweisen.                                               								|
+>> | DNS MX Eintrag 	| Die E-Mail-Server ( `mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) von OVHcloud werden auf den Domainnamen angewandt. 	|
+>>
+>> > [!warning]
+>> >
+>> > Wenn Sie eine oder beide der Optionen `DNS A Eintrag` und `DNS MX Eintrag` anhaken, wird die in der DNS-Zone Ihrer Domain bereits vorhandene Konfiguration überschrieben.
+>> > Setzen Sie hier ein Häkchen, um Ihre Domain automatisch mit dem kostenlosen Hosting 100M und dem enthaltenen E-Mail-Dienst zu konfigurieren.
+>> >
+>> > Wenn Ihre DNS-Zone nicht in Ihrem [OVHcloud Kundencenter](/links/manager) verwaltet wird, müssen die Änderungen manuell in Ihrer externen DNS-Zone durchgeführt werden.
+>> >
+>> > Weitere Informationen finden Sie in unserer Anleitung zum [Bearbeiten der OVHcloud DNS-Zone](/pages/web_cloud/domains/dns_zone_edit).
+>>
+>> Abschnitt **3** informiert Sie über die Preisgestaltung des Angebots. 
+>>
+>> In Abschnitt **4** können Sie die Verträge einsehen und Ihre Bestellung bestätigen.
 
 > [!primary]
 >
@@ -64,11 +84,6 @@ Daraufhin öffnet sich das Aktivierungsfenster. **Schritt 1** zeigt Ihnen Angebo
 > Sie können auch das kostenlose Angebot löschen, nachdem Sie Ihre Hosting-Daten und den Inhalt Ihres E-Mail-Accounts gesichert haben.
 >
 > Weitere Informationen finden Sie in unserer [Webhosting-Übersicht](/links/web/hosting).
->
-
-**Schritt 3** informiert Sie über die Preisgestaltung des Angebots. 
-
-In **Schritt 4** können Sie die Verträge einsehen und Ihre Bestellung bestätigen.
 
 Sobald Ihre Bestellung bestätigt wurde, erhalten Sie eine E-Mail mit den Informationen zur [FTP-Verbindung](/pages/web_cloud/web_hosting/ftp_connection) für Ihr **Kostenloses Hosting 100M**.
 
