@@ -1,7 +1,7 @@
 ---
-title: "Activating the 100M free hosting plan"
+title: "Web Hosting - Activating the 100M free hosting plan"
 excerpt: "Find out how to activate your 100M free hosting plan"
-updated: 2024-12-05
+updated: 2024-12-06
 ---
 
 ## Objective

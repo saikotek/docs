@@ -1,7 +1,7 @@
 ---
-title: "Activar el Alojamiento gratuito 100M"
+title: "Web hosting - Activar el Alojamiento gratuito 100M"
 excerpt: "Descubra cómo activar su Alojamiento gratuito 100M"
-updated: 2024-12-05
+updated: 2024-12-06
 ---
 
 ## Objetivo
