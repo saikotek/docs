@@ -30,7 +30,7 @@ Bridged Networking kann verwendet werden, um Ihre virtuellen Maschinen zu konfig
 >
 > Diese Anleitung gilt nicht für Server der Reihen [Scale](https://www.ovhcloud.com/de/bare-metal/scale/) und [High Grade](https://www.ovhcloud.com/de/bare-metal/high-grade/), sowie für die Advance Server mit AMD Epyc 4K und 8K CPUs, die seit Juli 2024 angeboten werden.
 >
-> Weitere Informationen finden Sie in den folgenden Anleitungen: [Netzwerk auf ESXi auf den High Grade & SCALE-Reihen konfigurieren](/pages/bare_metal_cloud/dedicated_servers/esxi-network-HG-Scale), [Netzwerk auf Proxmox VE auf den High Grade & SCALE-Reihen konfigurieren](/pages/bare_metal_cloud/dedicated_servers/proxmox-network-HG-Scale) und [Netzwerk auf Windows Server mit Hyper-V auf den High Grade & SCALE-Reihen konfigurieren](/pages/bare_metal_cloud/dedicated_servers/hyperv-network-HG-Scale).
+> Weitere Informationen finden Sie in den folgenden Anleitungen: [Netzwerk auf Proxmox VE auf den High Grade & SCALE-Reihen konfigurieren](/pages/bare_metal_cloud/dedicated_servers/proxmox-network-HG-Scale) und [Netzwerk auf Windows Server mit Hyper-V auf den High Grade & SCALE-Reihen konfigurieren](/pages/bare_metal_cloud/dedicated_servers/hyperv-network-HG-Scale).
 
 ## In der praktischen Anwendung
 
