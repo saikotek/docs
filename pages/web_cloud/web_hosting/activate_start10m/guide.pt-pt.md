@@ -6,7 +6,8 @@ updated: 2024-12-06
 
 ## Objetivo
 
-Com o [Alojamento gratuito 100M](/links/web/domains-free-hosting), a OVHcloud oferece-lhe um alojamento Web de 100MB e uma conta de e-mail com 5 GB de armazenamento. Este guia explica como pode ativar o alojamento gratuito 100M no seu [domínio](/links/web/domains).
+Com o [Alojamento gratuito 100M](/links/web/domains-free-hosting), a OVHcloud oferece-lhe um alojamento Web de 100MB e uma conta de e-mail com 5 GB de armazenamento.
+Este guia explica como pode ativar o alojamento gratuito 100M no seu [domínio](/links/web/domains).
 
 > [!warning]
 >
@@ -28,29 +29,51 @@ Com o [Alojamento gratuito 100M](/links/web/domains-free-hosting), a OVHcloud of
 
 ## Instruções
 
-Aceda à [Área de Cliente OVHcloud](/links/manager), clique em `Nomes de domínio`{.action} na barra à esquerda e escolha o domínio em questão.
+Para ativar o alojamento gratuito 100M, clique nos separadores abaixo para visualizar cada um dos **4** passos.
 
-No menu **Informações gerais**, encontrará *Alojamento web e e-mail gratuito*. À direita, clique no botão `...`{.action} e, a seguir, em `Ativar`{.action}.
-
-![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
-
-Aparecerá a janela de ativação. A **etapa 1** faz menção ao serviço e ao seu custo. Clique em `Seguinte`{.action}. Na **etapa 2**, escolha as alterações a fazer à sua zona DNS:
-
-![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
-
-> [!warning]
->
-> Se assinalar uma ou ambas as casas `Entrada DNS A` e `Entrada DNS MX`, ou ambas, isto irá eliminar a configuração inicialmente configurada na zona DNS do seu domínio.
->
-> Se a zona DNS não for gerida na [Área de Cliente OVHcloud](/links/manager), deverá efetuar as modificações manualmente na sua zona DNS externa.
->
-> Para mais informações, consulte o nosso guia sobre [a edição de uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
->
-
-| Escolha                                       	| Descrição                                                                                                               								|
-|--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Entrada DNS A                         	| O domínio ficará associado ao endereço IP do alojamento gratuito 100M.                                               								|
-| Entrada DNS MX 	| Os servidores de e-mail (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) da OVHcloud serão aplicados no domínio. 	|
+> [!tabs]
+> **Etapa 1**
+>>
+>> Aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Clique no menu pendente `Nomes de domínios`{.action} e escolha o domínio em causa.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> No menu **Informações gerais**, encontrará **Alojamento web e e-mail gratuito**. À direita, clique no botão `...`{.action} e, a seguir, em `Ativar`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
+>>
+> **Etapa 4**
+>>
+>> Aparecerá a janela de ativação. A secção **1** faz menção ao serviço e ao seu custo. Clique em `Seguinte`{.action}. Na secção **2**, escolha as alterações a fazer à sua zona DNS:
+>>
+>> ![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
+>>
+>> | Escolha                                       	| Descrição                                                                                                               								|
+>> |--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+>> | Entrada DNS A                         	| O domínio ficará associado ao endereço IP do alojamento gratuito 100M.                                               								|
+>> | Entrada DNS MX 	| Os servidores de e-mail (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) da OVHcloud serão aplicados no domínio. 	|
+>>
+>> > [!warning]
+>> >
+>> > Se assinalar uma ou ambas as casas `Entrada DNS A` e `Entrada DNS MX`, ou ambas, isto irá eliminar a configuração inicialmente configurada na zona DNS do seu domínio.
+>> > Escolha as duas caixas para configurar automaticamente o seu nome de domínio com o alojamento gratuito 100M e o serviço de e-mail incluído.
+>> >
+>> > Se a zona DNS não for gerida na [Área de Cliente OVHcloud](/links/manager), deverá efetuar as modificações manualmente na sua zona DNS externa.
+>> >
+>> > Para mais informações, consulte o nosso guia sobre [a edição de uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
+>> >
+>>
+>> A secção **3** recorda-lhe o preço da oferta. 
+>>
+>> Na secção **4**, deverá ler os contratos e validar a encomenda.
 
 > [!primary]
 >
@@ -61,11 +84,6 @@ Aparecerá a janela de ativação. A **etapa 1** faz menção ao serviço e ao s
 > Também pode optar por eliminar a oferta gratuita tendo o cuidado de recuperar previamente os seus dados de alojamento e o conteúdo do seu endereço de e-mail.
 >
 > Para mais informações, consulte as nossas [ofertas de alojamento](/links/web/hosting).
->
-
-**A etapa 3** recorda-lhe o preço da oferta. 
-
-Na **etapa 4**, deverá ler os contratos e validar a encomenda.
 
 Depois de validar a encomenda, receberá um e-mail com as informações de [ligação FTP](/pages/web_cloud/web_hosting/ftp_connection) ao seu alojamento gratuito 100M.
 
