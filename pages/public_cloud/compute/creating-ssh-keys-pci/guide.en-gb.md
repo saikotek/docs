@@ -1,46 +1,67 @@
 ---
-title: How to create and use SSH keys for Public Cloud instances
-excerpt: Find out how to create SSH key pairs on your local device and use them to establish secure connections to your instance
-updated: 2024-09-02
+title: How to create and use authentication keys for SSH connections to Public Cloud instances
+excerpt: Find out how to create key pairs for OpenSSH on your local device and use them to establish secure connections to your instance
+updated: 2024-12-06
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Objective
 
-Using the SSH protocol enables a secure channel over an unsecured network in a client-server architecture, connecting an SSH client with an SSH server. Creating an SSH key set provides you with a public and a private key. You can place the public key on a server, and then connect to it with a client that has the corresponding private key. If the public and private SSH keys match up, you will be logged in without needing a password.
+The SSH protocol enables a secure communication channel over public networks in a client-server architecture. Key pairs can be used to authenticate these SSH connections between two trusted hosts, for example a desktop client and a remote server.
 
-This is usually the most secure and convenient connection method and the default on Public Cloud instances.
+A key set consist of a public key that can be shared and a private key that remains secret. Placed on a server, the public key allows any client that has the corresponding private key to connect to it without the need to enter a password.
 
-**This guide explains how to create and manage SSH keys on your local device to connect to Public Cloud instances.**
+This method is usually the best compromise between security and convenience and the default for Public Cloud instances.
+
+**This guide explains how to create and manage authentication key pairs on your local device and use them to connect to Public Cloud instances.**
 
 ## Requirements
 
 - A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
-- An SSH client application (command line or GUI)
+- A remote connection client application compatible with the OpenSSH protocol
 
 > [!primary]
-> This guide is not applicable for standard **Windows Server** installations since they rely on the `Remote Desktop Protocol` (RDP) for connections.
+> This guide is not applicable for connections to standard **Windows Server** operating systems since they rely on the `Remote Desktop Protocol` (RDP) by default.
 >
-> You can find more information in our [guide on how to get create a Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps).
+> You can find more information in our [guide on how to create a Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps).
 >
 
 ## Instructions
 
-<a name="create-ssh-key"></a>
+### Creating key pairs for OpenSSH connections
 
-### Creating an SSH key pair
+The following instructions will explain how to create and manage key pairs for remote connections with **OpenSSH** from the command line. Most current operating systems include this feature without needing to install additional software.
 
-The following instructions cover two methods of using SSH keys:
+If you prefer a graphical user interface, you can find many software applications for every type of OS that enable you to connect to remote hosts via the OpenSSH protocol.
 
-- [Creating an **Open SSH** key pair and connecting to a server from the command line SSH client](#openssh)
-- [Creating a `PuTTY` key pair and connecting to a server from the `PuTTY` SSH client](#useputty)
+For example, [PuTTY](https://putty.org/) is an open-source SSH client software with many useful features. Find out how to use it for connections to OVHcloud servers and instances in our detailed tutorial:
 
-You can use both methods side by side but keep in mind that `PuTTY` stores key files in a specific format which makes them incompatible with SSH key files created with the **Open SSH** client. This means that a private key created with the command line SSH client will have to be [converted to the `PuTTY` format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) first and vice versa.
+[How to use PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-<a name="openssh"></a>
+> [!primary]
+>
+> If you receive error messages when trying to connect, ensure you are using the correct pramaters and login details and that your system and the installed applications are properly updated. If you receive a warning message of the type "REMOTE HOST IDENTIFICATION HAS CHANGED", consult our [SSH introdution page](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
 
-#### Creating an SSH key pair from the command line 
 
-From a **Mac** computer or a device with a **Linux OS** installed, open the command line application (`Terminal`).
+#### How to create key pairs from a GNU/Linux distribution or macOS
+
+/// details | Unfold this section
+
+Open the command line application (`Terminal`) on your local device.
 
 Verify that you have a folder named `.ssh` in your `$HOME` directory. If the folder does not exist, create it:
 
@@ -48,48 +69,45 @@ Verify that you have a folder named `.ssh` in your `$HOME` directory. If the fol
 mkdir ~/.ssh
 ```
 
-On a current **Windows OS**, open the `Command Prompt` by typing "cmd" into the search bar (or open `PowerShell` from the menu).
+Use the command `ssh-keygen` to create a key pair. The option `-t` allows you to specify the encryption method.
 
-Go to the directory `.ssh` for your active **Windows** user (by default: `C:\Users\WindowsUsername\.ssh`):
+> [!primary]
+>
+> `Ed25519` is considered the most secure but `RSA` is a valid alternative. Both methods are compatible with the [OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps).
 
-```bash
-cd .ssh
-```
-
-<a name="createnewkey"></a>
-
-Use the following command to create a 4096 bit RSA key:
+Examples:
 
 ```bash
-ssh-keygen -b 4096
+ssh-keygen -t ed25519 -a 100
 ```
-
-Using the option `-t` with this command allows you to specify a different encryption method, for example:
 
 ```bash
-ssh-keygen -t ed25519 -a 256
+ssh-keygen -t rsa -b 4096 -a 100
 ```
 
-The command line will prompt you to save the newly created key in the standard file:
+The next prompt allows to name the newly created key or use the standard file name:
 
 ```console
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/user/.ssh/id_rsa):
 ```
 
-You can confirm with `Enter` to accept the proposed file name or enter an individual name. This is relevant if more than one key pair is placed in the `.ssh` directory. You can find more information about this in the section [Managing multiple SSH keys](#multiplekeys).  
-This example uses the standard file names `id_rsa` and `id_rsa.pub`.
+If you confirm with `Enter`{.action} without entering a name, the standard file name will be used (`id_rsa` in this example).
+
+If you plan to use more than one key pair in the future, enter an individual file name to identify the key. You can find more information about this below in the section **Managing multiple authentication keys on your local device**.
+
+The example outputs below will keep using the file names `id_rsa` and `id_rsa.pub` for illustration purposes.
 
 You can protect your SSH key with a passphrase at the next prompt. This is recommended for added security.
 
 > [!warning]
 >
-> Remote access to your instance is only as secure as the client device storing the private key. Protecting your device and files from unauthorized access is therefore crucial when using SSH keys.
+> Remote access to your instance is only as secure as the client device storing the private key. Protecting your device and the key files stored on it from unauthorized access is therefore crucial.
 > 
-> For convenience and security purposes, consider using a password manager on your device, such as the open source solution `KeePass`.
-> 
+> For increased convenience and security, store passphrases in a password manager on your device, such as the open-source solution **KeePass**.
+>
 
-All SSH keys should be stored in the `.ssh` directory. The public key files will have `.pub` added to the filename.
+All SSH keys are stored in the `.ssh` directory by default. The public key files will have `.pub` added to the filename.
 
 ```console
 Your identification has been saved in /home/user/.ssh/id_rsa.
@@ -110,9 +128,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-<a name="publickey"></a>
-
-In order to view and export your public key, use the command `cat` on your `.pub` key file. Copy this key string to [add it to a new instance](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) or to [import it into the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps#import-ssh).
+In order to view and export your public key, use the command `cat` on your `.pub` key file or open in with a text editor.
 
 ```bash
 cat ~/.ssh/id_rsa.pub
@@ -124,6 +140,8 @@ i4ANmLy7NULWK36yU0Rp9bFJ4o0/4PTkZiDCsK0QyHhAJXdLN7ZHpfJtHIPCnexmwIMLfIhCWhO5
  user@hostname
 ```
 
+Copy this key string to [add it to a new instance](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) or to [import it into the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps#import-ssh).
+
 > [!primary]
 >
 > In a **MacOS** Terminal you can use the commands `pbcopy` and `pbpaste` to handle key strings faster. For example, use this command to copy the key from the file `id_rsa.pub` to the clipboard:
@@ -131,81 +149,13 @@ i4ANmLy7NULWK36yU0Rp9bFJ4o0/4PTkZiDCsK0QyHhAJXdLN7ZHpfJtHIPCnexmwIMLfIhCWhO5
 > `pbcopy < ~/.ssh/id_rsa.pub`
 >
 
-On a **Windows OS**, you can open the file with the `Notepad` application from the `File Explorer` (`right-click` on the file and select `Open with`) or use one of the following commands (in `\Users\WindowsUsername\.ssh`):
+#### Managing multiple authentication keys on your local device
 
-- `cmd`
+You might want to use multiple SSH key pairs to connect to different remote hosts or local network devices.
 
-```bash
-more id_rsa.pub
-```
+Since all private keys should be placed inside the folder `.ssh` of your user's `home` directory, the file names have to be different. When you create a new key pair and you are asked to provide a file name, enter a name of your choice, for example the name of your instance. 
 
-- `powershell`
-
-```bash
-cat id_rsa.pub
-```
-
-Copy this key string to [add it to a new instance](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) or to [import it into the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps#import-ssh).
-
-> [!primary]
->
-> **Clipboard usage**
->
-> When working from a **Windows** command line, you can use a `right-click` to **paste** the content of your clipboard into the command line window. To **copy** a string from the command line window, highlight it, then press `Enter`. You can also find these functions via a `right-click` on the menu bar.
->
-
-<a name="useputty"></a>
-
-#### Creating an SSH key pair with PuTTY
-
-[PuTTY](https://putty.org/){.external} is an open source SSH client software with a graphical user interface, available for **Windows** and other operating systems. It provides a companion software to create SSH keys: `PuTTY Key Generator` (`PuTTYgen`).
-
-> [!primary]
->
-> The main purpose of `PuTTY` is managing SSH connections from a **Windows** client device to a **GNU/Linux** remote host. `PuTTY` stores key files in a **specific format** that is incompatible with SSH key files created with the **Open SSH** client natively included in most contemporary operating systems.
->
-> If necessary, keys generated from the command line as explained above can be [converted into the `PPK` format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) in order to use them with the `PuTTY` client. For the most convenient use of SSH keys, decide on an option and stick to it (**Open SSH** private keys or `PuTTY` private keys).
->
-
-If it is not already installed (check your applications list or use the search function), download `PuTTY` from [the official website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). The recommended standard installation package contains `PuTTYgen` but it is available as a standalone file on the website as well.
-
-Open `PuTTYgen` and select a supported encryption algorithm. This example uses RSA. Enter 4096 as the number of bits in the bottom right corner, then click on the button `Generate`{.action}.
-
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_01.png){.thumbnail}
-
-Move your mouse cursor freely about the area below the progress bar:
-
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_02.gif){.thumbnail}
-
-The key is ready when the progress bar is full.
-
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_03.png){.thumbnail}
-
-Copy this key string to [add it to a new instance](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) or to [import it into the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps#import-ssh).
-
-Save both keys as files by clicking the corresponding buttons and also enter a passphrase to protect them.
-
-> [!warning]
->
-> Remote access to your instance is only as secure as the client device storing the private key. Protecting your device and files from unauthorized access is therefore crucial when using SSH keys.
-> 
-> For convenience and security purposes, consider using a password manager on your device, such as the open source solution `KeePass`.
->
-
-One advantage of using `PuTTY` is the ability to save different connections as `Sessions`. Find further information below in the section [Managing multiple SSH keys on your local device](#puttykeys).
-
-<a name="multiplekeys"></a>
-
-### Managing multiple SSH keys on your local device
-
-You might want to use multiple SSH key pairs to connect to different remote hosts.
-
-> [!primary]
->
-> If you are using `PuTTY`, skip to [the corresponding section](#puttykeys) below.
->
-
-Since all keys should be placed in the folder `.ssh` on your local device, the file names have to be different. When you [create a new key pair](#createnewkey) and you are asked to provide a file name, enter a name of your choice. Match it to the name of your instance for example.
+Output example:
 
 ```console
 Generating public/private rsa key pair.
@@ -215,7 +165,7 @@ Your identification has been saved in /home/user/.ssh/KeyFileName_rsa.
 Your public key has been saved in /home/user/.ssh/KeyFileName_rsa.pub.
 ```
 
-When connecting to the corresponding server, specify the name of the key file in addition to the user and server details:
+When connecting to the corresponding instance, specify the name of the private key file in addition to the connecting user and server details:
 
 ```bash
 ssh -i ~/.ssh/KeyFileName user@IP_ADDRESS
@@ -227,15 +177,13 @@ Example:
 ssh -i ~/.ssh/myInstance_rsa ubuntu@203.0.113.100
 ```
 
-As noted in previous sections, the same instructions will work on a **Windows** client. Only replace `~/` with the file path of your **Windows** user folder, by default `C:\Users\WindowsUsername\`. (Example: `ssh -i C:\Users\Username\.ssh/myInstance_rsa ubuntu@203.0.113.100`)
+##### Using the "config" file
 
-#### Using the "config" file
-
-The alternative to adding the option `-i` each time is to edit a file named `config` inside the folder `~/.ssh` (`\Users\Username\.ssh` for **Windows**). You can use it to configure details for different connections (username, port, key file, optional parameters, etc.)
+The alternative to adding the option `-i` each time is to edit a file named `config` inside the folder `~/.ssh`. You can use it to configure details for different connections (username, port, key file, optional parameters, etc.)
 
 If this file exists inside `.ssh`, it probably contains some information already. Depending on your working environment, consider creating a backup copy of the original first.
 
-Example of `.ssh` folder content:
+Example output of listing the `.ssh` folder content:
     
 ```bash
 ls ~/.ssh/
@@ -245,7 +193,7 @@ ls ~/.ssh/
 config	id_rsa	id_rsa.pub	known_hosts	 known_hosts.old
 ```
 
-With the `config` file, multiple SSH connections can be stored along with their individual parameters, in addition to standard values. Using the full potential of this file can become complex, since it is most useful for experienced users managing multiple servers on a regular basis.
+The `config` file allows to store multiple SSH connections along with their individual parameters, in addition to standard values. Using the full potential of this file can become complex, since it is most useful for experienced users managing multiple servers on a regular basis.
 
 Following is a simple example to explain how to configure an SSH connection to an instance.  
 Open the file and add the following lines at the top:
@@ -256,14 +204,22 @@ Host instance
     IdentityFile ~/.ssh/myInstance_rsa
 ```
 
-You can then connect to the instance with the alias name you have defined as `Host`:
+Be sure to use the correct IP address and key file name. The first line, beginning with `Host`, defines the name of this connection (`instance` in this example).
+
+You can then log in to the instance by replacing the instance IP address with alias name identifying this connection (`Host`):
+
+```bash
+ssh username@connection_name
+```
+
+Example:
 
 ```bash
 ssh ubuntu@instance
 ```
 
-Only the server IP and the key file were specified in the previous example but more details can be added.  
-To configure an SSH connection to a second server with the username "rocky", the modified SSH port "49160" and the private key in the file "myserver_rsa", extend the file content as shown in this example:
+Only the instance IP and the key file were specified in the previous example but more details can be added.  
+To configure an SSH connection to a second remote host with the username "rocky", the modified SSH port "49160" and the private key in the file "myserver_rsa", extend the file content as shown in this example:
 
 ```console
 Host instance
@@ -277,50 +233,227 @@ Host myserver
     IdentityFile ~/.ssh/myserver_rsa
 ```
 
-You can then connect to this server by entering:
+You can then connect to this second host by entering:
 
 ```bash
 ssh myserver
 ```
 
-You can read the [corresponding `man` page](https://manpages.org/ssh_config/5) for more information.
+Consult the [corresponding `man` page](https://manpages.org/ssh_config/5) for more information on the `config` file.
 
-<a name="puttykeys"></a>
+///
 
-#### Using PuTTY
 
-`PuTTY` can save credentials and parameters of an SSH connection as a `Session`. This also enables you to connect to different servers using individual keys.
+#### How to create key pairs from a Windows device
 
-Open `PuTTY` and expand the subsection `SSH` in the left-hand menu, then click on `Auth` and `Credentials`.
+/// details | Unfold this section
 
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_04.png){.thumbnail}
+Open the Command Prompt application by typing "cmd" into the search bar (or open PowerShell from the "Start" menu).
 
-Click on the `Browse`{.action} button and select the `PuTTY` private key file (`keyfile.ppk`) from the folder in which you have saved it.
+Open the directory `.ssh` of your active Windows user account (default path: `C:\Users\WindowsUsername\.ssh`):
 
-The key file is now associated with the current SSH session. Switch to `Session` in the left-hand menu and enter your login credentials for the server (`username@IPv4_address`).
+```bash
+cd .ssh
+```
 
-Enter a name for this connection under `Saved Sessions` and click on `Save`{.action} to add it to the list.
+Use the command `ssh-keygen` to create a key pair. The option `-t` allows you to specify the encryption method.
 
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_05.png){.thumbnail}
+> [!primary]
+>
+> `Ed25519` is considered the most secure but `RSA` is a valid alternative. Both methods are compatible with the [OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps).
 
-From now on, you can click on this `Session` item and open a connection to your server. To test it, click on `Open`{.action}. If you have protected the key file with a passphrase, you have to enter it at this point.
+Examples:
 
-#### Adding additional public keys to your instance
+```bash
+ssh-keygen -t ed25519 -a 100
+```
 
-To add SSH keys for other users accessing your instance, repeat the key creation steps but use the appropriate `$HOME` folder or **Windows** `Users` directory of the user in question to create and store the SSH keys (or execute the commands on this person's dedicated device).
+```bash
+ssh-keygen -t rsa -b 4096 -a 100
+```
+
+The next prompt allows to name the newly created key or use the standard file name:
+
+```console
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa):
+```
+
+If you confirm with `Enter`{.action} without entering a name, the standard file name will be used (`id_rsa` in this example).
+
+If you plan to use more than one key pair in the future, enter an individual file name to identify the key. You can find more information about this below in the section **Managing multiple authentication keys on your local device**.
+
+The example outputs below will keep using the file names `id_rsa` and `id_rsa.pub` for illustration purposes.
+
+You can protect your SSH key with a passphrase at the next prompt. This is recommended for added security.
+
+> [!warning]
+>
+> Remote access to your instance is only as secure as the client device storing the private key. Protecting your device and the key files stored on it from unauthorized access is therefore crucial.
+> 
+> For increased convenience, store passphrases in a password manager on your device, such as the open-source solution **KeePass**.
+>
+
+All SSH keys are stored in the `.ssh` directory by default. The public key files will have `.pub` added to the filename.
+
+```console
+Your identification has been saved in /home/user/.ssh/id_rsa.
+Your public key has been saved in /home/user/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:MRk+Y0zCOoOkferhkTvMpcMsYspj212lK7sEauNap user@hostname
+The key's randomart image is:
++---[RSA 4096]----+
+|     .. o        |
+|    . .= o       |
+|   o o  X        |
+|. . . .          |
+|. .=.o .S.       |
+| =o.o.  .   .    |
+|o +   .  . o ..  |
+|.. .  .   oEoo . |
+|o.        .o+oo  |
++----[SHA256]-----+
+```
+
+Vou can open the key file with a text editor (Notepad, Notepad++, etc.). From the Windows File Explorer, right-click on the file and select `Open with`.  
+You can also use one of the following commands (when in the directory `\Users\WindowsUsername\.ssh`):
+
+- `cmd`
+
+```bash
+more id_rsa.pub
+```
+
+- `powershell`
+
+```bash
+cat id_rsa.pub
+```
+
+Copy this key string to [add it to a new instance or to import it into the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps).
+
+> [!primary]
+>
+> **Clipboard usage**
+>
+> When working from a **Windows** command line, you can use a right-click to **paste** the content of your clipboard into the command line window. To **copy** a string from the command line window, highlight it, then press `Enter`{.action}. You can also find these functions via a right-click on the menu bar of the command line window.
+>
+
+#### Managing multiple authentication keys on your local device
+
+You might want to use multiple SSH key pairs to connect to different remote hosts or local network devices.
+
+Since all private keys should be placed inside the folder `.ssh` of your Windows user directory, the file names have to be different. When you create a new key pair and you are asked to provide a file name, enter a name of your choice, for example the name of your instance. 
+
+Output example:
+
+```console
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): KeyFileName_rsa
+
+Your identification has been saved in /home/user/.ssh/KeyFileName_rsa.
+Your public key has been saved in /home/user/.ssh/KeyFileName_rsa.pub.
+```
+
+When connecting to the corresponding instance, specify the name of the private key file in addition to the connecting user and server details:
+
+```bash
+ssh -i C:\Users\Username\.ssh/KeyFileName" user@IP_ADDRESS
+```
+
+Example:
+    
+```bash
+ssh -i C:\Users\Username\.ssh/myInstance_rsa ubuntu@203.0.113.100
+```
+
+##### Using the "config" file
+
+The alternative to adding the option `-i` each time is to edit a file named `config` inside the folder `C:\Users\Username\.ssh`. You can use it to configure details for different connections (username, port, key file, optional parameters, etc.)
+
+If this file exists inside `.ssh`, it probably contains some information already. Depending on your working environment, consider creating a backup copy of the original first.
+
+Example output of listing the `.ssh` folder content:
+    
+```bash
+C:\Users\Username\.ssh>dir /B
+```
+
+```console
+config
+id_rsa
+id_rsa.pub
+known_hosts	
+known_hosts.old
+```
+
+The `config` file allows to store multiple SSH connections along with their individual parameters, in addition to standard values. Using the full potential of this file can become complex, since it is most useful for experienced users managing multiple servers on a regular basis.
+
+Following is a simple example to explain how to configure an SSH connection to an instance.  
+Open the file and add the following lines at the top:
+
+```console
+Host instance
+    HostName 203.0.113.100
+    IdentityFile ~/.ssh/myInstance_rsa
+```
+
+Be sure to use the correct IP address and key file name. The first line, beginning with `Host`, defines the name of this connection (`instance` in this example).
+
+You can then log in to the instance by replacing the instance IP address with alias name identifying this connection (`Host`):
+
+```bash
+ssh username@connection_name
+```
+
+Example:
+
+```bash
+ssh ubuntu@instance
+```
+
+Only the instance IP and the private key file were specified in the previous example but more details can be added.  
+To configure an SSH connection to a second remote host with the username "rocky", the modified SSH port "49160" and the private key in the file "myserver_rsa", extend the file content as shown in this example:
+
+```console
+Host instance
+    HostName 203.0.113.100
+    IdentityFile C:\Users\Username\.ssh/myInstance_rsa
+
+Host myserver
+    HostName 203.0.113.101
+    User rocky
+    Port 49160
+    IdentityFile C:\Users\Username\.ssh/myserver_rsa
+```
+
+You can then connect to this second host by entering:
+
+```bash
+ssh myserver
+```
+
+Consult the [corresponding `man` page](https://manpages.org/ssh_config/5) for more information on the `config` file.
+
+///
+
+
+### Adding additional public keys to a running instance
+
+To add SSH keys for other users accessing your instance, repeat the key creation steps but use the appropriate `$HOME` folder or Windows `Users` directory of the user in question to create and store the SSH keys (or execute the commands on this person's dedicated device).
 
 Use our [dedicated guide](/pages/public_cloud/compute/configuring_additional_ssh_keys) for a detailed explanation of these steps.
-
-<a name="gofurther"></a>
 
 ## Go further
 
 [How to create a Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps)
 
-[Getting started with SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)
+[How to get started with SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)
 
-[How to configure additional SSH keys on an instance](/pages/public_cloud/compute/configuring_additional_ssh_keys)
+[How to add authentication keys to your instance](/pages/public_cloud/compute/configuring_additional_ssh_keys)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+For specialized services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+
+If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
 
 Join our [community of users](/links/community).
