@@ -6,7 +6,8 @@ updated: 2024-12-06
 
 ## Objetivo
 
-Con el [Alojamiento gratuito 100M](/links/web/domains-free-hosting), OVHcloud le ofrece un alojamiento web de 100 MB y una cuenta de correo con 5 GB de almacenamiento. Esta guía explica cómo activar el alojamiento gratuito 100M en su [nombre de dominio](/links/web/domains).
+Con el [Alojamiento gratuito 100M](/links/web/domains-free-hosting), OVHcloud le ofrece un alojamiento web de 100 MB y una cuenta de correo con 5 GB de almacenamiento.
+Esta guía explica cómo activar el alojamiento gratuito 100M en su [nombre de dominio](/links/web/domains).
 
 > [!warning]
 >
@@ -28,29 +29,51 @@ Con el [Alojamiento gratuito 100M](/links/web/domains-free-hosting), OVHcloud le
 
 ## Procedimiento
 
-Conéctese al [área de cliente de OVHcloud](/links/manager), haga clic en `Dominios`{.action}  en la columna izquierda y seleccione el dominio correspondiente.
+Para activar su alojamiento gratuito 100M, haga clic en las pestañas de abajo para ver sucesivamente cada uno de los **4** etapas.
 
-En la sección **« Información general »**, acceda al apartado *«Alojamiento web y correo electrónico gratis»*. Haga clic en el botón `...`{.action} a la derecha y, seguidamente, en `«Activar»`{.action}.
-
-![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
-
-Se mostrará la ventana de activación. En el **paso 1** se muestra información sobre el plan y el precio. Haga clic en `«Siguiente»`{.action}. En el **paso 2**, seleccione los cambios que quiera realizar en su zona DNS:
-
-![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
-
-> [!warning]
->
-> Si selecciona una de las dos casillas de verificación `Entrada DNS A` y  `Entrada DNS MX` o ambas, la configuración inicial se vaciará en la zona DNS del dominio.
->
+> [!tabs]
+> **Etapa 1**
+>>
+>> Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Haga clic en el menú desplegable `Dominios`{.action} y seleccione el dominio correspondiente.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> En la sección **Información general**, acceda al apartado **Alojamiento web y correo electrónico gratis**. Haga clic en el botón `...`{.action} a la derecha y, seguidamente, en `Activar`{.action}.
+>>
+>> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/enable-100m.png){.thumbnail}
+>>
+>> Se mostrará la ventana de activación. En la sección **1** se muestra información sobre el plan y el precio. Haga clic en `Siguiente`{.action}. En la sección **2**, seleccione los cambios que quiera realizar en su zona DNS:
+>>
+> **Etapa 4**
+>>
+>> ![activate100m](/pages/assets/screens/control_panel/product-selection/web-cloud/order/order-100m-step-2.png){.thumbnail}
+>>
+>> | Operación                                       	| Descripción                                                                                                               								|
+>> |--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+>> | Registro DNS A                         	| El nombre de dominio apuntará a la dirección IP del Alojamiento gratuito 100M.                                               								|
+>> | Entrada DNS MX 	| Los servidores de correo (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) de OVHcloud se aplicarán al dominio. 	|
+>>
+>> > [!warning]
+>> >
+>> > Si selecciona una de las dos casillas de verificación `Entrada DNS A` y  `Entrada DNS MX` o ambas, la configuración inicial se vaciará en la zona DNS del dominio.
+> Marque las dos casillas para configurar automáticamente su dominio con el alojamiento gratuito 100M y su servicio de correo incluido.
+>> >
 Si su zona DNS no está gestionada en su [área de cliente de OVHcloud](/links/manager), deberá realizar los cambios manualmente en su zona DNS externa.
->
-> Para más información, consulte nuestra guía sobre [la edición de una zona DNS de OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
->
-
-| Operación                                       	| Descripción                                                                                                               								|
-|--------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Registro DNS A                         	| El nombre de dominio apuntará a la dirección IP del Alojamiento gratuito 100M.                                               								|
-| Entrada DNS MX 	| Los servidores de correo (`mx1.mail.ovh.net`, `mx2.mail.ovh.net`, `mx3.mail.ovh.net`, etc.) de OVHcloud se aplicarán al dominio. 	|
+>> >
+>> > Para más información, consulte nuestra guía sobre [la edición de una zona DNS de OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
+>> >
+>>
+>> La sección **3** le recuerda el precio de la solución. 
+>>
+>> En la sección **4**, debe leer los contratos y aceptar su pedido.
 
 > [!primary]
 >
@@ -61,11 +84,6 @@ Si su proyecto evoluciona rápidamente hacia un alojamiento que dispone de una b
 > También puede eliminar la oferta gratuita, con el cuidado de obtener previamente los datos de su alojamiento y el contenido de su dirección de correo electrónico.
 >
 > Para más información, consulte nuestras [ofertas de alojamiento](/links/web/hosting).
->
-
-**El paso 3** le recuerda el precio de la solución. 
-
-En **el paso 4**, debe leer los contratos y aceptar su pedido.
 
 Una vez validado el pedido, le enviaremos por correo electrónico la información de [conexión FTP](/pages/web_cloud/web_hosting/ftp_connection) a su alojamiento gratuito 100M.
 
