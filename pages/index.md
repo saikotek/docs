@@ -1851,6 +1851,7 @@
             + [Enterprise File Storage - Manage your snapshot policies](storage_and_backup/file_storage/enterprise_file_storage/netapp_snapshot_policy)
             + [Enterprise File Storage - Hold an automatic snapshot](storage_and_backup/file_storage/enterprise_file_storage/netapp_hold_automatic_snapshot)
             + [Enterprise File Storage - Restore volume using snapshot revert API](storage_and_backup/file_storage/enterprise_file_storage/netapp_revert_snapshot)
+            + [Enterprise File Storage - Clone a volume](storage_and_backup/file_storage/enterprise_file_storage/netapp_clone_volume)
             + [Enterprise File Storage - API Quickstart](storage_and_backup/file_storage/enterprise_file_storage/netapp_quick_start)
             + [Enterprise File Storage - Managing volumes](storage_and_backup/file_storage/enterprise_file_storage/netapp_volumes)
             + [Enterprise File Storage - Managing volume ACLs](storage_and_backup/file_storage/enterprise_file_storage/netapp_volume_acl)
