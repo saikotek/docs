@@ -53,11 +53,10 @@ For example, [PuTTY](https://putty.org/) is an open-source SSH client software w
 
 > [!primary]
 >
-> If you receive error messages when trying to connect, ensure you are using the correct pramaters and login details and that your system and the installed applications are properly updated. If you receive a warning message of the type "REMOTE HOST IDENTIFICATION HAS CHANGED", consult our [SSH introdution page](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+> If you receive error messages when trying to connect, ensure you are using the correct paramaters and login details and that your system and the installed applications are properly updated. If you receive a warning message of the type `REMOTE HOST IDENTIFICATION HAS CHANGED`, consult our [SSH introduction page](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 >
 
-
-#### How to create key pairs from a GNU/Linux distribution or macOS
+#### How to configure key pairs from a GNU/Linux distribution or macOS
 
 /// details | Unfold this section
 
@@ -128,7 +127,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-In order to view and export your public key, use the command `cat` on your `.pub` key file or open in with a text editor.
+In order to view and export your public key, use the command `cat` on your `.pub` key file or open it with a text editor.
 
 ```bash
 cat ~/.ssh/id_rsa.pub
@@ -140,11 +139,11 @@ i4ANmLy7NULWK36yU0Rp9bFJ4o0/4PTkZiDCsK0QyHhAJXdLN7ZHpfJtHIPCnexmwIMLfIhCWhO5
  user@hostname
 ```
 
-Copy this key string to [add it to a new instance](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) or to [import it into the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps#import-ssh).
+Copy this key string to [add it to a new instance or to import it into the OVHcloud Control Panel](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!primary]
 >
-> In a **MacOS** Terminal you can use the commands `pbcopy` and `pbpaste` to handle key strings faster. For example, use this command to copy the key from the file `id_rsa.pub` to the clipboard:
+> In a **macOS** Terminal you can use the commands `pbcopy` and `pbpaste` to handle key strings faster. For example, use this command to copy the key from the file `id_rsa.pub` to the clipboard:
 >
 > `pbcopy < ~/.ssh/id_rsa.pub`
 >
@@ -153,7 +152,7 @@ Copy this key string to [add it to a new instance](/pages/public_cloud/compute/p
 
 You might want to use multiple SSH key pairs to connect to different remote hosts or local network devices.
 
-Since all private keys should be placed inside the folder `.ssh` of your user's `home` directory, the file names have to be different. When you create a new key pair and you are asked to provide a file name, enter a name of your choice, for example the name of your instance. 
+Since all key files should be placed inside the folder `.ssh` of your user's `home` directory, the file names have to be different. When you create a new key pair and you are asked to provide a file name, enter a name of your choice, for example the name of your instance. 
 
 Output example:
 
@@ -193,7 +192,7 @@ ls ~/.ssh/
 config	id_rsa	id_rsa.pub	known_hosts	 known_hosts.old
 ```
 
-The `config` file allows to store multiple SSH connections along with their individual parameters, in addition to standard values. Using the full potential of this file can become complex, since it is most useful for experienced users managing multiple servers on a regular basis.
+The `config` file allows to store multiple SSH connections along with their individual parameters, in addition to standard values. Using the full potential of this file can become complex, since it is most useful for experienced users managing multiple servers.
 
 Following is a simple example to explain how to configure an SSH connection to an instance.  
 Open the file and add the following lines at the top:
@@ -206,7 +205,7 @@ Host instance
 
 Be sure to use the correct IP address and key file name. The first line, beginning with `Host`, defines the name of this connection (`instance` in this example).
 
-You can then log in to the instance by replacing the instance IP address with alias name identifying this connection (`Host`):
+You can then log in to the instance by replacing the instance IP address with the alias name identifying this connection (`Host`):
 
 ```bash
 ssh username@connection_name
@@ -244,7 +243,7 @@ Consult the [corresponding `man` page](https://manpages.org/ssh_config/5) for mo
 ///
 
 
-#### How to create key pairs from a Windows device
+#### How to configure key pairs from a Windows device
 
 /// details | Unfold this section
 
@@ -343,7 +342,7 @@ Copy this key string to [add it to a new instance or to import it into the OVHcl
 
 You might want to use multiple SSH key pairs to connect to different remote hosts or local network devices.
 
-Since all private keys should be placed inside the folder `.ssh` of your Windows user directory, the file names have to be different. When you create a new key pair and you are asked to provide a file name, enter a name of your choice, for example the name of your instance. 
+Since all key files should be placed inside the folder `.ssh` of your Windows user directory, the file names have to be different. When you create a new key pair and you are asked to provide a file name, enter a name of your choice, for example the name of your instance. 
 
 Output example:
 
@@ -387,7 +386,7 @@ known_hosts
 known_hosts.old
 ```
 
-The `config` file allows to store multiple SSH connections along with their individual parameters, in addition to standard values. Using the full potential of this file can become complex, since it is most useful for experienced users managing multiple servers on a regular basis.
+The `config` file allows to store multiple SSH connections along with their individual parameters, in addition to standard values. Using the full potential of this file can become complex, since it is most useful for experienced users managing multiple servers.
 
 Following is a simple example to explain how to configure an SSH connection to an instance.  
 Open the file and add the following lines at the top:
@@ -400,7 +399,7 @@ Host instance
 
 Be sure to use the correct IP address and key file name. The first line, beginning with `Host`, defines the name of this connection (`instance` in this example).
 
-You can then log in to the instance by replacing the instance IP address with alias name identifying this connection (`Host`):
+You can then log in to the instance by replacing the instance IP address with the alias name identifying this connection (`Host`):
 
 ```bash
 ssh username@connection_name
