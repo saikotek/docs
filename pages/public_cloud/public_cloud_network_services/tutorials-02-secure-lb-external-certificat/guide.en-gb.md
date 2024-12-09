@@ -124,7 +124,7 @@ In the Horizon interface, open the `Network`{.action} section, then click `Load 
 
 Select your Load Balancer by clicking on `the name of your Load Balancer.`{.action}
 
-You can now click on the `Listerners`{.action} section, then on `Create Listener` as follows: 
+You can now click on the `Listeners`{.action} section, then on `Create Listener` as follows: 
 
 ![listeners list](images/loadbalancerlistenerslist.png){.thumbnail}
 

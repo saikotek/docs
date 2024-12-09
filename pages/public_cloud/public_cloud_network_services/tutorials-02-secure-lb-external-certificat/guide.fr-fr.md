@@ -80,7 +80,7 @@ Dans l'interface d'Horizon, `ouvrir la section Network`{.action} puis cliquer su
 
 Sélectionnez votre Load Balancer en cliquant sur `le nom de votre Load Balancer.`{.action}
 
-Vous pouvez désormais cliquer sur la section `Listerners`{.action}, puis sur `Create Listener` comme suit : 
+Vous pouvez désormais cliquer sur la section `Listeners`{.action}, puis sur `Create Listener` comme suit : 
 
 ![listeners list](images/loadbalancerlistenerslist.png){.thumbnail}
 
@@ -124,7 +124,7 @@ Dans l'interface d'Horizon, `ouvrir la section Network`{.action} puis cliquer su
 
 Sélectionnez votre Load Balancer en cliquant sur `le nom de votre Load Balancer.`{.action}
 
-Vous pouvez désormais cliquer sur la section `Listerners`{.action}, puis sur `Create Listener` comme suit : 
+Vous pouvez désormais cliquer sur la section `Listeners`{.action}, puis sur `Create Listener` comme suit : 
 
 ![listeners list](images/loadbalancerlistenerslist.png){.thumbnail}
 
