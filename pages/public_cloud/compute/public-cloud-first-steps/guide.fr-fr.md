@@ -90,10 +90,10 @@ Le [protocole SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction) p
 
 Vous disposez de 2 options pour créer et gérer vos clés SSH :
 
-- L'interface de ligne de commande de votre OS (simple client **Open SSH**).
-- Un logiciel supplémentaire (compatible avec le protocole **Open SSH**) avec ligne de commande ou interface graphique.
+- L'interface de ligne de commande de votre OS (simple client **OpenSSH**).
+- Un logiciel supplémentaire (compatible avec le protocole **OpenSSH**) avec ligne de commande ou interface graphique.
 
-La plupart des systèmes d'exploitation de bureau contemporains incluent nativement le client **Open SSH** accessible via l'application de ligne de commande du système (`cmd`, `Powershell`, `Terminal`, etc.). Si vous n'êtes pas familier avec l'utilisation des clés SSH comme méthode d'authentification, vous pouvez utiliser les instructions de [ce guide](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) pour créer votre paire de clés.
+La plupart des systèmes d'exploitation de bureau contemporains incluent nativement le client **OpenSSH** accessible via l'application de ligne de commande du système (`cmd`, `Powershell`, `Terminal`, etc.). Si vous n'êtes pas familier avec l'utilisation des clés SSH comme méthode d'authentification, vous pouvez utiliser les instructions de [ce guide](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) pour créer votre paire de clés.
 
 Si vous utilisez un autre logiciel, reportez-vous à sa documentation utilisateur. Les instructions pour la solution open source `PuTTY` sont disponibles dans [ce guide](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
 
@@ -378,7 +378,7 @@ Une fois la configuration de votre instance terminée, cliquez sur le bouton `Cr
 
 ### Étape 5 : Se connecter à l'instance
 
-Les instructions de cette partie concernent les connexions à distance au moyen des protocoles **Open SSH** et **RDP** via un réseau public (internet).
+Les instructions de cette partie concernent les connexions à distance au moyen des protocoles **OpenSSH** et **RDP** via un réseau public (internet).
 
 Notez que nous proposons des moyens d'accès alternatifs (principalement utilisés pour le dépannage) qui ne sont disponibles que via votre espace client OVHcloud :
 

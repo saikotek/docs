@@ -200,7 +200,7 @@ When you first install or reinstall from the OVHcloud Control Panel, a user with
 
 You will then receive an email containing the username and password needed to connect to your VPS with SSH. SSH is a secure communication protocol, used to establish encrypted connections to a remote host.
 
-Most current desktop operating systems have an **Open SSH** client installed by default. This means that your access credentials allow you to quickly establish a connection to your VPS in the appropriate command line application (`Terminal`, `Command prompt`, `Powershell`, etc.). Enter the following command:
+Most current desktop operating systems have an **OpenSSH** client installed by default. This means that your access credentials allow you to quickly establish a connection to your VPS in the appropriate command line application (`Terminal`, `Command prompt`, `Powershell`, etc.). Enter the following command:
 
 ```bash
 ssh username@IPv4_VPS
@@ -212,7 +212,7 @@ Example:
 ssh ubuntu@203.0.113.101
 ```
 
-You can use any third-party application compatible with **Open SSH** as well.
+You can use any third-party application compatible with **OpenSSH** as well.
 
 <a name="linuxconnect"></a>
 

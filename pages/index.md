@@ -628,7 +628,7 @@
             + [Transfer a volume backup from one datacentre to another](public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another)
             + [Change your Block Storage volume type](public_cloud/compute/switch_volume_type)
         + [Tutorials](public-cloud-compute-tutorials)
-            + [How to create and use SSH keys for Public Cloud instances](public_cloud/compute/creating-ssh-keys-pci)
+            + [How to create and use authentication keys for SSH connections to Public Cloud instances](public_cloud/compute/creating-ssh-keys-pci)
             + [How to configure additional SSH keys on an instance](public_cloud/compute/configuring_additional_ssh_keys)
             + [How to use PuTTY for SSH connections and authentication](web_cloud/web_hosting/ssh_using_putty_on_windows)
             + [Changing the admin password on a Windows server](bare_metal_cloud/virtual_private_servers/resetting_a_windows_password)

@@ -43,10 +43,10 @@ Para más información, consulte la guía de presentación del [protocolo SSH](/
 
 Las siguientes instrucciones cubren dos métodos de uso de llaves SSH:
 
-- [Creación de un par de claves Open SSH y conexión a un servidor desde el cliente SSH en línea de comandos](#openssh)
+- [Creación de un par de claves OpenSSH y conexión a un servidor desde el cliente SSH en línea de comandos](#openssh)
 - [Creación de un par de claves `PuTTY` y conexión a un servidor desde el cliente SSH `PuTTY`](#useputty)
 
-Puede utilizar ambos métodos simultáneamente, pero tenga en cuenta que `PuTTY` conserva los archivos de clave en un formato específico, lo que los hace incompatibles con los archivos de clave SSH creados con el cliente Open SSH.
+Puede utilizar ambos métodos simultáneamente, pero tenga en cuenta que `PuTTY` conserva los archivos de clave en un formato específico, lo que los hace incompatibles con los archivos de clave SSH creados con el cliente OpenSSH.
 
 Esto significa que una clave privada creada con el cliente SSH en línea de comandos deberá ser [convertida al formato `PuTTY` y viceversa](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt){.external}.
 
@@ -169,9 +169,9 @@ Copie la cadena de clave completa en el Portapapeles para [añadirla al servidor
 
 > [!primary]
 >
-> El objetivo principal de `PuTTY` es gestionar las conexiones SSH de un periférico cliente Windows hacia un servidor GNU/Linux. `PuTTY` almacena los archivos de claves en un formato específico, lo que los hace incompatibles con los archivos de claves SSH creados con el cliente Open SSH incluidos de forma nativa en la mayoría de los sistemas operativos modernos.
+> El objetivo principal de `PuTTY` es gestionar las conexiones SSH de un periférico cliente Windows hacia un servidor GNU/Linux. `PuTTY` almacena los archivos de claves en un formato específico, lo que los hace incompatibles con los archivos de claves SSH creados con el cliente OpenSSH incluidos de forma nativa en la mayoría de los sistemas operativos modernos.
 >
-> Si es necesario y como se ha explicado anteriormente en esta guía, las claves generadas en *línea de comandos* pueden ser [convertidas al formato `PPK`](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) para utilizarlas con el cliente `PuTTY`. Para un uso más práctico de las llaves SSH, elija una opción y acéptela (llaves privadas Open SSH o llaves privadas `PuTTY`).
+> Si es necesario y como se ha explicado anteriormente en esta guía, las claves generadas en *línea de comandos* pueden ser [convertidas al formato `PPK`](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) para utilizarlas con el cliente `PuTTY`. Para un uso más práctico de las llaves SSH, elija una opción y acéptela (llaves privadas OpenSSH o llaves privadas `PuTTY`).
 >
 
 Si aún no está instalado (consulte su lista de aplicaciones o utilice la función de búsqueda), descargue `PuTTY` desde [el sitio oficial](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){.external}. El paquete de instalación estándar recomendado ya contiene `PuTTYgen`, pero también está disponible como un archivo independiente en el sitio Web.

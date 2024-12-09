@@ -91,10 +91,10 @@ The [SSH protocol](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction) e
 
 You have 2 options to create and manage your SSH keys:
 
-- Command line interface of your OS (basic **Open SSH** client)
-- Additional software (compatible with the **Open SSH** protocol) with a command line or graphical interface
+- Command line interface of your OS (basic **OpenSSH** client)
+- Additional software (compatible with the **OpenSSH** protocol) with a command line or graphical interface
 
-Most contemporary desktop operating systems natively include the **Open SSH** client which can be accessed through the system's command line application (`cmd`, `Powershell`, `Terminal`, etc.). If you are not familiar with using SSH keys as an authentication method, you can use the instructions in [this guide](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) to get started and create your key pair.
+Most contemporary desktop operating systems natively include the **OpenSSH** client which can be accessed through the system's command line application (`cmd`, `Powershell`, `Terminal`, etc.). If you are not familiar with using SSH keys as an authentication method, you can use the instructions in [this guide](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) to get started and create your key pair.
 
 If you use an alternative software, refer to its user documentation. Instructions for the open-source solution `PuTTY` are available in [this guide](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
 
@@ -381,7 +381,7 @@ Once you have finished your instance configuration, click on the button `Create 
 
 ### Step 5: Connect to the instance
 
-The instructions in this part concern remote connections by means of the **Open SSH** and **RDP** protocols through a public network (internet).
+The instructions in this part concern remote connections by means of the **OpenSSH** and **RDP** protocols through a public network (internet).
 
 Note that we provide alternative ways of access (mainly used for troubleshoooting) which are only available via your OVHcloud Control Panel:
 

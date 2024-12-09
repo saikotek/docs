@@ -202,7 +202,7 @@ Lors de la première installation ou lors de la réinstallation à partir du Pan
 
 Vous recevrez alors un e-mail contenant le nom d'utilisateur et le mot de passe nécessaires pour vous connecter à votre VPS. Vous pouvez vous connecter en utilisant ces identifiants ou via SSH. SSH (**S**ecure **Sh**ell) est un protocole permettant de se connecter de manière sécurisée à un serveur distant, comme un VPS. Pour en savoir plus à ce sujet, consultez notre guide d'[introduction au SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-La plupart des systèmes d'exploitation de bureau actuels ont un client **Open SSH** installé par défaut. Cela signifie que vos identifiants d'accès vous permettent d'établir rapidement une connexion à votre VPS dans l'application de ligne de commande appropriée (« Terminal », « Invite de commande », « Powershell », etc.). Entrez la commande suivante :
+La plupart des systèmes d'exploitation de bureau actuels ont un client **OpenSSH** installé par défaut. Cela signifie que vos identifiants d'accès vous permettent d'établir rapidement une connexion à votre VPS dans l'application de ligne de commande appropriée (« Terminal », « Invite de commande », « Powershell », etc.). Entrez la commande suivante :
 
 ```bash
 ssh username@IPv4_VPS
@@ -214,7 +214,7 @@ Exemple :
 ssh ubuntu@203.0.113.101
 ```
 
-Vous pouvez également utiliser toute application tierce compatible avec **Open SSH**.
+Vous pouvez également utiliser toute application tierce compatible avec **OpenSSH**.
 
 <a name="linuxconnect"></a>
 
