@@ -11,8 +11,8 @@ In dieser Anleitung erfahren Sie, wie Sie dieses Angebot für Ihren [Domainnamen
 
 > [!warning]
 >
-> Dieses kostenlose Webhosting mit 100 MB Speicherplatz ist für eine einfache Präsentationsseite geeignet; es enthält **keine Datenbank**.
-> Es eignet sich auch für die E-Mail-Nutzung, wenn Sie nicht mehr als einen "MX Plan" E-Mail-Account benötigen.
+> Dieses kostenlose Webhosting mit 100 MB Speicherplatz ist für eine einfache Präsentationsseite geeignet; es enthält **keine Datenbank**.  
+> Es eignet sich auch für die E-Mail-Nutzung, wenn Sie nicht mehr als einen "MX Plan" E-Mail-Account benötigen.  
 > Wenn Sie eine Website mit mehreren Seiten einrichten möchten, die eine Datenbank benötigt, wie etwa WordPress, Joomla!, PrestaShop oder Drupal, bestellen Sie direkt über unsere Website oder Ihr [OVHcloud Kundencenter](/links/manager) eines unserer [Webhosting-Angebote](/links/web/hosting).
 >
 
@@ -25,11 +25,11 @@ In dieser Anleitung erfahren Sie, wie Sie dieses Angebot für Ihren [Domainnamen
 
 > [!primary]
 >
-> Das kostenlose 100M Webhosting ist **nur** für unsere Kunden in Europa verfügbar.
+> Das Angebot Kostenloses Hosting 100M ist **nur** für unsere Kunden in Europa verfügbar.
 
 ## In der praktischen Anwendung
 
-Um Ihr kostenloses 100M Hosting zu aktivieren, klicken Sie auf die folgenden Tabs, um nacheinander alle **4** Schritte anzuzeigen.
+Um Ihr Kostenloses Hosting 100M zu aktivieren, klicken Sie auf die folgenden Tabs, um nacheinander alle **4** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
