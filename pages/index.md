@@ -1562,6 +1562,7 @@
             + [Getting started](web-cloud-email-collaborative-solutions-microsoft-exchange-getting-started)
                 + [Getting started with the Hosted Exchange service](web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_starting_hosted)
                 + [Getting started with the Private Exchange service](web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_starting_private)
+                + [Private Exchange - backup emails with Veeam Backup for Microsoft 365](web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_veeam_backup)
                 + [Managing the billing for Exchange accounts](web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
                 + [Adding a domain name to your Exchange service](web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain)
                 + [Creating a CNAME record to add an associated domain](web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname)
