@@ -6,13 +6,13 @@ updated: 2024-12-06
 
 ## Objectif
 
-Vous souhaitez effectuer une sauvegarde pour vos comptes e-mail hébergés sur une plateforme Private Exchange OVHcloud. Pour ce faire, vous devrez utiliser le logiciel Veeam Backup for Microsoft 365. Vous trouverez sur cette page ,tous les éléments nécessairs pour installer, configurer et utiliser Veeam Backup pour vos comptes e-mail.
+Vous souhaitez sauvegarder vos comptes e-mail hébergés sur une plateforme Private Exchange OVHcloud, pour se faire, utilisez le logiciel Veeam Backup for Microsoft 365. Vous trouverez sur cette page ,tous les éléments nécessairs pour installer, configurer et utiliser Veeam Backup pour vos comptes e-mail.
 
 **Découvrez comment sauvegarder les comptes e-mail de votre plateforme Private Exchange avec Veeam Backup for Microsoft 365**
 
 ## Prérequis
 
-- Avoir souscrit à une [offre Private Exchange OVHcloud](/links/web/emails-private-exchange) avec des comptes e-mails créés.
+- Avoir souscrit à une [offre Private Exchange OVHcloud](/links/web/emails-private-exchange) et créé des comptes e-mails sur celle-ci.
 - Être connecté à [l'espace client OVHcloud](/links/manager).
 - [Télécharger Veeam Backup for Microsoft 365](https://www.veeam.com/products/free/backup-microsoft-office-365.html) sur un ordinateur sous Microsoft Windows 1à minimum.
 
@@ -27,7 +27,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 > [!tabs]
 > **Etape 1**
 >>
->> - Lancez le fichier télécharger au format `.iso` pour monter le DVD virtuel.
+>> - Lancez le fichier téléchargé au format `.iso` pour monter le DVD virtuel.
 >> - Ouvrez le DVD virtuel `Veeam Backup for Microsoft 365` monté sur votre ordinateur, puis éxécutez le fichier d'installation `Veem.Setup.exe`.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup01.png){.thumbnail}
@@ -60,7 +60,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 >> - Le tunnel d'installation défini automatiquement les identifiants de l'instance de base de données et du serveur NATS, récupérer les éléments indiqués sur la fenêtre ci-dessous ou cliquez sur `Customize Settings`{.action} pour définir vous-même ces derniers.
 >> - Lancez l'installation en cliquant sur `Install`{.action}.
->> - À l'issue de cette installation, vous pouvez passer au chapitre [Configurer Veeam Backup](#configure-veeam)
+>> - À l'issue de cette installation, vous pouvez passer au chapitre [Configurer Veeam Backup](#configure-veeam).
 >>
 >> > [!warning]
 >> >
@@ -70,15 +70,15 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 > **Etape 6**
 >>
->> - Si vous n'avez pas d'instance de base de données Veeam Backup, vous pouvez en créer une en cliquant directement sur `Next`{.action} 
->> - **OU** vous connecter à une existante en sélectionnant `Use existing instance` et `Native authentication with the following credentials`, puis remplir les informations de connexion.
+>> - Si vous n'avez pas d'instance de base de données Veeam Backup, vous pouvez en créer une en cliquant directement sur `Next`{.action}.
+>> - **OU** vous connecter à une instance existante en sélectionnant `Use existing instance` et `Native authentication with the following credentials`, puis remplir les informations de connexion.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup05.png){.thumbnail}
 >>
 > **Etape 7**
 >>
 >> - Pour une nouvelle instance, saisissez un nom d'utilisateur (`Username`) et un mot de passe (`Password`) fort. Si vous avez déjà une instance existante, sélectionnez `Use existing instance` et saisissez les informations correspondantes.
->> - Cliquez sur `Next`{.action}.
+>> - Cliquez sur `Next`{.action} pour passer à l'étape suivante.
 >>
 >>![veeam backup exchange](images/exchange_veeam_backup06.png){.thumbnail}
 >>
@@ -92,23 +92,23 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 
 #### Connecter Veeam Backup à votre plateforme Exchange
 
-Nous allons voir comment ajouter votre plateforme Exchange à Veeam Backup avant de pouvoir créer des oparations de sauvegarde sur vos comtpes e-mail
+Nous allons voir comment ajouter votre plateforme Exchange à Veeam Backup avant de pouvoir créer des oparations de sauvegarde sur vos comtpes e-mail.
 
 Suivez les étapes de configuration en cliquant sur les onglets ci-dessous :
 
 > [!tabs]
 > **Etape 1**
->> Lancez l'application `Veeam Backup for Microsoft 365` dans le menu de Windows ou sur votre bureau
+>> Lancez l'application `Veeam Backup for Microsoft 365` depuis le menu Windows ou sur votre bureau.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup08.png){.thumbnail}
 >>
 > **Etape 2**
->> Par défault Veeam Backup vous propose de vous connecter en local sur votre ordinateur, cliquez sur `Connect`{.action}
+>> Par défault Veeam Backup vous propose de vous connecter en local sur votre ordinateur, cliquez sur `Connect`{.action}.
 >>
 >>![veeam backup exchange](images/exchange_veeam_backup09.png){.thumbnail}
 >>
 > **Etape 3**
->> Si vous n'avez pas renseigner de license, un message vous rappelle que vous êtes limité à 10 utilisateurs ( 10 comptes e-mail). Cliquez sur `No`{.action} pour continuer ou sur `Yes`{.action} si vous souhaitez installer une license.
+>> Si vous n'avez pas renseigné de license, un message vous rappelle que vous êtes limité à 10 utilisateurs ( 10 comptes e-mail). Cliquez sur `No`{.action} pour continuer ou sur `Yes`{.action} si vous souhaitez associer une license à votre installation.
 >>
 >>![veeam backup exchange](images/exchange_veeam_backup10.png){.thumbnail}
 >>
@@ -118,19 +118,20 @@ Suivez les étapes de configuration en cliquant sur les onglets ci-dessous :
 >> ![veeam backup exchange](images/exchange_veeam_backup11.png){.thumbnail}
 >>
 > **Étape 5**
->>Dans le menu déroulant `Select organization deployment type`, sélectionnez `On-premise`{.action}, puis déselectionnez `Sharepoint Server`.
+>> Dans le menu déroulant `Select organization deployment type`, sélectionnez `On-premise`{.action}, puis déselectionnez `Sharepoint Server`.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup12.png){.thumbnail}
+>>
 > **Étape 6**
->>Avant de poursuivre, vous devez créer un utilisateur appelé « Impersonate User » sur votre plateforme Exchange. Pour créer ce type d'utilisateur, authentifiez-vous et utilisez l'appel API suivant:
+>> Avant de poursuivre, vous devez créer un utilisateur appelé « Impersonate User » sur votre plateforme Exchange. Pour créer ce type d'utilisateur, Connectez-vous aux [API OVHcloud](/links/api) et utilisez l'appel API suivant:
 >>
 >> > [!api]
 >> >
 >> > @api {v1} /email/exchange/ POST /email/exchange/{organizationName}/service/{exchangeService}/impersonatedUser
 >>
->> - Dans les cases `exchangeService` et `organizationName` , renseignez la référence de votre plateforme Exchange, visible depuis votre [espace client OVHcloud](/links/manager) dans la rubrique `Web Cloud`{.action} / `Microsoft`{.action} / `Exchange`{.action}, en sélectionnant la plateforme concernée
+>> - Dans les cases `exchangeService` et `organizationName` , renseignez la référence de votre plateforme Exchange, visible depuis votre [espace client OVHcloud](/links/manager) dans la rubrique `Web Cloud`{.action} / `Microsoft`{.action} / `Exchange`{.action}, en sélectionnant la plateforme concernée.
 >>
->> - Saisissez un mot de passe de 15 caractères minimum entre les guillemets à côté de `"password": `
+>> - Saisissez un mot de passe de 15 caractères minimum entre les guillemets, à côté de `"password": `.
 >>
 >> - Cliquez sur `Execute`{.action} plus bas pour lancer la création de votre « Impersonate User ».
 >>
@@ -152,7 +153,7 @@ Suivez les étapes de configuration en cliquant sur les onglets ci-dessous :
 >> ![veeam backup exchange](images/exchange_veeam_backup14.png){.thumbnail}
 >>
 > **Étape 8**
->>- Relevez le nom d'hôte de votre plateforme Exchange, celle-ci est visible depuis votre [espace client OVHcloud](/links/manager) dans la rubrique `Web Cloud`{.action} / `Microsoft`{.action} / `Exchange`{.action}, en sélectionnant la plateforme concernée.
+>> - Relevez le nom d'hôte de votre plateforme Exchange, celle-ci est visible depuis votre [espace client OVHcloud](/links/manager) dans la rubrique `Web Cloud`{.action} / `Microsoft`{.action} / `Exchange`{.action}, en sélectionnant la plateforme concernée.
 >>
 >> - Le nom d'hôte correspond à la valeur mentionnée pour accéder au webmail.
 >>
@@ -161,15 +162,15 @@ Suivez les étapes de configuration en cliquant sur les onglets ci-dessous :
 > **Étape 9**
 >> Depuis l'interface Veeam Backup, saisissez les informations suivantes :
 >>
->> - `Server name` : Nom d'hôte de la plateforme Exchange relevée à l'étape 8, à renseigner sans le `https://`
->> - `Username` : Nom d'utilisateur Valeur relevée à l'étape 7 correspondant a « Impersonate User ».
+>> - `Server name` : Nom d'hôte de la plateforme Exchange relevée à l'étape 8, renseignez-le sans le `https://`
+>> - `Username` : Nom d'utilisateur relevée à l'étape 7 correspondant a l'« Impersonate User ».
 >> - `Password` : Mot de passe de l' « Impersonate User » défini l'étape 6.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup16.png){.thumbnail}
 >>
 > **Étape 10**
 >> - Vous devriez obtenir les mêmes résultats que la capture ci-dessous (ne pas tenir compte de l'avertissement `Check ApplicationImpersanation role`).
->> - Cliquez sur `Finish`{.action} pour terminer la connexion avec la plateforme Exchange
+>> - Cliquez sur `Finish`{.action} pour terminer la connexion avec la plateforme Exchange.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup17.png){.thumbnail}
 
@@ -204,35 +205,35 @@ Suivez les étapes de création en cliquant sur les onglets ci-dessous :
 > **Étape 5**
 >> Depuis cette fenêtre, déterminez si votre opération de sauvegarde agit sur un ou plusieurs comptes à la fois.
 >>
->> - Sélectionnez un ou plusieurs comptes e-mail que vous souhaitez attribuer à votre opération de sauvegarde.
+>> - Sélectionnez le ou les comptes e-mail que vous souhaitez attribuer à votre opération de sauvegarde.
 >> - Cliquez sur `Add`{.action} lorsque vous avez terminé votre sélection.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup22.png){.thumbnail}
 >>
 > **Étape 6**
->> - Les éléments sélectionnez apparaissent dans la fenêtre
+>> - Les éléments sélectionnez apparaissent dans la fenêtre.
 >> - Cliquez sur `Next`{.action} pour passer à l'étape suivante.
 >>
 >>![veeam backup exchange](images/exchange_veeam_backup23.png){.thumbnail}
 >>
 > **Étape 7**
->> Depuis cette fenêtre vous pouvez ajouter des règles d'exclusion, avec le bouton `Add`{.action}, appliquées sur les comptes e-mails sélectionnez précédemment. Vous pouvez, par exemple exclure un calendrier ou un dossier spécifique.
+>> Depuis cette fenêtre, vous pouvez ajouter des règles d'exclusion avec le bouton `Add`{.action}. Celles-ci seront appliquées sur les comptes e-mails sélectionnez précédemment. Vous pouvez, par exemple exclure un calendrier ou un dossier spécifique.
 >>
 >> > [!warning]
 >> >
->> > Si vous souhaitez des règles d'exclusion spécifique pour chacun des comptes e-mail, il sera nécessaire de créer des opérations de sauvegarde pour chaque compte e-mail.
+>> > Si vous souhaitez des règles d'exclusion spécifique pour chacun des comptes e-mail, il sera nécessaire de créer plusieurs opérations de sauvegarde pour chaque compte e-mail.
 >>
->> - Cliquez sur `Next`{.action} pour passez à l'étape suivante.
+>> - Cliquez sur `Next`{.action} pour passer à l'étape suivante.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup24.png){.thumbnail}
 >>
 > **Étape 8**
->> Sélectionnez le dépôt de sauvegarde qui se situe, par défaut, sur votre ordinateur
+>> Sélectionnez le dépôt de sauvegarde qui se situe, par défaut, sur votre ordinateur.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup25.png){.thumbnail}
 >>
 > **Étape 9**
->> - Depuis cette fenêtre, définissez des options de planification de sauvegarde si vous souhaitez.
+>> - Depuis cette fenêtre, définissez les options de planification de sauvegarde si vous le souhaitez.
 >> - Cochez `Start the job` si vous souhaitez lancer l'opération de sauvegarde immédiatement.
 >> - Cliquez sur `Create`{.action} pour terminer la création de l'opération de sauvegarde.
 >>
@@ -245,7 +246,7 @@ Lorsqu'une opération de sauvegarde est créée, découvrez comment la lancer et
 Suivez les étapes de lancement en cliquant sur les onglets ci-dessous :
 
 > **Étape 1**
->> Dans la liste des opérations de sauvegarde, sélectionnez celle que vous souhaitez lancer et cliquez sur `Start`{.action}.
+>> Dans la liste des opérations de sauvegarde, sélectionnez celle que vous souhaitez lancer, faites un clic droit dessus puis cliquez sur `Start`{.action}.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup27.png){.thumbnail}
 >>
@@ -261,9 +262,9 @@ Suivez les étapes de lancement en cliquant sur les onglets ci-dessous :
 >> ![veeam backup exchange](images/exchange_veeam_backup29.png){.thumbnail}
 >>
 > **Étape 4**
->> Dans la colonne de gauche, vous obtenez la liste de vos comptes e-mail sauvegardés. Cliquez droit sur un des comptes e-mail. Vous avez deux choix possibles :
+>> Dans la colonne de gauche, vous obtenez la liste de vos comptes e-mail sauvegardés. Cliquez droit le comptes e-mail de votre choix, vous avez deux choix possibles :
 >> - Exporter une sauvegarde dans un fichier `.pst` à l'aide des boutons `Export to...`{.action}
->> - Restaurer une sauvegarde à l'aide des boutons `Restore to...`{.action}
+>> - Restaurer directement une sauvegarde sur un compte e-mail à l'aide des boutons `Restore to...`{.action}
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup30.png){.thumbnail}
 
