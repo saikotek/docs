@@ -6,22 +6,22 @@ updated: 2024-12-06
 
 ## Objective
 
-With [100M free hosting](/links/web/domains-free-hosting), OVHcloud offers you a 100 MB web hosting plan, and an email account with 5 GB of storage.
+With [100M free hosting](/links/web/domains-free-hosting), OVHcloud offers you a 100 MB web hosting plan, and an email account with 5 GB of storage.  
 This guide will show you how to activate a 100M free hosting on your [domain name](/links/web/domains).
 
 > [!warning]
 >
-> This 100 MB free hosting plan is suitable for a simple webpage presentation, it **does not include a database**.
-> It is also suitable if you do not need several "MX plan" email accounts. 
+> This 100 MB free hosting plan is suitable for a simple webpage presentation, it **does not include a database**.  
+> It is also suitable if you do not need several MX plan email accounts.  
 > If you would like to set up a website with several pages and require a database, such as a CMS (WordPress, Joomla!, PrestaShop, Drupal, etc.), please order one of [our web hosting plans](/links/web/hosting) directly from our website or your [OVHcloud Control Panel](/links/manager).
 >
 
-**Find out how to activate your 100M free hosting plan**
+**Find out how to activate your 100M free hosting plan.**
 
 ## Requirements
 
-- A [domain name](/links/web/domains) in your OVHcloud Control Panel, detached from any web hosting plan, and with no associated [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities).
-- Access to the [OVHcloud Control Panel](/links/manager).
+- A [domain name](/links/web/domains) in your OVHcloud Control Panel, detached from any web hosting plan, and with no associated [MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 > [!primary]
 >
@@ -63,7 +63,7 @@ To activate your free 100M hosting plan, click on the tabs below to view each of
 >> 
 >> > [!warning]
 >> >
->> > If you tick one or both of the `DNS A record` and `DNS MX record` boxes, this will overwrite the configuration originally set up in your domain's DNS zone.
+>> > If you tick one or both of the `DNS A record` and `DNS MX record` boxes, this will overwrite the configuration originally set up in your domain's DNS zone.  
 >> > Tick both boxes to automatically configure your domain name with the free 100M hosting and email service included.
 >> >
 >> > If your DNS zone is not managed in your [OVHcloud Control Panel](/links/manager), you will need to make the modifications manually in your external DNS zone.
