@@ -1,7 +1,7 @@
 ---
 title: "Web Cloud Databases - Se connecter à une base de données"
 excerpt: "Découvrez comment se connecter à une base de données présente sur votre solution Web Cloud Databases"
-updated: 2024-12-09
+updated: 2023-10-31
 ---
 
 ## Objectif
