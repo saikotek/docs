@@ -49,7 +49,7 @@ If you prefer a graphical user interface, you can find many software application
 
 For example, [PuTTY](https://putty.org/) is an open-source SSH client software with many useful features. Find out how to use it for connections to OVHcloud servers and instances in our detailed tutorial:
 
-[How to use PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+- [How to use PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 > [!primary]
 >
@@ -131,6 +131,9 @@ In order to view and export your public key, use the command `cat` on your `.pub
 
 ```bash
 cat ~/.ssh/id_rsa.pub
+```
+
+```console
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8teh2NJ42qYZV98gTNhumO1b6rMYIkAfRVazl
 k6dSS3xf2MXJ4YHsDacdjtJ+evXCFBy/IWgdkFtcvsGAMZ2N1RdvhDyQYcy6NDaJCBYw1K6Gv5fJ
 SHCiFXvMF0MRRUSMneYlidxUJg9eDvdygny4xOdC6c1JrPrSgOc2nQuKeMpOoOWLINIswg1IIFVk
@@ -290,7 +293,7 @@ You can protect your SSH key with a passphrase at the next prompt. This is recom
 >
 > Remote access to your instance is only as secure as the client device storing the private key. Protecting your device and the key files stored on it from unauthorized access is therefore crucial.
 > 
-> For increased convenience, store passphrases in a password manager on your device, such as the open-source solution **KeePass**.
+> For increased convenience and security, store passphrases in a password manager on your device, such as the open-source solution **KeePass**.
 >
 
 All SSH keys are stored in the `.ssh` directory by default. The public key files will have `.pub` added to the filename.
