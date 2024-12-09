@@ -103,7 +103,7 @@ Vous pouvez protéger votre clé SSH avec une phrase secrète à l'invite suivan
 >
 > L'accès distant à votre instance est aussi sécurisé que le périphérique client stockant la clé privée. Il est donc crucial de protéger votre appareil et les fichiers clés qu’il contient contre tout accès non autorisé.
 >
-> Pour plus de commodité et de sécurité, stockez les phrases secrètes dans un gestionnaire de mots de passe sur votre poste de travail, comme la solution open source **Keepass**.
+> Pour plus de commodité et de sécurité, stockez les phrases secrètes dans un gestionnaire de mots de passe sur votre poste de travail, comme la solution open source **KeePass**.
 >
 
 Toutes les clés SSH sont stockées dans le répertoire `.ssh` par défaut. Les fichiers de clé publique auront `.pub` ajouté au nom de fichier.
@@ -131,6 +131,9 @@ Afin d'afficher et d'exporter votre clé publique, utilisez la commande `cat` su
 
 ```bash
 cat ~/.ssh/id_rsa.pub
+```
+
+```console
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8teh2NJ42qYZV98gTNhumO1b6rMYIkAfRVazl
 k6dSS3xf2MXJ4YHsDacdjtJ+evXCFBy/IWgdkFtcvsGAMZ2N1RdvhDyQYcy6NDaJCBYw1K6Gv5fJ
 SHCiFXvMF0MRRUSMneYlidxUJg9eDvdygny4xOdC6c1JrPrSgOc2nQuKeMpOoOWLINIswg1IIFVk
@@ -290,7 +293,7 @@ Vous pouvez protéger votre clé SSH avec une phrase secrète à l'invite suivan
 >
 > L'accès distant à votre instance est aussi sécurisé que le périphérique client stockant la clé privée. Il est donc crucial de protéger votre appareil et les fichiers clés qu’il contient contre tout accès non autorisé.
 >
-> Pour plus de commodité, stockez les phrases secrètes dans un gestionnaire de mots de passe sur votre poste de travail, comme la solution open source **Keepass**.
+> Pour plus de commodité et de sécurité, stockez les phrases secrètes dans un gestionnaire de mots de passe sur votre poste de travail, comme la solution open source **KeePass**.
 >
 
 Toutes les clés SSH sont stockées dans le répertoire `.ssh` par défaut. Les fichiers de clé publique auront `.pub` ajouté au nom de fichier.
