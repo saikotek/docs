@@ -75,7 +75,7 @@ Dans le cadre `Configuration`, cliquez sur le bouton `...`{.action} à droite de
 
 > [!warning]
 >
-> Pour confirmer la suppression de l'offre e-mail associée à votre hébergement web, un lien de validation vous est envoyé par e-mail. Vous devrez obligatoirement cliquer sur ce lien pour que l'opération de suppression soit lancée.
+> Pour confirmer la suppression de l'offre e-mail associée à votre hébergement web, un lien de validation vous est envoyé par e-mail. Vous devez obligatoirement cliquer sur ce lien pour que l'opération de suppression soit lancée.
 
 #### Cas particulier - Suppression de l'offre e-mail liée à votre hébergement web pour l'associer à un autre nom de domaine
 
