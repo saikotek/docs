@@ -1,7 +1,7 @@
 ---
 title: 'Zarządzanie tokenami'
 excerpt: 'Dowiedz się, jak używać tokenów za pomocą API Keystone'
-updated: 2023-06-15
+updated: 2024-12-09
 ---
 
 > [!primary]
@@ -173,6 +173,10 @@ Connection: close
 Zalecamy korzystanie z bibliotek umożliwiających przejrzyste zarządzanie tokenami. W ten sposób, poprzez prosty dostęp do przechowywanych danych, tokeny będą automatycznie generowane, używane i odnawiane bez konieczności zarządzania nimi na poziomie aplikacji.
 
 Istnieje wiele bibliotek w różnych językach. Aby uzyskać więcej informacji, [zapoznaj się z oficjalną listą](https://wiki.openstack.org/wiki/SDKs){.external}.
+
+#### Usuwanie tokena
+
+Jeśli nie wystąpią żadne błędy, otrzymasz pustą odpowiedź.
 
 ## Sprawdź również
 

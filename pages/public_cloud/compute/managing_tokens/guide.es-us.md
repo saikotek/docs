@@ -1,7 +1,7 @@
 ---
 title: 'Gestión de los tokens'
 excerpt: 'Gestión de los tokens'
-updated: 2023-06-15
+updated: 2024-12-09
 ---
 
 > [!primary]
@@ -172,6 +172,17 @@ Connection: close
 Es altamente recomendable utilizar librerías que permitan la gestión transparente de los tokens. De esta forma, al proporcionar simplemente los credenciales de conexión a la librería, los tokens se generarán, utilizarán y renovarán automáticamente sin tener que gestionar los tokens a nivel aplicativo.
 
 Existen numerosas librerías en los diferentes lenguajes. Consulte [la lista oficial para más información](https://wiki.openstack.org/wiki/SDKs){.external}.
+
+#### Borrar el token
+
+```bash
+curl -i -X DELETE \
+  -H "X-Auth-Token: $OS_TOKEN" \
+  -H "X-Subject-Token: $OS_TOKEN" \
+  "http://localhost:5000/v3/auth/tokens"
+```
+
+Si no hay errores, se obtiene una respuesta vacía.
 
 ## Más información
 
