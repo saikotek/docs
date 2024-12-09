@@ -51,8 +51,8 @@ En créant des points de sauvegarde réguliers avec l'aide d'une [Politique de S
 ## Limites de la fonctionnalité
 
 - Seuls les snapshots de type `manual` peuvent être utilisés pour cloner un volume.
-  Cependant, si vous souhaitez cloner un volume en utilisant un snapshot de type `automatic`, vous pouvez conserver ce snapshot pour le transformer en snapshot de type `manual`.
-  Consultez le [guide de conservation de snapshots automatiques](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_hold_automatic_snapshot) pour en savoir plus.
+Cependant, si vous souhaitez cloner un volume en utilisant un snapshot de type `automatic`, vous pouvez conserver ce snapshot pour le transformer en snapshot de type `manual`.
+Consultez le [guide de conservation de snapshots automatiques](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_hold_automatic_snapshot) pour en savoir plus.
   
 - La création d'un volume cloné depuis un snapshot de type `system` n'est pas supportée.
 

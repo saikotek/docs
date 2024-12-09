@@ -21,7 +21,7 @@ Les scénarios d'utilisation d'un volume cloné sont multiples. Vous trouverez c
 
 ### Permettre l’accès aux données à des fins de qualité, de test ou de formation
 
-Les systèmes de formation, de qualité ou encore de test peuvent avoir besoin d'être mis à jour régulièrement avec des données issues de l'environment de production.<br>
+Les systèmes de formation, de qualité ou encore de test peuvent avoir besoin d'être mis à jour régulièrement avec des données issues de l'environnement de production.<br>
 
 Grâce au clonage de volumes, des opérations d'automatisation peuvent être mises en place afin de créer des ensembles de données basés sur les données à jour rapidement et sans donner l'accès aux données de production.
 
@@ -51,8 +51,8 @@ En créant des points de sauvegarde réguliers avec l'aide d'une [Politique de S
 ## Limites de la fonctionnalité
 
 - Seuls les snapshots de type `manual` peuvent être utilisés pour cloner un volume.
-  Cependant, si vous souhaitez cloner un volume en utilisant un snapshot de type `automatic`, vous pouvez conserver ce snapshot pour le transformer en snapshot de type `manual`.
-  Consultez le [guide de conservation de snapshots automatiques](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_hold_automatic_snapshot) pour en savoir plus.
+Cependant, si vous souhaitez cloner un volume en utilisant un snapshot de type `automatic`, vous pouvez conserver ce snapshot pour le transformer en snapshot de type `manual`.
+Consultez le [guide de conservation de snapshots automatiques](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_hold_automatic_snapshot) pour en savoir plus.
   
 - La création d'un volume cloné depuis un snapshot de type `system` n'est pas supportée.
 
