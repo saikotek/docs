@@ -60,7 +60,7 @@ La migration vers le nouveau webmail maintient le même niveau de services que l
 
 #### Quand aura lieu la migration de mes services ?
 
-Des e-mails de notification pour chaque service vous seront transmis **2 semaine** puis **1 jour** avant la migration.
+Des e-mails de notification pour chaque service vous seront transmis **2 semaines** puis **1 jour** avant la migration.
 
 Vos services seront migrés de manière progressive, il est donc possible que vos différents services soient migrés avec plusieurs semaines d’écart.
 
