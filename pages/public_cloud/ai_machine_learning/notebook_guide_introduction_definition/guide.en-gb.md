@@ -418,7 +418,7 @@ There are two methods of authentication for a restricted Notebook: using a **use
 >> ![Notebook Authentication Token](images//notebook-authentication-token.png){.thumbnail}
 >>
 
-Once you have successfully reached JupyterLab, you can create your first Notebook by clicking on the `Python 3 (ipykernel)`{.action} button (or a similar button name depending on the framework you have selected).
+Once you have successfully reached JupyterLab, you can create your first Notebook by clicking on the `Pytorch 2.4.0`{.action} button (or a similar button name depending on the framework you have selected).
 
 ![Accessing a Notebook Control Panel manager 3](images/accessing-a-notebook-using-UI-3.png){.thumbnail}
 
