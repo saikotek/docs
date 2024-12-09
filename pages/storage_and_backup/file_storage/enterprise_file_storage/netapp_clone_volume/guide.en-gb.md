@@ -1,7 +1,7 @@
 ---
 title: Enterprise File Storage - Clone a volume
-excerpt: "Clone volumes from Enterprise File Storage offer using the OVHcloud API"
-updated: 2024-12-06
+excerpt: "Find out how to clone a volume from your Enterprise File Storage solution using the OVHcloud API"
+updated: 2024-12-09
 ---
 
 ## Objective
@@ -24,17 +24,17 @@ Volume clones may be created for a variety of reasons. Below are some examples.
 
 Training, QA or development environments may need to be updated with data from a production environment to ensure that development and training are performed with the current dataset.<br>
 
-Using volume clone feature, automated operations can be put in place to ensure that data for this environments stays up to date without giving access to production data.
+Using the volume clone feature, automated operations can be put in place to ensure that the data in these environments remains up to date without giving access to production data.
 
 ![CloneVolumeUseCaseEnvironmentSync](images/clone_volume_use_case_1.png){.thumbnail}
 
-## Address and remedy logical data corruption
+### Address and remedy logical data corruption
 
 Logical data corruptions can be caused by software errors, human errors or malicious activity.<br>
 
-Unfortunately, logical data corruptions often cannot be addresses with standard high-availability and disaster recovery solutions. By creating Snapshots at a regular interval using a [Snapshot Policy](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_snapshot_policy) and with the help of the volume clone feature it is possible to restore the system to a point in time before the corruption occurred.<br>
+Unfortunately, logical data corruptions often cannot be addressed with standard high-availability and disaster recovery solutions. By creating Snapshots at a regular interval using a [Snapshot Policy](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_snapshot_policy) and with the help of the volume clone feature it is possible to restore the system to a point in time before the corruption occurred.<br>
 
-It is also possible to isolate the corrupted data to try to fix the cause of the corruption by analyzing the problem in a separate system.
+It is also possible to isolate the corrupted data and try to resolve the cause of the corruption by analysing the problem in a separate system.
 
 ![CloneVolumeUseCaseDataCorruption](images/clone_volume_use_case_2.png){.thumbnail}
 
@@ -53,9 +53,10 @@ It is also possible to isolate the corrupted data to try to fix the cause of the
 
 ## Limitations
 
-- Only `manual` snapshots can be used to create a new volume.
-  However, if you want to clone a volume using an `automatic` snapshot, you can hold the snapshot to make it a `manual` snapshot using the `/hold` API endpoint before using it. 
-  Please refer to the [hold snapshot guide](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_hold_automatic_snapshot) for more information.
+- Only `manual` snapshots can be used to create a new volume. 
+However, if you want to clone a volume using an `automatic` snapshot, you can hold the snapshot to make it a `manual` snapshot using the `/hold` API endpoint before using it.
+
+Please refer to the guide [Enterprise File Storage - Hold an automatic snapshot](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_hold_automatic_snapshot) for more information.
 
 - Creating volumes from `system` snapshots is not supported.
 
@@ -98,7 +99,7 @@ It is also possible to isolate the corrupted data to try to fix the cause of the
 The OVHcloud API will return an HTTP 201 (Created) code along with volume information.<br>
 
 The volume status will be set to `creating_from_snapshot` and then will change to `available` once the volume creation is complete.<br>
-Depending on snapshot size, volume creation may take some time.
+Depending on the snapshot size, the volume creation may take some time.
 
 **A new volume is now created from it's parent volume snapshot.**
 

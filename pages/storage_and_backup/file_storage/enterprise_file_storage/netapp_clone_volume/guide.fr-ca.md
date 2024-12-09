@@ -1,7 +1,7 @@
 ---
 title: Enterprise File Storage - Cloner un volume
 excerpt: "Découvrez comment cloner un volume de votre solution Enterprise File Storage à l'aide de l'API OVHcloud"
-updated: 2024-12-06
+updated: 2024-12-09
 ---
 
 ## Objectif
@@ -21,7 +21,7 @@ Les scénarios d'utilisation d'un volume cloné sont multiples. Vous trouverez c
 
 ### Permettre l’accès aux données à des fins de qualité, de test ou de formation
 
-Les systèmes de formation, de qualité ou encore de test peuvent avoir besoin d'être mis à jour régulièrement avec des données issues de l'environment de production.<br>
+Les systèmes de formation, de qualité ou encore de test peuvent avoir besoin d'être mis à jour régulièrement avec des données issues de l'environnement de production.<br>
 
 Grâce au clonage de volumes, des opérations d'automatisation peuvent être mises en place afin de créer des ensembles de données basés sur les données à jour rapidement et sans donner l'accès aux données de production.
 

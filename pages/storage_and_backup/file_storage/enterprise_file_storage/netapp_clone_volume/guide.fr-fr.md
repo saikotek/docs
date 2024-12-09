@@ -1,7 +1,7 @@
 ---
 title: Enterprise File Storage - Cloner un volume
 excerpt: "Découvrez comment cloner un volume de votre solution Enterprise File Storage à l'aide de l'API OVHcloud"
-updated: 2024-12-06
+updated: 2024-12-09
 ---
 
 ## Objectif
