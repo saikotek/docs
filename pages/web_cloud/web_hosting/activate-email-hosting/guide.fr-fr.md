@@ -83,7 +83,7 @@ Pour des raisons de sécurité, la suppression définitive d'une offre e-mail pe
 
 Si vous souhaitez supprimer l'offre e-mail liée à votre hébergement web afin de l'associer à un autre nom de domaine, et **uniquement** dans ce cas précis, vous devez confirmer par écrit votre demande d'accélération de suppression de l'offre. Pour cela, contactez le support en créant un ticket d'assistance depuis votre [centre d'aide OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help). Le ticket d'assistance doit **obligatoirement** être créé à partir depuis le compte client (et l'identifiant client correspondant) qui administre le service demandé en suppression.
 
-Une fois la demande traitée, vous pourrez associer l'offre e-mail liée à votre hébergement web à un autre nom de domaine.
+Une fois la demande traitée, vous pourrez alors associer l'offre e-mail liée à votre hébergement web à un autre nom de domaine.
 
 ## Aller plus loin
 
