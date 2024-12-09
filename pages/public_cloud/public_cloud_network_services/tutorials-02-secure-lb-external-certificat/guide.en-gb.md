@@ -39,20 +39,7 @@ If you are not yet familiar with creating a Load Balancer, please follow our gui
 
 ### Attaching a Floating IP address to a Load Balancer
 
-This is how to attach a Floating IP address to a Load Balancer:
-
-```bash
-openstack floating ip create Ext-Net
-openstack floating ip set --port <my_load_balancer_vip_port_id> <floating_ip>
-```
-
-> [!primary]
->
-> To retrieve the VIP port ID of your Load Balancer, use `openstack loadbalancer show my_load_balancer`.
-
-Please note that you must add an A record in the DNS Zone of your domain name that points to the Floating IP. 
-
-If you are using DNS servers managed by OVHcloud, please consult this [guide](/pages/web_cloud/domains/dns_zone_edit).
+You can find the instructions for this part in this [documentation](/pages/public_cloud/public_cloud_network_services/tutorials-01-secure-lb-letsencrypt) in the section bearing the same name.
 
 ### Preparing the certificate <a name="preparingcertificate"></a>
 
@@ -93,7 +80,7 @@ In the Horizon interface, open the `Network`{.action} section, then click `Load 
 
 Select your Load Balancer by clicking on `the name of your Load Balancer.`{.action}
 
-You can now click on the `Listerners`{.action} section, then on `Create Listener` as follows: 
+You can now click on the `Listeners`{.action} section, then on `Create Listener` as follows: 
 
 ![listeners list](images/loadbalancerlistenerslist.png){.thumbnail}
 
@@ -115,13 +102,9 @@ In this window, you need to name the L7 Policy, choose the value `REDIRECT_TO_UR
 
 ///
 
-/// details | Via the OpenStack API
+/// details | Via the OpenStack API or via the OVHcloud Control Panel
 
-The first step is to add an HTTP listener to the Load Balancer:
-
-```bash
-openstack loadbalancer listener create --protocol-port 80 --protocol HTTP --name http-listener my_load_balancer
-```
+To create a listener via the OpenStack API or via the OVHcloud Control Panel you can use [this guide](/pages/public_cloud/public_cloud_network_services/getting-started-01-create-lb-service), in the "Configuring your Load Balancer" section.
 
 Then configure the redirection of HTTP requests to HTTPS:
 
@@ -160,7 +143,7 @@ In the third section, called ‘Pool Members’, select the corresponding instan
 For the ‘Monitor Details’ section, we're going to click `No`{.action} as we won't be demonstrating this part in this guide.
 
 Now go to the section called `SSL Certificates`{.action} and select the certificate that was previously added to Openstack Barbican, [in this part](#preparingcertificate).
-You can click `Create L7 policy`{.action} button at the bottom of the window to create your configured Load Balancer.
+You can click `Create Listener`{.action} button at the bottom of the window to create your configured Load Balancer.
 
 ![listeners https ssl details](images/listenerhttpscreation4.png){.thumbnail}
 

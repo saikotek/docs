@@ -40,20 +40,7 @@ Si vous n'êtes pas encore familier avec la création du Load Balancer, veuillez
 
 ### Attacher une adresse Floating IP à un Load Balancer
 
-Voici comment attacher une adresse Floating IP à un Load Balancer :
-
-```bash
-openstack floating ip create Ext-Net
-openstack floating ip set --port <my_load_balancer_vip_port_id> <floating_ip>
-```
-
-> [!primary]
->
-> Pour récupérer l'ID du port VIP de votre Load Balancer, utilisez `openstack loadbalancer show my_load_balancer`.
-
-Veuillez noter que vous devez ajouter un champ A dans la Zone DNS de votre domaine tld qui pointe vers l'adresse Floating IP. 
-
-Si vos serveurs DNS sont gérés par OVHcloud, consultez [ce guide](/pages/web_cloud/domains/dns_zone_edit).
+Vous trouverez les instructions pour cette partie dans cette [documentation](/pages/public_cloud/public_cloud_network_services/tutorials-01-secure-lb-letsencrypt) dans la section portant le même nom.
 
 ### Préparation du certificat <a name="preparingcertificate"></a>
 
@@ -115,13 +102,9 @@ Dans cette fenêtre, il faut nommer la L7 Policy, choisir dans le champs 'Action
 
 ///
 
-/// details | Depuis l'API OpenStack
+/// details | Depuis l'API OpenStack ou l'espace client OVHcloud
 
-Il faut commencer par ajouter un listener HTTP au Load Balancer :
-
-```bash
-openstack loadbalancer listener create --protocol-port 80 --protocol HTTP --name http-listener my_load_balancer
-```
+Pour créer un listener via l'API OpenStack ou via l'espace client OVHcloud, vous pouvez utiliser [ce guide](/pages/public_cloud/public_cloud_network_services/getting-started-01-create-lb-service), dans la section « Configurer votre Load Balancer ».
 
 Puis configurer la redirection des requêtes HTTP vers HTTPS :
 
@@ -160,7 +143,7 @@ Dans la troisème section nommée 'Pool Members', il faut choisir l'instance cor
 Concernant la section 'Monitor Details', nous allons cliquer sur `No`{.action} car nous ne feront pas la démonstration de cette partie dans ce guide.
 
 Rendez-vous maintenant dans la section nommée `SSL Certificates`{.action} et sélectionnez le certificat qui à été ajouté préalablement sur Openstack Barbican, [dans cette partie](#preparingcertificate).
-Vous pouvez cliquer sur le bouton `Create L7 policy`{.action} en bas de la fenêtre pour créer votre Load Balancer configuré.
+Vous pouvez cliquer sur le bouton `Create Listener`{.action} en bas de la fenêtre pour créer votre Load Balancer configuré.
 
 ![listeners https ssl details](images/listenerhttpscreation4.png){.thumbnail}
 
