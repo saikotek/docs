@@ -8,7 +8,7 @@ updated: 2024-12-09
 
 Un volume cloné contient toutes les données du volume parent à un instant donné. Il possède toutes les fonctionnalités d'un volume et peut donc être utilisé comme un volume classique.<br>
 
-Un volume cloné est crée à partir d'un snapshot (instantané) d'un volume actif. Une fois crée, les changements apportés à son volume parent ne seront pas reflétés sur le clone.
+Un volume cloné est créé à partir d'un snapshot (instantané) d'un volume actif. Une fois le clone créé, les changements apportés à son volume parent ne seront pas reflétés sur le clone.
 
 > [!primary]
 > Dans ce guide, un volume est également appelé « *share* » comme dans l’API OVHcloud.
@@ -21,9 +21,9 @@ Les scénarios d'utilisation d'un volume cloné sont multiples. Vous trouverez c
 
 ### Permettre l’accès aux données à des fins de qualité, de test ou de formation
 
-Les systèmes de formation, de qualité ou encore de test peuvent avoir besoin d'être mis à jour régulièrement avec des données issues de l'environnement de production.<br>
+Les environnements de formation, de qualité ou encore de test peuvent avoir besoin d'être mis à jour régulièrement avec des données issues de l'environnement de production.<br>
 
-Grâce au clonage de volumes, des opérations d'automatisation peuvent être mises en place afin de créer des ensembles de données basés sur les données à jour rapidement et sans donner l'accès aux données de production.
+Grâce au clonage de volumes, des opérations d'automatisation peuvent être mises en place afin de créer rapidement des ensembles de données basés sur les données à jour et sans donner l'accès aux données de production.
 
 ![CloneVolumeUseCaseEnvironmentSync](images/clone_volume_use_case_1.png){.thumbnail}
 
@@ -31,7 +31,7 @@ Grâce au clonage de volumes, des opérations d'automatisation peuvent être mis
 
 Une corruption logique des données peut être causée par une erreur logicielle, une erreur humaine ou encore un acte malveillant.<br>
 
-En créant des points de sauvegarde réguliers avec l'aide d'une [Politique de Snapshots](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_snapshot_policy) et en utilisant la fonctionnalité de clonage de volumes vous avez la possibilité d'analyser facilement les causes des corruptions des données en créant un nouveau volume depuis les données existantes.
+En créant des points de sauvegarde réguliers avec l'aide d'une [Politique de Snapshots](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_snapshot_policy) et en utilisant la fonctionnalité de clonage de volumes, vous avez la possibilité d'analyser facilement les causes des corruptions des données en créant un nouveau volume depuis les données existantes.
 
 ![CloneVolumeUseCaseDataCorruption](images/clone_volume_use_case_2.png){.thumbnail}
 
@@ -53,8 +53,8 @@ En créant des points de sauvegarde réguliers avec l'aide d'une [Politique de S
 - Seuls les snapshots de type `manual` peuvent être utilisés pour cloner un volume.
 Cependant, si vous souhaitez cloner un volume en utilisant un snapshot de type `automatic`, vous pouvez conserver ce snapshot pour le transformer en snapshot de type `manual`.
 Consultez le [guide de conservation de snapshots automatiques](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_hold_automatic_snapshot) pour en savoir plus.
-  
-- La création d'un volume cloné depuis un snapshot de type `system` n'est pas supportée.
+
+- La création d'un volume cloné depuis un snapshot de type `system` n'est pas prise en charge.
 
 - La taille du volume cloné doit être **supérieure ou égale** à la taille du snapshot utilisé pour l'opération de clonage.
 
@@ -85,19 +85,19 @@ Consultez le [guide de conservation de snapshots automatiques](/pages/storage_an
 
 - `serviceName`: est l'identifiant unique du service
 - `size`: est la taille du volume. Elle doit être supérieure ou égale à la taille du snapshot.
-- `protocol`: est le protocol du volume. Seul le protocole NFS est supporté.
+- `protocol`: est le protocole du volume. Seul le protocole NFS est supporté.
 - `snapshotID`: est l'identifiant du snapshot à utiliser pour créer le volume
-- `name`: (Optionnel) est le nom du volume
-- `description`: (Optionnel) est la description du volume
+- `name`: (facultatif) est le nom du volume
+- `description`: (facultatif) est la description du volume
 
 ![CloneVolume](images/clone_volume_step_2.png){.thumbnail}
 
 L'API OVHcloud retournera un code HTTP 201 ainsi que l'information correspondant au volume crée.<br>
 
-Le statut du volume sera mis à `creating_from_snapshot` puis changera pour devenir `available` une fois la création du volume terminée.<br>
+Le statut du volume passera à `creating_from_snapshot` puis changera pour devenir `available` une fois la création du volume terminée.<br>
 Suivant la taille du snapshot utilisé, l'opération de création du volume pourra prendre du temps.
 
-**Un nouveau volume est désormais crée depuis le snapshot de son volume parent.**
+**Un nouveau volume est désormais créé depuis le snapshot de son volume parent.**
 
 ## Aller plus loin
 
