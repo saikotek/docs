@@ -1,7 +1,7 @@
 ---
 title: "Comment créer et utiliser des clés d'authentification pour les connexions SSH aux instances Public Cloud"
 excerpt: "Découvrez comment créer des paires de clés pour OpenSSH sur votre périphérique local et les utiliser pour établir des connexions sécurisées à votre instance"
-updated: 2024-12-06
+updated: 2024-12-09
 ---
 
 <style>
@@ -217,7 +217,7 @@ Exemple :
 ssh ubuntu@instance
 ```
 
-Seuls l'IP de l'instance et le fichier de clé ont été spécifiés dans l'exemple précédent, mais des détails supplémentaires peuvent être ajoutés. 
+Seuls l'IP de l'instance et le fichier de clé ont été spécifiés dans l'exemple précédent, mais des détails supplémentaires peuvent être ajoutés.  
 Pour configurer une connexion SSH à un second hôte distant avec le nom d'utilisateur « rocky », le port SSH modifié « 49160 » et la clé privée dans le fichier « myserver_rsa », étendez le contenu du fichier comme indiqué dans cet exemple :
 
 ```console

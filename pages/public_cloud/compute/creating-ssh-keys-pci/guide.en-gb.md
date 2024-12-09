@@ -1,7 +1,7 @@
 ---
 title: How to create and use authentication keys for SSH connections to Public Cloud instances
 excerpt: Find out how to create key pairs for OpenSSH on your local device and use them to establish secure connections to your instance
-updated: 2024-12-06
+updated: 2024-12-09
 ---
 
 <style>

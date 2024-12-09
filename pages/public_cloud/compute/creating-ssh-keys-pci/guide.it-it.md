@@ -4,10 +4,6 @@ excerpt: Scopri come creare coppie di chiavi SSH sul tuo dispositivo locale e ut
 updated: 2024-09-02
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 L’utilizzo del protocollo SSH apre un canale sicuro su una rete non protetta in un’architettura client-server, collegando un client SSH a un server SSH. La creazione di un key pack SSH permette di ottenere una chiave pubblica e una privata. È possibile memorizzare la chiave pubblica su un server e quindi connettersi a esso con un client che dispone della chiave privata corrispondente. Se le chiavi SSH pubblica e privata corrispondono, sarai connesso senza bisogno di una password.
@@ -31,10 +27,10 @@ Questo è generalmente il metodo di connessione più sicuro e pratico, oltre che
 
 Le istruzioni seguenti riguardano due metodi di utilizzo delle chiavi SSH:
 
-- [Creazione di una coppia di chiavi **Open SSH** e connessione a un server dal client SSH da riga di comando](#openssh)
+- [Creazione di una coppia di chiavi **OpenSSH** e connessione a un server dal client SSH da riga di comando](#openssh)
 - [Creazione di una coppia di chiavi `PuTTY` e connessione a un server dal client SSH `PuTTY`](#useputty)
 
-È possibile utilizzare entrambi i metodi contemporaneamente, ma tieni presente che `PuTTY` mantiene i file di chiave in un formato specifico, rendendoli incompatibili con i file di chiave SSH creati con il client **Open SSH**.
+È possibile utilizzare entrambi i metodi contemporaneamente, ma tieni presente che `PuTTY` mantiene i file di chiave in un formato specifico, rendendoli incompatibili con i file di chiave SSH creati con il client **OpenSSH**.
 
 Una chiave privata creata con il client SSH da riga di comando dovrà essere prima [convertita in formato `PuTTY` e viceversa](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt).
 
@@ -164,9 +160,9 @@ Copia questa stringa di chiave per [aggiungere a una nuova istanza](/pages/publi
 
 > [!primary]
 >
-> L’obiettivo principale di `PuTTY` è quello di gestire le connessioni SSH di un dispositivo client **Windows** verso un server **GNU/Linux**. `PuTTY` archivia i file di chiave in un formato specifico, rendendoli incompatibili con i file di chiave SSH creati con il client **Open SSH** inclusi nativamente nella maggior parte dei sistemi operativi moderni.
+> L’obiettivo principale di `PuTTY` è quello di gestire le connessioni SSH di un dispositivo client **Windows** verso un server **GNU/Linux**. `PuTTY` archivia i file di chiave in un formato specifico, rendendoli incompatibili con i file di chiave SSH creati con il client **OpenSSH** inclusi nativamente nella maggior parte dei sistemi operativi moderni.
 >
-> Se necessario e come spiegato in precedenza in questa guida, le chiavi generate in *riga di comando* possono essere [convertite nel formato `PPK`](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) per utilizzarle con il client `PuTTY`. Per un utilizzo più pratico delle chiavi SSH, scegli un’opzione e rispettala (chiavi private **Open SSH** o chiavi private `PuTTY`).
+> Se necessario e come spiegato in precedenza in questa guida, le chiavi generate in *riga di comando* possono essere [convertite nel formato `PPK`](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) per utilizzarle con il client `PuTTY`. Per un utilizzo più pratico delle chiavi SSH, scegli un’opzione e rispettala (chiavi private **OpenSSH** o chiavi private `PuTTY`).
 >
 
 Se non è già installato (consulta la tua lista delle applicazioni o utilizza la funzione di ricerca), scarica `PuTTY` dal [sito ufficiale](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){.external}. Il pacchetto di installazione standard consigliato contiene già `PuTTYgen`, ma è disponibile anche come file autonomo sul sito Web.
