@@ -1,14 +1,14 @@
 ---
 title: AI Notebooks - Getting started
 excerpt: Learn how to simply bootstrap an AI Notebook
-updated: 2023-12-10
+updated: 2024-12-10
 ---
 
 ## Introduction
 
 A **Notebook** is a document that integrates code, rich text elements, and multimedia, making it a convenient tool for data analysis, visualization, and Machine Learning tasks.
 
-**OVHcloud AI Notebooks** is our managed solution for Jupyter and VSCode Notebooks. You can easily launch Notebooks with the required CPU and GPU resources while enjoying benefits like pre-installed dependencies and AI frameworks (e.g., TensorFlow, PyTorch, Hugging Face, Scikit-learn, ...), secure user access, and simplified data management. 
+**OVHcloud AI Notebooks** is our managed solution for Jupyter and VSCode Notebooks. You can easily launch Notebooks with the required CPU and GPU resources while enjoying benefits like pre-installed dependencies and AI frameworks (e.g. TensorFlow, PyTorch, Hugging Face, Scikit-learn, ...), secure user access, and simplified data management. 
 
 The advantage compared to doing your own setup is that everything is already installed for you, and that you pay only for your AI Notebooks while they are running.
 
@@ -26,10 +26,11 @@ The objective of this guide is to demonstrate how to create, configure, access, 
 
 For the creation of your first AI Notebook, we highly recommend using the **OVHcloud Control Panel (UI)**. This method is user-friendly and ideal for beginners.
 
-However, you can also choose to utilize one of the three alternative methods: 
+However, you can also choose to utilize one of the three alternative methods:
+
 - The **ovhai** command-line interface (CLI)
 - The **AI API** 
-- The **ovhai** Python SDK. 
+- The **ovhai** Python SDK.
 
 Each method offers its distinct advantages, depending on your expertise and preferred workflow.
 
@@ -42,7 +43,7 @@ Each method offers its distinct advantages, depending on your expertise and pref
 >>
 > **Using CLI / AI API / SDK**
 >>
->> If you already have created an AI Notebook using the Control Panel (UI) on this Public Cloud project, you can directly go to the next step [Launch your first AI Notebook](#launch-your-first-ai-notebook). 
+>> If you already have created an AI Notebook using the Control Panel (UI) on this Public Cloud project, you can directly go to the next step [Launch your first AI Notebook](#launch-your-first-ai-notebook).
 >>
 >> However, if this is the first time you are using the AI Products on your Public Cloud project, you will need to complete an authorization process before using the AI API, ovhai CLI, or Python SDK. To do so, please follow these steps:
 >>
@@ -71,15 +72,15 @@ In the following table, we will walk you through the AI Notebook creation proces
 >>
 >> ![Create a Notebook Control Panel manager 01](images/creating-a-notebook-using-UI-01.png){.thumbnail}
 >>
->> Once you have clicked this button, you will be prompted to provide some information to specify the configuration of your AI Notebook (code editor, pre-installed framework, compute resources ...).
+>> Once you have clicked this button, you will be prompted to provide some information to specify the configuration of your AI Notebook (code editor, pre-installed framework, compute resources, etc.).
 >>
 >> **1\. Notebook Name**
 >>
 >> First, give a name to your AI Notebook. This will make it easier to manage when you have multiple AI Notebooks created.
 >>
->> After that, you have the option to set labels. This allows to specify one of yours AI Tokens and apply it to this new AI Notebook. This AI token can then be shared with anyone who should have access to the Notebook, allowing them to access it without requiring your own Public Cloud project credentials. This is useful if you want to provide access to the AI Notebook outside your Public Cloud project. More information [here](/pages/public_cloud/ai_machine_learning/cli_13_howto_app_token_cli).
+>> After that, you have the option to set labels. This allows to specify one of yours AI tokens and apply it to this new AI Notebook. This AI token can then be shared with anyone who should have access to the Notebook, allowing them to access it without requiring your own Public Cloud project credentials. This is useful if you want to provide access to the AI Notebook outside your Public Cloud project. More information [here](/pages/public_cloud/ai_machine_learning/cli_13_howto_app_token_cli).
 >>
->> Then, click on the `Next`{.action} button.
+>> Then, click the `Next`{.action} button.
 >>
 >> ![Create a Notebook Control Panel manager 02](images/creating-a-notebook-using-UI-02.png){.thumbnail}
 >>
@@ -101,11 +102,11 @@ In the following table, we will walk you through the AI Notebook creation proces
 >>
 >> **4\. Privacy Settings**
 >>
->> Next, select your privacy settings and click on the `Next`{.action} button.
+>> Next, select your privacy settings and click the `Next`{.action} button.
 >>
 >> > [!warning]
 >> >
->> > _Public access_ will expose your data and code to anyone getting the AI Notebook link. Be careful and don't use it with sensitive data. On the other hand, _Restricted access_ will ask a user and password combination or an AI token to access the Notebook content, ensuring a secure environment.
+>> > *Public access* will expose your data and code to anyone getting the AI Notebook link. Be careful and don't use it with sensitive data. On the other hand, *Restricted access* will ask a user and password combination or an AI token to access the Notebook content, ensuring a secure environment.
 >> >
 >>
 >> ![Create a Notebook Control Panel manager 05](images/creating-a-notebook-using-UI-05.png){.thumbnail}
@@ -120,29 +121,29 @@ In the following table, we will walk you through the AI Notebook creation proces
 >>
 >> Specify and adjust the type and amount of computing resources (CPU / GPU) for your AI Notebook. Use the `+`{.action} and `-`{.action} buttons to increase or decrease the number of CPUs and GPUs, depending on your needs.
 >> 
->> Click on the `Next`{.action} button.
+>> Click the `Next`{.action} button.
 >>
 >> ![Create a Notebook Control Panel manager 07](images/creating-a-notebook-using-UI-07.png){.thumbnail}
 >>
 >> **7\. Remote Volumes**
 >>
->> By default, your AI Notebook comes with ephemeral storage (local storage). But in this step, you can also link Object Storage containers and Git repositories to your AI Notebook, to easily access your remote data. 
+>> By default, your AI Notebook comes with ephemeral storage (local storage). But in this step, you can also link Object Storage containers and Git repositories to your AI Notebook, to easily access your remote data.
 >>
 >> If you want to learn more about configuring containers and Git repositories in the Notebook, you can refer to this [documentation](/pages/public_cloud/ai_machine_learning/notebook_guide_data_ui). For now, we will launch a classic Notebook without any external volumes added to it.
 >>
->> Click on the `Next`{.action} button.
+>> Click the `Next`{.action} button.
 >>
 >> ![Create a Notebook Control Panel manager 08](images/creating-a-notebook-using-UI-08.png){.thumbnail}
 >>
 >> **8\. SSH Keys**
 >>
->> SSH public keys allow you to access your Notebook remotely. This section is optional, click on the `Next`{.action} button.
+>> SSH public keys allow you to access your Notebook remotely. This section is optional, click the `Next`{.action} button.
 >>
 >> ![Create a Notebook Control Panel manager 09](images/creating-a-notebook-using-UI-09.png){.thumbnail}
 >>
 >> **9\. Launch the AI Notebook**
 >>
->> At the end of the process, review your settings and click on the `Create a notebook`{.action} button to confirm and launch the creation of your Notebook.
+>> At the end of the process, review your settings and click the `Create a notebook`{.action} button to confirm and launch the creation of your Notebook.
 >> 
 >> ![Create a Notebook Control Panel manager 10](images/creating-a-notebook-using-UI-10.png){.thumbnail}
 >>
@@ -174,19 +175,19 @@ In the following table, we will walk you through the AI Notebook creation proces
 >> - [GRA AI API](https://gra.training.ai.cloud.ovh.net/#/), for Gravelines, France.
 >> - [BHS AI API](https://bhs.training.ai.cloud.ovh.net/#/), for Beauharnois, Canada.
 >> 
->> Upon visiting the API URL, you will notice various endpoint categories on the left side of the screen. Click `Notebook`{.action} category to display the endpoints related to AI Notebooks. 
+>> Upon visiting the API URL, you will notice various endpoint categories on the left side of the screen. Click the `Notebook`{.action} category to display the endpoints related to AI Notebooks. 
 >>
 >> ![Create a Notebook API](images/creating-a-notebook-using-API-01.png){.thumbnail}
 >>
->> Among them, you will find a `Submit a new notebook`{.action} POST method. This is the endpoint for submitting a new AI Notebook. 
+>> Among them, you will find a `Submit a new notebook`{.action} POST method. This is the endpoint for submitting a new AI Notebook.
 >>
->> *The exact link for this endpoint on GRA region is as follows: https://gra.training.ai.cloud.ovh.net/#/operations/notebookNew*
+>> *The exact link for this endpoint on GRA region is as follows: `https://gra.training.ai.cloud.ovh.net/#/operations/notebookNew`.*
 >>
 >> In the `Submit a new notebook` endpoint page, you will find the detailed schema for the `Notebook Specification` and its various possible parameters. Examples of responses (`200`, `400`, `401`, `402`, `403`) are also provided in case of success or different error scenarios.
 >> 
 >> Before using this method to create an AI Notebook, you will need to authenticate. This can be done by providing a bearer token, which you can create through the [AI Dashboard](/pages/public_cloud/ai_machine_learning/gi_06_dashboard_getting_started) or by using the *ovhai* CLI. For more detailed instructions on creating a token, please consult the [Manage access tokens](/pages/public_cloud/ai_machine_learning/cli_13_howto_app_token_cli) documentation.
 >>
->> Once you have created your token, provide your token in the 'Auth' panel, on the right-hand corner of the API page. 
+>> Once you have created your token, provide your token in the 'Auth' panel, on the right-hand corner of the API page.
 >>
 >> > [!warning]
 >> > 
@@ -324,7 +325,7 @@ At this point your AI Notebook is created. You will need to wait a few seconds f
 >>
 >> This will allow you to retrieve the `URL` of the Notebook you want to access.
 >>
->> You can also get all the information related to a Notebook (Specifications, Access Url, Monitoring URL, ...) by using the `Get notebook information` {.action} GET endpoint method. You will just have to provide the `UUID` of the notebook from which you want to obtain information.
+>> You can also get all the information related to a Notebook (Specifications, Access Url, Monitoring URL, ...) by using the `Get notebook information`{.action} GET endpoint method. You will just have to provide the `UUID` of the notebook from which you want to obtain information.
 >>
 > **Using the Python SDK**
 >>
@@ -585,7 +586,7 @@ Deleting a Notebook also means that you will delete the Notebook's local storage
 >>
 >> Select the `Delete permanently a notebook`{.action} endpoint, which is a DELETE method. Provide the UUID of the Notebook you wish to delete. Use the `force` parameter if your Notebook is not `STOPPED` and still `RUNNING`. Then, click the `Send API request`{.action} button to send the request.
 >>
->>If the request is successful, the Notebook will be restarted and a 'No content' message will be displayed in the 'Response' panel. If the request is unsuccessful, an error message will be displayed there.
+>> If the request is successful, the Notebook will be restarted and a 'No content' message will be displayed in the 'Response' panel. If the request is unsuccessful, an error message will be displayed there.
 >>
 >> ![Delete a Notebook API](images/deleting-a-notebook-using-API.png){.thumbnail}
 >>
@@ -624,9 +625,9 @@ Once the AI Notebook has been deleted, you should no longer see it when listing 
 
 - To get some hints on how to debug your Notebooks if things go wrong, see the [Troubleshooting documentation](/pages/public_cloud/ai_machine_learning/notebook_guide_troubleshooting).
 
-- To discover the AI Notebooks lifecycle and billing, explore this [guide](pages/public_cloud/ai_machine_learning/notebook_guide_capabilities).
+- To discover the AI Notebooks lifecycle and billing, explore this [guide](/pages/public_cloud/ai_machine_learning/notebook_guide_capabilities).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 
