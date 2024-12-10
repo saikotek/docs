@@ -63,7 +63,7 @@ scrape_configs:
       - '_prometheus._tcp.mongodb-7bfb5d40-oa85dff3e.database.cloud.ovh.net' 
 ```
 
-The aiven-backed engines use a slightly different format:
+The other engines use a slightly different format:
 
 ```yaml
 scrape_configs:
