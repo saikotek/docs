@@ -1,6 +1,6 @@
 ---
 title: Public Cloud Databases - How to fetch service metrics with Prometheus
-excerpt: Find out how to setup a prometheus exporter for your Public Cloud databases service
+excerpt: Find out how to setup a Prometheus exporter for your Public Cloud databases service
 updated: 2024-12-04
 ---
 
@@ -8,7 +8,7 @@ updated: 2024-12-04
 
 Public Cloud databases allow you to export service metrics using Prometheus.
 
-**This guide explains how to setup a prometheus ex your Public Cloud databases service so that Prometheus can collect metrics.**
+**This guide explains how to setup a Prometheus exporter for your Public Cloud databases service so that a Prometheus server can collect metrics.**
 
 ## Requirements
 
@@ -18,20 +18,20 @@ Public Cloud databases allow you to export service metrics using Prometheus.
 
 ## Instructions
 
-### Enable the prometheus exporter for your service
+### Enable the Prometheus exporter for your service
 
-You can enable a prometheus exporter for your service using the API endpoint:
+You can enable a Prometheus exporter for your service using the API endpoint:
 
 > [!api]
 >
 > @api {v1} /cloud PUT /cloud/project/{serviceName}/database/{engine}/{clusterId}
 >
 
-The boolean property `enablePrometheus` should be set to `true` to activate the prometheus exporter for your service.
+The boolean property `enablePrometheus` should be set to `true` to activate the Prometheus exporter for your service.
 
-### Retrieve the prometheus exporter access info
+### Retrieve the Prometheus exporter access info
 
-Use the following API endpoint to get the data needed to access the prometheus exporter:
+Use the following API endpoint to get the data needed to access the Prometheus exporter:
 
 > [!api]
 >
@@ -45,9 +45,9 @@ You will also need to reset the credentials in order to obtain the password requ
 > @api {v1} /cloud POST /cloud/project/{serviceName}/database/{engine}/{clusterId}/prometheus/credentials/reset
 >
 
-### Configure your prometheus server and start pulling metrics
+### Configure your Prometheus server and start pulling metrics
 
-Use the data from the previous state to configure your prometheus server and start pulling metrics for your service. Here is an example of such a prometheus configuration for a MongoDB service:
+Use the data from the previous state to configure your Prometheus server and start pulling metrics for your service. Here is an example of such a Prometheus configuration for a MongoDB service:
 
 ```yaml
 scrape_configs:
@@ -82,7 +82,7 @@ scrape_configs:
         - replica-postgresql-02d6a757-ovh-dev.database.cloud.ovh.net:9273
 ```
 
-## limitations
+## Limitations
 
 Public Cloud Databases offers service metrics via Prometheus for the following engines:
 - Caching
@@ -95,7 +95,7 @@ Public Cloud Databases offers service metrics via Prometheus for the following e
 - OpenSearch
 - PostgreSQL
 
-Prometheus endpoints are subject to the same networking limitations the associated service is. Thus, IP restrictions apply, and for services using private networking, the prometheus exporter endpoint is only reachable from the private network your service is attached to.
+Prometheus endpoints are subject to the same networking limitations the associated service is. Thus, IP restrictions apply, and for services using private networking, the Prometheus exporter endpoint is only reachable from the private network your service is attached to.
 
 ## We want your feedback!
 
