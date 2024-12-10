@@ -89,7 +89,7 @@ Suivez les étapes d'installation en cliquant successivement sur les 8 onglets c
 >> - Pour une nouvelle instance, saisissez un nom d'utilisateur (`Username`) et un mot de passe (`Password`) fort. Si vous avez déjà une instance existante, sélectionnez `Use existing instance` et saisissez les informations correspondantes.
 >> - Cliquez sur `Next`{.action} pour passer à l'étape suivante.
 >>
->>![veeam backup exchange](images/exchange_veeam_backup06.png){.thumbnail .h-600}
+>> ![veeam backup exchange](images/exchange_veeam_backup06.png){.thumbnail .h-600}
 >>
 > **Etape 8**
 >>
@@ -142,7 +142,7 @@ Suivez les étapes de configuration en cliquant successivement sur les 10 onglet
 >>
 >> > [!api]
 >> >
->> > @api {v1} /email/exchange/ POST /email/exchange/{organizationName}/service/{exchangeService}/impersonatedUser
+>> > @api {v1} /email/exchange POST /email/exchange/{organizationName}/service/{exchangeService}/impersonatedUser
 >>
 >> - Dans les cases `exchangeService` et `organizationName` , renseignez la référence de votre plateforme Exchange, visible depuis votre [espace client OVHcloud](/links/manager) dans la rubrique `Web Cloud`{.action} > `Microsoft`{.action} > `Exchange`{.action}, en sélectionnant la plateforme concernée.
 >>
@@ -158,7 +158,7 @@ Suivez les étapes de configuration en cliquant successivement sur les 10 onglet
 >>
 >> > [!api]
 >> >
->> > @api {v1} /email/exchange/ GET /email/exchange/{organizationName}/service/{exchangeService}/impersonatedUser
+>> > @api {v1} /email/exchange GET /email/exchange/{organizationName}/service/{exchangeService}/impersonatedUser
 >>
 >> - Dans les cases `exchangeService` et `organizationName` , renseignez la référence de votre plateforme Exchange que vous avez récupérée à l'étape précédente.
 >>
