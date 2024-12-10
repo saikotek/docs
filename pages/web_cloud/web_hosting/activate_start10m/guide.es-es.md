@@ -77,7 +77,7 @@ Si su zona DNS no está gestionada en su [área de cliente de OVHcloud](/links/m
 
 > [!primary]
 >
-Si su proyecto evoluciona rápidamente hacia un alojamiento que dispone de una base de datos, un espacio de almacenamiento más grande o más direcciones de correo, podrá migrar directamente y únicamente del Alojamiento gratuito 100M a un plan de hosting **Personal** desde su [área de cliente OVHcloud](/links/manager).
+> Si su proyecto evoluciona rápidamente hacia un alojamiento que dispone de una base de datos, un espacio de almacenamiento más grande o más direcciones de correo, podrá migrar directamente y únicamente del Alojamiento gratuito 100M a un plan de hosting **Personal** desde su [área de cliente OVHcloud](/links/manager).
 >
 > Para migrar al plan **Pro** o **Performance**, es necesario cambiar del Alojamiento gratuito 100M al plan **Personal**.
 >
