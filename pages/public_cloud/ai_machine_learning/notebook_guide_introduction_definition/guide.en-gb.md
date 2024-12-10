@@ -632,4 +632,4 @@ If you need training or technical assistance to implement our solutions, contact
 
 Please feel free to send us your questions, feedback, and suggestions regarding AI Notebooks:
 
-- In the #ai-notebooks channel of the OVHcloud [Discord server](https://discord.com/invite/vXVurFfwe9), where you can engage with the community and OVHcloud team members.
+- In the #ai-notebooks channel of the OVHcloud [Discord server](https://discord.gg/ovhcloud), where you can engage with the community and OVHcloud team members.
