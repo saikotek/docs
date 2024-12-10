@@ -39,7 +39,7 @@ Suivez les étapes d'installation en cliquant successivement sur les 8 onglets c
 >> - Lancez le fichier téléchargé au format `.iso` pour monter le DVD virtuel.
 >> - Ouvrez le DVD virtuel `Veeam Backup for Microsoft 365` monté sur votre ordinateur, puis exécutez le fichier d'installation `Veem.Setup.exe`.
 >>
->> ![veeam backup exchange](images/exchange_veeam_backup01.png){.thumbnail .h-600}
+>> ![veeam backup exchange](images/exchange_veeam_backup01-2.png){.thumbnail .h-600}
 >>
 > **Etape 2**
 >>
