@@ -1,7 +1,7 @@
 ---
 title: "Modifier la taille de votre Load Balancer via l’interface Horizon"
 excerpt: "Découvrez comment ajuster la taille de votre Load Balancer OVHcloud en utilisant l'interface Horizon"
-updated: 2024-09-12
+updated: 2024-12-10
 ---
 
 ## Objectif
@@ -43,9 +43,10 @@ Une fenêtre s’ouvrira alors pour vous permettre de sélectionner une nouvelle
 
 Dans la liste déroulante, sélectionnez la taille souhaitée pour votre Load Balancer :
 
-- **Petite**
-- **Moyenne**
-- **Grande**
+- **small**
+- **medium**
+- **large**
+- **xl**
 
 ![Sélectionner la taille du Load Balancer](images/sizeLoadBalancer.png){.thumbnail}
 
