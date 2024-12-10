@@ -1,7 +1,7 @@
 ---
 title: 'Gestión de los tokens'
 excerpt: 'Gestión de los tokens'
-updated: 2024-12-09
+updated: 2024-12-10
 ---
 
 ## Objetivo

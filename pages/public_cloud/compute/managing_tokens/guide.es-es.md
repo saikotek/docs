@@ -1,7 +1,7 @@
 ---
 title: 'Gestión de los tokens'
 excerpt: 'Cómo utilizar los token a través de la API Keystone'
-updated: 2024-12-09
+updated: 2024-12-10
 ---
 
 ## Objetivo

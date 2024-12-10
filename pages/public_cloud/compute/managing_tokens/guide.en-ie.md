@@ -1,7 +1,7 @@
 ---
 title: 'Managing tokens'
 excerpt: 'Find out how to use tokens with the Keystone API'
-updated: 2024-12-09
+updated: 2024-12-10
 ---
 
 ## Objective

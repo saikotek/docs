@@ -1,7 +1,7 @@
 ---
 title: Token-Verwaltung
 excerpt: 'Erfahren Sie hier, wie Sie Token über die Keystone API verwenden'
-updated: 2024-12-09
+updated: 2024-12-10
 ---
 
 ## Ziel
