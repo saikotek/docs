@@ -243,7 +243,7 @@ Authorized values: 'octavia' = Public Cloud Load Balancer, 'iolb' = Loadbalancer
 
 - `loadbalancer.ovhcloud.com/flavor`
 
-  Not a standard OpenStack Octavia annotation (specific to OVHcloud). The size used for creating the loadbalancer. Specifications can be found on the [Load Balancer specifications](/links/public-cloud/load-balancer) page. Authorized values => `small`,`medium`,`large`. Default is 'small'.
+  Not a standard OpenStack Octavia annotation (specific to OVHcloud). The size used for creating the loadbalancer. Specifications can be found on the [Load Balancer specifications](/links/public-cloud/load-balancer) page. Authorized values => `small`,`medium`,`large`, `xl`. Default is 'small'.
 
 - `service.beta.kubernetes.io/openstack-internal-load-balancer`
 
