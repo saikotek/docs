@@ -65,8 +65,7 @@ Para activar su alojamiento gratuito 100M, haga clic en las pestañas de abajo p
 >> >
 >> > Si selecciona una de las dos casillas de verificación `Entrada DNS A` y  `Entrada DNS MX` o ambas, la configuración inicial se vaciará en la zona DNS del dominio.
 > Marque las dos casillas para configurar automáticamente su dominio con el alojamiento gratuito 100M y su servicio de correo incluido.
->> >
-Si su zona DNS no está gestionada en su [área de cliente de OVHcloud](/links/manager), deberá realizar los cambios manualmente en su zona DNS externa.
+>> > Si su zona DNS no está gestionada en su [área de cliente de OVHcloud](/links/manager), deberá realizar los cambios manualmente en su zona DNS externa.
 >> >
 >> > Para más información, consulte nuestra guía sobre [la edición de una zona DNS de OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
 >> >
