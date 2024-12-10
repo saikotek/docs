@@ -1,7 +1,7 @@
 ---
 title: Configurer HYCU Backup
 excerpt: "Installation de la sauvegarde HYCU Backup sur un cluster Nutanix"
-updated: 2024-12-06
+updated: 2024-12-10
 ---
 
 <style>
@@ -89,7 +89,7 @@ Cliquez sur `HYCU`{.action} puis sur `Toutes mes licenses`{.action}.
 
 Cliquez alors sur le bouton `Commencer`{.action} pour choisir et commander un pack HYCU for OVHcloud.
 
-Une fois votre commande effectuée, vous recevrez un e-mail de confirmation et votre licence apparaîtra dans le tableau de bord `Toutes mes licenses`{.action}.
+Une fois votre commande effectuée, vous recevrez un e-mail de confirmation et votre souscription apparaîtra dans le tableau de bord `Toutes mes licenses`{.action}.
 
 Cliquez sur votre licence pour procéder à son activation.
 
