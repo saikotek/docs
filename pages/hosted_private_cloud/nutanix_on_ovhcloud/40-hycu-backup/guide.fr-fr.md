@@ -32,7 +32,7 @@ HYCU for Nutanix est un logiciel de sauvegarde disponible pour Nutanix.
 
 ## Prérequis
 
-- Une licence [HYCU for OVHcloud](/links/hycu) valide dans votre compte OVHcloud (la première étape de ce guide vous détaille la procédure à suivre) ou une licence HYCU acquise depuis un fournisseur tiers.
+- Une licence [HYCU for OVHcloud](/links/hosted-private-cloud/hycu) valide dans votre compte OVHcloud (la première étape de ce guide vous détaille la procédure à suivre) ou une licence HYCU acquise depuis un fournisseur tiers.
 - Disposer d'un cluster Nutanix on OVHcloud dans votre compte OVHcloud.
 - Être connecté à votre [espace client OVHcloud](/links/manager).
 - Être connecté sur le cluster via Prism Central.
@@ -75,11 +75,11 @@ HYCU for Nutanix est un logiciel de sauvegarde disponible pour Nutanix.
 Nous vous proposons différents packs de licences selon le nombre de machines virtuelles (VM) utilisées par vos charges de travail Nutanix.
 
 > [!success]
-> Retrouvez plus d'informations sur notre page [HYCU for OVHcloud](/links/hycu).
+> Retrouvez plus d'informations sur notre page [HYCU for OVHcloud](/links/hosted-private-cloud/hycu).
 
 > [!primary]
 > **Vous avez déjà une licence HYCU ?**<br>
-> Poursuivez la lecture de ce guide à l'étape « [Installer et configurer HYCU](installation) ».
+> Poursuivez la lecture de ce guide à l'étape « [Installer et configurer HYCU](#installation) ».
 
 Connectez-vous à [l'espace client OVHcloud](/links/manager) puis rendez-vous successivement dans `Hosted Private Cloud`{.action} et `Stockage et sauvegarde`{.action}.
 
@@ -97,7 +97,7 @@ Cliquez sur votre licence pour procéder à son activation.
 
 > [!warning]
 > Cette étape nécessite d'avoir préalablement **installé et configuré le logiciel HYCU sur votre cluster Nutanix**.<br>
-> Si ce n'est pas déjà le cas, poursuivez la lecture de ce guide à l'étape « [Installer et configurer HYCU](installation) » avant de suivre l'étape d'activation de la licence HYCU ci-dessous.
+> Si ce n'est pas déjà le cas, poursuivez la lecture de ce guide à l'étape « [Installer et configurer HYCU](#installation) » avant de suivre l'étape d'activation de la licence HYCU ci-dessous.
 >
 
 /// details | Activer la licence HYCU
@@ -179,7 +179,7 @@ Confirmez ensuite la résilitation en saisissant `TERMINATE`dans le cadre prévu
 
 #### Mettre à niveau une licence HYCU for OVHcloud <a name="license-upgrade"></a>
 
-Pour mettre à niveau votre offre, vous devez d'abord résilier votre abonnement HYCU for OVHcloud (voir ci-dessus) puis [commander un nouvel abonnement](/links/hycu) avec le pack de machines virtuelles nécessaire.
+Pour mettre à niveau votre offre, vous devez d'abord résilier votre abonnement HYCU for OVHcloud (voir ci-dessus) puis [commander un nouvel abonnement](/links/hosted-private-cloud/hycu) avec le pack de machines virtuelles nécessaire.
 
 ### Installer et configurer HYCU <a name="installation"></a>
 
