@@ -44,7 +44,7 @@ Il y a 2 types d'actions qu'OVHcloud Object Storage effectue sur vos objets :
 
 En tirant parti de la fonctionnalité de configuration du lifecycle, vous pouvez demander à OVHcloud Object Storage de :
 
-- **nettoyer les téléchargements multi-parties incomplets** : supposons que vous ayez téléchargé un grand nombre d'objets volumineux (>5GB) en utilisant des téléchargements multi-parties, mais que pour certaines raisons, pour de nombreux objets, le téléchargement multi-partiess ne s'est pas terminé avec succès. Dans ce cas, même si vous n'avez pas téléchargé toutes les parties d'un objet, vous devez quand même payer le coût de stockage des parties téléchargées. Dans ce cas, vous pourriez vouloir nettoyer les parties de tous les téléchargements multi-parties incomplets afin d'économiser de l'argent.
+- **nettoyer les téléchargements multi-parties incomplets** : supposons que vous ayez téléchargé un grand nombre d'objets volumineux (>5GB) en utilisant des téléchargements multi-parties, mais que pour certaines raisons, pour de nombreux objets, le téléchargement multi-parties ne s'est pas terminé avec succès. Dans ce cas, même si vous n'avez pas téléchargé toutes les parties d'un objet, vous devez quand même payer le coût de stockage des parties téléchargées. Dans ce cas, vous pourriez vouloir nettoyer les parties de tous les téléchargements multi-parties incomplets afin d'économiser de l'argent.
 - **nettoyer les anciennes données inutilisées** : supposons que vous ayez une application qui stocke ses logs dans un bucket. Votre organisation peut définir une politique de conservation des logs de 30 jours. Passé ce délai, les logs ne sont plus nécessaires et vous voudrez peut-être les supprimer pour économiser de l'argent.
 - **optimiser les coûts de stockage en transférant les données rarement consultées vers un niveau de stockage moins coûteux** : supposons que vous ayez certains fichiers qui sont souvent utilisés pendant une brève période avant d'être à peine réutilisés. Il se peut que vous n'ayez plus besoin d'y accéder immédiatement, mais votre organisation ou la législation peut vous obliger à les conserver pendant un certain temps. Une fois ce délai écoulé, vous pouvez les supprimer pour économiser de l'argent.
 
@@ -54,7 +54,7 @@ Lorsqu'un objet atteint la fin de sa durée de vie selon la configuration de son
 
 - **non versionné** : il n'existe qu'une seule version de l'objet, la version courante, et elle est supprimée définitivement.
 - **versionné** : un marqueur de suppression est créé et devient la version courante. Vous pouvez également choisir le nombre d'anciennes versions que vous souhaitez conserver. Si la version courante de l'objet est la seule version de l'objet et qu'il s'agit également d'un marqueur de suppression, ce dernier sera supprimé.
-- **versioning suspendu** : actuellement, nous ne permettons pas la suspension du versioning si vous avez une configuration de lifecycle en vigueur. De la même manirère, nous ne permettons pas le téléchargement d'une configuration de lifecycle si le versioning est suspendu sur le bucket.
+- **versioning suspendu** : actuellement, nous ne permettons pas la suspension du versioning si vous avez une configuration de lifecycle en vigueur. De la même manière, nous ne permettons pas le téléchargement d'une configuration de lifecycle si le versioning est suspendu sur le bucket.
 
 ## Expiration
 
