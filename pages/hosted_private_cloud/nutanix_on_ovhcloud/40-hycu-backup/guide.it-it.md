@@ -32,7 +32,7 @@ HYCU for Nutanix is a backup software available for Nutanix.
 
 ## Requirements
 
-- A valid [HYCU for OVHcloud](/links/hycu) license in your OVHcloud account (the first step of this guide will detail the procedure to follow) or a HYCU license purchased from a third-party provider.
+- A valid [HYCU for OVHcloud](/links/hosted-private-cloud/hycu) license in your OVHcloud account (the first step of this guide will detail the procedure to follow) or a HYCU license purchased from a third-party provider.
 - A Nutanix on OVHcloud cluster in your OVHcloud account.
 - Access to your [OVHcloud Control Panel](/links/manager).
 - Access to the cluster via Prism Central.
@@ -75,11 +75,11 @@ HYCU for Nutanix is a backup software available for Nutanix.
 We offer different license packs based on the number of virtual machines (VMs) used by your Nutanix workloads.
 
 > [!success]
-> For more information, visit our [HYCU for OVHcloud](/links/hycu) page.
+> For more information, visit our [HYCU for OVHcloud](/links/hosted-private-cloud/hycu) page.
 
 > [!primary]
 > **You already have a HYCU license?**<br>
-> Continue reading this guide at the [Install and configure HYCU](installation) step.
+> Continue reading this guide at the [Install and configure HYCU](#installation) step.
 
 Log in to the [OVHcloud Control Panel](/links/manager) and navigate to `Hosted Private Cloud`{.action} and `Storage and Backup`{.action}.
 
@@ -97,7 +97,7 @@ Click on your license to proceed with activation.
 
 > [!warning]
 > This step requires that you have **the HYCU software already installed and configured on your Nutanix cluster**.<br>
-> If you have not already done so, please read the [Install and configure HYCU](installation) step of this guide before following the HYCU license activation step below.
+> If you have not already done so, please read the [Install and configure HYCU](#installation) step of this guide before following the HYCU license activation step below.
 >
 
 /// details | Activate the HYCU license
@@ -179,7 +179,7 @@ Then confirm the cancellation by typing `TERMINATE` in the provided box, then cl
 
 #### Upgrade a HYCU for OVHcloud license <a name="license-upgrade"></a>
 
-To upgrade your offer, you must first cancel your current HYCU for OVHcloud subscription (see above) and then [order a new subscription](/links/hycu) with the required virtual machines pack.
+To upgrade your offer, you must first cancel your current HYCU for OVHcloud subscription (see above) and then [order a new subscription](/links/hosted-private-cloud/hycu) with the required virtual machines pack.
 
 ### Install and Configure HYCU <a name="installation"></a>
 
