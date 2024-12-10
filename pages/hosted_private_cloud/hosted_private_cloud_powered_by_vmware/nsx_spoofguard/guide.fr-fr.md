@@ -58,4 +58,4 @@ En cas d'alerte et/ou d'actions en attente, vous pouvez cliquer sur le nombre da
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

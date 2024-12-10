@@ -104,4 +104,4 @@ Pamiętaj, że aby uzyskać dostęp do Twojego konta e-mail OVHcloud, możesz r�
 >
 > Aby uzyskać więcej informacji na temat konfiguracji konta e-mail w interfejsie online Gmail, sprawdź [Centrum pomocy Google](https://support.google.com/mail/answer/21289?hl=pl&co=GENIE.Platform%3DDesktop).
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>
+Dołącz do [grona naszych użytkowników](/links/community).

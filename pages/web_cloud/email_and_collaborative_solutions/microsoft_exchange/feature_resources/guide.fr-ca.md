@@ -119,4 +119,4 @@ Après avoir créé l'événement (en cliquant sur `Envoyer`{.action} dans la ba
 
 [Partager un dossier depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_directory_sharing)
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

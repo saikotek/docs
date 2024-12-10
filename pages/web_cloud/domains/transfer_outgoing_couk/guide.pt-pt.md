@@ -4,10 +4,6 @@ excerpt: "Saiba como transferir um domínio UK para outro registar"
 updated: 2022-10-19
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O processo de mudança de agente de registo (*registar*) para os domínios de primeiro nível (*top-level domain*, ou **TLD**) do indicativo de país **UK** (**.uk**) difere do que é detalhado no nosso [guia de transferência dos TLD genéricos](/pages/web_cloud/domains/transfer_outgoing_domain). As seguintes instruções dizem respeito às seguintes extensões:

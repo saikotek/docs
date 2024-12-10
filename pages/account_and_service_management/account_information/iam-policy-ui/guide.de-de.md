@@ -43,7 +43,7 @@ Klicken Sie oben rechts auf den Namen Ihres Accounts und dann erneut in der Seit
 
 Sie können das IAM-Menü über den dedizierten Eintrag in Ihrem Kundencenter aufrufen.
 
-![IAM-Menüzugriff](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![IAM-Menüzugriff](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 Das Menü enthält eine Liste aller aktuellen Richtlinien, die für Ihren Account erstellt wurden.
 
@@ -175,4 +175,4 @@ In einem Popup-Fenster werden Sie aufgefordert, den Löschvorgang zu bestätigen
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

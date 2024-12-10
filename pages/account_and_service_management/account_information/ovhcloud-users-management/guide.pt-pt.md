@@ -4,10 +4,6 @@ excerpt: 'Saiba como adicionar utilizadores locais a partir da sua conta OVHclou
 updated: 2024-06-25
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A OVHcloud permite-lhe criar utilizadores locais com permissão de leitura ou escrita na Área de Cliente. Assim, os membros da sua empresa podem ter acesso aos seus serviços OVHcloud. E isto sem que haja necessidade de recorrer a práticas pouco seguras como a partilha de palavras-passe ou de códigos de dupla autenticação.
@@ -42,7 +38,7 @@ Clique no nome da sua conta no canto superior direito e, a seguir, no seu nome n
 
 Pode aceder ao menu IAM através da entrada dedicada na sua Área de Cliente.
 
-![Para aceder ao menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Para aceder ao menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 De seguida, clique no separador `Identidades`{.action} para aceder à gestão dos utilizadores locais.
 
@@ -129,4 +125,4 @@ Consulte o nosso guia sobre [gestão das políticas IAM da OVHcloud](/pages/acco
 
 ## Quer saber mais?
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

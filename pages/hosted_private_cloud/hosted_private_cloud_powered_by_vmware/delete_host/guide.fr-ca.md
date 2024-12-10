@@ -65,4 +65,4 @@ En quelques minutes, le serveur hôte est supprimé et n’est plus visible .
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

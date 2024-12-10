@@ -48,7 +48,7 @@ Una vez solicitada la baja del servicio, recibirá el procedimiento de confirmac
 
 También puede consultar este mensaje de correo electrónico en su área de cliente de OVHcloud. Para ello, desde la página de inicio del panel de control, haga clic en el botón `Emails de servicio`{.action} que aparece en el menú de la derecha.
 
-![Confirmar la baja del servicio](images/resiliation4.png){.thumbnail}
+![Confirmar la baja del servicio](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 El objeto del mensaje será el siguiente:
 
@@ -72,4 +72,4 @@ Deberá introducir el token de validación disponible en el correo electrónico 
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

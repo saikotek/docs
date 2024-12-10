@@ -109,4 +109,4 @@ Una volta configurato l’indirizzo email, non ti resta che utilizzarlo! Da ques
 
 [Email Pro - Configurare un indirizzo email in Gmail per Android](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_android).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

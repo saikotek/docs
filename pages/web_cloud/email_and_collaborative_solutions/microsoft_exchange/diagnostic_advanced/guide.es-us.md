@@ -125,4 +125,4 @@ Este error indica un error general al enviar mensajes de correo que pueden tener
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

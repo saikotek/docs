@@ -205,4 +205,4 @@ If you just need the information required to configure your email address, the s
 
 ## Go further
   
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

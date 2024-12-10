@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Master asynchronous replication across your buckets (EN)
 excerpt: Learn how to automate and manage object replication across buckets for enhanced data availability, redundancy, and compliance
-updated: 2024-10-17
+updated: 2024-11-29
 ---
 
 ## Introduction
@@ -274,8 +274,7 @@ This configuration will replicate all objects (indicated by the empty `Filter` f
       "Status": "Enabled",
       "Priority": 1,
       "Filter" : {
-        "Prefix": "backup",
-        "Tag": {"Key":"important", "Value":"true"}
+        "Prefix": "backup"
       },
       "Destination": {
         "Bucket": "arn:aws:s3:::destination-bucket"
@@ -286,7 +285,7 @@ This configuration will replicate all objects (indicated by the empty `Filter` f
 }
 ```
 
-This configuration will replicate all objects that have the prefix "backup" and the tag "important" set to "true" to the bucket `destination-bucket`. Additionally, we indicate that deletion operations in the source bucket should be also replicated.
+This configuration will replicate all objects that have the prefix "backup" to the bucket `destination-bucket`. Additionally, we indicate that deletion operations in the source bucket should be also replicated.
 
 #### Replicating source to multiple regions
 
@@ -340,7 +339,7 @@ Suppose the source bucket, `region1-destination-bucket` and `region2-destination
       "Destination": {
         "Bucket": "arn:aws:s3:::destination-bucket1"
       },
-      "DeleteMarkerReplication": { "Status": "Disabled" },
+      "DeleteMarkerReplication": { "Status": "Enabled" },
     },
     {
       "ID": "rule2",

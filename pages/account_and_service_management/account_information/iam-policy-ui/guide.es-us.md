@@ -43,7 +43,7 @@ Haga clic en el nombre de su cuenta en la esquina superior derecha y, a continua
 
 Puede acceder al menú IAM desde la entrada dedicada del área de cliente.
 
-![Acceso al menú IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Acceso al menú IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 El menú muestra una lista de todas las directivas actuales creadas en su cuenta.
 
@@ -175,4 +175,4 @@ Aparecerá una ventana emergente en la que deberá confirmar la eliminación.
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

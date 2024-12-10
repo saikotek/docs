@@ -198,4 +198,4 @@ Il existe quatre classes de trafic, ce qui vous permet de classer le trafic par 
 | Normal | Pour la majorité du trafic, le trafic n'a pas de priorité particulière |
 | Low Priority | Pour un trafic jugé non prioritaire |
 
-N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)
+Échangez avec notre [communauté d'utilisateurs](/links/community).

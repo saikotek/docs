@@ -101,4 +101,4 @@ Puede consultar el resto de códigos PTT en la siguiente [guía](/pages/web_clou
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en [https://community.ovh.com/en/](https://community.ovh.com/en/){.external}.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

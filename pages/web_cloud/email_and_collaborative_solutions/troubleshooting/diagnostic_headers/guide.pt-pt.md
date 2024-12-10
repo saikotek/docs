@@ -195,4 +195,4 @@ Para apresentar o cabeçalho na interface webmail &#60;Outlook.com&#62;, consult
 
 [FAQ E-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

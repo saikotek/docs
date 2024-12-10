@@ -43,10 +43,10 @@ Lesen Sie auch die Einführung zum [SSH Protokoll](/pages/bare_metal_cloud/dedic
 
 Die folgenden Erläuterungen behandeln zwei Methoden zum Verwenden von SSH-Schlüsseln:
 
-- [Erstellung eines **Open SSH** Schlüsselpaars und Verbindung mit einem Server über SSH-Client in der Befehlszeile](#openssh)
+- [Erstellung eines **OpenSSH** Schlüsselpaars und Verbindung mit einem Server über SSH-Client in der Befehlszeile](#openssh)
 - [Erstellung eines Schlüsselpaars mit `PuTTY` und Verbindung mit einem Server über den SSH-Client von `PuTTY`](#useputty)
 
-Sie können beide Methoden nebeneinander verwenden, aber beachten Sie, dass `PuTTY` die Schlüsseldateien in einem eigenen Format erstellt, was sie inkompatibel mit den mit den in **Open SSH** erstellten SSH-Schlüsseldateien macht.
+Sie können beide Methoden nebeneinander verwenden, aber beachten Sie, dass `PuTTY` die Schlüsseldateien in einem eigenen Format erstellt, was sie inkompatibel mit den mit den in **OpenSSH** erstellten SSH-Schlüsseldateien macht.
 
 Dies bedeutet, dass ein privater Schlüssel, der mit dem SSH-Client in der Befehlszeile erstellt wurde, zuerst [in das `PuTTY`-Format konvertiert werden muss und umgekehrt](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt){.external}.
 
@@ -171,9 +171,9 @@ Kopieren Sie die vollständige Schlüsselzeichenfolge in die Zwischenablage, um 
 
 > [!primary]
 >
-> Der Hauptzweck von `PuTTY` ist die Verwaltung von SSH-Verbindungen von einem **Windows** Client zu einem **GNU/Linux** Server. `PuTTY` speichert Schlüsseldateien in einem bestimmten Format und ist daher nicht mit den SSH-Schlüsseldateien kompatibel, die mit dem **Open SSH** Client erstellt wurden, der nativ in den meisten modernen Betriebssystemen enthalten ist.
+> Der Hauptzweck von `PuTTY` ist die Verwaltung von SSH-Verbindungen von einem **Windows** Client zu einem **GNU/Linux** Server. `PuTTY` speichert Schlüsseldateien in einem bestimmten Format und ist daher nicht mit den SSH-Schlüsseldateien kompatibel, die mit dem **OpenSSH** Client erstellt wurden, der nativ in den meisten modernen Betriebssystemen enthalten ist.
 >
-> Wie oben in dieser Anleitung erwähnt, können in der *Befehlszeile* generierte Schlüssel [in das Format `PPK`](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) für die Verwendung mit dem `PuTTY` Client konvertiert werden. Für eine bequeme Verwendung von SSH-Schlüsseln wählen Sie bestenfalls eine der beiden Optionen und behalten sie bei (private Schlüssel mit **Open SSH** oder private Schlüssel mit `PuTTY`).
+> Wie oben in dieser Anleitung erwähnt, können in der *Befehlszeile* generierte Schlüssel [in das Format `PPK`](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) für die Verwendung mit dem `PuTTY` Client konvertiert werden. Für eine bequeme Verwendung von SSH-Schlüsseln wählen Sie bestenfalls eine der beiden Optionen und behalten sie bei (private Schlüssel mit **OpenSSH** oder private Schlüssel mit `PuTTY`).
 >
 
 Wenn `PuTTY` noch nicht installiert ist (sehen Sie in Ihrer Anwendungsliste nach oder verwenden Sie die Suchfunktion), laden Sie `PuTTY` von der [offiziellen Website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){.external} herunter. Das empfohlene Installationspaket enthält bereits `PuTTYgen`, die Anwendung ist aber auch als eigenständige Datei auf der Website verfügbar.

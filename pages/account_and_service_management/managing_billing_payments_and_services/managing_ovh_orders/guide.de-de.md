@@ -45,7 +45,7 @@ Um den Verwaltungsbereich Ihrer Bestellungen aufzurufen, klicken Sie im [OVHclou
 
 So gelangen Sie zu einer Übersicht aller nicht abgelaufenen Bestellungen, die über Ihren OVHcloud Kunden-Account getätigt wurden.
 
-![Bestellübersicht](images/order03.png){.thumbnail}
+![Bestellübersicht](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 Hier finden Sie zu jeder Bestellung folgende Informationen:
 
@@ -116,4 +116,4 @@ Bestätigen Sie nun die Stornierung der Bestellung, indem Sie einen Haken bei `J
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

@@ -1,14 +1,8 @@
 ---
 title: "Utiliser votre OVHcloud Key Management Service (KMS)"
 excerpt: "Chiffrez ou signez vos données avec le Key Management Service (KMS) OVHcloud"
-updated: 2024-10-18
+updated: 2024-11-25
 ---
-
-> [!warning]
->
-> Le KMS OVHcloud est actuellement en phase bêta. Ce guide peut donc être incomplet et sera mis à jour lors de la bêta.
-> N’hésitez pas à nous faire des retours sur le canal Discord dédié : <https://discord.gg/ovhcloud>.
->
 
 ## Objectif
 
@@ -23,13 +17,17 @@ L'objectif de ce guide est de présenter les différentes étapes pour interagir
 
 ### Communiquer avec le KMS
 
-La communication avec le KMS pour les actions de chiffrement et de signature est disponible uniquement par API.
+La communication avec le KMS pour les actions de chiffrement et de signature se fait au travers des APIs.
 
 Le KMS étant régionalisé, l'accès à l'API se fait directement sur la région de celui-ci : `https://my-region.okms.ovh.net`.
 
 Par exemple, pour un KMS créé sur la région **eu-west-rbx** : <https://eu-west-rbx.okms.ovh.net>
 
-Il est aussi possible d'utiliser le SDK en Golang dont la documentation est accessible sur le lien suivant : <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
+Il est possible de communiquer avec le KMS en utilisant :
+
+- L'interface utilisateur Swagger
+- La CLI OKMS : <https://github.com/ovh/okms-cli>
+- Le SDK Golang : <https://pkg.go.dev/github.com/ovh/okms-sdk-go>
 
 ### Utilisation de l'API KMS via l'interface utilisateur Swagger
 
@@ -108,7 +106,7 @@ L'API attend les valeurs suivantes :
 |type|oct, RSA, EC|Type de la clé : Octet sequence (oct) for symmetric keys, RSA (RSA), Elliptic Curve (EC)|
 |size|Integer|Taille de la clé - voir table de correspondance ci-dessous|
 |operations|Array|Usage de la clé - voir table de correspondance ci-dessous|
-|crv|P-256, P-384, P-521|(optionnel) Courbe cryptographique pour les clés de type EC|
+|curve|P-256, P-384, P-521|(optionnel) Courbe cryptographique pour les clés de type EC|
 
 **Exemple de création de clé symétrique :**
 
@@ -151,7 +149,7 @@ L'API attend les valeurs suivantes :
     "sign",
     "verify"
   ],
-  "crv": "P-256"
+  "curve": "P-256"
 }
 ```
 
@@ -279,6 +277,7 @@ Le champ **context** devant avoir la même valeur que celle donnée lors du chif
 #### Chiffrement avec une Data Key (DK)
 
 Pour plus de performances, il est possible de générer une Data Key (DK) depuis une clé symétrique (AES) pour l'utiliser depuis votre application.
+La clé AES utilisée doit avoir été générée avec les opérations "wrapKey, unwrapKey"
 
 ![Chiffrement avec DK](images/Datakey_encrypt.png){.thumbnail}
 

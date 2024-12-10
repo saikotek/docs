@@ -1,48 +1,66 @@
 ---
-title: Come creare e utilizzare chiavi SSH per le istanze Public Cloud
-excerpt: Scopri come creare coppie di chiavi SSH sul tuo dispositivo locale e utilizzarle per stabilire connessioni sicure alla tua istanza
-updated: 2024-09-02
+title: "Come creare e utilizzare chiavi di autenticazione per le connessioni SSH alle istanze Public Cloud"
+excerpt: "Scopri come creare coppie di chiavi per OpenSSH sul tuo dispositivo locale e utilizzarle per stabilire connessioni sicure alla tua istanza"
+updated: 2024-12-09
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Obiettivo
 
-L’utilizzo del protocollo SSH apre un canale sicuro su una rete non protetta in un’architettura client-server, collegando un client SSH a un server SSH. La creazione di un key pack SSH permette di ottenere una chiave pubblica e una privata. È possibile memorizzare la chiave pubblica su un server e quindi connettersi a esso con un client che dispone della chiave privata corrispondente. Se le chiavi SSH pubblica e privata corrispondono, sarai connesso senza bisogno di una password.
+Il protocollo SSH permette un canale di comunicazione sicuro sulle reti pubbliche in un'architettura client-server. È possibile utilizzare coppie di chiavi per autenticare le connessioni SSH tra due host trusted, ad esempio un computer desktop e un server remoto.
 
-Questo è generalmente il metodo di connessione più sicuro e pratico, oltre che il metodo predefinito sulle istanze Public Cloud.
+Un set di chiavi è costituito da una chiave pubblica che può essere condivisa e da una chiave privata che rimane segreta. La chiave pubblica è collocata su un server e permette a tutti i clienti che dispongono di una chiave privata di accedervi senza dover immettere una password.
 
-**Questa guida ti mostra come creare e gestire chiavi SSH sul tuo dispositivo locale per accedere alle istanze Public Cloud.**
+Questo metodo rappresenta in genere il miglior compromesso tra sicurezza e praticità e il valore predefinito per le istanze Public Cloud.
+
+**Questa guida ti mostra come creare e gestire coppie di chiavi di autenticazione sul tuo dispositivo locale e come utilizzarle per connettersi a istanze Public Cloud.**
 
 ## Prerequisiti
 
 - Un [progetto Public Cloud](/links/public-cloud/public-cloud) nel tuo account OVHcloud
-- Applicazione client SSH (riga di comando o GUI)
+- Applicazione di connessione da remoto compatibile con il protocollo OpenSSH
 
 > [!primary]
-> Questa guida non si applica alle installazioni **Windows Server** standard, in quanto basate sul protocollo `Remote Desktop Protocol` (RDP) per le connessioni.
+> Questa guida non si applica alle connessioni ai sistemi operativi **Windows Server** standard, in quanto utilizzano di default il `Remote Desktop Protocol` (RDP).
 >
 > Per maggiori informazioni consulta la nostra [guida sulla creazione di un'istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps).
 >
 
 ## Procedura
 
-Le istruzioni seguenti riguardano due metodi di utilizzo delle chiavi SSH:
+### Creazione di coppie di chiavi per le connessioni OpenSSH
 
-- [Creazione di una coppia di chiavi **Open SSH** e connessione a un server dal client SSH da riga di comando](#openssh)
-- [Creazione di una coppia di chiavi `PuTTY` e connessione a un server dal client SSH `PuTTY`](#useputty)
+Nelle istruzioni seguenti viene descritto come creare e gestire coppie di chiavi per connessioni remote con **OpenSSH** dalla riga di comando. La maggior parte dei sistemi operativi esistenti include questa funzionalità senza la necessità di installare software aggiuntivo.
 
-È possibile utilizzare entrambi i metodi contemporaneamente, ma tieni presente che `PuTTY` mantiene i file di chiave in un formato specifico, rendendoli incompatibili con i file di chiave SSH creati con il client **Open SSH**.
+Se si preferisce un'interfaccia utente grafica, è possibile trovare numerose applicazioni software per ogni tipo di sistema operativo che consentono di connettersi a host remoti tramite il protocollo OpenSSH.
 
-Una chiave privata creata con il client SSH da riga di comando dovrà essere prima [convertita in formato `PuTTY` e viceversa](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt).
+Ad esempio, [PuTTY](https://putty.org/) è un software client SSH open source dotato di numerose funzionalità utili. Scopri come utilizzarlo per le connessioni ai server e alle istanze OVHcloud nella nostra guida:
 
-<a name="openssh"></a>
+- [Come utilizzare PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
 
-#### Creazione da riga di comando di una coppia di chiavi SSH
+> [!primary]
+>
+> Se vengono visualizzati messaggi di errore durante un tentativo di connessione, verificare che vengano utilizzate le impostazioni e le informazioni di connessione corrette e che il sistema e le applicazioni installate siano aggiornati correttamente. Se ricevi un messaggio di avviso del tipo `REMOTE HOST IDENTIFICATION HAS CHANGED`, consulta la nostra [guida introduttiva a SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
 
-Da un computer **Mac** o da una periferica su cui è installato un sistema operativo **Linux***, aprire l'applicazione da riga di comando (`Terminal`).
+#### Configurazione delle coppie di chiavi da una distribuzione GNU/Linux o macOS
+
+Espandi questa sezione
+
+Aprire l'applicazione da riga di comando (`Terminal`) sul dispositivo locale.
 
 Verificare che nella directory `$HOME` sia presente una cartella denominata `.ssh`. Se la cartella non esiste, crearla:
 
@@ -50,48 +68,45 @@ Verificare che nella directory `$HOME` sia presente una cartella denominata `.ss
 mkdir ~/.ssh
 ```
 
-In un sistema operativo **Windows*** corrente, aprire il prompt dei comand digitando "cmd" nella barra di ricerca (o aprire `PowerShell` dal menu).
+Utilizzare il comando `ssh-keygen` per creare una coppia di chiavi. L'opzione `-t` consente di specificare il metodo di crittografia.
 
-Accedi alla directory `.ssh` dell’utente **Windows** attivo (di default: `C:\Users\WindowsUsername.ssh`):
+> [!primary]
+>
+> `Ed25519` è considerato il più sicuro, ma `RSA` è un’alternativa valida. Entrambi i metodi sono compatibili con lo [Spazio Cliente OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps).
 
-```bash
-cd .ssh
-```
-
-<a name="createnewkey"></a>
-
-Utilizzare il comando seguente per creare una chiave RSA a 4096 bit:
+Esempi:
 
 ```bash
-ssh-keygen -b 4096
+ssh-keygen -t ed25519 -a 100
 ```
-
-Utilizzando l'opzione `-t` con questo comando è possibile specificare un metodo di crittografia alternativo, ad esempio:
 
 ```bash
-ssh-keygen -t ed25519 -a 256
+ssh-keygen -t rsa -b 4096 -a 100
 ```
 
-La riga di comando richiede di salvare la chiave appena creata nel file standard:
+Il prompt dei comandi seguente consente di assegnare un nome alla chiave appena creata o di utilizzare il nome file standard:
 
 ```console
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/user/.ssh/id_rsa):
 ```
 
-È possibile confermare con `Enter` per accettare il nome di file proposto oppure immettere un nome diverso. Ciò è rilevante se nella directory `.ssh` sono presenti più coppie di chiavi. Per maggiori informazioni, consulta la sezione [Gestire più chiavi SSH](#multiplekeys).  
-In questo esempio vengono utilizzati i nomi file standard `id_rsa` e `id_rsa.pub`.
+Se confermi utilizzando il pulsante `Enter`{.action} senza immettere un nome, verrà utilizzato il nome file standard (in questo esempio, `id_rsa`).
 
-È possibile proteggere la chiave SSH con una frase segreta (*passphrase*) al prompt successivo. Questo è consigliato per una maggiore sicurezza.
+Se si prevede di utilizzare più coppie di chiavi in futuro, immettere un nome di file univoco per identificare la chiave. Per ulteriori informazioni, vedere la sezione **Gestione di più chiavi di autenticazione nel dispositivo locale**.
+
+Gli output di esempio seguenti continueranno a utilizzare i nomi di file `id_rsa` e `id_rsa.pub` a scopo illustrativo.
+
+È possibile proteggere la chiave SSH con una frase segreta al prompt successivo. Questo è consigliato per una maggiore sicurezza.
 
 > [!warning]
 >
-> L'accesso remoto al server è sicuro quanto il dispositivo client che memorizza la chiave privata. La protezione del tuo dispositivo e dei tuoi file contro gli accessi non autorizzati è fondamentale durante l'utilizzo delle chiavi SSH.
+> L'accesso remoto all'istanza è sicuro quanto il dispositivo client che memorizza la chiave privata. È pertanto fondamentale proteggere il dispositivo e i file chiave in esso contenuti dall'accesso non autorizzato.
 >
-> Per motivi di praticità e sicurezza, ti consigliamo di utilizzare un gestore di password sul tuo dispositivo, come la soluzione open source "Keepass".
+> Per maggiore praticità e sicurezza, archivia le frasi segrete in un gestore di password sul tuo PC, come la soluzione open source **KeePass**.
 >
 
-Tutte le chiavi SSH devono essere archiviate nella directory `.ssh`. I file di chiave pubblica avranno il suffisso `.pub` aggiunto al nome del file.
+Tutte le chiavi SSH sono archiviate nella directory `.ssh` di default. I file di chiave pubblica avranno `.pub` aggiunto al nome del file.
 
 ```console
 Your identification has been saved in /home/user/.ssh/id_rsa.
@@ -112,12 +127,13 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-<a name="publickey"></a>
-
-Per visualizzare ed esportare la chiave pubblica, utilizza il comando `cat` sul file di chiave `.pub`. Copia questa stringa di chiave per [aggiungere a una nuova istanza](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) o per [importare nello Spazio Cliente OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps#import-ssh).
+Per visualizzare ed esportare la chiave pubblica, utilizzare il comando `cat` nel file di chiave `.pub` o aprirlo con un editor di testo.
 
 ```bash
 cat ~/.ssh/id_rsa.pub
+```
+
+```console
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8teh2NJ42qYZV98gTNhumO1b6rMYIkAfRVazl
 k6dSS3xf2MXJ4YHsDacdjtJ+evXCFBy/IWgdkFtcvsGAMZ2N1RdvhDyQYcy6NDaJCBYw1K6Gv5fJ
 SHCiFXvMF0MRRUSMneYlidxUJg9eDvdygny4xOdC6c1JrPrSgOc2nQuKeMpOoOWLINIswg1IIFVk
@@ -126,88 +142,22 @@ i4ANmLy7NULWK36yU0Rp9bFJ4o0/4PTkZiDCsK0QyHhAJXdLN7ZHpfJtHIPCnexmwIMLfIhCWhO5
  user@hostname
 ```
 
+Copia questa stringa di chiave per [aggiungerla a una nuova istanza o importarla nello Spazio Cliente](/pages/public_cloud/compute/public-cloud-first-steps).
+
 > [!primary]
 >
-> In un terminale **macOS**, potete utilizzare i comandi `pbcopy` e `pbpaste` per gestire le stringhe di tasti più velocemente. Ad esempio, utilizzare questo comando per copiare la chiave del file `id_rsa.pub` negli appunti:
+> In un terminale **macOS**, potete utilizzare i comandi `pbcopy` e `pbpaste` per gestire le stringhe di chiave più velocemente. Ad esempio, utilizzare questo comando per copiare la chiave del file `id_rsa.pub` negli appunti:
 >
 > `pbcopy < ~/.ssh/id_rsa.pub`
 >
 
-In un sistema operativo **Windows**, aprire il file utilizzando `Notepad` da Esplora file (fare clic con il tasto destro sul file e selezionare `Apri con`) o utilizzare uno dei comandi seguenti (in `\Users\WindowsUsername\.ssh`):
+#### Gestione di più chiavi di autenticazione sul dispositivo locale
 
-- `cmd`
+È possibile utilizzare più coppie di chiavi SSH per connettersi a diversi host remoti o dispositivi LAN.
 
-```bash
-more id_rsa.pub
-```
+Poiché tutti i file chiave devono trovarsi nella cartella `.ssh` della directory `home` dell'utente, i nomi dei file devono essere diversi. Quando si crea una nuova coppia di chiavi e viene richiesto un nome di file, immettere un nome di propria scelta, ad esempio il nome dell'istanza.
 
-- `powershell`
-
-```bash
-cat id_rsa.pub
-```
-
-Copia questa stringa di chiave per [aggiungere a una nuova istanza](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) o per [importare nello Spazio Cliente OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps#import-ssh).
-
-> [!primary]
->
-> **Utilizzo degli appunti**
->
-> Quando si lavora da riga di comando in **Windows**, fare un `clic destro` per **incollare** il contenuto degli appunti nella finestra della riga di comando. Per **copiare** una stringa dalla finestra della riga di comando, evidenziarla con il mouse e premere il tasto `Invio`. Queste funzioni sono disponibili anche con un `click destro` sulla barra dei menu.
->
-
-<a name="useputty"></a>
-
-#### Crea una coppia di chiavi SSH con PuTTY
-
-[PuTTY](https://putty.org/){.external} è un client SSH open source con interfaccia grafica utente, disponibile per **Windows** e altri sistemi operativi. che fornisce software aggiuntivo per creare chiavi SSH: `PuTTY Key Generator` (`PuTTYgen`).
-
-> [!primary]
->
-> L’obiettivo principale di `PuTTY` è quello di gestire le connessioni SSH di un dispositivo client **Windows** verso un server **GNU/Linux**. `PuTTY` archivia i file di chiave in un formato specifico, rendendoli incompatibili con i file di chiave SSH creati con il client **Open SSH** inclusi nativamente nella maggior parte dei sistemi operativi moderni.
->
-> Se necessario e come spiegato in precedenza in questa guida, le chiavi generate in *riga di comando* possono essere [convertite nel formato `PPK`](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) per utilizzarle con il client `PuTTY`. Per un utilizzo più pratico delle chiavi SSH, scegli un’opzione e rispettala (chiavi private **Open SSH** o chiavi private `PuTTY`).
->
-
-Se non è già installato (consulta la tua lista delle applicazioni o utilizza la funzione di ricerca), scarica `PuTTY` dal [sito ufficiale](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){.external}. Il pacchetto di installazione standard consigliato contiene già `PuTTYgen`, ma è disponibile anche come file autonomo sul sito Web.
-
-Aprire `PuTTYgen` e selezionare uno degli algoritmi di crittografia supportati. In questo esempio viene utilizzato RSA. Inserisci 4096 come numero di bit nell’angolo inferiore destro e clicca sul pulsante `Generate`{.action}.
-
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_01.png){.thumbnail}
-
-Spostare liberamente il cursore del mouse nell'area sotto la barra di avanzamento:
-
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_02.gif){.thumbnail}
-
-La chiave è pronta quando la barra di avanzamento è piena.
-
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_03.png){.thumbnail}
-
-Copia questa stringa di chiave per [aggiungere a una nuova istanza](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) o per [importare nello Spazio Cliente OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps#import-ssh).
-
-Salvare entrambe le chiavi come file facendo clic sui pulsanti corrispondenti e immettere anche una frase segreta (*passphrase*) per proteggerle.
-
-> [!warning]
->
-> L'accesso remoto all'istanza è sicuro quanto il dispositivo client che memorizza la chiave privata. La protezione del tuo dispositivo e dei tuoi file contro gli accessi non autorizzati è fondamentale durante l'utilizzo delle chiavi SSH.
->
-> Per motivi di praticità e sicurezza, ti consigliamo di utilizzare un gestore di password sul tuo dispositivo, come la soluzione open source `KeePass`.
->
-
-Uno dei vantaggi dell’utilizzo di `PuTTY` è la possibilità di salvare diverse connessioni con il nome di `Sessions`. Per maggiori informazioni, consulta la sezione [Gestione di più chiavi SSH sul tuo dispositivo locale](#puttykeys).
-
-<a name="multiplekeys"></a>
-
-### Gestione di più chiavi SSH sul tuo dispositivo locale
-
-È possibile utilizzare più coppie di chiavi SSH per connettersi a diversi host remoti.
-
-> [!primary]
->
-> Se utilizzi `PuTTY`, vai alla sezione [corrispondente](#puttykeys) qui sotto.
->
-
-Poiché tutte le chiavi devono trovarsi nella cartella `.ssh` dell'unità locale, i nomi dei file devono essere diversi. Quando [si crea una nuova coppia di chiavi](#createnewkey) e viene richiesto di specificare un nome di file, immettere il nome desiderato. Associalo al nome della tua istanza, ad esempio.
+Esempio di output:
 
 ```console
 Generating public/private rsa key pair.
@@ -217,7 +167,7 @@ Your identification has been saved in /home/user/.ssh/KeyFileName_rsa.
 Your public key has been saved in /home/user/.ssh/KeyFileName_rsa.pub.
 ```
 
-Quando ci si connette al server corrispondente, specificare il nome del file di chiave oltre ai dettagli dell'utente e del server:
+Quando ci si connette all'istanza corrispondente, specificare il nome del file della chiave privata oltre ai dettagli dell'utente e del server di connessione:
 
 ```bash
 ssh -i ~/.ssh/KeyFileName user@IP_ADDRESS
@@ -229,15 +179,13 @@ Esempio:
 ssh -i ~/.ssh/myInstance_rsa ubuntu@203.0.113.100
 ```
 
-Come indicato nelle sezioni precedenti, le stesse istruzioni funzioneranno su un client **Windows**. Sostituire solo `~/` con il percorso della cartella utente **Windows**, predefinito `C:\Users\WindowsUsername\`. Ad esempio: `ssh -i C:\Users\Username\.ssh/myInstance_rsa ubuntu@203.0.113.100`.
+##### Utilizzo del file "config"
 
-#### Tramite un file "config"
+L'alternativa all'aggiunta dell'opzione `-i` ogni volta è quella di modificare un file denominato `config` all'interno della cartella `~/.ssh`. Permette di configurare i dettagli delle diverse connessioni (nome utente, porta, file di chiave, impostazioni opzionali, ecc...)
 
-L'alternativa all'aggiunta dell'opzione `-i` ogni volta consiste nel modificare un file denominato `config` nella cartella `~/.ssh` (`\Users\Username\.ssh` per **Windows**). Permette di configurare i dettagli delle diverse connessioni (nome utente, porta, file di chiave, impostazioni opzionali, ecc...)
+Se il file esiste all'interno di `.ssh`, probabilmente contiene già delle informazioni. A seconda dell'ambiente di lavoro, è consigliabile creare innanzitutto una copia di backup dell'originale.
 
-Se il file esiste in `.ssh`, probabilmente contiene già alcune informazioni. A seconda dell'ambiente di lavoro, valutare innanzitutto la possibilità di creare una copia di backup dell'originale.
-
-Esempio di contenuto della cartella `.ssh`:
+Esempio di output per la visualizzazione del contenuto della cartella `.ssh`:
 
 ```bash
 ls ~/.ssh/
@@ -247,10 +195,9 @@ ls ~/.ssh/
 config    id_rsa    id_rsa.pub    known_hosts     known_hosts.old
 ```
 
-Con il file `config`, oltre ai valori standard, possono essere salvate diverse connessioni SSH con i loro parametri individuali. Sfruttare appieno il potenziale di questo file può diventare complesso, in quanto è particolarmente utile per gli utenti esperti che gestiscono più server su base regolare.
+Il file `config` permette di archiviare più connessioni SSH e i loro parametri individuali, oltre ai valori standard. Sfruttare appieno il potenziale di questo file può diventare complesso, in quanto è particolarmente utile per gli utenti esperti che gestiscono più server.
 
-Ecco un semplice esempio per configurare una connessione SSH a un’istanza.
-
+Ecco un semplice esempio per configurare una connessione SSH a un’istanza.  
 Aprire il file e aggiungere le righe seguenti nella parte superiore:
 
 ```console
@@ -259,14 +206,22 @@ Host instance
     IdentityFile ~/.ssh/myInstance_rsa
 ```
 
-Dopodiché potrai accedere all’istanza con il nome di alias che avrai definito come `Host`:
+Assicurarsi di utilizzare l'indirizzo IP e il nome del file di chiave corretti. La prima riga, che inizia per `Host`, definisce il nome della connessione (`instance` in questo esempio).
+
+Per accedere all’istanza, sostituisci l’indirizzo IP dell’istanza con il nome alias che identifica la connessione (`Host`):
+
+```bash
+ssh username@connection_name
+```
+
+Esempio:
 
 ```bash
 ssh ubuntu@instance
 ```
 
-Nell'esempio precedente sono stati specificati solo l'IP del server e il file chiave, ma è possibile aggiungere ulteriori dettagli.  
-Per configurare una connessione SSH a un secondo server con il nome utente "rocky", la porta SSH modificata "49160" e la chiave privata nel file "myserver_rsa", estendete il contenuto del file come indicato in questo esempio:
+Nell'esempio precedente sono stati specificati solo l'IP dell'istanza e il file chiave, ma è possibile aggiungere ulteriori dettagli.  
+Per configurare una connessione SSH a un secondo host remoto con il nome utente "rocky", la porta SSH modificata "49160" e la chiave privata nel file "myserver_rsa", estendete il contenuto del file come indicato in questo esempio:
 
 ```console
 Host instance
@@ -280,50 +235,229 @@ Host myserver
     IdentityFile ~/.ssh/myserver_rsa
 ```
 
-Dopodiché potrai accedere a questo server inserendo:
+Dopodiché potrai accedere a questo secondo host inserendo:
 
 ```bash
 ssh myserver
 ```
 
-Per maggiori informazioni, consulta la [pagina `man` corrispondente](https://manpages.org/ssh_config/5).
+Per maggiori informazioni sul file `config`, consulta la [pagina `man` corrispondente](https://manpages.org/ssh_config/5).
 
-<a name="puttykeys"></a>
+///
 
-#### Tramite PuTTY
 
-`PuTTY` può salvare le credenziali e le impostazioni di una connessione SSH come `Session`. Inoltre, consente di connettersi a diversi server utilizzando chiavi singole.
+#### Configurazione delle coppie di chiavi da un dispositivo Windows
 
-Apri `PuTTY` e apri la sottosezione `SSH` nel menu a sinistra, poi clicca su `Auth` e `Credentials`.
+/// details | Espandi questa sezione
 
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_04.png){.thumbnail}
+Aprire l'applicazione `Prompt dei comandi` digitando "cmd" nella barra di ricerca (o aprire PowerShell dal menu `Start`{.action}).
 
-Clicca sul pulsante `Browse`{.action} e seleziona il file della chiave privata `PuTTY` (`keyfile.ppk`) nella cartella in cui è stato salvato.
+Aprire la directory `.ssh` dell'account utente di Windows corrente (percorso predefinito: `C:\Users\WindowsUsername\.ssh`):
 
-Il file di chiave è associato alla sessione SSH in corso. Seleziona `Session` nel menu a sinistra e inserisci le credenziali di connessione al server (`username@IPv4_address`).
+```bash
+cd .ssh
+```
 
-Immettere un nome per la connessione in `Saved Sessions` e fare clic su `Save`{.action} per aggiungerla alla lista.
+Utilizzare il comando `ssh-keygen` per creare una coppia di chiavi. L'opzione `-t` consente di specificare il metodo di crittografia.
 
-![putty key](/pages/assets/screens/other/web-tools/putty/puttygen_05.png){.thumbnail}
+> [!primary]
+>
+> `Ed25519` è considerato il più sicuro, ma `RSA` è un’alternativa valida. Entrambi i metodi sono compatibili con lo [Spazio Cliente OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps).
 
-Da questo momento è possibile cliccare su questo elemento di `Session` e aprire una connessione al server. Per testarlo, clicca su `Open`{.action}. Se il file di chiave è stato protetto con una frase segreta, immetterla in questa fase.
+Esempi:
 
-#### Aggiunta di chiavi pubbliche supplementari all'istanza
+```bash
+ssh-keygen -t ed25519 -a 100
+```
 
-Per aggiungere chiavi SSH ad altri utenti che accedono alla tua istanza, ripeti i passaggi di creazione della chiave ma utilizza la cartella `$HOME` o **Windows** `Users` dell’utente in questione per creare e archiviare le chiavi SSH (o eseguire i comandi sul dispositivo dedicato di questa persona).
+```bash
+ssh-keygen -t rsa -b 4096 -a 100
+```
 
-Per una spiegazione dettagliata di questi passaggi, consulta la nostra [guida dedicata](/pages/public_cloud/compute/configuring_additional_ssh_keys).
+Il prompt seguente consente di assegnare un nome alla chiave appena creata o di utilizzare il nome file standard:
 
-<a name="gofurther"></a>
+```console
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\Username/.ssh/id_rsa):
+```
+
+Se si conferma con il tasto `Enter`{.action} senza immettere un nome, verrà utilizzato il nome file standard (in questo esempio, `id_rsa`).
+
+Se si prevede di utilizzare più coppie di chiavi in futuro, immettere un nome di file univoco per identificare la chiave. Per ulteriori informazioni, vedere la sezione **Gestione di più chiavi di autenticazione nel dispositivo locale**.
+
+Gli output di esempio seguenti continueranno a utilizzare i nomi di file `id_rsa` e `id_rsa.pub` a scopo illustrativo.
+
+È possibile proteggere la chiave SSH con una frase segreta al prompt successivo. Questo è consigliato per una maggiore sicurezza.
+
+> [!warning]
+>
+> L'accesso remoto all'istanza è sicuro quanto il dispositivo client che memorizza la chiave privata. È pertanto fondamentale proteggere il dispositivo e i file chiave in esso contenuti dall'accesso non autorizzato.
+>
+> Per maggiore praticità, archivia le frasi segrete in un gestore di password sulla tua postazione di lavoro, come la soluzione open source **KeePass**.
+>
+
+Tutte le chiavi SSH sono archiviate nella directory `.ssh` di default. I file di chiave pubblica avranno `.pub` aggiunto al nome del file.
+
+```console
+Your identification has been saved in id_rsa.
+Your public key has been saved in id_rsa.pub.
+The key fingerprint is:
+SHA256:MRk+Y0zCOoOkferhkTvMpcMsYspj212lK7sEauNap user@hostname
+The key's randomart image is:
++---[RSA 4096]----+
+|     .. o        |
+|    . .= o       |
+|   o o  X        |
+|. . . .          |
+|. .=.o .S.       |
+| =o.o.  .   .    |
+|o +   .  . o ..  |
+|.. .  .   oEoo . |
+|o.        .o+oo  |
++----[SHA256]-----+
+```
+
+È possibile aprire il file di chiave utilizzando un editor di testo (Notepad, Notepad++ e così via). Da Esplora risorse di Windows, clicca con il tasto destro sul file e seleziona `Apri con`{.action}.
+
+È inoltre possibile utilizzare uno dei comandi seguenti (nella directory `\Users\WindowsUsername\.ssh`):
+
+- `cmd`
+
+```bash
+more id_rsa.pub
+```
+
+- `powershell`
+
+```bash
+cat id_rsa.pub
+```
+
+Copia questa stringa di chiave per [aggiungerla a una nuova istanza o importarla nello Spazio Cliente](/pages/public_cloud/compute/public-cloud-first-steps).
+
+> [!primary]
+>
+> **Utilizzo degli Appunti**
+>
+> Quando si utilizza una riga di comando **Windows**, è possibile utilizzare un clic destro per **incollare** il contenuto degli Appunti nella finestra della riga di comando. Per **copiare** una stringa dalla finestra della riga di comando, evidenziarla e premere `Enter`{.action}. Queste funzioni sono disponibili anche facendo clic con il pulsante destro del mouse sulla barra dei menu della finestra della riga di comando.
+>
+
+#### Gestione di più chiavi di autenticazione sul dispositivo locale
+
+È possibile utilizzare più coppie di chiavi SSH per connettersi a diversi host remoti o dispositivi LAN.
+
+Poiché tutti i file chiave devono trovarsi nella cartella `.ssh` della directory utente di Windows, i nomi dei file devono essere diversi. Quando si crea una nuova coppia di chiavi e viene richiesto un nome di file, digitare il nome desiderato, ad esempio il nome dell'istanza.
+
+Esempio di output:
+
+```console
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\Username/.ssh/id_rsa): KeyFileName_rsa
+
+Your identification has been saved in KeyFileName_rsa.
+Your public key has been saved in KeyFileName_rsa.pub.
+```
+
+Quando ci si connette all'istanza corrispondente, specificare il nome del file della chiave privata oltre ai dettagli dell'utente e del server di connessione:
+
+```bash
+ssh -i C:\Users\Username\.ssh/KeyFileName" user@IP_ADDRESS
+```
+
+Esempio:
+
+```bash
+ssh -i C:\Users\Username\.ssh/myInstance_rsa ubuntu@203.0.113.100
+```
+
+##### Utilizzo del file "config"
+
+L’alternativa all’aggiunta dell’opzione `-i` ogni volta è modificare un file denominato `config` all’interno della cartella `C:\Users\Username\.ssh`. Permette di configurare i dettagli delle diverse connessioni (nome utente, porta, file di chiave, impostazioni opzionali, ecc...)
+
+Se il file esiste all'interno di `.ssh`, probabilmente contiene già delle informazioni. A seconda dell'ambiente di lavoro, è consigliabile creare innanzitutto una copia di backup dell'originale.
+
+Esempio di output dell'elenco del contenuto della cartella `.ssh`:
+
+```bash
+C:\Users\Username\.ssh>dir /B
+```
+
+```console
+config
+id_rsa
+id_rsa.pub
+known_hosts    
+known_hosts.old
+```
+
+Il file `config` permette di archiviare più connessioni SSH e i loro parametri individuali, oltre ai valori standard. Sfruttare il potenziale di questo file può diventare complesso, in quanto è particolarmente utile per gli utenti esperti che gestiscono più server.
+
+Ecco un semplice esempio per configurare una connessione SSH a un’istanza.  
+Aprire il file e aggiungere le righe seguenti nella parte superiore:
+
+```console
+Host instance
+    HostName 203.0.113.100
+    IdentityFile ~/.ssh/myInstance_rsa
+```
+
+Assicurarsi di utilizzare l'indirizzo IP e il nome del file di chiave corretti. La prima riga, che inizia per `Host`, definisce il nome della connessione (`instance` in questo esempio).
+
+Per accedere all’istanza, sostituisci l’indirizzo IP dell’istanza con il nome alias che identifica la connessione (`Host`):
+
+```bash
+ssh username@connection_name
+```
+
+Esempio:
+
+```bash
+ssh ubuntu@instance
+```
+
+Nell'esempio precedente sono stati specificati solo l'IP dell'istanza e il file di chiave privata, ma è possibile aggiungere ulteriori dettagli.
+
+Per configurare una connessione SSH a un secondo host remoto con il nome utente "rocky", la porta SSH modificata "49160" e la chiave privata nel file "myserver_rsa", estendete il contenuto del file come indicato in questo esempio:
+
+```console
+Host instance
+    HostName 203.0.113.100
+    IdentityFile C:\Users\Username\.ssh/myInstance_rsa
+
+Host myserver
+    HostName 203.0.113.101
+    User rocky
+    Port 49160
+    IdentityFile C:\Users\Username\.ssh/myserver_rsa
+```
+
+Dopodiché potrai accedere a questo secondo host inserendo:
+
+```bash
+ssh myserver
+```
+
+Per maggiori informazioni sul file `config`, consulta la [pagina `man` corrispondente](https://manpages.org/ssh_config/5).
+
+///
+
+
+### Aggiunta di chiavi pubbliche supplementari a un'istanza in esecuzione
+
+Per aggiungere chiavi SSH ad altri utenti che accedono alla tua istanza, ripeti i passaggi di creazione della chiave ma utilizzi la cartella `$HOME` o la directory Windows `Users` dell’utente in questione per creare e archiviare le chiavi SSH (o eseguire i comandi sul dispositivo dedicato di questa persona).
+
+Per una spiegazione dettagliata di questi passaggi, consulta la nostra [guida specifica](/pages/public_cloud/compute/configuring_additional_ssh_keys).
 
 ## Per saperne di più
 
-[Creare un'istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps)
+[Come creare un’istanza Public Cloud e connettersi ad essa](/pages/public_cloud/compute/public-cloud-first-steps)
 
-[Iniziare a utilizzare SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)
+[Come eseguire le prime operazioni sulle connessioni SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)
 
-[Configurazione di chiavi SSH aggiuntive su un'istanza](/pages/public_cloud/compute/configuring_additional_ssh_keys)
+[Come configurare chiavi SSH aggiuntive su un’istanza](/pages/public_cloud/compute/configuring_additional_ssh_keys)
 
-Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](/links/professional-services) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
+Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
+
+Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](/links/support).
 
 Contatta la nostra [Community di utenti](/links/community).

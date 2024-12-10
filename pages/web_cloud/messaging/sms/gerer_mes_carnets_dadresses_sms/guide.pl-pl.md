@@ -108,4 +108,4 @@ Aby zmienić lub usunąć kontakt, w kolumnie „Działania” kliknij `...`{.ac
 
 ## Sprawdź również
 
-Przyłącz się do społeczności naszych użytkowników na stronie [https://community.ovh.com/en/](https://community.ovh.com/en/)
+Dołącz do [grona naszych użytkowników](/links/community).

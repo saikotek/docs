@@ -50,7 +50,7 @@ Your OVHcloud service bill is sent to you following the payment of an order or a
 
 To view your invoices, go to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca). Click on your name in the top right-hand corner of your screen, then in the new menu that appears, click on `Invoices`{.action}.
 
-![Billing](images/hubinvoices.png){.thumbnail}
+![Billing](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 You will then land on a page summarising your bills:
 
@@ -139,4 +139,4 @@ In this section, you can also export your payment receipts in *.csv* format, by 
 
 [Managing payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

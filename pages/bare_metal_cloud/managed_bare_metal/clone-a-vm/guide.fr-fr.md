@@ -69,4 +69,4 @@ Cette étape vous permet de définir configuration réseau à appliquer à cette
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

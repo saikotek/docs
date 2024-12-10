@@ -4,10 +4,6 @@ excerpt: "Scopri come interrompere l’abbonamento a OVHcloud dallo Spazio Clien
 updated: 2024-01-19
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Vuoi disattivare uno o più servizi OVHcloud. Questa guida ti mostra come interrompere l’abbonamento dallo Spazio Cliente OVHcloud.
@@ -53,11 +49,11 @@ Esistono tuttavia **casi particolari**, descritti in dettaglio [più in basso](#
 
 Per disattivare l’abbonamento al servizio, accedi al tuo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/it/&ovhSubsidiary=it), clicca sul tuo nome in alto a destra e poi sul pulsante `Prodotti e servizi`{.action}.
 
-![prodotti e servizi](images/products-services.png){.thumbnail}
+![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 Clicca sul pulsante `...`{.action} in corrispondenza del servizio da disattivare e seleziona `Rescindi l'impegno contrattuale`{.action}.
 
-![disattiva](images/cancel-en.png){.thumbnail}
+![disattiva](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 
 Indica i motivi della richiesta di disattivazione e clicca su `Conferma`{.action}.
 
@@ -70,7 +66,7 @@ Indica i motivi della richiesta di disattivazione e clicca su `Conferma`{.action
 
 La disattivazione del servizio avverrà alla **data di entrata in vigore** indicata nella tabella "I tuoi servizi". Se non vedi lo stato "Disattivazione richiesta", aggiorna la pagina.
 
-![richiesta di disattivazione](images/cancellation-request.png){.thumbnail}
+![richiesta di disattivazione](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request.png){.thumbnail}
 
 ### Casi particolari <a name="specific-cases"></a>
 
@@ -139,7 +135,7 @@ Per annullare una richiesta di disattivazione, accedi allo [Spazio Cliente OVHcl
 
 Clicca sui tre puntini `...`{.action} in corrispondenza del servizio richiesto e seleziona `Annulla la disattivazione del servizio`{.action} 
 
-![cancel_termination](images/cancel_termination-en.png){.thumbnail}
+![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination-en.png){.thumbnail}
 
 Infine clicca su `Conferma l'annullamento`{.action}.
 
@@ -179,4 +175,4 @@ L'annullamento della disattivazione ha effetto immediato. Aggiorna la pagina "I 
 
 [Gestire il rinnovo dei servizi OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

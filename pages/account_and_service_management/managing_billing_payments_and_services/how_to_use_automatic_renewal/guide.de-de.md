@@ -1,12 +1,8 @@
 ---
 title: Wie verlängere ich meine OVHcloud Dienste?
 excerpt: Erfahren Sie hier, wie Sie Ihre Dienstleistungen und deren Verlängerung in Ihrem Kundencenter verwalten
-updated: 2024-01-26
+updated: 2024-11-12
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -75,13 +71,13 @@ Folgende Themen werden erläutert:
 Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).<br>
 Klicken Sie oben rechts auf Ihren Namen und wählen Sie `Produkte und Dienstleistungen`{.action}.
 
-![Produkte und Dienstleistungen](images/products-services-en.png){.thumbnail}
+![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 ### Verlängerungstyp anzeigen <a name="renewal-type"></a>
 
 Die Seite **Meine Dienste** enthält eine Tabelle zur Verwaltung Ihrer OVHcloud Dienstleistungen. Sie finden dort deren Namen, den Typ der Dienstleistung, die Verfügbarkeit der Dienstleistung (z.B. `Aktiv`), deren Status (Art der Verlängerung, durchzuführende Aktion, etc.), das nächste Datum, an dem die Verlängerung oder Kündigung wirksam wird, sowie den Button `...`{.action} zum Zugriff die möglichen Aktionen für jeden Dienst.
 
-![Meine Dienstleistungen](images/my-services-en.png){.thumbnail}
+![Meine Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-en.png){.thumbnail}
 
 > [!success]
 > Sortier-, Filter- und Such-Tools stehen über der Tabelle zur Verfügung.
@@ -89,7 +85,7 @@ Die Seite **Meine Dienste** enthält eine Tabelle zur Verwaltung Ihrer OVHcloud 
 >
 > Ihre Filterkriterien werden dann über der Tabelle angezeigt. Im Folgenden finden Sie ein Beispiel für einen Filter zum Anzeigen von Domainnamen mit manueller Verlängerung, deren Ablaufdatum vor einem Monat liegt.
 >
-> ![manageAutomaticRenewal](images/filters-en.png){.thumbnail}
+> ![manageAutomaticRenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-en.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -102,14 +98,14 @@ Die Seite **Meine Dienste** enthält eine Tabelle zur Verwaltung Ihrer OVHcloud 
 
 Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalte `Aktionen` und dann auf die gewünschte Aktion.
 
-![Menü Aktionen](images/actions-en.png){.thumbnail}
+![Menü Aktionen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-en.png){.thumbnail}
 
 **Die Aktionen werden jeweils im entsprechenden Tab beschrieben.**
 
 > [!tabs]
 > **Verlängerung konfigurieren**
 >>
->>![Verlängerung konfigurieren](images/configure-renewal-en.png){.thumbnail}
+>>![Verlängerung konfigurieren](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-en.png){.thumbnail}
 >>
 >> Klicken Sie auf die Aktion `Verlängerung konfigurieren`{.action}. Je nach gewähltem Dienst können Sie die manuelle Verlängerung einstellen oder das Intervall für die automatische Verlängerung auswählen. In diesem Fall können Sie die Verlängerungsart sowie die Häufigkeit der Verlängerung auswählen.
 >>
@@ -119,7 +115,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 > **Vorauszahlen**
 >>
->>![Zahlung vorziehen](images/forward-payment-en.png){.thumbnail}
+>>![Zahlung vorziehen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-en.png){.thumbnail}
 >>
 >> Diese Aktion wird für Dienstleistungen mit **automatischer Verlängerung** angeboten.
 >>
@@ -130,7 +126,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 > **Meine Vertragsbindung kündigen**
 >>
->>![Kündigen](images/cancel-en.png){.thumbnail}
+>>![Kündigen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 >>
 >> Diese Aktion wird für Dienste angezeigt, die als **Automatische Verlängerung*** eingestellt sind.
 >>
@@ -140,7 +136,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 > **Dienst verlängern**
 >>
->>![Dienstleistung verlängern](images/renew-service-en.png){.thumbnail}
+>>![Dienstleistung verlängern](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-en.png){.thumbnail}
 >>
 >> Diese Aktion ist nur für Dienstleistungen mit **manueller Verlängerung** verfügbar.
 >>
@@ -149,7 +145,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 > **Meine Rechnung bezahlen**
 >>
->>![Rechnung bezahlen](images/pay-bill-en.png){.thumbnail}
+>>![Rechnung bezahlen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-en.png){.thumbnail}
 >>
 >> Eine Meldung der Art `Rechnung zu bezahlen` erscheint, wenn eine Rechnung noch nicht beglichen wurde und außerdem folgendes zutrifft:
 >>
@@ -165,7 +161,7 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 
 Sie können gruppierte Aktionen ausführen, indem Sie mehrere Dienste in der Tabelle auswählen und dann auf den Button `Aktionen`{.action} klicken.
 
-![Gruppierte Aktionen](images/batch-actions-en.png){.thumbnail}
+![Gruppierte Aktionen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-en.png){.thumbnail}
 
 In der folgenden Tabelle sind die möglichen gruppierten Aktionen aufgeführt.
 
@@ -191,14 +187,8 @@ In der folgenden Tabelle sind die möglichen gruppierten Aktionen aufgeführt.
 >> Damit die automatische Verlängerung für Ihre Dienste aktiviert werden kann, muss Ihrem OVHcloud Kunden-Account ein gültiges Zahlungsmittel hinzugefügt worden sein. Ist das nicht der Fall oder ist das Zahlungsmittel abgelaufen, erscheint beim Versuch, die automatische Verlängerung zu aktivieren, eine Fehlermeldung im Kundencenter. Lesen Sie unsere Anleitung „[Zahlungsarten verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)“, um eine Zahlungsart zu überprüfen oder hinzuzufügen.
 > Meine Zahlungsart ist nicht mehr gültig. Wie füge ich eine neue Zahlungsart hinzu?
 >> Lesen Sie unsere Anleitung „[Meine Zahlungsarten verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)“. Bevor Sie ein veraltetes Zahlungsmittel löschen können, müssen Sie ein neues gültiges Zahlungsmittel zu Ihrem OVHcloud Kunden-Account hinzufügen.
-> Ich habe vergessen, meinen Domainnamen rechtzeitig zu verlängern, was kann ich tun?
->> Überprüfen Sie zunächst den Status des Domainnamens mithilfe des [Domain Whois-Tools](https://www.ovhcloud.com/de/domains/whois/).
->> Handelt es sich um eine generische Endung (.com, .org, .net, etc.), bleibt der Domainname für die sog. "*grace period*" (ca. 7 Tage) und dann für einen "*Redemption*"-Zeitraum (ca. 35 bis 40 weitere Tage) reserviert. Diese Fristen sind variabel und hängen von der jeweiligen Domainendung und den Regeln der zuständigen Registry ab, welche die Domainendung verwaltet. Während dieser beiden Zeiträume sind nur Sie selbst berechtigt, den Domainnamen zu verlängern.
->> Während dieser Fristen können Sie über das Kundencenter verlängern. Folgen Sie hierzu den Schritten in dieser Anleitung.
->> Während der Redemption-Phase wird der Domainname nicht mehr von OVHcloud verwaltet. Bei der Verlängerung über Ihr Kundencenter fallen daher zusätzliche Kosten an (die je nach Endung variieren können).
->> Nach der Redemption-Phase tritt der Domainname in eine Löschphase ein, die sich über mehrere Tage erstrecken kann, bevor er wieder öffentlich verfügbar wird. Wenn Sie den Domainnamen erneut verwenden möchten, empfehlen wir Ihnen, die Verfügbarkeit regelmäßig mit dem [Whois-Tool](https://www.ovhcloud.com/de/domains/whois/) zu überprüfen.
-> Ich möchte meine Domain nicht verlängern, sondern zu einem anderen Registrar als OVHcloud transferieren. Wie gehe ich vor?
->> Folgen Sie den Anweisungen in unserer Anleitung „[Transfer einer Domain zu einem anderen Registrar](/pages/web_cloud/domains/transfer_outgoing_domain)“.
+> Ich habe eine Frage zur Verlängerung meiner Domain
+>> Lesen Sie unsere Anleitung „[Meine OVHcloud Domainnamen verlängern](/pages/web_cloud/domains/autorenew_domain_name)“.
 > Ich möchte keine weiteren automatischen Zahlungen mehr, aber meine Dienstleistung nicht kündigen. Was soll ich tun?
 >> Wenn Ihr Dienst dies erlaubt, können Sie die Aktion [Verlängerung konfigurieren](#actions) verwenden und so eine manuelle Verlängerung auswählen.
 > Ich habe meine Dienstleistung für 12 Monate verlängert. Kann ich meine Auswahl ändern?
@@ -217,6 +207,8 @@ In der folgenden Tabelle sind die möglichen gruppierten Aktionen aufgeführt.
 
 Diese Anleitung hat Ihre Frage nicht beantwortet? [FAQ zur Abrechnung und Zahlung](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
 
+[Meine OVHcloud Domainnamen verlängern](/pages/web_cloud/domains/autorenew_domain_name)
+
 [Zahlungsarten verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
 [Kündigen von OVHcloud Diensten](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
@@ -225,4 +217,4 @@ Diese Anleitung hat Ihre Frage nicht beantwortet? [FAQ zur Abrechnung und Zahlun
 
 [Die Abrechnung für Ihre Exchange Accounts verwalten](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

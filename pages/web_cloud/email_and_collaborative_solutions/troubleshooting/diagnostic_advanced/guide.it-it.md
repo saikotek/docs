@@ -136,4 +136,4 @@ Di seguito trovi la maggior parte dei codici di risposta negativi SMTP utilizzat
 
 [FAQ E-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

@@ -157,4 +157,4 @@ On the purchase order that appears, select the payment method of your choice and
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

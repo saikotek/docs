@@ -1,7 +1,7 @@
 ---
-title: "Activer les adresses e-mails incluses dans votre hébergement web"
+title: "Hébergement web - Activer les adresses e-mails incluses"
 excerpt: "Découvrez comment activer les adresses e-mails incluses avec votre offre d'hébergement web"
-updated: 2024-10-01
+updated: 2024-12-09
 ---
 
 ## Objectif
@@ -15,12 +15,14 @@ Si vous avez commandé un hébergement web sans l'attacher directement à un nom
 ## Prérequis
 
 - Disposer d'un [nom de domaine](/links/web/domains){.external} dans votre espace client OVHcloud.
-- Posséder une [offre d'hébergement web](/links/web/hosting){.external}.
+- Posséder une [offre d'hébergement web](/links/web/hosting){.external} (hors offres « Hébergement gratuit 100M » et « Start10m »).
 - Être connecté à votre [espace client OVHcloud](/links/manager){.external}.
 
 > [!warning]
 >
-> Si votre nom de domaine est déjà enregistré chez OVHcloud ou si une zone DNS existe déjà pour ce dernier dans un autre [compte OVHcloud](/links/manager) que le vôtre, consultez notre documentation « [Gérer les contacts de ses services](/pages/account_and_service_management/account_information/managing_contacts) » pour en récupérer la gestion.
+> Si vous souhaitez activer l'option « adresse(s) e-mail incluse(s) avec votre hébergement web » pour un nom de domaine externe (non enregistré chez OVHcloud) **dont vous devez être obligatoirement l'administrateur**, vous devez créer (a minima) une zone DNS chez OVHcloud pour votre nom de domaine externe. Consultez notre guide « [Créer une zone DNS chez OVHcloud](/pages/web_cloud/domains/dns_zone_create) » si nécessaire. Cela permettra à votre nom de domaine d'apparaître dans la liste des noms de domaine disponibles lors de l'activation de l'option.
+>
+> Par ailleurs, si votre nom de domaine est déjà enregistré chez OVHcloud ou si une zone DNS existe déjà pour ce dernier dans un autre [compte OVHcloud](/links/manager) que le vôtre, consultez notre documentation « [Gérer les contacts de ses services](/pages/account_and_service_management/account_information/managing_contacts) » pour en récupérer la gestion.
 >
 > Enfin, si votre nom de domaine est déjà lié à l'option « adresse(s) e-mail incluse(s) avec votre hébergement web » d'un autre hébergement web, vous ne pourrez pas l'associer à votre propre hébergement web directement. Faites le point avec l'actuel gestionnaire de l'hébergement web en vous aidant de ce guide.
 >
@@ -49,23 +51,23 @@ La fenêtre d'activation s'affiche. Choisissez le nom de domaine auquel vous sou
 
 Lorsque votre hébergement arrive à expiration ou qu'il doit être supprimé, il est possible de conserver vos adresses e-mail.
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, cliquez sur `Hébergements`{.action} dans la barre de services à gauche, puis choisissez l'hébergement bénéficiant de l'offre e-mail.
+Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, cliquez sur `Hébergements`{.action}, puis choisissez l'hébergement bénéficiant de l'offre e-mail.
 
 Dans le cadre `Configuration`, cliquez sur le bouton `...`{.action} à droite de la mention `Adresses e-mails`, puis cliquez sur le bouton `Délier mon option e-mail`{.action}
 
 ![email-activation](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/detach-email-included-webhosting.png){.thumbnail}
 
 Une offre MX adaptée vous sera proposée à l'achat. Une fois la commande réglée, vos e-mails continueront à fonctionner après suspension de l'hébergement web.
- 
+
 ### Suppression de l'offre e-mail liée à votre hébergement web
 
 Il est possible de supprimer définitivement l'offre e-mail associée à votre hébergement web.
 
 > [!warning]
 >
-> Attention, cette action est irréversible. Il n'est pas possible de réactiver l'offre e-mail après sa résiliation.
+> Attention, cette action est irréversible. les comptes e-mail et leur contenu seront supprimés.
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, cliquez sur `Hébergements`{.action} dans la barre de services à gauche, puis choisissez l'hébergement bénéficiant de l'offre e-mail.
+Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, cliquez sur `Hébergements`{.action}, puis choisissez l'hébergement bénéficiant de l'offre e-mail.
 
 Dans le cadre `Configuration`, cliquez sur le bouton `...`{.action} à droite de la mention `Adresses e-mails`, puis cliquez sur le bouton `Résilier l'option e-mail`{.action}.
 
@@ -73,7 +75,15 @@ Dans le cadre `Configuration`, cliquez sur le bouton `...`{.action} à droite de
 
 > [!warning]
 >
-> Pour confirmer la suppression de l'offre e-mail associée à votre hébergement web, un lien de validation vous est envoyé par e-mail. Il est indispensable de cliquer sur ce lien pour que l'opération de suppression soit lancée.
+> Pour confirmer la suppression de l'offre e-mail associée à votre hébergement web, un lien de validation vous est envoyé par e-mail. Vous devez obligatoirement cliquer sur ce lien pour que l'opération de suppression soit lancée.
+
+#### Cas particulier - Suppression de l'offre e-mail liée à votre hébergement web (afin de l'associer à un autre nom de domaine)
+
+Pour des raisons de sécurité, la suppression définitive d'une offre e-mail peut prendre plusieurs jours après avoir cliqué sur le lien de validation de suppression.
+
+Si vous souhaitez supprimer l'offre e-mail liée à votre hébergement web afin de l'associer à un autre nom de domaine, et **uniquement** dans ce cas précis, vous devez confirmer par écrit votre demande d'accélération de suppression de l'offre. Pour cela, contactez le support en créant un ticket d'assistance depuis votre [centre d'aide OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help). Le ticket d'assistance doit **obligatoirement** être créé depuis le compte client (et l'identifiant client correspondant) qui administre le service à supprimer.
+
+Une fois la demande traitée, vous pourrez alors associer l'offre e-mail liée à votre hébergement web à un autre nom de domaine.
 
 ## Aller plus loin
 

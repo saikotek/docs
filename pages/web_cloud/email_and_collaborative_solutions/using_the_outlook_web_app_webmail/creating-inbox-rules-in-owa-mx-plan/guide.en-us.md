@@ -99,4 +99,4 @@ Please note that spam false positives cannot be declared directly from OWA. If y
 
 [Using the Outlook Web App with an email account](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -50,7 +50,7 @@ Zalecamy, aby w celu zapewnienia identyfikowalności włączyć użytkowników l
 
 Konta usług to tożsamości powiązane z Twoim kontem OVHcloud. Konta te są przeznaczone do **interakcji maszyn** z produktami OVHcloud, ponieważ opierają się na uwierzytelnianiu typu klient/token i których prawa dostępu zależą od wdrożonych [zasad IAM](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Tworzenie kont usług opisano w [dokumentacji dedykowanej] (/pages/manage_and_operate/api/manage-service-account).
+Tworzenie kont usług opisano w [dokumentacji dedykowanej](/pages/manage_and_operate/api/manage-service-account).
 
 Konto usługi może być następnie użyte do logowania [logowania do API OVHcloud](/pages/account_and_service_management/account_information/authenticate-api-with-service-account) oraz do interfejsów API innych firm, takich jak te udostępniane przez [OpenStack](/pages/manage_and_operate/iam/authenticate-api-openstack-with-service-account).
 
@@ -58,7 +58,7 @@ Logowanie za pomocą kont usług nie jest jeszcze obsługiwane w zestawach SDK i
 
 ### użytkowników federacyjnych
 
-To są konta użytkowników z [federacji tożsamości] (/products/manage-operate-user-federation). Użytkownicy ci pochodzą z katalogu innych firm i nie są bezpośrednio zarządzani przez OVHcloud. Ich prawa dostępu zależą od wdrożonych [polityk IAM](/pages/account_and_service_management/account_information/iam-policy-ui).
+To są konta użytkowników z [federacji tożsamości](/products/manage-operate-user-federation). Użytkownicy ci pochodzą z katalogu innych firm i nie są bezpośrednio zarządzani przez OVHcloud. Ich prawa dostępu zależą od wdrożonych [polityk IAM](/pages/account_and_service_management/account_information/iam-policy-ui).
 
 Użytkownicy federacyjni są reprezentowani przez grupy użytkowników na poziomie zarządzania prawami.
 
@@ -79,6 +79,6 @@ Jeśli chcesz, aby wszystkie Twoje produkty były zarządzane centralnie, zaleca
 
 ## Sprawdź również <a name="go-further"></a>
 
-Zarządzanie tożsamością można zautomatyzować za pośrednictwem interfejsów [API OVHcloud] (/pages/manage_and_operate/api/first-steps) lub za pośrednictwem [provider Terraform OVHcloud] (/pages/manage_and_operate/terraform/terraform-at-ovhcloud).
+Zarządzanie tożsamością można zautomatyzować za pośrednictwem interfejsów [API OVHcloud](/pages/manage_and_operate/api/first-steps) lub za pośrednictwem [provider Terraform OVHcloud](/pages/manage_and_operate/terraform/terraform-at-ovhcloud).
 
 Dołącz do [grona naszych użytkowników](/links/community).

@@ -43,7 +43,7 @@ Clicca sul nome del tuo account in alto a destra e poi di nuovo sul nome nella b
 
 Accedi al menu IAM tramite l'accesso dedicato nel tuo Spazio Cliente.
 
-![Accesso al menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Accesso al menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 Visualizzi una lista di tutte le politiche in corso create sul tuo account.
 
@@ -175,4 +175,4 @@ Una finestra contestuale ti chiederà di confermare l'eliminazione.
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all'indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

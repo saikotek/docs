@@ -1,12 +1,8 @@
 ---
 title: "Como redefinir a palavra-passe de administrador com o Rescue-Customer-Windows"
 excerpt: "Como redefinir a palavra-passe de administrador com o Rescue-Customer-Windows"
-updated: 2024-06-26
+updated: 2024-11-15
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -20,8 +16,8 @@ Este manual explica como reinicializar a palavra-passe "Administrator" graças a
 
 > [!warning]
 >
-> Este manual não é compatível com o modo "WinPE Rescue".
-> Consulte [este manual](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) se utilizar o modo `WinPe Rescue`.
+> Este manual não é compatível com o modo `WinPE Rescue` (WinRescue).
+> Consulte [este manual](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) se utilizar o modo `WinPe Rescue` (WinRescue).
 >
 
 ## Instruções
@@ -87,8 +83,10 @@ O disco local está agora acessível e o disco Windows corresponde ao volume "(E
 
 ![disk_import_sync](images/disk_import_sync.png){.thumbnail}
 
-__Note__: Neste exemplo, o estado do volume é "Resynching", pois o servidor foi reiniciado em modo rescue. É um estado normal que não é causado pelo próprio rescue.
-Isto não afetará os dados do volume e a ressincronização continuará quando o servidor for reiniciado no sistema instalado.
+> [!primary]
+>
+>  Neste exemplo, o estado do volume é "Resynching", pois o servidor foi reiniciado em modo rescue. É um estado normal que não é causado pelo próprio rescue.
+> Isto não afetará os dados do volume e a ressincronização continuará quando o servidor for reiniciado no sistema instalado.
 
 > [!warning]
 >
@@ -126,7 +124,15 @@ Selecione a conta de utilizador « admin » e depois clique em `Change password`
 
 ![ntpwedit2](images/ntpwedit_2.png){.thumbnail}
 
-Na janela que aparece, deixe os campos em branco e clique em `OK`{.action}. Termine clicando em `Registar as modificações`{.action} e, a seguir, em `Sair`{.action}.
+Na janela que surgir, introduza a sua nova palavra-passe nos dois campos e clique em `OK`{.action}.
+
+> [!warning]
+>
+> A nova palavra-passe será aceite sem verificação da sua complexidade.
+>
+> Lembre-se de que esta palavra-passe irá permitir o acesso remoto ao servidor após reiniciar o sistema operativo.
+
+Termine clicando em `Save changes`{.action} e, a seguir, em `Exit`{.action}.
 
 Nesse caso, o servidor deverá ser reiniciado no sistema operativo normal.
 
@@ -137,38 +143,6 @@ Comece por substituir o netboot por "Fazer boot" no disco rígido`{.action} na �
 A seguir, reinicie o servidor a partir da Área de Cliente. Clique no botão `...`{.action} junto da secção « Estado dos serviços » e selecione `Reiniciar`{.action}.
 
 ![reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/cp_dedicated_restart.png){.thumbnail}
-
-### Etapa 4 - Definir uma nova palavra-passe (IPMI) <a name="step4"></a>
-
-Na [Área de Cliente OVHcloud](/links/manager), aceda ao separador `IPMI`{.action} para iniciar uma sessão KVM.
-
-![adminpw3](images/adminpw3.png){.thumbnail}
-
-#### Para uma versão recente do Windows
-
-Uma vez ligado ao seu servidor, clique no ícone do menu `Iniciar`{.action}, no canto inferior esquerdo.
-
-Comece a digitar `opções de ligação` e clique em `Opções de ligação`{.action} quando isso aparecer no menu.
-
-![adminpw7](images/adminpw7.png){.thumbnail}
-
-De seguida, na secção "Palavra-passe", clique no botão `Adicionar`{.action} para definir a nova palavra-passe.
-
-![adminpw8](images/adminpw8.png){.thumbnail}
-
-#### Para uma versão anterior do Windows
-
-Uma janela de linha de comandos (cmd) deve abrir-se quando a sessão KVM é estabelecida.
-
-Defina a palavra-passe do utilizador atual (Administrator):
-
-```bash
-net user Administrator *
-```
-
-![adminpw9](images/adminpw9.png){.thumbnail}
-
-Recomendamos que utilize o teclado virtual quando introduzir palavras-passe nesta interface.
 
 ## Quer saber mais?
 

@@ -249,4 +249,4 @@ Poniżej znajduje się lista plików zawierających teksty odpowiedzi i krótki 
 
 ## Sprawdź również
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

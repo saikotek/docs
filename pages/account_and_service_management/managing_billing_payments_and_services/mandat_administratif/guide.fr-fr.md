@@ -52,4 +52,4 @@ Pour mettre en place une convention tripartite avec OVH, nous vous invitons à c
 
 [La communauté Chorus Pro](https://communaute.chorus-pro.gouv.fr/){.external}
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

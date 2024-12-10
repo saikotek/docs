@@ -160,4 +160,4 @@ The table below provides a **non-exhaustive** list of the main ptt codes.
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

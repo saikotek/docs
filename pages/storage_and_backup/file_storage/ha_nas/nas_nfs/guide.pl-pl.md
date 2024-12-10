@@ -1,12 +1,8 @@
 ---
 title: "Montowanie NAS-HA przy użyciu zasobów NFS"
 excerpt: "Dowiedz się, jak się zalogować do usługi NAS-HA przy użyciu protokołu NFS"
-updated: 2024-09-18
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
 
 ## Wprowadzenie
 
@@ -17,12 +13,12 @@ Usługa NAS-HA OVHcloud pozwala na zarządzanie przestrzenią dyskową plików d
 > [!warning]
 > OVHcloud oferuje szereg usług, których konfiguracja i zarządzanie należy do Ciebie. To Ty musisz upewnić się, że działają poprawnie.
 >
-> Niniejszy przewodnik ułatwi Ci realizację bieżących zadań. W przypadku trudności lub wątpliwości związanych z administrowaniem, użytkowaniem lub wdrażaniem usług na serwerze zalecamy skorzystanie z pomocy wyspecjalizowanego [usługodawcy](https://partner.ovhcloud.com/pl/directory/) lub zbliżenie się do [naszej społeczności](https://community.ovh.com/en/).
+> Niniejszy przewodnik ułatwi Ci realizację bieżących zadań. W przypadku trudności lub wątpliwości związanych z administrowaniem, użytkowaniem lub wdrażaniem usług na serwerze zalecamy skorzystanie z pomocy wyspecjalizowanego [usługodawcy](/links/partner) lub zbliżenie się do [naszej społeczności](/links/community).
 >
 
 ## Wymagania początkowe
 
-- Posiadanie oferty [NAS-HA OVHcloud](https://www.ovhcloud.com/pl/storage-solutions/nas-ha/)
+- Posiadanie oferty [NAS-HA OVHcloud](/links/storage/nas-ha)
 - Posiadanie usługi OVHcloud, do której przypisany jest publiczny adres IP (Hosted Private Cloud, serwer dedykowany, VPS, instancja Public Cloud, etc.)
 - Posiadanie systemu operacyjnego kompatybilnego z NFS zainstalowanego na Twoim serwerze
 - [Utworzenie partycji dla Twojej usługi przy użyciu protokołu NFS](/pages/storage_and_backup/file_storage/ha_nas/nas_get_started#partition)
@@ -33,7 +29,7 @@ Usługa NAS-HA OVHcloud pozwala na zarządzanie przestrzenią dyskową plików d
 
 Poniższe sekcje zawierają przykłady konfiguracji dla najczęściej używanych dystrybucji/systemów operacyjnych. Pierwszy etap polega zawsze na zalogowaniu się do serwera przez SSH lub zalogowaniu się do interfejsu graficznego zainstalowanego systemu operacyjnego. Poniższe przykłady zakładają, że jesteś zalogowany jako użytkownik z dużymi uprawnieniami.
 
-Potrzebna będzie również **nazwa wewnętrzna** oraz **adres IP** usługi NAS-HA, które można znaleźć w e-mailu otrzymanym po instalacji usługi lub w [Panelu client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl).
+Potrzebna będzie również **nazwa wewnętrzna** oraz **adres IP** usługi NAS-HA, które można znaleźć w e-mailu otrzymanym po instalacji usługi lub w [Panelu client OVHcloud](/links/manager).
 
 Następujące ratingi są używane jako argumenty w poniższych sekcjach wiersza poleceń. Zastąp je odpowiednimi wartościami podczas wprowadzania poleceń.
 
@@ -77,30 +73,35 @@ Teraz możesz przejść do partycji zamontowanej w określonym folderze.
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### CentOS 7 / AlmaLinux / Rocky Linux
+## Dystrybucje oparte na RedHat (CentOS / AlmaLinux / Rocky Linux / Fedora / ...)
+
+> [!warning]
+> **Uwaga!**
+>
+> DNF jest następcą menedżera pakietów YUM i jest powszechnie stosowany w różnych dystrybucjach Linux opartych na Red Hat.
 
 Sprawdź, czy zainstalowane są najnowsze wersje pakietów `nfs-utils` i `rpcbind`:
 
 ```bash
-centos@server:~$ sudo yum install nfs-utils rpcbind
+root@server:~$ sudo yum install nfs-utils rpcbind
 ```
 
 W razie potrzeby uruchom ponownie usługę `rpcbind`, wprowadzając następujące polecenie:
 
 ```bash
-centos@server:~$ sudo systemctl restart rpcbind
+root@server:~$ sudo systemctl restart rpcbind
 ```
 
 Aby zamontować partycję, użyj następującego polecenia:
 
 ```bash
-centos@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Przykład:**
+**Przykład nr 1:**
 
 ```bash
-centos@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 Teraz możesz przejść do partycji zamontowanej w określonym folderze.
@@ -112,24 +113,22 @@ Teraz możesz przejść do partycji zamontowanej w określonym folderze.
 > `IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER nfs rw 0 0`
 >
 
-### Fedora
+**Przykład nr 2:**
 
 Zainstaluj pakiet `nfs-utils`:
 
 ```bash
-fedora@server:~$ sudo dnf -y install nfs-utils
+root@server:~$ sudo dnf -y install nfs-utils
 ```
 
 Następnie użyj polecenia:
 
 ```bash
-fedora@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
+root@server:~$ sudo mount -t nfs IP_HA-NAS:/NFS_PATH /MOUNTING_FOLDER
 ```
 
-**Przykład:**
-
 ```bash
-fedora@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
+root@server:~$ sudo mount -t nfs 10.1.1.1:/zpool-123456/partition01 /mount/ha_nas
 ```
 
 Teraz możesz przejść do partycji zamontowanej w określonym folderze.
@@ -174,6 +173,7 @@ Wypełnij formularz następującymi szczegółami.
 |Name|Identyfikator konta zasobów współdzielonych|
 |NFS server|Adres IP NAS-HA (Przykład: `10.1.1.1`)|
 |NFS share|Ścieżka do partycji NAS-HA do zamontowania (Przykład: `zpool-123456/partition01`)|
+|NFS version|Wersja protokołu, której chcesz użyć, obowiązkowo wybierz wersję NFS 3|
 
 ![ESXI](images/esxi3.png){.thumbnail}
 
@@ -190,7 +190,7 @@ Oferta NAS-HA obsługuje protokoły NFSv3 i NFSv4. Szczegóły ich wykorzystania
 **Co się stanie, jeśli nie podasz wersji podczas składania zamówienia NFS?**
 
 W takim przypadku klient NFS spróbuje połączyć się bezpośrednio z najwyższą wspieraną przez niego wersją.
-Możesz również wybrać, czy chcesz korzystać z NFSv3 lub NFSv4:
+Możesz również wybrać, czy chcesz korzystać z NFSv3, NFSv4, NFSv4.1 lub NFSv4.2:
 
 Aby wymusić korzystanie z NFSv3, wpisz następujące polecenie:
 
@@ -225,11 +225,6 @@ ubuntu@server:~$ nfsstat -m
 W powrocie parametr `vers=3` lub `vers=4` wskazuje, który protokół jest używany.
 
 Korzystanie z poleceń będzie podobne dla CentOS i Fedora.
-
-**Czy można wprowadzić wersję przeznaczoną do użycia przez NFSv4?**
-
-Podobnie jak poprzednio, klient NFS będzie próbował połączyć się bezpośrednio z najwyższą wersją, do której ma dostęp.
-Możesz wybrać NFSv4.1 lub NFSv4.2
 
 Aby wymusić użycie NFSv4.1, użyj następującego polecenia:
 
@@ -303,6 +298,6 @@ Niektóre jądra systemu Linux używają domyślnej wartości `read_ahead_kb` wy
 
 ## Sprawdź również
 
-Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](https://www.ovhcloud.com/pl/professional-services/), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
+Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](/links/professional-services), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

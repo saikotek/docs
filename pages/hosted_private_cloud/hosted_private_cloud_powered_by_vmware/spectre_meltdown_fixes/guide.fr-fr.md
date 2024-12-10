@@ -69,4 +69,4 @@ En fin de mise à jour, l'hôte ne sera plus vulnérable et pourra être de nouv
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

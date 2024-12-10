@@ -77,4 +77,4 @@ If you need to make a change that could lead to the loss of your email account d
 
 [Configuring your Email Pro account in Outlook for Windows](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_outlook_2016)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

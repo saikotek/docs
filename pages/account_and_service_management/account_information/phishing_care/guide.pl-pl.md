@@ -70,4 +70,4 @@ Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i natychmiast zmień h
 
 ## Sprawdź również
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

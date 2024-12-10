@@ -173,4 +173,4 @@ Trois onglets sont disponibles dans cette vue :
 
 [Comment gérer le compte d'un client OVHcloud via les API](/pages/manage_and_operate/api/api_right_delegation) (guide en anglais)
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
+Échangez avec notre [communauté d'utilisateurs](/links/community).

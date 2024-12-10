@@ -147,5 +147,5 @@ If you need training or technical assistance to implement our solutions, contact
 
 ## Feedback
 
-Please feel free to send us your questions, feedback and suggestions to help our team improve the service on the OVHcloud [Discord server](https://discord.com/invite/vXVurFfwe9)
+Please feel free to send us your questions, feedback and suggestions to help our team improve the service on the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 

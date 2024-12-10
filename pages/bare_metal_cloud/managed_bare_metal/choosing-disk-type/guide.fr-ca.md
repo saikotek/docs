@@ -64,4 +64,4 @@ Sur le stockage vSan, les 3 types de formats sont possibles.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

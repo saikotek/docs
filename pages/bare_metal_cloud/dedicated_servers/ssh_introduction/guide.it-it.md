@@ -1,97 +1,91 @@
 ---
-title: Introduzione a SSH
-excerpt: "Scopri come utilizzare le connessioni SSH per accedere al tuo server"
-updated: 2024-01-16
+title: Come eseguire le prime operazioni sulle connessioni SSH
+excerpt: "Scopri come utilizzare SSH per accedere al tuo server OVHcloud dalla maggior parte delle postazioni di lavoro"
+updated: 2024-12-03
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
+<style>
+details>summary {
+	color:rgb(33, 153, 232) !important;
+	cursor: pointer;
+}
+details>summary::before {
+	content:'\25B6';
+	padding-right:1ch;
+}
+details[open]>summary::before {
+	content:'\25BC';
+}
+</style>
 
 ## Obiettivo
 
-Il protocollo di comunicazione SSH (Secure Shell) è lo strumento principale per stabilire connessioni host cifrate attraverso reti non sicure. OpenSSH è installato nativamente su tutti i server OVHcloud (VPS, server dedicati, istanze Public Cloud) per consentire connessioni sicure a server remoti e altre operazioni.
+Il protocollo di comunicazione SSH (Secure Shell) è il mezzo preferito per stabilire connessioni host crittografate tramite reti pubbliche. OpenSSH è disponibile su tutti i server OVHcloud (VPS, server dedicati, istanze Public Cloud) per consentire connessioni remote sicure ai server e altre operazioni.
 
-**Questa guida ti mostra come accedere al tuo server in modo sicuro grazie all'SSH.**
-
-<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/gi7JqUvcEt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Questa guida ti mostra come connettersi al server in sicurezza utilizzando il protocollo SSH.**
 
 > [!warning]
-> OVHcloud mette a disposizione servizi di cui tu sei responsabile per la configurazione e la gestione. Assicurarne il corretto funzionamento è quindi responsabilità dell'utente.
+> OVHcloud fornisce servizi la cui configurazione e gestione sono di vostra responsabilità. È quindi vostra responsabilità assicurarvi che funzionino correttamente.
 >
-> In caso di difficoltà durante l'esecuzione di queste azioni, ti invitiamo a contattare un professionista specializzato e/o a contattare la nostra Community di utenti all'indirizzo https://community.ovh.com/en/. OVHcloud non può fornirti assistenza tecnica al riguardo.
+> Questa guida è concepita per aiutarti con le operazioni più frequenti. Tuttavia, in caso di difficoltà o dubbi, ti consigliamo di contattare un [provider di servizi specializzato](/links/partner) o la [community OVHcloud](/links/community). Per maggiori informazioni consulta la sezione [Per saperne di più](#gofurther) di questa guida.
 >
 
 ## Prerequisiti
 
-- Disporre di un [server dedicato](/links/bare-metal/bare-metal) o di un [VPS](https://www.ovhcloud.com/it/vps/) sul proprio account OVHcloud
-- Un'applicazione cliente SSH (da riga di comando o interfaccia grafica)
+- Un [server dedicato](/links/bare-metal/bare-metal) o un [VPS](/links/bare-metal/vps) nel tuo account OVHcloud
 
 > [!primary]
-> Questa guida non si applica alle installazioni standard di server Windows, in quanto basate sul protocollo di Desktop remoto (*Remote Desktop Protocol*) per le connessioni. Le connessioni SSH sono comunque utilizzate per la modalità Rescue OVHcloud. Per maggiori informazioni, consulta la sezione [Per saperne di più](#gofurther) di questa guida.
+> Questa guida non si applica alle installazioni server Windows standard, in quanto basate sul protocollo RDP (Remote Desktop Protocol) per le connessioni. Le connessioni SSH sono tuttavia rilevanti quando si utilizza il Rescue mode OVHcloud. Per maggiori informazioni consulta la sezione [Per saperne di più](#gofurther) di questa guida.
 >
 
 ## Procedura
 
-Esistono diversi metodi per autenticare una connessione a una periferica remota via SSH.<br>
-Le istruzioni che seguono riguardano il metodo di autenticazione tramite nome utente e password.<br>
-Puoi anche configurare chiavi SSH per attivare le connessioni sicure senza password. Per maggiori informazioni, consulta la nostra [guida sulle chiavi SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+Esistono diversi modi per autenticare una connessione a un host remoto via SSH. Le istruzioni seguenti riguardano il metodo di autenticazione con **nome utente e password**.  
+È inoltre possibile configurare l'autenticazione a chiave per attivare connessioni protette senza lo scambio di password. Per maggiori dettagli, consulta le nostre guide:
 
-Le credenziali di accesso (identificativo e password) vengono inviate via email dopo l'installazione o la reinstallazione del server effettuata dal tuo [Spazio Cliente OVHcloud](/links/manager).
-Il nome utente corrisponde al sistema operativo, ad esempio `ubuntu` o `debian`.<br>
-Per connetterti, devi specificare anche l'indirizzo IPv4 o l'hostname del server. Queste informazioni sono disponibili nell'email di installazione e nello Spazio Cliente OVHcloud.
+- [Come creare e utilizzare le chiavi per l’autenticazione SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Come creare e utilizzare chiavi per l’autenticazione SSH con PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-Ricordati di consultare anche le nostre guide "Iniziare a fare":
+Le credenziali iniziali (identificativo e password) vengono inviate via email dopo l’installazione o la reinstallazione del server dallo [Spazio Cliente OVHcloud](/links/manager).
+
+Il nome utente corrisponde al sistema operativo, ad esempio `ubuntu` o `debian`. Per accedere è necessario specificare anche l’indirizzo IP o il `hostname` del server. Questi dettagli sono disponibili nell’email di installazione e nello Spazio Cliente.
+
+Per maggiori informazioni, consulta le nostre guide "Primi passi":
 
 - Per un [server dedicato](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
-- Per un [server dedicato della gamma di prodotti **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
+- Per un [server dedicato della gamma **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
 - Per un [VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)
 
-### Connessione da una distribuzione GNU/Linux o macOS
+### Come connettersi a un server remoto da una distribuzione GNU/Linux o macOS
 
-Un client da riga di comando SSH (OpenSSH) è generalmente disponibile di default. Apri l'applicazione Terminal e accedi al server utilizzando questo comando:
+/// details | Espandi questa sezione
 
-```bash
-ssh username@server_IP
-```
+#### Connessione
 
-Se la porta SSH del server non è la porta standard, esegui questo comando:
-
-```bash
-ssh username@server_IP -p port_number
-```
-
-### Connessione da una postazione Windows
-
-Le ultime versioni di Windows includono nativamente OpenSSH per le connessioni dal Powershell o dal prompt dei comandi.
-
-Clicca con il tasto Avvia Windows e seleziona `Windows PowerShell`{.action}. È inoltre possibile utilizzare il campo di ricerca per avviare uno di questi programmi.
-
-![PowerShell](images/windowsps.png){.thumbnail}
-
-Accedi al server con questo comando:
+Un client da riga di comando per SSH (protocollo OpenSSH) è generalmente disponibile di default. Aprire l'applicazione da riga di comando (Terminal) e connettersi al server con il comando seguente:
 
 ```bash
 ssh username@server_IP
 ```
 
-Se la porta SSH del server non è la porta standard, utilizza questo comando:
+Se hai modificato la porta SSH del server, utilizza questo comando:
 
 ```bash
 ssh username@server_IP -p port_number
 ```
 
-<a name="login"></a>
+#### Connessione e fingerprint
 
-### Connessione e fingerprint
+Quando richiesto, digita la password dell’utente che si connette (o incollala con un click dal pulsante centrale del mouse) e premi `Invio`{.action}.
 
-Quando ti viene chiesto di inserire una password, inserisci quella dell'utente che si connette e clicca su `Enter`.
+Se si tratta di una nuova connessione, il client SSH riceverà un **impronta della chiave** dal server. Digita `yes` per confermare e poi la password dell’utente che si connette per accedere.
 
-Se si tratta di una nuova connessione, il tuo client SSH riceverà un'impronta di chiave (*fingerprint*) del server. Inserisci "yes" per confermare e poi la password dell'utente che si connette.
+Esempio di output:
 
 ```bash
 ssh ubuntu@203.0.113.100
 ```
+
 ```console
 The authenticity of host '203.0.113.100 (203.0.113.100)' can't be established.
 ECDSA key fingerprint is SHA256:rRwrdsmJfzvJF5k0a4JmMSdaWbTlCgRKBukbmQ3gmso.
@@ -100,7 +94,9 @@ Warning: Permanently added '203.0.113.100' (ECDSA) to the list of known hosts.
 ubuntu@203.0.113.100's password:
 ```
 
-L'impronta della chiave viene poi registrata sul tuo dispositivo e verificata ad ogni nuova connessione. Se la chiave è cambiata sull'host remoto, visualizzi un messaggio di avvertimento quando cerchi di connetterti, ad esempio:
+L'impronta digitale verrà salvata sul dispositivo e verificata a ogni nuova connessione. Se la chiave è stata modificata nell'host remoto, verrà visualizzato un messaggio di avviso durante il tentativo di connessione.
+
+Esempio di output:
 
 ```console
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -110,78 +106,143 @@ Host key verification failed.
 Offending ECDSA key in /home/user/.ssh/known_hosts:3
 ```
 
-Ciò significa che si è verificata una delle seguenti situazioni:
+Ciò significa che si è verificato uno dei seguenti eventi:
 
-- Il server è stato reinstallato.
-- Il servizio SSH sul server è stato reinstallato.
-- Accedi a un altro host con lo stesso indirizzo IP.
+- Il server è stato reinstallato correttamente.
+- Il servizio SSH sul server è stato reinstallato correttamente.
+- Ti connetti a un host diverso con lo stesso indirizzo IP.
 
 > [!primary]
-> Il messaggio di avvertimento non indica necessariamente un problema di sicurezza. Tuttavia, se non ti viene chiesto di attivarti in una di queste situazioni, il server remoto può essere compromesso.
+> L'avviso non indica necessariamente un problema di protezione. Tuttavia, se non si è la causa di uno di questi incidenti, il server remoto potrebbe essere compromesso.
 >
 
-Per risolvere il problema, utilizza questo comando con l'indirizzo IP del tuo server:
+Per risolvere il problema, utilizza il comando seguente con l’indirizzo IP del tuo server:
 
 ```bash
 ssh-keygen -f ~/.ssh/known_hosts -R 203.0.113.100
 ```
 
-Puoi anche aprire il file `known_hosts` nella tua cartella personale tramite un editor di testo ed eliminare la riga "offending" specificata nel messaggio di avviso:
+È inoltre possibile modificare il file `known_hosts` nella cartella `home` dell'account utente locale utilizzando un editor di testo.
+
+Esempio:
 
 ```bash
 nano ~/.ssh/known_hosts
 ```
 
-Salva le modifiche e lascia l'editor. La nuova impronta della chiave deve essere accettata al momento della prossima connessione al server.
+Individuare la riga `offending` specificata nell'avviso (in questo esempio, la terza riga). Evidenziare l'intera riga ed eliminarla.
 
-Con Windows, sono specificati anche la posizione del file `known_hosts` e la riga da eliminare, ad esempio:
+Salvare le modifiche e uscire dall'editor. Sarà necessario confermare la nuova impronta al successivo accesso al server.
+
+///
+
+### Come connettersi a un server remoto da un dispositivo Windows
+
+/// details | Espandi questa sezione
+
+#### Connessione
+
+Le versioni più recenti del sistema operativo Windows includono OpenSSH, che consente di utilizzarlo direttamente dalle applicazioni native della riga di comando (PowerShell o Prompt dei comandi).
+
+Clicca con il tasto destro del mouse sul pulsante `Start`{.action} di Windows e seleziona `Windows PowerShell`{.action}. È inoltre possibile utilizzare il campo di ricerca per avviare una delle applicazioni della riga di comando.
+
+![PowerShell](images/windowsps.png){.thumbnail}
+
+Connettiti al server con questo comando:
+
+```bash
+ssh username@server_IP
+```
+
+Se hai modificato la porta SSH del server, utilizza questo comando:
+
+```bash
+ssh username@server_IP -p port_number
+```
+
+#### Connessione e fingerprint
+
+Quando richiesto, digita la password dell’utente che si connette (o incollala cliccando con il tasto destro) e premi `Invio`{.action}.
+
+Se si tratta di una nuova connessione, il client SSH riceverà un **impronta della chiave** dal server. Digita `yes` per confermare e poi la password dell’utente che si connette per accedere.
+
+Esempio di output:
+
+```bash
+ssh ubuntu@203.0.113.100
+```
 
 ```console
+The authenticity of host '203.0.113.100 (203.0.113.100)' can't be established.
+ECDSA key fingerprint is SHA256:rRwrdsmJfzvJF5k0a4JmMSdaWbTlCgRKBukbmQ3gmso.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Warning: Permanently added '203.0.113.100' (ECDSA) to the list of known hosts.
+ubuntu@203.0.113.100's password:
+```
+
+L'impronta digitale verrà salvata sul dispositivo e verificata a ogni nuova connessione. Se la chiave è stata modificata nell'host remoto, verrà visualizzato un messaggio di avviso durante il tentativo di connessione.
+
+Esempio di output:
+
+```console
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Host key verification failed.
 Offending ECDSA key in C:\\Users\\Name_Windows_User/.ssh/known_hosts:3
 ```
 
-Per risolvere il problema, utilizza il comando seguente con l’indirizzo IP del tuo server:
+Ciò significa che si è verificato uno dei seguenti eventi:
+
+- Il server è stato reinstallato correttamente.
+- Il servizio SSH sul server è stato reinstallato correttamente.
+- Ti connetti a un host diverso con lo stesso indirizzo IP.
+
+> [!primary]
+> L'avviso non indica necessariamente un problema di protezione. Tuttavia, se non si è la causa di uno di questi incidenti, il server remoto potrebbe essere compromesso.
+>
+
+Per risolvere il problema, immettere il comando seguente con il nome dell'account utente locale di Windows e l'indirizzo IP del server:
 
 ```bash
 ssh-keygen -f "C:\Users\Name_Windows_User\.ssh\known_hosts" -R 203.0.113.100
 ```
 
-È inoltre possibile accedere alla cartella, fare clic con il pulsante destro del mouse sul file e aprirlo con Blocco note.
+È inoltre possibile accedere alla cartella, fare clic con il pulsante destro del mouse sul file e aprirlo con un editor di testo (Notepad, Notepad++ e così via)
 
 ![known_hosts](images/windowskh.png){.thumbnail}
 
-Elimina la linea in questione, in questo caso la terza. Salva le modifiche e lascia l'editor. La nuova impronta della chiave deve essere accettata al momento della prossima connessione al server.
+Individuare la riga `offending` specificata nell'avviso (in questo esempio, la terza riga). Evidenziare l'intera riga ed eliminarla.
 
-### Utilizzo di client grafici o software compatibili con SSH
+Salvare le modifiche e uscire dall'editor. Sarà necessario confermare la nuova impronta al successivo accesso al server.
 
-Per ogni tipo di sistema operativo, numerosi software consentono di connettersi al server tramite il protocollo SSH. 
+///
 
-Ad esempio, [PuTTY](https://putty.org/){.external} per Windows è un client SSH open source dotato di interfaccia grafica. È stato installato anche su altre piattaforme ed è disponibile tramite [il sito ufficiale](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), i gestori di pacchetti software e via [Homebrew](https://brew.sh/).
 
-Avvia PuTTY e inserisci l'indirizzo IP del server. Specifica il numero della porta se la porta standard non è utilizzata. Clicca su `Open`{.action} per accedere Ti verrà richiesto un nome utente e una password.
+### Utilizzo di client GUI dedicati o software compatibili SSH
 
-![PuTTY](images/putty_01.png){.thumbnail}
+Se si preferisce un'interfaccia utente grafica, è possibile trovare molte applicazioni software per ogni tipo di sistema operativo che consentono di connettersi a host remoti tramite il protocollo SSH.
 
-Uno dei vantaggi di PuTTY è la possibilità di salvare diverse sessioni. Inserisci le informazioni di connessione nel campo `Saved Session` e clicca su `Save`{.action}.
+Ad esempio, [PuTTY](https://putty.org/) è un software client SSH open source dotato di numerose funzionalità utili. Scopri come utilizzarlo per le connessioni ai server OVHcloud nella nostra guida:
 
-![PuTTY](images/putty_02.png){.thumbnail}
+[Come utilizzare PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-Come al solito, al primo collegamento viene visualizzato l’avviso di presenza dell’impronta. Clicca su `Accept`{.action} per registrare l'impronta della chiave o seleziona `Connect Once`{.action}.
+<a name="gofurther"></a>
 
-![PuTTY](images/putty_03.png){.thumbnail}
-
-Per maggiori informazioni, consulta le FAQ ufficiali e la documentazione di PuTTY.
-
-## Per saperne di più <a name="gofurther"></a>
+## Per saperne di più
 
 [Configurazione degli account utente e dell'accesso root su un server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds)
 
-[Crea chiavi SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+[Come creare e utilizzare le chiavi per l’autenticazione SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 
-[Modalità Rescue server dedicato](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
+[Come creare e utilizzare le chiavi per l'autenticazione SSH con PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
-[VPS modalità Rescue](/pages/bare_metal_cloud/virtual_private_servers/rescue)
+[Modalità Rescue su un server dedicato](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
 
-Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](/links/professional-services) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
+[Modalità Rescue su un VPS](/pages/bare_metal_cloud/virtual_private_servers/rescue)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
+
+Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](/links/support).
+
+Contatta la nostra [Community di utenti](/links/community).

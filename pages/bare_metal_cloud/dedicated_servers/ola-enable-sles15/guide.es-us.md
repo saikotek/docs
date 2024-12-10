@@ -1,12 +1,8 @@
 ---
 title: Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en SLES 15
 excerpt: 'Activar OVHcloud Link Aggregation en su servidor SLES 15'
-updated: 2023-10-26
+updated: 2024-11-26
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
 
 ## Objetivo
 
@@ -57,7 +53,7 @@ IPADDR='10.0.0.1/24'
 BONDING_MASTER='yes'
 BONDING_SLAVE_0='eth0'
 BONDING_SLAVE_1='eth1'
-BONDING_MODULE_OPTS='mode=802.3ad miimon=100 xmit_hash_policy=layer3+4'
+BONDING_MODULE_OPTS='mode=802.3ad xmit_hash_policy=layer3+4'
 ```
 
 > [!primary]
@@ -138,8 +134,6 @@ También puede comprobar los parámetros utilizados en su interfaz ifcfg-bond0 u
 
 [Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
-[Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7).
-
 [Cómo configurar el ID de cliente para la agrupación de enlaces OVHcloud en Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

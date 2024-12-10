@@ -67,4 +67,4 @@ Una vez que haya creado su respuesta automática, aparecerá en la lista que apa
 
 [FAQ e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>
+Interactúe con nuestra [comunidad de usuarios](/links/community).

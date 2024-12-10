@@ -1,12 +1,8 @@
 ---
 title:  Mover una Additional IP
 excerpt: Cómo mover una Additional IP desde el área de cliente o a través de la API de OVHcloud
-updated: 2022-12-20
+updated: 2024-12-04
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
 
 > [!primary]
 >
@@ -20,7 +16,10 @@ Las Additional IP pueden moverse entre los servicios que utilice. El objetivo es
 Esta tecnología le permite mover las direcciones IP de un servidor a otro en menos de un minuto, prácticamente sin interrupciones para sus usuarios. Asimismo, este mecanismo también puede utilizarse durante la migración de servicios, transfiriendo los proyectos del entorno de desarrollo al de producción, o durante la migración hacia un servidor de respaldo en caso de fallo.
 
 > [!primary]
-> Una Additional IP no puede moverse de un país a otro distinto. Por ejemplo, una IP situada en el datacenter SBG (Francia) podrá migrarse a GRA (Francia) o RBX (Francia), pero no podrá migrarse a un servidor localizado en BHS (Canadá).
+> Es posible asignar los bloques de direcciones IP a cualquier servicio compatible dentro de una región.
+Los bloques de direcciones IP de una región pueden moverse de un datacenter a otro dentro de una misma región, pero no fuera de esa región.
+>
+> Las regiones «eu-west-gra», «eu-west-rbx» y «eu-west-sbg» son una excepción, ya que sí es posible mover los bloques de direcciones IP entre estas tres regiones.
 >
 > Los bloques de IPs se tienen que mover en bloque. No es posible dividir un bloque o mover las IPs de un bloque a distintos servidores.
 
@@ -30,7 +29,7 @@ Esta tecnología le permite mover las direcciones IP de un servidor a otro en me
 
 - Tener un [servidor dedicado](/links/bare-metal/bare-metal){.external} en el área de cliente de OVHcloud.
 - Tener una [dirección Additional IP](/links/network/additional-ip).
-- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager){.external}.
+- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
 
 > [!warning]
 > Esta funcionalidad puede no estar disponible o estar limitada en los [servidores dedicados **Eco**](https://eco.ovhcloud.com/es/about/).
@@ -53,6 +52,12 @@ Esta tecnología le permite mover las direcciones IP de un servidor a otro en me
 > Si un bloque IP se mueve/añade al vRack, ya no está vinculado a un servidor físico. En este caso, cualquier dirección MAC virtual se perderá durante la transferencia.
 >
 
+### Bloques IP geolocalizados
+
+La geolocalización de una dirección IP es independiente de su región de conexión.
+
+Si contrata un bloque de IP adicional en un servidor, pero elige una localización diferente (geolocalización) para el bloque de IP, dicho bloque no podrá trasladarse a otro servidor situado en el mismo país que dicho bloque. Por ejemplo, un bloque adicional de IP geolocalizado en Polonia (eu-central-war) y contratado en un servidor situado en un datacenter de Francia (eu-west-gra) no puede transferirse a un servidor situado en un datacenter de Polonia (eu-central-war). El bloque de IP solo puede moverse hacia un servidor elegible situado en un datacenter de Francia.
+
 ### Migrar una IP desde el área de cliente de OVHcloud
 
 > [!warning]
@@ -63,11 +68,11 @@ Conéctese al [área de cliente de OVHcloud](/links/manager), haga clic en el me
 
 Haga clic en la pestaña `Additional IP`{.action}.
 
-![manage IPs](images/manageIPs2022.png){.thumbnail}
+![manage IPs](images/manageIPs2024.png){.thumbnail}
 
-Haga clic en el botón `...`{.action} que está a la derecha de la dirección IP que quiera mover y, seguidamente, en `Trasladar Additional IP`{.action}.
+Haga clic en el botón `...`{.action} que está a la derecha de la dirección IP que quiera mover y, seguidamente, en `Trasladar Additional IP`{.action} o `Asociar este bloque de IP a otro servicio`{.action}.
 
-![área de cliente](images/moveadditionalIP.png){.thumbnail}
+![área de cliente](images/move_ip.png){.thumbnail}
 
 En el menú contextual, seleccione el servicio al que quiere mover la dirección IP.
 
@@ -100,6 +105,26 @@ Para mover la dirección IP, utilice la siguiente llamada:
 - `serviceName`: la referencia del servidor dedicado de destino
 - `ip`: la dirección Additional IP a mover
 
+### Restricciones <a name="limitations"></a>
+
+Tenga en cuenta que existen algunas limitaciones al mover un bloque de direcciones IP. La siguiente tabla muestra la compatibilidad entre las regiones.
+
+Para más información, consulte nuestra lista de [regiones disponibles](/links/network/additional-ip).
+
+| Nombre de la región  | eu-west-par | eu-west-gra | eu-west-rbx | eu-west-sbg | eu-west-lim | eu-central-war | eu-west-eri | ca-east-bhs | ca-east-tor | ap-southeast-sgp | ap-southeast-syd |
+|----------------|-------------|-------------|-------------|-------------|-------------|----------------|-------------|-------------|-------------|-------------|-------------|
+| eu-west-par    |      ✅        |      ❌       |     ❌        |     ❌        |      ❌       |      ❌          |       ❌       |       ❌      |     ❌      | ❌      |     ❌      |
+| eu-west-gra    |       ❌      |       ✅       |      ✅       |      ✅      |       ❌       |       ❌         |       ❌        |     ❌        |    ❌        | ❌      |     ❌      |
+| eu-west-sbg    |       ❌        |      ✅       |      ✅       |      ✅       |      ❌       |      ❌           |      ❌       |      ❌        |    ❌        | ❌      |     ❌      |
+| eu-west-rbx |       ❌        |      ✅       |      ✅       |      ✅       |      ❌       |      ❌           |      ❌       |      ❌        |    ❌        | ❌      |     ❌      |
+| eu-west-lim    |        ❌       |      ❌       |      ❌       |     ❌        |     ✅       |      ❌         |      ❌        |     ❌        |     ❌       | ❌      |     ❌      |
+| eu-central-war |      ❌       |      ❌       |     ❌       |      ❌       |      ❌        |       ✅         |       ❌       |       ❌       |       ❌        | ❌      |     ❌      |
+| eu-west-eri    |         ❌      |       ❌      |        ❌     |       ❌     |      ❌       |       ❌         |     ✅        |      ❌         |      ❌       | ❌      |     ❌      |
+| ca-east-bhs    |     ❌        |      ❌       |    ❌         |        ❌    |        ❌       |      ❌          |       ❌      |     ✅        |      ❌       | ❌      |     ❌      |
+| ca-east-tor    |    ❌         |      ❌       |     ❌        |        ❌       |      ❌       |       ❌         |      ❌       |      ❌       |       ✅     | ❌      |     ❌      |
+| ap-southeast-sgp|    ❌         |      ❌       |     ❌        |        ❌       |      ❌       |       ❌         |      ❌       |      ❌       |       ❌       | ✅       |     ❌      |
+| ap-southeast-syd|    ❌         |      ❌       |     ❌        |        ❌       |      ❌       |       ❌         |      ❌       |      ❌       |       ❌       | ❌      |     ✅       |
+
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

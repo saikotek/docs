@@ -4,10 +4,6 @@ excerpt: "Find out how to enable IAM for your VMware on OVHcloud solution via th
 updated: 2024-05-23
 ---
 
-> [!primary]
-> IAM is currently in beta phase. This guide can be updated in the future with the advances of our teams in charge of this product.
->
-
 ## Objective
 
 **This guide details how to activate IAM with Hosted Private Cloud - VMware on OVHcloud via the OVHcloud Control Panel or with the OVHcloud API**.

@@ -235,4 +235,4 @@ No obstante, la desactivación de estas cookies puede afectar a la estabilidad d
 
 [Crear grupos de contactos](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_groups)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit einem VPS
 excerpt: Erfahren Sie hier, wie Sie einen VPS in Ihrem Kundencenter verwalten sowie die ersten Schritte zum Start, inklusive Remote-Verbindungen und Sicherheitsmaßnahmen
-updated: 2024-10-30
+updated: 2024-11-22
 ---
 
 ## Ziel
@@ -148,10 +148,21 @@ Reinstallationen können über das Kundencenter durchgeführt werden. Klicken Si
 
 ![VPSnewreinstallation](images/2023panel_01.png){.thumbnail}
 
-Wählen Sie im angezeigten Fenster ein Betriebssystem aus der Dropdown-Liste aus. Die angebotenen Optionen sind [mit einem OVHcloud VPS kompatible Images](/pages/public_cloud/compute/image-life-cycle) und unmittelbar nach der Installation funktionsfähig.
+Wählen Sie im angezeigten Fenster ein Betriebssystem aus der Drop-down-Liste aus. Die angebotenen Optionen sind [mit einem OVHcloud VPS kompatible Images](/pages/public_cloud/compute/image-life-cycle) und unmittelbar nach der Installation funktionsfähig.
 
-Sie können auch einen **SSH-Schlüssel** zur Installation auf dem System auswählen, wenn Sie bereits einen in Ihrem [OVHcloud Kundencenter](/links/manager) hinterlegt haben. Weitere Informationen hierzu finden Sie in unserer Anleitung [SSH-Schlüssel erstellen und verwenden](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).  
-Wenn Sie einen SSH-Schlüssel ausgewählt haben und für die Anmeldung keinen Benutzernamen und kein Kennwort benötigen, aktivieren Sie die Option „Ich möchte meine VPS-Authentifizierungscodes nicht per E-Mail erhalten“.
+Wenn Sie ein kompatibles Betriebssystem ausgewählt haben, können Sie einen **öffentlichen Schlüssel** angeben, der automatisch installiert werden soll. Sie haben zwei Möglichkeiten:
+
+- Kopieren Sie die Schlüsselzeichenfolge manuell und fügen Sie sie in das Feld `Ihr öffentlicher SSH-Schlüssel` ein.
+- [Wenn Sie zuvor einen öffentlichen Schlüssel](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) in Ihrem [OVHcloud Kundencenter](/links/manager) gespeichert haben, wählen Sie den gewünschten Schlüssel im Drop-down-Menü `SSH-Schlüssel für die Vorinstallation` aus.
+
+![VPSnewreinstallation](images/reinstall.png){.thumbnail}
+
+Weitere Informationen zu diesem Thema finden Sie in unseren Anleitungen:
+
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Erstellen und verwenden von Schlüsseln für die SSH-Authentifizierung mit PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+
+Wenn Sie einen SSH-Schlüssel ausgewählt haben und für die Anmeldung kein Passwort benötigen, aktivieren Sie die Option `Ich möchte die Zugangsdaten zu meinem VPS nicht per E-Mail erhalten.`.
 
 > [!warning]
 >
@@ -196,7 +207,7 @@ Bei der ersten Installation oder bei der Neuinstallation über das Kundencenter 
 
 Sie erhalten dann eine E-Mail mit Benutzernamen und Passwort, die Sie für die SSH-Verbindung zu Ihrem VPS benötigen. SSH ist ein sicheres Kommunikationsprotokoll, das zum Herstellen verschlüsselter Verbindungen zu einem Remote-Host verwendet wird.
 
-Bei den meisten aktuellen Desktop-Betriebssystemen ist ein **Open SSH** Client nativ installiert. Das bedeutet, dass Sie sich mit Ihren Zugangsdaten schnell und einfach über die jeweils verfügbare Befehlszeilenanwendung (`Terminal`, `Command prompt`, `Powershell` etc.) mit Ihrem VPS verbinden können. Geben Sie folgenden Befehl ein:
+Bei den meisten aktuellen Desktop-Betriebssystemen ist ein **OpenSSH** Client nativ installiert. Das bedeutet, dass Sie sich mit Ihren Zugangsdaten schnell und einfach über die jeweils verfügbare Befehlszeilenanwendung (`Terminal`, `Command prompt`, `Powershell` etc.) mit Ihrem VPS verbinden können. Geben Sie folgenden Befehl ein:
 
 ```bash
 ssh username@IPv4_VPS
@@ -208,7 +219,7 @@ Beispiel:
 ssh ubuntu@203.0.113.101
 ```
 
-Sie können auch jede Anwendung eines Drittanbieters verwenden, die mit **Open SSH** kompatibel ist.
+Sie können auch jede Anwendung eines Drittanbieters verwenden, die mit **OpenSSH** kompatibel ist.
 
 <a name="linuxconnect"></a>
 

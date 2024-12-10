@@ -4,7 +4,6 @@ excerpt: Znajdziesz najczęściej zadawane pytania dotyczące płatności i fakt
 updated: 2023-06-05
 ---
 
-  
 ## Wprowadzenie
 
 Znajdziesz tutaj najczęściej zadawane pytania dotyczące fakturowania i płatności za usługi OVHcloud.
@@ -68,7 +67,7 @@ W przypadku dyspozycji przelewu SEPA, na adres e-mail przypisany do Twojego kont
 
 Po zarejestrowaniu dyspozycji w naszych systemach (i jeśli Twoja dyspozycja zostanie zaakceptowana), możesz zacząć korzystać z nowego sposobu płatności.
 
-![FAQ billing](images/faq-billing01.gif){.thumbnail}
+![FAQ billing](/pages/assets/screens/control_panel/product-selection/right-column/faq-billing01.gif){.thumbnail}
 
 #### Wskazówki i porady
 
@@ -178,4 +177,4 @@ Aby pobrać fakturę, przejdź do sekcji `Faktury`{.action} widocznej na dashboa
 
 ## Sprawdź również
  
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

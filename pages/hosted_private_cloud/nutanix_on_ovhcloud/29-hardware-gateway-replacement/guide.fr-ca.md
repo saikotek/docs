@@ -1,7 +1,7 @@
 ---
 title: Remplacer la passerelle OVHgateway par un serveur dédié 
 excerpt: "Comment remplacer votre passerelle intégrée à Nutanix par un serveur dédié pour augmenter la bande passante"
-updated: 2022-12-05
+updated: 2024-11-26
 ---
 
 ## Objectif
@@ -305,7 +305,6 @@ network:
             parameters:
                 mode: 802.3ad
                 transmit-hash-policy: layer3+4
-                mii-monitor-interval: 100
     vlans:
         bond0.1:
             dhcp4: no
@@ -381,4 +380,4 @@ Le test dure 10 secondes et vous obtiendrez la bande passante de votre cluster a
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

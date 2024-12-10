@@ -1,7 +1,7 @@
 ---
 title: Premiers pas avec un VPS
 excerpt: "Apprenez à gérer un VPS dans votre espace client et découvrez les premières étapes de son utilisation, notamment les connexions à distance et les mesures de sécurité"
-updated: 2024-10-30
+updated: 2024-11-22
 ---
 
 ## Objectif
@@ -147,8 +147,19 @@ La réinstallation de votre VPS peut être effectuée depuis votre espace client
 
 Dans la fenêtre qui apparaît, choisissez un système d'exploitation dans la liste déroulante. Les options proposées sont [des images compatibles avec un VPS OVHcloud](/pages/public_cloud/compute/image-life-cycle) et sont immédiatement fonctionnelles après l'installation.
 
-Vous pouvez également sélectionner une **clé SSH** à installer sur le système, si vous en avez stocké une précédemment dans votre [espace client OVHcloud](/links/manager). Pour tout savoir sur ce sujet, consultez notre guide « [Créer et utiliser des clés SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated) ».
-Si vous avez sélectionné une clé SSH et que vous n'avez pas besoin d'un identifiant et d'un mot de passe pour vous connecter, cochez la case `Je ne souhaite pas recevoir par e-mail les codes d'authentification de mon VPS.`.
+Si vous avez sélectionné un système d'exploitation compatible, vous pouvez fournir une **clé publique** à installer automatiquement. Deux possibilités s'offrent à vous :
+
+- Copiez manuellement la chaîne de clé et collez-la dans le champ `Votre clé SSH Publique`.
+- [Si vous avez précédemment stocké](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) une clé publique dans votre [espace client OVHcloud](/links/manager), sélectionnez la clé souhaitée dans le menu déroulant `Clé SSH à pré-installer`.
+
+![VPSnewreinstallation](images/reinstall.png){.thumbnail}
+
+Pour en savoir plus sur ce sujet, consultez nos guides :
+
+- [Comment créer et utiliser des clés pour l'authentification SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [Comment créer et utiliser des clés pour l'authentification SSH avec PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+
+Si vous avez sélectionné une clé SSH et que vous n'avez pas besoin de mot de passe pour vous connecter, activez l'option `Je ne souhaite pas recevoir par e-mail les codes d'authentification de mon VPS`.
 
 > [!warning]
 >
@@ -191,7 +202,7 @@ Lors de la première installation ou lors de la réinstallation à partir du Pan
 
 Vous recevrez alors un e-mail contenant le nom d'utilisateur et le mot de passe nécessaires pour vous connecter à votre VPS. Vous pouvez vous connecter en utilisant ces identifiants ou via SSH. SSH (**S**ecure **Sh**ell) est un protocole permettant de se connecter de manière sécurisée à un serveur distant, comme un VPS. Pour en savoir plus à ce sujet, consultez notre guide d'[introduction au SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-La plupart des systèmes d'exploitation de bureau actuels ont un client **Open SSH** installé par défaut. Cela signifie que vos identifiants d'accès vous permettent d'établir rapidement une connexion à votre VPS dans l'application de ligne de commande appropriée (« Terminal », « Invite de commande », « Powershell », etc.). Entrez la commande suivante :
+La plupart des systèmes d'exploitation de bureau actuels ont un client **OpenSSH** installé par défaut. Cela signifie que vos identifiants d'accès vous permettent d'établir rapidement une connexion à votre VPS dans l'application de ligne de commande appropriée (« Terminal », « Invite de commande », « Powershell », etc.). Entrez la commande suivante :
 
 ```bash
 ssh username@IPv4_VPS
@@ -203,7 +214,7 @@ Exemple :
 ssh ubuntu@203.0.113.101
 ```
 
-Vous pouvez également utiliser toute application tierce compatible avec **Open SSH**.
+Vous pouvez également utiliser toute application tierce compatible avec **OpenSSH**.
 
 <a name="linuxconnect"></a>
 

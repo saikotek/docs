@@ -123,4 +123,4 @@ Después de crear el evento (haciendo clic en `Enviar`{.action} en la barra supe
 
 [Compartir una carpeta desde la interfaz OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_directory_sharing)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -39,10 +39,10 @@ We recommend reading the [SSH introduction guide](/pages/bare_metal_cloud/dedica
 
 The following instructions cover two methods of using SSH keys:
 
-- [Creating an **Open SSH** key pair and connecting to a server from the command line SSH client](#openssh)
+- [Creating an **OpenSSH** key pair and connecting to a server from the command line SSH client](#openssh)
 - [Creating a `PuTTY` key pair and connecting to a server from the `PuTTY` SSH client](#useputty)
 
-You can use both methods side by side but keep in mind that `PuTTY` stores key files in a specific format which makes them incompatible with SSH key files created with the **Open SSH** client. This means that a private key created with the command line SSH client will have to be [converted to the `PuTTY` format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) first and vice versa.
+You can use both methods side by side but keep in mind that `PuTTY` stores key files in a specific format which makes them incompatible with SSH key files created with the **OpenSSH** client. This means that a private key created with the command line SSH client will have to be [converted to the `PuTTY` format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) first and vice versa.
 
 #### Creating an SSH key pair from the command line <a name="openssh"></a>
 
@@ -165,9 +165,9 @@ Copy the full key string to the clipboard in order to [add it to your server](#a
 
 > [!primary]
 >
-> The main purpose of `PuTTY` is managing SSH connections from a **Windows** client device to a **GNU/Linux** server. `PuTTY` stores key files in a specific format which makes them incompatible with SSH key files created with the **Open SSH** client natively included in most modern operating systems.
+> The main purpose of `PuTTY` is managing SSH connections from a **Windows** client device to a **GNU/Linux** server. `PuTTY` stores key files in a specific format which makes them incompatible with SSH key files created with the **OpenSSH** client natively included in most modern operating systems.
 >
-> If necessary, keys generated from the command line as explained above can be [converted into the `PPK` format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) in order to use them with the `PuTTY` client. For the most convenient use of SSH keys, decide on an option and stick to it (**Open SSH** private keys or `PuTTY` private keys).
+> If necessary, keys generated from the command line as explained above can be [converted into the `PPK` format](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-ssh2-keyfmt) in order to use them with the `PuTTY` client. For the most convenient use of SSH keys, decide on an option and stick to it (**OpenSSH** private keys or `PuTTY` private keys).
 >
 
 If it is not already installed (check your applications list or use the search function), download `PuTTY` from [the official website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). The recommended standard installation package contains `PuTTYgen` but it is available as a standalone file on the website as well.

@@ -149,8 +149,8 @@ Once you have entered all of the public IP addresses in the `Configured IPs` sec
 
 [Set up two-factor authentication on your OVHcloud Control Panel](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
 
-For specialised services (SEO, development, etc.), contact [OVHcloud partners](https://partner.ovhcloud.com/en-ca/directory/).
-
-If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](https://www.ovhcloud.com/en-ca/support-levels/).
-
-Join our community of users on <https://community.ovh.com/en/>. 
+For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+ 
+If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
+ 
+Join our [community of users](/links/community).

@@ -1,8 +1,14 @@
 ---
 title: Getting the source IP behind the LoadBalancer
 excerpt: 'Find out how to get the source IP behind the LoadBalancer on OVHcloud Managed Kubernetes'
-updated: 2022-09-14
+updated: 2024-12-05
 ---
+
+> [!warning]
+>
+> Usage of the [Public Cloud Load Balancer](/links/public-cloud/load-balancer) with Managed Kubernetes Service (MKS) is now in General Availability.
+> However this LoadBalancer (based on Octavia project) is not the default one yet for clusters running Kubernetes versions <1.31. For those clusters, you must use the annotation `loadbalancer.ovhcloud.com/class: octavia` to deploy an Octavia LoadBalancer from your MKS cluster.
+>
 
 ## Before you begin
 
@@ -147,7 +153,7 @@ Now you need to patch the Ingress controller to support the proxy protocol.
 > [!warning]
 > Depends on your Kubernetes cluster is working with private network or not, the proxy protocol configuration differs. Follow the tutorial parts according to your setup.
 
-#### 1a. [PUBLIC NETWORK ONLY] Get the list of the egress load balancer IPs 
+#### 1a. [PUBLIC NETWORK ONLY] Get the list of the egress load balancer IPs
 
 ```bash
 kubectl get svc ingress-nginx-controller -n ingress-nginx -o jsonpath="{.metadata.annotations.lb\.k8s\.ovh\.net/egress-ips}"
@@ -176,8 +182,11 @@ Copy the next YAML snippet in a `patch-ingress-controller-service.yml` file:
 
 ```yaml
 metadata:
-  annotations:
-    service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol: "v2"
+    annotations:
+      # For Managed Kubernetes Service version < 1.31
+      service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol: "v2"
+      # For Managed Kubernetes Service version >= 1.31
+      # loadbalancer.openstack.org/proxy-protocol : "v2"
 spec:
   externalTrafficPolicy: Local
 ```
@@ -238,7 +247,10 @@ controller:
   service:
     externalTrafficPolicy: "Local"
     annotations:
+      # For Managed Kubernetes Service version < 1.31
       service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol: "v2"
+      # For Managed Kubernetes Service version >= 1.31
+      # loadbalancer.openstack.org/proxy-protocol : "v2"
   config:
     use-proxy-protocol: "true"
     real-ip-header: "proxy_protocol"
@@ -252,7 +264,10 @@ controller:
   service:
     externalTrafficPolicy: "Local"
     annotations:
+      # For Managed Kubernetes Service version < 1.31
       service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol: "v2"
+      # For Managed Kubernetes Service version >= 1.31
+      # loadbalancer.openstack.org/proxy-protocol : "v2"
   config:
     use-proxy-protocol: "true"
     real-ip-header: "proxy_protocol"
@@ -320,7 +335,8 @@ If TLS is enabled for the Ingress, a Secret containing the certificate and key m
 ### 4. Testing
 
 > [!warning]
-> Due to DNS propagation the actual resolving of your Load Balancer FQDN can take an additional 2-5 minutes to be fully usable. In the meantime, you can use the included IP to access the load balancer.
+> Due to DNS propagation the actual resolving of your Load Balancer FQDN can take an additional 2-5 minutes to be fully usable. In the meantime, you can use the included IP to access the load balancer.  
+> The domain name generated for the service displayed in the `EXTERNAL-IP` fields is for cluster internal usage only. It should not be used to access the service from internet.
 >
 
 We can now deploy a simple echo service to verify that everything is working. The service will use the [`mendhak/http-https-echo` image](https://code.mendhak.com/docker-http-https-echo/), a very useful HTTPS echo Docker container for web debugging.
@@ -465,4 +481,4 @@ The precedent method should work in a similar way for any Ingress Controller. We
 
 - If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/fr/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-- Join our community of users on <https://community.ovh.com/>.
+- Join our [community of users](/links/community).

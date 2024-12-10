@@ -174,4 +174,4 @@ Les modems sont isolés dans leurs propre VLAN. Le WiFi des modems est donc indi
 
 Dans les autres cas de figure, il faudra utiliser un point d'accès WiFi dédié. Le WiFi de vos modems reste fonctionnel mais les équipements connectés ne profiteront ni de l'agrégation, ni du tunnel chiffré.
 
-N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom).
+Échangez avec notre [communauté d'utilisateurs](/links/community)..

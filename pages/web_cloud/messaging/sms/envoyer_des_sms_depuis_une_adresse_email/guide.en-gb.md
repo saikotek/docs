@@ -161,4 +161,4 @@ If you use characters that do not appear in these tables, the encoding will swit
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

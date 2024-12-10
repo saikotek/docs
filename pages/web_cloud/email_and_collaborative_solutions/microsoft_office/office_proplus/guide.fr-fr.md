@@ -99,4 +99,4 @@ Assurez-vous que sa valeur est à `1`. Si cette clé n'existe pas, vous pouvez l
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

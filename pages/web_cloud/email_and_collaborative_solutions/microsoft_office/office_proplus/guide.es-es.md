@@ -103,4 +103,4 @@ Asegúrese de que su valor sea de `1`. Si esta llave no existe, puede crearla.
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

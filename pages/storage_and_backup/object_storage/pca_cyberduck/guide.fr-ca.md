@@ -64,4 +64,4 @@ Cliquez alors sur `Connecter`{.action}. Une fois connecté, vous aurez accès à
 
 [Débuter avec l'API Swift](/pages/storage_and_backup/object_storage/pcs_getting_started_with_the_swift_api)
 
-Echangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

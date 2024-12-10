@@ -103,4 +103,4 @@ Stellen Sie sicher, dass er den Wert `1` hat. Wenn dieser Schlüssel nicht exist
 
 ## Weiterführende Informationen <a name="gofurther"></a>
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

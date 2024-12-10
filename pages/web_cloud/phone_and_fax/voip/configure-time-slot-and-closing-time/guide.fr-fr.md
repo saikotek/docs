@@ -124,4 +124,4 @@ Enfin, dans la partie `Paramètres` de la page, assurez-vous que le « **fuseau 
 
 [Configurer et consulter le répondeur de sa ligne](/pages/web_cloud/phone_and_fax/voip/configurer-consulter-repondeur-ligne-ovh)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

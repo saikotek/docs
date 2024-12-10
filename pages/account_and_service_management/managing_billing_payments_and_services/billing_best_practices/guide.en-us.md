@@ -48,7 +48,7 @@ Ensure your email address is always **up to date, accessible and secured**. Emai
 Emails sent by OVHcloud will be also visible in your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we).<br>
 Click on your name at the top right of your screen, then on `Service emails`{.action} in the right-hand menu.
 
-![service_emails](images/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 #### Automatic renewal
 
@@ -98,4 +98,4 @@ Then, submit a [request](https://ca.ovh.com/manager/#/dedicated/support/tickets/
 
 [Managing OVHcloud bills](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -1,12 +1,8 @@
 ---
 title: Como renovar os meus serviços OVHcloud
-excerpt: Descubra como gerir os seus serviços e a sua renovação na sua Área de Cliente
-updated: 2024-01-26
+excerpt: Saiba como gerir os seus serviços e a sua renovação na sua Área de Cliente
+updated: 2024-11-12
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -19,7 +15,7 @@ Este manual permitir-lhe-á:
 - [Conhecer as diferentes ações possíveis para cada um dos seus serviços](#actions)
 - [Descobrir quais as ações que podem ser agrupadas em vários serviços](#group-actions)
 
-**Descubra como gerir os seus serviços e a sua renovação na Área de Cliente OVHcloud.**
+**Saiba como gerir os seus serviços e a sua renovação na Área de Cliente OVHcloud.**
 
 > [!primary]
 >
@@ -77,13 +73,13 @@ Antes de continuar a ler este guia, deve preencher as seguintes condições:
 Aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).<br>
 Clique no seu nome no canto superior direito e escolha `Produtos e serviços`{.action}.
 
-![produtos e serviços](images/products-services-en.png){.thumbnail}
+![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 ### Apresentar o tipo de renovação <a name="renewal-type"></a>
 
 A página **Os meus serviços** contém uma tabela de gestão dos seus serviços OVHcloud. Nele, pode encontrar os nomes, o tipo de serviço, a disponibilidade do serviço (`Ativo` por defeito), o seu estado (tipo de renovação, ação a realizar, etc.), a próxima data de efeito da renovação ou da rescisão, bem como um botão `...`{.action} dedicado às ações possíveis para cada serviço.
 
-![Os meus serviços](images/my-services-en.png){.thumbnail}
+![Os meus serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-en.png){.thumbnail}
 
 > [!success]
 > Estão disponíveis ferramentas de ordenação, filtragem e pesquisa por cima da tabela.
@@ -91,7 +87,7 @@ A página **Os meus serviços** contém uma tabela de gestão dos seus serviços
 >
 > Os seus critérios de filtragem serão, então, apresentados por cima do quadro. Eis um exemplo de filtro que permite apresentar os nomes de domínios cuja renovação é manual e cuja data de fim de subscrição expira antes de um mês.
 >
->![manageautomaticréwal](images/filters-en.png){.thumbnail}
+>![manageautomaticréwal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-en.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -104,14 +100,14 @@ A página **Os meus serviços** contém uma tabela de gestão dos seus serviços
 
 À direita de um serviço, clique no botão `...`{.action} na coluna `Açōes` e, a seguir, numa ação à sua escolha.
 
-![menu ações](images/actions-en.png){.thumbnail}
+![menu ações](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-en.png){.thumbnail}
 
 **Cada ação é descrita em pormenor num dos separadores abaixo.**
 
 > [!tabs]
 > **Configurar a renovação**
 >>
->> ![configurar a renovação](images/configure-renewal-en.png){.thumbnail}
+>> ![configurar a renovação](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-en.png){.thumbnail}
 >>
 >> Clique na ação `Configurar a renovação`{.action}. Em função do serviço escolhido, pode parametrizá-lo para renovação manual ou escolher a frequência de renovação automática. Se necessário, poderá então escolher o tipo de renovação, bem como a frequência da mesma.
 >>
@@ -121,7 +117,7 @@ A página **Os meus serviços** contém uma tabela de gestão dos seus serviços
 >>
 > **Antecipar o pagamento**
 >>
->> ![antecipar o pagamento](images/forward-payment-en.png){.thumbnail}
+>> ![antecipar o pagamento](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-en.png){.thumbnail}
 >>
 >> Esta ação está disponível para os serviços **renovação automática**.
 >>
@@ -132,7 +128,7 @@ A página **Os meus serviços** contém uma tabela de gestão dos seus serviços
 >>
 > **Rescindir o meu compromisso**
 >>
->> ![Cancelar](images/cancel-en.png){.thumbnail}
+>> ![Cancelar](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 >>
 >> Esta ação está disponível para os serviços parametrizados para **renovação automática**.
 >>
@@ -142,7 +138,7 @@ A página **Os meus serviços** contém uma tabela de gestão dos seus serviços
 >>
 > **Renovar o serviço**
 >>
->> ![Renovar serviço](images/renew-service-en.png){.thumbnail}
+>> ![Renovar serviço](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-en.png){.thumbnail}
 >>
 >> Esta ação está apenas disponível para os serviços **renovação manual**.
 >>
@@ -151,7 +147,7 @@ A página **Os meus serviços** contém uma tabela de gestão dos seus serviços
 >>
 > **Pagar a minha fatura**
 >>
->> ![Pagar uma fatura](images/pay-bill-en.png){.thumbnail}
+>> ![Pagar uma fatura](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-en.png){.thumbnail}
 >>
 >> Aparece uma fatura com pagamento pendente quando:
 >>
@@ -167,7 +163,7 @@ A página **Os meus serviços** contém uma tabela de gestão dos seus serviços
 
 Tem a possibilidade de realizar ações agrupadas, selecionando vários serviços no quadro e clicando no botão `Ações`{.action}.
 
-![ações agrupadas](images/batch-actions-en.png){.thumbnail}
+![ações agrupadas](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-en.png){.thumbnail}
 
 O seguinte quadro especifica as ações agrupadas possíveis.
 
@@ -191,14 +187,8 @@ O seguinte quadro especifica as ações agrupadas possíveis.
 >> Para que a renovação automática possa ser ativada nos seus serviços, deve ter adicionado um método de pagamento válido à sua conta OVHcloud. Se este não for o caso ou se o método de pagamento estiver expirado, aparecerá uma mensagem de erro na Área de Cliente quando tentar ativar a renovação automática. Consulte o nosso guia "[Gerir os seus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)" para verificar ou adicionar um método de pagamento.
 > O meu método de pagamento já não é válido. Como adicionar um novo método de pagamento?
 >> Consulte o guia "[Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)". Antes de poder eliminar um método de pagamento obsoleto, deve adicionar um novo método de pagamento válido à sua conta OVHcloud.
-> Esqueci-me de renovar o meu nome de domínio a tempo, o que fazer?
->> Verifique o estado do domínio utilizando a ferramenta [Whois de um domínio](https://www.ovhcloud.com/pt/domains/whois/).
->> Se se tratar de um nome de domínio genérico (.com, .org. net, etc.), este ficará "reservado" durante um período dito de *graça*  (cerca de 7 dias) e durante o de *redenção* (cerca de 35 a 40 dias suplementares). Estes prazos são variáveis e dependem da extensão e das regras do registo que detém a extensão. Apenas você poderá renovar o nome de domínio durante estes dois períodos.
->> Durante o período de graça, poderá renová-lo através da Área de Cliente, seguindo as etapas deste guia.
->> Durante o período de redenção, o domínio não é gerido pela OVHcloud. A sua renovação através da Área de Cliente provocará custos suplementares (que variam em função da extensão).
->> Após o período de redenção, o domínio entra numa fase de eliminação que pode durar vários dias, antes de voltar ao domínio público. Se desejar recuperar a utilização, aconselhamos-o a utilizar a ferramenta [Whois de um domínio](https://www.ovhcloud.com/pt/domains/whois/) para verificar a sua disponibilidade regularmente.
-> Não quero renovar o meu nome de domínio mas transferi-lo para um outro escritório de representação que não seja a OVHcloud. Como fazer?
->> Siga as instruções do nosso guia "[Transferir um domínio para outro agente de registo](/pages/web_cloud/domains/transfer_outgoing_domain)".
+> Tenho uma questão relativa à renovação do meu nome de domínio
+>> Consulte o nosso guia "[Renovar os meus nomes de domínio OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)".
 > Não quero mais débito direto, mas não quero cancelar o meu serviço. O que devo fazer?
 >> Se o seu serviço o permitir, pode utilizar a ação [Configurar a renovação](#actions) e assim escolher uma renovação manual.
 > Renovei o meu serviço por 12 meses. Posso voltar atrás na minha escolha?
@@ -217,6 +207,8 @@ O seguinte quadro especifica as ações agrupadas possíveis.
 
 Este guia não respondeu à sua pergunta? Consulte [FAQ sobre faturação e pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
 
+[Renovar os meus nomes de domínio OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)
+
 [Gerir os métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
 [Como rescindir serviços da OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
@@ -225,4 +217,4 @@ Este guia não respondeu à sua pergunta? Consulte [FAQ sobre faturação e paga
 
 [Gerir a faturação das contas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

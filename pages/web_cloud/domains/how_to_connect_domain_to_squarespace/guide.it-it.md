@@ -4,10 +4,6 @@ excerpt: "Prepara e configura la zona DNS del dominio OVHcloud per connetterla a
 updated: 2024-05-15
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Se il dominio è registrato in OVHcloud e vuoi connetterlo a un hosting SquareSpace. Questa guida ti mostra la procedura da seguire per preparare e configurare la zona DNS di OVHcloud e configurare l’hosting SquareSpace.

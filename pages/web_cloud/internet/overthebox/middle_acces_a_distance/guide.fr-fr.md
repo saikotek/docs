@@ -70,6 +70,6 @@ Vous pouvez supprimer un accès à distance en cliquant sur le symbole en forme 
 
 ### Configurer un autre type d'ouverture de port
 
-Pour plus de détails sur l'ouverture de port afin d'accéder à un autre équipement sur votre réseau local, consultez le guide « [Comment configurer une redirection de port ?](/pages/web_cloud/internet/overthebox/middle_redirection_de_port) ».
+Pour plus de détails sur l'ouverture de port afin d'accéder à un autre équipement sur votre réseau local, consultez le guide « [Comment configurer le pare-feu (firewall) sur OverTheBox ?](/pages/web_cloud/internet/overthebox/middle_redirection_de_port) ».
 
-N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)
+Échangez avec notre [communauté d'utilisateurs](/links/community).

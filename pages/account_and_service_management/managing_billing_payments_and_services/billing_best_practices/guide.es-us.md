@@ -4,10 +4,6 @@ excerpt: Aquí encontrará los elementos imprescindibles para la correcta gesti�
 updated: 2022-05-02
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Esta guía explica los requisitos necesarios para una buena gestión de su cuenta y la facturación de sus servicios de OVHcloud.
@@ -52,7 +48,7 @@ Asegúrese de que su dirección de correo electrónico esté siempre **actualiza
 También puede acceder a los mensajes de correo enviados por OVHcloud desde su [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws).<br>
 Haga clic en su nombre en la esquina superior derecha de su pantalla y, seguidamente, en el menú de la derecha, haga clic en `Emails de servicio`{.action}.
 
-![service_emails](images/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 ### Active la renovación automática
 
@@ -102,4 +98,4 @@ A continuación, abra un [solicitud de asistencia](https://ca.ovh.com/manager/#/
 
 [Gestionar las facturas de OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

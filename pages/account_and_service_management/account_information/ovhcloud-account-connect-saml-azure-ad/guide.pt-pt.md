@@ -4,10 +4,6 @@ excerpt: "Saiba como associar o seu Entra ID (anteriormente Azure Active Directo
 updated: 2024-07-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Pode utilizar a autenticação **SSO** (*Single Sign-On*) para se ligar à sua conta OVHcloud. Para ativar estas ligações, a sua conta e o seu Entra ID (anteriormente Azure Active Directory) devem ser configurados através do SAML (*Security Assertion Markup Language*).
@@ -213,7 +209,7 @@ Clique no nome da sua conta no canto superior direito e, a seguir, no seu nome n
 
 Pode aceder ao menu IAM através da entrada dedicada na sua Área de Cliente.
 
-![Para aceder ao menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Para aceder ao menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 De seguida, clique no separador `Identidades`{.action} para aceder à gestão dos utilizadores locais.
 
@@ -297,4 +293,4 @@ Se o seu e-mail não aparecer abaixo de `Connected via SSO`, isto significa que 
 
 [Como utilizar as políticas IAM a partir do seu Espaço Cliente](/pages/account_and_service_management/account_information/iam-policy-ui)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

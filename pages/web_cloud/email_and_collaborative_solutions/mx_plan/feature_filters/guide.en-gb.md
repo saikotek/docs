@@ -145,4 +145,4 @@ In the Control Panel, the filter configuration looks like this:
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

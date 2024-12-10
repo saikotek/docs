@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra la definizione di un sottodominio e come crearl
 updated: 2024-03-05
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo <a name="goal"></a>
 
 Internet è composto da server e da dispositivi che interagiscono tra loro attraverso una rete globale. Quando questi server e i relativi dispositivi sono connessi alla rete Internet, viene loro assegnato un **indirizzo IP pubblico** (equivalente a un indirizzo postale). Questo *indirizzo IP* permette di raggiungere in remoto un server o un dispositivo. In questo modo, un utente è in grado di consultare un sito Web digitando questo indirizzo IP grazie al browser Internet installato sul suo computer.

@@ -134,4 +134,4 @@ Si ha configurado una de las cuentas migradas en un cliente de correo (p.ej.: Ou
 
 [Guides Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

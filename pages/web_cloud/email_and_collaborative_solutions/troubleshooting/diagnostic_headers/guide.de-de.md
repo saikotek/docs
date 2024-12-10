@@ -192,4 +192,4 @@ Um den Header im Webmail-Interface von &#60;Outlook.com&#62; anzuzeigen, folgen 
 
 [E-Mail FAQ](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

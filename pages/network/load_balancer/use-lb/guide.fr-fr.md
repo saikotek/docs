@@ -124,4 +124,4 @@ Si vous possédez déjà votre propre certificat SSL, il vous est possible de l'
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

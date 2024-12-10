@@ -61,4 +61,4 @@ OVHcloud propose une application web disposant de fonctions collaboratives. Cell
 >
 > Pour plus d'informations sur la configuration d'une adresse e-mail depuis l'application Outlook sur Windows, consultez [le centre d'aide Microsoft](https://support.microsoft.com/fr-fr/office/ajouter-un-compte-de-courrier-dans-outlook-6e27792a-9267-4aa4-8bb6-c84ef146101b).
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

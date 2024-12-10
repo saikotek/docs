@@ -102,4 +102,4 @@ A janela está dividida em duas partes, **Correio de entrada** e **Correio de sa
 
 [Configurar uma conta Exchange no Outlook para Windows](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_outlook_2016) (versão em inglês).
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

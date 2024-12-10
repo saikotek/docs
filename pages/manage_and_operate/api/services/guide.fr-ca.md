@@ -68,4 +68,4 @@ L'appel entraîne la suppression du service et des données et l'édition de la 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

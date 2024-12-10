@@ -86,7 +86,7 @@ Clicca sul nome del tuo account in alto a destra e poi di nuovo sul tuo nome nel
 
 Accedi al menu IAM tramite la voce dedicata dello Spazio Cliente.
 
-![Accesso al menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Accesso al menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 Clicca sulla scheda `Identità`{.action} per accedere alla gestione degli utenti locali.
 
@@ -169,4 +169,4 @@ Adesso sei connesso con lo stesso identificativo cliente, ma tramite l'utente Ok
 
 [Come utilizzare le politiche IAM dallo Spazio Cliente](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

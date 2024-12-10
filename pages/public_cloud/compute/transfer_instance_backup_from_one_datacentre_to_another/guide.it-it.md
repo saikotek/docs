@@ -1,16 +1,12 @@
 ---
 title: "Scaricare e trasferire il backup di un’istanza da una Region OpenStack ad un’altra"
 excerpt: "Scopri come scaricare e trasferire un backup di istanza da una Region OpenStack ad un’altra preservando la configurazione e lo stato dell’istanza"
-updated: 2023-09-25
+updated: 2024-12-03
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
-In alcuni casi, potrebbe essere necessario spostare un’[istanza Public Cloud](https://www.ovhcloud.com/it/public-cloud/) da una Region OpenStack a un’altra. Sia perché preferisci migrare verso una nuova Region OpenStack disponibile, sia perché vuoi migrare da OVHcloud Labs verso Public Cloud.
+In alcuni casi, potrebbe essere necessario spostare un’[istanza Public Cloud](/links/public-cloud/compute) da una Region OpenStack a un’altra. Sia perché preferisci migrare verso una nuova Region OpenStack disponibile, sia perché vuoi migrare da OVHcloud Labs verso Public Cloud.
 
 **Questa guida ti mostra come migrare un backup di istanza da una Region OpenStack a un’altra, preservandone la configurazione e lo stato.**
 
@@ -24,7 +20,7 @@ Per effettuare il trasferimento, avrete bisogno di un ambiente con:
 
 Questo ambiente verrà utilizzato come "jump host" per trasferire il backup da una regione all'altra. L’ambiente può essere costituito da un’istanza ospitata in OVHcloud o sulla macchina locale.
 
-È inoltre necessario creare un'[istanza Public Cloud](https://www.ovhcloud.com/it/public-cloud/) sull'account OVHcloud.
+È inoltre necessario creare un'[istanza Public Cloud](/links/public-cloud/compute) sull'account OVHcloud.
 
 ### Crea un backup
 
@@ -103,6 +99,23 @@ Per trasferire il backup nella nuova Region OpenStack, utilizza questo comando:
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow snap_server1
 ```
 
+> [!warning]
+>
+> Se l'istanza utilizza un'immagine Windows, è necessario aggiungere proprietà specifiche. In caso contrario, durante la creazione dell’istanza dallo Spazio Cliente OVHcloud non sarà possibile associare un flavor di tipo win-x-x. Questo tipo di flavor, e solo questo, permette l'autenticazione presso il [KMS OVHcloud](/pages/manage_and_operate/kms/quick-start).
+>
+
+Aggiunta di proprietà specifiche alla creazione dell'immagine:
+
+```bash
+$ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
+```
+
+Aggiunta di proprietà specifiche dopo la creazione dell'immagine:
+
+```bash
+$ openstack image set --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" <image_uuid>
+```
+
 ```text
 +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Field | Value |
@@ -131,6 +144,11 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 
 ### Crea un’istanza a partire da un backup
 
+> [!warning]
+>
+> Se l'istanza è un server Windows, è necessario selezionare un flavor di tipo win-xx-xx (ad esempio, win-b2-15) e disporre di un'interfaccia pubblica sulla rete Ext-Net. Senza queste condizioni, l'autenticazione presso il KMS OVHcloud non sarà possibile e il tuo server resterà con una [licenza non attivata](/pages/public_cloud/compute/activate-windows-license-private-mode). Ciò potrebbe comportare alcune limitazioni, in particolare la mancanza di aggiornamenti. Non è possibile ridimensionare un'istanza Linux (ad esempio b2-15) in un'istanza Windows (ad esempio win-b2-15). Per effettuare questa transizione, è necessario ricreare una nuova istanza.
+>
+
 Per creare un’istanza a partire dal backup, utilizza l’ID di backup come immagine con questo comando:
 
 ```bash
@@ -139,4 +157,4 @@ $ openstack server create --key-name SSHKEY --flavor 98c1e679-5f2c-4069-b4da-4a4
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

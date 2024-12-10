@@ -1,6 +1,6 @@
 ---
-title: "Se connecter à la base de données de votre serveur de bases de données"
-excerpt: "Découvrez comment se connecter à votre base de données"
+title: "Web Cloud Databases - Se connecter à une base de données"
+excerpt: "Découvrez comment se connecter à une base de données présente sur votre solution Web Cloud Databases"
 updated: 2023-10-31
 ---
 
@@ -179,6 +179,8 @@ Vous êtes maintenant bien connecté à votre base de données :
 ![config connection](/pages/assets/screens/other/web-tools/squirrel/general-dashboard.png){.thumbnail}
 
 ## Aller plus loin
+
+[Hébergement web - Ma base de données est saturée, que faire ?](/pages/web_cloud/web_hosting/sql_overquota_database).
 
 Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
 

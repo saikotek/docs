@@ -102,4 +102,4 @@ Okno jest podzielone na dwie części, **Poczta przychodząca** i **Wychodząca*
 
 [Konfiguracja konta Exchange w Outlook na systemie Windows](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_outlook_2016)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

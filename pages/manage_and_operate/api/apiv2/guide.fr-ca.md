@@ -164,4 +164,4 @@ Plusieurs bibliothèques sont disponibles pour utiliser les API OVHcloud :
 
 [Using Terraform with OVHcloud](/pages/manage_and_operate/terraform/terraform-at-ovhcloud) (guide en anglais)
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com).
+Échangez avec notre [communauté d'utilisateurs](/links/community).

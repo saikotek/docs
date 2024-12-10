@@ -45,7 +45,7 @@ Aby uzyskać dostęp do panelu zarządzania zamówieniami, zaloguj się do [Pane
 
 Poniżej zamieszczamy podsumowanie różnych wcześniejszych zamówień:
 
-![Podsumowanie zamówień](images/order03.png){.thumbnail}
+![Podsumowanie zamówień](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 W podsumowaniu znajdziesz następujące informacje:
 
@@ -116,4 +116,4 @@ Zaznacz kratkę `Tak, chcę anulować to zamówienie`{.action}, po czym zatwierd
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

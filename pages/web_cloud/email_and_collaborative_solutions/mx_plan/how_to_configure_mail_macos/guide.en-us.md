@@ -50,9 +50,9 @@ Follow the installation steps by clicking on the tabs below:
 > **Step 2**
 >>
 >> Enter the following information in the "**Add a Mail account**" window: <br><br>
->> - A **Name** for your email account
->> - Your **Email address**
->> - The **Password** of your email address<br>
+>> - A **Name** for your email account<br>
+>> - Your **Email address**<br>
+>> - The **Password** of your email address<br><br>
 >> ![mailmac](images/mail-mac-email02.png){.thumbnail .w-400 .h-600}
 >>
 > **Step 3**

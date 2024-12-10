@@ -1,7 +1,7 @@
 ---
-title: "Activer les adresses e-mails incluses dans votre hébergement web"
+title: "Hébergement web - Activer les adresses e-mails incluses"
 excerpt: "Découvrez comment activer les adresses e-mails incluses avec votre offre d'hébergement web"
-updated: 2024-10-01
+updated: 2024-12-09
 ---
 
 ## Objectif
@@ -75,7 +75,15 @@ Dans le cadre `Configuration`, cliquez sur le bouton `...`{.action} à droite de
 
 > [!warning]
 >
-> Pour confirmer la suppression de l'offre e-mail associée à votre hébergement web, un lien de validation vous est envoyé par e-mail. Il est indispensable de cliquer sur ce lien pour que l'opération de suppression soit lancée.
+> Pour confirmer la suppression de l'offre e-mail associée à votre hébergement web, un lien de validation vous est envoyé par e-mail. Vous devez obligatoirement cliquer sur ce lien pour que l'opération de suppression soit lancée.
+
+#### Cas particulier - Suppression de l'offre e-mail liée à votre hébergement web (afin de l'associer à un autre nom de domaine)
+
+Pour des raisons de sécurité, la suppression définitive d'une offre e-mail peut prendre plusieurs jours après avoir cliqué sur le lien de validation de suppression.
+
+Si vous souhaitez supprimer l'offre e-mail liée à votre hébergement web afin de l'associer à un autre nom de domaine, et **uniquement** dans ce cas précis, vous devez confirmer par écrit votre demande d'accélération de suppression de l'offre. Pour cela, contactez le support en créant un ticket d'assistance depuis votre [centre d'aide OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help). Le ticket d'assistance doit **obligatoirement** être créé depuis le compte client (et l'identifiant client correspondant) qui administre le service à supprimer.
+
+Une fois la demande traitée, vous pourrez alors associer l'offre e-mail liée à votre hébergement web à un autre nom de domaine.
 
 ## Aller plus loin
 

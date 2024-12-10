@@ -209,7 +209,7 @@ Click your account name in the top-right corner, then on your name again in the 
 
 You can access the IAM menu via the dedicated entry in your Control Panel.
 
-![Access to the IAM menu](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Access to the IAM menu](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 Then click on the `Identities`{.action} tab to access local users management.
 
@@ -285,4 +285,4 @@ If your email does not appear below `Connected via SSO`, this means you have not
 
 [How to use IAM policies using the OVHcloud Control Panel](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

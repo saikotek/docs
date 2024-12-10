@@ -93,4 +93,4 @@ OVHcloud propone anche un’applicazione Web con [funzionalità collaborative](/
 
 [Configurare un account Exchange sull’applicazione Posta per Windows](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_windows_10)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

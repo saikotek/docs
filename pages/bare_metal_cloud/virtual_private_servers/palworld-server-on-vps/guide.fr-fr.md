@@ -98,4 +98,4 @@ Pour connaître la liste des commandes disponibles, consultez la partie « Basic
 
 [FAQ VPS OVHcloud](/pages/bare_metal_cloud/virtual_private_servers/vps-faq)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

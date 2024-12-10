@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie eine Subdomain bei OVHcloud erstellen und n
 updated: 2024-03-05
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel <a name="goal"></a>
 
 Das Internet besteht aus Servern und Geräten, die über ein globales Netzwerk miteinander interagieren. Wenn diese Server und ihre Geräte mit dem Internet verbunden sind, wird ihnen eine **öffentliche IP-Adresse** (entspricht einer Postadresse) zugewiesen. Diese IP-Adresse ermöglicht es, sich mit einem Server oder einem Gerät zu verbinden. Das bedeutet, dass ein Benutzer über einen Webbrowser auf eine Website zugreifen kann, indem er diese IP-Adresse eingibt.

@@ -180,13 +180,13 @@ network:
 Sie können Ihre Konfiguration mit folgendem Befehl testen:
 
 ```bash
-sudo nano netplan try
+sudo netplan try
 ```
 
 Ist die Änderung korrekt, verwenden Sie folgenden Befehl:
 
 ```bash
-sudo nano netplan apply
+sudo netplan apply
 ```
 
 #### RedHat / CentOS / Rocky Linux / Alma Linux

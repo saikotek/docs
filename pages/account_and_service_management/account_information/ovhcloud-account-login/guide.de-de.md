@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie sich mit Ihrem OVHcloud Kunden-Account verb
 updated: 2024-02-27
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Die Verwaltung Ihrer Dienste erfolgt hauptsächlich über das OVHcloud Kundencenter.
@@ -108,4 +104,4 @@ Wenn Sie die E-Mail mit dem Code nicht erhalten haben, überprüfen Sie bitte de
 
 [Den OVHcloud Kunden-Account mit der Zwei-Faktor-Authentifizierung absichern](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

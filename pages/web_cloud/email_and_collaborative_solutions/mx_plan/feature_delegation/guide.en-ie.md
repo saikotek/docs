@@ -74,4 +74,4 @@ You can add multiple OVHcloud customer accounts to manage each email address.
 
 [Getting started with the MX Plan solution](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

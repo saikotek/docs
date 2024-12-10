@@ -86,4 +86,4 @@ A OVHcloud também disponibiliza uma aplicação web que tem [funcionalidades de
 
 [Configurar uma conta Exchange no Outlook para Mac](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/how_to_configure_outlook_2016_mac).
 
-Fale com a nossa comunidade de utilizadores em [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Fale com nossa [comunidade de utilizadores](/links/community).

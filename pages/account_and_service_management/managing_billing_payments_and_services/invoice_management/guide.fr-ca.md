@@ -51,7 +51,7 @@ La facture de votre service OVHcloud vous est envoyée suite au règlement d'une
 
 Pour consulter vos factures, rendez-vous dans votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc). Cliquez sur votre nom en haut à droite de votre écran puis, dans le nouveau menu qui apparaît, sur `Factures`{.action}.
 
-![Facturation](images/hubinvoices.png){.thumbnail}
+![Facturation](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 Vous arriverez alors sur une page récapitulative de vos différentes factures :
 
@@ -138,5 +138,4 @@ Depuis cet espace, vous pouvez également exporter vos justificatifs de paiement
 
 [Gérer mes moyens de paiement](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/en/>.
-
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -114,4 +114,4 @@ A partir do Outlook, a sua conta será partilhada na coluna da esquerda, da mesm
 
 [Adicionar um rodapé para as suas contas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

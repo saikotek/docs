@@ -1,12 +1,8 @@
 ---
 title: "Enterprise File Storage - Particularidades relativas a certos clientes NFS"
 excerpt: "Parâmetros específicos a verificar e/ou a aplicar relativamente à oferta Enterprise File Storage"
-updated: 2024-10-10
+updated: 2024-11-08
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -42,22 +38,6 @@ Como solução alternativa, o UID e o GID podem ser forçados a zero na máquina
 > - <https://learn.microsoft.com/en-gb/archive/blogs/msdn/sfu/can-i-set-up-user-name-mapping-in-windows-vista>
 > - <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753302(v=ws.10)?redirectedfrom=MSDN>
 > - <https://kb.netapp.com/on-prem/ontap/da/NAS/NAS-KBs/Unable_to_perform_write_operations_on_an_export_mounted_on_a_Windows_machine>
-
-#### Permita ligações de convidados não seguras para protocolos SMB2 e SMB3
-
-Poderá ser necessário ativar as ligações de convidado para aceder ao seu Enterprise File Storage, pois este não fornece uma conta de utilizador, mas apenas um acesso de convidado.
-
-Eis o procedimento que deve seguir para alterar a sua política de segurança em conformidade:
-
-- Execute num prompt de comando `gpedit.msc` e selecione `Edit group policy``.
-- No painel esquerdo, em `Local Computer Policy`, clique em `Computer Configuration\Administrative Templates\Network\Lanman Workstation`.
-- Abra `Enable insecure guest logons`, selecione `Enabled` e selecione `OK`.
-
-> [!primary]
->
-> **Documentação de referência:**
->
-> - <https://learn.microsoft.com/en-us/windows-server/storage/file-server/enable-insecure-guest-logons-smb2-and-smb3?tabs=group-policy>
 
 #### Peça a ativação da funcionalidade "showmount" ao suporte OVHcloud
 

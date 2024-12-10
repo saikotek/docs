@@ -119,7 +119,7 @@ Outside the read and write phase, the cartridges do not consume electricity. Thi
 
 #### Duration
 
-Magnetic tapes are built to last for decades (as opposed to an average of five years for modern discs).
+Magnetic tapes are built to last for decades (as opposed to an average of five years for modern disks).
 
 #### Security
 

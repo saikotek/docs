@@ -366,4 +366,4 @@ resource "openstack_lb_l7rule_v2" "l7rule_1" {
 
 ## Aller plus Loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

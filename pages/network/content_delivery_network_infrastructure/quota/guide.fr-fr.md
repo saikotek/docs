@@ -47,4 +47,4 @@ Que les fichiers soient pris en cache ou appelés sur le *back end* en passant p
 
 ## Aller plus loin
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

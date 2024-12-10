@@ -187,4 +187,4 @@ To view the header in the &#60;Outlook.com&#62; webmail interface, see the [Outl
 
 [Email FAQ](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

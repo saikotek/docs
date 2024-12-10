@@ -86,4 +86,4 @@ Pour que les changements soient correctement pris en compte, vous devez redémar
 
 **OverTheBox** étant basé sur **OpenWRT**, vous pouvez également consulter la [documentation OpenWRT](https://openwrt.org/docs/start).
 
-N'hésitez pas à échanger avec notre communauté d'utilisateurs sur vos produits Télécom sur notre site [OVHcloud Community](https://community.ovh.com/c/telecom)
+Échangez avec notre [communauté d'utilisateurs](/links/community).

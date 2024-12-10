@@ -6,7 +6,7 @@ updated: 2024-11-08
 
 ## Ziel
 
-OVHcloud [vRack](/links/network/vrack/) ist ein privates Netzwerk, mit dem Sie das Routing zwischen zwei oder mehr OVHcloud [Dedicated Servern](/links/bare-metal/bare-metal) einrichten können. Darüber hinaus können Sie auch [Public Cloud Instanzen](/links/public-cloud/compute) zu Ihrem privaten Netzwerk hinzufügen, um eine Infrastruktur aus physischen und virtuellen Ressourcen zu erstellen.
+OVHcloud [vRack](/links/network/vrack) ist ein privates Netzwerk, mit dem Sie das Routing zwischen zwei oder mehr OVHcloud [Dedicated Servern](/links/bare-metal/bare-metal) einrichten können. Darüber hinaus können Sie auch [Public Cloud Instanzen](/links/public-cloud/compute) zu Ihrem privaten Netzwerk hinzufügen, um eine Infrastruktur aus physischen und virtuellen Ressourcen zu erstellen.
 
 **Diese Anleitung erklärt, wie Sie eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps) und einen [dedizierten Server](/links/bare-metal/bare-metal) über vRack verbinden.**
 
@@ -65,7 +65,7 @@ Auf der nächsten Seite können Sie mehrere Einstellungen anpassen.
 
 Wählen Sie in Schritt 1 die Region aus, in der Sie das private Netzwerk platzieren möchten.
 
-![select region](images/vRack2024-01.png){.thumbnail}
+![select region](images/vrack2024-01.png){.thumbnail}
 
 Damit die beiden Dienste miteinander kommunizieren können, müssen sie mit derselben **VLAN-ID** getaggt sein.
 
@@ -100,7 +100,7 @@ Dieser Schritt bietet mehrere Konfigurationsoptionen. Für die Zwecke dieser Anl
 >> > [!primary]
 >> > Im Gegensatz zu Dedicated Servern (bei Verwendung einer VLAN-ID ungleich 0) ist es nicht erforderlich, die VLAN-ID direkt in die Netzwerkkonfigurationsdatei der Public Cloud-Instanz einzufügen, sobald sie im OVHcloud Kundencenter eingerichtet wurde.
 >>
->> Beispiel: Wenn Ihr privates Netzwerk der Instanz mit VLAN 2 getaggt ist, muss diese VLAN-ID nur in der Netzwerkkonfiguration des Dedicated Servers enthalten sein. Weitere Informationen finden Sie in folgender Anleitung: [Mehrere VLANs im vRack erstellen](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlan-in-a-vrack).
+>> Beispiel: Wenn Ihr privates Netzwerk der Instanz mit VLAN 2 getaggt ist, muss diese VLAN-ID nur in der Netzwerkkonfiguration des Dedicated Servers enthalten sein. Weitere Informationen finden Sie in folgender Anleitung: [Mehrere VLANs im vRack erstellen](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).
 >>
 > **Verteilungsoptionen für DHCP-Adressen**
 >>
@@ -111,7 +111,7 @@ Klicken Sie nach Abschluss der Konfiguration auf `Erstellen`{.action}. Dieser Vo
 
 Klicken Sie im Dashboard der entsprechenden Instanz auf den Button `...`{.action} im Feld "Netzwerke" neben "Privates Netzwerk(e)" und wählen Sie `Netzwerk verbinden`{.action}.
 
-![attach network](images/vRack2021-01.png){.thumbnail}
+![attach network](images/vrack2021-01.png){.thumbnail}
 
 Wählen Sie im angezeigten Fenster das oder die privaten Netzwerke aus, die Sie mit Ihrer Instanz verbinden möchten, und klicken Sie auf `Anfügen`{.action}.
 

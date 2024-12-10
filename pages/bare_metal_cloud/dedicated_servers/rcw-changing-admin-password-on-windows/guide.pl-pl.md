@@ -1,12 +1,9 @@
 ---
 title: "Jak zresetować hasło administratora za pomocą Rescue-Customer-Windows"
 excerpt: "Jak zresetować hasło administratora za pomocą Rescue-Customer-Windows"
-updated: 2024-06-26
+updated: 2024-11-15
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji” na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -20,8 +17,8 @@ Niniejszy przewodnik wyjaśnia, jak zresetować hasło `Administrator` przy uży
 
 > [!warning]
 >
-> Ten przewodnik nie jest kompatybilny z trybem `WinPE Rescue`.
-> Sprawdź [ten przewodnik](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows), jeśli korzystasz z trybu `WinPe Rescue`.
+> Ten przewodnik nie jest kompatybilny z trybem `WinPE Rescue` (WinRescue).
+> Sprawdź [ten przewodnik](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows), jeśli korzystasz z trybu `WinPe Rescue` (WinRescue).
 >
 
 ## W praktyce
@@ -87,8 +84,10 @@ Dysk lokalny jest teraz dostępny, a dysk systemu Windows odpowiada woluminowi "
 
 ![disk_import_sync](images/disk_import_sync.png){.thumbnail}
 
-__Note__: W tym przykładzie stan woluminu to "Resynching", ponieważ serwer został zrestartowany w trybie rescue. Jest to normalny stan, który nie jest spowodowany przez sam rescue.
-Nie wpłynie to na dane woluminu, a ponowna synchronizacja będzie kontynuowana po ponownym uruchomieniu serwera w zainstalowanym systemie.
+> [!primary]
+>
+> W tym przykładzie stan woluminu to "Resynching", ponieważ serwer został zrestartowany w trybie rescue. Jest to normalny stan, który nie jest spowodowany przez sam rescue.
+> Nie wpłynie to na dane woluminu, a ponowna synchronizacja będzie kontynuowana po ponownym uruchomieniu serwera w zainstalowanym systemie.
 
 > [!warning]
 >
@@ -126,7 +125,15 @@ Wybierz konto użytkownika "admin" i kliknij `Change password`{.action}.
 
 ![ntpwedit2](images/ntpwedit_2.png){.thumbnail}
 
-W oknie, które się pojawi, pozostaw pola puste i kliknij na `OK`{.action}. Na koniec kliknij `Zapisz zmiany`{.action}, a następnie `Zakończ`{.action}.
+W oknie, które się pojawi, wpisz w obu polach nowe hasło i kliknij na `OK`{.action}.
+
+> [!warning]
+>
+> Nowe hasło zostanie zaakceptowane bez sprawdzania jego złożoności.
+>
+> Pamiętaj, że to hasło pozwoli na zdalne połączenie z serwerem po ponownym uruchomieniu systemu operacyjnego.
+
+Zakończ klikając na `Save changes`{.action}, a następnie na `Exit`{.action}.
 
 Serwer musi zostać zrestartowany w normalnym systemie operacyjnym.
 
@@ -137,38 +144,6 @@ Rozpocznij od zmiany netbootu na `Boot from the hard disk`{.action} w Panelu kli
 Następnie zrestartuj serwer z poziomu panelu klienta. Kliknij przycisk `...`{.action} w pobliżu sekcji "Status usług" i wybierz `Restartuj`{.action}.
 
 ![reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/cp_dedicated_restart.png){.thumbnail}
-
-### Etap 4 - Ustaw nowe hasło (IPMI) <a name="step4"></a>
-
-W panelu [klienta OVHcloud](/links/manager) przejdź do zakładki `IPMI`{.action}, aby zalogować się do KVM.
-
-![adminpw3](images/adminpw3.png){.thumbnail}
-
-### W przypadku nowszej wersji systemu Windows
-
-Po połączeniu z serwerem kliknij ikonę menu `Start`{.action} na dole po lewej stronie.
-
-Zacznij wpisywać `Opcje połączenia`, a następnie kliknij `Opcje połączenia`{.action}, gdy pojawi się to w menu.
-
-![adminpw7](images/adminpw7.png){.thumbnail}
-
-Następnie w sekcji "Hasło" kliknij przycisk `Dodaj`{.action}, aby ustawić nowe hasło.
-
-![adminpw8](images/adminpw8.png){.thumbnail}
-
-### Dla starszej wersji systemu Windows
-
-Po ustanowieniu sesji KVM powinno się otworzyć okno wiersza poleceń (cmd).
-
-Ustaw hasło dla bieżącego użytkownika ("Administrator"):
-
-```bash
-net user Administrator *
-```
-
-![adminpw9](images/adminpw9.png){.thumbnail}
-
-Zalecamy używanie klawiatury wirtualnej podczas wprowadzania haseł w tym interfejsie.
 
 ## Sprawdź również
 

@@ -149,4 +149,4 @@ To access your migration project's tracking again, click on `Manage your migrati
 
 ## Go further
   
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

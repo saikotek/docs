@@ -76,7 +76,7 @@ To test a disk / identify its serial number, you must perform the smartctl comma
 <span class="output">Serial Number:    BTWH509602CV800CGN</span> </pre></div>
 The number **6** in this command corresponds to the Device ID of the disk (*Device ID* under MegaCLI, and *DID* under storCLI).
 
-This information is found in the disc listing, performed in the previous step.
+This information is found in the disk listing, performed in the previous step.
 
 We now know the Enclosure ID, the Slot ID, and the Serial Number of the drive to be replaced.
 
@@ -102,7 +102,7 @@ The command to flash the disk is as follows: MegaCli -PdLocate -start -physdrv [
 <span class="output">Status = Success</span>
 <span class="output">Description = Start Drive Locate Succeeded.</span> </pre></div>
 
-To turn the disc off after the operation, simply replace the "start" with "stop" in the above commands.
+To turn the disk off after the operation, simply replace the "start" with "stop" in the above commands.
 
 At this point, the procedure is ready to be performed. You can then provide the previously collected information to the support team and indicate that the disk is turned on.
 
@@ -258,7 +258,7 @@ Finally, it is preferable to repeat the operation of the stop locate seen previo
 
 In this guide, we assume you have received an alert for the failed **Slot Number 1**, **Serial Number BTWA547608CE800HGN** and you want to replace it hot.
 
-For this we will need the **Enclosure ID**, the **Slot Number**, and **Serial Number** of the disc to be replaced to communicate them to the Datacentre.
+For this we will need the **Enclosure ID**, the **Slot Number**, and **Serial Number** of the disk to be replaced to communicate them to the Datacentre.
 
 > [!primary]
 >
@@ -311,7 +311,7 @@ To perform the replacement operation, the HS drive must be switched on (flashing
 > Before turning on the LED of the disk that interests us here, we will first go through each disk to turn off the LEDs (in case a LED is always on after a previous intervention).
 >
 
-In this case, we have 4 discs that have as **Enclosure ID** 252, and as **Slot Number** 1, 2, 3, and 4.
+In this case, we have 4 disks that have as **Enclosure ID** 252, and as **Slot Number** 1, 2, 3, and 4.
 
 We will use the following command: ./MegaCli -PdLocate -stop -physdrv [EncID: SlotID] -a0
 
@@ -344,7 +344,7 @@ To do this, we use the following command: ./MegaCli -PdLocate -start -physdrv[En
 <span class="output">Adapter: 0: Device at EnclId-252 SlotId-1  -- PD Locate Start Command was successfully sent to Firmware</span>
 <span class="blank">&nbsp;</span>
 <span class="output">Exit Code: 0x00</span> </pre></div>
-At this point, the procedure is ready to be performed. You can then provide the information previously gathered (**Enclosure ID, Slot Number or Slot ID, Serial Number**), and indicate that the disc is turned on.
+At this point, the procedure is ready to be performed. You can then provide the information previously gathered (**Enclosure ID, Slot Number or Slot ID, Serial Number**), and indicate that the disk is turned on.
 
 ### Step 4 &#58; Check the rebuilding
 

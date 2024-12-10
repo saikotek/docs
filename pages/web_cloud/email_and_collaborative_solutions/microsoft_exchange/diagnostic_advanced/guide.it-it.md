@@ -125,4 +125,4 @@ Questo errore indica un errore generale nell'invio di email che può avere diver
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

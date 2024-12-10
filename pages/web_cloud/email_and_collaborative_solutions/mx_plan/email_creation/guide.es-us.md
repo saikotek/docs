@@ -229,4 +229,4 @@ A continuación se indican los parámetros necesarios para configurar una cuenta
 
 ## Más información
   
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

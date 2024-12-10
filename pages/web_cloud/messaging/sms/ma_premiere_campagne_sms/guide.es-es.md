@@ -87,4 +87,4 @@ Haga clic en el botón `Enviar`{.action} para enviar o planificar la campaña.
 
 Consulte [nuestra guía relativa a la gestión del historial de SMS](/pages/web_cloud/messaging/sms/gerer_l_historique_des_sms).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>
+Interactúe con nuestra [comunidad de usuarios](/links/community).

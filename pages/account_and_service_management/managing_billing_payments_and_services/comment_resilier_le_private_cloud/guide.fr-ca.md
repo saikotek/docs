@@ -48,7 +48,7 @@ Suite à votre demande, un e-mail de confirmation de résiliation vous est envoy
 
 Vous pouvez également retrouver cet e-mail dans votre espace client OVHcloud. Cliquez sur votre nom en haut à droite puis sur `E-mails de service`{.action}.
 
-![validation resiliation](images/resiliation4.png){.thumbnail}
+![validation resiliation](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 L'objet de l'e-mail est :
 
@@ -72,4 +72,4 @@ Vous devrez alors renseigner le token de validation disponible dans l'e-mail de 
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

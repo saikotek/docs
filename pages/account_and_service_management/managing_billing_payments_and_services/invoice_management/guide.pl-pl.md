@@ -4,10 +4,6 @@ excerpt: Dowiedz się, jak zarządzać fakturami i związanymi z nimi płatnośc
 updated: 2022-05-12
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 OVHcloud oddaje do Twojej dyspozycji Panel klienta, na którym możesz przeglądać, zarządzać i regulować faktury.
@@ -54,7 +50,7 @@ Faktura za usługę OVHcloud jest wysyłana po opłaceniu zamówienia lub odnowi
 
 Aby sprawdzić faktury, przejdź do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl). Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie w nowym menu, które się pojawi, kliknij `Faktury`{.action}.
 
-![Płatności](images/hubinvoices.png){.thumbnail}
+![Płatności](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 Zostaniesz wówczas przekierowany do strony z listą Twoich faktur:
 
@@ -144,5 +140,4 @@ W tej sekcji możesz również wyeksportować dokumenty potwierdzające płatno�
 
 [Zarządzanie sposobami płatności](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
-
+Dołącz do [grona naszych użytkowników](/links/community).

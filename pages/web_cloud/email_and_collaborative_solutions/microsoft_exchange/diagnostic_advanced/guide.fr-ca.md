@@ -121,4 +121,4 @@ Cette erreur indique un échec général d'envoi d'e-mails pouvant avoir plusieu
 
 ## Aller plus loin
 
-Rejoignez notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

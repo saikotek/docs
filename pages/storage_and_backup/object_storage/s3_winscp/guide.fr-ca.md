@@ -72,4 +72,4 @@ Une fois connecté, vous verrez une liste de vos buckets S3 sous la forme de *do
 
 Rejoignez notre communauté d’utilisateurs Discord : <https://discord.gg/ovhcloud>
 
-Échangez avec notre communauté d’utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -45,7 +45,7 @@ To access the Order Management Panel, log in to the [OVHcloud Control Panel](htt
 
 A summary of the various orders placed appears as below:
 
-![Order summary](images/order03.png){.thumbnail}
+![Order summary](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 On this page, you will see the following information:
 
@@ -116,4 +116,4 @@ You can confirm the order cancellation by simply ticking the box saying `Yes, I 
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

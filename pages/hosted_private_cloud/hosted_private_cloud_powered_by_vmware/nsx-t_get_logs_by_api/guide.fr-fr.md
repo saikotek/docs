@@ -87,4 +87,4 @@ Pour télécharger le support bundle de vos nodes ou cluster sur votre machine/s
 
 [Documentation NSX-T Datacenter Rest API](https://developer.vmware.com/apis/1707/)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

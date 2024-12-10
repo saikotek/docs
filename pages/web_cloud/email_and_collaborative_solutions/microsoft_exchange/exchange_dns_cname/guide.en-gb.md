@@ -110,4 +110,4 @@ To check that the CNAME record configuration has been successfully queried by yo
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

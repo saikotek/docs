@@ -88,4 +88,4 @@ Les guides de **dépannage** listés ci-dessous peuvent ne plus être à jour. P
 
 [Dépanner son téléphone Plug and Phone](/pages/web_cloud/phone_and_fax/voip/troubleshoot-02-fix-control-panel){.external}
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

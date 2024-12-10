@@ -43,4 +43,4 @@ Vous avez alors accès au tableau de bord NSX avec tous les menus associés.
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

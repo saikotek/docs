@@ -61,7 +61,7 @@ Enfin vous pouvez également réaliser les vérifications que vous trouverez dan
 
 #### Trucs et astuces :
 
-De nombreux conseils sont également proposés par les membres de notre communauté, vous pouvez les consulter sur le site [community.ovh.com](https://community.ovh.com/).
+De nombreux conseils sont également proposés par les membres de notre communauté, vous pouvez les consulter sur le site [community.ovhcloud.com](/links/community).
 
 ### Pourquoi mon débit est trop faible ?
 
@@ -87,4 +87,4 @@ Nous vous invitons à [nous contacter](https://www.ovh.com/fr/support/nous-conta
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

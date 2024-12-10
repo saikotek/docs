@@ -204,4 +204,4 @@ La vidéo ci-dessous vous détaille comment configurer un Hosted Private Cloud a
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

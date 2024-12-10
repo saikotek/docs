@@ -153,4 +153,4 @@ Aby ponownie przejść do strony pokazującej postęp Twojego projektu migracji,
 
 ## Sprawdź również
  
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

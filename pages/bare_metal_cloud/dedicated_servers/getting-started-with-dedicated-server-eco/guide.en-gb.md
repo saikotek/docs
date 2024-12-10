@@ -1,7 +1,7 @@
 ---
 title: "How to get started with a Kimsufi, So You Start or Rise dedicated server"
 excerpt: "Find out how to manage a Kimsufi, So You Start or Rise in the OVHcloud Control Panel and how to start with configuring and securing a server"
-updated: 2024-04-10
+updated: 2024-11-26
 ---
 
 ## Objective
@@ -41,7 +41,7 @@ A dedicated server is a physical server ("bare metal") located in one of our dat
 
 You can easily reinstall your server or choose a different OS image to install in your [OVHcloud Control Panel](/links/manager). From the `General information`{.action} tab, click on `...`{.action} next to the operating system and then click `Install`{.action}.
 
-![Reinstall button](images/reinstalling-your-server-01.png){.thumbnail}
+![Reinstall button](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
 In the popup window, select one of the installation options:
 
@@ -58,27 +58,35 @@ You can manage all your licences in the `Bare Metal Cloud`{.action} section unde
 
 Click `Next`{.action} to continue.
 
-![Template selection](images/reinstalling-your-server-02.png){.thumbnail}
+![Template selection](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
 
 After choosing `Install from an OVHcloud template`{.action} you can select the operating system from the drop-down menus.
 
-![Operating selection](images/reinstalling-your-server-03.png){.thumbnail}
+![Operating selection](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 
 If you need to modify the partioning scheme of your operating system, check the box "Customise the partition configuration" before clicking on `Next`{.action}.
 
-![partitioning configuration](images/reinstalling-your-server-04.png){.thumbnail}
+![partitioning configuration](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-04.png){.thumbnail}
 
 In this step you are able to set up RAID and partitioning options within the limits of the server's hardware and operating system.
 
 After you have finished your adjustments, click `Next`{.action} to arrive at the summary page.
 
-You will find additional questions that are specific to the chosen operating system.
+You will find additional options that are specific to the chosen operating system.
 
-For example, if you are installing a GNU/Linux-based operating system, you can add your SSH key in the last step of the installation process.
+![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-05.png){.thumbnail}
 
-For a detailed explanation on how to generate SSH keys, please refer to [this guide](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+If you have selected a compatible operating system, you can provide a **public key** to be installed automatically. You have two options:
 
-![SSH key configuration](images/reinstalling-your-server-05.png){.thumbnail}
+- Manually copy the key string and paste it into the field `Your Public SSH key`.
+- [If you have previously stored](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
+
+![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
+
+To find out more about this topic, consult our guides:
+
+- [How to create and use keys for SSH authentication](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [How to create and use keys for SSH authentication with PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 Finally, click `Confirm`{.action} to trigger the operating system installation on your dedicated server.
 
@@ -98,7 +106,7 @@ If you have installed an OVHcloud OS template on your server, a user with elevat
 
 You will then receive an email containing the information needed to establish a first connection with SSH. SSH is a secure communication protocol, used to establish encrypted connections to a remote host. You can find more detailed information in our guide: [Getting started with SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-Most current desktop operating systems will have an **Open SSH** client natively installed. This means that your access credentials allow you to quickly establish a connection to your server in the appropriate command line application (`Terminal`, `Command prompt`, `Powershell`, etc.). Enter the following command:
+Most current desktop operating systems will have an **OpenSSH** client natively installed. This means that your access credentials allow you to quickly establish a connection to your server in the appropriate command line application (`Terminal`, `Command prompt`, `Powershell`, etc.). Enter the following command:
 
 ```bash
 ssh username@IPv4
@@ -110,7 +118,7 @@ ssh username@IPv4
 ssh ubuntu@203.0.113.1
 ```
 
-You can use any third-party application compatible with **Open SSH** as well.
+You can use any third-party application compatible with **OpenSSH** as well.
 
 Once connected, you can replace the predefined password for the current user with a better passphrase by using this command:
 
@@ -136,10 +144,13 @@ passwd: password updated successfully
 >
 > It is not necessary to use the "root" user account to get started with administrating your server. This account has to be enabled first in the server OS in order to use it. Moreover, SSH connections with the user "root" are **disabled** by default as a security measure.
 > 
-Unless stated otherwise, all administrative actions described in our documentation can be accomplished by the default user account, i.e. typing `sudo` followed by the respective command. Learn more about this topic in our guide on [How to configure user accounts and root access on a server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
+Unless stated otherwise, all administrative actions described in our documentation can be accomplished by the default user account, i.e. typing `sudo` followed by the respective command. Learn more about this topic in our guide on [How to configure user accounts and root access on a server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds). 
 >
 
-Depending on your requirements for security, mobility and convenience, SSH keys can serve as an additional connection method or replace logins with username and password. Find out how to use them in our guide: [Creating and using SSH keys](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).
+Depending on your requirements for security, mobility and convenience, SSH keys can serve as an additional connection method or replace logins with username and password. Find out how to use them in our guides: 
+
+- [How to create and use keys for SSH authentication](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+- [How to create and use keys for SSH authentication with PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
 
 #### Windows
 
@@ -200,7 +211,7 @@ reboot
 
 However, you can carry out a "hard reboot" at any time in your [OVHcloud Control Panel](/links/manager). From the `General information`{.action} tab, click on `...`{.action} next to "Status" in the **Service status** box, then click `Restart`{.action} and `Confirm`{.action} the action in the popup window.
 
-![Rebooting](images/rebooting-your-server.png){.thumbnail}
+![Rebooting](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
 
 <a name="secure"></a>
 
@@ -216,7 +227,7 @@ If your server runs Windows, use [this guide](/pages/bare_metal_cloud/dedicated_
 
 You can set the monitoring status for a dedicated server from the `General information`{.action} tab in your [OVHcloud Control Panel](/links/manager) (section **Service status**).
 
-![Monitoring](images/monitoring-your-server.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server.png){.thumbnail}
 
 Click on the button `Configure`{.action}. In the popup window, you have three options for the monitoring behaviour:
 
@@ -224,7 +235,7 @@ Click on the button `Configure`{.action}. In the popup window, you have three op
 - **Enabled with proactive intervention**: If the server stops responding, an alert email is sent to you and the server will be checked by a technician.
 - **Enabled without proactive intervention**: You will receive an alert message by email in case the server stops responding. To initiate an intervention, you will need to create a support request.
 
-![Monitoring](images/monitoring-your-server2.png){.thumbnail}
+![Monitoring](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/monitoring-your-server2.png){.thumbnail}
 
 Click on `Confirm`{.action} to update your monitoring configuration.
 
@@ -233,11 +244,6 @@ You can find more information about OVHcloud Monitoring in [this guide](/pages/b
 <a name="network"></a>
 
 ### Network configuration
-
-> [!primary]
->
-> Please note that [Additional IP addresses](/links/network/additional-ip) are not compatible with the **Kimsufi** range.
->
 
 #### Network bridging
 

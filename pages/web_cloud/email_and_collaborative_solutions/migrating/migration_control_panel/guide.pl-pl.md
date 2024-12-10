@@ -186,4 +186,4 @@ Możesz również ręcznie przenieść Twoje konta e-mail do nowej usługi e-mai
 
 [Przewodniki Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange).
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

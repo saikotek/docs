@@ -173,4 +173,4 @@ To understand the difference between POP and IMAP, we will break down the elemen
 >
 > For more information on setting up an email address from the Gmail app on Android, see the [Google Help Center](https://support.google.com/mail/answer/21289?hl=en&co=GENIE.Platform%3DAndroid&oco=1#zippy=%2Cadd-an-account).
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

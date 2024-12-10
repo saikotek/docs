@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak powiązać Twoją usługę Google Workspace z Twoim 
 updated: 2024-07-05
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie
 
 Możesz użyć uwierzytelnienia **SSO** (*Single Sign-On*), aby zalogować się do Twojego konta OVHcloud. Aby aktywować te połączenia, Twoje konto OVHcloud oraz konta Google Workspace muszą być skonfigurowane za pomocą uwierzytelniania SAML (*Security Assertion Markup Language*).
@@ -91,7 +87,7 @@ Kliknij nazwę konta w prawym górnym rogu, a następnie ponownie na pasku boczn
 
 Aby uzyskać dostęp do menu IAM, przejdź do Panelu klienta.
 
-![Dostęp do menu IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Dostęp do menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 Następnie kliknij zakładkę `Tożsamości`{.action}, aby zarządzać użytkownikami lokalnymi.
 
@@ -194,4 +190,4 @@ Teraz jesteś zalogowany tym samym identyfikatorem klienta, ale za pomocą użyt
 
 [Jak korzystać z polityki IAM w Panelu klienta](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

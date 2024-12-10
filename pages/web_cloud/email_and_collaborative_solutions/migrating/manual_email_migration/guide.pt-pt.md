@@ -236,4 +236,4 @@ Na caixa de entrada e na coluna da esquerda, irá encontrar as pastas e os e-mai
 
 [Migrar contas de e-mail através do OVH Mail Migrator](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -246,4 +246,4 @@ W tym celu możesz utworzyć listę mailingową. Zapraszamy do zapoznania się z
 
 Jeśli Twoje potrzeby się zmienią i chcesz korzystać z dodatkowych funkcji, możesz również [przenieść adres e-mail MX Plan na konto E-mail Pro lub Exchange](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_control_panel).
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

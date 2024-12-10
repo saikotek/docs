@@ -47,7 +47,7 @@ Per connetterti in SSH, utilizza un terminale per interagire con lo spazio di st
 
 > [!primary]
 >
-> Su macOS, Linux et Windows 10 questo tool è installato di default. Sugli ambienti Windows meno recenti è invece necessario installare un software come PuTTY o aggiungere la funzionalità “OpenSSH”.
+> Su macOS, Linux et Windows 10 questo tool è installato di default. Sugli ambienti Windows meno recenti è invece necessario installare un software come [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) o aggiungere la funzionalità “OpenSSH”.
 
 A seconda del metodo che utilizzi, hai due possibilità per accedere:
 

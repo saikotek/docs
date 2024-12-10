@@ -114,4 +114,4 @@ Desde Outlook, encontrará su cuenta compartida en la columna de la izquierda, d
 
 [Añadir un pie de página para sus cuentas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_footers)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

@@ -67,4 +67,4 @@ Once your automatic reply has been created, it will appear in the table in the `
 
 [Email FAQ](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -48,7 +48,7 @@ Una volta inoltrata la richiesta, un’email di conferma della disattivazione vi
 
 Il messaggio è disponibile anche nello Spazio Cliente: clicca sul nome utente in alto a destra e seleziona `Email di servizio`{.action}.
 
-![Conferma disattivazione](images/resiliation4.png){.thumbnail}
+![Conferma disattivazione](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 L’oggetto dell’email dovrebbe essere:
 
@@ -72,4 +72,4 @@ In questo caso è necessario inserire il token riportato nell’email di conferm
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

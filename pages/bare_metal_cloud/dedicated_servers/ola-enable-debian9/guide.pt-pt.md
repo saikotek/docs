@@ -1,12 +1,8 @@
 ---
 title: 'Como configurar a NIC para o OVHcloud Link Aggregation em Debian 9 a 11'
 excerpt: 'Ative o OVHcloud Link Aggregation no seu servidor Debian 9 a 11'
-updated: 2024-10-16
+updated: 2024-11-26
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Sumário
 
@@ -64,8 +60,6 @@ iface bond0 inet static
   address 10.0.0.1/24
   bond-mode 802.3ad
   bond-slaves eno1 eno2
-  bond-miimon 100
-  bond-downdelay 200
   bond-lacp-rate fast
   bond-xmit_hash_policy layer3+4
 
@@ -89,8 +83,8 @@ Este reinício pode levar vários segundos, uma vez que está a construir a inte
 
 [Como configurar a NIC para o OVHcloud Link Aggregation na Área de Cliente OVHcloud](/pages/bare_metal_cloud/dedicated_servers/ola-enable-manager)
 
-[Como configurar a NIC para o OVHcloud Link Aggregation em CentOS 7](/pages/bare_metal_cloud/dedicated_servers/ola-enable-centos7)
-
 [Como configurar a NIC para o OVHcloud Link Aggregation em Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+[Como configurar a NIC para o OVHcloud Link Aggregation em  SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
+Fale com nossa [comunidade de utilizadores](/links/community).

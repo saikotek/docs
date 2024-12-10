@@ -70,4 +70,4 @@ Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und ändern S
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

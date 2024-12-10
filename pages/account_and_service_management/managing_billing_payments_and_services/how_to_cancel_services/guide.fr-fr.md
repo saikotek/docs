@@ -49,11 +49,11 @@ Des **cas particuliers** existent néanmoins et sont détaillés [plus bas](#spe
 
 Pour résilier l'abonnement à votre service, connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), cliquez sur votre nom en haut à droite puis sur le bouton `Produits et services`{.action}.
 
-![produits et services](images/products-services-fr.png){.thumbnail}
+![produits et services](/pages/assets/screens/control_panel/product-selection/right-column/products-services-fr.png){.thumbnail}
 
 Cliquez ensuite sur le bouton `...`{.action} à droite du service à résilier, puis sur `Résilier`{.action}.
 
-![résilier](images/cancel-fr.png){.thumbnail}
+![résilier](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-fr.png){.thumbnail}
 
 Précisez les raisons de votre demande de résiliation puis cliquez sur `Valider`{.action}.
 
@@ -66,7 +66,7 @@ Précisez les raisons de votre demande de résiliation puis cliquez sur `Valider
 
 La résiliation de votre service aura lieu à la **date d'effet** indiquée dans le tableau « Mes services ». Si vous ne voyez pas le statut « Résiliation demandée » apparaître, rafraîchissez la page.
 
-![demande de résiliation](images/cancellation-request-fr.png){.thumbnail}
+![demande de résiliation](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request-fr.png){.thumbnail}
 
 ### Cas particuliers <a name="specific-cases"></a>
 
@@ -156,7 +156,7 @@ Pour annuler une demande de résiliation, connectez-vous à votre [espace client
 
 Cliquez ensuite sur le bouton `...`{.action} à droite du service faisant l'objet d'une demande de résiliation puis sur `Annuler la résiliation du service`{.action} 
 
-![cancel_termination](images/cancel_termination-fr.png){.thumbnail}
+![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination-fr.png){.thumbnail}
 
 Enfin, cliquez sur `Confirmer l'annulation`{.action}.
 
@@ -196,4 +196,4 @@ L'annulation de la résiliation est à effet immédiat. Rafraîchissez la page �
 
 [Gérer le renouvellement de mes services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

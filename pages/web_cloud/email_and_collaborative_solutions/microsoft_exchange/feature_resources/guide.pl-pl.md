@@ -123,4 +123,4 @@ Po utworzeniu wydarzenia (kliknij `Wyślij`{.action} na górnym pasku menu), Exc
 
 [Współdzielenie katalogu w interfejsie OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_directory_sharing)
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

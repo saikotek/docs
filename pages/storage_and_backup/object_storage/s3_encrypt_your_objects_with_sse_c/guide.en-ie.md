@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Encrypt your server-side objects with SSE-C or SSE-S3
 excerpt: This guide explains how to encrypt your server-side objects with SSE-C or SSE-S3
-updated: 2024-04-17
+updated: 2024-11-29
 ---
 
 <style>
@@ -60,22 +60,18 @@ When you use SSE-C, you must provide encryption key information using the follow
 |:-----|:------------|
 | --sse​-customer-algorithm | Use this header to specify the encryption algorithm. The header value must be *AES256.* |
 | --sse-customer-key | Use this header to provide the 256-bit, base64-encoded encryption key for S3 Object Storage to use to encrypt or decrypt your data. |
-| --sse​-customer-key-md5<p class="optional">Optional</p>| Use this header to provide the base64-encoded 128-bit MD5 digest of the encryption key according to RFC 1321. S3 Object Storage uses this header for a message integrity check to ensure that the encryption key was transmitted without error. |
+| --sse​-customer-key-md5 | Use this header to provide the base64-encoded 128-bit MD5 digest of the encryption key according to RFC 1321. S3 Object Storage uses this header for a message integrity check to ensure that the encryption key was transmitted without error. |
 
 ### SSE-C - Server-Side Encryption with Client Encryption Keys
 
 #### Creating an encryption key
 
-Example of creating an encryption key ( *--sse-customer-key* ):
+Example of creating an encryption key ( *--sse-customer-key* ) with its MD5 hash:
 
 ```bash
-$ encKey=$(openssl rand -base64 32)
-```
-
-and the MD5 key ( *--sse-customer-key-md5* ):
-
-```bash
-$ md5Key=$(echo $encKey | md5sum | awk '{print $1}' | base64 -w0)
+$ secret=$(openssl rand 32)
+$ encKey=$(echo -n $secret | base64)
+$ md5Key=$(echo -n $secret | openssl dgst -md5 -binary | base64)
 ```
 
 #### Uploading an object with SSE-C
@@ -415,6 +411,6 @@ The OVHcloud Key Management Service (KMS) is a testament to our commitment to se
 
 ## Go further
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-ie/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on [https://community.ovh.com/en/](https://community.ovh.com/en/).
+Join our [community of users](/links/community).

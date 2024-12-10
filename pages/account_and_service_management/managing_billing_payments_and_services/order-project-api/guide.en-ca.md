@@ -124,4 +124,4 @@ With the following call you can create a link to your order. It is required to f
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

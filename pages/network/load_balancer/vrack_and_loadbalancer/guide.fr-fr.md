@@ -110,4 +110,4 @@ Pour rappel, un guide de configuration du Load Balancer est disponible : [Config
  
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -86,7 +86,7 @@ Haga clic en el nombre de su cuenta en la esquina superior derecha y, a continua
 
 Puede acceder al menú IAM desde la entrada dedicada del área de cliente.
 
-![Acceso al menú IAM](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![Acceso al menú IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 A continuación, haga clic en la pestaña `Identidades`{.action} para acceder a la gestión de los usuarios locales.
 
@@ -169,4 +169,4 @@ Ahora está conectado con el mismo ID de cliente, pero a través de su usuario O
 
 [Cómo utilizar las políticas IAM desde el área de cliente](/pages/account_and_service_management/account_information/iam-policy-ui).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

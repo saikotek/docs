@@ -14,7 +14,7 @@ You can configure Email Pro accounts on email clients, if they are compatible. B
 >
 > OVHcloud provides services which you are responsible for with regard to their configuration and management. You are therefore responsible for ensuring they function correctly.
 >
-> This guide is designed to assist you in common tasks as much as possible. If you encounter any difficulties performing these actions, please contact a [specialist service provider](/links/partner) and/or discuss the issue with our community on https://community.ovh.com/en/. OVHcloud cannot provide you with technical support in this regard.
+> This guide is designed to assist you in common tasks as much as possible. If you encounter any difficulties performing these actions, please contact a [specialist service provider](/links/partner) and/or discuss the issue with our [community of users](/links/community). OVHcloud cannot provide you with technical support in this regard.
 >
 
 ## Requirements
@@ -82,4 +82,4 @@ OVHcloud also offers a web application that includes [collaborative features](/l
 
 [Email FAQ](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

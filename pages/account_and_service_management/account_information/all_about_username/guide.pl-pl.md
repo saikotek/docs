@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak zoptymalizować bezpieczeństwo konta OVHcloud, zarz
 updated: 2021-07-01
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Zarządzanie usługami i danymi odbywa się głównie w Panelu klienta OVHcloud.
@@ -171,4 +167,4 @@ Jeśli zauważysz podejrzaną aktywność na koncie, [skontaktuj się z zespołe
 
 [W przypadku braku połączenia z Panelem klienta](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)
 
-Dołącz do społeczności naszych użytkowników na stronie<https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

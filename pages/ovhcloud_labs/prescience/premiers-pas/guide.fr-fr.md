@@ -211,4 +211,4 @@ Une fois calculés, ces indicateurs sont visibles dans la vue de votre modèle s
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

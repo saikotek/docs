@@ -49,11 +49,11 @@ However, there are **special cases** that are detailed [below](#specific-cases) 
 
 To cancel your service subscription, log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au), click on your name in the top right-hand corner, then on the `Products and services`{.action} button.
 
-![products and services](images/products-services.png){.thumbnail}
+![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 Next, click the `...`{.action} button to the right of the service you want to cancel, then `Cancel`{.action}.
 
-![cancel](images/cancel-en.png){.thumbnail}
+![cancel](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 
 Specify the reasons for your termination request, then click `Confirm`{.action}.
 
@@ -66,7 +66,7 @@ Specify the reasons for your termination request, then click `Confirm`{.action}.
 
 Your service will be cancelled on the **date of effect** listed in the “My services” table. If you do not see the status “Cancellation requested”, please refresh the page.
 
-![termination request](images/cancellation-request.png){.thumbnail}
+![termination request](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request.png){.thumbnail}
 
 ### Special cases <a name="specific-cases"></a>
 
@@ -109,7 +109,7 @@ To abort a cancellation request, log in to your [OVHcloud Control Panel](https:/
 
 Next, click the `...`{.action} button to the right of the service for which a cancellation request is being made, then `Stop cancellation of service`{.action}
 
-![cancel_termination](images/cancel_termination-en.png){.thumbnail}
+![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination-en.png){.thumbnail}
 
 Finally, click `Confirm cancellation`{.action}.
 
@@ -149,4 +149,4 @@ A termination of a cancellation procedure is effective immediately. Please refre
 
 [Managing renewal for OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

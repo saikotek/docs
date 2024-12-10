@@ -17,7 +17,7 @@ Die automatische [Migration](/pages/web_cloud/email_and_collaborative_solutions/
 > [!warning]
 >In dieser Anleitung erläutern wir die Verwendung einer oder mehrerer OVHcloud Lösungen mit externen Tools. Die durchgeführten Aktionen werden in einem bestimmten Kontext beschrieben. Denken Sie daran, diese an Ihre Situation anzupassen.
 >
-Bei Schwierigkeiten kontaktieren Sie bitte einen [spezialisierten Dienstleister](/links/partner) und/oder stellen Ihre Fragen in der OVHcloud Community unter https://community.ovh.com/. Leider können wir Ihnen für externe Dienstleistungen keine weitergehende Unterstützung anbieten. 
+Bei Schwierigkeiten kontaktieren Sie bitte einen [spezialisierten Dienstleister](/links/partner) und/oder stellen Ihre Fragen in der [OVHcloud Community](/links/community). Leider können wir Ihnen für externe Dienstleistungen keine weitergehende Unterstützung anbieten. 
 >
 
 ## Voraussetzungen
@@ -235,4 +235,4 @@ In Ihrem Posteingang und in der linken Spalte finden Sie die Ordner und E-Mails 
 
 [E-Mail-Accounts mit dem OVH Mail Migrator migrieren](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

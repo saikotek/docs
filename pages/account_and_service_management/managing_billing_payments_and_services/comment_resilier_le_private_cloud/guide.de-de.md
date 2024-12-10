@@ -48,7 +48,7 @@ Aufgrund Ihrer Anfrage wird Ihnen eine Bestätigung der Kündigung per E-Mail an
 
 Diese E-Mail können Sie auch in Ihrem OVHcloud Kundencenter einsehen. Klicken Sie auf Ihren Namen oben rechts, dann auf `E-Mails vom Support`{.action}.
 
-![Bestätigung der Kündigung](images/resiliation4.png){.thumbnail}
+![Bestätigung der Kündigung](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 Der Betreff der E-Mail ist:
 
@@ -72,4 +72,4 @@ In diesem Fall müssen Sie das Token zur Bestätigung eingeben. Es befindet sich
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

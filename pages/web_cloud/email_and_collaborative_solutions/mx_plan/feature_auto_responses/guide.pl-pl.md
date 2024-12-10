@@ -67,4 +67,4 @@ Po utworzeniu odpowiedzi automatycznej zostanie ona wyświetlona na liście wido
 
 [FAQ e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>
+Dołącz do [grona naszych użytkowników](/links/community).

@@ -4,10 +4,6 @@ excerpt: Come amministrare fatture e pagamenti dallo Spazio Cliente
 updated: 2022-05-12
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 OVHcloud mette a tua disposizione uno spazio per consultare, gestire e saldare le tue fatture.
@@ -54,7 +50,7 @@ La fattura del tuo servizio OVHcloud ti viene inviata in seguito al pagamento di
 
 Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) Clicca sul tuo nome in alto a destra e poi sul nuovo menu che appare su `Fatture`{.action}.
 
-![Fatturazione](images/hubinvoices.png){.thumbnail}
+![Fatturazione](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 
 Visualizzi una tabella con tutte le fatture associate al tuo identificativo:
 
@@ -144,5 +140,4 @@ In questo spazio è possibile esportare anche i giustificativi in formato *.csv*
 
 [Gestire i metodi di pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
-
+Contatta la nostra [Community di utenti](/links/community).

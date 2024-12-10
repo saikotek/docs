@@ -134,4 +134,4 @@ Jeśli skonfigurowałeś jedno z kont przeniesionych na klienta poczty elektroni
 
 [Przewodniki Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

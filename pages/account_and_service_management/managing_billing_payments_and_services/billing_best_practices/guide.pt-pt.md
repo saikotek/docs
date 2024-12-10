@@ -4,10 +4,6 @@ excerpt: Encontre aqui os elementos indispensáveis para a boa gestão das suas 
 updated: 2022-05-02
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Este guia contém os elementos indispensáveis a uma boa gestão da sua conta e da faturação dos seus serviços OVHcloud.
@@ -52,7 +48,7 @@ Certifique-se de que o seu endereço de e-mail está sempre **atualizado, seguro
 Os e-mails enviados pela OVHcloud também estão acessíveis a partir da [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).<br>
 Clique no seu nome no canto superior direito do seu ecrã e, a seguir, nos `E-mails de serviço`{.action} no menu à direita.
 
-![service_emails](images/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 ### Ative a renovação automática
 
@@ -102,4 +98,4 @@ De seguida, utilize [este formulário](https://www.ovh.pt/proteger-dados-pessoai
 
 [Gerir as minhas faturas OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management)
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

@@ -78,4 +78,4 @@ Malheureusement, la modification du profil de synchronisation n'est pas disponib
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>
+Échangez avec notre [communauté d'utilisateurs](/links/community).

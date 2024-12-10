@@ -275,4 +275,4 @@ Entrez la taille souhaitée et cliquez sur `OK`{.action}. Votre volume sera alor
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre [communauté d'utilisateurs](/links/community).

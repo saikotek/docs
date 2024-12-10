@@ -1,7 +1,7 @@
 ---
 title: Managing renewal for OVHcloud services
 excerpt: Find out how to manage automatic renewal for your services via the OVHcloud Control Panel
-updated: 2024-01-26
+updated: 2024-11-12
 ---
 
 ## Objective
@@ -71,13 +71,13 @@ This guide will help you to:
 Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/en/&ovhSubsidiary=en).<br>
 Click your name in the top right-hand corner, then choose `Products and services`{.action}.
 
-![products and services](images/products-services-en.png){.thumbnail}
+![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 ### Display renewal type <a name="renewal-type"></a>
 
 The **My services** page contains a table for managing your OVHcloud services. You can find their names, the type of service, service availability (`Active` by default), its status (renewal type, action to be taken, etc.), the next renewal or cancellation date of effect, and a `...`{.action} button dedicated to the possible actions for each service.
 
-![my services](images/my-services-en.png){.thumbnail}
+![my services](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-en.png){.thumbnail}
 
 > [!success]
 > Sorting, filtering, and searching tools are available above the table.
@@ -85,7 +85,7 @@ The **My services** page contains a table for managing your OVHcloud services. Y
 >
 > Your filter criteria will then be displayed above the table. Here is an example of a filter that can be used to display domain names that are renewed manually and have a subscription end date that expires before one month.
 >
-> ![manageautomaticrenewal](images/filters-en.png){.thumbnail}
+> ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-en.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -98,14 +98,14 @@ The **My services** page contains a table for managing your OVHcloud services. Y
 
 To the right of a service, click the `...`{.action}' button in the `Actions` column, then click on the action you want to perform.
 
-![actions menu](images/actions-en.png){.thumbnail}
+![actions menu](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-en.png){.thumbnail}
 
 **Each action is detailed in one of the tabs below.**
 
 > [!tabs]
 > **Configure renewal**
 >>
->>![configure renewal](images/configure-renewal-en.png){.thumbnail}
+>>![configure renewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-en.png){.thumbnail}
 >>
 >> Click the `Configure renewal`{.action} action. Depending on the service you have chosen, you can set it to manual renewal, or choose the automatic renewal frequency.
 >>
@@ -115,7 +115,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 > **Bring forward payment**
 >>
->>![anticipate payment](images/forward-payment-en.png){.thumbnail}
+>>![anticipate payment](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-en.png){.thumbnail}
 >>
 >> This action is available for services with **automatic renewal**.
 >>
@@ -126,7 +126,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 > **Cancel subscription**
 >>
->>![cancel](images/cancel-en.png){.thumbnail}
+>>![cancel](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 >>
 >> This action is available for services set to **automatic renewal**.
 >>
@@ -136,7 +136,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 > **Renew service**
 >>
->>![Renew service](images/renew-service-en.png){.thumbnail}
+>>![Renew service](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-en.png){.thumbnail}
 >>
 >> This action is only available for services with **manual renewal**.
 >>
@@ -145,7 +145,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 > **Pay my bill**
 >>
->>![Pay a bill](images/pay-bill-en.png){.thumbnail}
+>>![Pay a bill](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-en.png){.thumbnail}
 >>
 >> A `Bill to pay` statement is displayed when an invoice is awaiting payment and when:
 >>
@@ -161,7 +161,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 
 You can perform group actions by selecting several services in the table, then clicking on the `Actions`{.action} button.
 
-![bulk actions](images/batch-actions-en.png){.thumbnail}
+![bulk actions](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-en.png){.thumbnail}
 
 The table below details the possible group actions.
 
@@ -187,14 +187,8 @@ The table below details the possible group actions.
 >> To enable automatic renewal on your services, you must have added a valid payment method to your OVHcloud account. If this is not the case, or if the payment method has expired, an error message will appear in the OVHcloud Control Panel when you try to enable automatic renewal. Please refer to our guide on [Managing your payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) to add a payment method or check the current method's status.
 > My payment method has expired. How do I add a new payment method?
 >> Refer to our guide on [Managing your payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods). Before you can delete an obsolete payment method, you will need to add a new valid payment method into your OVHcloud account.
-> I forgot to renew my domain name in time, what should I do?
->> Start by checking the domain name’s status using the [WHOIS domain name tool](https://www.ovhcloud.com/asia/domains/whois/).
->> If it is a generic domain name (.com, .org, .net, etc.), it remains reserved for a "grace period" (approximately 7 days), followed by a "redemption period" (approximately 35 to 40 additional days). These delays vary, and depend on the extension and the rules of the registry that owns the extension. During these two periods, only you will be able to renew the domain name.
->> During the grace period, you can renew it via the OVHcloud Control Panel by following the steps in this guide.
->> During the redemption period, the domain is no longer managed by OVHcloud. Renewal via the OVHcloud Control Panel will incur an additional fee (this will vary depending on the extension).
->> After the redemption period, the domain name will enter a deletion phase that can take several days, before becoming public again. If you would like to use it again, we recommend using the [WHOIS domain name tool](https://www.ovhcloud.com/asia/domains/whois/) to check its availability regularly.
-> I do not want to renew my domain name, but transfer it to a registrar other than OVHcloud. How do I do this?
->> Follow the instructions in our guide “[Transferring a domain name to another registrar](/pages/web_cloud/domains/transfer_outgoing_domain)”.
+> I have a question regarding domain name renewal
+>> Read our guide on "[Renewing an OVHcloud domain name](/pages/web_cloud/domains/autorenew_domain_name)".
 > I no longer want to pay by direct debit, but I do not want to cancel my service. What should I do?
 >> If your service allows it, you can use the [Configure renewal](#actions) action and choose a manual renewal.
 > I have renewed my service for 12 months. Can I change my mind?
@@ -213,6 +207,8 @@ The table below details the possible group actions.
 
 This guide did not answer your question? View our [Billing and Payment FAQ](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
 
+[Renewing an OVHcloud domain name](/pages/web_cloud/domains/autorenew_domain_name)
+
 [Manage your payment methods](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)
 
 [How to cancel OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
@@ -221,4 +217,4 @@ This guide did not answer your question? View our [Billing and Payment FAQ](/pag
 
 [Manage billing for your Exchange accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
