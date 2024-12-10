@@ -79,7 +79,7 @@ Dort finden Sie außerdem Optionen zu dem von Ihnen ausgewählten Betriebssystem
 Wenn Sie ein kompatibles Betriebssystem ausgewählt haben, können Sie einen **öffentlichen Schlüssel** angeben, der automatisch installiert werden soll. Sie haben zwei Möglichkeiten:
 
 - Kopieren Sie die Schlüsselzeichenfolge manuell und fügen Sie sie in das Feld `Ihr öffentlicher SSH-Schlüssel` ein.
-- Wenn Sie zuvor einen öffentlichen Schlüssel in Ihrem [OVHcloud Kundencenter](/links/manager) gespeichert haben, wählen Sie den gewünschten Schlüssel im Drop-down-Menü `SSH-Schlüssel für die Vorinstallation` aus.
+- [Wenn Sie zuvor einen öffentlichen Schlüssel](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) in Ihrem [OVHcloud Kundencenter](/links/manager) gespeichert haben, wählen Sie den gewünschten Schlüssel im Drop-down-Menü `SSH-Schlüssel für die Vorinstallation` aus.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 

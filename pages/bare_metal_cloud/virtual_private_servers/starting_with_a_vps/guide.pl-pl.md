@@ -148,7 +148,7 @@ W oknie, które się pojawi, wybierz system operacyjny z rozwijanej listy. Propo
 
 Jeśli wybrano kompatybilny system operacyjny, możesz automatycznie zainstalować **klucz publiczny**. Masz dwie możliwości:
 
-- Ręcznie skopiuj ciąg klucza i wklej go w polu `Twój publiczny klucz SSH`.
+- [Ręcznie skopiuj ciąg](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) klucza i wklej go w polu `Twój publiczny klucz SSH`.
 - Jeśli wcześniej przechowywałeś klucz publiczny w Twoim [Panelu klienta OVHcloud](/links/manager), wybierz odpowiedni klucz z rozwijanego menu `Klucz(y) SSH, który chcesz wstępnie zainstalować`.
 
 ![VPSnewreinstallation](images/reinstall.png){.thumbnail}

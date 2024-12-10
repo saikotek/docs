@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak zarządzać serwerem dedykowanym w Panelu klienta i 
 updated: 2024-11-26
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie
 
 Serwer dedykowany to fizyczny serwer ("bare metal") zlokalizowany w jednym z naszych centrów danych. W przeciwieństwie do rozwiązań hostingowych (zwanych również "shared hosting"), którymi zarządza OVHcloud, w przypadku serwera dedykowanego to Ty jesteś w pełni odpowiedzialny za administrowanie nim.
@@ -95,7 +91,7 @@ W dokumentacji tej znajdziesz pytania dodatkowe specyficzne dla wybranego system
 
 Jeśli wybrano kompatybilny system operacyjny, możesz automatycznie zainstalować **klucz publiczny**. Masz dwie możliwości:
 
-- Ręcznie skopiuj ciąg klucza i wklej go w polu `Twój publiczny klucz SSH`.
+- [Ręcznie skopiuj ciąg](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) klucza i wklej go w polu `Twój publiczny klucz SSH`.
 - Jeśli wcześniej przechowywałeś klucz publiczny w Twoim [Panelu klienta OVHcloud](/links/manager), wybierz odpowiedni klucz z rozwijanego menu `Klucz(y) SSH, który chcesz wstępnie zainstalować`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}

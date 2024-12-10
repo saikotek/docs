@@ -79,7 +79,7 @@ Esto incluye preguntas adicionales específicas para el sistema operativo selecc
 Si ha seleccionado un sistema operativo compatible, puede proporcionar una **clave pública** para su instalación automática. Puede elegir entre dos opciones:
 
 - Copie manualmente la cadena de llave y péguela en el campo `Su llave SSH pública`.
-- Si previamente ha almacenado una clave pública en su [área de cliente de OVHcloud](/links/manager), seleccione la clave deseada en el menú desplegable `Llave SSH a preinstalar`.
+- [Si previamente ha almacenado](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) una clave pública en su [área de cliente de OVHcloud](/links/manager), seleccione la clave deseada en el menú desplegable `Llave SSH a preinstalar`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 

@@ -149,7 +149,7 @@ Na janela que aparece, escolha um sistema operativo da lista suspensa. As opçõ
 Se tiver selecionado um sistema operativo compatível, poderá fornecer uma **chave pública** para instalação automática. Tem duas possibilidades ao seu dispor:
 
 - Copie manualmente a cadeia de chaves e cole-a no campo `A sua chave SSH pública`.
-- Se tiver armazenado anteriormente uma chave pública na sua [Área de Cliente OVHcloud](/links/manager), selecione a chave pretendida no menu pendente `Chave(s) SSH a pré-instalar`.
+- [Se tiver armazenado anteriormente](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) uma chave pública na sua [Área de Cliente OVHcloud](/links/manager), selecione a chave pretendida no menu pendente `Chave(s) SSH a pré-instalar`.
 
 ![VPSnewreinstall](images/reinstall.png){.thumbnail}
 

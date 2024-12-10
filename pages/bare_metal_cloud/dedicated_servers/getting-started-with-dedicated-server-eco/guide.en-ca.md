@@ -79,7 +79,7 @@ You will find additional options that are specific to the chosen operating syste
 If you have selected a compatible operating system, you can provide a **public key** to be installed automatically. You have two options:
 
 - Manually copy the key string and paste it into the field `Your Public SSH key`.
-- If you have previously stored a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
+- [If you have previously stored](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 

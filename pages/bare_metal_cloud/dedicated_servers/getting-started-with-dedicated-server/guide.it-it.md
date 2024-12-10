@@ -4,10 +4,6 @@ excerpt: "Come gestire un server dedicato nello Spazio Cliente e come iniziare a
 updated: 2024-11-26
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Un server dedicato è un server fisico ("bare metal") situato in uno dei nostri datacenter. A differenza delle soluzioni di hosting Web (chiamate anche "shared hosting"), gestite tecnicamente da OVHcloud, sei l'unico responsabile della gestione del server dedicato.
@@ -96,7 +92,7 @@ In particolare, sono disponibili domande complementari specifiche per il sistema
 Se è stato selezionato un sistema operativo compatibile, è possibile fornire una **chiave pubblica** da installare automaticamente. Le opzioni disponibili sono due:
 
 - Copia manualmente la stringa di chiave e incollala nel campo `La tua chiave SSH pubblica`.
-- Se in precedenza hai salvato una chiave pubblica nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona la chiave desiderata nel menu a tendina `Chiavi SSH da preinstallare`.
+- [Se in precedenza hai salvato](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) una chiave pubblica nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona la chiave desiderata nel menu a tendina `Chiavi SSH da preinstallare`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 

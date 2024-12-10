@@ -92,7 +92,7 @@ Vous y trouverez notamment des questions complémentaires spécifiques au systè
 Si vous avez sélectionné un système d'exploitation compatible, vous pouvez fournir une **clé publique** à installer automatiquement. Deux possibilités s'offrent à vous :
 
 - Copiez manuellement la chaîne de clé et collez-la dans le champ `Votre clé SSH Publique`.
-- Si vous avez précédemment stocké une clé publique dans votre [espace client OVHcloud](/links/manager), sélectionnez la clé souhaitée dans le menu déroulant `Clé SSH à pré-installer`.
+- [Si vous avez précédemment stocké](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) une clé publique dans votre [espace client OVHcloud](/links/manager), sélectionnez la clé souhaitée dans le menu déroulant `Clé SSH à pré-installer`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 
