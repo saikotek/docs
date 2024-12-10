@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Smart Storage Management with Lifecycle Rules
 excerpt: Learn how to optimise your storage costs with OVHcloud lifecycle rules
-updated: 2024-12-09
+updated: 2024-12-10
 ---
 
 <style>
@@ -85,7 +85,7 @@ In a versioning-enabled bucket, each object has one current version and zero or 
 > Version 1 of lifecycle configuration (with Prefix attribute outside of Filter) is deprecated. We tolerate version 1 by automatically transforming the json to match version 2 format. However, we strongly advise you to use only version 2 as described below.
 >
 
-/// details | The following is the basic structure of a lifecycle configuration JSON containing expiration rules:
+/// details | The following is the basic structure of a lifecycle configuration JSON containing expiration rules
 
 
 ```JSON
@@ -161,7 +161,7 @@ In a versioning-enabled bucket, each object has one current version and zero or 
 
 If an object is scheduled to be deleted, a HEAD-OBJECT call will return a special http response header x-amz-expiration that contains a timestamp indicating its expiry date and an id of the lifecycle rule that has been applied.
 
-The header format is: x-amz-expiration: expiry-date=<timestamp>, rule-id=<rule-id>
+The header format is: `x-amz-expiration: expiry-date=<timestamp>, rule-id=<rule-id>`
 
 - expire-date: is obtained by adding the creation date and the delay from expiration
 - rule-id: the matched rule id triggering the deletion
@@ -239,10 +239,10 @@ The following configuration will direct OVHcloud Object Storage to abort all inc
 
 In the following configuration, there are 2 lifecycle rules:
 
-- rule "123456" permanently deletes all objects prefixed "old" 30 days after their creation
-- rule "456789" permanently deletes all objects prefixed "old/logs" 65 days after their creation
+- The rule "123456" permanently deletes all objects prefixed "old" 30 days after their creation.
+- The rule "456789" permanently deletes all objects prefixed "old/logs" 65 days after their creation.
 
-The same set of objects are eligible to both lifecycle rule. In this case, the first rule will apply after 30 days and the second rule will then be ignored because the objects will have been removed already.
+The same set of objects are eligible to both lifecycle rule. In this case, the first rule will apply after 30 days and the second rule will then be ignored because the objects will have already been removed.
 
 ```JSON
 {
@@ -277,10 +277,10 @@ The same set of objects are eligible to both lifecycle rule. In this case, the f
 
 In the following configuration, there are 2 lifecycle rules:
 
-- rule "123456" permanently deletes all objects tagged "age" with value "old" 30 days after their creation
-- rule "456789" permanently deletes all objects tagged "type" with value "logs" 65 days after their creation
+- The rule "123456" permanently deletes all objects tagged "age" with value "old" 30 days after their creation.
+- The rule "456789" permanently deletes all objects tagged "type" with value "logs" 65 days after their creation.
 
-If an object has both tags i.e if an object is tagged "age" with value "old" and "type" with value "logs", the first rule will apply after 30 days and the second rule will then be ignored because the object will have been removed already.
+If an object has both tags i.e if an object is tagged "age" with value "old" and "type" with value "logs", the first rule will apply after 30 days and the second rule will then be ignored because the object will have already been removed.
 
 ```JSON
 {
