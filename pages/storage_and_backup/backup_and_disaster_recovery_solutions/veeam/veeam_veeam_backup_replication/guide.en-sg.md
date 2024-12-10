@@ -16,7 +16,6 @@ Veeam Backup & Replication is a data protection software. It offers its users a 
 - Windows Server 2012 or a newer version
 - Veeam Backup & Replication v12.2 or earlier (v12.3 is not compatible).
 
-
 ## Instructions
 
 ### Setting up Veeam Backup & Replication
