@@ -14,7 +14,7 @@ Veeam Backup & Replication est un logiciel de protection des données. Il offre 
 
 - Posséder une [offre Veeam Enterprise](/links/hosted-private-cloud/veeam-enterprise).
 - Avoir à disposition une machine Windows Server 2012 ou une version plus récente.
-- Utiliser Veeam Backup & Replication v12.2 ou une version antérieure (v12.3 non compatible).
+- Utiliser Veeam Backup & Replication v12.2 ou une version antérieure (v12.3 n'est pas compatible).
 
 ## En pratique
 
