@@ -1902,6 +1902,8 @@
             + [Backing up a Bare Metal Linux Server with Veeam Enterprise](bare_metal_cloud/dedicated_servers/veeam-enterprise-server-backup-linux)
             + [Backing Up a Bare Metal Windows Server Using Veeam Agent for Windows](bare_metal_cloud/dedicated_servers/veeam-enterprise-server-backup-windows-agent)
             + [Restoring a Bare Metal Server with Veeam Enterprise](bare_metal_cloud/dedicated_servers/veeam-enterprise-server-restore)
+        + [HYCU for OVHcloud](storage-backup-and-disaster-recovery-solution-hycu)
+            + [Configuring HYCU Backup](hosted_private_cloud/nutanix_on_ovhcloud/40-hycu-backup)
         + [Managed Kubernetes - Data Protection](storage-backup-and-disaster-recovery-solution-kubernetes-data-protection)
             + [Backup and Restore OVHcloud Managed Kubernetes Cluster, Namespace and Applications using TrilioVault for Kubernetes](public_cloud/containers_orchestration/managed_kubernetes/backup-and-restore-cluster-namespace-and-applications-with-trilio)
             + [Backing-up an OVHcloud Managed Kubernetes cluster using CloudCasa](public_cloud/containers_orchestration/managed_kubernetes/backup-and-restore-cluster-using-cloudcasa)
