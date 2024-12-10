@@ -30,7 +30,7 @@ However, you can also choose to utilize one of the three alternative methods:
 
 - The **ovhai** command-line interface (CLI)
 - The **AI API** 
-- The **ovhai** Python SDK.
+- The **ovhai** Python SDK
 
 Each method offers its distinct advantages, depending on your expertise and preferred workflow.
 
