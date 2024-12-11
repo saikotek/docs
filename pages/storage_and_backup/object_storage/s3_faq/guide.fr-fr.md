@@ -179,6 +179,8 @@ Le trafic public entrant est représenté par la donnée téléchargée depuis I
 
 Le trafic public sortant est représenté par la donnée téléchargée d’un serveur OVHcloud vers Internet.
 
+Des limitations de trafic/bande passante publique peuvent exister pour un service OVHcloud donné et/ou pour une région donnée. Nous vous recommandons de consulter la documentation spécifique au service OVHcloud que vous utilisez pour plus de détails.
+
 ## Disponibilité
 
 ### Quel niveau de disponibilité puis-je atteindre avec Object Storage ?
