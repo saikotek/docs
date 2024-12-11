@@ -1,7 +1,7 @@
 ---
 title: Dashboards - Capacités et limitations (EN)
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for Dashboards
-updated: 2024-12-06
+updated: 2024-12-11
 ---
 
 ## Objective

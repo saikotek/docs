@@ -1,7 +1,7 @@
 ---
 title: Dashboards - Configure your Dashboards instance to accept incoming connections
 excerpt: Find out how to configure your Dashboards instance to accept incoming connections
-updated: 2022-12-06
+updated: 2024-12-11
 ---
 
 ## Objective
@@ -12,8 +12,8 @@ Public Cloud Databases allow you to focus on building and deploying cloud applic
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/en-ca/public-cloud/) in your OVHcloud account
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca)
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager)
 - A Dashboards service running on your OVHcloud Public Cloud Databases ([this guide](/pages/public_cloud/public_cloud_databases/databases_01_order_control_panel) can help you to meet this requirement)
 
 ## Instructions
@@ -22,7 +22,7 @@ Public Cloud Databases allow you to focus on building and deploying cloud applic
 
 Before making a connection, we need to verify that our Dashboards instance is correctly configured.
 
-Log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca) and open your `Public Cloud`{.action} project. Click on `Data Anlaysis`{.action} in the left-hand navigation bar and select your Dashboards instance.
+Log in to your [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Click on `Data Anlaysis`{.action} in the left-hand navigation bar and select your Dashboards instance.
 
 #### Step 1: Verify your user roles and password
 
@@ -53,7 +53,7 @@ You can edit and retract database access via the `...`{.action} button in the IP
 
 ### Connect to your Dashboards Instance
 
-Log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca) and open your `Public Cloud`{.action} project. Click on `Data Analysis`{.action} in the left-hand navigation bar and select your Dashboards instance, to collect the URI in the `Login informations` section of the `General information`{.action} tab.
+Log in to your [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Click on `Data Analysis`{.action} in the left-hand navigation bar and select your Dashboards instance, to collect the URI in the `Login informations` section of the `General information`{.action} tab.
 
 ![Login information tab](images/grafana_02_prepare_for_incoming_connections-20220530065929522.png){.thumbnail}
 
@@ -71,6 +71,6 @@ Learn more about Grafana® in the following tutorial: [Grafana fundamentals](htt
 
 Visit our dedicated Discord channel: <https://discord.gg/ovhcloud>. Ask questions, provide feedback and interact directly with the team that builds our databases services.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-ca/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

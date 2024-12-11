@@ -1,7 +1,7 @@
 ---
 title: "Public Cloud Databases - How to handle 'Disk Full' situations"
 excerpt: Find out how to avoid, analyse and fix a Public Cloud Databases service reaching its full disk capacity
-updated: 2024-12-11
+updated: 2023-07-24
 ---
 
 ## Objective
