@@ -20,7 +20,7 @@ Vous y trouverez deux approches : l'une sans nouveau serveur Veeam Enterprise et
 ### Étape 1 : Migration sans nouveau serveur Veeam Enterprise
 
 1. **Créer un espace de stockage Object Storage (bucket).**  
-   Suivez les étapes ici : [Créer un bucket Object Storage](https://help.ovhcloud.com/csm/fr-public-cloud-storage-s3-create-bucket?id=kb_article_view&sysparm_article=KB0047313).
+   Suivez les étapes ici : [Créer un bucket Object Storage](/pages/storage_and_backup/object_storage/s3_create_bucket).
 
 2. **Configurer un nouveau repository de sauvegarde.**  
    Consultez : [Configurer S3 sur Veeam](https://help.ovhcloud.com/csm/fr-public-cloud-storage-s3-veeam?id=kb_article_view&sysparm_article=KB0047499).
