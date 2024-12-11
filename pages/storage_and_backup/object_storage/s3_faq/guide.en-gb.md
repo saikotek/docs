@@ -183,6 +183,8 @@ Incoming public traffic is the data uploaded from the internet to an OVHcloud se
 
 Outgoing public traffic is the data downloaded from an OVHcloud server to the internet.
 
+Some traffic/public bandwidth limitations may exist for a given OVHcloud service and/or a given region. We recommend referring to the specific documentation of the OVHcloud service you are using for more details.
+
 ## Availability
 
 ### What level of availability can I achieve with Object Storage?
