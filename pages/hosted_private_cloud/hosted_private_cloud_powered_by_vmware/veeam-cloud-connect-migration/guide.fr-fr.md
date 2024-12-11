@@ -37,7 +37,6 @@ Vous y trouverez deux approches : l'une sans nouveau serveur Veeam Enterprise et
 
 > **Note** : Cette procédure peut varier selon votre configuration. Référez-vous aux guides officiels de Veeam pour des instructions détaillées.
 
----
 
 ### Étape 2 : Migration avec un nouveau serveur Veeam Enterprise
 
