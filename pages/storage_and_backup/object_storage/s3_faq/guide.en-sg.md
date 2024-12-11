@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ
 excerpt: "Frequently Asked Questions on the Object Storage solution"
-updated: 2024-11-25
+updated: 2024-12-11
 ---
 
 ## General questions
@@ -182,6 +182,8 @@ Outgoing internal traffic is data downloaded from an OVHcloud server to an OVHcl
 Incoming public traffic is the data uploaded from the internet to an OVHcloud server.
 
 Outgoing public traffic is the data downloaded from an OVHcloud server to the internet.
+
+Some traffic/public bandwidth limitations may exist for a given OVHcloud service and/or a given region. We recommend referring to the specific documentation of the OVHcloud service you are using for more details.
 
 ## Availability
 

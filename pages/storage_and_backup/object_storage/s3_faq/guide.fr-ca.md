@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ
 excerpt: "FAQ sur la solution Object Storage"
-updated: 2024-11-25
+updated: 2024-12-11
 ---
 
 ## Questions générales
@@ -178,6 +178,8 @@ Le trafic interne sortant est représenté par la donnée téléchargée d’un 
 Le trafic public entrant est représenté par la donnée téléchargée depuis Internet vers un serveur OVHcloud.
 
 Le trafic public sortant est représenté par la donnée téléchargée d’un serveur OVHcloud vers Internet.
+
+Des limitations de trafic/bande passante publique peuvent exister pour un service OVHcloud donné et/ou pour une région donnée. Nous vous recommandons de consulter la documentation spécifique au service OVHcloud que vous utilisez pour plus de détai
 
 ## Disponibilité
 
