@@ -17,7 +17,7 @@ Vous y trouverez deux approches : l'une sans nouveau serveur Veeam Enterprise et
 
 ## En pratique
 
-### Étape 1 : Migration sans nouveau serveur Veeam Enterprise
+### Option 1 - Migration sans nouveau serveur Veeam Enterprise
 
 1. **Créer un espace de stockage Object Storage (bucket).**  
    Suivez les étapes ici : [Créer un bucket Object Storage](/pages/storage_and_backup/object_storage/s3_create_bucket).
