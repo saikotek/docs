@@ -709,7 +709,7 @@
             + [Public Cloud Databases - How to setup logs forwarding](public_cloud/public_cloud_databases/databases_16_logs_to_customer)
             + [Public Cloud Databases - How to setup your Kubernetes database operator](public_cloud/public_cloud_databases/databases_12_operator)
             + [Public Cloud Databases - How to setup a service integration](public_cloud/public_cloud_databases/databases_07_cross_service_integration)
-            + [Public Cloud Databases - How to setup a prometheus endpoint to fetch your service metrics](public_cloud/public_cloud_databases/databases_17_metrics_via_prometheus)
+            + [Public Cloud Databases - How to fetch service metrics with Prometheus](public_cloud/public_cloud_databases/databases_17_metrics_via_prometheus)
         + [MongoDB](products/public-cloud-databases-mongodb)
             + [Guides](public-cloud-databases-mongodb-guides)
                 + [MongoDB - Getting Started](public_cloud/public_cloud_databases/mongodb_13_getting_started)
