@@ -1,7 +1,7 @@
 ---
 title: "Comparison of S3 Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones"
 excerpt: "Explore OVHcloud's S3 Object Storage deployment modes"
-updated: 2024-11-25
+updated: 2024-12-11
 ---
 
 ## Objective
@@ -105,9 +105,9 @@ Local Zones are designed to bring OVHcloud services closer to end-users, minimiz
 | Characteristics        | 1-AZ Region                         | 3-AZ Region                     | Local Zones                              |
 |------------------------|-------------------------------------|---------------------------------|------------------------------------------|
 | **Deployment Structure**   | Single availability zone            | Three independent availability zones | Single availability zone                |
-| **Redundancy**             | 2N+1 internal                       | Cross-zone redundancy            | No inter-zone redundancy                 |
-| **Data Availability**      | Limited during data center outages, protected against server/disk failures | Maintained across availability zones | Limited to the Local Zone                |
-| **Latency**                | Moderate                            | Low between availability zones   | Ultra-low for end-users                  |
+| **Redundancy**             | 2N+1 internal                       | Cross-zone redundancy            | Local triple replication                |
+| **Data Availability**      | Limited during data center outages, protected against server/disk failures | Maintained across availability zones | Limited during data center outages, protected against server/disk failures |
+| **Latency**                | Low for close end-users                            | Low for close end-users and ultra low between availability zones   | Low for close end-users |
 | **Ideal Use Cases**        | General-purpose applications, backups | Mission-critical and availability-sensitive applications | Latency-sensitive, regional applications |
 | **Cost**                   | Lower                               | Higher due to increased redundancy | Dependent on the specific local zone and required latency performance |
 

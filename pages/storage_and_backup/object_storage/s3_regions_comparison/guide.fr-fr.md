@@ -1,7 +1,7 @@
 ---
 title: "Comparaison des modes de déploiement S3 - Présentation des régions 3-AZ / 1-AZ / Local Zones"
 excerpt: "Découvrez les modes de déploiement de l'Object Storage S3 OVHcloud"
-updated: 2024-11-25
+updated: 2024-12-11
 ---
 
 ## Objectif
@@ -105,9 +105,9 @@ Les Local Zones rapprochent les services d'OVHcloud des utilisateurs finaux, min
 | Caractéristiques          | Région 1-AZ                              | Région 3-AZ                            | Local Zones                             |
 |---------------------------|------------------------------------------|----------------------------------------|-------------------------------------------|
 | **Structure de déploiement** | Zone de disponibilité unique               | Trois zones indépendantes              | Zone de disponibilité unique              |
-| **Redondance**             | 2N+1 interne                               | Redondance inter-zones                 | Pas de redondance entre zones             |
-| **Disponibilité des données** | Limitée si panne d'un datacenter, mais résilience à la panne de serveurs/disques | Maintenue entre zones de disponibilité  | Limitée à la Local Zone                  |
-| **Latence**               | Modérée                                   | Faible entre zones de disponibilité    | Ultra-faible pour les utilisateurs finaux |
+| **Redondance**             | 2N+1 interne                               | Redondance inter-zones                 | Triple réplication locale           |
+| **Disponibilité des données** | Limitée si panne d'un datacenter, mais résilience à la panne de serveurs/disques | Maintenue entre zones de disponibilité  | Limitée si panne d'un datacenter, mais résilience à la panne de serveurs/disques  |
+| **Latence**               | Faible pour les utilisateurs finaux proches | Faible pour les utilisateurs finaux proches et ultra-faible entre zones de disponibilité | Faible pour les utilisateurs finaux proches |
 | **Cas d'utilisation**     | Applications générales, sauvegardes       | Applications critiques                 | Applications sensibles à la latence, application régionales       |
 | **Coût**                  | Optimisé                                  | Plus élevé, en raison d'une résilience accrue      | Dépend de la zone et des besoins en matière de latence / performances          |
 
