@@ -1,5 +1,5 @@
 ---
-title: "Veeam Cloud Connect - How to Migrate Data from Veeam Cloud Connect to Object Storage"
+title: "Veeam Cloud Connect - How to migrate data from Veeam Cloud Connect to Object Storage"
 excerpt: "Discover two solutions to migrate your Veeam Cloud Connect data to Object Storage using Veeam Backup & Replication Enterprise Edition"
 updated: 2024-12-11
 ---
@@ -18,7 +18,7 @@ You will find two approaches: one without a new Veeam Enterprise server and anot
 
 ## Instructions
 
-### Option 1 - Migration Without a New Veeam Enterprise Server
+### Option 1 - Migration without a new Veeam Enterprise server
 
 > [!primary]
 >
@@ -46,7 +46,7 @@ Use the `Add Existing Backup`{.action} option in the Veeam Backup & Replication 
 
 Include the migrated data in an existing job or create a new one.
 
-### Option 2 - Migration With a New Veeam Enterprise Server
+### Option 2 - Migration with a new Veeam Enterprise server
 
 > [!primary]
 >
@@ -82,4 +82,4 @@ Include the migrated data in an existing job or create a new one.
 
 If you need training or technical assistance to implement our solutions, contact your account manager or click [here](/links/professional-services) to request a quote and a personalized project analysis from our Professional Services team.
 
-Engage with our [user community](/links/community).
+Join our [community of users](/links/community).
