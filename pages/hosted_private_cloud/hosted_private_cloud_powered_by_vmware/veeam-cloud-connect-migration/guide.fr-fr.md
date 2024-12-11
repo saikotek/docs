@@ -23,7 +23,7 @@ Vous y trouverez deux approches : l'une sans nouveau serveur Veeam Enterprise et
    Suivez les étapes ici : [Créer un bucket Object Storage](/pages/storage_and_backup/object_storage/s3_create_bucket).
 
 2. **Configurer un nouveau repository de sauvegarde.**  
-   Consultez : [Configurer S3 sur Veeam](https://help.ovhcloud.com/csm/fr-public-cloud-storage-s3-veeam?id=kb_article_view&sysparm_article=KB0047499).
+   Consultez : [Configurer S3 sur Veeam](/pages/storage_and_backup/object_storage/s3_veeam).
 
 3. **Exporter les données de backup depuis Veeam Cloud Connect.**  
    Utilisez l'option "Export Entire Backup Chain" dans la console Cloud Connect.  
@@ -41,13 +41,13 @@ Vous y trouverez deux approches : l'une sans nouveau serveur Veeam Enterprise et
 ### Option 2 - Migration avec un nouveau serveur Veeam Enterprise
 
 1. **Créer un espace de stockage Object Storage (bucket).**  
-   Suivez les étapes ici : [Créer un bucket Object Storage](https://help.ovhcloud.com/csm/fr-public-cloud-storage-s3-create-bucket?id=kb_article_view&sysparm_article=KB0047313).
+   Suivez les étapes ici : [Créer un bucket Object Storage](/pages/storage_and_backup/object_storage/s3_create_bucket).
 
 2. **Installer et configurer Veeam Backup & Replication sur le nouveau serveur.**  
    Vérifiez que la version est compatible avec votre installation actuelle de Veeam Cloud Connect.
 
 3. **Configurer un nouveau repository de sauvegarde sur le serveur.**  
-   Consultez : [Configurer S3 sur Veeam](https://help.ovhcloud.com/csm/fr-public-cloud-storage-s3-veeam?id=kb_article_view&sysparm_article=KB0047499).
+   Consultez : [Configurer S3 sur Veeam](/pages/storage_and_backup/object_storage/s3_veeam).
 
 4. **Exporter les données de backup depuis Veeam Cloud Connect.**  
    Utilisez l'option "Export Entire Backup Chain".  
