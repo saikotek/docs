@@ -1,7 +1,7 @@
 ---
-title: Grafana - Références des paramètres avancés (EN)
-excerpt: This guide lists all the supported advanced parameters that allow you to configure your Public Cloud Databases for Grafana according to your use cases
-updated: 2023-02-06
+title: Dashboards - Références des paramètres avancés (EN)
+excerpt: This guide lists all the supported advanced parameters that allow you to configure your Public Cloud Databases for Dashboards according to your use cases
+updated: 2024-12-11
 ---
 
 <style>
@@ -29,7 +29,7 @@ updated: 2023-02-06
 
 ## Objective
 
-This guide lists all the supported advanced parameters that allow you to configure your Public Cloud Databases for Grafana according to your use cases.
+This guide lists all the supported advanced parameters that allow you to configure your Public Cloud Databases for Dashboards according to your use cases.
 
 ## Requirements
 
@@ -48,9 +48,9 @@ This guide lists all the supported advanced parameters that allow you to configu
 
 Please refer to this [guide](/pages/public_cloud/public_cloud_databases/databases_03_advanced_configuration#using-api) to find out how to change your advanced parameters from the OVHcloud API.
 
-### Advanced parameters for Grafana
+### Advanced parameters for Dashboards
 
-Below you can find a summary of every configuration option available for Grafana service:
+Below you can find a summary of every configuration option available for Dashboards service:
 
 | | |
 |---|---|
