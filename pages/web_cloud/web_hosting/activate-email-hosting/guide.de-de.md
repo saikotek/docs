@@ -1,7 +1,7 @@
 ---
-title: "Die in Ihrem Webhosting inklusiven E-Mail-Adressen aktivieren"
+title: "Webhosting - Inklusiv-E-Mail-Adressen aktivieren"
 excerpt: "Diese Anleitung erklärt, wie Sie die in Ihrem Webhosting inklusiven E-Mail-Adressen aktivieren können"
-updated: 2024-10-01
+updated: 2024-12-09
 ---
 
 ## Ziel 
@@ -76,7 +76,15 @@ Klicken Sie im Feld `Konfiguration` auf den Button `...`{.action} rechts neben `
 
 > [!warning]
 >
-> Um die Löschung des zu Ihrem Webhosting gehörenden E-Mail-Dienstes zu bestätigen, erhalten Sie einen Bestätigungslink per E-Mail. Klicken Sie auf diesen Link, im die Löschung zu starten.
+> Um die Löschung des mit Ihrem Webhosting verbundenen E-Mail-Angebots zu bestätigen, erhalten Sie per E-Mail einen Bestätigungs-Link. Sie müssen auf diesen Link klicken, damit der Löschvorgang gestartet wird.
+
+#### Sonderfall - Löschung des mit Ihrem Webhosting verbundenen E-Mail-Dienstes (um diesen mit einem anderen Domainnamen zu verbinden)
+
+Aus Sicherheitsgründen kann es mehrere Tage dauern, bis ein E-Mail-Angebot endgültig gelöscht wird, nachdem Sie auf den Link zur Bestätigung des Löschvorgangs geklickt haben.
+
+Wenn Sie das mit Ihrem Webhosting verbundene E-Mail-Angebot löschen möchten, um es mit einem anderen Domainnamen zu verbinden, und **nur** in diesem Fall, müssen Sie Ihre Anfrage zur Beschleunigung der Löschung des Angebots schriftlich bestätigen. Kontaktieren Sie hierzu den Support, indem Sie in Ihrem [OVHcloud Help Center](https://help.ovhcloud.com/csm?id=csm_get_help) ein Support-Ticket erstellen. Das Support-Ticket **Erforderlich** muss über das Kundenkonto (und die dazugehörige Kundenkennung) erstellt werden, das den zu löschenden Dienst verwaltet.
+
+Sobald die Anfrage bearbeitet wurde, können Sie das mit Ihrem Webhosting verbundene E-Mail-Angebot mit einem anderen Domainnamen verbinden.
 
 ## Weiterführende Informationen
 
