@@ -23,7 +23,7 @@ As contas MX Plan podem ser configuradas em diferentes softwares de e-mail compa
 >
 > A OVHcloud oferece-lhe serviços cuja configuração, gestão e responsabilidade é da sua responsabilidade. Assim, deverá assegurar o seu bom funcionamento.
 >
-> Este guia fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [parceiro especializado](https://marketplace.ovhcloud.com/c/support-collaboration) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, consulte a secção " Ir mais longe " deste guia.
+> Este guia fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [parceiro especializado](https://marketplace.ovhcloud.com/c/support-collaboration) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, consulte a secção "Quer saber mais?" deste guia.
 
 ## Requisitos
 
@@ -66,13 +66,13 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 >> > Se a janela de escolha do protocolo não aparecer, prima o botão `?` no canto superior direito do ecrã e escolha `Mudar de fornecedor de conta`{.action}. Selecione `IMAP`(recomendado) ou `POP3`.<br>
 >> > ![outlook android](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
 >>
-> **Passo 3 - IMAP**
+> **Etapa 3 - IMAP**
 >>
 >> Na seguinte janela, selecione `Configurações avançadas`{.action} e introduza as seguintes informações:
 >>
 >> - **Endereço de correio eletrónico**
 >> - **Nome completo** : introduza o seu endereço de e-mail completo
->> - **Description**
+>> - **Descrição**
 >> - **Servidor de receção de correio IMAP**:<br>- **Nome do host IMAP**: para a **EUROPE**, introduza `imap.mail.ovh.net` ou `ssl0.ovh.net`. Para a **AMÉRICA/ÁSIA**, introduza `imap.mail.ovh.ca`<br>- **Port**: 993<br>- **Tipo de segurança**: SSL/TLS<br>- **Nome de utilizador IMAP**: o seu endereço de correio eletrónico completo<br>- **Palavra-passe IMAP** : o do seu endereço de correio eletrónico
 >> - **Servidor de receção de correio SMTP**:<br>- **Nome do host SMTP**: para a **EUROPE**, introduza `smtp.mail.ovh.net` ou `ssl0.ovh.net` . Para a **AMÉRICA/ÁSIA**, introduza `smtp.mail.ovh.ca`<br>- **Port**: 465<br>- **Tipo de segurança**: SSL/TLS<br>- **Nome de utilizador SMTP**: o seu endereço de correio eletrónico completo<br>- **Palavra-passe SMTP** : o do seu endereço de correio eletrónico
 >>
@@ -86,7 +86,7 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 >>
 >> - **Endereço de correio eletrónico**
 >> - **Nome completo** : Introduza o seu endereço de e-mail completo
->> - **Description**
+>> - **Descrição**
 >> - **Servidor de receção de correio POP3**:<br>- **Nome do host POP3**: para a **EUROPE**, introduza `pop.mail.ovh.net` ou `ssl0.ovh.net` . Para a **AMÉRICA/ÁSIA** introduza `pop.mail.ovh.ca`<br>- **Port**: 995<br>- **Tipo de segurança**: SSL/TLS<br>- **Nome de utilizador POP3** : o seu endereço de correio eletrónico completo<br>- **Palavra-passe POP3** : o do seu endereço de correio eletrónico
 >> - **Servidor de receção de correio eletrónico SMTP**:<br>- **Nome do sistema anfitrião SMTP**: para a **EUROPE**, introduza `smtp.mail.ovh.net` ou `ssl0.ovh.net`. Para a **AMÉRICA/ÁSIA**, introduza `smtp.mail.ovh.ca`<br>- **Port**: 465<br>- **Tipo de segurança**: SSL/TLS<br>- **Nome de utilizador SMTP**: o seu endereço de correio eletrónico completo<br>- **Palavra-passe SMTP** : o do seu endereço de correio eletrónico
 >>
@@ -97,7 +97,7 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 
 > [!warning]
 >
-> Se, seguindo os passos de configuração acima, encontrar um problema de envio ou receção, vá para " [Editar definições existentes](#modify-settings )".
+> Se, seguindo os passos de configuração acima, encontrar um problema de envio ou receção, vá para " [Editar definições existentes](#modify-settings)".
 
 ### Utilizar o endereço de e-mail
 

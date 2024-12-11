@@ -144,7 +144,7 @@ Follow the installation steps by clicking on the tabs below:
 >>
 >> - **Username**: Enter the **full** email address
 >> - **Password**: Enter the password for the email address
->> - **EUROPE Server (incoming)**: imap.mail.ovh.net **ou** ssl0.ovh.net
+>> - **EUROPE Server (incoming)**: imap.mail.ovh.net **or** ssl0.ovh.net
 >> - **AMERICA/ASIA-PACIFIC server (incoming)**: imap.mail.ovh.ca
 >> - **Port**: 993
 >> - **Security type**: SSL/TLS
@@ -166,7 +166,7 @@ For sending emails, if you have to enter the **SMTP** settings manually in your 
 
 - **Username**: Enter the **full** email address
 - **Password**: Enter the password for the email address
-- **EUROPE server (incoming)**: pop.mail.ovh.net **ou** ssl0.ovh.net
+- **EUROPE server (incoming)**: pop.mail.ovh.net **or** ssl0.ovh.net
 - **AMERICA/ASIA-PACIFIC server (incoming)**: pop.mail.ovh.ca
 - **Port**: 995
 - **Security type**: SSL/TLS

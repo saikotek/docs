@@ -1,7 +1,7 @@
 ---
 title: "MX Plan - Konfiguracja konta e-mail w programie Outlook na urządzeniu z systemem Android"
 excerpt: "Dowiedz się, jak skonfigurować Twoje konto e-mail MX Plan w aplikacji mobilnej Outlook na Androida"
-Updated: 2024-11-26
+updated: 2024-11-26
 ---
 
 <style>
@@ -23,7 +23,7 @@ Konta MX Plan mogą być skonfigurowane w jednym z kompatybilnych programów poc
 >
 > OVHcloud udostępnia różnorodne usługi, jednak to Ty odpowiadasz za ich konfigurację i zarządzanie nimi. Ponosisz więc odpowiedzialność za ich prawidłowe funkcjonowanie.
 >
-> Oddajemy w Twoje ręce niniejszy przewodnik, którego celem jest pomoc w jak najbardziej optymalnym wykonywaniu bieżących zadań. Niemniej jednak, w przypadku trudności zalecamy skontaktowanie się z [partnerem wyspecjalizowanym] (https://marketplace.ovhcloud.com/c/support-collaboration) i/lub skontaktowanie się z wydawcą usługi. Niestety firma OVH nie jest w stanie udzielić Ci wsparcia w tym zakresie. Więcej informacji znajduje się w sekcji "Sprawdź również".
+> Oddajemy w Twoje ręce niniejszy przewodnik, którego celem jest pomoc w jak najbardziej optymalnym wykonywaniu bieżących zadań. Niemniej jednak, w przypadku trudności zalecamy skontaktowanie się z [partnerem wyspecjalizowanym](https://marketplace.ovhcloud.com/c/support-collaboration) i/lub skontaktowanie się z wydawcą usługi. Niestety firma OVH nie jest w stanie udzielić Ci wsparcia w tym zakresie. Więcej informacji znajduje się w sekcji "Sprawdź również".
 
 ## Wymagania początkowe
 
@@ -144,7 +144,7 @@ Postępuj zgodnie z kolejnymi instrukcjami, klikając poniższe zakładki:
 >>
 >> - **Nazwa użytkownika** : Wpisz pełny adres e-mail **Complete**
 >> - **Hasło** : Wprowadź hasło przypisane do konta e-mail
->> - **Serwer EUROPE (ruch przychodzący)** : imap.mail.ovh.net **ou** ssl0.ovh.net
+>> - **Serwer EUROPE (ruch przychodzący)** : imap.mail.ovh.net **lub** ssl0.ovh.net
 >> - **Serwer amerykański/Azja-PACYFIK (ruch przychodzący)** : imap.mail.ovh.ca
 >> - **Port** : 993
 >> - **Typ bezpieczeństwa** : SSL/TLS
@@ -153,7 +153,7 @@ Postępuj zgodnie z kolejnymi instrukcjami, klikając poniższe zakładki:
 >>
 >> - **Nazwa użytkownika** : Wpisz pełny adres e-mail **Complete**
 >> - **Hasło** : Wprowadź hasło przypisane do konta e-mail
->> - **Serwer EUROPE (ruch przychodzący)** : pop.mail.ovh.net **ou** ssl0.ovh.net
+>> - **Serwer EUROPE (ruch przychodzący)** : pop.mail.ovh.net **lub** ssl0.ovh.net
 >> - **Serwer amerykański/Azja-PACYFIK (ruch przychodzący)** : pop.mail.ovh.ca
 >> - **Port** : 995
 >> - **Typ bezpieczeństwa** : SSL/TLS
@@ -166,7 +166,7 @@ Jeśli chcesz wysyłać wiadomości e-mail, wprowadź ręcznie ustawienia **SMTP
 
 - **Nazwa użytkownika** : Wpisz pełny adres e-mail **complete**
 - **Hasło** : Wprowadź hasło przypisane do konta e-mail
-- **Serwer EUROPE (ruch przychodzący)** : pop.mail.ovh.net **ou** ssl0.ovh.net
+- **Serwer EUROPE (ruch przychodzący)** : pop.mail.ovh.net **lub** ssl0.ovh.net
 - **Serwer amerykański/AZJA-PACYFIK (ruch przychodzący)** : pop.mail.ovh.ca
 - **Port** : 995
 - **Typ bezpieczeństwa** : SSL/TLS
