@@ -103,7 +103,7 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 
 Depois de configurar o endereço de e-mail, já só precisa de o utilizar! Já pode enviar e receber mensagens no seu dispositivo.
 
-A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Aceda através desta ligação: [Webmail](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte os nossos manuais [Consultar a sua conta a partir da interface OWA](/pages/web_cloud/email_and_colaborative_solutions/using_the_outlook_web_app_webmail/email_owa) ou [Utilizar o seu endereço de e-mail a partir do webmail RoundCube](/pages/web_cloud/email_and_colaborative_solutions/mx_plan/email_roundcube#ou-et-how-connection-to-webmail-roundcube).
+A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Aceda através desta ligação: [Webmail](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte os nossos manuais [Consultar a sua conta a partir da interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa) ou [Utilizar o seu endereço de e-mail a partir do webmail RoundCube](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube).
 
 ### Alterar os parâmetros existentes <a name="modify-settings"></a>
 
