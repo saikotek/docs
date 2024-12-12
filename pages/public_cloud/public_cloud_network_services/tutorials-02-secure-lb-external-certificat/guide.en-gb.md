@@ -1,7 +1,7 @@
 ---
-title: "Configuring a `TERMINATED_HTTPS` listener via CLI / Horizon"
+title: "Configuring a TERMINATED_HTTPS listener via CLI / Horizon"
 excerpt: "Discover how to configure a secure Public Cloud Load Balancer with a certificate from a third-party supplier."
-updated: 2024-11-29
+updated: 2024-12-12
 ---
 
 <style>
