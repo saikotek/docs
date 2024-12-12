@@ -143,7 +143,7 @@ i4ANmLy7NULWK36yU0Rp9bFJ4o0/4PTkZiDCsK0QyHhAJXdLN7ZHpfJtHIPCnexmwIMLfIhCWhO5
  user@hostname
 ```
 
-Copie esta cadena de clave para [añadirla a una nueva instancia o importarla en su área de cliente] (/pages/public_cloud/compute/public-cloud-first-steps).
+Copie esta cadena de clave para [añadirla a una nueva instancia o importarla en su área de cliente](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!primary]
 >
