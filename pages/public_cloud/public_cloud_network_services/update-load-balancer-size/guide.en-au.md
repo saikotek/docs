@@ -48,7 +48,7 @@ A window will prompt you to select a new size for your load balancer.
 - **large**
 - **xl**
 
-![Select Load Balancer Size](images/sizeLoadBalancer.png){.thumbnail}
+![Select Load Balancer Size](images/loadbalancersize.png){.thumbnail}
 
 Confirm your selection and apply the changes.
 
