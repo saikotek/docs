@@ -1,7 +1,7 @@
 ---
 title: "Webhosting - Inklusiv-E-Mail-Adressen aktivieren"
 excerpt: "Diese Anleitung erklärt, wie Sie die in Ihrem Webhosting inklusiven E-Mail-Adressen aktivieren können"
-updated: 2024-12-09
+updated: 2024-12-12
 ---
 
 ## Ziel 
