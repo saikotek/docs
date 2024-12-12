@@ -48,7 +48,7 @@ Dans la liste déroulante, sélectionnez la taille souhaitée pour votre Load Ba
 - **large**
 - **xl**
 
-![Sélectionner la taille du Load Balancer](images/sizeLoadBalancer.png){.thumbnail}
+![Sélectionner la taille du Load Balancer](images/loadbalancersize.png){.thumbnail}
 
 Confirmez votre sélection et appliquez les modifications.
 
