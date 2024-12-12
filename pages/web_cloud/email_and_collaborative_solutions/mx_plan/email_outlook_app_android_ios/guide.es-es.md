@@ -64,7 +64,7 @@ Siga los etapas de instalación haciendo clic en las fichas siguientes:
 >> > [!warning]
 >> >
 >> > Si no aparece la ventana de selección de protocolo, pulse el botón `?` en la esquina superior derecha de la pantalla y seleccione `Cambiar proveedor de cuenta`{.action}. Seleccione `IMAP`(recomendado) o `POP3`.<br>
->> >! [outlook android](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
+>> > ! [outlook android](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
 >>
 > **Etapa 3 - IMAP**
 >>
@@ -103,7 +103,7 @@ Siga los etapas de instalación haciendo clic en las fichas siguientes:
 
 Una vez que haya configurado la dirección de correo electrónico, ¡ya puede empezar a utilizarla! Ya puede enviar y recibir mensajes.
 
-OVHcloud ofrece una aplicación web con la que podrá acceder a su dirección de correo electrónico desde el navegador. Puede consultarla en el siguiente enlace: [Webmail](/links/web/email). Puede conectarse con las claves de su dirección de correo electrónico. Si tiene cualquier duda relativa a su uso, puede consultar nuestras guías [Consultar su cuenta desde la interfaz OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa) o [Utilizar su dirección de correo electrónico desde el webmail RoundCube](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube#ou-et-comment-connect-au-webmail-roundcube).
+OVHcloud ofrece una aplicación web con la que podrá acceder a su dirección de correo electrónico desde el navegador. Puede consultarla en el siguiente enlace: [Webmail](/links/web/email). Puede conectarse con las claves de su dirección de correo electrónico. Si tiene cualquier duda relativa a su uso, puede consultar nuestras guías [Consultar su cuenta desde la interfaz OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa) o [Utilizar su dirección de correo electrónico desde el webmail RoundCube](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube).
 
 ### Cambiar la configuración existente <a name="modify-settings"></a>
 

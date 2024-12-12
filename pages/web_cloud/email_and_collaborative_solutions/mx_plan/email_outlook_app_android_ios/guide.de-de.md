@@ -64,7 +64,7 @@ Folgen Sie den Installationsschritten, indem Sie unten auf die Registerkarten kl
 >> > [!warning]
 >> >
 >> > Wenn das Fenster zur Protokollauswahl nicht angezeigt wird, drücken Sie `?` in der rechten oberen Ecke des Bildschirms und wählen Sie `Kontoanbieter wechseln`{.action}. Wählen Sie dann `IMAP` (empfohlen) oder `POP3`.<br>
->> >![Outlook-Android](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
+>> > ![Outlook-Android](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
 >>
 > **Schritt 3 - IMAP**
 >>
@@ -103,7 +103,7 @@ Folgen Sie den Installationsschritten, indem Sie unten auf die Registerkarten kl
 
 Nach der Konfiguration der E-Mail-Adresse können Sie diese verwenden! Sie können ab sofort Nachrichten senden und empfangen.
 
-OVHcloud bietet auch eine Web-App, mit der Sie über einen Webbrowser auf Ihre E-Mail-Adresse zugreifen können. Sie können über folgenden Link darauf zugreifen: [Webmail](/links/web/email). Sie können sich mit den Login-Daten Ihrer E-Mail-Adresse anmelden. Wenn Sie Fragen zur Verwendung haben, lesen Sie unsere Anleitungen [Account über das OWA Interface einsehen](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa) oder [E-Mail-Adresse über RoundCube Webmail verwenden](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube#ou-et-comment-à-au-webmail-roundcube).
+OVHcloud bietet auch eine Web-App, mit der Sie über einen Webbrowser auf Ihre E-Mail-Adresse zugreifen können. Sie können über folgenden Link darauf zugreifen: [Webmail](/links/web/email). Sie können sich mit den Login-Daten Ihrer E-Mail-Adresse anmelden. Wenn Sie Fragen zur Verwendung haben, lesen Sie unsere Anleitungen [Account über das OWA Interface einsehen](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa) oder [E-Mail-Adresse über RoundCube Webmail verwenden](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube).
 
 ### Vorhandene Einstellungen ändern <a name="modify-settings"></a>
 
