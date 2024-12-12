@@ -145,9 +145,9 @@ public-cloud-databases-postgresql-tutorials: PostgreSQL - Tutoriels
 public-cloud-databases-redis: Caching
 public-cloud-databases-redis-guides: Caching - Guides
 public-cloud-databases-redis-tutorials: Caching - Tutoriels
-public-cloud-databases-grafana: Grafana
-public-cloud-databases-grafana-guides: Grafana - Guides
-public-cloud-databases-grafana-tutorials: Grafana - Tutoriels
+public-cloud-databases-grafana: Dashboards
+public-cloud-databases-grafana-guides: Dashboards - Guides
+public-cloud-databases-grafana-tutorials: Dashboards - Tutoriels
 public-cloud-databases-kafka: Kafka
 public-cloud-databases-kafka-guides: Kafka - Guides
 public-cloud-databases-kafka-connect: Kafka Connect
@@ -337,6 +337,7 @@ storage-block-storage: Block Storage
 storage-block-storage-cloud-disk-array: Cloud Disk Array
 storage-backup-and-disaster-recovery-solution: Backup et Plan de Reprise d'Activité
 storage-backup-and-disaster-recovery-solution-veeam: Veeam
+storage-backup-and-disaster-recovery-solution-hycu: HYCU for OVHcloud
 storage-backup-and-disaster-recovery-solution-kubernetes-data-protection: Managed Kubernetes - Data Protection
 network-byoip: Bring your own IP (BYOIP)
 network-additional-ip: Additional IP

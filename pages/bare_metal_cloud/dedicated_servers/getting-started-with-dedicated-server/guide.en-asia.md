@@ -92,7 +92,7 @@ You will find additional options that are specific to the chosen operating syste
 If you have selected a compatible operating system, you can provide a **public key** to be installed automatically. You have two options:
 
 - Manually copy the key string and paste it into the field `Your Public SSH key`.
-- If you have previously stored a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
+- [If you have previously stored](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) a public key in your [OVHcloud Control Panel](/links/manager), select the desired key from the drop-down menu `SSH key to pre-install`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 
@@ -119,7 +119,7 @@ If you have installed an OVHcloud OS template on your server, a user with elevat
 
 You will then receive an email containing the information needed to establish a first connection with SSH. SSH is a secure communication protocol, used to establish encrypted connections to a remote host. You can find more detailed information in our guide: [Getting started with SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-Most current desktop operating systems will have an **Open SSH** client natively installed. This means that your access credentials allow you to quickly establish a connection to your server in the appropriate command line application (`Terminal`, `Command prompt`, `Powershell`, etc.). Enter the following command:
+Most current desktop operating systems will have an **OpenSSH** client natively installed. This means that your access credentials allow you to quickly establish a connection to your server in the appropriate command line application (`Terminal`, `Command prompt`, `Powershell`, etc.). Enter the following command:
 
 ```bash
 ssh username@IPv4
@@ -131,7 +131,7 @@ ssh username@IPv4
 ssh ubuntu@203.0.113.1
 ```
 
-You can use any third-party application compatible with **Open SSH** as well.
+You can use any third-party application compatible with **OpenSSH** as well.
 
 Once connected, you can replace the predefined password for the current user with a better passphrase by using this command:
 

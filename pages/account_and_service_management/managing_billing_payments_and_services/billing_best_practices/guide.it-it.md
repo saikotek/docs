@@ -48,7 +48,7 @@ Assicurati che il tuo indirizzo email sia sempre **aggiornato, sicuro e accessib
 Le email inviate da OVHcloud sono accessibili anche dallo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it).<br>
 Clicca sul tuo nome in alto a destra e poi su `Email di servizio`{.action} nel menu di destra.
 
-![service_emails](images/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 ### Attiva il rinnovo automatico
 

@@ -1,7 +1,7 @@
 ---
 title: "Créer un snapshot d'un volume"
 excerpt: 'Découvrez comment créer un snapshot d’un disque additionel Public Cloud'
-updated: 2023-04-21
+updated: 2024-12-03
 ---
 
 ## Objectif
@@ -23,7 +23,7 @@ Créer un snapshot d’un volume additionnel correspond généralement à deux o
 ## Prérequis
 
 - Être connecté à votre [espace client OVHcloud](/links/manager)
-- Un volume [Block storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) créé dans votre projet [Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/)
+- Un volume [Block storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) créé dans votre [projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project)
 
 ## En pratique
 
@@ -32,7 +32,9 @@ Connectez-vous à votre [espace client OVHcloud](/links/manager), rendez-vous da
 
 ![Volume Snapshot](images/volume_snapshot01.png){.thumbnail}
 
-A droite du volume concerné, cliquez sur `...`{.action} puis sur `Créer un snapshot`{.action} (il n'est pas nécessaire de détacher d'abord le volume de son instance). Cependant, si vous souhaitez détacher votre volume, nous vous invitons à consulter [cette section](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#sous-linux) du guide correspondant pour Linux et  [cette section](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#sous-windows) pour Windows.
+A droite du volume concerné, cliquez sur le bouton `...`{.action} puis sur `Créer une sauvegarde`{.action} (il n'est pas nécessaire de détacher d'abord le volume de son instance). Cependant, si vous souhaitez détacher votre volume, nous vous invitons à consulter la section « Détacher un volume » de [ce guide](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+
+Il faut ensuite sélectionner `Volume Snapshot`{.action}, le nommer et cliquer sur `Créer la sauvegarde`{.action}.
 
 ![Volume Snapshot](images/volume_snapshot02.png){.thumbnail}
 

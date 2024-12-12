@@ -45,7 +45,7 @@ Aby uzyskać dostęp do panelu zarządzania zamówieniami, zaloguj się do [Pane
 
 Poniżej zamieszczamy podsumowanie różnych wcześniejszych zamówień:
 
-![Podsumowanie zamówień](images/order03.png){.thumbnail}
+![Podsumowanie zamówień](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 W podsumowaniu znajdziesz następujące informacje:
 

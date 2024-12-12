@@ -159,7 +159,7 @@ Welcome to Ubuntu 24.04.1 LTS (GNU/Linux 6.8.0-47-generic x86_64)
 
 Aby dowiedzieć się więcej o połączeniach SSH, zapoznaj się z naszym przewodnikiem [Wprowadzenie do SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-Program PuTTY może zapisać ustawienia połączenia SSH jako "sesję". Dzięki temu możesz łączyć się ze znanymi hostami zdalnymi lub urządzeniami sieciowymi bez konieczności każdorazowego wprowadzania odpowiednich informacji. Dowiedz się, jak korzystać ze **PuTTY sessions** w [odpowiedniej sekcji tego tutoriala] (#sessions).
+Program PuTTY może zapisać ustawienia połączenia SSH jako "sesję". Dzięki temu możesz łączyć się ze znanymi hostami zdalnymi lub urządzeniami sieciowymi bez konieczności każdorazowego wprowadzania odpowiednich informacji. Dowiedz się, jak korzystać ze **PuTTY sessions** w [odpowiedniej sekcji tego tutoriala](#sessions).
 
 ///
 
@@ -247,7 +247,7 @@ Następny krok to przechowywanie **klucza publicznego** na zdalnym hoście, z kt
 > Możesz również skopiować ciąg klucza publicznego i wkleić go do zwykłego pliku tekstowego (bez przerywania łańcucha przez podziały wierszy).
 >
 
-Aby kontynuować pracę z [następnym krokiem] (#transferkeys), podświetl **cały ciąg klucza** i skopiuj go.
+Aby kontynuować pracę z [następnym krokiem](#transferkeys), podświetl **cały ciąg klucza** i skopiuj go.
 
 ![putty key](/pages/assets/screens/other/web-tools/putty/puttygen6.png){.thumbnail}
 

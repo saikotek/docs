@@ -1,12 +1,8 @@
 ---
 title:  Trasferisci un Additional IP
 excerpt: Questa guida ti mostra come spostare un Additional IP dallo Spazio Cliente OVHcloud o via API OVHcloud
-updated: 2022-12-20
+updated: 2024-12-04
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 > [!primary]
 >
@@ -20,7 +16,10 @@ Gli Additional IP possono essere trasferiti tra i servizi utilizzati. L'interess
 Questa tecnologia permette di scambiare gli indirizzi IP da una soluzione all'altra in meno di un minuto, praticamente senza alcuna interruzione per i tuoi utenti. Può essere utilizzata in caso di migrazione di servizi (ad esempio, spostamento dei progetti dall'ambiente di sviluppo a quello di produzione) o in caso di trasferimento verso un server di backup in caso di guasto.
 
 > [!primary]
-> Un Additional IP non può essere spostato da una zona all'altra. Ad esempio, un IP situato nel datacenter SBG potrà essere spostato verso GRA o RBX ma non potrà essere spostato verso BHS.
+> È possibile assegnare blocchi di indirizzi IP a qualsiasi servizio compatibile all'interno di una Region.
+I blocchi di indirizzi IP di una Region possono essere trasferiti da un datacenter a un altro all'interno della stessa Region, ma non al suo esterno.
+>
+> Fanno eccezione eu-west-gra, eu-west-rbx e eu-west-sbg: i blocchi di indirizzi IP possono essere spostati tra queste 3 Region.
 > 
 > Solo l'intero blocco può essere spostato, non è possibile migrare i singoli IP all'interno di un blocco.
 
@@ -54,6 +53,12 @@ Questa tecnologia permette di scambiare gli indirizzi IP da una soluzione all'al
 > Se un blocco IP viene spostato/aggiunto al vRack, non è più legato a un server fisico. In questo caso, qualsiasi indirizzo MAC virtuale andrà perso durante il trasferimento.
 >
 
+### Blocchi IP geolocalizzati
+
+La geolocalizzazione di un indirizzo IP è indipendente dalla regione di collegamento.
+
+Se ordini un blocco IP aggiuntivo su un server ma scegli una localizzazione diversa (geolocalizzazione) per il blocco IP, il blocco IP non può essere spostato verso un altro server situato nello stesso Paese del blocco. Ad esempio, un blocco IP aggiuntivo geolocalizzato in Polonia (eu-central-war) e ordinato su un server situato in un datacenter in Francia (eu-west-gra) non può essere spostato verso un server situato in un datacenter in Polonia (eu-central-war). Il blocco IP può essere trasferito solo verso un server idoneo localizzato in un datacenter in Francia.
+
 ### Sposta un IP dallo Spazio Cliente OVHcloud
 
 > [!warning]
@@ -64,11 +69,11 @@ Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul menu `Bare Met
 
 Clicca sulla scheda `Additional IP`{.action}.
 
-![manage IPs](images/manageIPs2022.png){.thumbnail}
+![manage IPs](images/manageIPs2024.png){.thumbnail}
 
-Clicca sul pulsante `...`{.action} a destra dell'indirizzo IP da spostare e poi su `Sposta Additional IP`{.action}.
+Clicca sul pulsante `...`{.action} a destra dell'indirizzo IP da spostare e poi su `Sposta Additional IP`{.action} o su `Associa questo blocco di IP a un altro servizio`{.action}.
 
-![Spazio Cliente](images/moveadditionalIP.png){.thumbnail}
+![Spazio Cliente](images/move_ip.png){.thumbnail}
 
 Nel menu contestuale che appare, seleziona il servizio verso cui spostare l'indirizzo IP.
 
@@ -101,6 +106,26 @@ Per spostare l'indirizzo IP, utilizza questa chiamata:
 - `serviceName`: il riferimento del server dedicato di destinazione
 - `ip`: l'indirizzo Additional IP da spostare
 
+### Restrizioni <a name="limitations"></a>
+
+Ricordiamo che quando si sposta un blocco di indirizzi IP sono presenti alcune limitazioni: la tabella qui sotto mostra la compatibilità tra le diverse Region.
+
+Per maggiori informazioni, consulta la nostra lista delle [Region disponibili](/links/network/additional-ip).
+
+| Nome della Region  | eu-west-par | eu-west-gra | eu-west-rbx | eu-west-sbg | eu-west-lim | eu-central-war | eu-west-eri | ca-east-bhs | ca-east-tor | ap-southeast-sgp | ap-southeast-syd |
+|----------------|-------------|-------------|-------------|-------------|-------------|----------------|-------------|-------------|-------------|-------------|-------------|
+| eu-west-par    |      ✅        |      ❌       |     ❌        |     ❌        |      ❌       |      ❌          |       ❌       |       ❌      |     ❌      | ❌      |     ❌      |
+| eu-west-gra    |       ❌      |       ✅       |      ✅       |      ✅      |       ❌       |       ❌         |       ❌        |     ❌        |    ❌        | ❌      |     ❌      |
+| eu-west-sbg    |       ❌        |      ✅       |      ✅       |      ✅       |      ❌       |      ❌           |      ❌       |      ❌        |    ❌        | ❌      |     ❌      |
+| eu-west-rbx |       ❌        |      ✅       |      ✅       |      ✅       |      ❌       |      ❌           |      ❌       |      ❌        |    ❌        | ❌      |     ❌      |
+| eu-west-lim    |        ❌       |      ❌       |      ❌       |     ❌        |     ✅       |      ❌         |      ❌        |     ❌        |     ❌       | ❌      |     ❌      |
+| eu-central-war |      ❌       |      ❌       |     ❌       |      ❌       |      ❌        |       ✅         |       ❌       |       ❌       |       ❌        | ❌      |     ❌      |
+| eu-west-eri    |         ❌      |       ❌      |        ❌     |       ❌     |      ❌       |       ❌         |     ✅        |      ❌         |      ❌       | ❌      |     ❌      |
+| ca-east-bhs    |     ❌        |      ❌       |    ❌         |        ❌    |        ❌       |      ❌          |       ❌      |     ✅        |      ❌       | ❌      |     ❌      |
+| ca-east-tor    |    ❌         |      ❌       |     ❌        |        ❌       |      ❌       |       ❌         |      ❌       |      ❌       |       ✅     | ❌      |     ❌      |
+| ap-southeast-sgp|    ❌         |      ❌       |     ❌        |        ❌       |      ❌       |       ❌         |      ❌       |      ❌       |       ❌       | ✅       |     ❌      |
+| ap-southeast-syd|    ❌         |      ❌       |     ❌        |        ❌       |      ❌       |       ❌         |      ❌       |      ❌       |       ❌       | ❌      |     ✅       |
+
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

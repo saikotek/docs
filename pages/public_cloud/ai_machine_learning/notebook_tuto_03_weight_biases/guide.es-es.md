@@ -111,4 +111,4 @@ If you need training or technical assistance to implement our solutions, contact
 
 Please send us your questions, feedback and suggestions to improve the service:
 
-- On the OVHcloud [Discord server](https://discord.com/invite/vXVurFfwe9)
+- On the OVHcloud [Discord server](https://discord.gg/ovhcloud)

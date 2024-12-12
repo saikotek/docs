@@ -125,7 +125,7 @@ root@ns3956771.ip-169-254-10.eu's password:
 >
 > Il tuo client SSH bloccherà probabilmente la connessione in un primo momento a causa di un'incompatibilità dell'impronta ECDSA. Questo è normale perché la modalità Rescue utilizza il proprio server SSH temporaneo.
 >
-> Un modo per ovviare a questo problema è "commentare" l’impronta del tuo server aggiungendo un `#` davanti alla sua riga nel file `known_hosts`. Ricordarsi di annullare la modifica prima di ripristinare il netboot in modalità "normale".<br>È inoltre possibile eliminare la riga dal file. Una volta stabilita nuovamente la connessione, il client SSH aggiungerà una nuova voce per il server. Per maggiori informazioni, consulta la nostra guida "[Introduzione a SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction#login)".
+> Un modo per ovviare a questo problema è "commentare" l’impronta del tuo server aggiungendo un `#` davanti alla sua riga nel file `known_hosts`. Ricordarsi di annullare la modifica prima di ripristinare il netboot in modalità "normale".<br>È inoltre possibile eliminare la riga dal file. Una volta stabilita nuovamente la connessione, il client SSH aggiungerà una nuova voce per il server. Per maggiori informazioni, consulta la nostra guida "[Introduzione a SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)".
 >
 
 #### Montaggio delle partizioni

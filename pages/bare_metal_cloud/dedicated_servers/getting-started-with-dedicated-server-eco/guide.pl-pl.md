@@ -78,7 +78,7 @@ W dokumentacji tej znajdziesz pytania dodatkowe specyficzne dla wybranego system
 
 Jeśli wybrano kompatybilny system operacyjny, możesz automatycznie zainstalować **klucz publiczny**. Masz dwie możliwości:
 
-- Ręcznie skopiuj ciąg klucza i wklej go w polu `Twój publiczny klucz SSH`.
+- [Ręcznie skopiuj ciąg](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) klucza i wklej go w polu `Twój publiczny klucz SSH`.
 - Jeśli wcześniej przechowywałeś klucz publiczny w Twoim [Panelu klienta OVHcloud](/links/manager), wybierz odpowiedni klucz z rozwijanego menu `Klucz(y) SSH, który chcesz wstępnie zainstalować`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
@@ -106,7 +106,7 @@ Jeśli zainstalowałeś model systemu operacyjnego OVHcloud na Twoim serwerze, a
 
 Otrzymasz wówczas e-mail z informacjami niezbędnymi do ustanowienia pierwszego połączenia przez SSH. SSH to bezpieczny protokół komunikacyjny używany do ustanawiania szyfrowanych połączeń ze zdalnym hostem. Więcej informacji znajdziesz w naszym przewodniku: [Pierwsze kroki z SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-Większość aktualnych systemów operacyjnych posiada natywnie zainstalowanego klienta **Open SSH**. Oznacza to, że dane dostępowe umożliwiają szybkie nawiązanie połączenia z serwerem z poziomu stacji roboczej za pomocą odpowiedniej aplikacji wiersza poleceń (`Terminal`, `Command prompt`, `Powershell`, etc.). Wprowadź następujące polecenie:
+Większość aktualnych systemów operacyjnych posiada natywnie zainstalowanego klienta **OpenSSH**. Oznacza to, że dane dostępowe umożliwiają szybkie nawiązanie połączenia z serwerem z poziomu stacji roboczej za pomocą odpowiedniej aplikacji wiersza poleceń (`Terminal`, `Command prompt`, `Powershell`, etc.). Wprowadź następujące polecenie:
 
 ```bash
 ssh username@IPv4
@@ -118,7 +118,7 @@ ssh username@IPv4
 ssh ubuntu@203.0.113.1
 ```
 
-Możesz również korzystać z dowolnej aplikacji innej firmy kompatybilnej z **Open SSH**.
+Możesz również korzystać z dowolnej aplikacji innej firmy kompatybilnej z **OpenSSH**.
 
 Po zalogowaniu możesz zmienić hasło ustawione wstępnie dla bieżącego użytkownika na lepsze hasło (*passphrase*), używając następującej komendy:
 

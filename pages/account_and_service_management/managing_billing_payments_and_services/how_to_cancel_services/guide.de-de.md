@@ -58,11 +58,11 @@ Es gibt jedoch auch **Sonderfälle**, die [weiter unten](#specific-cases) in die
 
 Um das Abonnement Ihres Dienstes zu kündigen, loggen Sie sich in Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein, klicken Sie oben rechts auf den Account-Namen und dann auf den Button `Produkte und Dienste`{.action}.
 
-![Produkte und Dienstleistungen](images/products-services.png){.thumbnail}
+![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 Klicken Sie dann rechts neben dem Dienst, den Sie kündigen möchten, auf den Button `...`{.action} und dann auf `Meine Vertragsbindung kündigen`{.action}.
 
-![Kündigen](images/cancel-en.png){.thumbnail}
+![Kündigen](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 
 Bitte geben Sie die Gründe für Ihre Kündigungsanfrage an und klicken Sie dann auf `Bestätigen`{.action}.
 
@@ -75,7 +75,7 @@ Bitte geben Sie die Gründe für Ihre Kündigungsanfrage an und klicken Sie dann
 
 Die Kündigung Ihrer Dienstleistung erfolgt zum **Datum des Inkrafttretens** in der Tabelle "Meine Dienste". Wenn der Status "Kündigung angefordert" nicht angezeigt wird, aktualisieren Sie die Seite.
 
-![Kündigungsanfrage](images/cancellation-request.png){.thumbnail}
+![Kündigungsanfrage](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request.png){.thumbnail}
 
 ### Sonderfälle <a name="specific-cases"></a>
 
@@ -138,7 +138,7 @@ Um eine Kündigungsanfrage zurückzunehmen, loggen Sie sich in Ihr [OVHcloud Kun
 
 Klicken Sie dann auf den Button `...`{.action} rechts neben der Dienstleistung, für die eine Kündigung beantragt wurde, und dann auf `Kündigung des Dienstes stornieren`{.action} 
 
-![cancel_termination](images/cancel_termination.png){.thumbnail}
+![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination.png){.thumbnail}
 
 Klicken Sie dann auf `Stornierung bestätigen`{.action}.
 

@@ -45,7 +45,7 @@ Pour accéder au panneau de gestion des commandes, connectez-vous à votre [espa
 
 Un récapitulatif des différentes commandes passées apparaît comme ci-dessous :
 
-![Récapitulatif des commandes](images/order03.png){.thumbnail}
+![Récapitulatif des commandes](/pages/assets/screens/control_panel/product-selection/right-column/initials/order-tab.png){.thumbnail}
 
 Sur celui-ci, vous retrouverez les informations suivantes :
 

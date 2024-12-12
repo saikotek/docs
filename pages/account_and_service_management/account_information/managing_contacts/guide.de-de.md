@@ -47,7 +47,7 @@ Die Kundenkennung (auch NIC-Handle) ist eine persönliche Kennung, die Sie per E
 
 Loggen Sie sich in Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein, klicken Sie oben rechts auf den zu Ihrer Kundenkennung gehörigen Namen und wählen Sie dann `Verwaltung der Kontakte`{.action} aus.
 
-![Kontaktverwaltung](images/hubcontacts.png){.thumbnail}
+![Kontaktverwaltung](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
 In der angezeigten Tabelle können Sie die verschiedenen Dienste einsehen, für die Ihre Kundenkennung als Kontakt eingetragen ist.
 

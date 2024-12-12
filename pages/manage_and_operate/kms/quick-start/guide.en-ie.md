@@ -40,7 +40,7 @@ After a few seconds, the KMS will be available in your Control Panel.
 
 ![Order the KMS](images/order_kms_03.png){.thumbnail}
 
-### Via the the administration console
+### Via the administration console
 
 #### Create an encryption key
 

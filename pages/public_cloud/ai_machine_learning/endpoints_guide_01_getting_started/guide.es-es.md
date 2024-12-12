@@ -49,7 +49,12 @@ This will redirect you to the **Public Cloud**. If you haven't already done so, 
 
 ![AI Endpoints token OAUTH authorization](images/authorize_oauth.png){.thumbnail}
 
-You will then need to choose the lifetime of your token, and also select one of the Public Cloud projects of your account to which you want to attach the token. If you don't have any projects created in your Public Cloud account, you will receive an error message telling you to create one, with a link to follow.
+You will then need to choose the lifetime of your token, and also select one of the Public Cloud projects of your account to which you want to attach the token. 
+
+> [!warning]
+>
+> If you don't have any projects created in your Public Cloud account, you will receive an error message telling you to create one, with a link to follow.
+>
 
 Once the authorization process is completed, confirm the token creation by clicking the `Generate token`{.action} button.
 

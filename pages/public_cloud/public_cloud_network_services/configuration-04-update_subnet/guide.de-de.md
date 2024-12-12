@@ -18,7 +18,7 @@ We will see how to update it to have a gateway IP set to `10.1.0.1` and remove t
 
 ## Requirements
 
-You shall have created a private network and a subnet as explained in [this guide](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack).
+You must have created a private network and a subnet as explained in [this guide](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack).
 
 ## Instructions
 
@@ -28,29 +28,29 @@ It is currently not possible to update a subnet through this interface but you c
 
 ### Using Horizon
 
-Connect to Horizon & choose the region where the subnet is defined as explained in that [guide](/pages/public_cloud/compute/introducing_horizon).
+Connect to Horizon & choose the region where the subnet is defined as explained in this [guide](/pages/public_cloud/compute/introducing_horizon).
 
 Click on `Project > Network > Networks`. The page will display the list of networks available which contain an OVHcloud managed network for public connectivity (`Ext-Net`) as well as your network.
 
-![network list](images/network_list.png){thumbnail}
+![network list](images/network_list.png){.thumbnail}
 
 In that list, click on your network name ("private_network_GRA11" in this example). The network detail page is then displayed.
 
-![network details](images/network_details.png){thumbnail}
+![network details](images/network_details.png){.thumbnail}
 
 Click the `Subnets` tab: the subnets from the private network are listed.
 
-![subnets list](images/subnets_list.png){thumbnail}
+![subnets list](images/subnets_list.png){.thumbnail}
 
 Click on your `Edit Subnet`. For this guide, our target is to add a gateway IP:
 
 - Click untick the  `Disable Gateway`. The field `Gateway IP` will appear. Fill it in with an IP within your CIDR (usually the first IP of the range is used). In our case, `10.1.0.1`.
 
-![gateway IP](images/add_gateway_ip.png){thumbnail}
+![gateway IP](images/add_gateway_ip.png){.thumbnail}
 
 - Click on `Subnet Details`. Update the `Allocation Pools` to remove the gateway IP that you entered in the previous step. In our case, we need to update from `10.1.0.1,10.1.255.254` to `10.1.0.2,10.1.255.254`
 
-![subnet details](images/subnet_details.png){thumbnail}
+![subnet details](images/subnet_details.png){.thumbnail}
 
 Click on `Save` and your subnet is updated with a gateway IP !
 
@@ -172,4 +172,4 @@ You can check that the subnet has been updated:
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/de/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

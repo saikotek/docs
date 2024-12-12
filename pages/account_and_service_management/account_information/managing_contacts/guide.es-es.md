@@ -48,7 +48,7 @@ El identificador de cliente es un identificador personal que se envía por corre
 
 Conéctese a su [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es){.external}, haga clic en el nombre asociado a su identificador en la esquina superior derecha y seleccione `Gestión de contactos`{.action}.
 
-![Gestión de contactos](images/hubcontacts.png){.thumbnail}
+![Gestión de contactos](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
 Se mostrará una tabla con todos los servicios en los que su identificador de cliente aparece como contacto.
 

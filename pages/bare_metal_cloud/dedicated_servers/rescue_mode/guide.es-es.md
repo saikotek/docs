@@ -126,7 +126,7 @@ root@ns3956771.ip-169-254-10.eu's password:
 >
 > Es probable que el cliente SSH bloquee la conexión en un primer momento debido a la incompatibilidad de la huella digital ECDSA. Esto es normal porque el modo de rescate utiliza su propio servidor SSH temporal.
 >
-> Una forma de evitar este problema es «comentar» la huella digital de su servidor añadiendo un `#` delante de su línea en el archivo `known_hosts`. No olvide deshacer este cambio antes de volver a poner el netboot en modo «normal».<br>También puede eliminar la línea del archivo. El cliente SSH añadirá una nueva huella digital para el servidor cuando vuelva a conectarse. Si necesita instrucciones más detalladas, consulte nuestra guía [Introducción al SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction#login).
+> Una forma de evitar este problema es «comentar» la huella digital de su servidor añadiendo un `#` delante de su línea en el archivo `known_hosts`. No olvide deshacer este cambio antes de volver a poner el netboot en modo «normal».<br>También puede eliminar la línea del archivo. El cliente SSH añadirá una nueva huella digital para el servidor cuando vuelva a conectarse. Si necesita instrucciones más detalladas, consulte nuestra guía [Introducción al SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 >
 
 #### Montaje de sus particiones

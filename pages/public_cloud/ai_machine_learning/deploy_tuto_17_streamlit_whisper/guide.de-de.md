@@ -37,7 +37,7 @@ To build and deploy your Whisper app, you need:
 
 You are going to follow different steps to deploy your Whisper application:
 
-- [Whisper Model Sslection](#step-1-whisper-model-selection)
+- [Whisper Model Selection](#step-1-whisper-model-selection)
 - [Download Whisper Model in the Object Storage](#step-2-download-whisper-model-in-the-object-storage)
 - [Whisper app development](#step-3-whisper-app-development)
 - [Whisper app deployment](#step-4-whisper-app-deployment)
@@ -316,4 +316,4 @@ If you need training or technical assistance to implement our solutions, contact
 
 Please send us your questions, feedback and suggestions to improve the service:
 
-- On the OVHcloud [Discord server](https://discord.com/invite/vXVurFfwe9)
+- On the OVHcloud [Discord server](https://discord.gg/ovhcloud)

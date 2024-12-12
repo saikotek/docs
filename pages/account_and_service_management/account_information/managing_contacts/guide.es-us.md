@@ -39,7 +39,7 @@ Existen tres tipos de contactos:
 
 Conéctese a su [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws){.external}, haga clic en el nombre asociado a su cuenta de cliente en la esquina superior derecha y seleccione `Gestión de contactos`{.action}.
 
-![Gestión de contactos](images/hubcontacts.png){.thumbnail}
+![Gestión de contactos](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
 Se mostrará una tabla con todos los servicios en los que su identificador de cliente aparece como contacto.
 

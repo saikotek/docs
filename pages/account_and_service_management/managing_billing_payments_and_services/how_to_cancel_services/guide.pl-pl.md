@@ -49,11 +49,11 @@ Istnieją jednak **przypadki szczególne**, które są opisane [poniżej](#speci
 
 Aby zrezygnować z abonamentu, zaloguj się do [panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=pl), kliknij Twoją nazwę w prawym górnym rogu, a następnie przycisk `Produkty i usługi`{.action}.
 
-![produkty i usługi](images/products-services.png){.thumbnail}
+![produkty i usługi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
 Następnie kliknij przycisk `...`{.action} po prawej stronie usługi, którą chcesz zrezygnować, po czym kliknij `Rezygnacja z umowy terminowej`{.action}.
 
-![Zrezygnuj](images/cancel-en.png){.thumbnail}
+![Zrezygnuj](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-en.png){.thumbnail}
 
 Podaj powody złożenia wniosku o rezygnację z usługi i kliknij przycisk `Zatwierdź`{.action}.
 
@@ -66,7 +66,7 @@ Podaj powody złożenia wniosku o rezygnację z usługi i kliknij przycisk `Zatw
 
 Rezygnacja z usługi nastąpi w dniu **date d'effet** wskazanym w tabeli "Moje usługi". Jeśli nie widzisz statusu "Złożona rezygnacja", odśwież stronę.
 
-![dyspozycja zakończenia](images/cancellation-request.png){.thumbnail}
+![dyspozycja zakończenia](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request.png){.thumbnail}
 
 ### Przypadki szczególne <a name="specific-cases"></a>
 
@@ -135,7 +135,7 @@ Aby anulować zlecenie rezygnacji z usługi, zaloguj się do [Panelu klienta OVH
 
 Następnie kliknij przycisk `...`{.action} po prawej stronie usługi, w odniesieniu do której złożono wniosek o rezygnację, a następnie `Anuluj rezygnację z usługi`{.action} 
 
-![cancel_termination](images/cancel_termination-en.png){.thumbnail}
+![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination-en.png){.thumbnail}
 
 Na koniec kliknij `Potwierdź anulowanie`{.action}.
 

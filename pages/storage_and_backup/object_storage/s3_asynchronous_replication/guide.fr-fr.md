@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Maîtrisez la réplication asynchrone sur vos buckets
 excerpt: Apprenez à automatiser et à gérer la réplication d'objets entre des buckets pour améliorer la disponibilité, la redondance et la conformité des données
-updated: 2024-10-17
+updated: 2024-11-29
 ---
 
 ## Introduction
@@ -271,8 +271,7 @@ Cette configuration répliquera tous les objets (indiqués par le champ `Filter`
       "Status": "Enabled",
       "Priority": 1,
       "Filter" : {
-        "Prefix": "backup",
-        "Tag": {"Key":"important", "Value":"true"}
+        "Prefix": "backup"
       },
       "Destination": {
         "Bucket": "arn:aws:s3:::destination-bucket"
@@ -283,7 +282,7 @@ Cette configuration répliquera tous les objets (indiqués par le champ `Filter`
 }
 ```
 
-Cette configuration répliquera tous les objets qui ont le préfixe « backup » et le tag « important » défini sur « true » dans le bucket `destination-bucket`. En outre, nous indiquons que les opérations de suppression dans le bucket source doivent également être répliquées.
+Cette configuration répliquera tous les objets qui ont le préfixe « backup » dans le bucket `destination-bucket`. En outre, nous indiquons que les opérations de suppression dans le bucket source doivent également être répliquées.
 
 #### Réplication de la source vers plusieurs régions
 
@@ -337,7 +336,7 @@ Supposons que le bucket source, le bucket `region1-destination-bucket` et le buc
       "Destination": {
         "Bucket": "arn:aws:s3:::destination-bucket1"
       },
-      "DeleteMarkerReplication": { "Status": "Disabled" },
+      "DeleteMarkerReplication": { "Status": "Enabled" },
     },
     {
       "ID": "rule2",

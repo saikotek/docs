@@ -4,10 +4,6 @@ excerpt: "Come gestire un server dedicato nello Spazio Cliente e come iniziare a
 updated: 2024-11-26
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Un server dedicato è un server fisico ("bare metal") situato in uno dei nostri datacenter. A differenza delle soluzioni di hosting Web (chiamate anche "shared hosting"), gestite tecnicamente da OVHcloud, sei l'unico responsabile della gestione del server dedicato.
@@ -96,7 +92,7 @@ In particolare, sono disponibili domande complementari specifiche per il sistema
 Se è stato selezionato un sistema operativo compatibile, è possibile fornire una **chiave pubblica** da installare automaticamente. Le opzioni disponibili sono due:
 
 - Copia manualmente la stringa di chiave e incollala nel campo `La tua chiave SSH pubblica`.
-- Se in precedenza hai salvato una chiave pubblica nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona la chiave desiderata nel menu a tendina `Chiavi SSH da preinstallare`.
+- [Se in precedenza hai salvato](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) una chiave pubblica nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona la chiave desiderata nel menu a tendina `Chiavi SSH da preinstallare`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 
@@ -123,7 +119,7 @@ Se sul server è stato installato un modello di OS OVHcloud, verrà creato autom
 
 Riceverai un’email con le informazioni necessarie per effettuare il primo accesso in SSH. SSH è un protocollo di comunicazione sicuro, utilizzato per stabilire connessioni criptate verso un host remoto. Per maggiori informazioni, consulta la nostra guida: [Primi passi in SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-La maggior parte dei sistemi operativi attuali dispone di un client **Open SSH** installato nativamente. Le credenziali di accesso consentono quindi di stabilire rapidamente una connessione al server dalla workstation tramite l’applicazione da riga di comando appropriata (`Terminal`, `Command prompt`, `Powershell`, ecc...). Immettere il comando seguente:
+La maggior parte dei sistemi operativi attuali dispone di un client **OpenSSH** installato nativamente. Le credenziali di accesso consentono quindi di stabilire rapidamente una connessione al server dalla workstation tramite l’applicazione da riga di comando appropriata (`Terminal`, `Command prompt`, `Powershell`, ecc...). Immettere il comando seguente:
 
 ```bash
 ssh username@IPv4
@@ -135,7 +131,7 @@ ssh username@IPv4
 ssh ubuntu@203.0.113.1
 ```
 
-È inoltre possibile utilizzare qualsiasi applicazione terza compatibile con **Open SSH**.
+È inoltre possibile utilizzare qualsiasi applicazione terza compatibile con **OpenSSH**.
 
 Una volta effettuato l’accesso, è possibile sostituire la password predefinita dell’utente corrente con una migliore frase segreta (*passphrase*) utilizzando questo comando:
 

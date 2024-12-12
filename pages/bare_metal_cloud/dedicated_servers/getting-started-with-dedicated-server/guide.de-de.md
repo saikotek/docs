@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie einen Dedicated Server in Ihrem OVHcloud Ku
 updated: 2024-11-26
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Ein dedizierter Server ist ein physischer Server ("Bare Metal") in einem unserer Rechenzentren. Im Gegensatz zum Webhosting (auch "Shared Hosting" genannt), bei dem die technische Verwaltung von OVHcloud geleistet wird, sind Sie für die Verwaltung Ihres Servers allein verantwortlich.
@@ -96,7 +92,7 @@ Dort finden Sie außerdem Optionen zu dem von Ihnen ausgewählten Betriebssystem
 Wenn Sie ein kompatibles Betriebssystem ausgewählt haben, können Sie einen **öffentlichen Schlüssel** angeben, der automatisch installiert werden soll. Sie haben zwei Möglichkeiten:
 
 - Kopieren Sie die Schlüsselzeichenfolge manuell und fügen Sie sie in das Feld `Ihr öffentlicher SSH-Schlüssel` ein.
-- Wenn Sie zuvor einen öffentlichen Schlüssel in Ihrem [OVHcloud Kundencenter](/links/manager) gespeichert haben, wählen Sie den gewünschten Schlüssel im Drop-down-Menü `SSH-Schlüssel für die Vorinstallation` aus.
+- [Wenn Sie zuvor einen öffentlichen Schlüssel](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) in Ihrem [OVHcloud Kundencenter](/links/manager) gespeichert haben, wählen Sie den gewünschten Schlüssel im Drop-down-Menü `SSH-Schlüssel für die Vorinstallation` aus.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 
@@ -123,7 +119,7 @@ Wenn Sie ein OVHcloud Template als OS auf Ihrem Server installiert haben, wird a
 
 Sie erhalten dann eine E-Mail mit den Informationen, die für die Herstellung einer ersten SSH-Verbindung erforderlich sind. SSH ist ein sicheres Kommunikationsprotokoll, das zum Herstellen verschlüsselter Verbindungen zu einem Remote-Host verwendet wird. Weitere Informationen finden Sie in unserer Anleitung [Einführung in SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-Die meisten aktuellen Betriebssysteme verfügen über einen nativ installierten **Open SSH** Client. Das bedeutet, dass Sie sich mit Ihren Zugangsdaten schnell und einfach über die jeweils verfügbare Befehlszeilenanwendung (`Terminal`, `Command prompt`, `Powershell`, etc.) mit Ihrem Server verbinden können. Geben Sie folgenden Befehl ein:
+Die meisten aktuellen Betriebssysteme verfügen über einen nativ installierten **OpenSSH** Client. Das bedeutet, dass Sie sich mit Ihren Zugangsdaten schnell und einfach über die jeweils verfügbare Befehlszeilenanwendung (`Terminal`, `Command prompt`, `Powershell`, etc.) mit Ihrem Server verbinden können. Geben Sie folgenden Befehl ein:
 
 ```bash
 ssh username@IPv4
@@ -135,7 +131,7 @@ ssh username@IPv4
 ssh ubuntu@203.0.113.1
 ```
 
-Sie können auch jede Anwendung eines Drittanbieters verwenden, die mit **Open SSH** kompatibel ist.
+Sie können auch jede Anwendung eines Drittanbieters verwenden, die mit **OpenSSH** kompatibel ist.
 
 Nach der Anmeldung können Sie das vordefinierte Kennwort des aktuellen Benutzers mit folgendem Befehl zu einer Passphrase Iher Wahl ändern:
 

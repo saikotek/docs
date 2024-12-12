@@ -189,7 +189,7 @@ systemctl restart networking.service
 >> auto eth0
 >>
 >> iface eth0 inet static
->>   address 192.168.0.2/24
+>>         address 192.168.0.2/24
 >>
 >> iface eth0 inet static
 >>         address ADDITIONAL_IP/32

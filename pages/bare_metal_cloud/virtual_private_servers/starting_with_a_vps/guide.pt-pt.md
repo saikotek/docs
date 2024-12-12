@@ -149,7 +149,7 @@ Na janela que aparece, escolha um sistema operativo da lista suspensa. As opçõ
 Se tiver selecionado um sistema operativo compatível, poderá fornecer uma **chave pública** para instalação automática. Tem duas possibilidades ao seu dispor:
 
 - Copie manualmente a cadeia de chaves e cole-a no campo `A sua chave SSH pública`.
-- Se tiver armazenado anteriormente uma chave pública na sua [Área de Cliente OVHcloud](/links/manager), selecione a chave pretendida no menu pendente `Chave(s) SSH a pré-instalar`.
+- [Se tiver armazenado anteriormente](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) uma chave pública na sua [Área de Cliente OVHcloud](/links/manager), selecione a chave pretendida no menu pendente `Chave(s) SSH a pré-instalar`.
 
 ![VPSnewreinstall](images/reinstall.png){.thumbnail}
 
@@ -201,7 +201,7 @@ Durante a primeira instalação ou ao reinstalar a partir do Painel de controle,
 
 Receberá um e-mail com o nome de utilizador e a palavra-passe necessários para aceder ao seu VPS por SSH. O SSH é um protocolo de comunicação segura que é utilizado para estabelecer ligações encriptadas com um host remoto.
 
-A maioria dos sistemas operativos de desktop atuais terão um cliente **Open SSH** instalado nativamente. Isto significa que as credenciais de acesso lhe permitem aceder rapidamente ao VPS através da aplicação de linha de comandos adequada (`Terminal`, `Command prompt`, `Powershell`, etc.). Introduza o seguinte comando:
+A maioria dos sistemas operativos de desktop atuais terão um cliente **OpenSSH** instalado nativamente. Isto significa que as credenciais de acesso lhe permitem aceder rapidamente ao VPS através da aplicação de linha de comandos adequada (`Terminal`, `Command prompt`, `Powershell`, etc.). Introduza o seguinte comando:
 
 ```bash
 ssh username@IPv4_VPS
@@ -213,7 +213,7 @@ Por exemplo:
 ssh ubuntu@203.0.113.101
 ```
 
-Também pode utilizar qualquer aplicação de terceiros compatível com **Open SSH**.
+Também pode utilizar qualquer aplicação de terceiros compatível com **OpenSSH**.
 
 <a name="linuxconnect"></a>
 

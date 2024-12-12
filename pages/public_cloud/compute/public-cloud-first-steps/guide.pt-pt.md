@@ -95,10 +95,10 @@ O [protocolo SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction) pe
 
 Dispõe de 2 opções para criar e gerir as suas chaves SSH:
 
-- A interface de linha de comandos do seu SO (simples cliente **Open SSH**).
-- Software adicional (compatível com o protocolo **Open SSH**) com linha de comandos ou interface gráfica.
+- A interface de linha de comandos do seu SO (simples cliente **OpenSSH**).
+- Software adicional (compatível com o protocolo **OpenSSH**) com linha de comandos ou interface gráfica.
 
-A maioria dos sistemas operativos de desktop contemporâneos incluem de forma nativa o cliente **Open SSH** acessível através da aplicação de linha de comandos do sistema (`cmd`, `Powershell`, `Terminal`, etc.). Se não estiver familiarizado com a utilização das chaves SSH como método de autenticação, pode utilizar as instruções de [este manual](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) para criar o seu par de chaves.
+A maioria dos sistemas operativos de desktop contemporâneos incluem de forma nativa o cliente **OpenSSH** acessível através da aplicação de linha de comandos do sistema (`cmd`, `Powershell`, `Terminal`, etc.). Se não estiver familiarizado com a utilização das chaves SSH como método de autenticação, pode utilizar as instruções de [este manual](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) para criar o seu par de chaves.
 
 Se utilizar outro software, consulte a documentação do utilizador. As instruções para a solução open source `PuTTY` estão disponíveis em [este guia](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
 
@@ -385,7 +385,7 @@ Uma vez terminada a configuração da instância, clique no botão `Criar uma in
 
 ### Etapa 5: Conectar-se à instância
 
-As instruções desta parte aplicam-se às ligações remotas através dos protocolos **Open SSH** e **RDP** através de uma rede pública (Internet).
+As instruções desta parte aplicam-se às ligações remotas através dos protocolos **OpenSSH** e **RDP** através de uma rede pública (Internet).
 
 Tenha em conta que propomos meios de acesso alternativos (principalmente utilizados para a resolução de problemas) que só estão disponíveis através da sua Área de Cliente OVHcloud:
 

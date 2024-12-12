@@ -1,6 +1,6 @@
 ---
 title: 'Web Cloud Databases EOS and EOL announcements'
-updated: 2024-07-11
+updated: 2024-12-03
 ---
 
 ## Objective
@@ -17,7 +17,7 @@ The products covered by those End Of Sale (EOS) and End Of Life (EOL) announceme
 |PostgreSQL 13|2023-11-14|2025-05-14|2025-11-13|
 |PostgreSQL 14|To be defined|To be defined|To be defined|
 |PostgreSQL 15|To be defined|To be defined|To be defined|
-|Redis 6.0|To be defined|To be defined|To be defined|
+|Redis 6.0|2024-12-03|2025-03-03|2025-03-03|
 |Redis 7.0|To be defined|To be defined|To be defined|
 
 ## Go further

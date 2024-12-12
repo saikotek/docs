@@ -79,7 +79,7 @@ Esto incluye preguntas adicionales específicas para el sistema operativo selecc
 Si ha seleccionado un sistema operativo compatible, puede proporcionar una **clave pública** para su instalación automática. Puede elegir entre dos opciones:
 
 - Copie manualmente la cadena de llave y péguela en el campo `Su llave SSH pública`.
-- Si previamente ha almacenado una clave pública en su [área de cliente de OVHcloud](/links/manager), seleccione la clave deseada en el menú desplegable `Llave SSH a preinstalar`.
+- [Si previamente ha almacenado](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) una clave pública en su [área de cliente de OVHcloud](/links/manager), seleccione la clave deseada en el menú desplegable `Llave SSH a preinstalar`.
 
 ![add key](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/sshkeyds.png){.thumbnail}
 
@@ -106,7 +106,7 @@ Si ha instalado un modelo de SO de OVHcloud en su servidor, se crea automáticam
 
 Recibirá por correo electrónico la información necesaria para establecer una conexión SSH inicial. SSH es un protocolo de comunicación seguro que se utiliza para establecer conexiones cifradas con un host remoto. Para más información, consulte nuestra guía: [Primeros pasos en SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
 
-La mayoría de los sistemas operativos actuales tienen un cliente **Open SSH** instalado de forma nativa. Esto significa que sus claves de acceso le permiten establecer rápidamente una conexión con su servidor desde su puesto de trabajo a través de la aplicación de línea de comandos adecuada (`Terminal`, `Command prompt`, `Powershell`, etc.). Introduzca el siguiente comando:
+La mayoría de los sistemas operativos actuales tienen un cliente **OpenSSH** instalado de forma nativa. Esto significa que sus claves de acceso le permiten establecer rápidamente una conexión con su servidor desde su puesto de trabajo a través de la aplicación de línea de comandos adecuada (`Terminal`, `Command prompt`, `Powershell`, etc.). Introduzca el siguiente comando:
 
 ```bash
 ssh username@IPv4
@@ -118,7 +118,7 @@ ssh username@IPv4
 ssh ubuntu@203.0.113.1
 ```
 
-También puede utilizar cualquier aplicación de terceros compatible con **Open SSH**.
+También puede utilizar cualquier aplicación de terceros compatible con **OpenSSH**.
 
 Una vez que se haya conectado, puede sustituir la contraseña predefinida del usuario actual por una frase de contraseña mejor (*passphrase*) utilizando este comando:
 

@@ -1,12 +1,12 @@
 ---
 title: "Télécharger et transférer la sauvegarde d'une instance d'une région OpenStack à une autre"
 excerpt: "Découvrez comment télécharger et transférer une sauvegarde d'instance d'une région OpenStack à une autre tout en préservant la configuration et l'état de l'instance"
-updated: 2023-09-25
+updated: 2024-12-03
 ---
 
 ## Objectif
 
-Vous pourriez être amené à déplacer votre [instance Public Cloud](https://www.ovhcloud.com/fr/public-cloud/) d'une région OpenStack à une autre. Soit parce que vous préférez migrer vers une nouvelle région OpenStack disponible ou parce que vous souhaitez migrer d'OVHcloud Labs vers Public Cloud.
+Vous pourriez être amené à déplacer votre [instance Public Cloud](/links/public-cloud/compute) d'une région OpenStack à une autre. Soit parce que vous préférez migrer vers une nouvelle région OpenStack disponible ou parce que vous souhaitez migrer d'OVHcloud Labs vers Public Cloud.
 
 **Découvrez comment transférer une sauvegarde d'instance d'une région OpenStack à une autre tout en préservant la configuration et l'état de l'instance.**
 
@@ -20,7 +20,7 @@ Pour effectuer le transfert, vous aurez besoin d'un environnement avec :
 
 Cet environnement sera utilisé comme « jump host » pour transférer la sauvegarde d'une région à une autre. Cet environnement peut être une instance hébergée sur OVHcloud ou sur votre machine locale.
 
-Vous aurez également besoin d’une [instance Public Cloud](https://www.ovhcloud.com/fr/public-cloud/) sur votre compte OVHcloud.
+Vous aurez également besoin d’une [instance Public Cloud](/links/public-cloud/compute) sur votre compte OVHcloud.
 
 ## En pratique
 
@@ -101,6 +101,23 @@ Pour transférer la sauvegarde vers la nouvelle région OpenStack, utilisez cett
 $ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow snap_server1
 ```
 
+> [!warning]
+>
+> Si votre instance utilise une image Windows, vous devez ajouter des propriétés spécifiques. Sans cela, lors de la création de l’instance via l'espace client OVHcloud, il ne sera pas possible d’associer une flavor de type win-x-x. Ce type de flavor, et uniquement celui-là, permet l’authentification auprès du [KMS OVHcloud](/pages/manage_and_operate/kms/quick-start).
+>
+
+Ajout des propriétés spécifiques à la création de l'image :
+
+```bash
+$ openstack image create --disk-format qcow2 --container-format bare --file snap_server1.qcow --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" snap_server1
+```
+
+Ajout des propriétés spécifiques après la création de l'image :
+
+```bash
+$ openstack image set --property "_system_cloud_property=windows" --property "distro_family=windows" --property "os_type=windows" <image_uuid>
+```
+
 ```text
 +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Field | Value |
@@ -128,6 +145,11 @@ $ openstack image create --disk-format qcow2 --container-format bare --file snap
 ```
 
 ### Créer une instance à partir de votre sauvegarde
+
+> [!warning]
+>
+> Si votre instance est un serveur Windows, vous devez sélectionner une flavor de type win-xx-xx (par exemple, win-b2-15) et disposer d’une interface publique sur le réseau Ext-Net. Sans ces conditions, l’authentification auprès du KMS OVHcloud ne sera pas possible, et votre serveur restera avec une [licence non activée](/pages/public_cloud/compute/activate-windows-license-private-mode). Cela pourrait entraîner des limitations, notamment l’absence de mises à jour. À noter qu’il est impossible de redimensionner une instance Linux (par exemple b2-15) en une instance Windows (comme win-b2-15). Pour effectuer cette transition, il est nécessaire de recréer une nouvelle instance.
+>
 
 Pour créer une instance à partir de votre sauvegarde, utilisez l'ID de sauvegarde comme image avec cette commande :
 

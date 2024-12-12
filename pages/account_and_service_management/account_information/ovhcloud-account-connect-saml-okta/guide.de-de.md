@@ -86,7 +86,7 @@ Klicken Sie oben rechts auf den Namen Ihres Accounts und dann erneut in der Seit
 
 Sie können das IAM-Menü über den dedizierten Eintrag in Ihrem Kundencenter aufrufen.
 
-![IAM-Menüzugriff](images/access_to_the_IAM_menu_02.png){.thumbnail}
+![IAM-Menüzugriff](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
 Klicken Sie dann auf den Tab `Identitäten`{.action}, um auf die Verwaltung der lokalen Benutzer zuzugreifen.
 

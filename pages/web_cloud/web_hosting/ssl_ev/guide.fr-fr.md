@@ -83,7 +83,7 @@ Si vous avez besoin d'activer un certificat SSL pour plusieurs noms de domaine/s
 >
 > Dans le cas où vous souhaitez souscrire à un certificat SSL Sectigo EV pour un nom de domaine (exemple : `domain.tld`), vérifiez bien que son sous-domaine en « www » (exemple : `www.domain.tld`) pointe bien également vers l'adresse IP de votre hébergement web et est correctement déclaré en multisite.
 >
-> En effet, le cas échéant et si vous commandez le certificat SSL Sectigo EV sans vous assurer des points précédents, vous devrez effectuer un correctif a posteriori. Vous devrez alors supprimer le certificat SSL Sectigo EV précédemment souscrit **sans pouvoir bénéficier d'un remboursement**, puis en commander un nouveau. L'objectif est que le nouveau certificat SSL Sectigo EV englobe bien à la fois votre nom de domaine `domain.tld` et son son sous-domaine en « www » `www.domain.tld`.
+> En effet, le cas échéant et si vous commandez le certificat SSL Sectigo EV sans vous assurer des points précédents, vous devrez effectuer un correctif a posteriori. Vous devrez alors supprimer le certificat SSL Sectigo EV précédemment souscrit **sans pouvoir bénéficier d'un remboursement**, puis en commander un nouveau. L'objectif est que le nouveau certificat SSL Sectigo EV englobe bien à la fois votre nom de domaine `domain.tld` et son sous-domaine en « www » `www.domain.tld`.
 >
 > Pour rappel, si vous souscrivez à un certificat SSL Sectigo EV directement pour un sous-domaine (exemple : `sub.domain.tld`), vous n'êtes pas concerné par cette situation.
 

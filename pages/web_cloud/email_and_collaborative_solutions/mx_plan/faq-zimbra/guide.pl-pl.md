@@ -34,7 +34,7 @@ Poniższy widok przedstawia technologie aktualnie stosowane w każdej z ofert OV
 
 > [!warning]
 >
-> Występują różnice w funkcjonalności między rozwiązaniem Zimbra używanym w ofercie MX Plan a rozwiązaniem Zimbra używanym w ofercie Zimbra Starter. Funkcje zachowane w ramach przejścia na rozwiązanie Zimbra dla oferty MX Plan znajdziesz w [tabeli na końcu tej sekcji FAQ] (#features)
+> Występują różnice w funkcjonalności między rozwiązaniem Zimbra używanym w ofercie MX Plan a rozwiązaniem Zimbra używanym w ofercie Zimbra Starter. Funkcje zachowane w ramach przejścia na rozwiązanie Zimbra dla oferty MX Plan znajdziesz w [tabeli na końcu tej sekcji FAQ](#features)
 
 #### Gdzie znajdę przewodniki?
 

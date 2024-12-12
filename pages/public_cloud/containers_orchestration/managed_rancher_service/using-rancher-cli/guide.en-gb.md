@@ -22,7 +22,7 @@ The [Rancher CLI (Command Line Interface)](https://ranchermanager.docs.rancher.c
 
 ### Downoad and install Rancher CLI
 
-To download the Rancher CLI, log in your Managed Rancher Service UI and click on the `About`{action} link at the bottom of the navigation sidebar menu:
+To download the Rancher CLI, log in your Managed Rancher Service UI and click on the `About`{.action} link at the bottom of the navigation sidebar menu:
 
 ![OVHcloud Managed Rancher Service UI](images/rancher-about-link.png){.thumbnail}
 

@@ -12,17 +12,17 @@ Su [área de cliente de OVHcloud](/links/manager) permite aumentar la capacidad 
 - más espacio de almacenamiento FTP;
 - bases de datos adicionales; 
 - direcciones de correo adicionales;
-- funcionalidades adicionales como las [mailing-lists](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (a partir de [la oferta Pro](/links/web/hosting-professional-offer) o el [servicio Web Cloud Databases](/links/web/databases){.external} (incluido en [los planes Performance](https://www.ovhcloud.com/es/web-hosting/performance-offer)/).
+- funcionalidades adicionales como las [mailing-lists](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_mailing_list) (a partir de [la oferta Pro](/links/web/hosting-professional-offer) o el [servicio Web Cloud Databases](/links/web/databases){.external} (incluido en [los planes Performance](https://www.ovhcloud.com/es/web-hosting/performance-offer)).
 
 **Descubra cómo mejorar su plan de hosting de OVHcloud sin interrupciones del servicio.**
 
-<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/vRO7DXx9UsI?si=JOL6gOaCQQ2spsID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/m0M83jQtcIo?si=XrLELE_VByjSKOnR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 
 - Tener un [plan de hosting](/links/web/hosting)
 - Estar conectado a su [área de cliente de OVHcloud](/links/manager)
-- Ser, como mínimo, el contacto «[Administrador](/pages/account_and_service_management/account_information/managing_contacts)» de los servicios para los que quiera modificar la suscripción.
+- Ser, como mínimo, el contacto "[Administrador](/pages/account_and_service_management/account_information/managing_contacts)" de los servicios para los que quiera modificar la suscripción.
 
 ## Procedimiento
 

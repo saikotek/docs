@@ -148,7 +148,7 @@ W oknie, które się pojawi, wybierz system operacyjny z rozwijanej listy. Propo
 
 Jeśli wybrano kompatybilny system operacyjny, możesz automatycznie zainstalować **klucz publiczny**. Masz dwie możliwości:
 
-- Ręcznie skopiuj ciąg klucza i wklej go w polu `Twój publiczny klucz SSH`.
+- [Ręcznie skopiuj ciąg](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) klucza i wklej go w polu `Twój publiczny klucz SSH`.
 - Jeśli wcześniej przechowywałeś klucz publiczny w Twoim [Panelu klienta OVHcloud](/links/manager), wybierz odpowiedni klucz z rozwijanego menu `Klucz(y) SSH, który chcesz wstępnie zainstalować`.
 
 ![VPSnewreinstallation](images/reinstall.png){.thumbnail}
@@ -201,7 +201,7 @@ Przy pierwszej instalacji lub podczas reinstalacji z Panelu sterowania automatyc
 
 Otrzymasz wówczas e-mail z nazwą użytkownika i hasłem niezbędnymi do zalogowania się do Twojego serwera VPS przez SSH. SSH to bezpieczny protokół komunikacyjny używany do ustanawiania szyfrowanych połączeń ze zdalnym hostem.
 
-Większość obecnych stacjonarnych systemów operacyjnych będzie miała natywnie zainstalowanego klienta **Open SSH**. Oznacza to, że dane dostępowe umożliwiają szybkie nawiązanie połączenia z Twoim serwerem VPS w odpowiedniej aplikacji wiersza polecenia (`Terminal`, `Command prompt`, `Powershell`, etc.). Wprowadź następujące polecenie:
+Większość obecnych stacjonarnych systemów operacyjnych będzie miała natywnie zainstalowanego klienta **OpenSSH**. Oznacza to, że dane dostępowe umożliwiają szybkie nawiązanie połączenia z Twoim serwerem VPS w odpowiedniej aplikacji wiersza polecenia (`Terminal`, `Command prompt`, `Powershell`, etc.). Wprowadź następujące polecenie:
 
 ```bash
 ssh username@IPv4_VPS
@@ -213,7 +213,7 @@ Przykład:
 ssh ubuntu@203.0.113.101
 ```
 
-Możesz również korzystać z dowolnej aplikacji innej firmy, która jest kompatybilna z **Open SSH**.
+Możesz również korzystać z dowolnej aplikacji innej firmy, która jest kompatybilna z **OpenSSH**.
 
 <a name="linuxconnect"></a>
 

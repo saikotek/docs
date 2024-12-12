@@ -68,7 +68,7 @@ If you request a SEPA direct debit, you will receive an email within 24 to 48 ho
 
 Once you have received your order from us, if your mandate has been approved, you can then use this new payment method.
 
-![FAQ billing](images/faq-billing01.gif){.thumbnail}
+![FAQ billing](/pages/assets/screens/control_panel/product-selection/right-column/faq-billing01.gif){.thumbnail}
 
 #### Tips and tricks
 

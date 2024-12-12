@@ -149,7 +149,7 @@ Nella nuova finestra, seleziona un sistema operativo dall’elenco a discesa. Le
 Se è stato selezionato un sistema operativo compatibile, è possibile fornire una **chiave pubblica** da installare automaticamente. Le opzioni disponibili sono due:
 
 - Copia manualmente la stringa di chiave e incollala nel campo `La tua chiave SSH pubblica`.
-- Se in precedenza hai salvato una chiave pubblica nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona la chiave desiderata nel menu a tendina `Chiavi SSH da preinstallare`.
+- [Se in precedenza hai salvato](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel) una chiave pubblica nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona la chiave desiderata nel menu a tendina `Chiavi SSH da preinstallare`.
 
 ![VPSnewreinstallation](images/reinstall.png){.thumbnail}
 
@@ -201,7 +201,7 @@ Durante la prima installazione o la reinstallazione dal Pannello di controllo, v
 
 A questo punto, riceverai un’email con il nome utente e la password necessari per accedere al tuo VPS in SSH. SSH è un protocollo di comunicazione sicuro, utilizzato per stabilire connessioni criptate verso un host remoto.
 
-La maggior parte dei sistemi operativi desktop attuali dispone di un client **Open SSH** preinstallato. Le credenziali di accesso consentono quindi di stabilire rapidamente una connessione al VPS nell'applicazione da riga di comando appropriata (`Terminal`, `Command prompt`, `Powershell`, ecc...). Immettere il comando seguente:
+La maggior parte dei sistemi operativi desktop attuali dispone di un client **OpenSSH** preinstallato. Le credenziali di accesso consentono quindi di stabilire rapidamente una connessione al VPS nell'applicazione da riga di comando appropriata (`Terminal`, `Command prompt`, `Powershell`, ecc...). Immettere il comando seguente:
 
 ```bash
 ssh username@IPv4_VPS
@@ -213,7 +213,7 @@ Esempio:
 ssh ubuntu@203.0.113.101
 ```
 
-È inoltre possibile utilizzare qualsiasi applicazione di terze parti compatibile con **Open SSH**.
+È inoltre possibile utilizzare qualsiasi applicazione di terze parti compatibile con **OpenSSH**.
 
 <a name="linuxconnect"></a>
 

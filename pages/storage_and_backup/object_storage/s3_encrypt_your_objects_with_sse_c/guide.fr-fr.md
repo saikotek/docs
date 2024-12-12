@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Chiffrez vos objets côté serveur avec SSE-C ou SSE-S3
 excerpt: Ce guide explique comment chiffrer vos objets côté serveur avec SSE-C ou SSE-S3
-updated: 2024-04-17
+updated: 2024-11-29
 ---
 
 <style>
@@ -60,27 +60,23 @@ Lorsque vous utilisez SSE-C, vous devez fournir des informations sur la clé de 
 |:-----|:------------|
 | --sse​-customer-algorithm | Utilisez cet en-tête pour spécifier l'algorithme du chiffrement. La valeur de l'en-tête doit être *AES256*.  |
 | --sse-customer-key | Utilisez cet en-tête pour fournir la clé de chiffrement de 256 bits encodée en Base64 pour chiffrer ou déchiffrer les données. |
-| --sse​-customer-key-md5<p class="optional">Optional</p>| Utilisez cet en-tête pour fournir la valeur de hachage MD5 128 bits encodée en Base64 de la clé de chiffrement conformément à la norme RFC 1321. Cet en-tête est utilisé pour vérifier l'intégrité du message et veiller à ce que la clé de chiffrement ait été transmise sans erreur. |
+| --sse​-customer-key-md5 | Utilisez cet en-tête pour fournir la valeur de hachage MD5 128 bits encodée en Base64 de la clé de chiffrement conformément à la norme RFC 1321. Cet en-tête est utilisé pour vérifier l'intégrité du message et veiller à ce que la clé de chiffrement ait été transmise sans erreur. |
 
 ### SSE-C - Chiffrement côté serveur avec clés de chiffrement client
 
 #### Création d'une clé de chiffrement
 
-Exemple de création d'une clé de chiffrement ( *--sse-customer-key* ) :
+Exemple de création d'une clé de chiffrement ( *--sse-customer-key* ) et de son hash MD5 :
 
 ```bash
-$ encKey=$(openssl rand -base64 32)
-```
-
-et de la clé MD5 ( *--sse-customer-key-md5* ):
-
-```bash
-$ md5Key=$(echo $encKey | md5sum | awk '{print $1}' | base64 -w0)
+$ secret=$(openssl rand 32)
+$ encKey=$(echo -n $secret | base64)
+$ md5Key=$(echo -n $secret | openssl dgst -md5 -binary | base64)
 ```
 
 #### Envoi d'un objet avec SSE-C
 
-Pour envoyer un objet avec SSE-C et aws-cli, procédez comme suit:
+Pour envoyer un objet avec SSE-C et aws-cli, procédez comme suit :
 
 ```bash
 $ aws s3api put-object \
@@ -94,7 +90,7 @@ $ aws s3api put-object \
 
 #### Réception d'un objet avec SSE-C
 
-Pour recevoir un objet avec SSE-C et aws-cli, procédez comme suit:
+Pour recevoir un objet avec SSE-C et aws-cli, procédez comme suit :
 
 ```bash
 $ aws s3api get-object \
@@ -106,7 +102,7 @@ $ aws s3api get-object \
   decrypt_magic
 ```
 
-Sans les en-têtes de chiffrement, vous obtiendrez une erreur `Bad Request`:
+Sans les en-têtes de chiffrement, vous obtiendrez une erreur `Bad Request` :
 
 ```bash
 $ aws s3api get-object \
@@ -119,7 +115,7 @@ $ An error occurred (400) when calling the HeadObject operation: Bad Request
 
 #### Obtenir les métadonnées d'un objet avec SSE-C
 
-Pour obtenir les métadonnées d'un objet avec SSE-C et aws-cli, procédez comme suit:
+Pour obtenir les métadonnées d'un objet avec SSE-C et aws-cli, procédez comme suit :
 
 ```bash
 $ aws s3api head-object \
@@ -148,7 +144,7 @@ Sans les en-têtes de chiffrement, vous obtiendrez une erreur `Bad Request`.
 
 ### Suppression d'un objet chiffré avec SSE-C
 
-Pour supprimer un objet chiffré avec SSE-C et aws-cli, procédez comme suit:
+Pour supprimer un objet chiffré avec SSE-C et aws-cli, procédez comme suit :
 
 ```bash
 $ aws s3 rm s3://<bucket_name>/encrypt_magic
@@ -420,6 +416,6 @@ L'OVHcloud Key Management Service (KMS) témoigne de notre engagement dans la s�
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

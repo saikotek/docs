@@ -48,7 +48,7 @@ Po złożeniu rezygnacji otrzymasz potwierdzenie wysłane na Twój adres e-mail 
 
 E-mail ten możesz również znaleźć w Panelu klienta OVHcloud. Kliknij Twoją nazwę w prawym górnym rogu, a następnie `E-maile dotyczące usługi`{.action}.
 
-![zatwierdzenie rezygnacji](images/resiliation4.png){.thumbnail}
+![zatwierdzenie rezygnacji](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
 Temat e-maila:
 
