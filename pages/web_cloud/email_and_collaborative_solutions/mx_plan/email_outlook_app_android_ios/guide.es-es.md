@@ -64,7 +64,7 @@ Siga los etapas de instalación haciendo clic en las fichas siguientes:
 >> > [!warning]
 >> >
 >> > Si no aparece la ventana de selección de protocolo, pulse el botón `?` en la esquina superior derecha de la pantalla y seleccione `Cambiar proveedor de cuenta`{.action}. Seleccione `IMAP`(recomendado) o `POP3`.<br>
->> > ! [outlook android](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
+>> > ![outlook android](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
 >>
 > **Etapa 3 - IMAP**
 >>
