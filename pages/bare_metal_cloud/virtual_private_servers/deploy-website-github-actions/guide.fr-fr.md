@@ -1,7 +1,7 @@
 ---
 title: 'Automatisez le déploiement de votre site web sur votre VPS OVHcloud via GitHub Actions'
 excerpt: 'Découvrez comment déployer et automatiser le code de votre site web via GitHub Actions sur un VPS OVHcloud'
-updated: 2024-12-12
+updated: 2024-12-16
 ---
 
 ## Objectif
@@ -13,7 +13,8 @@ Automatiser le déploiement de votre site web sur un VPS simplifie considérable
 ## Prérequis
 
 - Un [VPS](https://www.ovhcloud.com/fr/vps/) fonctionnel dans votre compte OVHcloud
-- Un compte GitHub et un dépôt contenant le code de votre site web
+- Un compte GitHub actif
+- Un dépôt contenant le code de votre site web (facultatif)
 - Un VPS configuré avec les services nécessaires (ex. Apache/Nginx, PHP, SGBD, etc.)
 - Accès administrateur au VPS (via SSH)
 
