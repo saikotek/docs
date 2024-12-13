@@ -13,13 +13,14 @@ As well as private IP addressing, the [vRack](/links/network/vrack){.external} a
 ## Requirements
 
 - A public block of IP addresses in your account, with a minimum of four addresses
-- Your chosen private IP address range
 - An [OVHcloud Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps)
 - A [vRack](/links/network/vrack) service activated in your account
 - Access to the OVHcloud [Control Panel](/links/manager)
-- Access to the Horizon interface
+- Access to the [Horizon interface](/pages/public_cloud/compute/introducing_horizon)
 
 ## Instructions
+
+Before you start, please note that there are several steps to follow for this configuration. Some of the configuration will be done via the OVHcloud control panel and some via the Horizon interface.
 
 ### Add the Public Cloud project to the vRack
 
@@ -46,19 +47,17 @@ From the list of eligible services, select the project you want to add to the vR
 
 In your [OVHcloud Control Panel](/links/manager), go to the `Bare Metal Cloud`{.action} section and click on `Network`{.action}. Next, open the `vRack`{.action} menu.
 
-Select your vRack from the list to display the list of eligible services. Click the IP block you wish to add to the vRack and click on the `Add`{.action} button.
+Select your vRack from the list to display the list of eligible services. Click the IP block you wish to add to the vRack and click on `Add`{.action}.
 
 ![vrack](images/addIPblock.png){.thumbnail}
 
 ### Create a Private Network
 
-Once your project has been added to the vRack, the next step is to create a Private Network.
-
-This private network will be attached to the Public cloud instance.
+Once your project has been added to the vRack, the next step is to create a Private Network. This private network will be attached to the Public cloud instance.
 
 In the Public cloud tab, click on `Private Network`{.action} in the left-hand menu under **Network**.
 
-Click on the button `Add Private Network`{.action}.
+Click on `Add Private Network`{.action}.
 
 ![create private network](images/vrack2022-03.png){.thumbnail}
 
@@ -68,11 +67,11 @@ In step 1, select the region in which you want the private network to be located
 
 ![select region](images/vrack2024-01.png){.thumbnail}
 
-Next select a VLAN ID, for this configuration to work, you must tag your private network with VLAN ID 0.
+Next select a VLAN ID, for this configuration, you must tag your private network with VLAN ID 0.
 
 This can be configured in step 2.
 
-![configure network](images/configure_private_network.png){.thumbnail}
+![configure network](images/network_configuration.png){.thumbnail}
 
 This step offers several configuration options. For the purpose of this guide, we will focus on the necessary ones. Click on the tabs below to view the details:
 
@@ -85,20 +84,24 @@ This step offers several configuration options. For the purpose of this guide, w
 >>
 >> Tick the **Set a VLAN ID** box and select VLAN ID **0**.
 >>
->> If you do not tick the box, the system will assign a random VLAN ID number to your private network.
+> **DHCP address distribution options**
 >>
+>> You can keep the default private IP range or use a different one. However, leave the **DHCP** box unchecked.
+>>
+
+Once done, click on `Create`{.action}.
 
 ### Add the Public IP block CIDR in the private network subnet
 
-For the configuration to work, you need to add the public CIDR of your block in the subnet of the private network previously created.
+For the configuration, you need to add the public CIDR of your block in the subnet of the private network previously created.
 
 > [!warning]
-> This action can only be performed from the Horizon interface or the Openstack client API
+> This action can only be performed from the Horizon interface or the Openstack client API. For now, we are only document the steps via the Horizon Interface.
 >
 
 #### From the Horizon interface
 
-Log into the [Horizon interface](https://horizon.cloud.ovh.net/auth/login/), and ensure that you are in the correct region. You can verify this on the top left corner.
+Log into the [Horizon interface](https://horizon.cloud.ovh.net/auth/login/) and ensure that you are in the correct region. You can verify this on the top left corner.
 
 ![Region selection](images/region2021.png){.thumbnail}
 
@@ -108,12 +111,14 @@ Click on `Network`{.action} in the left-hand tab, then on `Networks`{.action}.
 
 Click on the drop-down arrow next to the private network and select `Create Subnet`{.action}.
 
-![Create Subnet](images/create_subnet_1.png){.thumbnail}
+![Create Subnet](images/create_subnet.png){.thumbnail}
 
 In the pop-up window, fill in the fields:
 
+![Create Subnet](images/create_subnet_1.png){.thumbnail}
+
 **Subnet Name**: Enter a name of your choice.<br>
-**Network address**: Enter the complete CIDR of your Public IP block (in this example: 203.0.113.0/29).<br>
+**Network address***: Enter the complete CIDR of your Public IP block (in this example: 203.0.113.0/29).<br>
 **Gateway IP**: The penultimate IP of the IP block (in this example 203.0.113.6).
 
 Click on `Next`, then on `Create`.
@@ -122,24 +127,15 @@ Once the subnet has been created, your private network will appear as follows:
 
 ![New private network display](images/display_subnet.png){.thumbnail}
 
-To add the private interface to the instance, click on `Compute`, then on `Instances`.
-
-![Create Subnet](images/compute_instances.png){.thumbnail}
-
-Click on the arrow in the "Actions" column to access the possible actions on the instance. Select `Attach Interface`{.action}.
-
-![Create Subnet](images/attach_interface.png){.thumbnail}
-
-Select the network with the public IP block and indicate the available IP you wish to use (if you don't, it might just attach another private IP).
-
-![Create Subnet](images/region2021.png){.thumbnail}
-
 ### Attach the network interface to the Instance
 
-Since this is a specific configuration, this step should be done via Horizon or the Openstack CLI.
-Additionally, you must attach the network to the Instance only after it has been created.
+This action should only be done via Horizon.
 
-If you have not yet created an instance, we recommend you to consult the following guides:[How to create a Public Cloud instance and connect to it](/pages/public_cloud/compute/public-cloud-first-steps/) and [Creating an Instance via the Horizon interface](/pages/public_cloud/compute/create_instance_in_horizon/).
+Additionally, you must attach the network to an existing Instance.
+
+If you have not yet created an instance, you must create it first, then attach the network later. Do not select the private network during the instance creation.
+
+We recommend you to consult the following guides:[How to create a Public Cloud instance and connect to it](/pages/public_cloud/compute/public-cloud-first-steps/) or [Creating an Instance via the Horizon interface](/pages/public_cloud/compute/create_instance_in_horizon/).
 
 #### From the Horizon Interface
 
@@ -161,10 +157,11 @@ In the pop-up menu, select the appropriate options:
 ![attach network](images/attach_public_IP.png){.thumbnail}
 
 **Network***: Select the private network created<br>
-**Fixed IP Address**: Specify the Public IP address you wish to use from the block (if you don't, the system will automatically assigned a private IP).
+**Fixed IP Address**: Specify the Public IP address you wish to use from the block (if you don't, the system will automatically assign a private IP).
 
 > [!warning]
-
+> For each public IP you want to use, you need to follow the same procedure and enter a different usable public IP each time.
+>
 
 **Configure a usable IP address**
 
@@ -202,7 +199,7 @@ broadcast 203.0.113.7
 
 First, we need to download and install iproute2, which is a package that will enable us to manually configure IP routing on the server.
 
-Establish an SSH connection to your server and run the following command from the command line. This will download and install iproute2.
+Establish an SSH connection to your instance and run the following command from the command line. This will download and install iproute2.
 
 ```sh
 # apt-get install iproute2
@@ -229,7 +226,7 @@ Next, we need to create a new IP route for the vRack. We'll be adding a new traf
 
 ### Amend the network configuration file
 
-Finally, we need to amend the network configuration file to account for the new traffic rule and route the vRack traffic through the network gateway address of **203.0.113.2**.
+Finally, we need to amend the network configuration file to account for the new traffic rule and route the vRack traffic through the network gateway address of **203.0.113.6**.
 
 ```sh
 /etc/network/interfaces
