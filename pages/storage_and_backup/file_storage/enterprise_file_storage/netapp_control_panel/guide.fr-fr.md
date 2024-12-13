@@ -1,7 +1,7 @@
 ---
 title: "Enterprise File Storage - Gestion depuis l'espace client OVHcloud"
 excerpt: Découvrez comment gérer votre service Enterprise File Storage depuis votre espace client OVHcloud
-updated: 2024-12-12
+updated: 2024-12-13
 ---
 
 ## Objectif
@@ -12,7 +12,7 @@ Les services Enterprise File Storage peuvent être gérés [via les API OVHcloud
 
 ## Prérequis
 
-- Avoir un service Enterprise File Storage dans votre compte OVHcloud. Le service peut être commandé depuis la [page produit](https://www.ovhcloud.com/fr/storage-solutions/enterprise-file-storage/) ou depuis l'[espace client OVHcloud](https://www.ovh.com/manager/#/dedicated/netapp/new).
+- Avoir un service Enterprise File Storage dans votre compte OVHcloud. Le service peut être commandé depuis la [page produit](/links/storage/enterprise-file-storage) ou depuis l'[espace client OVHcloud](/links/manager).
 - Être connecté à votre [espace client OVHcloud](/links/manager).
 
 ## En pratique <a name="instructions"></a>
@@ -57,7 +57,7 @@ L'onglet `Informations générales`{.action} affiche les détails de votre volum
 
 ![Volume management](images/manage_enterprise04.png){.thumbnail}
 
-Depuis cet onglet vous pouvez également modifier le nom ainsi que la description du volume.
+Depuis cet onglet, vous pouvez également modifier le nom ainsi que la description du volume.
 
 #### Suppression d'un volume <a name="delete_volume"></a>
 
@@ -93,6 +93,7 @@ Pour créer un nouveau snapshot d'un volume dans son état actuel, cliquez sur l
 ![Snapshot create](images/manage_enterprise08.png){.thumbnail}
 
 Dans la nouvelle fenêtre qui s'affiche, vous pouvez saisir un nom et une description.
+
 Cliquez sur le bouton `Créer un snapshot`{.action} pour lancer la création.
 
 ![Snapshot create window](images/manage_enterprise09.png){.thumbnail}
@@ -135,7 +136,7 @@ Il est possible de restaurer un volume en utilisant le dernier snapshot `manuel`
 
 > [!primary]
 >
-> Afin de restaurer le volume en utilisant un snapshot ultérieur au dernier snapshot, il est nécessaire de supprimer les snapshots jusqu'à ce que le snapshot à utiliser pour la restauration soit le plus récent.
+> Afin de restaurer le volume en utilisant un snapshot antérieur au dernier snapshot, il est nécessaire de supprimer les snapshots jusqu'à ce que le snapshot à utiliser pour la restauration soit le plus récent.
 >
 
 ![Volume revert to latest snapshot](images/manage_enterprise14.png){.thumbnail}
@@ -164,8 +165,7 @@ Pour supprimer un accès au volume, cliquez sur l'icône de corbeille correspond
 
 > [!primary]
 >
-> Par défaut, chaque volume est protégés par une Snapshot Policy nommée `default`
-> qui crée des snapshots du volume à intervalles réguliers.
+> Par défaut, chaque volume est protégé par une Snapshot Policy nommée `default` qui crée des snapshots du volume à intervalles réguliers.
 >
 
 L'ajout de politiques vous permet de planifier la création de snapshots pour tous vos volumes.
@@ -214,6 +214,6 @@ Si vous n'êtes pas familier avec l'utilisation de la solution Enterprise File S
 
 [Enterprise File Storage - FAQ](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_faq/)
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: Managing Enterprise File Storage from the OVHcloud Control Panel
 excerpt: Find out how to manage your Enterprise File Storage service in the OVHcloud Control Panel
-updated: 2024-12-12
+updated: 2024-12-13
 ---
 
 ## Objective
@@ -12,7 +12,7 @@ Enterprise File Storage services can be managed [via the OVHcloud API](/pages/st
 
 ## Requirements
 
-- An Enterprise File Storage service in your OVHcloud account. The service can be ordered from the [product page](https://www.ovhcloud.com/asia/storage-solutions/enterprise-file-storage/) or from the [OVHcloud Control Panel](https://www.ovh.com/manager/#/dedicated/netapp/new).
+- An Enterprise File Storage service in your OVHcloud account. The service can be ordered from the [product page](/links/storage/enterprise-file-storage) or from the [OVHcloud Control Panel](/links/manager).
 - Access to the [OVHcloud Control Panel](/links/manager).
 
 ## Instructions <a name="instructions"></a>
@@ -80,10 +80,10 @@ The `Snapshots`{.action} tab lists all the snapshots that have been created for 
 
 > [!primary]
 >
-> You can also access snapshot from you mount point using the commands provided in the [NetApp documentation](https://library.netapp.com/ecmdocs/ECMP1196991/html/GUID-36DC110C-C0FE-4313-BF53-1C12838F7BBD.html){.external}.
+> You can also access snapshot from your mount point using the commands provided in the [NetApp documentation](https://library.netapp.com/ecmdocs/ECMP1196991/html/GUID-36DC110C-C0FE-4313-BF53-1C12838F7BBD.html){.external}.
 >
 
-On this tab you can also view all of the [Snapshot Policies](#snapshot_policy) created for the service and apply them to this volume.
+On this tab you can also view all the [Snapshot Policies](#snapshot_policy) created for the service and apply them to this volume.
 
 ![Volume Snapshot Policy Management](images/manage_enterprise07.png){.thumbnail}
 
@@ -107,7 +107,7 @@ To change the name or description of the snapshot, click on the `..`{.action} bu
 
 ![Snapshot edit](images/manage_enterprise10.png){.thumbnail}
 
-Click on `Confirm`{.action} button to apply your modifications.
+Click the `Confirm`{.action} button to apply your modifications.
 
 ![Snapshot edit window](images/manage_enterprise11.png){.thumbnail}
 
@@ -123,7 +123,7 @@ A snapshot can be deleted by clicking the `...`{.action} button on its row insid
 
 ![Snapshot delete](images/manage_enterprise12.png){.thumbnail}
 
-Inside the popup window that will open, click on `Delete a snapshot`{.action} to start snapshot deletion operation.
+Inside the popup window that will open, click on `Delete a snapshot`{.action} to start the snapshot deletion operation.
 
 ![Snapshot delete confirmation](images/manage_enterprise13.png){.thumbnail}
 
@@ -135,7 +135,7 @@ Inside the popup window that will open, click on `Delete a snapshot`{.action} to
 > When a volume is restored, all data in the volume is replaced with the snapshot’s data. The action is irreversible.
 >
 
-You can restore a volume using its latest `manual` snapshot by clicking on the `Actions`{.action} button and then on `Revert to the last saved snapshot.`{.action}.
+You can restore a volume using its latest `manual` snapshot by clicking on the `Actions`{.action} button and then on `Revert to the last saved snapshot`{.action}.
 
 > [!primary]
 >
@@ -154,7 +154,7 @@ After the holding operation is complete, the snapshot type will change to `manua
 
 #### Managing volume ACLs <a name="access_control"></a>
 
-Access control to volumes works via IP address restrictions. Since none are configured by default, the first step with new volumes is to define IP addresses or ranges from which access will be authorized.
+Access control to volumes works via IP address restrictions. Since none are configured by default, the first step with new volumes is to define IP addresses or ranges from which access will be authorised.
 
 Click on the button `Add a new access`{.action}.
 
@@ -168,8 +168,7 @@ To remove a volume access, click on the respective trash can icon in the table.
 
 > [!primary]
 >
-> By default, every volume is protected by the `default` Snapshot Policy
-> which will create Snapshots of the volume at regular intervals.
+> By default, every volume is protected by the `default` Snapshot Policy which will create Snapshots of the volume at regular intervals.
 >
 
 Adding policies allows you to schedule the creation of snapshots for all of your volumes.
