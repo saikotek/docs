@@ -1,6 +1,6 @@
 ---
 title: Users - Manage AI users and roles
-excerpt: Learn the concept behind AI Training users
+excerpt: Learn the concept behind AI Solutions users
 updated: 2024-12-13
 ---
 
