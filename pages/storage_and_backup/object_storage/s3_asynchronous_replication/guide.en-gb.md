@@ -58,22 +58,23 @@ Implementing object replication ensures not only the safety and availability of 
 
 At its core, the OVHcloud Object Storage S3 Asynchronous Replication is designed to facilitate several key operations in the management and safeguarding of your data. This includes the following actions:
 
-- **Exact replica creation**
-
-![Schema 1](images/1.png)
-
-- **Replicate data within the same region**
-
-![Schema 2](images/2.png)
-
-- **Replicate data to a different region**
-  
-![Schema 3](images/3.png)
-
-- **Replicate data to two different regions**
-
-![Schema 4](images/4.png)
-
+> [!tabs]
+> **Exact replica creation**
+>>
+>>![Schema 1](images/1.png)
+>>
+> **Replicate data within the same region**
+>>
+>>![Schema 2](images/2.png)<br>
+>>
+> **Replicate data to a different region**
+>>
+>>![Schema 3](images/3.png)<br>
+>>
+> **Replicate data to two different regions**
+>>
+>>![Schema 4](images/4.png){.thumbnail}<br>
+>>
 
 ### What is replicated and what is not
 
@@ -88,7 +89,7 @@ The following table provides the **default** behavior of the OVHcloud Object Sto
 
 A replication configuration is defined through a set of rules within a JSON file. This file is uploaded and applied to the source bucket, detailing how objects are to be replicated.
 
-### Each replication rule defines:
+#### Each replication rule defines:
 
 - A **unique rule ID** to identify the rule.
 - **Rule priority** to determine the order of execution when multiple rules exist.
@@ -366,78 +367,112 @@ Suppose the source bucket, `region1-destination-bucket` and `region2-destination
 > [!warning]
 > Versioning must be activated in source bucket and destination bucket(s).
 
-### Using the CLI
-
-#### Create source and destination buckets
-
-The source bucket is the bucket whose objects are automatically replicated and the destination bucket is the bucket which will contain your object replicas.
-
-```bash
-$ aws s3 mb s3://<bucket_name>
-
-```
-
-**_Example:_** Creation of a source bucket and a destination bucket
-
-```bash
-$ aws s3 mb s3://my-source-bucket
-$ aws s3 mb s3://my-destination-bucket
-```
-
-#### Activate versioning in source and destination bucket
-
-```bash
-$ aws s3api put-bucket-versioning --bucket <bucket_name> --versioning-configuration Status=Enabled
-```
-
-**_Example:_** Activation of versioning in previously created source and destination buckets
-
-```bash
-$ aws s3api put-bucket-versioning --bucket my-source-bucket --versioning-configuration Status=Enabled
-$ aws s3api put-bucket-versioning --bucket my-destination-bucket --versioning-configuration Status=Enabled
-```
-
-
-#### Apply replication configuration
-
-Using the AWS CLI, replication configuration is applied on the source bucket.
-
-```bash
-$ aws s3api put-bucket-replication --bucket <source> --replication-configuration file://<conf.json>
-```
-
-**_Example:_**: Replicate all objects with prefix "docs" having a tag "importance" with value "high" to `my-destination-bucket` and replicate the delete markers i.e objects marked as deleted in source will be marked as deleted in destination.
-
-```bash
-{
-   "Role": "arn:aws:iam::<your_project_id>:role/s3-replication",
-   "Rules": [
-    {
-      "ID": "replication-rule-456",
-      "Status": "Enabled",
-      "Priority": 1,
-      "Filter": {
-        "And": {
-          "Prefix": "docs",
-          "Tags": [
-            {
-              "Key": "importance",
-              "Value": "high"
-            }
-          ]
-        }
-      },
-      "Destination": {
-        "Bucket": "arn:aws:s3:::my-destination-bucket"
-      },
-      "DeleteMarkerReplication": {
-        "Status": "Enabled"
-      }
-    }
-  ]
-
-}
-```
+> [!tabs]
+> **Using the AWS-CLI**
+>>#### Create source and destination buckets
+>>
+>>The source bucket is the bucket whose objects are automatically replicated and the destination bucket is the bucket which will contain your object replicas.
+>>
+>>```bash
+>>$ aws s3 mb s3://<bucket_name>
+>>
+>>```
+>>
+>>**_Example:_** Creation of a source bucket and a destination bucket
+>>
+>>```bash
+>>$ aws s3 mb s3://my-source-bucket
+>>$ aws s3 mb s3://my-destination-bucket
+>>```
+>>
+>>#### Activate versioning in source and destination bucket
+>>
+>>```bash
+>>$ aws s3api put-bucket-versioning --bucket <bucket_name> --versioning-configuration Status=Enabled
+>>```
+>>
+>>**_Example:_** Activation of versioning in previously created source and destination buckets
+>>
+>>```bash
+>>$ aws s3api put-bucket-versioning --bucket my-source-bucket --versioning-configuration Status=Enabled
+>>$ aws s3api put-bucket-versioning --bucket my-destination-bucket --versioning-configuration Status=Enabled
+>>```
+>>
+>>
+>>#### Apply replication configuration
+>>
+>>Using the AWS CLI, replication configuration is applied on the source bucket.
+>>
+>>```bash
+>>$ aws s3api put-bucket-replication --bucket <source> --replication-configuration file://<conf.json>
+>>```
+>>
+>>**_Example:_**: Replicate all objects with prefix "docs" having a tag "importance" with value "high" to `my-destination-bucket` and replicate the delete markers i.e objects marked as deleted in source will be marked as deleted in destination.
+>>
+>>```bash
+>>{
+>>   "Role": "arn:aws:iam::<your_project_id>:role/s3-replication",
+>>   "Rules": [
+>>    {
+>>      "ID": "replication-rule-456",
+>>      "Status": "Enabled",
+>>      "Priority": 1,
+>>      "Filter": {
+>>        "And": {
+>>          "Prefix": "docs",
+>>          "Tags": [
+>>            {
+>>              "Key": "importance",
+>>              "Value": "high"
+>>            }
+>>          ]
+>>        }
+>>      },
+>>      "Destination": {
+>>        "Bucket": "arn:aws:s3:::my-destination-bucket"
+>>      },
+>>      "DeleteMarkerReplication": {
+>>        "Status": "Enabled"
+>>      }
+>>    }
+>>  ]
+>>
+>>}
+>>```
+> **Offsite Replication option for 3-AZ Object Storage**
+>> With Object Storage in a 3-AZ region, we introduced a new option called "Offsite Replication" which automatically replicates your data to a remote site for greater resilience. This feature is only available in this deployment mode and is based on a OVHcloud managed replication rule configuration with the following parameters:
+>> 
+>> ```json
+>>{
+>>  "Rules": [
+>>   {
+>>      "ID": "offsite-replication-automated-rule",
+>>      "Status": "Enabled",
+>>      "Priority": 1,
+>>      "Filter": { },
+>>      "Destination": {
+>>        "Bucket": "arn:aws:s3:::BUCKETNAMETBC"
+>>      },
+>>      "DeleteMarkerReplication": { "Status": "Enabled" },
+>>    },
+>>    {
+>>      "ID": "rule2",
+>>      "Status": "Enabled",
+>>      "Priority": 2,
+>>      "Filter" : {
+>>        "Prefix": "prod"
+>>      },
+>>      "Destination": {
+>>        "Bucket": "arn:aws:s3:::destination-bucket2"
+>>      },
+>>      "DeleteMarkerReplication": { "Status": "Disabled" }
+>>    }
+>>  ]
+>>}
+>>```
+>>
+>> Important to note:
+>> the Offsite Replication option is 
 
 ## Go further
 
