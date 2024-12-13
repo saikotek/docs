@@ -18,10 +18,11 @@ OVHcloud umożliwia Ci powiązanie wirtualnego adresu MAC z adresem IP, abyś m�
 - Twój serwer musi obsługiwać wirtualne adresy MAC. Zapoznaj się [z tym przewodnikiem](/pages/bare_metal_cloud/dedicated_servers/network_support_virtual_mac).
 
 > [!warning]
-> Funkcja ta może być niedostępna lub ograniczona na [serwerach dedykowanych **Eco**](/links/bare-metal/eco-about).
-> Aby uzyskać więcej informacji, zapoznaj się z naszym [porównaniem](/links/bare-metal/eco-compare).
+> - Funkcja ta może być niedostępna lub ograniczona na [serwerach dedykowanych **Eco**](/links/bare-metal/eco-about). Aby uzyskać więcej informacji, zapoznaj się z naszym [porównaniem](/links/bare-metal/eco-compare).
 >
-> Funkcja ta będzie wkrótce dostępna dla wszystkich serwerów z gamy Advance od grudnia 2024, a dla gam Scale i High Grade od początku 2025.
+> - Serwery Advance trzeciej generacji (wyposażone w procesory EPYC 4004 Series) obsługują 32 różne sieci vMAC.
+>
+> - Funkcja ta będzie dostępna w ofercie Scale i High Grade w roku 2025.
 
 > [!primary]
 > Jeśli nie jesteś zaznajomiony z korzystaniem z API OVHcloud, zapoznaj się z naszym przewodnikiem [Pierwsze kroki z API OVHcloud](/pages/manage_and_operate/api/first-steps).
@@ -92,6 +93,14 @@ Skorzystaj z następującego wywołania API:
 >
 > @api {v1} /dedicated/server DELETE /dedicated/server/{serviceName}/virtualMac/{macAddress}/virtualAddress/{ipAddress}
 >
+
+## FAQ
+
+- **Co się stanie, jeśli przeniosę blok z vMAC na serwer Advance trzeciej generacji (wyposażony w procesor EPYC 4004 Series) posiadający już 32 vMAC?**
+
+Blok nie zostanie przeniesiony.
+
+Przykład: jeśli spróbujesz przenieść blok 4 adresów IP z różnymi adresami vMAC przypisanymi do serwera, który ma już 30 vMAC, blok nie zostanie przeniesiony, ponieważ całkowita liczba vMAC byłaby większa niż 32 dozwolone sieci vMAC.
 
 ## Sprawdź również
 

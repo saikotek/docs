@@ -18,10 +18,9 @@ OVHcloud allows you to associate a virtual MAC address with an IP address, so th
 - Your server must support virtual MACs. To determine this, consult [this guide](/pages/bare_metal_cloud/dedicated_servers/network_support_virtual_mac).
 
 > [!warning]
-> - This feature might be unavailable or limited on servers of the [**Eco** product line](/links/bare-metal/eco-about).
-> Please visit our [comparison page](/links/bare-metal/eco-compare) for more information.
+> - This feature might be unavailable or limited on servers of the [**Eco** product line](/links/bare-metal/eco-about). Please visit our [comparison page](/links/bare-metal/eco-compare) for more information.
 >
-> - ADVANCE Gen 3 servers (2024 series) support 32 different vMACs.
+> - Third generation Advance servers (powered by EPYC 4004 Series processors) support 32 different vMACs.
 >
 > - This feature will be available on the Scale and High Grade ranges during 2025.
 > 
@@ -96,11 +95,11 @@ Use the following API call:
 
 ## FAQ
 
-**What happens if I move a block with vMACs on a Gen 3 server that already has 32 vMACs?**
+- **What happens if I move a block with vMACs on a 3rd generation Advance server (powered by an EPYC 4004 Series processor) that already has 32 vMACs?**
 
 The block will not be moved.
 
-Example: if you try to move a block of 4 IPs with different vMACs attached on a server that already has 30 vMACs the block will not be moved because the total of vMACs would be greater than the 32 vMACs allowed
+Example: if you try to move a block of 4 IPs with different vMACs attached on a server that already has 30 vMACs the block will not be moved because the total of vMACs would be greater than the 32 vMACs allowed.
 
 ## Go further
 
