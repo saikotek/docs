@@ -127,7 +127,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >> Vous pouvez renouveler ces services à tout moment avant leur expiration, ainsi que choisir la durée de leur renouvellement.
 >> Dans ce cas, la durée de validité souscrite sera rajoutée au temps de validité en cours. Vous ne perdrez pas le temps de validité restant.
 >>
-> **Résilier**
+> **Résilier mon service**
 >>
 >> ![résilier](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-fr.png){.thumbnail}
 >>

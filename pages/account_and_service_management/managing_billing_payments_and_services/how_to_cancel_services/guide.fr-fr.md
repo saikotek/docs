@@ -51,7 +51,7 @@ Pour résilier l'abonnement à votre service, connectez-vous à votre [espace cl
 
 ![produits et services](/pages/assets/screens/control_panel/product-selection/right-column/products-services-fr.png){.thumbnail}
 
-Cliquez ensuite sur le bouton `...`{.action} à droite du service à résilier, puis sur `Résilier`{.action}.
+Cliquez ensuite sur le bouton `...`{.action} à droite du service à résilier, puis sur `Résilier mon service`{.action}.
 
 ![résilier](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-fr.png){.thumbnail}
 
@@ -167,7 +167,7 @@ L'annulation de la résiliation est à effet immédiat. Rafraîchissez la page �
 > [!faq]
 >
 > Je ne parviens pas à résilier un service. Que faire ?
->> Si vous ne parvenez pas à résilier un service (le bouton `Résilier`{.action} n'est pas proposé), celui-ci peut faire partie des cas particuliers détaillés [plus haut dans ce guide](#specific-cases).
+>> Si vous ne parvenez pas à résilier un service (le bouton `Résilier mon service`{.action} n'est pas proposé), celui-ci peut faire partie des cas particuliers détaillés [plus haut dans ce guide](#specific-cases).
 >> Vérifiez également que les conditions suivantes sont bien remplies :
 >>
 >> - Vous devez être le « contact administrateur » du service. Pour plus d'informations, consultez [ce guide](/pages/account_and_service_management/account_information/managing_contacts#definition).
