@@ -1,7 +1,7 @@
 ---
 title: Data Processing Capabilities and Limitations
 excerpt: Find out what are the current capabilities and limitations of the OVHcloud Data Processing Platform 
-updated: 2024-12-12
+updated: 2024-12-13
 ---
 
 ## Objective 
