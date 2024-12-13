@@ -1,7 +1,7 @@
 ---
 title: 'Déterminer si la fonctionnalité des MAC virtuelles est supportée sur un serveur dédié'
 excerpt: "Découvrez comment déterminer si la fonctionalité des MAC virtuelles est supportée sur un serveur dédié via l'API OVHcloud"
-updated: 2024-12-13
+updated: 2021-12-09
 ---
 
 ## Objectif
@@ -14,8 +14,8 @@ Le support de cette fonctionalité est un pré-requis de toutes les actions conc
 
 ## Prérequis
 
-* Posséder [un serveur dédié](/links/bare-metal/bare-metal){.external}.
-* Être connecté à l'[API OVHcloud](https://api.ovh.com/){.external}.
+* Posséder [un serveur dédié](/links/bare-metal/bare-metal).
+* Être connecté à l'[API OVHcloud](/links/api).
 
 > [!primary]
 > Si vous n'êtes pas familier avec l'utilisation de l'API OVHcloud, consultez notre guide « [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps)».
