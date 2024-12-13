@@ -19,7 +19,7 @@ The objective of this guide is to demonstrate how to create, configure, and dele
 ## Requirements
 
 - A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Creating and Editing AI users
 
@@ -27,11 +27,11 @@ To grant access to **OVHcloud AI Solutions** to the users of your Public Cloud P
 
 - The **AI Training Operator** role provides complete access to **AI Notebooks, AI Training, and AI Deploy** solutions. With this role, users can launch, stop, and delete AI Solutions, as well as authenticate to existing AI Notebooks, Jobs, and Apps, and the [ovhai CLI](/pages/public_cloud/ai_machine_learning/cli_10_howto_install_cli) using their credentials.
 
-- If you don't need to launch, stop, or delete **AI Solutions**, but are only interested in access existing already deployed ones, the **AI Training Reader** role is sufficient. This role allows users to access existing AI Solutions, but not to launch, stop, or delete them.
+- If you don't need to launch, stop, or delete **AI Solutions**, but are only interested in accessing already existing deployed ones, the **AI Training Reader** role is sufficient. This role allows users to access existing AI Solutions, but not to launch, stop, or delete them.
 
 In addition to the AI Training role, we strongly recommend adding the **ObjectStore Operator** role to your AI users. This role provides read/write access to the **OVHcloud Object Storage**, which is a persistent storage solution to store your [data](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data) that is incorporated into our AI Solutions. This way, you can access your data within the **AI Solutions**.
 
-To apply these roles, log in to the [OVHcloud Control Panel](/links/manager), and navigate to the `Public Cloud`{.action} section, in the horizontal menu at the top of the website. Select the Public Cloud project you want to use. Then, click on the `Project Management`{.action} category in the left-hand vertical menu to access the `Users & Roles`{.action} section.
+To apply these roles, log in to the [OVHcloud Control Panel](/links/manager) and navigate to the `Public Cloud`{.action} section, in the horizontal menu at the top of the website. Select the Public Cloud project you want to use. Then click on the `Project Management`{.action} category in the left-hand vertical menu to access the `Users & Roles`{.action} section.
 
 ![image](images/03_users_menu.png){.thumbnail .img-center}
 
@@ -60,7 +60,7 @@ To edit an existing user, simply click the `...`{.action} button next to the use
 
 - You can check the [OVHcloud documentation on how to submit a job](/pages/public_cloud/ai_machine_learning/training_guide_02_howto_submit_job).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 
