@@ -1,12 +1,8 @@
 ---
 title: 'Virtuelle MAC-Adresse einer Additional IP zuweisen'
 excerpt: 'Erfahren Sie hier, wie Sie eine virtuelle MAC-Adresse erstellen und mit einer Additional IP verbinden'
-updated: 2024-08-05
+updated: 2024-12-13
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -25,7 +21,7 @@ Bei OVHcloud können Sie eine virtuelle MAC-Adresse mit einer IP-Adresse verbind
 > Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](/links/bare-metal/eco-about) eingesetzt wird.
 > Weitere Informationen finden Sie auf der [Vergleichsseite](/links/bare-metal/eco-compare).
 >
-> Diese Funktion wird in Kürze für alle Server der Reihen High Grade, Scale und Advance ab Dezember 2024 verfügbar sein.
+> Diese Funktion wird in Kürze ab Dezember 2024 für alle Server der Advance Reihen und ab Anfang 2025 für die Server der Scale und High Grade Reihen verfügbar sein.
 
 > [!primary]
 > Wenn Sie mit der Verwendung der OVHcloud API nicht vertraut sind, lesen Sie unsere Einführung zur [Verwendung der OVHcloud API](/pages/manage_and_operate/api/first-steps).
@@ -41,7 +37,7 @@ Bei OVHcloud können Sie eine virtuelle MAC-Adresse mit einer IP-Adresse verbind
 
 #### Über das OVHcloud Kundencenter
 
-Wenn Sie in Ihrem [OVHcloud Kundencenter](/links/manager){.external} Klicken Sie auf das Menü `Bare Metal Cloud`{.action} und öffnen Sie den Bereich `Network`{.action}. Klicken Sie dann auf `IP`{.action}.
+Wenn Sie in Ihrem [OVHcloud Kundencenter](/links/manager) Klicken Sie auf das Menü `Bare Metal Cloud`{.action} und öffnen Sie den Bereich `Network`{.action}. Klicken Sie dann auf `IP`{.action}.
 
 Klicken Sie auf den Tab `Additional IP`{.action}.
 
@@ -84,7 +80,7 @@ Verwenden Sie folgenden API Aufruf:
 
 #### Über das OVHcloud Kundencenter
 
-Um eine mit einer Additional IP verbundene virtuelle MAC-Adresse zu löschen, loggen Sie sich in Ihrem [Kundencenter](/links/manager){.external} ein und klicken Sie im Bereich `Bare Metal Cloud`{.action} auf der linken Seite auf `IP`{.action}. Wählen Sie den betreffenden Server aus, damit die verbundene Additional IP (oder der mit dem Server verbundene IP-Block) angezeigt wird.
+Um eine mit einer Additional IP verbundene virtuelle MAC-Adresse zu löschen, loggen Sie sich in Ihrem [Kundencenter](/links/manager) ein und klicken Sie im Bereich `Bare Metal Cloud`{.action} auf der linken Seite auf `IP`{.action}. Wählen Sie den betreffenden Server aus, damit die verbundene Additional IP (oder der mit dem Server verbundene IP-Block) angezeigt wird.
 
 Um den Vorgang abzuschließen, klicken Sie rechts in der Zeile auf den Button `...`{.action} und dann auf `Virtuelle MAC-Adresse löschen`{.action}.
 
@@ -99,4 +95,4 @@ Verwenden Sie folgenden API Aufruf:
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.
