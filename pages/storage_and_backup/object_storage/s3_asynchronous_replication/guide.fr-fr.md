@@ -58,21 +58,23 @@ La mise en œuvre de la réplication d'objets garantit non seulement la sécurit
 
 La réplication asynchrone d’OVHcloud S3 Object Storage est conçue pour faciliter plusieurs opérations clés dans la gestion et la protection de vos données. Cela inclut les actions suivantes :
 
-- **Création d'une copie exacte**
-
-![Schéma 1](images/1.png)
-
-- **Répliquer les données dans la même région**
-
-![Schéma 2](images/2.png)
-
-- **Répliquer les données dans une autre région**
-
-![Schéma 3](images/3.png)
-
-- **Répliquer les données dans deux autres régions**
-
-![Schéma 4](images/4.png)
+> [!tabs]
+> **Création d'une copie exacte**
+>>
+>>![Schema 1](images/1.png)
+>>
+> **Répliquer les données dans la même région**
+>>
+>>![Schema 2](images/2.png)<br>
+>>
+> **Répliquer les données dans une autre région**
+>>
+>>![Schema 3](images/3.png)<br>
+>>
+> **Répliquer les données dans deux autres régions**
+>>
+>>![Schema 4](images/4.png){.thumbnail}<br>
+>>
 
 ### Ce qui est répliqué et ce qui ne l’est pas
 
@@ -86,7 +88,7 @@ Le tableau suivant présente le comportement **par défaut** de la fonctionnalit
 
 Une configuration de réplication est définie via un ensemble de règles dans un fichier JSON. Ce fichier est téléchargé et appliqué au bucket source, en détaillant la façon dont les objets doivent être répliqués.
 
-### Chaque règle de réplication définit :
+#### Chaque règle de réplication définit :
 
 - Un **ID de règle unique** pour identifier la règle.
 - Une **priorité de règle** pour déterminer l'ordre d'exécution lorsque plusieurs règles existent.
