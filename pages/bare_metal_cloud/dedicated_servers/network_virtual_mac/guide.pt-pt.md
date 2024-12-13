@@ -18,10 +18,11 @@ A OVHcloud permite-lhe associar um endereço MAC virtual a um endereço de IP, d
 - O seu servidor deve suportar os MAC virtuais. Consulte [este guia](/pages/bare_metal_cloud/dedicated_servers/network_support_virtual_mac) para saber mais.
 
 > [!warning]
-> Esta funcionalidade pode estar indisponível ou limitada nos [servidores dedicados **Eco**](/links/bare-metal/eco-about).
-> Para mais informações, consulte o nosso [comparativo](/links/bare-metal/eco-compare).
+> - Esta funcionalidade pode estar indisponível ou limitada nos [servidores dedicados **Eco**](/links/bare-metal/eco-about). Para mais informações, consulte o nosso [comparativo](/links/bare-metal/eco-compare).
 >
-> Esta funcionalidade estará brevemente disponível para o conjunto dos servidores da gama Advance a partir de dezembro de 2024, e depois nas gamas Scale e High Grade no início do ano de 2025.
+> - Os servidores Advance de terceira geração (equipados com processadores EPYC 4004 Series) suportam 32 vMACs diferentes.
+>
+> - Esta funcionalidade estará disponível nas gamas Scale e High Grade durante o ano de 2025.
 
 > [!primary]
 > Se não está familiarizado com a utilização da API OVHcloud, consulte o nosso guia [Primeiros passos com as API OVHcloud](/pages/manage_and_operate/api/first-steps).
@@ -92,6 +93,14 @@ Utilize a seguinte chamada API:
 >
 > @api {v1} /dedicated/server DELETE /dedicated/server/{serviceName}/virtualMac/{macAddress}/virtualAddress/{ipAddress}
 >
+
+## FAQ
+
+- **O que acontece se mover um bloco com vMACs num servidor Advance de terceira geração (equipado com um processador EPYC 4004 Series) que já possua 32 vMACs?**
+
+O bloco não será deslocado.
+
+Exemplo: se tentar migrar um bloco de 4 endereços IP com vMACs diferentes ligados a um servidor que já tenha 30 vMACs, o bloco não será deslocado, pois o total de vMACs seria superior aos 32 vMACs autorizados.
 
 ## Quer saber mais?
 

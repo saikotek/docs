@@ -18,10 +18,11 @@ Bei OVHcloud können Sie eine virtuelle MAC-Adresse mit einer IP-Adresse verbind
 - Ihr Server muss virtuelle MAC-Adressen unterstützen. Ziehen Sie [unsere Anleitung](/pages/bare_metal_cloud/dedicated_servers/network_support_virtual_mac) zu Rate, um dies zu bestimmen.
 
 > [!warning]
-> Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](/links/bare-metal/eco-about) eingesetzt wird.
-> Weitere Informationen finden Sie auf der [Vergleichsseite](/links/bare-metal/eco-compare).
+> - Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](/links/bare-metal/eco-about) eingesetzt wird. Weitere Informationen finden Sie auf der [Vergleichsseite](/links/bare-metal/eco-compare).
 >
-> Diese Funktion wird in Kürze ab Dezember 2024 für alle Server der Advance Reihen und ab Anfang 2025 für die Server der Scale und High Grade Reihen verfügbar sein.
+> - Advance Server der dritten Generation (mit EPYC 4004 Series Prozessoren) unterstützen 32 verschiedene vMACs.
+>
+> - Diese Funktion wird im Laufe des Jahres 2025 für die Reihen Scale und High Grade verfügbar sein.
 
 > [!primary]
 > Wenn Sie mit der Verwendung der OVHcloud API nicht vertraut sind, lesen Sie unsere Einführung zur [Verwendung der OVHcloud API](/pages/manage_and_operate/api/first-steps).
@@ -92,6 +93,14 @@ Verwenden Sie folgenden API Aufruf:
 >
 > @api {v1} /dedicated/server DELETE /dedicated/server/{serviceName}/virtualMac/{macAddress}/virtualAddress/{ipAddress}
 >
+
+## FAQ
+
+- **Was geschieht, wenn ich einen Block mit vMACs auf einen Advance Server der dritten Generation (mit EPYC 4004 Series) verlagere, der bereits über 32 vMACs verfügt?**
+
+Der Block wird nicht verschoben.
+
+Beispiel: Wenn Sie versuchen, einen Block mit 4 IPs zu verschieben, wobei verschiedene vMACs an einen Server mit bereits 30 vMACs angehängt sind, wird der Block nicht verschoben, da die Gesamtanzahl der vMACs die erlaubten 32 vMACs übersteigen würde.
 
 ## Weiterführende Informationen
 

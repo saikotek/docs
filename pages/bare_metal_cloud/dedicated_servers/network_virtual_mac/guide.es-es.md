@@ -18,10 +18,11 @@ OVHcloud permite asociar una dirección MAC virtual a una dirección IP para pod
 - Su servidor debe soportar las MAC virtuales. Para ello, consulte [esta guía](/pages/bare_metal_cloud/dedicated_servers/network_support_virtual_mac).
 
 > [!warning]
-> Esta funcionalidad puede no estar disponible o estar limitada en los [servidores dedicados **Eco**](/links/bare-metal/eco-about).
-> Para más información, consulte nuestra [comparativa](/links/bare-metal/eco-compare).
+> - Esta funcionalidad puede no estar disponible o estar limitada en los [servidores dedicados **Eco**](/links/bare-metal/eco-about). Para más información, consulte nuestra [comparativa](/links/bare-metal/eco-compare).
 >
-> Esta funcionalidad estará disponible próximamente para todos los servidores de las gamas Advance a partir de diciembre de 2024 y, a partir de principios de 2025, en las gamas Scale y High Grade.
+> - Los servidores Advance de tercera generación (equipados con procesadores EPYC 4004 Series) soportan 32 vMAC diferentes.
+>
+> - Esta funcionalidad estará disponible en las gamas Scale y High Grade durante 2025.
 
 > [!primary]
 > Si no está familiarizado con el uso de la API de OVHcloud, consulte nuestra guía [Primeros pasos con las API de OVHcloud](/pages/manage_and_operate/api/first-steps).
@@ -88,6 +89,14 @@ Utilice la siguiente llamada a la API:
 >
 > @api {v1} /dedicated/server DELETE /dedicated/server/{serviceName}/virtualMac/{macAddress}/virtualAddress/{ipAddress}
 >
+
+## FAQ
+
+- **¿Qué ocurre si muevo un bloque con vMAC a un servidor Advance de tercera generación (equipado con un procesador EPYC 4004 Series) que ya tenga 32 vMACs?**
+
+El bloque no se moverá.
+
+Ejemplo: si intenta mover un bloque de 4 IP con diferentes vMAC asociadas a un servidor que ya tiene 30 vMAC, el bloque no se moverá porque el total de vMAC sería superior a las 32 vMAC autorizadas.
 
 ## Más información
 
