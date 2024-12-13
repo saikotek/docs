@@ -22,7 +22,7 @@ Want to back up your email accounts hosted on an OVHcloud Private Exchange platf
 ## Requirements
 
 - You must have signed up to an [OVHcloud Private Exchange solution](/links/web/emails-private-exchange) and created email accounts on it.
-- You must be logged in to the [OVHcloud Control Panel](/links/manager).
+- Access to the [OVHcloud Control Panel](/links/manager).
 - [Download Veeam Backup for Microsoft 365](https://www.veeam.com/products/free/backup-microsoft-office-365.html) on a computer running Microsoft Windows 10 or higher.
 
 ## Instructions
@@ -86,7 +86,7 @@ Follow the installation steps by clicking on the 8 tabs below:
 >>
 > **Step 7**
 >>
->> - For a new instance, enter a strong username (`Username`) and password (`Password`). If you already have an existing instance, select `Use existing instance` and enter the corresponding information.
+>> - For a new instance, enter a strong `Username` and password `Password`. If you already have an existing instance, select `Use existing instance` and enter the corresponding information.
 >> - Click `Next`{.action} to proceed to the next step.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup06.png){.thumbnail .h-600}
@@ -138,7 +138,7 @@ Follow the configuration steps by clicking on the 10 tabs below:
 >>
 > **Step 6**
 >>
->> Before you proceed, you must create a user named "Impersonate User" on your Exchange platform. To create this type of user, log in to the [OVHcloud APIs](/links/api) and use the following API call:
+>> Before you proceed, you must create a user named "Impersonate User" on your Exchange platform. To create this type of user, log in to the [OVHcloud API](/links/api) and use the following API call:
 >>
 >> > [!api]
 >> >
@@ -273,7 +273,7 @@ Follow the launch steps by clicking on the 4 tabs below:
 > [!tabs]
 > **Step 1**
 >>
->> From the list of backup operations, select the one you want to launch, right-click on it, then click `Start`{.action}.
+>> From the list of backup operations, select the one you want to launch, right-click it, then click `Start`{.action}.
 >>
 >> ![veeam backup exchange](images/exchange_veeam_backup27.png){.thumbnail .h-600}
 >>
@@ -292,7 +292,7 @@ Follow the launch steps by clicking on the 4 tabs below:
 >>
 > **Step 4**
 >>
->> In the left-hand column, you will see a list of your saved email accounts. Right-click on the email account of your choice. There are two choices:
+>> In the left-hand column, you will see a list of your saved email accounts. Right-click the email account of your choice. There are two choices:
 >>
 >> - Export a backup to a file `.pst` using the `Export to...`{.action} buttons
 >> - Restore a backup directly to an email account using the `Restore to...`{.action} buttons
