@@ -86,7 +86,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 > Des outils de tri, de filtrage et de recherche sont disponibles au-dessus du tableau.
 > Vous pouvez ainsi trier les colonnes par ordre croissant ou décroissant, rechercher le nom d'un de vos services ou encore appliquer un filtre pour n'afficher que certains de vos services selon les critères de votre choix.
 >
-> Vos critères de filtrage seront alors affichés au dessus du tableau. Voici un exemple de filtre permettant d'afficher les noms de domaines dont le renouvellement est manuel et dont la date de fin d'abonnement expire avant un mois.
+> Vos critères de filtrage seront alors affichés au dessus du tableau. Voici un exemple de filtre permettant d'afficher les noms de domaines en renouvellement manuel.
 >
 > ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-fr.png){.thumbnail}
 
